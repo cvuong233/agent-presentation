@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>🍜 Ăn Gì Hôm Nay</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500;600&display=swap');
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'Inter', sans-serif;
+    background: #0e0e0e;
+    color: #f0ece4;
+    min-height: 100vh;
+  }
+
+  /* Header */
+  header {
+    background: linear-gradient(160deg, #1a0a00, #2d1200);
+    padding: 40px 32px 28px;
+    border-bottom: 1px solid #3a1f00;
+    position: relative;
+    overflow: hidden;
+  }
+  header::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(ellipse at 70% 50%, #ff6b0022 0%, transparent 60%);
+    pointer-events: none;
+  }
+  header h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.2rem;
+    color: #ff9d4d;
+    letter-spacing: -0.5px;
+  }
+  header p { color: #9a7a5a; font-size: 0.9rem; margin-top: 4px; }
+
+  /* Filter bar */
+  .filters {
+    display: flex;
+    gap: 10px;
+    padding: 16px 32px;
+    background: #141414;
+    border-bottom: 1px solid #222;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .filter-btn {
+    padding: 6px 16px;
+    border-radius: 20px;
+    border: 1px solid #333;
+    background: #1e1e1e;
+    color: #aaa;
+    font-size: 0.82rem;
+    cursor: pointer;
+    transition: all 0.2s;
+    font-family: 'Inter', sans-serif;
+  }
+  .filter-btn:hover, .filter-btn.active {
+    background: #ff6b00;
+    border-color: #ff6b00;
+    color: #fff;
+  }
+  .filter-btn.locate {
+    margin-left: auto;
+    background: #1a2a1a;
+    border-color: #2a5a2a;
+    color: #6fcf6f;
+  }
+  .filter-btn.locate:hover { background: #2a5a2a; }
+  #sort-info { font-size: 0.78rem; color: #555; padding: 0 4px; }
+
+  /* Grid */
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 24px;
+    padding: 28px 32px;
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+
+  /* Card */
+  .card {
+    background: #1a1a1a;
+    border-radius: 16px;
+    overflow: hidden;
+    border: 1px solid #2a2a2a;
+    transition: transform 0.2s, box-shadow 0.2s;
+    cursor: pointer;
+    position: relative;
+  }
+  .card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 40px #ff6b0022;
+    border-color: #ff6b0044;
+  }
+
+  .card-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+    background: #222;
+    flex-shrink: 0;
+  }
+  .card-img-placeholder {
+    width: 100%;
+    height: 200px;
+    background: linear-gradient(135deg, #1f1208, #2d1a0a);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    flex-shrink: 0;
+  }
+  .slider-wrap {
+    position: relative;
+    overflow: hidden;
+    height: 200px;
+    background: #111;
+  }
+  .slider-track {
+    display: flex;
+    height: 100%;
+    transition: transform 0.3s ease;
+    will-change: transform;
+  }
+  .slider-dot-wrap {
+    position: absolute;
+    bottom: 6px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 5px;
+    z-index: 2;
+  }
+  .slider-dot {
+    width: 6px; height: 6px;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.4);
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+  .slider-dot.active { background: #fff; }
+  .slider-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0,0,0,0.45);
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 28px; height: 28px;
+    font-size: 14px;
+    cursor: pointer;
+    z-index: 3;
+    display: flex; align-items: center; justify-content: center;
+    opacity: 0;
+    transition: opacity 0.2s;
+  }
+  .slider-wrap:hover .slider-arrow { opacity: 1; }
+  .slider-arrow.prev { left: 7px; }
+  .slider-arrow.next { right: 7px; }
+
+  .card-body { padding: 16px 18px 18px; }
+
+  .card-tags {
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+  }
+  .tag {
+    font-size: 0.7rem;
+    padding: 2px 8px;
+    border-radius: 10px;
+    font-weight: 500;
+  }
+  .tag-cuisine { background: #2a1a00; color: #ff9d4d; border: 1px solid #3a2a00; }
+  .tag-price   { background: #001a10; color: #4dffaa; border: 1px solid #003a20; }
+  .tag-dist    { background: #001020; color: #4daaff; border: 1px solid #002040; }
+
+  .card-name {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.2rem;
+    color: #f0ece4;
+    margin-bottom: 4px;
+    line-height: 1.3;
+  }
+  .card-address {
+    font-size: 0.78rem;
+    color: #666;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+  }
+
+  .card-rating {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-bottom: 8px;
+  }
+  .stars { color: #ff9d4d; font-size: 0.9rem; letter-spacing: 1px; }
+  .rating-score { font-size: 0.82rem; color: #888; }
+
+  .card-note {
+    font-size: 0.8rem;
+    color: #998877;
+    font-style: italic;
+    border-top: 1px solid #2a2a2a;
+    padding-top: 10px;
+    margin-top: 8px;
+    line-height: 1.5;
+  }
+
+  .card-actions {
+    display: flex;
+    gap: 8px;
+    margin-top: 12px;
+  }
+  .btn-map {
+    flex: 1;
+    padding: 7px;
+    border-radius: 8px;
+    border: 1px solid #333;
+    background: #222;
+    color: #aaa;
+    font-size: 0.78rem;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    transition: all 0.2s;
+    font-family: 'Inter', sans-serif;
+  }
+  .btn-map:hover { background: #333; color: #fff; }
+  .btn-grab { border-color: #00b14f55; color: #00b14f; }
+  .btn-grab:hover { background: #00b14f; color: #fff; }
+
+  /* Empty state */
+  .empty {
+    grid-column: 1/-1;
+    text-align: center;
+    padding: 80px 20px;
+    color: #444;
+  }
+  .empty .icon { font-size: 4rem; margin-bottom: 16px; }
+  .empty p { font-size: 1rem; }
+
+  /* Distance badge */
+  .dist-badge {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    background: #000000aa;
+    backdrop-filter: blur(4px);
+    color: #4daaff;
+    font-size: 0.72rem;
+    padding: 3px 8px;
+    border-radius: 10px;
+    border: 1px solid #4daaff44;
+  }
+
+  /* Count */
+  .count { color: #555; font-size: 0.82rem; margin-left: auto; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>🍜 Ăn Gì Hôm Nay?</h1>
+  <p id="subtitle">Danh sách địa điểm ăn uống</p>
+</header>
+
+<div class="filters">
+  <button class="filter-btn active" onclick="filterBy('all')">Tất cả</button>
+  <div id="cuisine-filters"></div>
+  <button class="filter-btn locate" onclick="locateMe()">📍 Gần tôi</button>
+  <span id="sort-info"></span>
+  <span class="count" id="count"></span>
+</div>
+
+<div class="grid" id="grid"></div>
+
+<script>
+let allPlaces = [];
+let userLat = null, userLon = null;
+let activeFilter = 'all';
+
+async function loadData() {
+  const res = await fetch('places.json?' + Date.now());
+  const data = await res.json();
+  allPlaces = Array.isArray(data) ? data : (data.places || []);
+  render();
+}
+
+function haversine(lat1, lon1, lat2, lon2) {
+  const R = 6371;
+  const dLat = (lat2-lat1)*Math.PI/180;
+  const dLon = (lon2-lon1)*Math.PI/180;
+  const a = Math.sin(dLat/2)**2 + Math.cos(lat1*Math.PI/180)*Math.cos(lat2*Math.PI/180)*Math.sin(dLon/2)**2;
+  return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
+}
+
+function locateMe() {
+  if (!navigator.geolocation) return alert('Trình duyệt không hỗ trợ định vị');
+  navigator.geolocation.getCurrentPosition(pos => {
+    userLat = pos.coords.latitude;
+    userLon = pos.coords.longitude;
+    document.getElementById('sort-info').textContent = '📍 Đang sắp xếp theo khoảng cách';
+    render();
+  }, () => alert('Không lấy được vị trí'));
+}
+
+function filterBy(cuisine) {
+  activeFilter = cuisine;
+  document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+  event.target.classList.add('active');
+  render();
+}
+
+function stars(rating) {
+  if (!rating) return '';
+  const full = Math.round(rating);
+  return '★'.repeat(full) + '☆'.repeat(5-full);
+}
+
+function priceLabel(price) {
+  if (!price) return '';
+  if (price === 1) return '₫ Bình dân';
+  if (price === 2) return '₫₫ Trung bình';
+  if (price === 3) return '₫₫₫ Cao cấp';
+  return price;
+}
+
+function render() {
+  const grid = document.getElementById('grid');
+  const cuisineContainer = document.getElementById('cuisine-filters');
+
+  // Build cuisine filter buttons
+  const cuisines = [...new Set(allPlaces.map(p => p.cuisine).filter(Boolean))];
+  cuisineContainer.innerHTML = cuisines.map(c =>
+    `<button class="filter-btn ${activeFilter===c?'active':''}" onclick="filterBy('${c}')">${c}</button>`
+  ).join('');
+
+  // Filter
+  let places = activeFilter === 'all' ? [...allPlaces] : allPlaces.filter(p => p.cuisine === activeFilter);
+
+  // Sort by distance if available
+  if (userLat && userLon) {
+    places.forEach(p => {
+      if (p.lat && p.lon) p._dist = haversine(userLat, userLon, p.lat, p.lon);
+      else p._dist = 99999;
+    });
+    places.sort((a,b) => a._dist - b._dist);
+  }
+
+  document.getElementById('count').textContent = `${places.length} địa điểm`;
+  document.getElementById('subtitle').textContent = places.length
+    ? `${places.length} địa điểm đã lưu`
+    : 'Chưa có địa điểm nào';
+
+  if (places.length === 0) {
+    grid.innerHTML = `<div class="empty"><div class="icon">🍽️</div><p>Chưa có địa điểm nào. Hãy gửi hình ảnh nhà hàng!</p></div>`;
+    return;
+  }
+
+  grid.innerHTML = places.map(p => {
+    const dist = p._dist && p._dist < 9999 ? `${p._dist < 1 ? (p._dist*1000).toFixed(0)+'m' : p._dist.toFixed(1)+'km'}` : null;
+    const imgs = p.images || (p.photo ? [p.photo] : p.image ? [p.image] : []);
+    const slideId = 'sl-' + p.id;
+    let imgHtml;
+    if (imgs.length === 0) {
+      imgHtml = `<div class="card-img-placeholder">${p.emoji || '🍽️'}</div>`;
+    } else if (imgs.length === 1) {
+      imgHtml = `<div class="slider-wrap"><img class="card-img" src="${imgs[0]}" alt="${p.name}" onerror="this.parentElement.innerHTML='<div class=card-img-placeholder>🍽️</div>'"></div>`;
+    } else {
+      const slides = imgs.map(s => `<img class="card-img" src="${s}" alt="${p.name}" onerror="this.style.opacity=0">`).join('');
+      const dots = imgs.map((_,i) => `<span class="slider-dot${i===0?' active':''}" onclick="sliderGo('${slideId}',${i})"></span>`).join('');
+      imgHtml = `<div class="slider-wrap" id="${slideId}" data-idx="0" data-len="${imgs.length}"
+        ontouchstart="sliderTouch(this,event,'start')" ontouchend="sliderTouch(this,event,'end')">
+        <div class="slider-track">${slides}</div>
+        <button class="slider-arrow prev" onclick="sliderStep('${slideId}',-1)">&#8249;</button>
+        <button class="slider-arrow next" onclick="sliderStep('${slideId}',1)">&#8250;</button>
+        <div class="slider-dot-wrap">${dots}</div>
+      </div>`;
+    }
+
+    return `<div class="card">
+      ${imgHtml}
+      ${dist ? `<div class="dist-badge">📍 ${dist}</div>` : ''}
+      <div class="card-body">
+        <div class="card-tags">
+          ${p.cuisine ? `<span class="tag tag-cuisine">${p.cuisine}</span>` : ''}
+          ${p.price ? `<span class="tag tag-price">${priceLabel(p.price)}</span>` : ''}
+          ${dist ? `<span class="tag tag-dist">${dist}</span>` : ''}
+        </div>
+        <div class="card-name">${p.name}</div>
+        <div class="card-address">📍 ${p.address || 'Chưa có địa chỉ'}</div>
+        ${p.rating ? `<div class="card-rating"><span class="stars">${stars(p.rating)}</span><span class="rating-score">${p.rating}/5</span></div>` : ''}
+        ${p.note ? `<div class="card-note">"${p.note}"</div>` : ''}
+        <div class="card-actions">
+          ${p.maps_url ? `<a class="btn-map" href="${p.maps_url}" target="_blank">🗺️ Xem bản đồ</a>` : ''}
+          ${p.phone ? `<a class="btn-map" href="tel:${p.phone}">📞 Gọi</a>` : ''}
+          ${p.address ? `<button class="btn-map btn-grab" onclick="grabGo('${p.address.replace(/'/g,"\\'")}')">🚗 Grab</button>` : ''}
+        </div>
+      </div>
+    </div>`;
+  }).join('');
+}
+
+function sliderGo(id, idx) {
+  const el = document.getElementById(id);
+  if (!el) return;
+  const len = parseInt(el.dataset.len);
+  idx = ((idx % len) + len) % len;
+  el.dataset.idx = idx;
+  el.querySelector('.slider-track').style.transform = `translateX(-${idx * 100}%)`;
+  el.querySelectorAll('.slider-dot').forEach((d,i) => d.classList.toggle('active', i===idx));
+}
+function sliderStep(id, dir) {
+  const el = document.getElementById(id);
+  if (!el) return;
+  sliderGo(id, parseInt(el.dataset.idx) + dir);
+}
+let _touchX = 0;
+function sliderTouch(el, e, phase) {
+  if (phase === 'start') { _touchX = e.changedTouches[0].clientX; }
+  else {
+    const dx = e.changedTouches[0].clientX - _touchX;
+    if (Math.abs(dx) > 40) sliderStep(el.id, dx < 0 ? 1 : -1);
+  }
+}
+
+loadData();
+
+function grabGo(address) {
+  navigator.clipboard.writeText(address).catch(() => {});
+  window.location.href = `grab://open?screenType=BOOKING&type=CAR&dropOffAddress=${encodeURIComponent(address)}`;
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,105 @@
+[
+  {
+    "id": "xinu-hoang-cau",
+    "name": "XINU - Xiên Nướng Hoàng Cầu",
+    "category": "Xiên nướng · Trung Quốc",
+    "address": "Hoàng Cầu, Đống Đa, Hà Nội",
+    "lat": 21.0247,
+    "lng": 105.8297,
+    "phone": "",
+    "hours": "17:00 – 23:00",
+    "price": "150,000 – 300,000₫/người",
+    "rating": 4.3,
+    "tags": [
+      "xiên nướng",
+      "Trung Quốc",
+      "view tàu điện",
+      "Hoàng Cầu"
+    ],
+    "note": "View nhìn ra đường tàu điện trên cao, không gian rooftop đẹp về đêm",
+    "image": "img/xinu_interior.jpg",
+    "maps_url": "https://maps.google.com/?q=XINU+xien+nuong+Hoang+Cau+Ha+Noi",
+    "images": [
+      "img/xinu_1.jpg",
+      "img/xinu_2.jpg"
+    ]
+  },
+  {
+    "id": "abao-kim-ma",
+    "name": "A Bảo Nướng Xiên Quê Trung Hoa",
+    "category": "Xiên nướng · Trung Quốc",
+    "address": "285 Kim Mã, Ba Đình, Hà Nội",
+    "lat": 21.0355,
+    "lng": 105.8225,
+    "phone": "039 331 5687",
+    "hours": "17:00 – 23:30",
+    "price": "100,000 – 250,000₫/người",
+    "rating": 4.2,
+    "tags": [
+      "xiên nướng",
+      "Trung Quốc",
+      "Kim Mã",
+      "Liễu Giai"
+    ],
+    "note": "Quán xiên nướng phong cách Trung Hoa, khu Kim Mã / Liễu Giai",
+    "image": "img/abao.jpg",
+    "maps_url": "https://maps.google.com/?q=A+Bao+Nuong+Xien+285+Kim+Ma+Ha+Noi",
+    "images": [
+      "img/abao_1.jpg"
+    ]
+  },
+  {
+    "id": "thuchuong-trung-hoa",
+    "name": "Thục Hương Lầu · 蜀香楼",
+    "category": "Lẩu Tứ Xuyên · Trung Quốc",
+    "address": "83-85 Trung Hòa, Cầu Giấy, Hà Nội",
+    "lat": 21.0167,
+    "lng": 105.7989,
+    "phone": "",
+    "hours": "11:00 – 22:00",
+    "price": "200,000 – 500,000₫/người",
+    "rating": 4.1,
+    "review_count": 117,
+    "tags": [
+      "lẩu",
+      "Tứ Xuyên",
+      "Trung Quốc",
+      "Trung Hòa",
+      "Cầu Giấy"
+    ],
+    "note": "Lẩu Tứ Xuyên cay đúng vị, không gian đèn lồng ấm cúng",
+    "image": "img/thuchuong_google.jpg",
+    "maps_url": "https://maps.google.com/?q=Thuc+Huong+Lau+83+Trung+Hoa+Cau+Giay+Ha+Noi",
+    "images": [
+      "img/thuchuong_1.jpg",
+      "img/thuchuong_2.jpg"
+    ]
+  },
+  {
+    "id": "chaca-baolinh",
+    "name": "Chả Cá Bảo Linh",
+    "category": "Chả cá · Hải sản",
+    "address": "23 Đường 11, Tập thể F361 An Dương, Tây Hồ, Hà Nội",
+    "lat": 21.0498,
+    "lng": 105.8356,
+    "phone": "0973 092 020",
+    "hours": "10:00 – 22:00",
+    "price": "100,000 – 200,000₫/người",
+    "rating": 4.5,
+    "review_count": 102,
+    "tags": [
+      "chả cá",
+      "hải sản",
+      "An Dương",
+      "Tây Hồ"
+    ],
+    "note": "Chả cá ngon, đánh giá cao, khu An Dương Tây Hồ",
+    "image": "img/chacabaolinh.jpg",
+    "maps_url": "https://maps.google.com/?q=Cha+Ca+Bao+Linh+An+Duong+Tay+Ho+Ha+Noi",
+    "images": [
+      "img/chacabaolinh_1.jpg",
+      "img/chacabaolinh_2.jpg",
+      "img/chacabaolinh_3.jpg"
+    ]
+  }
+]
