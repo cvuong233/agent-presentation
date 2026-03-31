@@ -101,5 +101,26 @@
       "img/chacabaolinh_2.jpg",
       "img/chacabaolinh_3.jpg"
     ]
+  },
+  {
+    "id": "bombia-tran-hung-dao",
+    "name": "BOMBIA - Bia Hơi Hà Nội",
+    "cuisine": "Bia hơi · Nhậu",
+    "address": "33A Trần Hưng Đạo, Hoàn Kiếm, Hà Nội",
+    "lat": 21.0245,
+    "lng": 105.8515,
+    "phone": "0327019233",
+    "hours": "10:30 – 23:30",
+    "price": "50,000 – 150,000₫/người",
+    "rating": 4.8,
+    "tags": [
+      "bia hơi",
+      "nhậu",
+      "Hoàn Kiếm",
+      "gà chiên",
+      "bạn bè"
+    ],
+    "note": "Bia hơi Hà Nội chuẩn vị, rating 4.8 ⭐ — gà chiên cay, cổ heo, nem chua lá",
+    "images": []
   }
 ]
