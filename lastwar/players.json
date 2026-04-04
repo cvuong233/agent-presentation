@@ -407,7 +407,9 @@
     "ntacutiiii": {
       "rank": "R1",
       "consecutive_misses": 1,
-      "yellow_cards": 1
+      "yellow_cards": 1,
+      "hn_team": "A",
+      "sm_team": "B"
     },
     "cu tí nhỏ xíu": {
       "rank": "R3",
@@ -741,7 +743,13 @@
             "reason": "Played last match"
           }
         ],
-        "subs": [],
+        "subs": [
+          {
+            "r": "R1",
+            "name": "ntacutiiii",
+            "reason": "1 YC - dropped to sub"
+          }
+        ],
         "off": []
       },
       "B": {
