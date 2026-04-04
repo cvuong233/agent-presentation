@@ -2,7 +2,7 @@
   "meta": {
     "clan": "ACMB",
     "game": "Last War VN",
-    "updated": "2026-03-30",
+    "updated": "2026-04-04",
     "notes": "C V = cường khùng (R4). Lineup order: R5 > R4 > R3 > R2 > R1. SM: 20 main + 10 subs. HN: 30 main. SM reg closes Thu 9am ICT. HN reg closes Tue 9am ICT. Yellow card = miss without notice. 2 consecutive YC = drop to sub."
   },
   "ranks": {
@@ -52,7 +52,8 @@
       "MrAugust2886",
       "tâm1980",
       "Khanhanh96",
-      "Tú Bướmm"
+      "Tú Bướmm",
+      "WitWiu"
     ],
     "R2": [
       "hanubeast"
@@ -123,55 +124,51 @@
     },
     "hn": {
       "A": {
-        "date": "2026-03-26",
+        "date": "2026-04-02",
         "slot": "night 21:30",
         "scores": {
-          "Hello AE": 6435649,
-          "TusEngland": 5491686,
-          "Haizzzzzzzzzz": 4809489,
-          "Rymi68": 4652397,
-          "LinLin": 4569366,
-          "Lerxinhiu": 4401420,
-          "Shashank1411": 3897107,
-          "Mr Rama": 3543282,
-          "Thanh Tân 99": 3380594,
-          "Azyg": 3353643,
-          "cường khùng": 3327846,
-          "wolfwitch": 3324918,
-          "zdevils": 3209056,
-          "Aaaluan": 2790964,
-          "Indefatigabl3": 2770224,
-          "MrAugust2886": 2626620,
-          "tâm1980": 2140541,
-          "anh thợ sửa máy": 1979555,
-          "Đập Chai": 0,
-          "Trần Thế Lươn": 0
+          "Hello AE": 8448381,
+          "Rymi68": 5989774,
+          "zdevils": 5387131,
+          "LinLin": 5161232,
+          "Trần Thế Lươn": 4952310,
+          "Haizzzzzzzzzz": 4792018,
+          "Mr Rama": 4512468,
+          "Lerxinhiu": 4300120,
+          "wolfwitch": 4252639,
+          "Thanh Tân 99": 3950890,
+          "Indefatigabl3": 3626665,
+          "WitWiu": 3591008,
+          "anh thợ sửa máy": 3297706,
+          "Shashank1411": 3246698,
+          "Aaaluan": 2831596,
+          "MrAugust2886": 2786767,
+          "Đập Chai": 2629005,
+          "tâm1980": 2216235,
+          "cường khùng": 1205353
         }
       },
       "B": {
-        "date": "2026-03-27",
+        "date": "2026-04-03",
         "slot": "morning 08:30",
         "scores": {
-          "Vualidonzz": 8284830,
-          "yologuy": 6307457,
-          "Hải Anh 0612": 5913160,
-          "Marines Malevolent": 5328489,
-          "Chivas2026": 5167696,
-          "Nguyenngoctuan": 5099191,
-          "danhoanh": 5015768,
-          "Panda Force": 4273228,
-          "Phạm kánhh": 3402315,
-          "Tommy4014": 3350139,
-          "Hemerage": 3274887,
-          "Tú Bướmm": 1316328,
-          "Dầu Thơm MeoBính": 1019602,
-          "Selnavi": 979417,
-          "Khanhanh96": 940396,
-          "ÒÓÔ": 905822,
-          "Mr Khoai Tây": 0,
-          "SanTa 1386": 0,
-          "NorthFog": 0,
-          "ntacutiiii": 0
+          "Vualidonzz": 6648451,
+          "Hemerage": 6507726,
+          "Marines Malevolent": 6245681,
+          "Dầu Thơm MeoBính": 5745874,
+          "Hải Anh 0612": 5507804,
+          "yologuy": 4916188,
+          "Chivas2026": 4517255,
+          "Selnavi": 4200493,
+          "Phạm kánhh": 4007340,
+          "NorthFog": 3957715,
+          "ÒÓÔ": 3537334,
+          "Panda Force": 3493042,
+          "Nguyenngoctuan": 3432997,
+          "SanTa 1386": 2614306,
+          "danhoanh": 2455811,
+          "Tommy4014": 1906540,
+          "Tú Bướmm": 394285
         }
       }
     }
@@ -391,6 +388,12 @@
       "rank": "R2",
       "consecutive_misses": 0,
       "yellow_cards": 0
+    },
+    "WitWiu": {
+      "rank": "R3",
+      "consecutive_misses": 0,
+      "yellow_cards": 0,
+      "hn_team": "A"
     },
     "Chivas2025": {
       "rank": "R3",
@@ -672,14 +675,9 @@
         "slot": "A",
         "time": "21:30",
         "period": "night",
-        "date": "2026-03-26",
+        "date": "2026-04-02",
         "maxMain": 30,
         "main": [
-          {
-            "r": "R5",
-            "name": "Lerxinhiu",
-            "reason": "Played last match"
-          },
           {
             "r": "R4",
             "name": "Hello AE",
@@ -711,13 +709,8 @@
             "reason": "Played last match"
           },
           {
-            "r": "R3",
-            "name": "TusEngland",
-            "reason": "Played last match"
-          },
-          {
-            "r": "R3",
-            "name": "Shashank1411",
+            "r": "R5",
+            "name": "Lerxinhiu",
             "reason": "Played last match"
           },
           {
@@ -727,22 +720,12 @@
           },
           {
             "r": "R3",
-            "name": "Thanh Tân 99",
-            "reason": "Played last match"
-          },
-          {
-            "r": "R3",
-            "name": "Azyg",
-            "reason": "Played last match"
-          },
-          {
-            "r": "R3",
             "name": "wolfwitch",
             "reason": "Played last match"
           },
           {
             "r": "R3",
-            "name": "Aaaluan",
+            "name": "Thanh Tân 99",
             "reason": "Played last match"
           },
           {
@@ -752,12 +735,7 @@
           },
           {
             "r": "R3",
-            "name": "MrAugust2886",
-            "reason": "Played last match"
-          },
-          {
-            "r": "R3",
-            "name": "tâm1980",
+            "name": "WitWiu",
             "reason": "Played last match"
           },
           {
@@ -767,15 +745,33 @@
           },
           {
             "r": "R3",
+            "name": "Shashank1411",
+            "reason": "Played last match"
+          },
+          {
+            "r": "R3",
+            "name": "Aaaluan",
+            "reason": "Played last match"
+          },
+          {
+            "r": "R3",
+            "name": "MrAugust2886",
+            "reason": "Played last match"
+          },
+          {
+            "r": "R3",
             "name": "Đập Chai",
-            "reason": "Added by request",
-            "type": "new"
+            "reason": "Played last match"
+          },
+          {
+            "r": "R3",
+            "name": "tâm1980",
+            "reason": "Played last match"
           },
           {
             "r": "R1",
             "name": "Trần Thế Lươn",
-            "reason": "New member",
-            "type": "new"
+            "reason": "Played last match"
           }
         ],
         "subs": [],
@@ -785,7 +781,7 @@
         "slot": "B",
         "time": "08:30",
         "period": "morning",
-        "date": "2026-03-27",
+        "date": "2026-04-03",
         "maxMain": 30,
         "main": [
           {
@@ -815,17 +811,32 @@
           },
           {
             "r": "R3",
+            "name": "Dầu Thơm MeoBính",
+            "reason": "Played last match"
+          },
+          {
+            "r": "R3",
             "name": "Chivas2026",
             "reason": "Played last match"
           },
           {
             "r": "R3",
-            "name": "Nguyenngoctuan",
+            "name": "Selnavi",
             "reason": "Played last match"
           },
           {
             "r": "R3",
-            "name": "danhoanh",
+            "name": "Phạm kánhh",
+            "reason": "Played last match"
+          },
+          {
+            "r": "R3",
+            "name": "NorthFog",
+            "reason": "Played last match"
+          },
+          {
+            "r": "R3",
+            "name": "ÒÓÔ",
             "reason": "Played last match"
           },
           {
@@ -835,7 +846,17 @@
           },
           {
             "r": "R3",
-            "name": "Phạm kánhh",
+            "name": "Nguyenngoctuan",
+            "reason": "Played last match"
+          },
+          {
+            "r": "R3",
+            "name": "SanTa 1386",
+            "reason": "Played last match"
+          },
+          {
+            "r": "R3",
+            "name": "danhoanh",
             "reason": "Played last match"
           },
           {
@@ -847,50 +868,6 @@
             "r": "R3",
             "name": "Tú Bướmm",
             "reason": "Played last match"
-          },
-          {
-            "r": "R3",
-            "name": "Dầu Thơm MeoBính",
-            "reason": "Played last match"
-          },
-          {
-            "r": "R3",
-            "name": "Selnavi",
-            "reason": "Played last match"
-          },
-          {
-            "r": "R3",
-            "name": "Khanhanh96",
-            "reason": "Played last match"
-          },
-          {
-            "r": "R3",
-            "name": "ÒÓÔ",
-            "reason": "Played last match"
-          },
-          {
-            "r": "R3",
-            "name": "Mr Khoai Tây",
-            "reason": "Added by request",
-            "type": "new"
-          },
-          {
-            "r": "R3",
-            "name": "SanTa 1386",
-            "reason": "Added by request",
-            "type": "new"
-          },
-          {
-            "r": "R1",
-            "name": "ntacutiiii",
-            "reason": "Added by request",
-            "type": "new"
-          },
-          {
-            "r": "R3",
-            "name": "NorthFog",
-            "reason": "Added by request",
-            "type": "new"
           }
         ],
         "subs": [],
