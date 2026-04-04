@@ -40,7 +40,7 @@
       "Marines Malevolent",
       "PewPewBoi",
       "ÔngTânPro",
-      "TusEngland",
+      "WitWiu",
       "Panda Force",
       "Indefatigabl3",
       "Thanh Tân 99",
@@ -95,7 +95,6 @@
         "date": "2026-03-28",
         "slot": "morning 08:30",
         "scores": {
-          "TusEngland": 3327511,
           "ÒÓÔ": 1805035,
           "Vualidonzz": 1666947,
           "Chivas2026": 1174979,
@@ -115,7 +114,8 @@
           "Hoá Đá": 0,
           "SanTa 1386": 0,
           "ntacutiiii": 0,
-          "cu tí nhỏ xíu": 0
+          "cu tí nhỏ xíu": 0,
+          "WitWiu": 3327511
         },
         "subs": [
           "Dầu Thơm MeoBính"
@@ -319,11 +319,6 @@
       "consecutive_misses": 0,
       "yellow_cards": 0
     },
-    "TusEngland": {
-      "rank": "R3",
-      "consecutive_misses": 0,
-      "yellow_cards": 0
-    },
     "Panda Force": {
       "rank": "R3",
       "consecutive_misses": 0,
@@ -392,8 +387,7 @@
     "WitWiu": {
       "rank": "R3",
       "consecutive_misses": 0,
-      "yellow_cards": 0,
-      "hn_team": "A"
+      "yellow_cards": 0
     },
     "Chivas2025": {
       "rank": "R3",
@@ -566,7 +560,7 @@
           },
           {
             "r": "R3",
-            "name": "TusEngland",
+            "name": "WitWiu",
             "reason": "Played last match"
           },
           {
