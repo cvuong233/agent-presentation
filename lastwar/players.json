@@ -47,7 +47,6 @@
       "Tommy4014",
       "Chivas2026",
       "Selnavi",
-      "Mr Khoai Tây",
       "Aaaluan",
       "MrAugust2886",
       "tâm1980",
@@ -340,11 +339,6 @@
       "consecutive_misses": 0,
       "yellow_cards": 0
     },
-    "Mr Khoai Tây": {
-      "rank": "R3",
-      "consecutive_misses": 2,
-      "yellow_cards": 2
-    },
     "Aaaluan": {
       "rank": "R3",
       "consecutive_misses": 0,
@@ -500,13 +494,8 @@
           }
         ],
         "subs": [],
-        "off": [
-          {
-            "r": "R3",
-            "name": "Mr Khoai Tây",
-            "reason": "2 YC"
-          }
-        ]
+        "off": [],
+        "dayoff": []
       },
       "B": {
         "slot": "B",
@@ -628,13 +617,8 @@
             "reason": "New to slot (overflow)"
           }
         ],
-        "off": [
-          {
-            "r": "R3",
-            "name": "Mr Khoai Tây",
-            "reason": "2 YC"
-          }
-        ]
+        "off": [],
+        "dayoff": []
       }
     },
     "hn": {
@@ -743,13 +727,8 @@
             "reason": "1 YC (new to slot)"
           }
         ],
-        "off": [
-          {
-            "r": "R3",
-            "name": "Mr Khoai Tây",
-            "reason": "2 YC"
-          }
-        ]
+        "off": [],
+        "dayoff": []
       },
       "B": {
         "slot": "B",
@@ -845,13 +824,8 @@
           }
         ],
         "subs": [],
-        "off": [
-          {
-            "r": "R3",
-            "name": "Mr Khoai Tây",
-            "reason": "2 YC"
-          }
-        ]
+        "off": [],
+        "dayoff": []
       }
     }
   }

@@ -111,7 +111,7 @@ const I18N = {
     player: 'Người chơi',
     reason: 'Ghi chú',
     subs_label: '🔄 Dự bị',
-    off_label: '❌ Nghỉ',
+    off_label: '😴 Nghỉ phép',
     night: '🌙 Tối',
     morning: '☀️ Sáng',
     evening: '🌅 Chiều',
@@ -134,7 +134,7 @@ const I18N = {
     player: 'Player',
     reason: 'Note',
     subs_label: '🔄 Substitutes',
-    off_label: '❌ Day-off',
+    off_label: '😴 Day-off',
     night: '🌙 Night',
     morning: '☀️ Morning',
     evening: '🌅 Evening',
@@ -200,13 +200,13 @@ function buildCard(mode, slot, data) {
 
   const sorted = [...d.main].sort(rankSort);
   const sortedSubs = [...d.subs].sort(rankSort);
-  const sortedOff = [...(d.off || [])].sort(rankSort);
+  const sortedDayoff = [...(d.dayoff || [])].sort(rankSort);
 
   const counts = `
     <div class="section-counts">
       <span class="count-badge count-main">✅ ${t('main')}: ${d.main.length}/${d.maxMain}</span>
       ${d.subs.length ? `<span class="count-badge count-sub">🔄 ${t('sub')}: ${d.subs.length}</span>` : ''}
-      ${sortedOff.length ? `<span class="count-badge count-off">❌ ${t('dayoff')}: ${sortedOff.length}</span>` : ''}
+      ${sortedDayoff.length ? `<span class="count-badge count-off">😴 ${t('dayoff')}: ${sortedDayoff.length}</span>` : ''}
       ${openSlots > 0 ? `<span class="count-badge count-open">🔓 ${t('open')}: ${openSlots}</span>` : ''}
     </div>
     <div class="section-counts" style="padding-top:0">
@@ -245,11 +245,11 @@ function buildCard(mode, slot, data) {
     });
   }
 
-  let offRows = '';
-  if (sortedOff.length > 0) {
-    offRows += `<tr class="section-divider"><td colspan="4">${t('off_label')} (${sortedOff.length})</td></tr>`;
-    sortedOff.forEach((p, i) => {
-      offRows += `<tr class="off-row">
+  let dayoffRows = '';
+  if (sortedDayoff.length > 0) {
+    dayoffRows += `<tr class="section-divider"><td colspan="4">${t('off_label')} (${sortedDayoff.length})</td></tr>`;
+    sortedDayoff.forEach((p, i) => {
+      dayoffRows += `<tr class="off-row">
         <td class="num">-</td>
         <td><span class="rank-badge ${p.r.toLowerCase()}">${p.r}</span></td>
         <td class="player-name">${p.name}</td>
@@ -269,7 +269,7 @@ function buildCard(mode, slot, data) {
     ${counts}
     <table>
       <thead><tr><th>#</th><th>R</th><th>${t('player')}</th><th>${t('reason')}</th></tr></thead>
-      <tbody>${rows}${subRows}${offRows}</tbody>
+      <tbody>${rows}${subRows}${dayoffRows}</tbody>
     </table>
   `;
 }
