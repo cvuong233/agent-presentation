@@ -430,92 +430,92 @@
           {
             "r": "R4",
             "name": "Hello AE",
-            "reason": "Played last match"
+            "reason": "1st"
           },
           {
             "r": "R4",
             "name": "LinLin",
-            "reason": "Played last match"
+            "reason": "2nd"
           },
           {
             "r": "R5",
             "name": "Lerxinhiu",
-            "reason": "Played last match"
-          },
-          {
-            "r": "R4",
-            "name": "Haizzzzzzzzzz",
-            "reason": "Played last match"
-          },
-          {
-            "r": "R4",
-            "name": "Rymi68",
-            "reason": "Played last match"
-          },
-          {
-            "r": "R4",
-            "name": "zdevils",
-            "reason": "Played last match"
-          },
-          {
-            "r": "R4",
-            "name": "cường khùng",
-            "reason": "Played last match"
+            "reason": "3rd"
           },
           {
             "r": "R3",
             "name": "Mr Rama",
-            "reason": "Played last match"
+            "reason": "4th"
           },
           {
-            "r": "R3",
-            "name": "wolfwitch",
-            "reason": "Played last match"
+            "r": "R4",
+            "name": "Haizzzzzzzzzz",
+            "reason": "5th"
           },
           {
-            "r": "R3",
-            "name": "Panda Force",
-            "reason": "Played last match"
-          },
-          {
-            "r": "R3",
-            "name": "Indefatigabl3",
-            "reason": "Played last match"
-          },
-          {
-            "r": "R3",
-            "name": "Thanh Tân 99",
-            "reason": "Played last match"
-          },
-          {
-            "r": "R3",
-            "name": "MrAugust2886",
-            "reason": "Played last match"
-          },
-          {
-            "r": "R3",
-            "name": "Aaaluan",
-            "reason": "Played last match"
-          },
-          {
-            "r": "R3",
-            "name": "tâm1980",
-            "reason": "Played last match"
-          },
-          {
-            "r": "R3",
-            "name": "Shashank1411",
-            "reason": "Played last match"
-          },
-          {
-            "r": "R3",
-            "name": "PewPewBoi",
-            "reason": "Played last match"
+            "r": "R4",
+            "name": "Rymi68",
+            "reason": "6th"
           },
           {
             "r": "R1",
             "name": "Trần Thế Lươn",
-            "reason": "Played last match"
+            "reason": "7th"
+          },
+          {
+            "r": "R4",
+            "name": "zdevils",
+            "reason": "8th"
+          },
+          {
+            "r": "R4",
+            "name": "cường khùng",
+            "reason": "9th"
+          },
+          {
+            "r": "R3",
+            "name": "wolfwitch",
+            "reason": "10th"
+          },
+          {
+            "r": "R3",
+            "name": "Panda Force",
+            "reason": "11th"
+          },
+          {
+            "r": "R3",
+            "name": "Indefatigabl3",
+            "reason": "12th"
+          },
+          {
+            "r": "R3",
+            "name": "Thanh Tân 99",
+            "reason": "13th"
+          },
+          {
+            "r": "R3",
+            "name": "MrAugust2886",
+            "reason": "14th"
+          },
+          {
+            "r": "R3",
+            "name": "Aaaluan",
+            "reason": "15th"
+          },
+          {
+            "r": "R3",
+            "name": "tâm1980",
+            "reason": "16th"
+          },
+          {
+            "r": "R3",
+            "name": "Shashank1411",
+            "reason": "17th"
+          },
+          {
+            "r": "R3",
+            "name": "PewPewBoi",
+            "reason": "18th"
           }
         ],
         "subs": [],
@@ -529,112 +529,113 @@
         "maxMain": 20,
         "main": [
           {
-            "r": "R4",
-            "name": "Hemerage",
-            "reason": "Played last match"
-          },
-          {
-            "r": "R4",
-            "name": "yologuy",
-            "reason": "Played last match"
-          },
-          {
             "r": "R3",
             "name": "Dầu Thơm MeoBính",
-            "reason": "Played last match"
+            "reason": "1st"
           },
           {
             "r": "R3",
             "name": "NorthFog",
-            "reason": "Played last match"
+            "reason": "2nd"
+          },
+          {
+            "r": "R4",
+            "name": "Hemerage",
+            "reason": "3rd"
           },
           {
             "r": "R3",
             "name": "Selnavi",
-            "reason": "Played last match"
+            "reason": "4th"
           },
           {
             "r": "R3",
             "name": "Phạm kánhh",
-            "reason": "Played last match"
+            "reason": "5th"
           },
           {
             "r": "R3",
             "name": "WitWiu",
-            "reason": "Played last match"
+            "reason": "6th"
           },
           {
             "r": "R3",
             "name": "Vualidonzz",
-            "reason": "Played last match"
+            "reason": "7th"
+          },
+          {
+            "r": "R4",
+            "name": "yologuy",
+            "reason": "8th"
           },
           {
             "r": "R3",
             "name": "danhoanh",
-            "reason": "Played last match"
+            "reason": "9th"
           },
           {
             "r": "R3",
             "name": "SanTa 1386",
-            "reason": "Played last match"
+            "reason": "10th"
           },
           {
             "r": "R3",
             "name": "Chivas2026",
-            "reason": "Played last match"
+            "reason": "11th"
           },
           {
             "r": "R4",
             "name": "Hải Anh 0612",
-            "reason": "Played last match"
+            "reason": "12th"
           },
           {
             "r": "R3",
             "name": "Nguyenngoctuan",
-            "reason": "Played last match"
+            "reason": "13th"
           },
           {
             "r": "R2",
             "name": "hanubeast",
-            "reason": "Played last match"
+            "reason": "14th"
           },
           {
             "r": "R3",
             "name": "anh thợ sửa máy",
-            "reason": "Played last match"
+            "reason": "15th"
           },
           {
             "r": "R3",
             "name": "Đập Chai",
-            "reason": "Played last match"
+            "reason": "16th"
           },
           {
             "r": "R3",
             "name": "Marines Malevolent",
-            "reason": "Played last match"
+            "reason": "17th"
           },
           {
             "r": "R3",
             "name": "ÒÓÔ",
-            "reason": "Played last match"
+            "reason": "18th"
           },
           {
             "r": "R3",
             "name": "Hoá Đá",
-            "reason": "Played last match"
+            "reason": "19th"
           },
           {
             "r": "R3",
             "name": "cu tí nhỏ xíu",
-            "reason": "Played last match"
-          },
+            "reason": "1st"
+          }
+        ],
+        "subs": [
           {
             "r": "R1",
             "name": "ntacutiiii",
-            "reason": "Played last match"
+            "reason": "1 YC - dropped to sub (was 20th)"
           }
         ],
-        "subs": [],
         "off": []
       }
     },
@@ -647,108 +648,102 @@
         "maxMain": 30,
         "main": [
           {
-            "r": "R5",
-            "name": "Lerxinhiu",
-            "reason": "Played last match"
-          },
-          {
             "r": "R4",
             "name": "Hello AE",
-            "reason": "Played last match"
+            "reason": "1st"
           },
           {
             "r": "R4",
             "name": "Rymi68",
-            "reason": "Played last match"
+            "reason": "2nd"
           },
           {
             "r": "R4",
             "name": "zdevils",
-            "reason": "Played last match"
+            "reason": "3rd"
           },
           {
             "r": "R4",
             "name": "LinLin",
-            "reason": "Played last match"
-          },
-          {
-            "r": "R4",
-            "name": "Haizzzzzzzzzz",
-            "reason": "Played last match"
-          },
-          {
-            "r": "R4",
-            "name": "cường khùng",
-            "reason": "Played last match"
-          },
-          {
-            "r": "R3",
-            "name": "Mr Rama",
-            "reason": "Played last match"
-          },
-          {
-            "r": "R3",
-            "name": "wolfwitch",
-            "reason": "Played last match"
-          },
-          {
-            "r": "R3",
-            "name": "Thanh Tân 99",
-            "reason": "Played last match"
-          },
-          {
-            "r": "R3",
-            "name": "Indefatigabl3",
-            "reason": "Played last match"
-          },
-          {
-            "r": "R3",
-            "name": "WitWiu",
-            "reason": "Played last match"
-          },
-          {
-            "r": "R3",
-            "name": "anh thợ sửa máy",
-            "reason": "Played last match"
-          },
-          {
-            "r": "R3",
-            "name": "Shashank1411",
-            "reason": "Played last match"
-          },
-          {
-            "r": "R3",
-            "name": "Aaaluan",
-            "reason": "Played last match"
-          },
-          {
-            "r": "R3",
-            "name": "MrAugust2886",
-            "reason": "Played last match"
-          },
-          {
-            "r": "R3",
-            "name": "Đập Chai",
-            "reason": "Played last match"
-          },
-          {
-            "r": "R3",
-            "name": "tâm1980",
-            "reason": "Played last match"
+            "reason": "4th"
           },
           {
             "r": "R1",
             "name": "Trần Thế Lươn",
-            "reason": "Played last match"
-          }
-        ],
-        "subs": [
+            "reason": "5th"
+          },
           {
-            "r": "R1",
-            "name": "ntacutiiii",
-            "reason": "1 YC - dropped to sub"
+            "r": "R4",
+            "name": "Haizzzzzzzzzz",
+            "reason": "6th"
+          },
+          {
+            "r": "R3",
+            "name": "Mr Rama",
+            "reason": "7th"
+          },
+          {
+            "r": "R5",
+            "name": "Lerxinhiu",
+            "reason": "8th"
+          },
+          {
+            "r": "R3",
+            "name": "wolfwitch",
+            "reason": "9th"
+          },
+          {
+            "r": "R3",
+            "name": "Thanh Tân 99",
+            "reason": "10th"
+          },
+          {
+            "r": "R3",
+            "name": "Indefatigabl3",
+            "reason": "11th"
+          },
+          {
+            "r": "R3",
+            "name": "WitWiu",
+            "reason": "12th"
+          },
+          {
+            "r": "R3",
+            "name": "anh thợ sửa máy",
+            "reason": "13th"
+          },
+          {
+            "r": "R3",
+            "name": "Shashank1411",
+            "reason": "14th"
+          },
+          {
+            "r": "R3",
+            "name": "Aaaluan",
+            "reason": "15th"
+          },
+          {
+            "r": "R3",
+            "name": "MrAugust2886",
+            "reason": "16th"
+          },
+          {
+            "r": "R3",
+            "name": "Đập Chai",
+            "reason": "17th"
+          },
+          {
+            "r": "R3",
+            "name": "tâm1980",
+            "reason": "18th"
+          },
+          {
+            "r": "R4",
+            "name": "cường khùng",
+            "reason": "19th"
           }
         ],
+        "subs": [],
         "off": []
       },
       "B": {
@@ -759,89 +754,89 @@
         "maxMain": 30,
         "main": [
           {
-            "r": "R4",
-            "name": "Hemerage",
-            "reason": "Played last match"
-          },
-          {
-            "r": "R4",
-            "name": "Hải Anh 0612",
-            "reason": "Played last match"
-          },
-          {
-            "r": "R4",
-            "name": "yologuy",
-            "reason": "Played last match"
-          },
-          {
             "r": "R3",
             "name": "Vualidonzz",
-            "reason": "Played last match"
+            "reason": "1st"
+          },
+          {
+            "r": "R4",
+            "name": "Hemerage",
+            "reason": "2nd"
           },
           {
             "r": "R3",
             "name": "Marines Malevolent",
-            "reason": "Played last match"
+            "reason": "3rd"
           },
           {
             "r": "R3",
             "name": "Dầu Thơm MeoBính",
-            "reason": "Played last match"
+            "reason": "4th"
+          },
+          {
+            "r": "R4",
+            "name": "Hải Anh 0612",
+            "reason": "5th"
+          },
+          {
+            "r": "R4",
+            "name": "yologuy",
+            "reason": "6th"
           },
           {
             "r": "R3",
             "name": "Chivas2026",
-            "reason": "Played last match"
+            "reason": "7th"
           },
           {
             "r": "R3",
             "name": "Selnavi",
-            "reason": "Played last match"
+            "reason": "8th"
           },
           {
             "r": "R3",
             "name": "Phạm kánhh",
-            "reason": "Played last match"
+            "reason": "9th"
           },
           {
             "r": "R3",
             "name": "NorthFog",
-            "reason": "Played last match"
+            "reason": "10th"
           },
           {
             "r": "R3",
             "name": "ÒÓÔ",
-            "reason": "Played last match"
+            "reason": "11th"
           },
           {
             "r": "R3",
             "name": "Panda Force",
-            "reason": "Played last match"
+            "reason": "12th"
           },
           {
             "r": "R3",
             "name": "Nguyenngoctuan",
-            "reason": "Played last match"
+            "reason": "13th"
           },
           {
             "r": "R3",
             "name": "SanTa 1386",
-            "reason": "Played last match"
+            "reason": "14th"
           },
           {
             "r": "R3",
             "name": "danhoanh",
-            "reason": "Played last match"
+            "reason": "15th"
           },
           {
             "r": "R3",
             "name": "Tommy4014",
-            "reason": "Played last match"
+            "reason": "16th"
           },
           {
             "r": "R3",
             "name": "Tú Bướmm",
-            "reason": "Played last match"
+            "reason": "17th"
           }
         ],
         "subs": [],
