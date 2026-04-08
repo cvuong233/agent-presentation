@@ -52,8 +52,7 @@
       "MrAugust2886",
       "tâm1980",
       "Khanhanh96",
-      "Tú Bướmm",
-      "WitWiu"
+      "Tú Bướmm"
     ],
     "R2": [
       "hanubeast",
@@ -622,14 +621,19 @@
           {
             "r": "R3",
             "name": "cu tí nhỏ xíu",
-            "reason": "1st"
+            "reason": "21st"
           }
         ],
         "subs": [
           {
             "r": "R2",
             "name": "ntacutiiii",
-            "reason": "1 YC - dropped to sub (was 20th)"
+            "reason": "1 YC (was 20th)"
+          },
+          {
+            "r": "R4",
+            "name": "Rymi68",
+            "reason": "New to slot (overflow)"
           }
         ],
         "off": []
@@ -739,7 +743,13 @@
             "reason": "19th"
           }
         ],
-        "subs": [],
+        "subs": [
+          {
+            "r": "R2",
+            "name": "ntacutiiii",
+            "reason": "1 YC (new to slot)"
+          }
+        ],
         "off": []
       },
       "B": {
