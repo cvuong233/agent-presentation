@@ -109,6 +109,16 @@
   .reason.new-player { color: #a78bfa; }
   .reason.dayoff-reason { color: #8b5cf6; }
 
+  /* removed section */
+  .removed-block { margin: 20px 0 0; border-radius: 12px; overflow: hidden; border: 1px solid #ef444444; background: #16213e; }
+  .removed-block .section-header { background: linear-gradient(90deg, #1a0a0a, #2a0f0f); color: #ef4444; border-bottom: 1px solid #ef444433; }
+  .removed-block tbody { background: #1a0d0d; }
+  .removed-block td { padding: 6px 12px; border-bottom: 1px solid #1a1a2e; opacity: 0.7; }
+  .removed-block tr:last-child td { border-bottom: none; }
+  .removed-block tr:hover td { background: #2a1515; opacity: 1; }
+  .removed-block .reason { color: #ef4444; }
+  .removed-block .date { font-size: 0.72rem; color: #666; }
+
   /* empty state */
   .empty-note { padding: 12px 14px; font-size: 0.8rem; color: #555; font-style: italic; text-align: center; }
 </style>
@@ -137,6 +147,7 @@
     <div class="battle-card" id="sm-a"></div>
     <div class="battle-card" id="sm-b"></div>
   </div>
+  <div id="sm-removed"></div>
 </div>
 
 <div class="content" id="tab-hn">
@@ -144,6 +155,7 @@
     <div class="battle-card" id="hn-a"></div>
     <div class="battle-card" id="hn-b"></div>
   </div>
+  <div id="hn-removed"></div>
 </div>
 
 <script>
@@ -153,8 +165,8 @@ const I18N = {
     tab_sm: 'Bão Sa Mạc', tab_hn: 'Bão Hẻm Núi',
     updated: 'Cập nhật', team: 'Đội',
     main: 'Chính thức', sub: 'Dự bị', dayoff: 'Nghỉ phép', open: 'Trống',
-    main_header: '✅ ĐỘI CHÍNH', sub_header: '🔄 DỰ BỊ', dayoff_header: '😴 NGHỈ PHÉP',
-    player: 'Người chơi', reason: 'Ghi chú',
+    main_header: '✅ ĐỘI CHÍNH', sub_header: '🔄 DỰ BỊ', dayoff_header: '😴 NGHỈ PHÉP', removed_header: '❌ ĐÃ LOẠI',
+    player: 'Người chơi', reason: 'Ghi chú', date: 'Ngày',
     night: '🌙 Tối', morning: '☀️ Sáng', evening: '🌅 Chiều',
     transferred: 'Chuyển đội', new_to_slot: 'Mới vào đội',
     overflow: 'tràn', no_subs: 'Không có dự bị', no_dayoff: ''
@@ -164,8 +176,8 @@ const I18N = {
     tab_sm: 'Desert Storm Battle', tab_hn: 'Canyon Storm Battle',
     updated: 'Updated', team: 'Team',
     main: 'Main', sub: 'Sub', dayoff: 'Day-off', open: 'Open',
-    main_header: '✅ MAIN ROSTER', sub_header: '🔄 SUBSTITUTES', dayoff_header: '😴 DAY-OFF',
-    player: 'Player', reason: 'Note',
+    main_header: '✅ MAIN ROSTER', sub_header: '🔄 SUBSTITUTES', dayoff_header: '😴 DAY-OFF', removed_header: '❌ REMOVED',
+    player: 'Player', reason: 'Note', date: 'Date',
     night: '🌙 Night', morning: '☀️ Morning', evening: '🌅 Evening',
     transferred: 'Transferred', new_to_slot: 'New to slot',
     overflow: 'overflow', no_subs: 'No substitutes', no_dayoff: ''
@@ -292,6 +304,36 @@ function buildCard(mode, slot, data) {
   `;
 }
 
+function localizeRemoveReason(reason) {
+  if (currentLang === 'vi') {
+    // Use the part before " / " for Vietnamese
+    const parts = reason.split(' / ');
+    return parts[0] || reason;
+  }
+  // Use the part after " / " for English
+  const parts = reason.split(' / ');
+  return parts[1] || reason;
+}
+
+function buildRemovedSection(data) {
+  const removed = data.removed || [];
+  if (!removed.length) return '';
+  let rows = '';
+  for (const p of removed) {
+    rows += `<tr>
+      <td><span class="rank-badge ${p.rank.toLowerCase()}">${p.rank}</span></td>
+      <td class="player-name">${p.name}</td>
+      <td class="reason">${localizeRemoveReason(p.reason)}</td>
+      <td class="date">${p.date}</td>
+    </tr>`;
+  }
+  return `<div class="removed-block">
+    <div class="section-header">${t('removed_header')} <span class="section-count">(${removed.length})</span></div>
+    <table><thead><tr><th style="width:40px">R</th><th>${t('player')}</th><th>${t('reason')}</th><th style="width:80px">${t('date')}</th></tr></thead>
+    <tbody>${rows}</tbody></table>
+  </div>`;
+}
+
 function render(data) {
   document.getElementById('week-label').textContent = t('updated') + ': ' + (data.meta?.updated || '');
   ['sm','hn'].forEach(mode => {
@@ -299,6 +341,9 @@ function render(data) {
       const el = document.getElementById(`${mode}-${slot.toLowerCase()}`);
       if (el) el.innerHTML = buildCard(mode, slot, data);
     });
+    // Removed section below the grid
+    const removedEl = document.getElementById(`${mode}-removed`);
+    if (removedEl) removedEl.innerHTML = buildRemovedSection(data);
   });
 }
 
