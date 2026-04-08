@@ -828,5 +828,19 @@
         "dayoff": []
       }
     }
-  }
+  },
+  "removed": [
+    {
+      "name": "Mr Khoai Tây",
+      "rank": "R3",
+      "reason": "2 thẻ vàng liên tiếp / 2 consecutive YC",
+      "date": "2026-04-08"
+    },
+    {
+      "name": "Trần Thế Lươn",
+      "rank": "R3",
+      "reason": "Rời liên minh / Left alliance",
+      "date": "2026-04-08"
+    }
+  ]
 }
