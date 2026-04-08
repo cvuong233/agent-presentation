@@ -81,7 +81,8 @@
           "Aaaluan": 1439871,
           "tâm1980": 865826,
           "Shashank1411": 791522,
-          "PewPewBoi": 791109
+          "PewPewBoi": 791109,
+          "Trần Thế Lươn": 3593883
         }
       },
       "B": {
@@ -134,7 +135,8 @@
           "MrAugust2886": 2786767,
           "Đập Chai": 2629005,
           "tâm1980": 2216235,
-          "cường khùng": 1205353
+          "cường khùng": 1205353,
+          "Trần Thế Lươn": 4952310
         }
       },
       "B": {
@@ -496,12 +498,12 @@
         "subs": [],
         "off": [
           {
-            "r": "R3",
-            "name": "Mr Khoai Tây",
-            "reason": "2 thẻ vàng liên tiếp / 2 consecutive YC"
+            "r": "R4",
+            "name": "Rymi68",
+            "reason": "Chuyển sang SM-B / Transferred to SM-B"
           },
           {
-            "r": "R1",
+            "r": "R3",
             "name": "Trần Thế Lươn",
             "reason": "Rời liên minh / Left alliance"
           }
@@ -628,13 +630,7 @@
             "reason": "21st (overflow)"
           }
         ],
-        "off": [
-          {
-            "r": "R3",
-            "name": "Mr Khoai Tây",
-            "reason": "2 thẻ vàng liên tiếp / 2 consecutive YC"
-          }
-        ],
+        "off": [],
         "dayoff": []
       }
     },
@@ -747,11 +743,6 @@
         "off": [
           {
             "r": "R3",
-            "name": "Mr Khoai Tây",
-            "reason": "2 thẻ vàng liên tiếp / 2 consecutive YC"
-          },
-          {
-            "r": "R1",
             "name": "Trần Thế Lươn",
             "reason": "Rời liên minh / Left alliance"
           }
@@ -852,13 +843,7 @@
           }
         ],
         "subs": [],
-        "off": [
-          {
-            "r": "R3",
-            "name": "Mr Khoai Tây",
-            "reason": "2 thẻ vàng liên tiếp / 2 consecutive YC"
-          }
-        ],
+        "off": [],
         "dayoff": []
       }
     }
