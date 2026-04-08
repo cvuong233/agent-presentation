@@ -501,7 +501,7 @@
             "reason": "2 thẻ vàng liên tiếp / 2 consecutive YC"
           },
           {
-            "r": "R3",
+            "r": "R1",
             "name": "Trần Thế Lươn",
             "reason": "Rời liên minh / Left alliance"
           }
@@ -633,11 +633,6 @@
             "r": "R3",
             "name": "Mr Khoai Tây",
             "reason": "2 thẻ vàng liên tiếp / 2 consecutive YC"
-          },
-          {
-            "r": "R3",
-            "name": "Trần Thế Lươn",
-            "reason": "Rời liên minh / Left alliance"
           }
         ],
         "dayoff": []
@@ -756,7 +751,7 @@
             "reason": "2 thẻ vàng liên tiếp / 2 consecutive YC"
           },
           {
-            "r": "R3",
+            "r": "R1",
             "name": "Trần Thế Lươn",
             "reason": "Rời liên minh / Left alliance"
           }
@@ -862,11 +857,6 @@
             "r": "R3",
             "name": "Mr Khoai Tây",
             "reason": "2 thẻ vàng liên tiếp / 2 consecutive YC"
-          },
-          {
-            "r": "R3",
-            "name": "Trần Thế Lươn",
-            "reason": "Rời liên minh / Left alliance"
           }
         ],
         "dayoff": []
