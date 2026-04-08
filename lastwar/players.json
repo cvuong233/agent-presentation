@@ -396,7 +396,7 @@
       "consecutive_misses": 1,
       "yellow_cards": 1,
       "hn_team": "A",
-      "sm_team": "B"
+      "sm_team": "A"
     },
     "cu tí nhỏ xíu": {
       "rank": "R3",
@@ -495,7 +495,13 @@
             "reason": "16th"
           }
         ],
-        "subs": [],
+        "subs": [
+          {
+            "r": "R2",
+            "name": "ntacutiiii",
+            "reason": "1 YC (transferred from SM-B)"
+          }
+        ],
         "off": [
           {
             "r": "R4",
@@ -619,11 +625,6 @@
           }
         ],
         "subs": [
-          {
-            "r": "R2",
-            "name": "ntacutiiii",
-            "reason": "1 YC (was 20th)"
-          },
           {
             "r": "R3",
             "name": "cu tí nhỏ xíu",
