@@ -147,7 +147,6 @@
     <div class="battle-card" id="sm-a"></div>
     <div class="battle-card" id="sm-b"></div>
   </div>
-  <div id="sm-removed"></div>
 </div>
 
 <div class="content" id="tab-hn">
@@ -155,8 +154,9 @@
     <div class="battle-card" id="hn-a"></div>
     <div class="battle-card" id="hn-b"></div>
   </div>
-  <div id="hn-removed"></div>
 </div>
+
+<div id="global-removed" style="padding:0 24px 32px"></div>
 
 <script>
 const I18N = {
@@ -341,10 +341,10 @@ function render(data) {
       const el = document.getElementById(`${mode}-${slot.toLowerCase()}`);
       if (el) el.innerHTML = buildCard(mode, slot, data);
     });
-    // Removed section below the grid
-    const removedEl = document.getElementById(`${mode}-removed`);
-    if (removedEl) removedEl.innerHTML = buildRemovedSection(data);
   });
+  // Global removed section (once, below all tabs)
+  const removedEl = document.getElementById('global-removed');
+  if (removedEl) removedEl.innerHTML = buildRemovedSection(data);
 }
 
 function switchTab(tab) {
