@@ -619,9 +619,9 @@
             "reason": "19th"
           },
           {
-            "r": "R3",
-            "name": "cu tí nhỏ xíu",
-            "reason": "21st"
+            "r": "R4",
+            "name": "Rymi68",
+            "reason": "Transferred from SM-A"
           }
         ],
         "subs": [
@@ -631,9 +631,9 @@
             "reason": "1 YC (was 20th)"
           },
           {
-            "r": "R4",
-            "name": "Rymi68",
-            "reason": "New to slot (overflow)"
+            "r": "R3",
+            "name": "cu tí nhỏ xíu",
+            "reason": "21st (overflow)"
           }
         ],
         "off": []
