@@ -7,9 +7,13 @@
 <style>
   * { box-sizing: border-box; margin: 0; padding: 0; }
   body { font-family: 'Segoe UI', sans-serif; background: #0f0f1a; color: #e0e0e0; min-height: 100vh; }
-  header { background: linear-gradient(135deg, #1a1a2e, #16213e); padding: 20px 24px; border-bottom: 2px solid #e94560; display: flex; align-items: center; gap: 12px; }
+  header { background: linear-gradient(135deg, #1a1a2e, #16213e); padding: 20px 24px; border-bottom: 2px solid #e94560; display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
   header h1 { font-size: 1.4rem; color: #fff; }
-  header span { font-size: 0.85rem; color: #888; margin-left: auto; }
+  header span { font-size: 0.85rem; color: #888; }
+  .header-right { margin-left: auto; display: flex; align-items: center; gap: 12px; }
+  .lang-toggle { display: flex; background: #0f0f1a; border-radius: 6px; overflow: hidden; border: 1px solid #2a2a3e; }
+  .lang-btn { padding: 4px 12px; font-size: 0.78rem; font-weight: 600; cursor: pointer; border: none; background: transparent; color: #888; transition: all 0.2s; }
+  .lang-btn.active { background: #e94560; color: #fff; }
   .tabs { display: flex; gap: 8px; padding: 16px 24px 0; background: #0f0f1a; }
   .tab { padding: 8px 20px; border-radius: 8px 8px 0 0; cursor: pointer; font-weight: 600; font-size: 0.9rem; border: 1px solid #2a2a3e; border-bottom: none; color: #888; background: #1a1a2e; transition: all 0.2s; }
   .tab.active { background: #16213e; color: #fff; border-color: #e94560; }
@@ -21,11 +25,13 @@
   .card-header { padding: 14px 18px; display: flex; align-items: center; gap: 10px; }
   .card-header.night { background: linear-gradient(90deg, #1a0533, #2d1b4e); border-bottom: 2px solid #7c3aed; }
   .card-header.morning { background: linear-gradient(90deg, #0a1e3d, #0f3460); border-bottom: 2px solid #0ea5e9; }
+  .card-header.evening { background: linear-gradient(90deg, #2d1b0e, #3d2b1e); border-bottom: 2px solid #f97316; }
   .card-header h2 { font-size: 1rem; font-weight: 700; }
   .card-header .time { font-size: 0.8rem; color: #aaa; margin-left: auto; }
   .slot-badge { font-size: 0.75rem; padding: 2px 8px; border-radius: 20px; font-weight: 600; }
   .night .slot-badge { background: #7c3aed33; color: #a78bfa; border: 1px solid #7c3aed; }
   .morning .slot-badge { background: #0ea5e933; color: #7dd3fc; border: 1px solid #0ea5e9; }
+  .evening .slot-badge { background: #f9731633; color: #fdba74; border: 1px solid #f97316; }
   .section-counts { display: flex; gap: 10px; padding: 8px 18px; background: #0f0f1a; flex-wrap: wrap; }
   .count-badge { font-size: 0.78rem; padding: 3px 10px; border-radius: 12px; font-weight: 600; }
   .count-main { background: #22c55e22; color: #22c55e; border: 1px solid #22c55e44; }
@@ -54,20 +60,25 @@
   .reason.off { color: #ef4444; }
   .sub-row td { opacity: 0.75; }
   .off-row td { opacity: 0.55; }
-  .open-slots { color: #6b7280; font-size: 0.8rem; padding: 10px 12px; text-align: center; background: #0a0d1a; border-top: 1px dashed #2a2a3e; font-style: italic; }
 </style>
 </head>
 <body>
 
 <header>
   <div>⚔️</div>
-  <h1>ACMB — Battle Lineup</h1>
-  <span id="week-label">Tuần 2026-03-30</span>
+  <h1 data-i18n="title">ACMB — Đội Hình Chiến Đấu</h1>
+  <div class="header-right">
+    <span id="week-label"></span>
+    <div class="lang-toggle">
+      <button class="lang-btn active" onclick="setLang('vi')">🇻🇳 VI</button>
+      <button class="lang-btn" onclick="setLang('en')">🇬🇧 EN</button>
+    </div>
+  </div>
 </header>
 
 <div class="tabs">
-  <div class="tab active" onclick="switchTab('sm')">🏜️ Bão Sa Mạc</div>
-  <div class="tab" onclick="switchTab('hn')">⛰️ Bão Hẻm Núi</div>
+  <div class="tab active" onclick="switchTab('sm')">🏜️ <span data-i18n="tab_sm">Bão Sa Mạc</span></div>
+  <div class="tab" onclick="switchTab('hn')">⛰️ <span data-i18n="tab_hn">Bão Hẻm Núi</span></div>
 </div>
 
 <div class="content active" id="tab-sm">
@@ -85,34 +96,118 @@
 </div>
 
 <script>
+/* ── i18n ── */
+const I18N = {
+  vi: {
+    title: 'ACMB — Đội Hình Chiến Đấu',
+    tab_sm: 'Bão Sa Mạc',
+    tab_hn: 'Bão Hẻm Núi',
+    updated: 'Cập nhật',
+    team: 'Đội',
+    main: 'Chính',
+    sub: 'Dự bị',
+    dayoff: 'Nghỉ',
+    open: 'Trống',
+    player: 'Người chơi',
+    reason: 'Ghi chú',
+    subs_label: '🔄 Dự bị',
+    off_label: '❌ Nghỉ',
+    night: '🌙 Tối',
+    morning: '☀️ Sáng',
+    evening: '🌅 Chiều',
+    transferred: 'Chuyển đội',
+    new_to_slot: 'Mới vào đội',
+    yc1: '1 thẻ vàng',
+    yc2: '2 thẻ vàng - loại',
+    overflow: 'tràn'
+  },
+  en: {
+    title: 'ACMB — Battle Lineup',
+    tab_sm: 'Storm Mountain',
+    tab_hn: 'Canyon Storm',
+    updated: 'Updated',
+    team: 'Team',
+    main: 'Main',
+    sub: 'Sub',
+    dayoff: 'Day-off',
+    open: 'Open',
+    player: 'Player',
+    reason: 'Note',
+    subs_label: '🔄 Substitutes',
+    off_label: '❌ Day-off',
+    night: '🌙 Night',
+    morning: '☀️ Morning',
+    evening: '🌅 Evening',
+    transferred: 'Transferred',
+    new_to_slot: 'New to slot',
+    yc1: '1 YC',
+    yc2: '2 YC - removed',
+    overflow: 'overflow'
+  }
+};
+
+let currentLang = localStorage.getItem('acmb_lang') || 'vi';
+let loadedData = null;
+
+function t(key) { return (I18N[currentLang] || I18N.vi)[key] || key; }
+
+function setLang(lang) {
+  currentLang = lang;
+  localStorage.setItem('acmb_lang', lang);
+  document.querySelectorAll('.lang-btn').forEach(b => b.classList.toggle('active', b.textContent.includes(lang.toUpperCase())));
+  document.querySelectorAll('[data-i18n]').forEach(el => {
+    const key = el.getAttribute('data-i18n');
+    el.textContent = t(key);
+  });
+  if (loadedData) render(loadedData);
+}
+
+function localizeReason(reason) {
+  if (currentLang === 'vi') {
+    return reason
+      .replace('Transferred from SM-A', 'Chuyển từ BSM-A')
+      .replace('Transferred from SM-B', 'Chuyển từ BSM-B')
+      .replace('Transferred from HN-A', 'Chuyển từ HN-A')
+      .replace('Transferred from HN-B', 'Chuyển từ HN-B')
+      .replace('Transferred', t('transferred'))
+      .replace('New to slot', t('new_to_slot'))
+      .replace(/1 YC/g, '1 thẻ vàng')
+      .replace(/2 YC - removed/g, '2 thẻ vàng - loại')
+      .replace('overflow', 'tràn')
+      .replace('was ', 'hạng ');
+  }
+  return reason;
+}
+
+/* ── rendering ── */
 const RANK_ORDER = {R5:0, R4:1, R3:2, R2:3, R1:4};
 function rankSort(a, b) {
   return (RANK_ORDER[a.r] ?? 9) - (RANK_ORDER[b.r] ?? 9);
 }
 
 function reasonClass(p) {
-  if (p.type === 'new') return 'new-player';
-  if (p.type === 'off') return 'off';
-  if (p.type === 'warning') return 'warning';
+  const r = (p.reason || '').toLowerCase();
+  if (r.includes('yc') || r.includes('thẻ vàng')) return r.includes('2') ? 'off' : 'warning';
+  if (r.includes('transfer') || r.includes('chuyển') || r.includes('new') || r.includes('mới')) return 'new-player';
   return 'positive';
 }
 
 function buildCard(mode, slot, data) {
   const d = data.lineup[mode][slot];
-  const isNight = d.period === 'night';
-  const periodClass = isNight ? 'night' : 'morning';
-  const periodLabel = isNight ? '🌙 Night' : '☀️ Morning';
+  const periodClass = d.period === 'night' ? 'night' : d.period === 'evening' ? 'evening' : 'morning';
+  const periodLabel = t(d.period);
   const openSlots = d.maxMain - d.main.length;
 
   const sorted = [...d.main].sort(rankSort);
   const sortedSubs = [...d.subs].sort(rankSort);
-  const sortedOff = [...d.off].sort(rankSort);
+  const sortedOff = [...(d.off || [])].sort(rankSort);
 
   const counts = `
     <div class="section-counts">
-      <span class="count-badge count-main">✅ Main: ${d.main.length}/${d.maxMain}</span>
-      ${d.subs.length ? `<span class="count-badge count-sub">🔄 Sub: ${d.subs.length}</span>` : ''}
-      ${d.off.length ? `<span class="count-badge count-off">❌ Day-off: ${d.off.length}</span>` : ''}      ${openSlots > 0 ? `<span class="count-badge count-open">🔓 Open: ${openSlots}</span>` : ''}
+      <span class="count-badge count-main">✅ ${t('main')}: ${d.main.length}/${d.maxMain}</span>
+      ${d.subs.length ? `<span class="count-badge count-sub">🔄 ${t('sub')}: ${d.subs.length}</span>` : ''}
+      ${sortedOff.length ? `<span class="count-badge count-off">❌ ${t('dayoff')}: ${sortedOff.length}</span>` : ''}
+      ${openSlots > 0 ? `<span class="count-badge count-open">🔓 ${t('open')}: ${openSlots}</span>` : ''}
     </div>
     <div class="section-counts" style="padding-top:0">
       ${['R5','R4','R3','R2','R1'].map(r => {
@@ -133,32 +228,32 @@ function buildCard(mode, slot, data) {
       <td class="num">${num++}</td>
       <td><span class="rank-badge ${p.r.toLowerCase()}">${p.r}</span></td>
       <td class="player-name">${p.name}</td>
-      <td class="reason ${reasonClass(p)}">${p.reason}</td>
+      <td class="reason ${reasonClass(p)}">${localizeReason(p.reason)}</td>
     </tr>`;
   }
 
   let subRows = '';
   if (sortedSubs.length > 0) {
-    subRows += `<tr class="section-divider"><td colspan="4">🔄 Substitutes (${sortedSubs.length})</td></tr>`;
+    subRows += `<tr class="section-divider"><td colspan="4">${t('subs_label')} (${sortedSubs.length})</td></tr>`;
     sortedSubs.forEach((p, i) => {
       subRows += `<tr class="sub-row">
         <td class="num">S${i+1}</td>
         <td><span class="rank-badge ${p.r.toLowerCase()}">${p.r}</span></td>
         <td class="player-name">${p.name}</td>
-        <td class="reason ${reasonClass(p)}">${p.reason}</td>
+        <td class="reason ${reasonClass(p)}">${localizeReason(p.reason)}</td>
       </tr>`;
     });
   }
 
   let offRows = '';
   if (sortedOff.length > 0) {
-    offRows += `<tr class="section-divider"><td colspan="4">❌ Day-off (${sortedOff.length})</td></tr>`;
+    offRows += `<tr class="section-divider"><td colspan="4">${t('off_label')} (${sortedOff.length})</td></tr>`;
     sortedOff.forEach((p, i) => {
       offRows += `<tr class="off-row">
         <td class="num">-</td>
         <td><span class="rank-badge ${p.r.toLowerCase()}">${p.r}</span></td>
         <td class="player-name">${p.name}</td>
-        <td class="reason off">${p.reason}</td>
+        <td class="reason off">${localizeReason(p.reason)}</td>
       </tr>`;
     });
   }
@@ -166,24 +261,25 @@ function buildCard(mode, slot, data) {
   return `
     <div class="card-header ${periodClass}">
       <div>
-        <h2>Team ${slot}</h2>
-        <div style="font-size:0.78rem;color:#aaa;margin-top:2px">${d.date}</div>
+        <h2>${t('team')} ${slot}</h2>
+        <div style="font-size:0.78rem;color:#aaa;margin-top:2px">${d.date || ''}</div>
       </div>
       <span class="slot-badge">${periodLabel} ${d.time}</span>
     </div>
     ${counts}
     <table>
-      <thead><tr><th>#</th><th>R</th><th>Player</th><th>Reason</th></tr></thead>
+      <thead><tr><th>#</th><th>R</th><th>${t('player')}</th><th>${t('reason')}</th></tr></thead>
       <tbody>${rows}${subRows}${offRows}</tbody>
     </table>
   `;
 }
 
 function render(data) {
-  document.getElementById('week-label').textContent = 'Cập nhật: ' + (data.meta && data.meta.updated || '');
+  document.getElementById('week-label').textContent = t('updated') + ': ' + (data.meta && data.meta.updated || '');
   ['sm','hn'].forEach(mode => {
     ['A','B'].forEach(slot => {
-      document.getElementById(`${mode}-${slot.toLowerCase()}`).innerHTML = buildCard(mode, slot, data);
+      const el = document.getElementById(`${mode}-${slot.toLowerCase()}`);
+      if (el) el.innerHTML = buildCard(mode, slot, data);
     });
   });
 }
@@ -194,9 +290,13 @@ function switchTab(tab) {
   document.getElementById('tab-'+tab).classList.add('active');
 }
 
+/* ── init ── */
 fetch('./players.json')
   .then(r => r.json())
-  .then(data => render(data))
+  .then(data => {
+    loadedData = data;
+    setLang(currentLang);
+  })
   .catch(e => document.body.innerHTML += `<p style="color:red;padding:20px">Failed to load players.json: ${e}</p>`);
 </script>
 </body>
