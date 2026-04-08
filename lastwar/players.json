@@ -58,9 +58,7 @@
       "hanubeast",
       "ntacutiiii"
     ],
-    "R1": [
-      "Trần Thế Lươn"
-    ]
+    "R1": []
   },
   "last_matches": {
     "sm": {
@@ -74,7 +72,6 @@
           "Mr Rama": 4436190,
           "Haizzzzzzzzzz": 3783692,
           "Rymi68": 3688487,
-          "Trần Thế Lươn": 3593883,
           "zdevils": 3359819,
           "cường khùng": 2937721,
           "wolfwitch": 1959793,
@@ -125,7 +122,6 @@
           "Rymi68": 5989774,
           "zdevils": 5387131,
           "LinLin": 5161232,
-          "Trần Thế Lươn": 4952310,
           "Haizzzzzzzzzz": 4792018,
           "Mr Rama": 4512468,
           "Lerxinhiu": 4300120,
@@ -399,11 +395,6 @@
       "consecutive_misses": 0,
       "yellow_cards": 0
     },
-    "Trần Thế Lươn": {
-      "rank": "R1",
-      "consecutive_misses": 0,
-      "yellow_cards": 0
-    },
     "ntacutiiii": {
       "rank": "R2",
       "consecutive_misses": 1,
@@ -451,11 +442,6 @@
             "r": "R4",
             "name": "Haizzzzzzzzzz",
             "reason": "5th"
-          },
-          {
-            "r": "R1",
-            "name": "Trần Thế Lươn",
-            "reason": "6th"
           },
           {
             "r": "R4",
@@ -666,11 +652,6 @@
             "r": "R4",
             "name": "LinLin",
             "reason": "4th"
-          },
-          {
-            "r": "R1",
-            "name": "Trần Thế Lươn",
-            "reason": "5th"
           },
           {
             "r": "R4",
