@@ -494,7 +494,18 @@
           }
         ],
         "subs": [],
-        "off": [],
+        "off": [
+          {
+            "r": "R3",
+            "name": "Mr Khoai Tây",
+            "reason": "2 thẻ vàng liên tiếp / 2 consecutive YC"
+          },
+          {
+            "r": "R3",
+            "name": "Trần Thế Lươn",
+            "reason": "Rời liên minh / Left alliance"
+          }
+        ],
         "dayoff": []
       },
       "B": {
@@ -600,9 +611,9 @@
             "reason": "19th"
           },
           {
-            "r": "R3",
-            "name": "cu tí nhỏ xíu",
-            "reason": "21st"
+            "r": "R4",
+            "name": "Rymi68",
+            "reason": "Transferred from SM-A"
           }
         ],
         "subs": [
@@ -612,12 +623,23 @@
             "reason": "1 YC (was 20th)"
           },
           {
-            "r": "R4",
-            "name": "Rymi68",
-            "reason": "Transferred from SM-A (overflow)"
+            "r": "R3",
+            "name": "cu tí nhỏ xíu",
+            "reason": "21st (overflow)"
           }
         ],
-        "off": [],
+        "off": [
+          {
+            "r": "R3",
+            "name": "Mr Khoai Tây",
+            "reason": "2 thẻ vàng liên tiếp / 2 consecutive YC"
+          },
+          {
+            "r": "R3",
+            "name": "Trần Thế Lươn",
+            "reason": "Rời liên minh / Left alliance"
+          }
+        ],
         "dayoff": []
       }
     },
@@ -727,7 +749,18 @@
             "reason": "1 YC (new to slot)"
           }
         ],
-        "off": [],
+        "off": [
+          {
+            "r": "R3",
+            "name": "Mr Khoai Tây",
+            "reason": "2 thẻ vàng liên tiếp / 2 consecutive YC"
+          },
+          {
+            "r": "R3",
+            "name": "Trần Thế Lươn",
+            "reason": "Rời liên minh / Left alliance"
+          }
+        ],
         "dayoff": []
       },
       "B": {
@@ -824,7 +857,18 @@
           }
         ],
         "subs": [],
-        "off": [],
+        "off": [
+          {
+            "r": "R3",
+            "name": "Mr Khoai Tây",
+            "reason": "2 thẻ vàng liên tiếp / 2 consecutive YC"
+          },
+          {
+            "r": "R3",
+            "name": "Trần Thế Lươn",
+            "reason": "Rời liên minh / Left alliance"
+          }
+        ],
         "dayoff": []
       }
     }

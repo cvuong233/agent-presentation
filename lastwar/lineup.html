@@ -156,7 +156,7 @@
   </div>
 </div>
 
-<div id="global-removed" style="padding:0 24px 32px"></div>
+
 
 <script>
 const I18N = {
@@ -280,6 +280,26 @@ function buildCard(mode, slot, data) {
     </div>`;
   }
 
+  // Removed/off section (per card)
+  const off = d.off || [];
+  let removedSection = '';
+  if (off.length > 0) {
+    let offRows = '';
+    for (const p of off) {
+      offRows += `<tr>
+        <td class="num">—</td>
+        <td><span class="rank-badge ${p.r.toLowerCase()}">${p.r}</span></td>
+        <td class="player-name">${p.name}</td>
+        <td class="reason" style="color:#ef4444">${localizeRemoveReason(p.reason)}</td>
+      </tr>`;
+    }
+    removedSection = `<div class="section-block" style="border-color:#ef444444;margin-bottom:14px">
+      <div class="section-header" style="background:linear-gradient(90deg,#1a0a0a,#2a0f0f);color:#ef4444;border-bottom:1px solid #ef444433">${t('removed_header')} <span class="section-count">(${off.length})</span></div>
+      <table style="background:#1a0d0d"><thead><tr><th style="width:32px">#</th><th style="width:40px">R</th><th>${t('player')}</th><th>${t('reason')}</th></tr></thead>
+      <tbody>${offRows}</tbody></table>
+    </div>`;
+  }
+
   // Dayoff section (only if there are dayoff players)
   let dayoffSection = '';
   if (dayoff.length > 0) {
@@ -301,6 +321,7 @@ function buildCard(mode, slot, data) {
     ${mainSection}
     ${subSection}
     ${dayoffSection}
+    ${removedSection}
   `;
 }
 
@@ -315,25 +336,6 @@ function localizeRemoveReason(reason) {
   return parts[1] || reason;
 }
 
-function buildRemovedSection(data) {
-  const removed = data.removed || [];
-  if (!removed.length) return '';
-  let rows = '';
-  for (const p of removed) {
-    rows += `<tr>
-      <td><span class="rank-badge ${p.rank.toLowerCase()}">${p.rank}</span></td>
-      <td class="player-name">${p.name}</td>
-      <td class="reason">${localizeRemoveReason(p.reason)}</td>
-      <td class="date">${p.date}</td>
-    </tr>`;
-  }
-  return `<div class="removed-block">
-    <div class="section-header">${t('removed_header')} <span class="section-count">(${removed.length})</span></div>
-    <table><thead><tr><th style="width:40px">R</th><th>${t('player')}</th><th>${t('reason')}</th><th style="width:80px">${t('date')}</th></tr></thead>
-    <tbody>${rows}</tbody></table>
-  </div>`;
-}
-
 function render(data) {
   document.getElementById('week-label').textContent = t('updated') + ': ' + (data.meta?.updated || '');
   ['sm','hn'].forEach(mode => {
@@ -342,9 +344,7 @@ function render(data) {
       if (el) el.innerHTML = buildCard(mode, slot, data);
     });
   });
-  // Global removed section (once, below all tabs)
-  const removedEl = document.getElementById('global-removed');
-  if (removedEl) removedEl.innerHTML = buildRemovedSection(data);
+
 }
 
 function switchTab(tab) {
