@@ -131,7 +131,9 @@
           "tâm1980": 3608284,
           "MrAugust2886": 3480937,
           "Mr Rama": 2939886,
-          "Thanh Tân 99": 485507
+          "Thanh Tân 99": 485507,
+          "Aaaluan": 2481166,
+          "Shashank1411": 1956308
         }
       },
       "B": {
@@ -223,8 +225,8 @@
     },
     "Shashank1411": {
       "rank": "R3",
-      "consecutive_misses": 1,
-      "yellow_cards": 1
+      "consecutive_misses": 0,
+      "yellow_cards": 0
     },
     "Nguyenngoctuan": {
       "rank": "R3",
@@ -338,8 +340,8 @@
     },
     "Aaaluan": {
       "rank": "R3",
-      "consecutive_misses": 1,
-      "yellow_cards": 1
+      "consecutive_misses": 0,
+      "yellow_cards": 0
     },
     "MrAugust2886": {
       "rank": "R3",
@@ -705,8 +707,18 @@
           },
           {
             "r": "R3",
-            "name": "Thanh Tân 99",
+            "name": "Aaaluan",
             "reason": "14th"
+          },
+          {
+            "r": "R3",
+            "name": "Shashank1411",
+            "reason": "15th"
+          },
+          {
+            "r": "R3",
+            "name": "Thanh Tân 99",
+            "reason": "16th"
           }
         ],
         "subs": [
@@ -723,16 +735,6 @@
           {
             "r": "R3",
             "name": "Indefatigabl3",
-            "reason": "1 YC - vắng mặt / 1 YC - absent"
-          },
-          {
-            "r": "R3",
-            "name": "Shashank1411",
-            "reason": "1 YC - vắng mặt / 1 YC - absent"
-          },
-          {
-            "r": "R3",
-            "name": "Aaaluan",
             "reason": "1 YC - vắng mặt / 1 YC - absent"
           }
         ],
