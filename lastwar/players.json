@@ -390,8 +390,8 @@
     },
     "ntacutiiii": {
       "rank": "R2",
-      "consecutive_misses": 1,
-      "yellow_cards": 1,
+      "consecutive_misses": 0,
+      "yellow_cards": 0,
       "hn_team": "A",
       "sm_team": "A"
     },
@@ -490,15 +490,14 @@
             "r": "R3",
             "name": "PewPewBoi",
             "reason": "16th"
-          }
-        ],
-        "subs": [
+          },
           {
             "r": "R2",
             "name": "ntacutiiii",
-            "reason": "1 YC (transferred from SM-B)"
+            "reason": "Transferred from SM-B"
           }
         ],
+        "subs": [],
         "off": [
           {
             "r": "R4",
