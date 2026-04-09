@@ -118,25 +118,20 @@
         "date": "2026-04-02",
         "slot": "night 21:30",
         "scores": {
-          "Hello AE": 8448381,
-          "Rymi68": 5989774,
-          "zdevils": 5387131,
-          "LinLin": 5161232,
-          "Haizzzzzzzzzz": 4792018,
-          "Mr Rama": 4512468,
-          "Lerxinhiu": 4300120,
-          "wolfwitch": 4252639,
-          "Thanh Tân 99": 3950890,
-          "Indefatigabl3": 3626665,
-          "WitWiu": 3591008,
-          "anh thợ sửa máy": 3297706,
-          "Shashank1411": 3246698,
-          "Aaaluan": 2831596,
-          "MrAugust2886": 2786767,
-          "Đập Chai": 2629005,
-          "tâm1980": 2216235,
-          "cường khùng": 1205353,
-          "Trần Thế Lươn": 4952310
+          "Hello AE": 10604919,
+          "Lerxinhiu": 6407974,
+          "Rymi68": 6088596,
+          "LinLin": 5643695,
+          "Đập Chai": 4733288,
+          "zdevils": 4537386,
+          "WitWiu": 4522451,
+          "cường khùng": 4153517,
+          "wolfwitch": 4107231,
+          "anh thợ sửa máy": 3982813,
+          "tâm1980": 3608284,
+          "MrAugust2886": 3480937,
+          "Mr Rama": 2939886,
+          "Thanh Tân 99": 485507
         }
       },
       "B": {
@@ -172,8 +167,8 @@
     },
     "Haizzzzzzzzzz": {
       "rank": "R4",
-      "consecutive_misses": 0,
-      "yellow_cards": 0
+      "consecutive_misses": 1,
+      "yellow_cards": 1
     },
     "cường khùng": {
       "rank": "R4",
@@ -228,8 +223,8 @@
     },
     "Shashank1411": {
       "rank": "R3",
-      "consecutive_misses": 0,
-      "yellow_cards": 0
+      "consecutive_misses": 1,
+      "yellow_cards": 1
     },
     "Nguyenngoctuan": {
       "rank": "R3",
@@ -318,8 +313,8 @@
     },
     "Indefatigabl3": {
       "rank": "R3",
-      "consecutive_misses": 0,
-      "yellow_cards": 0
+      "consecutive_misses": 1,
+      "yellow_cards": 1
     },
     "Thanh Tân 99": {
       "rank": "R3",
@@ -343,8 +338,8 @@
     },
     "Aaaluan": {
       "rank": "R3",
-      "consecutive_misses": 0,
-      "yellow_cards": 0
+      "consecutive_misses": 1,
+      "yellow_cards": 1
     },
     "MrAugust2886": {
       "rank": "R3",
@@ -649,13 +644,13 @@
             "reason": "1st"
           },
           {
-            "r": "R4",
-            "name": "Rymi68",
+            "r": "R5",
+            "name": "Lerxinhiu",
             "reason": "2nd"
           },
           {
             "r": "R4",
-            "name": "zdevils",
+            "name": "Rymi68",
             "reason": "3rd"
           },
           {
@@ -664,74 +659,54 @@
             "reason": "4th"
           },
           {
-            "r": "R4",
-            "name": "Haizzzzzzzzzz",
+            "r": "R3",
+            "name": "Đập Chai",
             "reason": "5th"
           },
           {
-            "r": "R3",
-            "name": "Mr Rama",
+            "r": "R4",
+            "name": "zdevils",
             "reason": "6th"
-          },
-          {
-            "r": "R5",
-            "name": "Lerxinhiu",
-            "reason": "7th"
-          },
-          {
-            "r": "R3",
-            "name": "wolfwitch",
-            "reason": "8th"
-          },
-          {
-            "r": "R3",
-            "name": "Thanh Tân 99",
-            "reason": "9th"
-          },
-          {
-            "r": "R3",
-            "name": "Indefatigabl3",
-            "reason": "10th"
           },
           {
             "r": "R3",
             "name": "WitWiu",
-            "reason": "11th"
-          },
-          {
-            "r": "R3",
-            "name": "anh thợ sửa máy",
-            "reason": "12th"
-          },
-          {
-            "r": "R3",
-            "name": "Shashank1411",
-            "reason": "13th"
-          },
-          {
-            "r": "R3",
-            "name": "Aaaluan",
-            "reason": "14th"
-          },
-          {
-            "r": "R3",
-            "name": "MrAugust2886",
-            "reason": "15th"
-          },
-          {
-            "r": "R3",
-            "name": "Đập Chai",
-            "reason": "16th"
-          },
-          {
-            "r": "R3",
-            "name": "tâm1980",
-            "reason": "17th"
+            "reason": "7th"
           },
           {
             "r": "R4",
             "name": "cường khùng",
-            "reason": "18th"
+            "reason": "8th"
+          },
+          {
+            "r": "R3",
+            "name": "wolfwitch",
+            "reason": "9th"
+          },
+          {
+            "r": "R3",
+            "name": "anh thợ sửa máy",
+            "reason": "10th"
+          },
+          {
+            "r": "R3",
+            "name": "tâm1980",
+            "reason": "11th"
+          },
+          {
+            "r": "R3",
+            "name": "MrAugust2886",
+            "reason": "12th"
+          },
+          {
+            "r": "R3",
+            "name": "Mr Rama",
+            "reason": "13th"
+          },
+          {
+            "r": "R3",
+            "name": "Thanh Tân 99",
+            "reason": "14th"
           }
         ],
         "subs": [
@@ -742,6 +717,26 @@
           }
         ],
         "off": [
+          {
+            "r": "R4",
+            "name": "Haizzzzzzzzzz",
+            "reason": "1 YC - vang mat / 1 YC - absent"
+          },
+          {
+            "r": "R3",
+            "name": "Indefatigabl3",
+            "reason": "1 YC - vang mat / 1 YC - absent"
+          },
+          {
+            "r": "R3",
+            "name": "Shashank1411",
+            "reason": "1 YC - vang mat / 1 YC - absent"
+          },
+          {
+            "r": "R3",
+            "name": "Aaaluan",
+            "reason": "1 YC - vang mat / 1 YC - absent"
+          },
           {
             "r": "R3",
             "name": "Trần Thế Lươn",
