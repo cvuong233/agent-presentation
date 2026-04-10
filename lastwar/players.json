@@ -157,237 +157,549 @@
   "players": {
     "Lerxinhiu": {
       "rank": "R5",
-      "consecutive_misses": 0,
-      "yellow_cards": 0
+      "yc": {
+        "hn": 0,
+        "sm": 0
+      },
+      "cm": {
+        "hn": 0,
+        "sm": 0
+      }
     },
     "cường khùng": {
       "rank": "R4",
-      "consecutive_misses": 0,
-      "yellow_cards": 0
+      "yc": {
+        "hn": 0,
+        "sm": 0
+      },
+      "cm": {
+        "hn": 0,
+        "sm": 0
+      }
     },
     "LinLin": {
       "rank": "R4",
-      "consecutive_misses": 0,
-      "yellow_cards": 0
+      "yc": {
+        "hn": 0,
+        "sm": 0
+      },
+      "cm": {
+        "hn": 0,
+        "sm": 0
+      }
     },
     "Rymi68": {
       "rank": "R4",
-      "consecutive_misses": 0,
-      "yellow_cards": 0,
-      "sm_team": "B"
+      "sm_team": "B",
+      "yc": {
+        "hn": 0,
+        "sm": 0
+      },
+      "cm": {
+        "hn": 0,
+        "sm": 0
+      }
     },
     "Hải Anh 0612": {
       "rank": "R4",
-      "consecutive_misses": 0,
-      "yellow_cards": 0
+      "yc": {
+        "hn": 0,
+        "sm": 0
+      },
+      "cm": {
+        "hn": 0,
+        "sm": 0
+      }
     },
     "yologuy": {
       "rank": "R4",
-      "consecutive_misses": 0,
-      "yellow_cards": 0
+      "yc": {
+        "hn": 0,
+        "sm": 0
+      },
+      "cm": {
+        "hn": 0,
+        "sm": 0
+      }
     },
     "Hello AE": {
       "rank": "R4",
-      "consecutive_misses": 0,
-      "yellow_cards": 0
+      "yc": {
+        "hn": 0,
+        "sm": 0
+      },
+      "cm": {
+        "hn": 0,
+        "sm": 0
+      }
     },
     "Hemerage": {
       "rank": "R4",
-      "consecutive_misses": 0,
-      "yellow_cards": 0
+      "yc": {
+        "hn": 0,
+        "sm": 0
+      },
+      "cm": {
+        "hn": 0,
+        "sm": 0
+      }
     },
     "zdevils": {
       "rank": "R4",
-      "consecutive_misses": 0,
-      "yellow_cards": 0
+      "yc": {
+        "hn": 0,
+        "sm": 0
+      },
+      "cm": {
+        "hn": 0,
+        "sm": 0
+      }
     },
     "Mr Rama": {
       "rank": "R3",
-      "consecutive_misses": 0,
-      "yellow_cards": 0
+      "yc": {
+        "hn": 0,
+        "sm": 0
+      },
+      "cm": {
+        "hn": 0,
+        "sm": 0
+      }
     },
     "Vualidonzz": {
       "rank": "R3",
-      "consecutive_misses": 0,
-      "yellow_cards": 0
+      "yc": {
+        "hn": 0,
+        "sm": 0
+      },
+      "cm": {
+        "hn": 0,
+        "sm": 0
+      }
     },
     "Shashank1411": {
       "rank": "R3",
-      "consecutive_misses": 0,
-      "yellow_cards": 0
+      "yc": {
+        "hn": {
+          "yc": 0,
+          "cm": 0
+        },
+        "sm": {
+          "yc": 0,
+          "cm": 0
+        }
+      },
+      "cm": {
+        "hn": 0,
+        "sm": 0
+      }
     },
     "Nguyenngoctuan": {
       "rank": "R3",
-      "consecutive_misses": 0,
-      "yellow_cards": 0
+      "yc": {
+        "hn": 0,
+        "sm": 0
+      },
+      "cm": {
+        "hn": 0,
+        "sm": 0
+      }
     },
     "anh thợ sửa máy": {
       "rank": "R3",
-      "consecutive_misses": 0,
-      "yellow_cards": 0
+      "yc": {
+        "hn": 0,
+        "sm": 0
+      },
+      "cm": {
+        "hn": 0,
+        "sm": 0
+      }
     },
     "danhoanh": {
       "rank": "R3",
-      "consecutive_misses": 0,
-      "yellow_cards": 0
+      "yc": {
+        "hn": 0,
+        "sm": 0
+      },
+      "cm": {
+        "hn": 0,
+        "sm": 0
+      }
     },
     "Gặplàđánh": {
       "rank": "R3",
-      "consecutive_misses": 0,
-      "yellow_cards": 0
+      "yc": {
+        "hn": 0,
+        "sm": 0
+      },
+      "cm": {
+        "hn": 0,
+        "sm": 0
+      }
     },
     "Đập Chai": {
       "rank": "R3",
-      "consecutive_misses": 0,
-      "yellow_cards": 0
+      "yc": {
+        "hn": 0,
+        "sm": 0
+      },
+      "cm": {
+        "hn": 0,
+        "sm": 0
+      }
     },
     "công chúa lavie": {
       "rank": "R3",
-      "consecutive_misses": 0,
-      "yellow_cards": 0
+      "yc": {
+        "hn": 0,
+        "sm": 0
+      },
+      "cm": {
+        "hn": 0,
+        "sm": 0
+      }
     },
     "ÒÓÔ": {
       "rank": "R3",
-      "consecutive_misses": 0,
-      "yellow_cards": 0
+      "yc": {
+        "hn": 0,
+        "sm": 0
+      },
+      "cm": {
+        "hn": 0,
+        "sm": 0
+      }
     },
     "wolfwitch": {
       "rank": "R3",
-      "consecutive_misses": 0,
-      "yellow_cards": 0
+      "yc": {
+        "hn": 0,
+        "sm": 0
+      },
+      "cm": {
+        "hn": 0,
+        "sm": 0
+      }
     },
     "ChanzChanz": {
       "rank": "R3",
-      "consecutive_misses": 0,
-      "yellow_cards": 0
+      "yc": {
+        "hn": 0,
+        "sm": 0
+      },
+      "cm": {
+        "hn": 0,
+        "sm": 0
+      }
     },
     "Azyg": {
       "rank": "R3",
-      "consecutive_misses": 1,
-      "yellow_cards": 1
+      "yc": {
+        "hn": 0,
+        "sm": 0
+      },
+      "cm": {
+        "hn": 0,
+        "sm": 0
+      }
     },
     "NorthFog": {
       "rank": "R3",
-      "consecutive_misses": 0,
-      "yellow_cards": 0
+      "yc": {
+        "hn": 0,
+        "sm": 0
+      },
+      "cm": {
+        "hn": 0,
+        "sm": 0
+      }
     },
     "Marines Malevolent": {
       "rank": "R3",
-      "consecutive_misses": 0,
-      "yellow_cards": 0
+      "yc": {
+        "hn": 0,
+        "sm": 0
+      },
+      "cm": {
+        "hn": 0,
+        "sm": 0
+      }
     },
     "PewPewBoi": {
       "rank": "R3",
-      "consecutive_misses": 0,
-      "yellow_cards": 0
+      "yc": {
+        "hn": 0,
+        "sm": 0
+      },
+      "cm": {
+        "hn": 0,
+        "sm": 0
+      }
     },
     "ÔngTânPro": {
       "rank": "R3",
-      "consecutive_misses": 1,
-      "yellow_cards": 1
+      "yc": {
+        "hn": 0,
+        "sm": 0
+      },
+      "cm": {
+        "hn": 0,
+        "sm": 0
+      }
     },
     "Panda Force": {
       "rank": "R3",
-      "consecutive_misses": 0,
-      "yellow_cards": 0
+      "yc": {
+        "hn": 0,
+        "sm": 0
+      },
+      "cm": {
+        "hn": 0,
+        "sm": 0
+      }
     },
     "Indefatigabl3": {
       "rank": "R3",
-      "consecutive_misses": 0,
-      "yellow_cards": 1
+      "yc": {
+        "hn": {
+          "yc": 1,
+          "cm": 1
+        },
+        "sm": {
+          "yc": 0,
+          "cm": 0
+        }
+      },
+      "cm": {
+        "hn": 1,
+        "sm": 0
+      }
     },
     "Thanh Tân 99": {
       "rank": "R3",
-      "consecutive_misses": 0,
-      "yellow_cards": 0
+      "yc": {
+        "hn": 0,
+        "sm": 0
+      },
+      "cm": {
+        "hn": 0,
+        "sm": 0
+      }
     },
     "Tommy4014": {
       "rank": "R3",
-      "consecutive_misses": 0,
-      "yellow_cards": 0
+      "yc": {
+        "hn": 0,
+        "sm": 0
+      },
+      "cm": {
+        "hn": 0,
+        "sm": 0
+      }
     },
     "Chivas2026": {
       "rank": "R3",
-      "consecutive_misses": 1,
-      "yellow_cards": 1
+      "yc": {
+        "hn": {
+          "yc": 1,
+          "cm": 1
+        },
+        "sm": {
+          "yc": 0,
+          "cm": 0
+        }
+      },
+      "cm": {
+        "hn": 1,
+        "sm": 0
+      }
     },
     "Selnavi": {
       "rank": "R3",
-      "consecutive_misses": 0,
-      "yellow_cards": 0
+      "yc": {
+        "hn": 0,
+        "sm": 0
+      },
+      "cm": {
+        "hn": 0,
+        "sm": 0
+      }
     },
     "Aaaluan": {
       "rank": "R3",
-      "consecutive_misses": 1,
-      "yellow_cards": 1
+      "yc": {
+        "hn": {
+          "yc": 0,
+          "cm": 0
+        },
+        "sm": {
+          "yc": 1,
+          "cm": 1
+        }
+      },
+      "cm": {
+        "hn": 0,
+        "sm": 1
+      }
     },
     "MrAugust2886": {
       "rank": "R3",
-      "consecutive_misses": 0,
-      "yellow_cards": 0
+      "yc": {
+        "hn": 0,
+        "sm": 0
+      },
+      "cm": {
+        "hn": 0,
+        "sm": 0
+      }
     },
     "tâm1980": {
       "rank": "R3",
-      "consecutive_misses": 0,
-      "yellow_cards": 0
+      "yc": {
+        "hn": 0,
+        "sm": 0
+      },
+      "cm": {
+        "hn": 0,
+        "sm": 0
+      }
     },
     "Khanhanh96": {
       "rank": "R3",
-      "consecutive_misses": 1,
-      "yellow_cards": 1
+      "yc": {
+        "hn": 0,
+        "sm": 0
+      },
+      "cm": {
+        "hn": 0,
+        "sm": 0
+      }
     },
     "Tú Bướmm": {
       "rank": "R3",
-      "consecutive_misses": 1,
-      "yellow_cards": 1
+      "yc": {
+        "hn": {
+          "yc": 1,
+          "cm": 1
+        },
+        "sm": {
+          "yc": 0,
+          "cm": 0
+        }
+      },
+      "cm": {
+        "hn": 1,
+        "sm": 0
+      }
     },
     "hanubeast": {
       "rank": "R2",
-      "consecutive_misses": 0,
-      "yellow_cards": 0
+      "yc": {
+        "hn": 0,
+        "sm": 0
+      },
+      "cm": {
+        "hn": 0,
+        "sm": 0
+      }
     },
     "WitWiu": {
       "rank": "R3",
-      "consecutive_misses": 0,
-      "yellow_cards": 0
+      "yc": {
+        "hn": 0,
+        "sm": 0
+      },
+      "cm": {
+        "hn": 0,
+        "sm": 0
+      }
     },
     "Chivas2025": {
       "rank": "R3",
-      "consecutive_misses": 0,
-      "yellow_cards": 0
+      "yc": {
+        "hn": 0,
+        "sm": 0
+      },
+      "cm": {
+        "hn": 0,
+        "sm": 0
+      }
     },
     "Hoá Đá": {
       "rank": "R3",
-      "consecutive_misses": 0,
-      "yellow_cards": 0
+      "yc": {
+        "hn": 0,
+        "sm": 0
+      },
+      "cm": {
+        "hn": 0,
+        "sm": 0
+      }
     },
     "SanTa 1386": {
       "rank": "R3",
-      "consecutive_misses": 0,
-      "yellow_cards": 0
+      "yc": {
+        "hn": 0,
+        "sm": 0
+      },
+      "cm": {
+        "hn": 0,
+        "sm": 0
+      }
     },
     "ntacutiiii": {
       "rank": "R2",
-      "consecutive_misses": 0,
-      "yellow_cards": 0,
       "hn_team": "A",
-      "sm_team": "A"
+      "sm_team": "A",
+      "yc": {
+        "hn": {
+          "yc": 1,
+          "cm": 1
+        },
+        "sm": {
+          "yc": 1,
+          "cm": 1
+        }
+      },
+      "cm": {
+        "hn": 1,
+        "sm": 1
+      }
     },
     "cu tí nhỏ xíu": {
       "rank": "R3",
-      "consecutive_misses": 0,
-      "yellow_cards": 0,
-      "sm_team": "B"
+      "sm_team": "B",
+      "yc": {
+        "hn": 0,
+        "sm": 0
+      },
+      "cm": {
+        "hn": 0,
+        "sm": 0
+      }
     },
     "Dầu Thơm MeoBinh": {
       "rank": "R3",
-      "consecutive_misses": 0,
-      "yellow_cards": 0
+      "yc": {
+        "hn": 0,
+        "sm": 0
+      },
+      "cm": {
+        "hn": 0,
+        "sm": 0
+      }
     },
     "Phạm khánhh": {
       "rank": "R3",
-      "consecutive_misses": 0,
-      "yellow_cards": 0
+      "yc": {
+        "hn": 0,
+        "sm": 0
+      },
+      "cm": {
+        "hn": 0,
+        "sm": 0
+      }
     }
   },
   "lineup": {
@@ -599,16 +911,16 @@
             "reason": "19th"
           },
           {
-            "r": "R4",
-            "name": "Rymi68",
-            "reason": "Transferred from SM-A"
+            "r": "R3",
+            "name": "cu tí nhỏ xíu",
+            "reason": "20th"
           }
         ],
         "subs": [
           {
-            "r": "R3",
-            "name": "cu tí nhỏ xíu",
-            "reason": "21st (overflow)"
+            "r": "R4",
+            "name": "Rymi68",
+            "reason": "Transferred from SM-A (overflow)"
           }
         ],
         "off": [],
