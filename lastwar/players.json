@@ -10,7 +10,6 @@
       "Lerxinhiu"
     ],
     "R4": [
-      "Haizzzzzzzzzz",
       "cường khùng",
       "LinLin",
       "Rymi68",
@@ -65,24 +64,20 @@
         "date": "2026-04-03",
         "slot": "evening 18:30",
         "scores": {
-          "Hello AE": 5502852,
-          "LinLin": 5218514,
-          "Lerxinhiu": 4493743,
-          "Mr Rama": 4436190,
-          "Haizzzzzzzzzz": 3783692,
-          "Rymi68": 3688487,
-          "zdevils": 3359819,
-          "cường khùng": 2937721,
-          "wolfwitch": 1959793,
-          "Panda Force": 1948976,
-          "Indefatigabl3": 1817530,
-          "Thanh Tân 99": 1470584,
-          "MrAugust2886": 1465404,
-          "Aaaluan": 1439871,
-          "tâm1980": 865826,
-          "Shashank1411": 791522,
-          "PewPewBoi": 791109,
-          "Trần Thế Lươn": 3593883
+          "Hello AE": 4689647,
+          "Mr Rama": 4503700,
+          "LinLin": 3683405,
+          "Lerxinhiu": 2716058,
+          "cường khùng": 2613089,
+          "zdevils": 2414640,
+          "MrAugust2886": 2049537,
+          "Thanh Tân 99": 1476405,
+          "tâm1980": 1344680,
+          "PewPewBoi": 1279003,
+          "Indefatigabl3": 1198210,
+          "wolfwitch": 1165445,
+          "Shashank1411": 1102543,
+          "Panda Force": 33393
         }
       },
       "B": {
@@ -164,11 +159,6 @@
       "rank": "R5",
       "consecutive_misses": 0,
       "yellow_cards": 0
-    },
-    "Haizzzzzzzzzz": {
-      "rank": "R4",
-      "consecutive_misses": 1,
-      "yellow_cards": 1
     },
     "cường khùng": {
       "rank": "R4",
@@ -303,7 +293,7 @@
     },
     "Indefatigabl3": {
       "rank": "R3",
-      "consecutive_misses": 1,
+      "consecutive_misses": 0,
       "yellow_cards": 1
     },
     "Thanh Tân 99": {
@@ -328,8 +318,8 @@
     },
     "Aaaluan": {
       "rank": "R3",
-      "consecutive_misses": 0,
-      "yellow_cards": 0
+      "consecutive_misses": 1,
+      "yellow_cards": 1
     },
     "MrAugust2886": {
       "rank": "R3",
@@ -415,23 +405,23 @@
             "reason": "1st"
           },
           {
+            "r": "R3",
+            "name": "Mr Rama",
+            "reason": "2nd"
+          },
+          {
             "r": "R4",
             "name": "LinLin",
-            "reason": "2nd"
+            "reason": "3rd"
           },
           {
             "r": "R5",
             "name": "Lerxinhiu",
-            "reason": "3rd"
-          },
-          {
-            "r": "R3",
-            "name": "Mr Rama",
             "reason": "4th"
           },
           {
             "r": "R4",
-            "name": "Haizzzzzzzzzz",
+            "name": "cường khùng",
             "reason": "5th"
           },
           {
@@ -440,54 +430,39 @@
             "reason": "6th"
           },
           {
-            "r": "R4",
-            "name": "cường khùng",
+            "r": "R3",
+            "name": "MrAugust2886",
             "reason": "7th"
           },
           {
             "r": "R3",
-            "name": "wolfwitch",
+            "name": "Thanh Tân 99",
             "reason": "8th"
           },
           {
             "r": "R3",
-            "name": "Panda Force",
+            "name": "tâm1980",
             "reason": "9th"
           },
           {
             "r": "R3",
-            "name": "Indefatigabl3",
+            "name": "PewPewBoi",
             "reason": "10th"
           },
           {
             "r": "R3",
-            "name": "Thanh Tân 99",
-            "reason": "11th"
-          },
-          {
-            "r": "R3",
-            "name": "MrAugust2886",
+            "name": "wolfwitch",
             "reason": "12th"
           },
           {
             "r": "R3",
-            "name": "Aaaluan",
+            "name": "Shashank1411",
             "reason": "13th"
           },
           {
             "r": "R3",
-            "name": "tâm1980",
+            "name": "Panda Force",
             "reason": "14th"
-          },
-          {
-            "r": "R3",
-            "name": "Shashank1411",
-            "reason": "15th"
-          },
-          {
-            "r": "R3",
-            "name": "PewPewBoi",
-            "reason": "16th"
           },
           {
             "r": "R2",
@@ -495,17 +470,28 @@
             "reason": "Transferred from SM-B"
           }
         ],
-        "subs": [],
+        "subs": [
+          {
+            "r": "R3",
+            "name": "Indefatigabl3",
+            "reason": "1 YC (was 11th)"
+          }
+        ],
         "off": [
           {
             "r": "R4",
             "name": "Rymi68",
-            "reason": "Chuyển sang SM-B / Transferred to SM-B"
+            "reason": "Chuyen sang SM-B / Transferred to SM-B"
           },
           {
             "r": "R3",
             "name": "Trần Thế Lươn",
             "reason": "Rời liên minh / Left alliance"
+          },
+          {
+            "r": "R3",
+            "name": "Haizzzzzzzzzz",
+            "reason": "2 thẻ vàng liên tiếp / 2 consecutive YC"
           }
         ],
         "dayoff": []
@@ -725,11 +711,6 @@
             "reason": "1 YC - vắng mặt / 1 YC - absent"
           },
           {
-            "r": "R4",
-            "name": "Haizzzzzzzzzz",
-            "reason": "1 YC - vắng mặt / 1 YC - absent"
-          },
-          {
             "r": "R3",
             "name": "Indefatigabl3",
             "reason": "1 YC - vắng mặt / 1 YC - absent"
@@ -856,6 +837,12 @@
       "rank": "R3",
       "reason": "Rời liên minh / Left alliance",
       "date": "2026-04-08"
+    },
+    {
+      "name": "Haizzzzzzzzzz",
+      "rank": "R4",
+      "reason": "2 thẻ vàng liên tiếp / 2 consecutive YC",
+      "date": "2026-04-10"
     }
   ]
 }
