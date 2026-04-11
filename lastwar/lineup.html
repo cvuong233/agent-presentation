@@ -25,13 +25,19 @@
   .content.active { display: block; }
 
   /* grid */
-  .battle-grid { max-width: 700px; margin: 0 auto; margin-top: 20px; }
+  .battle-grid { max-width: 1200px; margin: 0 auto; margin-top: 20px; display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+  .battle-grid .tf-toggle { display: none; grid-column: 1 / -1; }
 
   /* task force toggle */
-  .tf-toggle { display: flex; gap: 0; margin: 16px 0 0; border-radius: 8px; overflow: hidden; border: 1px solid #2a2a3e; }
+  .tf-toggle { display: flex; gap: 0; border-radius: 8px; overflow: hidden; border: 1px solid #2a2a3e; }
   .tf-btn { flex: 1; padding: 10px 20px; font-weight: 700; font-size: 0.9rem; cursor: pointer; border: none; background: #1a1a2e; color: #888; transition: all 0.2s; text-align: center; }
   .tf-btn.active { background: #e94560; color: #fff; }
   .tf-btn:first-child { border-right: 1px solid #2a2a3e; }
+
+  @media (max-width: 900px) {
+    .battle-grid { grid-template-columns: 1fr; }
+    .battle-grid .tf-toggle { display: flex; }
+  }
 
   /* battle card */
   .battle-card { background: #16213e; border-radius: 12px; overflow: hidden; border: 1px solid #2a2a3e; }
@@ -154,7 +160,7 @@
       <button class="tf-btn" onclick="switchTF('sm','B')" id="sm-tf-b">Task Force B</button>
     </div>
     <div class="battle-card" id="sm-a"></div>
-    <div class="battle-card" id="sm-b" style="display:none"></div>
+    <div class="battle-card" id="sm-b"></div>
   </div>
 </div>
 
@@ -165,7 +171,7 @@
       <button class="tf-btn" onclick="switchTF('hn','B')" id="hn-tf-b">Task Force B</button>
     </div>
     <div class="battle-card" id="hn-a"></div>
-    <div class="battle-card" id="hn-b" style="display:none"></div>
+    <div class="battle-card" id="hn-b"></div>
   </div>
 </div>
 
@@ -360,6 +366,26 @@ function switchTF(mode, slot) {
   });
 }
 
+function syncTFVisibility() {
+  const isMobile = window.innerWidth <= 900;
+  ['sm','hn'].forEach(mode => {
+    if (!isMobile) {
+      // Desktop: show both
+      ['a','b'].forEach(s => {
+        const el = document.getElementById(`${mode}-${s}`);
+        if (el) el.style.display = '';
+      });
+    } else {
+      // Mobile: respect toggle state
+      const activeBtn = document.querySelector(`#${mode}-tf-a.active, #${mode}-tf-b.active`);
+      const activeSlot = activeBtn ? activeBtn.id.slice(-1).toUpperCase() : 'A';
+      switchTF(mode, activeSlot);
+    }
+  });
+}
+
+window.addEventListener('resize', syncTFVisibility);
+
 function updateTFLabels() {
   ['sm','hn'].forEach(mode => {
     const btnA = document.getElementById(`${mode}-tf-a`);
@@ -377,7 +403,7 @@ function switchTab(tab) {
 
 fetch('./players.json')
   .then(r => r.json())
-  .then(data => { loadedData = data; setLang(currentLang); })
+  .then(data => { loadedData = data; setLang(currentLang); syncTFVisibility(); })
   .catch(e => document.body.innerHTML += `<p style="color:red;padding:20px">Error: ${e}</p>`);
 </script>
 </body>
