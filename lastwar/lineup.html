@@ -26,9 +26,13 @@
   .tab.active .tab-bg { opacity: 0.4; }
   .tab::after { content: ''; position: absolute; bottom: 0; left: 0; right: 0; height: 3px; background: transparent; transition: background 0.3s; }
   .tab-sm { border-right: 1px solid #2a2a3e; }
-  .tab-sm .tab-bg { background: linear-gradient(135deg, #c2842f 0%, #d4a04a 40%, #8b6914 100%); }
+  .tab-sm .tab-bg { background: linear-gradient(135deg, #1a150a 0%, #2d200e 30%, #c2842f 100%); }
+  .tab-sm.active .tab-bg { opacity: 0.5; }
+  .tab-sm.active { border-bottom: 3px solid #f59e0b; }
   .tab-sm.active::after { background: #f59e0b; }
-  .tab-hn .tab-bg { background: linear-gradient(135deg, #2d5a27 0%, #1a4a2e 40%, #0d3320 100%); }
+  .tab-hn .tab-bg { background: linear-gradient(135deg, #0a1a0f 0%, #0d3320 30%, #2d5a27 100%); }
+  .tab-hn.active .tab-bg { opacity: 0.5; }
+  .tab-hn.active { border-bottom: 3px solid #22c55e; }
   .tab-hn.active::after { background: #22c55e; }
   .tab-icon { font-size: 1.4rem; }
   .tab-label { display: flex; flex-direction: column; align-items: flex-start; }
@@ -165,7 +169,14 @@
   <div class="tab tab-sm active" onclick="switchTab('sm')">
     <div class="tab-bg"></div>
     <div class="tab-inner">
-      <span class="tab-icon">🏜️</span>
+      <span class="tab-icon"><svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="32" cy="10" r="6" fill="#f59e0b" opacity="0.9"/>
+        <circle cx="32" cy="10" r="8" fill="#f59e0b" opacity="0.2"/>
+        <path d="M0 32 Q10 20 18 28 Q24 18 32 24 Q36 20 40 22 L40 40 L0 40Z" fill="#c2842f"/>
+        <path d="M0 36 Q8 28 16 32 Q22 24 30 30 Q35 26 40 28 L40 40 L0 40Z" fill="#d4a04a" opacity="0.7"/>
+        <rect x="20" y="22" width="4" height="8" fill="#8b6914" opacity="0.5" rx="1"/>
+        <rect x="19" y="20" width="6" height="3" fill="#a0792a" opacity="0.5" rx="1"/>
+      </svg></span>
       <div class="tab-label">
         <span class="tab-title" data-i18n="tab_sm">Bão Sa Mạc</span>
         <span class="tab-subtitle" data-i18n="tab_sm_sub">Desert Storm Battle</span>
@@ -175,7 +186,15 @@
   <div class="tab tab-hn" onclick="switchTab('hn')">
     <div class="tab-bg"></div>
     <div class="tab-inner">
-      <span class="tab-icon">⛰️</span>
+      <span class="tab-icon"><svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0 40 L12 12 L20 24 L28 8 L40 40Z" fill="#2d5a27" opacity="0.8"/>
+        <path d="M0 40 L14 16 L22 26 L30 14 L40 40Z" fill="#22c55e" opacity="0.3"/>
+        <path d="M5 40 L15 22 L20 28 L25 18 L35 40Z" fill="#1a4a2e"/>
+        <path d="M0 40 Q10 34 20 36 Q30 34 40 40Z" fill="#0d3320"/>
+        <path d="M26 10 L28 8 L30 10" stroke="#fff" stroke-width="0.8" opacity="0.5" fill="none"/>
+        <circle cx="8" cy="8" r="3" fill="#94a3b8" opacity="0.3"/>
+        <circle cx="12" cy="6" r="2" fill="#94a3b8" opacity="0.2"/>
+      </svg></span>
       <div class="tab-label">
         <span class="tab-title" data-i18n="tab_hn">Bão Hẻm Núi</span>
         <span class="tab-subtitle" data-i18n="tab_hn_sub">Canyon Storm Battle</span>
@@ -361,9 +380,12 @@ function buildCard(mode, slot, data) {
 
   return `
     <div class="card-header ${periodClass}">
-      <div>
-        <h2>${t('team')} ${slot}</h2>
-        <div style="font-size:0.78rem;color:#aaa;margin-top:2px">${d.date || ''}</div>
+      <div style="display:flex;align-items:center;gap:10px">
+        <span class="card-battle-icon">${battleIcon(mode)}</span>
+        <div>
+          <h2>${t('team')} ${slot}</h2>
+          <div style="font-size:0.78rem;color:#aaa;margin-top:2px">${d.date || ''}</div>
+        </div>
       </div>
       <span class="slot-badge">${t(d.period)} ${d.time}</span>
     </div>
@@ -388,6 +410,11 @@ function render(data) {
     });
   });
 
+}
+
+function battleIcon(mode) {
+  if (mode === 'sm') return `<svg width="28" height="28" viewBox="0 0 40 40" fill="none"><circle cx="32" cy="10" r="6" fill="#f59e0b" opacity="0.9"/><path d="M0 32 Q10 20 18 28 Q24 18 32 24 Q36 20 40 22 L40 40 L0 40Z" fill="#c2842f"/><path d="M0 36 Q8 28 16 32 Q22 24 30 30 Q35 26 40 28 L40 40 L0 40Z" fill="#d4a04a" opacity="0.7"/></svg>`;
+  return `<svg width="28" height="28" viewBox="0 0 40 40" fill="none"><path d="M0 40 L12 12 L20 24 L28 8 L40 40Z" fill="#2d5a27" opacity="0.8"/><path d="M5 40 L15 22 L20 28 L25 18 L35 40Z" fill="#1a4a2e"/><path d="M0 40 Q10 34 20 36 Q30 34 40 40Z" fill="#0d3320"/><circle cx="8" cy="8" r="3" fill="#94a3b8" opacity="0.3"/></svg>`;
 }
 
 function switchTF(mode, slot) {
