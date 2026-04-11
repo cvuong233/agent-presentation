@@ -787,23 +787,7 @@
             "reason": "1 YC - vắng mặt / 1 YC - absent"
           }
         ],
-        "off": [
-          {
-            "r": "R4",
-            "name": "Rymi68",
-            "reason": "Chuyen sang SM-B / Transferred to SM-B"
-          },
-          {
-            "r": "R3",
-            "name": "Trần Thế Lươn",
-            "reason": "Rời liên minh / Left alliance"
-          },
-          {
-            "r": "R3",
-            "name": "Haizzzzzzzzzz",
-            "reason": "2 thẻ vàng liên tiếp / 2 consecutive YC"
-          }
-        ],
+        "off": [],
         "dayoff": []
       },
       "B": {
@@ -921,13 +905,7 @@
             "reason": "1 YC - vắng mặt / 1 YC - absent"
           }
         ],
-        "off": [
-          {
-            "r": "R2",
-            "name": "ntacutiiii",
-            "reason": "Chuyển sang SM-A / Transferred to SM-A"
-          }
-        ],
+        "off": [],
         "dayoff": []
       }
     },
@@ -1032,13 +1010,7 @@
             "reason": "1 YC - vắng mặt / 1 YC - absent"
           }
         ],
-        "off": [
-          {
-            "r": "R3",
-            "name": "Trần Thế Lươn",
-            "reason": "Rời liên minh / Left alliance"
-          }
-        ],
+        "off": [],
         "dayoff": []
       },
       "B": {
