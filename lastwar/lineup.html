@@ -18,9 +18,22 @@
   .lang-btn.active { background: #e94560; color: #fff; }
 
   /* tabs */
-  .tabs { display: flex; gap: 8px; padding: 16px 24px 0; background: #0f0f1a; }
-  .tab { padding: 8px 20px; border-radius: 8px 8px 0 0; cursor: pointer; font-weight: 600; font-size: 0.9rem; border: 1px solid #2a2a3e; border-bottom: none; color: #888; background: #1a1a2e; transition: all 0.2s; }
-  .tab.active { background: #16213e; color: #fff; border-color: #e94560; }
+  .tabs { display: flex; gap: 0; padding: 0; background: #0f0f1a; overflow: hidden; }
+  .tab { flex: 1; padding: 0; cursor: pointer; font-weight: 700; font-size: 1rem; border: none; color: #888; background: #1a1a2e; transition: all 0.3s; position: relative; overflow: hidden; }
+  .tab.active { color: #fff; }
+  .tab-inner { position: relative; z-index: 2; padding: 16px 20px; display: flex; align-items: center; justify-content: center; gap: 10px; }
+  .tab-bg { position: absolute; inset: 0; background-size: cover; background-position: center; opacity: 0.15; transition: opacity 0.3s; }
+  .tab.active .tab-bg { opacity: 0.4; }
+  .tab::after { content: ''; position: absolute; bottom: 0; left: 0; right: 0; height: 3px; background: transparent; transition: background 0.3s; }
+  .tab-sm { border-right: 1px solid #2a2a3e; }
+  .tab-sm .tab-bg { background: linear-gradient(135deg, #c2842f 0%, #d4a04a 40%, #8b6914 100%); }
+  .tab-sm.active::after { background: #f59e0b; }
+  .tab-hn .tab-bg { background: linear-gradient(135deg, #2d5a27 0%, #1a4a2e 40%, #0d3320 100%); }
+  .tab-hn.active::after { background: #22c55e; }
+  .tab-icon { font-size: 1.4rem; }
+  .tab-label { display: flex; flex-direction: column; align-items: flex-start; }
+  .tab-title { font-size: 1rem; font-weight: 700; text-shadow: 0 1px 3px rgba(0,0,0,0.8); }
+  .tab-subtitle { font-size: 0.7rem; font-weight: 400; opacity: 0.7; }
   .content { display: none; padding: 0 24px 32px; }
   .content.active { display: block; }
 
@@ -43,8 +56,8 @@
   .battle-card { background: #16213e; border-radius: 12px; overflow: hidden; border: 1px solid #2a2a3e; }
   .card-header { padding: 14px 18px; display: flex; align-items: center; gap: 10px; }
   .card-header.night { background: linear-gradient(90deg, #1a0533, #2d1b4e); border-bottom: 2px solid #7c3aed; }
-  .card-header.morning { background: linear-gradient(90deg, #0a1e3d, #0f3460); border-bottom: 2px solid #0ea5e9; }
-  .card-header.evening { background: linear-gradient(90deg, #2d1b0e, #3d2b1e); border-bottom: 2px solid #f97316; }
+  .card-header.morning { background: linear-gradient(90deg, #1a150a, #2d200e); border-bottom: 2px solid #f59e0b; }
+  .card-header.evening { background: linear-gradient(90deg, #0a1a0f, #0f2518); border-bottom: 2px solid #22c55e; }
   .card-header h2 { font-size: 1rem; font-weight: 700; }
   .slot-badge { font-size: 0.75rem; padding: 2px 8px; border-radius: 20px; font-weight: 600; margin-left: auto; }
   .night .slot-badge { background: #7c3aed33; color: #a78bfa; border: 1px solid #7c3aed; }
@@ -149,8 +162,26 @@
 </header>
 
 <div class="tabs">
-  <div class="tab active" onclick="switchTab('sm')">🏜️ <span data-i18n="tab_sm">Bão Sa Mạc</span></div>
-  <div class="tab" onclick="switchTab('hn')">⛰️ <span data-i18n="tab_hn">Bão Hẻm Núi</span></div>
+  <div class="tab tab-sm active" onclick="switchTab('sm')">
+    <div class="tab-bg"></div>
+    <div class="tab-inner">
+      <span class="tab-icon">🏜️</span>
+      <div class="tab-label">
+        <span class="tab-title" data-i18n="tab_sm">Bão Sa Mạc</span>
+        <span class="tab-subtitle" data-i18n="tab_sm_sub">Desert Storm Battle</span>
+      </div>
+    </div>
+  </div>
+  <div class="tab tab-hn" onclick="switchTab('hn')">
+    <div class="tab-bg"></div>
+    <div class="tab-inner">
+      <span class="tab-icon">⛰️</span>
+      <div class="tab-label">
+        <span class="tab-title" data-i18n="tab_hn">Bão Hẻm Núi</span>
+        <span class="tab-subtitle" data-i18n="tab_hn_sub">Canyon Storm Battle</span>
+      </div>
+    </div>
+  </div>
 </div>
 
 <div class="content active" id="tab-sm">
@@ -182,6 +213,7 @@ const I18N = {
   vi: {
     title: 'ACMB — Đội Hình Chiến Đấu',
     tab_sm: 'Bão Sa Mạc', tab_hn: 'Bão Hẻm Núi',
+    tab_sm_sub: 'Desert Storm Battle', tab_hn_sub: 'Canyon Storm Battle',
     updated: 'Cập nhật', team: 'Lực Lượng',
     tf_a: 'Lực Lượng A', tf_b: 'Lực Lượng B',
     main: 'Chính thức', sub: 'Dự bị', dayoff: 'Nghỉ phép', open: 'Trống',
@@ -194,6 +226,7 @@ const I18N = {
   en: {
     title: 'ACMB — Battle Lineup',
     tab_sm: 'Desert Storm Battle', tab_hn: 'Canyon Storm Battle',
+    tab_sm_sub: 'Bão Sa Mạc', tab_hn_sub: 'Bão Hẻm Núi',
     updated: 'Updated', team: 'Task Force',
     tf_a: 'Task Force A', tf_b: 'Task Force B',
     main: 'Main', sub: 'Sub', dayoff: 'Day-off', open: 'Open',
@@ -396,7 +429,8 @@ function updateTFLabels() {
 }
 
 function switchTab(tab) {
-  document.querySelectorAll('.tab').forEach((t,i) => t.classList.toggle('active', ['sm','hn'][i]===tab));
+  document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+  document.querySelector('.tab-' + tab).classList.add('active');
   document.querySelectorAll('.content').forEach(c => c.classList.remove('active'));
   document.getElementById('tab-'+tab).classList.add('active');
 }
