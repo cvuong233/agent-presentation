@@ -25,8 +25,13 @@
   .content.active { display: block; }
 
   /* grid */
-  .battle-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-top: 20px; }
-  @media (max-width: 900px) { .battle-grid { grid-template-columns: 1fr; } }
+  .battle-grid { max-width: 700px; margin: 0 auto; margin-top: 20px; }
+
+  /* task force toggle */
+  .tf-toggle { display: flex; gap: 0; margin: 16px 0 0; border-radius: 8px; overflow: hidden; border: 1px solid #2a2a3e; }
+  .tf-btn { flex: 1; padding: 10px 20px; font-weight: 700; font-size: 0.9rem; cursor: pointer; border: none; background: #1a1a2e; color: #888; transition: all 0.2s; text-align: center; }
+  .tf-btn.active { background: #e94560; color: #fff; }
+  .tf-btn:first-child { border-right: 1px solid #2a2a3e; }
 
   /* battle card */
   .battle-card { background: #16213e; border-radius: 12px; overflow: hidden; border: 1px solid #2a2a3e; }
@@ -144,15 +149,23 @@
 
 <div class="content active" id="tab-sm">
   <div class="battle-grid">
+    <div class="tf-toggle">
+      <button class="tf-btn active" onclick="switchTF('sm','A')" id="sm-tf-a">Task Force A</button>
+      <button class="tf-btn" onclick="switchTF('sm','B')" id="sm-tf-b">Task Force B</button>
+    </div>
     <div class="battle-card" id="sm-a"></div>
-    <div class="battle-card" id="sm-b"></div>
+    <div class="battle-card" id="sm-b" style="display:none"></div>
   </div>
 </div>
 
 <div class="content" id="tab-hn">
   <div class="battle-grid">
+    <div class="tf-toggle">
+      <button class="tf-btn active" onclick="switchTF('hn','A')" id="hn-tf-a">Task Force A</button>
+      <button class="tf-btn" onclick="switchTF('hn','B')" id="hn-tf-b">Task Force B</button>
+    </div>
     <div class="battle-card" id="hn-a"></div>
-    <div class="battle-card" id="hn-b"></div>
+    <div class="battle-card" id="hn-b" style="display:none"></div>
   </div>
 </div>
 
@@ -163,7 +176,8 @@ const I18N = {
   vi: {
     title: 'ACMB — Đội Hình Chiến Đấu',
     tab_sm: 'Bão Sa Mạc', tab_hn: 'Bão Hẻm Núi',
-    updated: 'Cập nhật', team: 'Đội',
+    updated: 'Cập nhật', team: 'Lực Lượng',
+    tf_a: 'Lực Lượng A', tf_b: 'Lực Lượng B',
     main: 'Chính thức', sub: 'Dự bị', dayoff: 'Nghỉ phép', open: 'Trống',
     main_header: '✅ ĐỘI CHÍNH', sub_header: '🔄 DỰ BỊ', dayoff_header: '😴 NGHỈ PHÉP', removed_header: '❌ ĐÃ LOẠI',
     player: 'Người chơi', reason: 'Ghi chú', date: 'Ngày',
@@ -174,7 +188,8 @@ const I18N = {
   en: {
     title: 'ACMB — Battle Lineup',
     tab_sm: 'Desert Storm Battle', tab_hn: 'Canyon Storm Battle',
-    updated: 'Updated', team: 'Team',
+    updated: 'Updated', team: 'Task Force',
+    tf_a: 'Task Force A', tf_b: 'Task Force B',
     main: 'Main', sub: 'Sub', dayoff: 'Day-off', open: 'Open',
     main_header: '✅ MAIN ROSTER', sub_header: '🔄 SUBSTITUTES', dayoff_header: '😴 DAY-OFF', removed_header: '❌ REMOVED',
     player: 'Player', reason: 'Note', date: 'Date',
@@ -193,6 +208,7 @@ function setLang(lang) {
   localStorage.setItem('acmb_lang', lang);
   document.querySelectorAll('.lang-btn').forEach(b => b.classList.toggle('active', b.textContent.includes(lang.toUpperCase())));
   document.querySelectorAll('[data-i18n]').forEach(el => el.textContent = t(el.getAttribute('data-i18n')));
+  updateTFLabels();
   if (loadedData) render(loadedData);
 }
 
@@ -333,6 +349,24 @@ function render(data) {
     });
   });
 
+}
+
+function switchTF(mode, slot) {
+  ['A','B'].forEach(s => {
+    const el = document.getElementById(`${mode}-${s.toLowerCase()}`);
+    const btn = document.getElementById(`${mode}-tf-${s.toLowerCase()}`);
+    if (el) el.style.display = s === slot ? '' : 'none';
+    if (btn) btn.classList.toggle('active', s === slot);
+  });
+}
+
+function updateTFLabels() {
+  ['sm','hn'].forEach(mode => {
+    const btnA = document.getElementById(`${mode}-tf-a`);
+    const btnB = document.getElementById(`${mode}-tf-b`);
+    if (btnA) btnA.textContent = t('tf_a');
+    if (btnB) btnB.textContent = t('tf_b');
+  });
 }
 
 function switchTab(tab) {
