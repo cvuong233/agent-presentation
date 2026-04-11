@@ -197,15 +197,10 @@ function setLang(lang) {
 }
 
 function localizeReason(reason) {
-  if (currentLang !== 'vi') return reason;
-  return reason
-    .replace('Transferred from SM-A', 'Chuyển từ BSM-A')
-    .replace('Transferred from SM-B', 'Chuyển từ BSM-B')
-    .replace('Transferred', t('transferred'))
-    .replace('New to slot', t('new_to_slot'))
-    .replace(/1 YC/g, '1 thẻ vàng')
-    .replace('overflow', 'tràn')
-    .replace('was ', 'hạng ');
+  if (!reason) return '';
+  const parts = reason.split(' / ');
+  if (parts.length === 2) return currentLang === 'vi' ? parts[0] : parts[1];
+  return reason;
 }
 
 const RANK_ORDER = {R5:0, R4:1, R3:2, R2:3, R1:4};
@@ -326,14 +321,7 @@ function buildCard(mode, slot, data) {
 }
 
 function localizeRemoveReason(reason) {
-  if (currentLang === 'vi') {
-    // Use the part before " / " for Vietnamese
-    const parts = reason.split(' / ');
-    return parts[0] || reason;
-  }
-  // Use the part after " / " for English
-  const parts = reason.split(' / ');
-  return parts[1] || reason;
+  return localizeReason(reason);
 }
 
 function render(data) {
