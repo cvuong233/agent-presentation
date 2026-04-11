@@ -50,7 +50,8 @@
       "MrAugust2886",
       "tâm1980",
       "Khanhanh96",
-      "Tú Bướmm"
+      "Tú Bướmm",
+      "Haizzzzzzzzzz"
     ],
     "R2": [
       "hanubeast",
@@ -698,6 +699,17 @@
         "hn": 0,
         "sm": 0
       }
+    },
+    "Haizzzzzzzzzz": {
+      "rank": "R3",
+      "yc": {
+        "hn": 0,
+        "sm": 0
+      },
+      "cm": {
+        "hn": 0,
+        "sm": 0
+      }
     }
   },
   "lineup": {
@@ -778,6 +790,11 @@
             "r": "R3",
             "name": "Indefatigabl3",
             "reason": "11th"
+          },
+          {
+            "r": "R3",
+            "name": "Haizzzzzzzzzz",
+            "reason": "Re-added"
           }
         ],
         "subs": [
@@ -1125,12 +1142,6 @@
       "rank": "R3",
       "reason": "Rời liên minh / Left alliance",
       "date": "2026-04-08"
-    },
-    {
-      "name": "Haizzzzzzzzzz",
-      "rank": "R4",
-      "reason": "2 thẻ vàng liên tiếp / 2 consecutive YC",
-      "date": "2026-04-10"
     }
   ]
 }
