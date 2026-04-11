@@ -2,7 +2,7 @@
   "meta": {
     "clan": "ACMB",
     "game": "Last War VN",
-    "updated": "2026-04-08",
+    "updated": "2026-04-11",
     "notes": "C V = cường khùng (R4). SM = Bão Sa Mạc (Storm Mountain). HN = Bão Hẻm Núi (Canyon Storm). Lineup sorted by last match score. SM: 20 main + subs. HN: 30 main. SM reg closes Thu 9am ICT. HN reg closes Tue 9am ICT. Yellow card: 1 YC = sub; 2 consecutive YC = removed."
   },
   "ranks": {
@@ -84,27 +84,25 @@
         "date": "2026-04-04",
         "slot": "morning 08:30",
         "scores": {
-          "NorthFog": 1936454,
-          "Hemerage": 1896015,
-          "Selnavi": 1885802,
-          "WitWiu": 1462882,
-          "Vualidonzz": 1305410,
-          "yologuy": 1254876,
-          "danhoanh": 1200222,
-          "SanTa 1386": 1080353,
-          "Chivas2026": 926157,
-          "Hải Anh 0612": 843330,
-          "Nguyenngoctuan": 831261,
-          "hanubeast": 716305,
-          "anh thợ sửa máy": 655095,
-          "Đập Chai": 433194,
-          "Marines Malevolent": 400384,
-          "ÒÓÔ": 394666,
-          "Hoá Đá": 332668,
-          "ntacutiiii": 327574,
-          "cu tí nhỏ xíu": 100107,
-          "Dầu Thơm MeoBinh": 2137642,
-          "Phạm khánhh": 1525521
+          "Dầu Thơm MeoBinh": 4995413,
+          "Hải Anh 0612": 3126618,
+          "Rymi68": 3115763,
+          "WitWiu": 3001545,
+          "ÒÓÔ": 2875018,
+          "Vualidonzz": 2693357,
+          "anh thợ sửa máy": 2114160,
+          "Selnavi": 2104463,
+          "Hemerage": 1873674,
+          "Đập Chai": 1865770,
+          "danhoanh": 1736194,
+          "yologuy": 1515181,
+          "Chivas2026": 1413762,
+          "SanTa 1386": 1314667,
+          "Phạm khánhh": 1111651,
+          "NorthFog": 1110421,
+          "Marines Malevolent": 1001598,
+          "Hoá Đá": 811579,
+          "Nguyenngoctuan": 518918
         }
       }
     },
@@ -597,11 +595,11 @@
       "rank": "R2",
       "yc": {
         "hn": 0,
-        "sm": 0
+        "sm": 1
       },
       "cm": {
         "hn": 0,
-        "sm": 0
+        "sm": 1
       }
     },
     "WitWiu": {
@@ -672,11 +670,11 @@
       "sm_team": "B",
       "yc": {
         "hn": 0,
-        "sm": 0
+        "sm": 1
       },
       "cm": {
         "hn": 0,
-        "sm": 0
+        "sm": 1
       }
     },
     "Dầu Thơm MeoBinh": {
@@ -821,78 +819,78 @@
             "reason": "1st"
           },
           {
-            "r": "R3",
-            "name": "NorthFog",
+            "r": "R4",
+            "name": "Hải Anh 0612",
             "reason": "2nd"
           },
           {
             "r": "R4",
-            "name": "Hemerage",
+            "name": "Rymi68",
             "reason": "3rd"
           },
           {
             "r": "R3",
-            "name": "Selnavi",
+            "name": "WitWiu",
             "reason": "4th"
           },
           {
             "r": "R3",
-            "name": "Phạm khánhh",
+            "name": "ÒÓÔ",
             "reason": "5th"
           },
           {
             "r": "R3",
-            "name": "WitWiu",
+            "name": "Vualidonzz",
             "reason": "6th"
           },
           {
             "r": "R3",
-            "name": "Vualidonzz",
+            "name": "anh thợ sửa máy",
             "reason": "7th"
           },
           {
-            "r": "R4",
-            "name": "yologuy",
+            "r": "R3",
+            "name": "Selnavi",
             "reason": "8th"
           },
           {
-            "r": "R3",
-            "name": "danhoanh",
+            "r": "R4",
+            "name": "Hemerage",
             "reason": "9th"
           },
           {
             "r": "R3",
-            "name": "SanTa 1386",
+            "name": "Đập Chai",
             "reason": "10th"
           },
           {
             "r": "R3",
-            "name": "Chivas2026",
+            "name": "danhoanh",
             "reason": "11th"
           },
           {
             "r": "R4",
-            "name": "Hải Anh 0612",
+            "name": "yologuy",
             "reason": "12th"
           },
           {
             "r": "R3",
-            "name": "Nguyenngoctuan",
+            "name": "Chivas2026",
             "reason": "13th"
           },
           {
-            "r": "R2",
-            "name": "hanubeast",
+            "r": "R3",
+            "name": "SanTa 1386",
             "reason": "14th"
           },
           {
             "r": "R3",
-            "name": "anh thợ sửa máy",
+            "name": "Phạm khánhh",
             "reason": "15th"
           },
           {
             "r": "R3",
-            "name": "Đập Chai",
+            "name": "NorthFog",
             "reason": "16th"
           },
           {
@@ -902,28 +900,34 @@
           },
           {
             "r": "R3",
-            "name": "ÒÓÔ",
+            "name": "Hoá Đá",
             "reason": "18th"
           },
           {
             "r": "R3",
-            "name": "Hoá Đá",
+            "name": "Nguyenngoctuan",
             "reason": "19th"
-          },
-          {
-            "r": "R3",
-            "name": "cu tí nhỏ xíu",
-            "reason": "20th"
           }
         ],
         "subs": [
           {
-            "r": "R4",
-            "name": "Rymi68",
-            "reason": "Transferred from SM-A (overflow)"
+            "r": "R3",
+            "name": "cu tí nhỏ xíu",
+            "reason": "1 YC - vắng mặt / 1 YC - absent"
+          },
+          {
+            "r": "R2",
+            "name": "hanubeast",
+            "reason": "1 YC - vắng mặt / 1 YC - absent"
           }
         ],
-        "off": [],
+        "off": [
+          {
+            "r": "R2",
+            "name": "ntacutiiii",
+            "reason": "Chuyển sang SM-A / Transferred to SM-A"
+          }
+        ],
         "dayoff": []
       }
     },
