@@ -6,7 +6,7 @@
 <title>ACMB Lineup</title>
 <style>
   * { box-sizing: border-box; margin: 0; padding: 0; }
-  body { font-family: 'Segoe UI', sans-serif; background: #0f0f1a; color: #e0e0e0; min-height: 100vh; }
+  body { font-family: 'Segoe UI', sans-serif; background: #0f0f1a; color: #e0e0e0; min-height: 100vh; background-image: radial-gradient(circle at 1px 1px, #1a1a2e 1px, transparent 0); background-size: 32px 32px; }
 
   /* header */
   header { background: linear-gradient(135deg, #1a1a2e, #16213e); padding: 20px 24px; border-bottom: 2px solid #e94560; display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
@@ -21,6 +21,11 @@
   .tabs { display: flex; gap: 0; padding: 0; background: #0f0f1a; overflow: hidden; }
   .tab { flex: 1; padding: 0; cursor: pointer; font-weight: 700; font-size: 1rem; border: none; color: #888; background: #1a1a2e; transition: all 0.3s; position: relative; overflow: hidden; }
   .tab.active { color: #fff; }
+  .tab:hover { transform: translateY(-1px); }
+  .tab-sm:hover .tab-bg, .tab-sm.active .tab-bg { opacity: 0.5; }
+  .tab-sm.active { box-shadow: 0 4px 20px rgba(245, 158, 11, 0.25); }
+  .tab-hn:hover .tab-bg, .tab-hn.active .tab-bg { opacity: 0.5; }
+  .tab-hn.active { box-shadow: 0 4px 20px rgba(34, 197, 94, 0.25); }
   .tab-inner { position: relative; z-index: 2; padding: 16px 20px; display: flex; align-items: center; justify-content: center; gap: 10px; }
   .tab-bg { position: absolute; inset: 0; background-size: cover; background-position: center; opacity: 0.15; transition: opacity 0.3s; }
   .tab.active .tab-bg { opacity: 0.4; }
@@ -47,8 +52,9 @@
 
   /* task force toggle */
   .tf-toggle { display: flex; gap: 0; border-radius: 8px; overflow: hidden; border: 1px solid #2a2a3e; }
-  .tf-btn { flex: 1; padding: 10px 20px; font-weight: 700; font-size: 0.9rem; cursor: pointer; border: none; background: #1a1a2e; color: #888; transition: all 0.2s; text-align: center; }
-  .tf-btn.active { background: #e94560; color: #fff; }
+  .tf-btn { flex: 1; padding: 12px 20px; font-weight: 700; font-size: 0.9rem; cursor: pointer; border: none; background: #1a1a2e; color: #888; transition: all 0.3s; text-align: center; text-transform: uppercase; letter-spacing: 0.05em; }
+  .tf-btn:hover { background: #252540; color: #ccc; }
+  .tf-btn.active { background: linear-gradient(135deg, #e94560, #c73652); color: #fff; box-shadow: 0 2px 12px rgba(233, 69, 96, 0.3); }
   .tf-btn:first-child { border-right: 1px solid #2a2a3e; }
 
   @media (max-width: 900px) {
@@ -58,11 +64,12 @@
 
   /* battle card */
   .battle-card { background: #16213e; border-radius: 12px; overflow: hidden; border: 1px solid #2a2a3e; }
-  .card-header { padding: 14px 18px; display: flex; align-items: center; gap: 10px; }
+  .card-header { padding: 14px 18px; display: flex; align-items: center; gap: 10px; position: relative; }
   .card-header.night { background: linear-gradient(90deg, #1a0533, #2d1b4e); border-bottom: 2px solid #7c3aed; }
   .card-header.morning { background: linear-gradient(90deg, #1a150a, #2d200e); border-bottom: 2px solid #f59e0b; }
   .card-header.evening { background: linear-gradient(90deg, #0a1a0f, #0f2518); border-bottom: 2px solid #22c55e; }
-  .card-header h2 { font-size: 1rem; font-weight: 700; }
+  .card-header h2 { font-size: 1rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.04em; }
+  .card-header::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 1px; background: linear-gradient(90deg, transparent, rgba(255,255,255,0.1), transparent); }
   .slot-badge { font-size: 0.75rem; padding: 2px 8px; border-radius: 20px; font-weight: 600; margin-left: auto; }
   .night .slot-badge { background: #7c3aed33; color: #a78bfa; border: 1px solid #7c3aed; }
   .morning .slot-badge { background: #0ea5e933; color: #7dd3fc; border: 1px solid #0ea5e9; }
@@ -90,6 +97,11 @@
   /* sub section */
   .section-block.sub-section { border-color: #f59e0b44; }
   .section-block.sub-section .section-header { background: linear-gradient(90deg, #1a150a, #25200f); color: #f59e0b; border-bottom: 1px solid #f59e0b33; }
+
+  /* table row hover */
+  table tbody tr { transition: all 0.2s ease; }
+  table tbody tr:hover { background: rgba(255,255,255,0.03) !important; transform: translateX(2px); }
+  table tbody tr:hover .player-name { color: #fff; }
 
   /* dayoff section */
   .section-block.dayoff-section { border-color: #8b5cf644; }
@@ -124,11 +136,11 @@
 
   /* badges & text */
   .rank-badge { font-size: 0.7rem; font-weight: 700; padding: 1px 5px; border-radius: 4px; display: inline-block; }
-  .rank-badge.r5 { background: #fbbf2422; border: 1px solid #fbbf24; color: #fbbf24; }
-  .rank-badge.r4 { background: #f9731622; border: 1px solid #f97316; color: #f97316; }
-  .rank-badge.r3 { background: #60a5fa22; border: 1px solid #60a5fa; color: #60a5fa; }
-  .rank-badge.r2 { background: #a3e63522; border: 1px solid #a3e635; color: #a3e635; }
-  .rank-badge.r1 { background: #94a3b822; border: 1px solid #94a3b8; color: #94a3b8; }
+  .rank-badge.r5 { background: #fbbf2433; border: 1px solid #fbbf24; color: #fbbf24; box-shadow: 0 0 6px #fbbf2422; }
+  .rank-badge.r4 { background: #f9731633; border: 1px solid #f97316; color: #f97316; box-shadow: 0 0 6px #f9731622; }
+  .rank-badge.r3 { background: #60a5fa33; border: 1px solid #60a5fa; color: #60a5fa; box-shadow: 0 0 6px #60a5fa22; }
+  .rank-badge.r2 { background: #a3e63533; border: 1px solid #a3e635; color: #a3e635; box-shadow: 0 0 6px #a3e63522; }
+  .rank-badge.r1 { background: #94a3b833; border: 1px solid #94a3b8; color: #94a3b8; }
   .num { color: #555; font-size: 0.78rem; width: 28px; }
   .player-name { font-weight: 500; }
   .reason { font-size: 0.78rem; color: #888; }
