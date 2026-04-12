@@ -1281,80 +1281,86 @@
           {
             "r": "R4",
             "name": "Hello AE",
-            "reason": "1st"
+            "reason": "Tuần trước hạng 1 / 1st last week"
           },
           {
             "r": "R3",
             "name": "Mr Rama",
-            "reason": "2nd"
+            "reason": "Tuần trước hạng 2 / 2nd last week"
           },
           {
             "r": "R4",
             "name": "LinLin",
-            "reason": "3rd"
+            "reason": "Tuần trước hạng 3 / 3rd last week"
           },
           {
             "r": "R5",
             "name": "Lerxinhiu",
-            "reason": "4th"
+            "reason": "Tuần trước hạng 4 / 4th last week"
           },
           {
             "r": "R4",
             "name": "cường khùng",
-            "reason": "5th"
+            "reason": "Tuần trước hạng 5 / 5th last week"
           },
           {
             "r": "R4",
             "name": "zdevils",
-            "reason": "6th"
+            "reason": "Tuần trước hạng 6 / 6th last week"
           },
           {
             "r": "R3",
             "name": "MrAugust2886",
-            "reason": "7th"
+            "reason": "Tuần trước hạng 7 / 7th last week"
           },
           {
             "r": "R3",
             "name": "Thanh Tân 99",
-            "reason": "8th"
+            "reason": "Tuần trước hạng 8 / 8th last week"
           },
           {
             "r": "R3",
             "name": "tâm1980",
-            "reason": "9th"
+            "reason": "Tuần trước hạng 9 / 9th last week"
           },
           {
             "r": "R3",
             "name": "PewPewBoi",
-            "reason": "10th"
-          },
-          {
-            "r": "R3",
-            "name": "Indefatigabl3",
-            "reason": "11th"
+            "reason": "Tuần trước hạng 10 / 10th last week"
           },
           {
             "r": "R3",
             "name": "wolfwitch",
-            "reason": "12th"
+            "reason": "Tuần trước hạng 12 / 12th last week"
           },
           {
             "r": "R3",
             "name": "Shashank1411",
-            "reason": "13th"
+            "reason": "Tuần trước hạng 13 / 13th last week"
           },
           {
             "r": "R3",
             "name": "Panda Force",
-            "reason": "14th"
+            "reason": "Tuần trước hạng 14 / 14th last week"
           },
+          {
+            "r": "R3",
+            "name": "Indefatigabl3",
+            "reason": "Tuần trước hạng 11 / 11th last week"
+          },
+          {
+            "r": "R4",
+            "name": "Haizzzzzzzzzz",
+            "reason": "Trở lại / Re-added"
+          }
+        ],
+        "subs": [
           {
             "r": "R2",
             "name": "ntacutiiii",
-            "reason": "New to slot"
+            "reason": "1 YC - vắng mặt / 1 YC - absent"
           }
         ],
-        "subs": [],
         "off": [],
         "dayoff": []
       },
@@ -1368,105 +1374,111 @@
           {
             "r": "R3",
             "name": "Dầu Thơm MeoBinh",
-            "reason": "1st"
+            "reason": "Tuần trước hạng 1 / 1st last week"
           },
           {
             "r": "R4",
             "name": "Hải Anh 0612",
-            "reason": "2nd"
+            "reason": "Tuần trước hạng 2 / 2nd last week"
           },
           {
             "r": "R4",
             "name": "Rymi68",
-            "reason": "3rd"
+            "reason": "Tuần trước hạng 3 / 3rd last week"
           },
           {
             "r": "R3",
             "name": "WitWiu",
-            "reason": "4th"
+            "reason": "Tuần trước hạng 4 / 4th last week"
           },
           {
             "r": "R3",
             "name": "ÒÓÔ",
-            "reason": "5th"
+            "reason": "Tuần trước hạng 5 / 5th last week"
           },
           {
             "r": "R3",
             "name": "Vualidonzz",
-            "reason": "6th"
+            "reason": "Tuần trước hạng 6 / 6th last week"
           },
           {
             "r": "R3",
             "name": "anh thợ sửa máy",
-            "reason": "7th"
+            "reason": "Tuần trước hạng 7 / 7th last week"
           },
           {
             "r": "R3",
             "name": "Selnavi",
-            "reason": "8th"
+            "reason": "Tuần trước hạng 8 / 8th last week"
           },
           {
             "r": "R4",
             "name": "Hemerage",
-            "reason": "9th"
+            "reason": "Tuần trước hạng 9 / 9th last week"
           },
           {
             "r": "R3",
             "name": "Đập Chai",
-            "reason": "10th"
+            "reason": "Tuần trước hạng 10 / 10th last week"
           },
           {
             "r": "R3",
             "name": "danhoanh",
-            "reason": "11th"
+            "reason": "Tuần trước hạng 11 / 11th last week"
           },
           {
             "r": "R4",
             "name": "yologuy",
-            "reason": "12th"
+            "reason": "Tuần trước hạng 12 / 12th last week"
           },
           {
             "r": "R3",
             "name": "Chivas2026",
-            "reason": "13th"
+            "reason": "Tuần trước hạng 13 / 13th last week"
           },
           {
             "r": "R3",
             "name": "SanTa 1386",
-            "reason": "14th"
+            "reason": "Tuần trước hạng 14 / 14th last week"
           },
           {
             "r": "R3",
             "name": "Phạm khánhh",
-            "reason": "15th"
+            "reason": "Tuần trước hạng 15 / 15th last week"
           },
           {
             "r": "R3",
             "name": "NorthFog",
-            "reason": "16th"
+            "reason": "Tuần trước hạng 16 / 16th last week"
           },
           {
             "r": "R3",
             "name": "Marines Malevolent",
-            "reason": "17th"
+            "reason": "Tuần trước hạng 17 / 17th last week"
           },
           {
             "r": "R3",
             "name": "Hoá Đá",
-            "reason": "18th"
+            "reason": "Tuần trước hạng 18 / 18th last week"
           },
           {
             "r": "R3",
             "name": "Nguyenngoctuan",
-            "reason": "19th"
-          },
+            "reason": "Tuần trước hạng 19 / 19th last week"
+          }
+        ],
+        "subs": [
           {
             "r": "R3",
             "name": "cu tí nhỏ xíu",
-            "reason": "New to slot"
+            "reason": "1 YC - vắng mặt / 1 YC - absent"
+          },
+          {
+            "r": "R2",
+            "name": "hanubeast",
+            "reason": "1 YC - vắng mặt / 1 YC - absent"
           }
         ],
-        "subs": [],
         "off": [],
         "dayoff": []
       }
@@ -1482,90 +1494,96 @@
           {
             "r": "R4",
             "name": "Hello AE",
-            "reason": "1st"
+            "reason": "Tuần trước hạng 1 / 1st last week"
           },
           {
             "r": "R5",
             "name": "Lerxinhiu",
-            "reason": "2nd"
+            "reason": "Tuần trước hạng 2 / 2nd last week"
           },
           {
             "r": "R4",
             "name": "Rymi68",
-            "reason": "3rd"
+            "reason": "Tuần trước hạng 3 / 3rd last week"
           },
           {
             "r": "R4",
             "name": "LinLin",
-            "reason": "4th"
+            "reason": "Tuần trước hạng 4 / 4th last week"
           },
           {
             "r": "R3",
             "name": "Đập Chai",
-            "reason": "5th"
+            "reason": "Tuần trước hạng 5 / 5th last week"
           },
           {
             "r": "R4",
             "name": "zdevils",
-            "reason": "6th"
+            "reason": "Tuần trước hạng 6 / 6th last week"
           },
           {
             "r": "R3",
             "name": "WitWiu",
-            "reason": "7th"
+            "reason": "Tuần trước hạng 7 / 7th last week"
           },
           {
             "r": "R4",
             "name": "cường khùng",
-            "reason": "8th"
+            "reason": "Tuần trước hạng 8 / 8th last week"
           },
           {
             "r": "R3",
             "name": "wolfwitch",
-            "reason": "9th"
+            "reason": "Tuần trước hạng 9 / 9th last week"
           },
           {
             "r": "R3",
             "name": "anh thợ sửa máy",
-            "reason": "10th"
+            "reason": "Tuần trước hạng 10 / 10th last week"
           },
           {
             "r": "R3",
             "name": "tâm1980",
-            "reason": "11th"
+            "reason": "Tuần trước hạng 11 / 11th last week"
           },
           {
             "r": "R3",
             "name": "MrAugust2886",
-            "reason": "12th"
+            "reason": "Tuần trước hạng 12 / 12th last week"
           },
           {
             "r": "R3",
             "name": "Mr Rama",
-            "reason": "13th"
+            "reason": "Tuần trước hạng 13 / 13th last week"
           },
           {
             "r": "R3",
             "name": "Aaaluan",
-            "reason": "14th"
+            "reason": "Tuần trước hạng 14 / 14th last week"
           },
           {
             "r": "R3",
             "name": "Shashank1411",
-            "reason": "15th"
+            "reason": "Tuần trước hạng 15 / 15th last week"
           },
           {
             "r": "R3",
             "name": "Thanh Tân 99",
-            "reason": "16th"
-          },
+            "reason": "Tuần trước hạng 16 / 16th last week"
+          }
+        ],
+        "subs": [
           {
             "r": "R2",
             "name": "ntacutiiii",
-            "reason": "New to slot"
+            "reason": "1 YC - vắng mặt / 1 YC - absent"
+          },
+          {
+            "r": "R3",
+            "name": "Indefatigabl3",
+            "reason": "1 YC - vắng mặt / 1 YC - absent"
           }
         ],
-        "subs": [],
         "off": [],
         "dayoff": []
       },
@@ -1579,80 +1597,91 @@
           {
             "r": "R3",
             "name": "Vualidonzz",
-            "reason": "1st"
+            "reason": "Tuần trước hạng 1 / 1st last week"
           },
           {
             "r": "R4",
             "name": "yologuy",
-            "reason": "2nd"
+            "reason": "Tuần trước hạng 2 / 2nd last week"
           },
           {
             "r": "R3",
             "name": "danhoanh",
-            "reason": "3rd"
+            "reason": "Tuần trước hạng 3 / 3rd last week"
           },
           {
             "r": "R3",
             "name": "SanTa 1386",
-            "reason": "4th"
+            "reason": "Tuần trước hạng 4 / 4th last week"
           },
           {
             "r": "R3",
             "name": "ÒÓÔ",
-            "reason": "5th"
+            "reason": "Tuần trước hạng 5 / 5th last week"
           },
           {
             "r": "R4",
             "name": "Hải Anh 0612",
-            "reason": "6th"
+            "reason": "Tuần trước hạng 6 / 6th last week"
           },
           {
             "r": "R3",
             "name": "Marines Malevolent",
-            "reason": "7th"
+            "reason": "Tuần trước hạng 7 / 7th last week"
           },
           {
             "r": "R3",
             "name": "Tommy4014",
-            "reason": "8th"
+            "reason": "Tuần trước hạng 8 / 8th last week"
           },
           {
             "r": "R3",
             "name": "NorthFog",
-            "reason": "9th"
+            "reason": "Tuần trước hạng 9 / 9th last week"
           },
           {
             "r": "R3",
             "name": "Dầu Thơm MeoBinh",
-            "reason": "10th"
+            "reason": "Tuần trước hạng 10 / 10th last week"
           },
           {
             "r": "R3",
             "name": "Phạm khánhh",
-            "reason": "11th"
+            "reason": "Tuần trước hạng 11 / 11th last week"
           },
           {
             "r": "R3",
             "name": "Panda Force",
-            "reason": "12th"
+            "reason": "Tuần trước hạng 12 / 12th last week"
           },
           {
             "r": "R4",
             "name": "Hemerage",
-            "reason": "13th"
+            "reason": "Tuần trước hạng 13 / 13th last week"
           },
           {
             "r": "R3",
             "name": "Nguyenngoctuan",
-            "reason": "14th"
+            "reason": "Tuần trước hạng 14 / 14th last week"
           },
           {
             "r": "R3",
             "name": "Selnavi",
-            "reason": "15th"
+            "reason": "Tuần trước hạng 15 / 15th last week"
           }
         ],
-        "subs": [],
+        "subs": [
+          {
+            "r": "R3",
+            "name": "Chivas2026",
+            "reason": "1 YC - vắng mặt / 1 YC - absent"
+          },
+          {
+            "r": "R3",
+            "name": "Tú Bướmm",
+            "reason": "1 YC - vắng mặt / 1 YC - absent"
+          }
+        ],
         "off": [],
         "dayoff": []
       }
