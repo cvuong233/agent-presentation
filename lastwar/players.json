@@ -113,7 +113,7 @@
   "last_matches": {
     "sm": {
       "A": {
-        "date": "2026-04-03",
+        "date": "2026-04-09",
         "slot": "evening 18:30",
         "scores": {
           "Hello AE": 4689647,
@@ -133,7 +133,7 @@
         }
       },
       "B": {
-        "date": "2026-04-04",
+        "date": "2026-04-10",
         "slot": "morning 08:30",
         "scores": {
           "Dầu Thơm MeoBinh": 4995413,
@@ -160,7 +160,7 @@
     },
     "hn": {
       "A": {
-        "date": "2026-04-02",
+        "date": "2026-04-08",
         "slot": "night 21:30",
         "scores": {
           "Hello AE": 10604919,
@@ -182,7 +182,7 @@
         }
       },
       "B": {
-        "date": "2026-04-03",
+        "date": "2026-04-08",
         "slot": "morning 08:30",
         "scores": {
           "Vualidonzz": 5419414,
