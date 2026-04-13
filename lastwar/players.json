@@ -676,17 +676,6 @@
         "sm": 0
       }
     },
-    "Hoá Đá": {
-      "rank": "R3",
-      "yc": {
-        "hn": 0,
-        "sm": 0
-      },
-      "cm": {
-        "hn": 0,
-        "sm": 0
-      }
-    },
     "SanTa 1386": {
       "rank": "R3",
       "yc": {
@@ -1458,11 +1447,6 @@
           },
           {
             "r": "R3",
-            "name": "Hoá Đá",
-            "reason": "Tuần trước hạng 18 / 18th last week"
-          },
-          {
-            "r": "R3",
             "name": "Nguyenngoctuan",
             "reason": "Tuần trước hạng 19 / 19th last week"
           }
@@ -1704,6 +1688,11 @@
       "rank": "R3",
       "reason": "Rời liên minh / Left alliance",
       "date": "2026-04-08"
+    },
+    {
+      "name": "Hoá Đá",
+      "reason": "Left the alliance",
+      "date": "2026-04-13"
     }
   ]
 }
