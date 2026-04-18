@@ -1455,14 +1455,7 @@
             "reason": "Tuần trước hạng 22nd / 22nd last week"
           }
         ],
-        "off": [
-          {
-            "r": "R3",
-            "name": "Hoá Đá",
-            "last_score": 811579,
-            "reason": "Đã bị loại / Already removed"
-          }
-        ],
+        "off": [],
         "dayoff": []
       }
     },
