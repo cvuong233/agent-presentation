@@ -1313,7 +1313,8 @@
           {
             "name": "Lerxinhiu",
             "last_score": 2716058,
-            "reason": "Vắng mặt / Absent"
+            "reason": "Vắng mặt / Absent",
+            "r": "R5"
           }
         ],
         "dayoff": []
@@ -1442,7 +1443,8 @@
           {
             "name": "Hoá Đá",
             "last_score": 811579,
-            "reason": "Đã bị loại / Already removed"
+            "reason": "Đã bị loại / Already removed",
+            "r": "R3"
           }
         ],
         "dayoff": []
@@ -1548,12 +1550,14 @@
           {
             "name": "Rymi68",
             "last_score": 6088596,
-            "reason": "Vắng mặt / Absent"
+            "reason": "Vắng mặt / Absent",
+            "r": "R4"
           },
           {
             "name": "Đập Chai",
             "last_score": 4733288,
-            "reason": "Vắng mặt / Absent"
+            "reason": "Vắng mặt / Absent",
+            "r": "R3"
           }
         ],
         "dayoff": []
@@ -1647,12 +1651,14 @@
           {
             "name": "Panda Force",
             "last_score": 1555134,
-            "reason": "2 YC - bị loại / Removed (2 YC)"
+            "reason": "2 YC - bị loại / Removed (2 YC)",
+            "r": "R3"
           },
           {
             "name": "Nguyenngoctuan",
             "last_score": 1309853,
-            "reason": "Vắng mặt / Absent"
+            "reason": "Vắng mặt / Absent",
+            "r": "R3"
           }
         ],
         "dayoff": []
