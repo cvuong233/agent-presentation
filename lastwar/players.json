@@ -646,12 +646,12 @@
       "hn_team": "A",
       "sm_team": "A",
       "yc": {
-        "hn": 1,
-        "sm": 1
+        "hn": 0,
+        "sm": 0
       },
       "cm": {
-        "hn": 1,
-        "sm": 1
+        "hn": 0,
+        "sm": 0
       }
     },
     "cu tí nhỏ xíu": {
@@ -1278,8 +1278,18 @@
           },
           {
             "r": "R3",
+            "name": "Panda Force",
+            "reason": "Tuần trước hạng 11th / 11th last week"
+          },
+          {
+            "r": "R3",
             "name": "wolfwitch",
             "reason": "Tuần trước hạng 12th / 12th last week"
+          },
+          {
+            "r": "R2",
+            "name": "ntacutiiii",
+            "reason": "Tuần trước hạng 13th / 13th last week"
           },
           {
             "r": "R3",
@@ -1302,18 +1312,7 @@
             "reason": "Tuần trước hạng 17th / 17th last week"
           }
         ],
-        "subs": [
-          {
-            "r": "R5",
-            "name": "Lerxinhiu",
-            "reason": "1 YC - vắng mặt / 1 YC - absent (hạng 4th tuần trước)"
-          },
-          {
-            "r": "R2",
-            "name": "ntacutiiii",
-            "reason": "Tuần trước hạng 13th / 13th last week"
-          }
-        ],
+        "subs": [],
         "off": [],
         "dayoff": []
       },
