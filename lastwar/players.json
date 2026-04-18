@@ -1304,19 +1304,17 @@
         ],
         "subs": [
           {
+            "r": "R5",
+            "name": "Lerxinhiu",
+            "reason": "1 YC - vắng mặt / 1 YC - absent (hạng 4th tuần trước)"
+          },
+          {
             "r": "R2",
             "name": "ntacutiiii",
             "reason": "Tuần trước hạng 13th / 13th last week"
           }
         ],
-        "off": [
-          {
-            "name": "Lerxinhiu",
-            "last_score": 2716058,
-            "reason": "Vắng mặt / Absent",
-            "r": "R5"
-          }
-        ],
+        "off": [],
         "dayoff": []
       },
       "B": {
