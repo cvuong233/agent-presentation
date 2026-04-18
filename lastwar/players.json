@@ -1324,15 +1324,14 @@
             "reason": "Tuần trước hạng 17th / 17th last week"
           }
         ],
-        "subs": [],
-        "off": [
+        "subs": [
           {
             "r": "R5",
             "name": "Lerxinhiu",
-            "last_score": 2716058,
-            "reason": "Vắng mặt / Absent"
+            "reason": "1 YC - vắng mặt / 1 YC - absent"
           }
         ],
+        "off": [],
         "dayoff": []
       },
       "B": {
@@ -1553,21 +1552,19 @@
             "reason": "Tuần trước hạng 17th / 17th last week"
           }
         ],
-        "subs": [],
-        "off": [
+        "subs": [
           {
             "r": "R4",
             "name": "Rymi68",
-            "last_score": 6088596,
-            "reason": "Vắng mặt / Absent"
+            "reason": "1 YC - vắng mặt / 1 YC - absent"
           },
           {
             "r": "R3",
             "name": "Đập Chai",
-            "last_score": 4733288,
-            "reason": "Vắng mặt / Absent"
+            "reason": "1 YC - vắng mặt / 1 YC - absent"
           }
         ],
+        "off": [],
         "dayoff": []
       },
       "B": {
@@ -1653,21 +1650,19 @@
             "reason": "Tuần trước hạng 15th / 15th last week"
           }
         ],
-        "subs": [],
-        "off": [
+        "subs": [
           {
             "r": "R3",
             "name": "Panda Force",
-            "last_score": 1555134,
-            "reason": "Vắng mặt / Absent"
+            "reason": "1 YC - vắng mặt / 1 YC - absent"
           },
           {
             "r": "R3",
             "name": "Nguyenngoctuan",
-            "last_score": 1309853,
-            "reason": "Vắng mặt / Absent"
+            "reason": "1 YC - vắng mặt / 1 YC - absent"
           }
         ],
+        "off": [],
         "dayoff": []
       }
     }
