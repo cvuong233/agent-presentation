@@ -228,7 +228,6 @@
     transform: scale(1.1);
     box-shadow: 0 4px 12px rgba(233, 69, 96, 0.4);
   }
-  .info-btn svg { width: 18px; height: 18px; fill: white; }
   @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
   @keyframes slideUp { from { transform: translateY(20px); opacity: 0; } to { transform: translateY(0); opacity: 1; } }
 </style>
@@ -239,11 +238,7 @@
   <div style="display:flex;align-items:center;gap:12px;flex-wrap:nowrap;min-width:0">
     <span style="flex-shrink:0">⚔️</span>
     <h1 data-i18n="title" style="margin:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">ACMB — Đội Hình Chiến Đấu</h1>
-    <button class="info-btn" id="info-btn" title="Lineup Rules" style="margin-left:8px">
-      <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-        <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/>
-      </svg>
-    </button>
+    <button class="info-btn" id="info-btn" title="Lineup Rules" style="margin-left:8px">📋</button>
   </div>
   <div class="header-right">
     <span id="week-label"></span>
