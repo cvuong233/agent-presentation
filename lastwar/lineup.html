@@ -13,6 +13,8 @@
   header h1 { font-size: 1.4rem; color: #fff; margin: 0; white-space: nowrap; }
   .header-right { margin-left: auto; display: flex; align-items: center; gap: 12px; }
   .header-right span { font-size: 0.85rem; color: #888; }
+  .info-btn { background: #1a1a2e; border: 1px solid #e94560; border-radius: 50%; width: 32px; height: 32px; display: flex; align-items: center; justify-content: center; cursor: pointer; transition: all 0.2s; font-size: 1.2rem; color: #fff; box-shadow: 0 2px 8px rgba(233, 69, 96, 0.3); }
+  .info-btn:hover { transform: scale(1.1); box-shadow: 0 4px 12px rgba(233, 69, 96, 0.5); background: #e94560; }
   .lang-toggle { display: flex; background: #0f0f1a; border-radius: 6px; overflow: hidden; border: 1px solid #2a2a3e; }
   .lang-btn { padding: 4px 12px; font-size: 0.78rem; font-weight: 600; cursor: pointer; border: none; background: transparent; color: #888; transition: all 0.2s; }
   .lang-btn.active { background: #e94560; color: #fff; }
@@ -193,6 +195,22 @@
 
   /* empty state */
   .empty-note { padding: 12px 14px; font-size: 0.8rem; color: #555; font-style: italic; text-align: center; }
+
+  /* info modal */
+  .info-modal-overlay { position: fixed; inset: 0; background: rgba(0, 0, 0, 0.7); backdrop-filter: blur(4px); z-index: 9999; display: none; align-items: center; justify-content: center; animation: fadeIn 0.2s; }
+  .info-modal-overlay.active { display: flex; }
+  .info-modal-card { background: linear-gradient(145deg, #1a1a2e, #16213e); border-radius: 16px; padding: 24px; max-width: 500px; width: 90%; max-height: 85vh; overflow-y: auto; border: 2px solid #e94560; box-shadow: 0 12px 40px rgba(0,0,0,0.5); animation: slideUp 0.3s; }
+  .info-modal-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; padding-bottom: 16px; border-bottom: 1px solid rgba(233, 69, 96, 0.3); }
+  .info-modal-title { font-size: 1.2rem; font-weight: 700; color: #fff; text-transform: uppercase; letter-spacing: 0.05em; }
+  .info-modal-close { background: #e94560; border: none; border-radius: 8px; width: 28px; height: 28px; color: #fff; cursor: pointer; font-size: 1rem; display: flex; align-items: center; justify-content: center; transition: all 0.2s; }
+  .info-modal-close:hover { transform: scale(1.1); background: #c73652; }
+  .info-modal-content { font-size: 0.88rem; color: #e0e0e0; line-height: 1.6; }
+  .info-modal-content h3 { font-size: 0.8rem; font-weight: 700; color: #e94560; text-transform: uppercase; margin: 16px 0 8px; letter-spacing: 0.05em; }
+  .info-modal-content ul { margin-left: 18px; color: #b0b0c0; }
+  .info-modal-content li { margin-bottom: 6px; }
+  .info-modal-content li::marker { color: #e94560; }
+  @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+  @keyframes slideUp { from { transform: translateY(20px); opacity: 0; } to { transform: translateY(0); opacity: 1; } }
 </style>
 </head>
 <body>
@@ -203,6 +221,7 @@
     <h1 data-i18n="title" style="margin:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">ACMB — Đội Hình Chiến Đấu</h1>
   </div>
   <div class="header-right">
+    <button class="info-btn" id="info-btn" title="Lineup Rules">ℹ️</button>
     <span id="week-label"></span>
     <div class="lang-toggle">
       <button class="lang-btn active" onclick="setLang('vi')">🇻🇳 VI</button>
@@ -247,6 +266,54 @@
     </div>
     <div class="battle-card" id="hn-a"></div>
     <div class="battle-card" id="hn-b"></div>
+  </div>
+</div>
+
+<!-- Info Modal -->
+<div class="info-modal-overlay" id="info-modal">
+  <div class="info-modal-card">
+    <div class="info-modal-header">
+      <span class="info-modal-title">📋 Lineup Formation Rules</span>
+      <button class="info-modal-close" id="info-modal-close">✕</button>
+    </div>
+    <div class="info-modal-content">
+      <h3>🏆 Selection Order</h3>
+      <ul>
+        <li>Players ranked by last match score (highest first)</li>
+        <li>Not by rank - performance matters!</li>
+      </ul>
+
+      <h3>🟨 Yellow Card (YC) Rules</h3>
+      <ul>
+        <li>1 YC in a battle → Drop to subs for THAT battle only</li>
+        <li>2 consecutive YCs in same battle → Removed from lineup</li>
+        <li>YC is per-battle (HN/SM separate)</li>
+      </ul>
+
+      <h3>👥 Team Restrictions</h3>
+      <ul>
+        <li>Some players restricted to specific slots (hn_team, sm_team)</li>
+        <li>They only play in their assigned slot</li>
+      </ul>
+
+      <h3>📊 Slot Capacity</h3>
+      <ul>
+        <li>SM (Desert Storm): 20 main + subs</li>
+        <li>HN (Canyon Storm): 30 main + subs</li>
+      </ul>
+
+      <h3>⏰ Registration Deadlines</h3>
+      <ul>
+        <li>HN: Tue 9am ICT (battle Thu night)</li>
+        <li>SM: Thu 9am ICT (battle Thu evening)</li>
+      </ul>
+
+      <h3>🔄 Absence Rule</h3>
+      <ul>
+        <li>1 match absent → Subs</li>
+        <li>2 consecutive absences → Removed</li>
+      </ul>
+    </div>
   </div>
 </div>
 
@@ -529,6 +596,49 @@ fetch('./players.json')
   .then(r => r.json())
   .then(data => { loadedData = data; setLang(currentLang); syncTFVisibility(); })
   .catch(e => document.body.innerHTML += `<p style="color:red;padding:20px">Error: ${e}</p>`);
+
+// Info Modal Logic
+const infoBtn = document.getElementById('info-btn');
+const infoModal = document.getElementById('info-modal');
+const infoModalClose = document.getElementById('info-modal-close');
+
+function openInfoModal() {
+  infoModal.classList.add('active');
+}
+
+function closeInfoModal() {
+  infoModal.classList.remove('active');
+}
+
+function toggleInfoModal() {
+  if (infoModal.classList.contains('active')) {
+    closeInfoModal();
+  } else {
+    openInfoModal();
+  }
+}
+
+// Event listeners
+infoBtn.addEventListener('click', (e) => {
+  e.stopPropagation();
+  openInfoModal();
+});
+
+infoModalClose.addEventListener('click', closeInfoModal);
+
+// Close when clicking outside the modal card
+infoModal.addEventListener('click', (e) => {
+  if (e.target === infoModal) {
+    closeInfoModal();
+  }
+});
+
+// Close on Escape key
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'Escape' && infoModal.classList.contains('active')) {
+    closeInfoModal();
+  }
+});
 </script>
 </body>
 </html>
