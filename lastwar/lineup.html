@@ -70,7 +70,6 @@
   .card-header.evening { background: linear-gradient(90deg, #0a1a0f, #0f2518); border-bottom: 2px solid #22c55e; }
   .card-header h2 { font-size: 0.85rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.04em; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; min-width: 0; }
   .card-header::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 1px; background: linear-gradient(90deg, transparent, rgba(255,255,255,0.1), transparent); }
-  .card-battle-icon { font-size: 1.3rem; flex-shrink: 0; }
   .slot-badge { font-size: 0.7rem; padding: 2px 8px; border-radius: 20px; font-weight: 600; margin-left: auto; white-space: nowrap; flex-shrink: 0; }
   .night .slot-badge { background: #7c3aed33; color: #a78bfa; border: 1px solid #7c3aed; }
   .morning .slot-badge { background: #0ea5e933; color: #7dd3fc; border: 1px solid #0ea5e9; }
@@ -374,16 +373,11 @@ function buildCard(mode, slot, data) {
 
   return `
     <div class="card-header ${periodClass}">
-      <div style="display:flex;align-items:center;gap:10px;min-width:0;flex-shrink:1">
-        <div>
-          <h2>${t('team')} ${slot}</h2>
-          <div style="font-size:0.78rem;color:#aaa;margin-top:2px">
-            ${formatBattleDate(data.meta?.next_battles?.[mode]?.[slot], d.time)}
-          </div>
-        </div>
+      <div>
+        <h2>${t('team')} ${slot}</h2>
+        <div class="subtitle">${formatBattleDate(data.meta?.next_battles?.[mode]?.[slot], d.time)}</div>
       </div>
-      <span class="slot-badge" style="flex-shrink:0">${t(d.period)} ${d.time}</span>
-      <span class="card-battle-icon" style="flex-shrink:0">${battleIcon(mode)}</span>
+      <span class="slot-badge">${t(d.period)}</span>
     </div>
     ${summary}
     ${mainSection}
