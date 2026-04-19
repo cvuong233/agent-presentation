@@ -302,29 +302,34 @@
     </div>
     <div class="info-modal-content">
 
-      <h3 data-i18n="info_selection">🏆 Selection Order</h3>
+      <h3 data-i18n="info_selection">🏆 Selection Criteria</h3>
       <ul>
-        <li data-i18n="info_selection_desc">Players ranked by last match score (highest first)<br>Not by rank - performance matters!</li>
+        <li data-i18n="info_selection_desc">- Based on previous match scores (highest priority)
+- Performance over rank!</li>
       </ul>
 
-      <h3 data-i18n="info_team">👥 Team Restrictions</h3>
+      <h3 data-i18n="info_team">👥 Task Force Assignment</h3>
       <ul>
-        <li data-i18n="info_team_desc">Each week, a player can only play for ONE Task Force (A or B) per battle<br>Cannot be in both Team A and Team B for the same battle</li>
+        <li data-i18n="info_team_desc">- Players assigned to ONE Task Force (A or B) per battle each week
+- Cannot be on both Team A and Team B simultaneously</li>
       </ul>
 
-      <h3 data-i18n="info_slot">📊 Slot Capacity</h3>
+      <h3 data-i18n="info_slot">📊 Roster Limits</h3>
       <ul>
-        <li data-i18n="info_slot_desc">SM (Desert Storm): 20 main + subs<br>HN (Canyon Storm): 30 main + subs</li>
+        <li data-i18n="info_slot_desc">- SM (Desert Storm): 20 starters + substitutes
+- HN (Canyon Storm): 30 starters + substitutes</li>
       </ul>
 
-      <h3 data-i18n="info_deadline">⏰ Registration Deadlines</h3>
+      <h3 data-i18n="info_deadline">⏰ Registration Deadline</h3>
       <ul>
-        <li data-i18n="info_deadline_desc">HN: Tue 9am ICT (battle Thu night)<br>SM: Thu 9am ICT (battle Thu evening)</li>
+        <li data-i18n="info_deadline_desc">- HN: Tue 9am ICT (Thu night battle)
+- SM: Thu 9am ICT (Thu evening battle)</li>
       </ul>
 
-      <h3 data-i18n="info_absence">🔄 Absence Rule</h3>
+      <h3 data-i18n="info_absence">🔄 Attendance Policy</h3>
       <ul>
-        <li data-i18n="info_absence_desc">1 match absent → Drop to subs<br>2 consecutive absences → Removed from lineup</li>
+        <li data-i18n="info_absence_desc">- Miss 1 match → Move to substitutes
+- Miss 2 consecutive matches → Removed from roster</li>
       </ul>
     </div>
   </div>
@@ -346,17 +351,17 @@ const I18N = {
     night: '🌙 Tối', morning: '☀️ Sáng', evening: '🌅 Chiều',
     transferred: 'Chuyển đội', new_to_slot: 'Mới vào đội',
     overflow: 'tràn', no_subs: 'Không có dự bị', no_dayoff: '',
-    info_title: '📋 Quy Tắc Đội Hình',
-    info_selection: '🏆 Thứ Tự Chọn',
-    info_selection_desc: '- Xếp theo điểm trận trước (cao nhất trước)\n- Không theo hạng - hiệu suất quan trọng!',
-    info_team: '👥 Giới Hạn Đội',
-    info_team_desc: '- Mỗi tuần, mỗi player chỉ chơi 1 Task Force (A hoặc B) cho mỗi battle\n- Không thể chơi cả Team A và Team B cùng 1 battle',
-    info_slot: '📊 Số Lượng Slot',
-    info_slot_desc: '- SM (Bão Sa Mạc): 20 chính + subs\n- HN (Bão Hẻm Núi): 30 chính + subs',
-    info_deadline: '⏰ Hạn Đăng Ký',
-    info_deadline_desc: '- HN: Tue 9am ICT (trận Thu night)\n- SM: Thu 9am ICT (trận Thu evening)',
-    info_absence: '🔄 Vắng Mặt',
-    info_absence_desc: '- 1 trận vắng → Xuống subs\n- 2 trận vắng liên tiếp → Loại khỏi đội hình'
+    info_title: '📋 Thể Lệ Đội Hình',
+    info_selection: '🏆 Thứ Tự Chọn Lựa',
+    info_selection_desc: '- Dựa trên điểm số trận trước (cao nhất được ưu tiên)\n- Hiệu suất quan trọng hơn cấp bậc!',
+    info_team: '👥 Nguyên Tắc Phân Đội',
+    info_team_desc: '- Mỗi tuần, player chỉ thuộc 1 Task Force (A hoặc B) cho mỗi battle\n- Không thể đồng thời ở cả Team A và Team B',
+    info_slot: '📊 Sĩ Số Tối Đa',
+    info_slot_desc: '- SM (Bão Sa Mạc): 20 chính thức + dự bị\n- HN (Bão Hẻm Núi): 30 chính thức + dự bị',
+    info_deadline: '⏰ Thời Hạn Đăng Ký',
+    info_deadline_desc: '- HN: 9am Thứ Ba ICT (trận đấu Thứ Năm tối)\n- SM: 9am Thứ Năm ICT (trận đấu Thứ Năm chiều)',
+    info_absence: '🔄 Quy Định Vắng Mặt',
+    info_absence_desc: '- Vắng 1 trận → Xuống đội dự bị\n- Vắng 2 trận liên tiếp → Loại khỏi đội hình'
   },
   en: {
     title: 'ACMB — Battle Lineup',
@@ -370,17 +375,17 @@ const I18N = {
     night: '🌙 Night', morning: '☀️ Morning', evening: '🌅 Evening',
     transferred: 'Transferred', new_to_slot: 'New to slot',
     overflow: 'overflow', no_subs: 'No substitutes', no_dayoff: '',
-    info_title: '📋 Lineup Formation Rules',
-    info_selection: '🏆 Selection Order',
-    info_selection_desc: '- Ranked by last match score (highest first)\n- Not by rank - performance matters!',
-    info_team: '👥 Team Restrictions',
-    info_team_desc: '- Each week, a player can only play for ONE Task Force (A or B) per battle\n- Cannot be in both Team A and Team B for the same battle',
-    info_slot: '📊 Slot Capacity',
-    info_slot_desc: '- SM (Desert Storm): 20 main + subs\n- HN (Canyon Storm): 30 main + subs',
-    info_deadline: '⏰ Registration Deadlines',
-    info_deadline_desc: '- HN: Tue 9am ICT (battle Thu night)\n- SM: Thu 9am ICT (battle Thu evening)',
-    info_absence: '🔄 Absence Rule',
-    info_absence_desc: '- 1 match absent → Subs\n- 2 consecutive absences → Removed'
+    info_title: '📋 Lineup Rules & Regulations',
+    info_selection: '🏆 Selection Criteria',
+    info_selection_desc: '- Based on previous match scores (highest priority)\n- Performance over rank!',
+    info_team: '👥 Task Force Assignment',
+    info_team_desc: '- Players assigned to ONE Task Force (A or B) per battle each week\n- Cannot be on both Team A and Team B simultaneously',
+    info_slot: '📊 Roster Limits',
+    info_slot_desc: '- SM (Desert Storm): 20 starters + substitutes\n- HN (Canyon Storm): 30 starters + substitutes',
+    info_deadline: '⏰ Registration Deadline',
+    info_deadline_desc: '- HN: Tue 9am ICT (Thu night battle)\n- SM: Thu 9am ICT (Thu evening battle)',
+    info_absence: '🔄 Attendance Policy',
+    info_absence_desc: '- Miss 1 match → Move to substitutes\n- Miss 2 consecutive matches → Removed from roster'
   }
 };
 
