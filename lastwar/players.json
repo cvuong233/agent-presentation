@@ -1451,7 +1451,13 @@
             "reason": "Tuần trước hạng 21st / 21st last week"
           }
         ],
-        "subs": [],
+        "subs": [
+          {
+            "r": "R3",
+            "name": "Đập Chai",
+            "reason": "Dư chỗ / Overflow"
+          }
+        ],
         "off": [],
         "dayoff": [],
         "slot": "B",
