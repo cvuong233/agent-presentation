@@ -297,39 +297,44 @@
 <div class="info-modal-overlay" id="info-modal">
   <div class="info-modal-card">
     <div class="info-modal-header">
-      <span class="info-modal-title" data-i18n="info_title">📋 Lineup Formation Rules</span>
+      <span class="info-modal-title" data-i18n="info_title">📋 Cách Đội Hình Hoạt Động</span>
       <button class="info-modal-close" id="info-modal-close">✕</button>
     </div>
     <div class="info-modal-content">
 
-      <h3 data-i18n="info_selection">🏆 Selection Criteria</h3>
+      <h3 data-i18n="info_selection">🏆 Ai Được Chọn?</h3>
       <ul>
-        <li data-i18n="info_selection_desc">- Based on previous match scores (highest priority)
-- Performance over rank!</li>
+        <li data-i18n="info_selection_desc">- Xếp hạng theo điểm trận trước (cao nhất lên đầu)
+- Điểm cao = suất chính, rank không quan trọng!
+- Điểm thấp hơn sẽ xuống dự bị</li>
       </ul>
 
-      <h3 data-i18n="info_team">👥 Task Force Assignment</h3>
+      <h3 data-i18n="info_team">👥 Mỗi Trận - Một Team</h3>
       <ul>
-        <li data-i18n="info_team_desc">- Players assigned to ONE Task Force (A or B) per battle each week
-- Cannot be on both Team A and Team B simultaneously</li>
+        <li data-i18n="info_team_desc">- Mỗi tuần, bạn chỉ chơi 1 team (A hoặc B) cho mỗi battle
+- Không thể đứng cả Team A lẫn Team B cùng lúc
+- Team được chọn dựa trên điểm và sở thích cá nhân</li>
       </ul>
 
-      <h3 data-i18n="info_slot">📊 Roster Limits</h3>
+      <h3 data-i18n="info_slot">📊 Sĩ Số Mỗi Team</h3>
       <ul>
-        <li data-i18n="info_slot_desc">- SM (Desert Storm): 20 starters + substitutes
-- HN (Canyon Storm): 30 starters + substitutes</li>
+        <li data-i18n="info_slot_desc">- Bão Sa Mạc (SM): 20 chính + dự bị
+- Bão Hẻm Núi (HN): 30 chính + dự bị
+- Còn slot trống? Cơ hội cho người mới!</li>
       </ul>
 
-      <h3 data-i18n="info_deadline">⏰ Registration Deadline</h3>
+      <h3 data-i18n="info_deadline">⏰ Hạn Đăng Ký</h3>
       <ul>
-        <li data-i18n="info_deadline_desc">- HN: Tue 9am ICT (Thu night)
-- SM: Thu 9am ICT (Thu)</li>
+        <li data-i18n="info_deadline_desc">- HN: Thứ 3, 9:00 sáng (ICT)
+- SM: Thứ 5, 9:00 sáng (ICT)
+- Quá hạn = tự động xuống dự bị</li>
       </ul>
 
-      <h3 data-i18n="info_absence">🔄 Attendance Policy</h3>
+      <h3 data-i18n="info_absence">🔄 Nếu Bạn Vắng Mặt</h3>
       <ul>
-        <li data-i18n="info_absence_desc">- Miss 1 match → Move to substitutes
-- Miss 2 consecutive matches → Removed from roster</li>
+        <li data-i18n="info_absence_desc">- Vắng 1 trận → Xuống dự bị tuần sau
+- Vắng 2 trận liên tiếp → Bị loại khỏi lineup
+- Báo trước nếu có thể để team sắp xếp</li>
       </ul>
     </div>
   </div>
@@ -351,17 +356,17 @@ const I18N = {
     night: '🌙 Tối', morning: '☀️ Sáng', evening: '🌅 Chiều',
     transferred: 'Chuyển đội', new_to_slot: 'Mới vào đội',
     overflow: 'tràn', no_subs: 'Không có dự bị', no_dayoff: '',
-    info_title: '📋 Thể Lệ Đội Hình',
-    info_selection: '🏆 Chọn Theo Điểm',
-    info_selection_desc: '- Xếp theo điểm trận trước (cao nhất trước)\n- Điểm cao = suất chính, không quan trọng rank!',
-    info_team: '👥 1 Battle - 1 Team',
-    info_team_desc: '- Mỗi tuần mỗi player chỉ chơi 1 team (A hoặc B) cho mỗi battle\n- Không thể đứng cả Team A lẫn Team B cùng lúc',
-    info_slot: '📊 Sĩ Số',
-    info_slot_desc: '- SM (Bão Sa Mạc): 20 chính + subs\n- HN (Bão Hẻm Núi): 30 chính + subs',
+    info_title: '📋 Cách Đội Hình Hoạt Động',
+    info_selection: '🏆 Ai Được Chọn?',
+    info_selection_desc: '- Xếp hạng theo điểm trận trước (cao nhất lên đầu)\n- Điểm cao = suất chính, rank không quan trọng!\n- Điểm thấp hơn sẽ xuống dự bị',
+    info_team: '👥 Mỗi Trận - Một Team',
+    info_team_desc: '- Mỗi tuần, bạn chỉ chơi 1 team (A hoặc B) cho mỗi battle\n- Không thể đứng cả Team A lẫn Team B cùng lúc\n- Team được chọn dựa trên điểm và sở thích cá nhân',
+    info_slot: '📊 Sĩ Số Mỗi Team',
+    info_slot_desc: '- Bão Sa Mạc (SM): 20 chính + dự bị\n- Bão Hẻm Núi (HN): 30 chính + dự bị\n- Còn slot trống? Cơ hội cho người mới!',
     info_deadline: '⏰ Hạn Đăng Ký',
-    info_deadline_desc: '- HN: 9am Thứ 3\n- SM: 9am Thứ 5',
-    info_absence: '🔄 Vắng Mặt',
-    info_absence_desc: '- Vắng 1 trận → Xuống subs\n- Vắng 2 trận liên tiếp → Type khỏi lineup'
+    info_deadline_desc: '- HN: Thứ 3, 9:00 sáng (ICT)\n- SM: Thứ 5, 9:00 sáng (ICT)\n- Quá hạn = tự động xuống dự bị',
+    info_absence: '🔄 Nếu Bạn Vắng Mặt',
+    info_absence_desc: '- Vắng 1 trận → Xuống dự bị tuần sau\n- Vắng 2 trận liên tiếp → Bị loại khỏi lineup\n- Báo trước nếu có thể để team sắp xếp'
   },
   en: {
     title: 'ACMB — Battle Lineup',
@@ -375,17 +380,17 @@ const I18N = {
     night: '🌙 Night', morning: '☀️ Morning', evening: '🌅 Evening',
     transferred: 'Transferred', new_to_slot: 'New to slot',
     overflow: 'overflow', no_subs: 'No substitutes', no_dayoff: '',
-    info_title: '📋 How Lineup Works',
-    info_selection: '🏆 Pick By Score',
-    info_selection_desc: '- Ranked by last match score (highest first)\n- High score = main roster, rank doesn\'t matter!',
-    info_team: '👥 1 Battle - 1 Team',
-    info_team_desc: '- Each player picks ONE team (A or B) per battle each week\n- Can\'t be on both Team A and Team B at the same time',
-    info_slot: '📊 Team Size',
-    info_slot_desc: '- SM (Desert Storm): 20 main + subs\n- HN (Canyon Storm): 30 main + subs',
-    info_deadline: '⏰ Sign-Up Deadline',
-    info_deadline_desc: '- HN: Tue 9am ICT\n- SM: Thu 9am ICT',
-    info_absence: '🔄 Miss A Match?',
-    info_absence_desc: '- Miss 1 match → Move to subs\n- Miss 2 in a row → Out of lineup'
+    info_title: '📋 How Our Lineup Works',
+    info_selection: '🏆 Who Gets Picked?',
+    info_selection_desc: '- Ranked by last match score (highest first)\n- High score = main roster, rank doesn\'t matter!\n- Lower scores go to substitutes',
+    info_team: '👥 One Battle, One Team',
+    info_team_desc: '- Each week, you play for ONE team (A or B) per battle\n- Can\'t be on both Team A and Team B at once\n- Teams are assigned based on score and player preference',
+    info_slot: '📊 Team Size Limits',
+    info_slot_desc: '- Desert Storm (SM): 20 main + subs\n- Canyon Storm (HN): 30 main + subs\n- Open slots? New players welcome!',
+    info_deadline: '⏰ Sign-Up Deadlines',
+    info_deadline_desc: '- HN: Tuesday, 9:00 AM (ICT)\n- SM: Thursday, 9:00 AM (ICT)\n- Miss the deadline? Auto-move to substitutes',
+    info_absence: '🔄 If You Miss A Match',
+    info_absence_desc: '- Miss 1 match → Move to substitutes next week\n- Miss 2 matches in a row → Removed from lineup\n- Let us know in advance if possible'
   }
 };
 
