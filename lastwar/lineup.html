@@ -61,19 +61,30 @@
     .battle-grid .tf-toggle { display: flex; }
   }
 
+  @media (max-width: 600px) {
+    .card-header-top {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 8px;
+    }
+    .card-header-right {
+      font-size: 0.75rem;
+    }
+    .card-header-left,
+    .card-header-right {
+      width: 100%;
+      justify-content: space-between;
+    }
+  }
+
   /* battle card */
   .battle-card { background: #16213e; border-radius: 12px; overflow: hidden; border: 1px solid #2a2a3e; }
-  .card-header { padding: 10px 14px; display: flex; align-items: center; gap: 8px; position: relative; flex-wrap: nowrap; min-width: 0; }
-  .card-header > div:first-child { display: flex; align-items: center; gap: 10px; min-width: 0; flex-shrink: 1; }
-  .card-header.night { background: linear-gradient(90deg, #1a0533, #2d1b4e); border-bottom: 2px solid #7c3aed; }
-  .card-header.morning { background: linear-gradient(90deg, #1a150a, #2d200e); border-bottom: 2px solid #f59e0b; }
-  .card-header.evening { background: linear-gradient(90deg, #0a1a0f, #0f2518); border-bottom: 2px solid #22c55e; }
-  .card-header h2 { font-size: 0.85rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.04em; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; min-width: 0; }
-  .card-header::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 1px; background: linear-gradient(90deg, transparent, rgba(255,255,255,0.1), transparent); }
-  .slot-badge { font-size: 0.7rem; padding: 2px 8px; border-radius: 20px; font-weight: 600; margin-left: auto; white-space: nowrap; flex-shrink: 0; }
-  .night .slot-badge { background: #7c3aed33; color: #a78bfa; border: 1px solid #7c3aed; }
-  .morning .slot-badge { background: #0ea5e933; color: #7dd3fc; border: 1px solid #0ea5e9; }
-  .evening .slot-badge { background: #f9731633; color: #fdba74; border: 1px solid #f97316; }
+  .card-header { padding: 12px 14px; display: flex; flex-direction: column; gap: 6px; position: relative; }
+  .card-header-top { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; }
+  .card-header-left { display: flex; align-items: center; gap: 8px; }
+  .card-header-right { display: flex; align-items: center; gap: 6px; font-size: 0.8rem; font-weight: 600; }
+  .card-header h2 { font-size: 0.9rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.04em; margin: 0; }
+  .card-subtitle { font-size: 0.75rem; color: #888; }
 
   /* summary badges */
   .summary-bar { display: flex; gap: 8px; padding: 10px 18px; background: #0a0d1a; flex-wrap: wrap; }
@@ -314,7 +325,6 @@ function rankBadges(players) {
 
 function buildCard(mode, slot, data) {
   const d = data.lineup[mode][slot];
-  const periodClass = d.period === 'night' ? 'night' : d.period === 'evening' ? 'evening' : 'morning';
   const openSlots = d.maxMain - d.main.length;
   const dayoff = d.dayoff || [];
 
@@ -372,12 +382,18 @@ function buildCard(mode, slot, data) {
   }
 
   return `
-    <div class="card-header ${periodClass}">
-      <div>
-        <h2>${t('team')} ${slot}</h2>
-        <div class="subtitle">${formatBattleDate(data.meta?.next_battles?.[mode]?.[slot], d.time)}</div>
+    <div class="card-header">
+      <div class="card-header-top">
+        <div class="card-header-left">
+          <span>${mode === 'sm' ? '🏜️' : '⛰️'}</span>
+          <h2>${t('team')} ${slot}</h2>
+        </div>
+        <div class="card-header-right">
+          <span>${getPeriodIcon(d.period)}</span>
+          <span>${t(d.period)} ${d.time}</span>
+        </div>
       </div>
-      <span class="slot-badge">${t(d.period)}</span>
+      <div class="card-subtitle">${formatBattleDate(data.meta?.next_battles?.[mode]?.[slot], d.time)}</div>
     </div>
     ${summary}
     ${mainSection}
@@ -417,9 +433,15 @@ function formatBattleDate(dateStr, timeStr) {
   // Format: "Apr 23, 21:30"
   const monthName = months[date.getMonth()];
   const day = date.getDate();
-  const time = timeStr || '00:00';
   
-  return `${monthName} ${day}, ${time}`;
+  return `${monthName} ${day}, ${date.getFullYear()}, ${time}`;
+}
+
+function getPeriodIcon(period) {
+  if (period === 'night') return '🌙';
+  if (period === 'morning') return '🌅';
+  if (period === 'evening') return '🌆';
+  return '☀️';
 }
 
 function render(data) {
