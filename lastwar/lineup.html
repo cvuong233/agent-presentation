@@ -301,16 +301,10 @@
       <button class="info-modal-close" id="info-modal-close">✕</button>
     </div>
     <div class="info-modal-content">
-      <h3 data-i18n="info_title">📋 Lineup Formation Rules</h3>
 
       <h3 data-i18n="info_selection">🏆 Selection Order</h3>
       <ul>
         <li data-i18n="info_selection_desc">Players ranked by last match score (highest first)<br>Not by rank - performance matters!</li>
-      </ul>
-
-      <h3 data-i18n="info_yc">🟨 Yellow Card (YC) Rules</h3>
-      <ul>
-        <li data-i18n="info_yc_desc">1 YC in a battle → Drop to subs for THAT battle only<br>2 consecutive YCs in same battle → Removed from lineup<br>YC is per-battle (HN/SM separate)</li>
       </ul>
 
       <h3 data-i18n="info_team">👥 Team Restrictions</h3>
@@ -330,7 +324,7 @@
 
       <h3 data-i18n="info_absence">🔄 Absence Rule</h3>
       <ul>
-        <li data-i18n="info_absence_desc">1 match absent → Subs<br>2 consecutive absences → Removed</li>
+        <li data-i18n="info_absence_desc">1 match absent → Drop to subs<br>2 consecutive absences → Removed from lineup</li>
       </ul>
     </div>
   </div>
@@ -355,8 +349,6 @@ const I18N = {
     info_title: '📋 Quy Tắc Đội Hình',
     info_selection: '🏆 Thứ Tự Chọn',
     info_selection_desc: '- Xếp theo điểm trận trước (cao nhất trước)\n- Không theo hạng - hiệu suất quan trọng!',
-    info_yc: '🟨 Thẻ Vàng (YC)',
-    info_yc_desc: '- 1 YC trong 1 trận → Xuống subs cho trận ĐÓ\n- 2 YC liên tiếp trong cùng trận → Loại khỏi đội hình\n- YC tính riêng per battle (HN/SM riêng)',
     info_team: '👥 Giới Hạn Đội',
     info_team_desc: '- Một số player bị giới hạn slot (hn_team, sm_team)\n- Họ chỉ chơi ở slot được chỉ định',
     info_slot: '📊 Số Lượng Slot',
@@ -364,7 +356,7 @@ const I18N = {
     info_deadline: '⏰ Hạn Đăng Ký',
     info_deadline_desc: '- HN: Tue 9am ICT (trận Thu night)\n- SM: Thu 9am ICT (trận Thu evening)',
     info_absence: '🔄 Vắng Mặt',
-    info_absence_desc: '- 1 trận vắng → Subs\n- 2 trận vắng liên tiếp → Loại'
+    info_absence_desc: '- 1 trận vắng → Xuống subs\n- 2 trận vắng liên tiếp → Loại khỏi đội hình'
   },
   en: {
     title: 'ACMB — Battle Lineup',
@@ -381,8 +373,6 @@ const I18N = {
     info_title: '📋 Lineup Formation Rules',
     info_selection: '🏆 Selection Order',
     info_selection_desc: '- Ranked by last match score (highest first)\n- Not by rank - performance matters!',
-    info_yc: '🟨 Yellow Card (YC)',
-    info_yc_desc: '- 1 YC in a battle → Drop to subs for THAT battle\n- 2 consecutive YCs in same battle → Removed\n- YC is per-battle (HN/SM separate)',
     info_team: '👥 Team Restrictions',
     info_team_desc: '- Some players restricted to slots (hn_team, sm_team)\n- They only play in assigned slot',
     info_slot: '📊 Slot Capacity',
