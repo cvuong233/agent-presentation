@@ -374,14 +374,16 @@ function buildCard(mode, slot, data) {
 
   return `
     <div class="card-header ${periodClass}">
-      <div style="display:flex;align-items:center;gap:10px">
-        <span class="card-battle-icon">${battleIcon(mode)}</span>
+      <div style="display:flex;align-items:center;gap:10px;min-width:0;flex-shrink:1">
         <div>
           <h2>${t('team')} ${slot}</h2>
-          <div style="font-size:0.78rem;color:#aaa;margin-top:2px">${data.meta?.next_battles?.[mode]?.[slot] || ''}</div>
+          <div style="font-size:0.78rem;color:#aaa;margin-top:2px">
+            ${formatBattleDate(data.meta?.next_battles?.[mode]?.[slot], d.time)}
+          </div>
         </div>
       </div>
-      <span class="slot-badge">${t(d.period)} ${d.time}</span>
+      <span class="slot-badge" style="flex-shrink:0">${t(d.period)} ${d.time}</span>
+      <span class="card-battle-icon" style="flex-shrink:0">${battleIcon(mode)}</span>
     </div>
     ${summary}
     ${mainSection}
@@ -393,6 +395,37 @@ function buildCard(mode, slot, data) {
 
 function localizeRemoveReason(reason) {
   return localizeReason(reason);
+}
+
+function formatBattleDate(dateStr, timeStr) {
+  if (!dateStr && !timeStr) return '';
+  
+  const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+  
+  // Try to parse date from various formats
+  // Expected input: "2026-04-23" or similar
+  let date = null;
+  
+  if (dateStr) {
+    // Try parsing as YYYY-MM-DD
+    const parts = dateStr.split('-');
+    if (parts.length === 3) {
+      const [year, month, day] = parts;
+      const monthIdx = parseInt(month) - 1;
+      if (!isNaN(monthIdx) && monthIdx >= 0 && monthIdx < 12) {
+        date = new Date(parseInt(year), monthIdx, parseInt(day));
+      }
+    }
+  }
+  
+  if (!date) date = new Date();
+  
+  // Format: "Apr 23, 21:30"
+  const monthName = months[date.getMonth()];
+  const day = date.getDate();
+  const time = timeStr || '00:00';
+  
+  return `${monthName} ${day}, ${time}`;
 }
 
 function render(data) {
