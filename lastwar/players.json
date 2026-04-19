@@ -132,7 +132,7 @@
           "Shashank1411": 520298,
           "Ooo bé Na Ooo": 499829,
           "Haizzzzzzzzzzzz": 282110,
-          "Lerxinhiiu": 244242
+          "Lerxinhiu": 244242
         }
       },
       "B": {
@@ -142,7 +142,7 @@
           "Mr Khoai Tây": 2241466,
           "Selnavi": 2191841,
           "anh thợ sửa máy": 1854415,
-          "Phạm khánhhh": 1841426,
+          "Phạm khánhh": 1841426,
           "Rymi68": 1809797,
           "Hemerage": 1765670,
           "Chivas2026": 1697015,
@@ -199,7 +199,7 @@
           "yologuy": 4568944,
           "Marines Malevolent": 4381645,
           "ÒOO": 3726114,
-          "Phạm khánhhh": 3665106,
+          "Phạm khánhh": 3665106,
           "Dầu Thơm MeoBinh": 3143043,
           "Selnavi": 2642044,
           "Chivas2026": 2578882,
@@ -676,7 +676,9 @@
       "cm": {
         "hn": 0,
         "sm": 0
-      }
+      },
+      "sm_team": "A",
+      "hn_team": "A"
     },
     "Phạm khánhh": {
       "rank": "R3",
@@ -1227,16 +1229,23 @@
         "hn": 1,
         "sm": 0
       }
+    },
+    "Ooo bé Na Ooo": {
+      "rank": "R3",
+      "hn_team": "A",
+      "yc": {
+        "hn": 0,
+        "sm": 0
+      },
+      "cm": {
+        "hn": 0,
+        "sm": 0
+      }
     }
   },
   "lineup": {
     "sm": {
       "A": {
-        "slot": "A",
-        "time": "18:30",
-        "period": "evening",
-        "date": "2026-04-17",
-        "maxMain": 20,
         "main": [
           {
             "r": "R4",
@@ -1320,8 +1329,8 @@
           },
           {
             "r": "R3",
-            "name": "Lerxinhiiu",
-            "reason": "Tuần trước hạng 17th / 17th last week"
+            "name": "Dầu Thơm MeoBinh",
+            "reason": "Mới vào đội / New to slot"
           }
         ],
         "subs": [
@@ -1332,14 +1341,14 @@
           }
         ],
         "off": [],
-        "dayoff": []
+        "dayoff": [],
+        "slot": "A",
+        "time": "18:30",
+        "period": "evening",
+        "date": "2026-04-17",
+        "maxMain": 20
       },
       "B": {
-        "slot": "B",
-        "time": "08:30",
-        "period": "morning",
-        "date": "2026-04-18",
-        "maxMain": 20,
         "main": [
           {
             "r": "R3",
@@ -1358,7 +1367,7 @@
           },
           {
             "r": "R3",
-            "name": "Phạm khánhhh",
+            "name": "Phạm khánhh",
             "reason": "Tuần trước hạng 4th / 4th last week"
           },
           {
@@ -1422,11 +1431,6 @@
             "reason": "Tuần trước hạng 16th / 16th last week"
           },
           {
-            "r": "R3",
-            "name": "Dầu Thơm MeoBinh",
-            "reason": "Tuần trước hạng 17th / 17th last week"
-          },
-          {
             "r": "R2",
             "name": "Lýkos",
             "reason": "Tuần trước hạng 18th / 18th last week"
@@ -1440,31 +1444,25 @@
             "r": "R3",
             "name": "Nguyenngoctuan",
             "reason": "Tuần trước hạng 20th / 20th last week"
-          }
-        ],
-        "subs": [
+          },
           {
             "r": "R3",
             "name": "cu tí nhỏ xíu",
             "reason": "Tuần trước hạng 21st / 21st last week"
-          },
-          {
-            "r": "R3",
-            "name": "Đập Chai",
-            "reason": "Tuần trước hạng 22nd / 22nd last week"
           }
         ],
+        "subs": [],
         "off": [],
-        "dayoff": []
+        "dayoff": [],
+        "slot": "B",
+        "time": "08:30",
+        "period": "morning",
+        "date": "2026-04-18",
+        "maxMain": 20
       }
     },
     "hn": {
       "A": {
-        "slot": "A",
-        "time": "21:30",
-        "period": "night",
-        "date": "2026-04-16",
-        "maxMain": 30,
         "main": [
           {
             "r": "R5",
@@ -1550,29 +1548,28 @@
             "r": "R3",
             "name": "Haizzzzzzzzzzzz",
             "reason": "Tuần trước hạng 17th / 17th last week"
-          }
-        ],
-        "subs": [
-          {
-            "r": "R4",
-            "name": "Rymi68",
-            "reason": "Vắng mặt 1 trận / Absent 1 match"
           },
           {
             "r": "R3",
-            "name": "Đập Chai",
-            "reason": "Vắng mặt 1 trận / Absent 1 match"
+            "name": "Dầu Thơm MeoBinh",
+            "reason": "Mới vào đội / New to slot"
+          },
+          {
+            "r": "R3",
+            "name": "Ooo bé Na Ooo",
+            "reason": "Mới vào đội / New to slot"
           }
         ],
+        "subs": [],
         "off": [],
-        "dayoff": []
+        "dayoff": [],
+        "slot": "A",
+        "time": "21:30",
+        "period": "night",
+        "date": "2026-04-16",
+        "maxMain": 30
       },
       "B": {
-        "slot": "B",
-        "time": "08:30",
-        "period": "morning",
-        "date": "2026-04-17",
-        "maxMain": 30,
         "main": [
           {
             "r": "R3",
@@ -1611,13 +1608,8 @@
           },
           {
             "r": "R3",
-            "name": "Phạm khánhhh",
+            "name": "Phạm khánhh",
             "reason": "Tuần trước hạng 8th / 8th last week"
-          },
-          {
-            "r": "R3",
-            "name": "Dầu Thơm MeoBinh",
-            "reason": "Tuần trước hạng 9th / 9th last week"
           },
           {
             "r": "R3",
@@ -1650,20 +1642,14 @@
             "reason": "Tuần trước hạng 15th / 15th last week"
           }
         ],
-        "subs": [
-          {
-            "r": "R3",
-            "name": "Panda Force",
-            "reason": "Vắng mặt 1 trận / Absent 1 match"
-          },
-          {
-            "r": "R3",
-            "name": "Nguyenngoctuan",
-            "reason": "Vắng mặt 1 trận / Absent 1 match"
-          }
-        ],
+        "subs": [],
         "off": [],
-        "dayoff": []
+        "dayoff": [],
+        "slot": "B",
+        "time": "08:30",
+        "period": "morning",
+        "date": "2026-04-17",
+        "maxMain": 30
       }
     }
   },
