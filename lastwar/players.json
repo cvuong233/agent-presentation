@@ -676,7 +676,9 @@
       "cm": {
         "hn": 0,
         "sm": 0
-      }
+      },
+      "sm_team": "A",
+      "hn_team": "A"
     },
     "Phạm khánhh": {
       "rank": "R3",
@@ -1225,6 +1227,18 @@
       },
       "cm": {
         "hn": 1,
+        "sm": 0
+      }
+    },
+    "Ooo bé Na Ooo": {
+      "rank": "R3",
+      "hn_team": "A",
+      "yc": {
+        "hn": 0,
+        "sm": 0
+      },
+      "cm": {
+        "hn": 0,
         "sm": 0
       }
     }
