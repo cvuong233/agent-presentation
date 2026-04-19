@@ -378,7 +378,7 @@ function buildCard(mode, slot, data) {
         <span class="card-battle-icon">${battleIcon(mode)}</span>
         <div>
           <h2>${t('team')} ${slot}</h2>
-          <div style="font-size:0.78rem;color:#aaa;margin-top:2px">${d.date || ''}</div>
+          <div style="font-size:0.78rem;color:#aaa;margin-top:2px">${data.meta?.next_battles?.[mode]?.[slot] || ''}</div>
         </div>
       </div>
       <span class="slot-badge">${t(d.period)} ${d.time}</span>
