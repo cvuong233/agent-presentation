@@ -9,8 +9,9 @@
   body { font-family: 'Segoe UI', sans-serif; background: #0f0f1a; color: #e0e0e0; min-height: 100vh; background-image: radial-gradient(circle at 1px 1px, #1a1a2e 1px, transparent 0); background-size: 32px 32px; }
 
   /* header */
-  header { background: linear-gradient(135deg, #1a1a2e, #16213e); padding: 20px 24px; border-bottom: 2px solid #e94560; display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
-  header h1 { font-size: 1.4rem; color: #fff; }
+  header { background: linear-gradient(135deg, #1a1a2e, #16213e); padding: 20px 24px; border-bottom: 2px solid #e94560; display: flex; align-items: center; gap: 12px; flex-wrap: nowrap; min-width: 0; }
+  header > div:first-child { flex-shrink: 0; }
+  header h1 { font-size: 1.4rem; color: #fff; margin: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; min-width: 0; flex-shrink: 1; }
   .header-right { margin-left: auto; display: flex; align-items: center; gap: 12px; }
   .header-right span { font-size: 0.85rem; color: #888; }
   .lang-toggle { display: flex; background: #0f0f1a; border-radius: 6px; overflow: hidden; border: 1px solid #2a2a3e; }
