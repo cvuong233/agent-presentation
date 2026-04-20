@@ -10,7 +10,6 @@
       "Lerxinhiu"
     ],
     "R4": [
-      "Haizzzzzzzzzz",
       "Hello AE",
       "Hemerage",
       "Hải Anh 0612",
@@ -1244,6 +1243,17 @@
         "hn": 0,
         "sm": 0
       }
+    },
+    "Haizzzzzzzzzzzz": {
+      "rank": "R4",
+      "yc": {
+        "hn": 0,
+        "sm": 0
+      },
+      "cm": {
+        "hn": 0,
+        "sm": 0
+      }
     }
   },
   "lineup": {
@@ -1326,7 +1336,7 @@
             "reason": "Tuần trước hạng 15th / 15th last week"
           },
           {
-            "r": "?",
+            "r": "R4",
             "name": "Haizzzzzzzzzzzz",
             "reason": "Tuần trước hạng 16th / 16th last week"
           },
@@ -1548,7 +1558,7 @@
             "reason": "Tuần trước hạng 16th / 16th last week"
           },
           {
-            "r": "?",
+            "r": "R4",
             "name": "Haizzzzzzzzzzzz",
             "reason": "Tuần trước hạng 17th / 17th last week"
           },
