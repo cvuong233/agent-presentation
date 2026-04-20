@@ -2,17 +2,7 @@
   "meta": {
     "clan": "ACMB",
     "game": "Last War VN",
-    "updated": "2026-04-19",
-    "next_battles": {
-      "hn": {
-        "A": "2026-04-23",
-        "B": "2026-04-24"
-      },
-      "sm": {
-        "A": "2026-04-24",
-        "B": "2026-04-25"
-      }
-    },
+    "updated": "2026-04-20",
     "notes": "C V = cường khùng (R4). SM = Bão Sa Mạc (Storm Mountain). HN = Bão Hẻm Núi (Canyon Storm). Lineup sorted by last match score. SM: 20 main + subs. HN: 30 main. SM reg closes Thu 9am ICT. HN reg closes Tue 9am ICT. Absence rule: 1 match absent = subs; 2 consecutive = removed."
   },
   "ranks": {
@@ -28,7 +18,9 @@
       "Rymi68",
       "cường khùng",
       "yologuy",
-      "zdevils"
+      "zdevils",
+      "Haizzzzzzzzzzzz",
+      "wolfwitch"
     ],
     "R3": [
       "Aaaluan",
@@ -80,11 +72,13 @@
       "khánhthỏ",
       "notgeorge57",
       "tâm1980",
-      "wolfwitch",
       "ÒOO",
       "ÔngTânPro",
       "Đập Chai",
-      "Panda Force"
+      "Panda Force",
+      "Lýkos",
+      "hanubeast",
+      "ntacutiiii"
     ],
     "R2": [
       "1Mét45",
@@ -96,7 +90,6 @@
       "Hunterla0101",
       "HÀ NỘI",
       "JOY to the WORLD",
-      "Lýkos",
       "Markuz89",
       "Matt born",
       "Michael Dung Nguyen",
@@ -107,8 +100,6 @@
       "RavenRayne",
       "Trai Cầu Tôm",
       "aaaaatttttkkkkkk",
-      "hanubeast",
-      "ntacutiiii",
       "vinh ccc"
     ],
     "R1": [
@@ -195,7 +186,8 @@
           "Indefatigabl3": 5403816,
           "Aaaluan": 5162863,
           "wolfwitch": 4602966,
-          "Haizzzzzzzzzzzz": 2010105
+          "Haizzzzzzzzzzzz": 2010105,
+          "Rymi68": 0
         }
       },
       "B": {
@@ -226,11 +218,11 @@
       "rank": "R5",
       "yc": {
         "hn": 0,
-        "sm": 1
+        "sm": 0
       },
       "cm": {
         "hn": 0,
-        "sm": 1
+        "sm": 0
       }
     },
     "cường khùng": {
@@ -259,13 +251,14 @@
       "rank": "R4",
       "sm_team": "B",
       "yc": {
-        "hn": 1,
+        "hn": 0,
         "sm": 0
       },
       "cm": {
-        "hn": 1,
+        "hn": 0,
         "sm": 0
-      }
+      },
+      "hn_team": "A"
     },
     "Hải Anh 0612": {
       "rank": "R4",
@@ -422,7 +415,7 @@
       }
     },
     "wolfwitch": {
-      "rank": "R3",
+      "rank": "R4",
       "yc": {
         "hn": 0,
         "sm": 0
@@ -609,7 +602,7 @@
       }
     },
     "hanubeast": {
-      "rank": "R2",
+      "rank": "R3",
       "yc": {
         "hn": 0,
         "sm": 0
@@ -653,7 +646,7 @@
       }
     },
     "ntacutiiii": {
-      "rank": "R2",
+      "rank": "R3",
       "hn_team": "A",
       "sm_team": "A",
       "yc": {
@@ -1021,7 +1014,7 @@
       }
     },
     "Lýkos": {
-      "rank": "R2",
+      "rank": "R3",
       "yc": {
         "hn": 0,
         "sm": 0
@@ -1313,12 +1306,12 @@
             "reason": "Tuần trước hạng 11th / 11th last week"
           },
           {
-            "r": "R3",
+            "r": "R4",
             "name": "wolfwitch",
             "reason": "Tuần trước hạng 12th / 12th last week"
           },
           {
-            "r": "R2",
+            "r": "R3",
             "name": "ntacutiiii",
             "reason": "Tuần trước hạng 13th / 13th last week"
           },
@@ -1333,23 +1326,17 @@
             "reason": "Tuần trước hạng 15th / 15th last week"
           },
           {
-            "r": "R3",
+            "r": "?",
             "name": "Haizzzzzzzzzzzz",
             "reason": "Tuần trước hạng 16th / 16th last week"
           },
           {
-            "r": "R3",
-            "name": "Dầu Thơm MeoBinh",
-            "reason": "Mới vào đội / New to slot"
-          }
-        ],
-        "subs": [
-          {
             "r": "R5",
             "name": "Lerxinhiu",
-            "reason": "Vắng mặt 1 trận / Absent 1 match"
+            "reason": "Tuần trước hạng 17th / 17th last week"
           }
         ],
+        "subs": [],
         "off": [],
         "dayoff": [],
         "slot": "A",
@@ -1441,12 +1428,12 @@
             "reason": "Tuần trước hạng 16th / 16th last week"
           },
           {
-            "r": "R2",
+            "r": "R3",
             "name": "Lýkos",
             "reason": "Tuần trước hạng 18th / 18th last week"
           },
           {
-            "r": "R2",
+            "r": "R3",
             "name": "hanubeast",
             "reason": "Tuần trước hạng 19th / 19th last week"
           },
@@ -1465,7 +1452,7 @@
           {
             "r": "R3",
             "name": "Đập Chai",
-            "reason": "Dư chỗ / Overflow"
+            "reason": "Tuần trước hạng 22nd / 22nd last week"
           }
         ],
         "off": [],
@@ -1526,7 +1513,7 @@
             "reason": "Tuần trước hạng 9th / 9th last week"
           },
           {
-            "r": "R2",
+            "r": "R3",
             "name": "ntacutiiii",
             "reason": "Tuần trước hạng 10th / 10th last week"
           },
@@ -1556,23 +1543,18 @@
             "reason": "Tuần trước hạng 15th / 15th last week"
           },
           {
-            "r": "R3",
+            "r": "R4",
             "name": "wolfwitch",
             "reason": "Tuần trước hạng 16th / 16th last week"
           },
           {
-            "r": "R3",
+            "r": "?",
             "name": "Haizzzzzzzzzzzz",
             "reason": "Tuần trước hạng 17th / 17th last week"
           },
           {
-            "r": "R3",
-            "name": "Dầu Thơm MeoBinh",
-            "reason": "Mới vào đội / New to slot"
-          },
-          {
-            "r": "R3",
-            "name": "Ooo bé Na Ooo",
+            "r": "R4",
+            "name": "Rymi68",
             "reason": "Mới vào đội / New to slot"
           }
         ],
