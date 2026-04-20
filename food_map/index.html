@@ -11,7 +11,10 @@
 
   body {
     font-family: 'Inter', sans-serif;
-    background: #0e0e0e;
+    background:
+      radial-gradient(circle at 12% 10%, rgba(255, 122, 24, 0.18), transparent 28%),
+      radial-gradient(circle at 84% 4%, rgba(255, 196, 109, 0.12), transparent 22%),
+      linear-gradient(180deg, #140f0c 0%, #0e0e0e 100%);
     color: #f0ece4;
     min-height: 100vh;
   }
@@ -39,30 +42,68 @@
     background: radial-gradient(ellipse at 70% 50%, #ff6b0022 0%, transparent 60%);
     pointer-events: none;
   }
+  .hero-inner {
+    position: relative;
+    z-index: 1;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .hero-kicker {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 7px 12px;
+    border-radius: 999px;
+    background: rgba(255, 168, 94, 0.08);
+    border: 1px solid rgba(255, 172, 96, 0.18);
+    color: #ffc182;
+    font-size: 0.76rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    margin-bottom: 14px;
+  }
   header h1 {
     position: relative;
     z-index: 1;
     font-family: 'Playfair Display', serif;
-    font-size: clamp(1.7rem, 4vw, 2.3rem);
-    color: #ff9d4d;
+    font-size: clamp(1.9rem, 4vw, 2.5rem);
+    color: #ffb067;
     letter-spacing: -0.5px;
     text-shadow: 0 2px 10px rgba(0,0,0,0.3);
   }
-  header p { position: relative; z-index: 1; color: #a88968; font-size: 0.92rem; margin-top: 6px; }
+  header p {
+    position: relative;
+    z-index: 1;
+    color: #b39272;
+    font-size: 0.94rem;
+    margin-top: 8px;
+    max-width: 700px;
+    line-height: 1.6;
+  }
 
   /* Filter bar */
-  .filters {
-    display: flex;
-    gap: 10px;
-    padding: 16px 24px;
-    background: linear-gradient(180deg, #161616 0%, #131313 100%);
-    border-bottom: 1px solid #272727;
-    flex-wrap: wrap;
-    align-items: center;
+  .filters-shell {
     position: sticky;
     top: 0;
     z-index: 20;
-    backdrop-filter: blur(4px);
+    padding: 14px 22px;
+    background: linear-gradient(180deg, rgba(17, 13, 11, 0.92) 0%, rgba(17, 13, 11, 0.82) 100%);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(255, 172, 96, 0.08);
+  }
+  .filters {
+    display: flex;
+    gap: 10px;
+    padding: 14px;
+    background: rgba(24, 18, 14, 0.72);
+    border: 1px solid rgba(255, 172, 96, 0.1);
+    border-radius: 18px;
+    flex-wrap: wrap;
+    align-items: center;
+    max-width: 1400px;
+    margin: 0 auto;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.03);
   }
   #cuisine-filters {
     display: flex;
@@ -70,16 +111,19 @@
     gap: 8px;
   }
   .filter-btn {
-    padding: 7px 16px;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 15px;
     border-radius: 999px;
     border: 1px solid #383838;
     background: #1f1f1f;
-    color: #b7b7b7;
+    color: #c8b29e;
     font-size: 0.82rem;
     cursor: pointer;
     transition: all 0.2s ease;
     font-family: 'Inter', sans-serif;
-    font-weight: 500;
+    font-weight: 600;
     line-height: 1.2;
   }
   .filter-btn:hover, .filter-btn.active {
@@ -88,6 +132,7 @@
     color: #fff;
     box-shadow: 0 6px 18px rgba(255,107,0,0.28);
   }
+  .filter-emoji { font-size: 0.92rem; }
   .filter-btn.locate {
     margin-left: auto;
     background: #162219;
@@ -95,14 +140,14 @@
     color: #84d99a;
   }
   .filter-btn.locate:hover { background: #245532; color: #d7ffe1; }
-  #sort-info { font-size: 0.78rem; color: #7c7c7c; padding: 0 4px; }
+  #sort-info { font-size: 0.78rem; color: #8d7766; padding: 0 4px; }
 
   /* Grid */
   .grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 24px;
-    padding: 28px 32px;
+    padding: 30px 32px 34px;
     max-width: 1400px;
     margin: 0 auto;
   }
@@ -110,7 +155,7 @@
   /* Card */
   .card {
     background: linear-gradient(165deg, #1c1c1c 0%, #181818 100%);
-    border-radius: 16px;
+    border-radius: 22px;
     overflow: hidden;
     border: 1px solid #2b2b2b;
     transition: transform 0.22s ease, box-shadow 0.22s ease, border-color 0.22s ease;
@@ -118,23 +163,40 @@
     position: relative;
     box-shadow: 0 8px 20px rgba(0,0,0,0.2);
   }
+  .card::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    pointer-events: none;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.035);
+  }
   .card:hover {
     transform: translateY(-4px);
     box-shadow: 0 16px 42px #ff6b0024;
     border-color: #ff6b0050;
   }
 
+  .media-frame {
+    position: relative;
+    padding: 12px 12px 0;
+  }
   .card-img {
     width: 100%;
-    height: 200px;
+    height: 210px;
     object-fit: cover;
     display: block;
     background: #222;
     flex-shrink: 0;
+    transition: transform 0.4s ease, filter 0.25s ease;
+  }
+  .card:hover .card-img {
+    transform: scale(1.04);
+    filter: saturate(1.05) contrast(1.03);
   }
   .card-img-placeholder {
     width: 100%;
-    height: 200px;
+    height: 210px;
     background: linear-gradient(135deg, #1f1208, #2d1a0a);
     display: flex;
     align-items: center;
@@ -145,8 +207,26 @@
   .slider-wrap {
     position: relative;
     overflow: hidden;
-    height: 200px;
+    height: 210px;
     background: #111;
+    border-radius: 18px;
+  }
+  .slider-wrap::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, rgba(0,0,0,0.08) 0%, transparent 28%, rgba(0,0,0,0.45) 100%);
+    z-index: 1;
+    pointer-events: none;
+  }
+  .media-overlay {
+    position: absolute;
+    inset: auto 12px 0 12px;
+    height: 38%;
+    background: linear-gradient(180deg, transparent 0%, rgba(8,7,7,0.22) 28%, rgba(8,7,7,0.86) 100%);
+    border-radius: 0 0 18px 18px;
+    pointer-events: none;
+    z-index: 1;
   }
   .slider-track {
     display: flex;
@@ -156,21 +236,21 @@
   }
   .slider-dot-wrap {
     position: absolute;
-    bottom: 6px;
+    bottom: 10px;
     left: 50%;
     transform: translateX(-50%);
     display: flex;
-    gap: 5px;
+    gap: 6px;
     z-index: 2;
   }
   .slider-dot {
-    width: 6px; height: 6px;
+    width: 7px; height: 7px;
     border-radius: 50%;
     background: rgba(255,255,255,0.4);
     cursor: pointer;
-    transition: background 0.2s;
+    transition: background 0.2s, transform 0.2s;
   }
-  .slider-dot.active { background: #fff; }
+  .slider-dot.active { background: #fff; transform: scale(1.12); }
   .slider-arrow {
     position: absolute;
     top: 50%;
@@ -179,7 +259,7 @@
     color: #fff;
     border: 1px solid rgba(255,255,255,0.2);
     border-radius: 50%;
-    width: 30px; height: 30px;
+    width: 32px; height: 32px;
     font-size: 14px;
     cursor: pointer;
     z-index: 3;
@@ -190,38 +270,41 @@
   }
   .slider-arrow:hover { background: rgba(20,20,20,0.75); transform: translateY(-50%) scale(1.04); }
   .slider-wrap:hover .slider-arrow { opacity: 1; }
-  .slider-arrow.prev { left: 7px; }
-  .slider-arrow.next { right: 7px; }
+  .slider-arrow.prev { left: 9px; }
+  .slider-arrow.next { right: 9px; }
 
-  .card-body { padding: 16px 18px 18px; }
+  .card-body { padding: 16px 18px 20px; }
 
   .card-tags {
     display: flex;
-    gap: 6px;
+    gap: 7px;
     flex-wrap: wrap;
     margin-bottom: 10px;
   }
   .tag {
-    font-size: 0.7rem;
-    padding: 3px 9px;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 0.71rem;
+    padding: 4px 10px;
     border-radius: 999px;
-    font-weight: 600;
+    font-weight: 700;
     letter-spacing: 0.01em;
   }
-  .tag-cuisine { background: #2a1a00; color: #ff9d4d; border: 1px solid #3a2a00; }
-  .tag-price   { background: #001a10; color: #4dffaa; border: 1px solid #003a20; }
-  .tag-dist    { background: #001020; color: #4daaff; border: 1px solid #002040; }
+  .tag-cuisine { background: #2a1a00; color: #ffb067; border: 1px solid #4a2a10; }
+  .tag-price   { background: #001a10; color: #7ff0ab; border: 1px solid #003a20; }
+  .tag-dist    { background: #001020; color: #7cc1ff; border: 1px solid #002040; }
 
   .card-name {
     font-family: 'Playfair Display', serif;
-    font-size: 1.2rem;
-    color: #f0ece4;
-    margin-bottom: 4px;
-    line-height: 1.3;
+    font-size: 1.24rem;
+    color: #f4ece4;
+    margin-bottom: 6px;
+    line-height: 1.28;
   }
   .card-address {
-    font-size: 0.78rem;
-    color: #666;
+    font-size: 0.79rem;
+    color: #88796b;
     margin-bottom: 10px;
     display: flex;
     align-items: center;
@@ -229,22 +312,31 @@
   }
 
   .card-rating {
-    display: flex;
+    display: inline-flex;
     align-items: center;
-    gap: 6px;
+    gap: 8px;
     margin-bottom: 8px;
+    padding: 6px 10px;
+    border-radius: 999px;
+    background: rgba(255, 157, 77, 0.08);
+    border: 1px solid rgba(255, 157, 77, 0.14);
   }
-  .stars { color: #ff9d4d; font-size: 0.9rem; letter-spacing: 1px; }
-  .rating-score { font-size: 0.82rem; color: #888; }
+  .stars {
+    color: #ffb067;
+    font-size: 0.92rem;
+    letter-spacing: 1px;
+    text-shadow: 0 0 10px rgba(255, 157, 77, 0.12);
+  }
+  .rating-score { font-size: 0.82rem; color: #c9b39a; font-weight: 600; }
 
   .card-note {
-    font-size: 0.8rem;
-    color: #998877;
+    font-size: 0.81rem;
+    color: #a48c77;
     font-style: italic;
     border-top: 1px solid #2a2a2a;
     padding-top: 10px;
     margin-top: 8px;
-    line-height: 1.5;
+    line-height: 1.55;
   }
 
   .card-actions {
@@ -284,28 +376,37 @@
   /* Distance badge */
   .dist-badge {
     position: absolute;
-    top: 12px;
-    right: 12px;
-    background: #000000aa;
-    backdrop-filter: blur(4px);
-    color: #4daaff;
-    font-size: 0.72rem;
-    padding: 3px 8px;
-    border-radius: 10px;
-    border: 1px solid #4daaff44;
+    top: 22px;
+    left: 22px;
+    z-index: 4;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: rgba(8, 14, 24, 0.72);
+    backdrop-filter: blur(8px);
+    color: #7cc1ff;
+    font-size: 0.74rem;
+    font-weight: 700;
+    padding: 6px 10px;
+    border-radius: 999px;
+    border: 1px solid rgba(77, 170, 255, 0.26);
+    box-shadow: 0 8px 18px rgba(0,0,0,0.2);
   }
 
   /* Count */
-  .count { color: #7a7a7a; font-size: 0.82rem; margin-left: auto; }
+  .count { color: #8d7766; font-size: 0.82rem; margin-left: auto; }
 
   @media (max-width: 900px) {
     .grid {
-      padding: 20px 18px 28px;
+      padding: 22px 18px 28px;
       gap: 18px;
       grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
     }
     header {
       padding: 30px 18px 22px;
+    }
+    .filters-shell {
+      padding: 10px 12px;
     }
     .filters {
       padding: 12px 14px;
@@ -314,7 +415,8 @@
     .filter-btn.locate {
       margin-left: 0;
     }
-    .count {
+    .count,
+    #sort-info {
       width: 100%;
       margin-left: 0;
       margin-top: 2px;
@@ -329,10 +431,19 @@
     .card-name {
       font-size: 1.08rem;
     }
+    .slider-wrap,
+    .card-img,
+    .card-img-placeholder {
+      height: 200px;
+    }
     .slider-arrow {
       opacity: 0.95;
       width: 32px;
       height: 32px;
+    }
+    .dist-badge {
+      top: 20px;
+      left: 20px;
     }
   }
 </style>
@@ -340,16 +451,21 @@
 <body>
 
 <header>
-  <h1>🍜 Ăn Gì Hôm Nay?</h1>
-  <p id="subtitle">Danh sách địa điểm ăn uống</p>
+  <div class="hero-inner">
+    <div class="hero-kicker">🍽️ Curated food list</div>
+    <h1>🍜 Ăn Gì Hôm Nay?</h1>
+    <p id="subtitle">Danh sách địa điểm ăn uống đã lưu, sắp xếp đẹp hơn và dễ lướt hơn.</p>
+  </div>
 </header>
 
-<div class="filters">
-  <button class="filter-btn active" id="all-filter-btn" onclick="filterBy('all', this)">Tất cả</button>
-  <div id="cuisine-filters"></div>
-  <button class="filter-btn locate" onclick="locateMe()">📍 Gần tôi</button>
-  <span id="sort-info"></span>
-  <span class="count" id="count"></span>
+<div class="filters-shell">
+  <div class="filters">
+    <button class="filter-btn active" id="all-filter-btn" onclick="filterBy('all', this)"><span class="filter-emoji">✨</span> Tất cả</button>
+    <div id="cuisine-filters"></div>
+    <button class="filter-btn locate" onclick="locateMe()"><span class="filter-emoji">📍</span> Gần tôi</button>
+    <span id="sort-info"></span>
+    <span class="count" id="count"></span>
+  </div>
 </div>
 
 <div class="grid" id="grid"></div>
@@ -412,6 +528,19 @@ function filterBy(cuisine, btnEl) {
   render();
 }
 
+function cuisineEmoji(label) {
+  const text = (label || '').toLowerCase();
+  if (text.includes('lẩu')) return '🍲';
+  if (text.includes('nướng') || text.includes('xiên')) return '🔥';
+  if (text.includes('hải sản') || text.includes('cá')) return '🐟';
+  if (text.includes('trung quốc') || text.includes('tứ xuyên')) return '🥢';
+  if (text.includes('nhật')) return '🍣';
+  if (text.includes('hàn')) return '🥘';
+  if (text.includes('cafe') || text.includes('coffee')) return '☕';
+  if (text.includes('bún') || text.includes('phở') || text.includes('mì')) return '🍜';
+  return '🍽️';
+}
+
 function stars(rating) {
   if (!rating) return '';
   const full = Math.round(rating);
@@ -433,7 +562,7 @@ function render() {
   // Build cuisine/category filter buttons
   const cuisines = [...new Set(allPlaces.map(getCuisineValue).filter(Boolean))];
   cuisineContainer.innerHTML = cuisines.map(c =>
-    `<button class="filter-btn ${activeFilter===c?'active':''}" onclick="filterBy('${c.replace(/'/g, "\\'")}', this)">${c}</button>`
+    `<button class="filter-btn ${activeFilter===c?'active':''}" onclick="filterBy('${c.replace(/'/g, "\\'")}', this)"><span class="filter-emoji">${cuisineEmoji(c)}</span>${c}</button>`
   ).join('');
 
   // Filter
@@ -484,13 +613,16 @@ function render() {
     }
 
     return `<div class="card">
-      ${imgHtml}
-      ${dist ? `<div class="dist-badge">📍 ${dist}</div>` : ''}
+      <div class="media-frame">
+        ${imgHtml}
+        <div class="media-overlay"></div>
+        ${dist ? `<div class="dist-badge">📍 ${dist}</div>` : ''}
+      </div>
       <div class="card-body">
         <div class="card-tags">
-          ${getCuisineValue(p) ? `<span class="tag tag-cuisine">${getCuisineValue(p)}</span>` : ''}
-          ${p.price ? `<span class="tag tag-price">${String(p.price)}</span>` : ''}
-          ${dist ? `<span class="tag tag-dist">${dist}</span>` : ''}
+          ${getCuisineValue(p) ? `<span class="tag tag-cuisine"><span>${cuisineEmoji(getCuisineValue(p))}</span>${getCuisineValue(p)}</span>` : ''}
+          ${p.price ? `<span class="tag tag-price">💸 ${String(p.price)}</span>` : ''}
+          ${dist ? `<span class="tag tag-dist">📍 ${dist}</span>` : ''}
         </div>
         <div class="card-name">${p.name}</div>
         <div class="card-address">📍 ${p.address || 'Chưa có địa chỉ'}</div>
