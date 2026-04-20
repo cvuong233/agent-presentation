@@ -18,11 +18,19 @@
 
   /* Header */
   header {
-    background: linear-gradient(160deg, #1a0a00, #2d1200);
-    padding: 40px 32px 28px;
+    background: linear-gradient(160deg, #1a0a00 0%, #2d1200 45%, #221008 100%);
+    padding: 40px 32px 30px;
     border-bottom: 1px solid #3a1f00;
     position: relative;
     overflow: hidden;
+    box-shadow: 0 10px 36px rgba(0,0,0,0.28);
+  }
+  header::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(120deg, transparent 0%, rgba(255,157,77,0.08) 45%, transparent 90%);
+    pointer-events: none;
   }
   header::after {
     content: '';
@@ -32,47 +40,62 @@
     pointer-events: none;
   }
   header h1 {
+    position: relative;
+    z-index: 1;
     font-family: 'Playfair Display', serif;
-    font-size: 2.2rem;
+    font-size: clamp(1.7rem, 4vw, 2.3rem);
     color: #ff9d4d;
     letter-spacing: -0.5px;
+    text-shadow: 0 2px 10px rgba(0,0,0,0.3);
   }
-  header p { color: #9a7a5a; font-size: 0.9rem; margin-top: 4px; }
+  header p { position: relative; z-index: 1; color: #a88968; font-size: 0.92rem; margin-top: 6px; }
 
   /* Filter bar */
   .filters {
     display: flex;
     gap: 10px;
-    padding: 16px 32px;
-    background: #141414;
-    border-bottom: 1px solid #222;
+    padding: 16px 24px;
+    background: linear-gradient(180deg, #161616 0%, #131313 100%);
+    border-bottom: 1px solid #272727;
     flex-wrap: wrap;
     align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 20;
+    backdrop-filter: blur(4px);
+  }
+  #cuisine-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
   }
   .filter-btn {
-    padding: 6px 16px;
-    border-radius: 20px;
-    border: 1px solid #333;
-    background: #1e1e1e;
-    color: #aaa;
+    padding: 7px 16px;
+    border-radius: 999px;
+    border: 1px solid #383838;
+    background: #1f1f1f;
+    color: #b7b7b7;
     font-size: 0.82rem;
     cursor: pointer;
-    transition: all 0.2s;
+    transition: all 0.2s ease;
     font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    line-height: 1.2;
   }
   .filter-btn:hover, .filter-btn.active {
-    background: #ff6b00;
+    background: linear-gradient(135deg, #ff6b00, #ff8f39);
     border-color: #ff6b00;
     color: #fff;
+    box-shadow: 0 6px 18px rgba(255,107,0,0.28);
   }
   .filter-btn.locate {
     margin-left: auto;
-    background: #1a2a1a;
-    border-color: #2a5a2a;
-    color: #6fcf6f;
+    background: #162219;
+    border-color: #2f5e3a;
+    color: #84d99a;
   }
-  .filter-btn.locate:hover { background: #2a5a2a; }
-  #sort-info { font-size: 0.78rem; color: #555; padding: 0 4px; }
+  .filter-btn.locate:hover { background: #245532; color: #d7ffe1; }
+  #sort-info { font-size: 0.78rem; color: #7c7c7c; padding: 0 4px; }
 
   /* Grid */
   .grid {
@@ -86,18 +109,19 @@
 
   /* Card */
   .card {
-    background: #1a1a1a;
+    background: linear-gradient(165deg, #1c1c1c 0%, #181818 100%);
     border-radius: 16px;
     overflow: hidden;
-    border: 1px solid #2a2a2a;
-    transition: transform 0.2s, box-shadow 0.2s;
+    border: 1px solid #2b2b2b;
+    transition: transform 0.22s ease, box-shadow 0.22s ease, border-color 0.22s ease;
     cursor: pointer;
     position: relative;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
   }
   .card:hover {
     transform: translateY(-4px);
-    box-shadow: 0 12px 40px #ff6b0022;
-    border-color: #ff6b0044;
+    box-shadow: 0 16px 42px #ff6b0024;
+    border-color: #ff6b0050;
   }
 
   .card-img {
@@ -151,18 +175,20 @@
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background: rgba(0,0,0,0.45);
+    background: rgba(0,0,0,0.55);
     color: #fff;
-    border: none;
+    border: 1px solid rgba(255,255,255,0.2);
     border-radius: 50%;
-    width: 28px; height: 28px;
+    width: 30px; height: 30px;
     font-size: 14px;
     cursor: pointer;
     z-index: 3;
     display: flex; align-items: center; justify-content: center;
-    opacity: 0;
-    transition: opacity 0.2s;
+    opacity: 0.82;
+    transition: opacity 0.2s, transform 0.2s, background 0.2s;
+    touch-action: manipulation;
   }
+  .slider-arrow:hover { background: rgba(20,20,20,0.75); transform: translateY(-50%) scale(1.04); }
   .slider-wrap:hover .slider-arrow { opacity: 1; }
   .slider-arrow.prev { left: 7px; }
   .slider-arrow.next { right: 7px; }
@@ -177,9 +203,10 @@
   }
   .tag {
     font-size: 0.7rem;
-    padding: 2px 8px;
-    border-radius: 10px;
-    font-weight: 500;
+    padding: 3px 9px;
+    border-radius: 999px;
+    font-weight: 600;
+    letter-spacing: 0.01em;
   }
   .tag-cuisine { background: #2a1a00; color: #ff9d4d; border: 1px solid #3a2a00; }
   .tag-price   { background: #001a10; color: #4dffaa; border: 1px solid #003a20; }
@@ -227,21 +254,22 @@
   }
   .btn-map {
     flex: 1;
-    padding: 7px;
-    border-radius: 8px;
-    border: 1px solid #333;
-    background: #222;
-    color: #aaa;
+    padding: 8px 10px;
+    border-radius: 10px;
+    border: 1px solid #3a3a3a;
+    background: #242424;
+    color: #b9b9b9;
     font-size: 0.78rem;
     cursor: pointer;
     text-decoration: none;
     text-align: center;
-    transition: all 0.2s;
+    transition: all 0.2s ease;
     font-family: 'Inter', sans-serif;
+    font-weight: 500;
   }
-  .btn-map:hover { background: #333; color: #fff; }
-  .btn-grab { border-color: #00b14f55; color: #00b14f; }
-  .btn-grab:hover { background: #00b14f; color: #fff; }
+  .btn-map:hover { background: #343434; color: #fff; border-color: #4a4a4a; }
+  .btn-grab { border-color: #00b14f55; color: #5ee79b; background: #123322; }
+  .btn-grab:hover { background: #00b14f; color: #fff; border-color: #00b14f; }
 
   /* Empty state */
   .empty {
@@ -268,7 +296,45 @@
   }
 
   /* Count */
-  .count { color: #555; font-size: 0.82rem; margin-left: auto; }
+  .count { color: #7a7a7a; font-size: 0.82rem; margin-left: auto; }
+
+  @media (max-width: 900px) {
+    .grid {
+      padding: 20px 18px 28px;
+      gap: 18px;
+      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    }
+    header {
+      padding: 30px 18px 22px;
+    }
+    .filters {
+      padding: 12px 14px;
+      gap: 8px;
+    }
+    .filter-btn.locate {
+      margin-left: 0;
+    }
+    .count {
+      width: 100%;
+      margin-left: 0;
+      margin-top: 2px;
+      font-size: 0.78rem;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .card-body {
+      padding: 14px 14px 15px;
+    }
+    .card-name {
+      font-size: 1.08rem;
+    }
+    .slider-arrow {
+      opacity: 0.95;
+      width: 32px;
+      height: 32px;
+    }
+  }
 </style>
 </head>
 <body>
@@ -279,7 +345,7 @@
 </header>
 
 <div class="filters">
-  <button class="filter-btn active" onclick="filterBy('all')">Tất cả</button>
+  <button class="filter-btn active" id="all-filter-btn" onclick="filterBy('all', this)">Tất cả</button>
   <div id="cuisine-filters"></div>
   <button class="filter-btn locate" onclick="locateMe()">📍 Gần tôi</button>
   <span id="sort-info"></span>
@@ -318,10 +384,31 @@ function locateMe() {
   }, () => alert('Không lấy được vị trí'));
 }
 
-function filterBy(cuisine) {
+function getCuisineValue(place) {
+  if (!place || typeof place !== 'object') return '';
+  return (place.cuisine || place.category || '').toString().trim();
+}
+
+function getPlaceLon(place) {
+  if (!place || typeof place !== 'object') return null;
+  const raw = place.lon ?? place.lng;
+  if (raw === null || raw === undefined || raw === '') return null;
+  const parsed = Number(raw);
+  return Number.isFinite(parsed) ? parsed : null;
+}
+
+function getPlaceLat(place) {
+  if (!place || typeof place !== 'object') return null;
+  const raw = place.lat;
+  if (raw === null || raw === undefined || raw === '') return null;
+  const parsed = Number(raw);
+  return Number.isFinite(parsed) ? parsed : null;
+}
+
+function filterBy(cuisine, btnEl) {
   activeFilter = cuisine;
   document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
-  event.target.classList.add('active');
+  if (btnEl && btnEl.classList) btnEl.classList.add('active');
   render();
 }
 
@@ -343,19 +430,23 @@ function render() {
   const grid = document.getElementById('grid');
   const cuisineContainer = document.getElementById('cuisine-filters');
 
-  // Build cuisine filter buttons
-  const cuisines = [...new Set(allPlaces.map(p => p.cuisine).filter(Boolean))];
+  // Build cuisine/category filter buttons
+  const cuisines = [...new Set(allPlaces.map(getCuisineValue).filter(Boolean))];
   cuisineContainer.innerHTML = cuisines.map(c =>
-    `<button class="filter-btn ${activeFilter===c?'active':''}" onclick="filterBy('${c}')">${c}</button>`
+    `<button class="filter-btn ${activeFilter===c?'active':''}" onclick="filterBy('${c.replace(/'/g, "\\'")}', this)">${c}</button>`
   ).join('');
 
   // Filter
-  let places = activeFilter === 'all' ? [...allPlaces] : allPlaces.filter(p => p.cuisine === activeFilter);
+  let places = activeFilter === 'all'
+    ? [...allPlaces]
+    : allPlaces.filter(p => getCuisineValue(p) === activeFilter);
 
   // Sort by distance if available
-  if (userLat && userLon) {
+  if (userLat !== null && userLon !== null) {
     places.forEach(p => {
-      if (p.lat && p.lon) p._dist = haversine(userLat, userLon, p.lat, p.lon);
+      const lat = getPlaceLat(p);
+      const lon = getPlaceLon(p);
+      if (lat !== null && lon !== null) p._dist = haversine(userLat, userLon, lat, lon);
       else p._dist = 99999;
     });
     places.sort((a,b) => a._dist - b._dist);
@@ -397,8 +488,8 @@ function render() {
       ${dist ? `<div class="dist-badge">📍 ${dist}</div>` : ''}
       <div class="card-body">
         <div class="card-tags">
-          ${p.cuisine ? `<span class="tag tag-cuisine">${p.cuisine}</span>` : ''}
-          ${p.price ? `<span class="tag tag-price">${priceLabel(p.price)}</span>` : ''}
+          ${getCuisineValue(p) ? `<span class="tag tag-cuisine">${getCuisineValue(p)}</span>` : ''}
+          ${p.price ? `<span class="tag tag-price">${String(p.price)}</span>` : ''}
           ${dist ? `<span class="tag tag-dist">${dist}</span>` : ''}
         </div>
         <div class="card-name">${p.name}</div>
@@ -429,13 +520,16 @@ function sliderStep(id, dir) {
   if (!el) return;
   sliderGo(id, parseInt(el.dataset.idx) + dir);
 }
-let _touchX = 0;
 function sliderTouch(el, e, phase) {
-  if (phase === 'start') { _touchX = e.changedTouches[0].clientX; }
-  else {
-    const dx = e.changedTouches[0].clientX - _touchX;
-    if (Math.abs(dx) > 40) sliderStep(el.id, dx < 0 ? 1 : -1);
+  if (!el) return;
+  if (phase === 'start') {
+    el.dataset.touchX = e.changedTouches[0].clientX;
+    return;
   }
+  const startX = Number(el.dataset.touchX || 0);
+  const dx = e.changedTouches[0].clientX - startX;
+  if (Math.abs(dx) > 40) sliderStep(el.id, dx < 0 ? 1 : -1);
+  delete el.dataset.touchX;
 }
 
 loadData();

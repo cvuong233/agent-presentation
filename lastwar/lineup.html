@@ -42,8 +42,24 @@
   .tab-icon { font-size: 1.4rem; }
   .tab-label { display: none; }
   .tab-title { font-size: 0.9rem; font-weight: 700; text-shadow: 0 1px 3px rgba(0,0,0,0.8); white-space: nowrap; }
-  .content { display: none; padding: 0 24px 32px; }
-  .content.active { display: block; }
+  .content {
+    padding: 0 24px 32px;
+    opacity: 0;
+    transform: translateY(8px);
+    visibility: hidden;
+    height: 0;
+    overflow: hidden;
+    pointer-events: none;
+    transition: opacity 0.25s ease, transform 0.25s ease;
+  }
+  .content.active {
+    opacity: 1;
+    transform: translateY(0);
+    visibility: visible;
+    height: auto;
+    overflow: visible;
+    pointer-events: auto;
+  }
 
   /* grid */
   .battle-grid { max-width: 1200px; margin: 0 auto; margin-top: 20px; display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
@@ -66,28 +82,52 @@
       flex-direction: row;
       flex-wrap: wrap;
       align-items: center;
-      gap: 4px;
+      gap: 6px;
       border-bottom: none;
       padding-bottom: 0;
     }
     .card-header-left {
-      flex-wrap: wrap;
-      gap: 6px;
+      flex-wrap: nowrap;
+      gap: 8px;
+      min-width: 0;
     }
     .card-header-left h2 {
-      font-size: 0.8rem;
+      font-size: 0.82rem;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-width: 62vw;
     }
     .card-header-right {
-      font-size: 0.75rem;
-      flex-wrap: wrap;
-      gap: 4px;
+      font-size: 0.74rem;
+      flex-wrap: nowrap;
+      gap: 6px;
+      padding: 4px 8px;
     }
     .card-header {
       padding: 10px 12px;
-      gap: 4px;
+      gap: 6px;
     }
     .battle-icon {
-      font-size: 1.1rem;
+      width: 26px;
+      height: 26px;
+    }
+    .battle-icon svg {
+      width: 20px;
+      height: 20px;
+    }
+    .period-icon {
+      font-size: 0.88rem;
+    }
+    .time-text {
+      font-size: 0.72rem;
+    }
+    .summary-bar {
+      padding: 8px 12px;
+      gap: 6px;
+    }
+    .section-block {
+      margin: 8px;
     }
   }
 
@@ -98,14 +138,84 @@
   }
 
   /* battle card */
-  .battle-card { background: linear-gradient(145deg, #16213e, #1a1a2e); border-radius: 12px; overflow: hidden; border: 1px solid #2a2a3e; box-shadow: 0 4px 20px rgba(0,0,0,0.3); transition: transform 0.2s, box-shadow 0.2s; }
-  .battle-card:hover { transform: translateY(-2px); box-shadow: 0 8px 30px rgba(0,0,0,0.4); }
-  .card-header { padding: 14px 16px; display: flex; flex-direction: column; gap: 8px; position: relative; background: linear-gradient(180deg, rgba(255,255,255,0.03) 0%, transparent 100%); }
-  .card-header-top { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; border-bottom: 1px solid rgba(255,255,255,0.05); padding-bottom: 10px; }
+  .battle-card {
+    background: linear-gradient(155deg, #192442 0%, #161e35 45%, #121a2e 100%);
+    border-radius: 14px;
+    overflow: hidden;
+    border: 1px solid #2a344f;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.28), inset 0 1px 0 rgba(255,255,255,0.03);
+    transition: transform 0.22s ease, box-shadow 0.22s ease, border-color 0.22s ease;
+  }
+  .battle-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 16px 38px rgba(0,0,0,0.42);
+    border-color: #3a4a6f;
+  }
+  .card-header {
+    padding: 14px 16px 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+    background: linear-gradient(135deg, rgba(255,255,255,0.08) 0%, rgba(255,255,255,0.02) 48%, rgba(255,255,255,0) 100%);
+  }
+  .card-header::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 1px;
+    background: linear-gradient(90deg, transparent 0%, rgba(255,255,255,0.18) 20%, rgba(255,255,255,0.06) 80%, transparent 100%);
+    pointer-events: none;
+  }
+  .card-header-top { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; padding-bottom: 4px; }
   .card-header-left { display: flex; align-items: center; gap: 10px; }
-  .card-header-right { display: flex; align-items: center; gap: 8px; font-size: 0.85rem; font-weight: 600; }
+  .card-header-right {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.84rem;
+    font-weight: 600;
+    color: #c7d0e6;
+    background: rgba(10, 14, 26, 0.55);
+    border: 1px solid rgba(148, 163, 184, 0.25);
+    padding: 5px 10px;
+    border-radius: 999px;
+  }
   .card-header h2 { font-size: 0.95rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; margin: 0; color: #fff; text-shadow: 0 2px 4px rgba(0,0,0,0.5); }
-  .card-subtitle { font-size: 0.78rem; color: #666; font-style: italic; font-weight: 400; }
+  .battle-icon {
+    width: 30px;
+    height: 30px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    background: rgba(8, 12, 24, 0.45);
+    border: 1px solid rgba(148, 163, 184, 0.25);
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.06);
+    flex-shrink: 0;
+  }
+  .battle-icon svg { width: 24px; height: 24px; display: block; }
+  .period-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    line-height: 1;
+  }
+  .period-icon {
+    font-size: 0.95rem;
+    filter: drop-shadow(0 1px 2px rgba(0,0,0,0.4));
+  }
+  .period-text { color: #dde3f1; font-weight: 700; letter-spacing: 0.01em; }
+  .time-text { color: #aeb8d1; font-size: 0.78rem; }
+  .card-subtitle {
+    font-size: 0.77rem;
+    color: #96a0b8;
+    font-style: italic;
+    font-weight: 500;
+    letter-spacing: 0.01em;
+  }
 
   /* summary badges */
   .summary-bar { display: flex; gap: 8px; padding: 10px 18px; background: #0a0d1a; flex-wrap: wrap; }
@@ -167,12 +277,24 @@
   .rank-divider td { background: #080b14 !important; color: #444; font-size: 0.68rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.12em; padding: 3px 12px; }
 
   /* badges & text */
-  .rank-badge { font-size: 0.7rem; font-weight: 700; padding: 1px 5px; border-radius: 4px; display: inline-block; }
-  .rank-badge.r5 { background: #fbbf2433; border: 1px solid #fbbf24; color: #fbbf24; box-shadow: 0 0 6px #fbbf2422; }
-  .rank-badge.r4 { background: #f9731633; border: 1px solid #f97316; color: #f97316; box-shadow: 0 0 6px #f9731622; }
-  .rank-badge.r3 { background: #60a5fa33; border: 1px solid #60a5fa; color: #60a5fa; box-shadow: 0 0 6px #60a5fa22; }
-  .rank-badge.r2 { background: #a3e63533; border: 1px solid #a3e635; color: #a3e635; box-shadow: 0 0 6px #a3e63522; }
-  .rank-badge.r1 { background: #94a3b833; border: 1px solid #94a3b8; color: #94a3b8; }
+  .rank-badge {
+    font-size: 0.68rem;
+    font-weight: 800;
+    letter-spacing: 0.04em;
+    padding: 2px 7px;
+    border-radius: 999px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 38px;
+    text-transform: uppercase;
+    line-height: 1.2;
+  }
+  .rank-badge.r5 { background: linear-gradient(135deg, #fbbf2433, #f59e0b22); border: 1px solid #fbbf24; color: #fcd34d; box-shadow: 0 0 10px #fbbf2425; }
+  .rank-badge.r4 { background: linear-gradient(135deg, #f9731633, #ea580c22); border: 1px solid #f97316; color: #fdba74; box-shadow: 0 0 10px #f9731622; }
+  .rank-badge.r3 { background: linear-gradient(135deg, #60a5fa33, #3b82f622); border: 1px solid #60a5fa; color: #93c5fd; box-shadow: 0 0 10px #60a5fa22; }
+  .rank-badge.r2 { background: linear-gradient(135deg, #a3e63533, #84cc1622); border: 1px solid #a3e635; color: #bef264; box-shadow: 0 0 10px #a3e63522; }
+  .rank-badge.r1 { background: linear-gradient(135deg, #94a3b833, #64748b22); border: 1px solid #94a3b8; color: #cbd5e1; }
   .num { color: #555; font-size: 0.78rem; width: 28px; }
   .player-name { font-weight: 500; }
   .reason { font-size: 0.78rem; color: #888; }
@@ -514,11 +636,12 @@ function buildCard(mode, slot, data) {
     <div class="card-header">
       <div class="card-header-top">
         <div class="card-header-left">
-          <span class="battle-icon">${mode === 'sm' ? '🏜️' : '⛰️'}</span>
+          <span class="battle-icon" aria-hidden="true">${battleIcon(mode)}</span>
           <h2>${t('team')} ${slot}</h2>
         </div>
         <div class="card-header-right">
-          <span>${t(d.period)} ${d.time}</span>
+          <span class="period-badge"><span class="period-icon" aria-hidden="true">${getPeriodIcon(d.period)}</span><span class="period-text">${t(d.period)}</span></span>
+          <span class="time-text">${d.time || ''}</span>
         </div>
       </div>
       <div class="card-subtitle">${formatBattleDate(data.meta?.next_battles?.[mode]?.[slot], d.time)}</div>
@@ -537,32 +660,39 @@ function localizeRemoveReason(reason) {
 
 function formatBattleDate(dateStr, timeStr) {
   if (!dateStr && !timeStr) return '';
-  
-  const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
-  
-  // Try to parse date from various formats
-  // Expected input: "2026-04-23" or similar
-  let date = null;
-  
-  if (dateStr) {
-    // Try parsing as YYYY-MM-DD
-    const parts = dateStr.split('-');
-    if (parts.length === 3) {
-      const [year, month, day] = parts;
-      const monthIdx = parseInt(month) - 1;
-      if (!isNaN(monthIdx) && monthIdx >= 0 && monthIdx < 12) {
-        date = new Date(parseInt(year), monthIdx, parseInt(day));
+
+  const locale = currentLang === 'vi' ? 'vi-VN' : 'en-GB';
+  let formattedDate = '';
+
+  if (typeof dateStr === 'string') {
+    const match = dateStr.trim().match(/^(\d{4})-(\d{2})-(\d{2})$/);
+    if (match) {
+      const year = Number(match[1]);
+      const month = Number(match[2]);
+      const day = Number(match[3]);
+      const date = new Date(year, month - 1, day);
+      if (
+        date instanceof Date &&
+        !Number.isNaN(date.getTime()) &&
+        date.getFullYear() === year &&
+        date.getMonth() === month - 1 &&
+        date.getDate() === day
+      ) {
+        formattedDate = new Intl.DateTimeFormat(locale, {
+          month: 'short',
+          day: 'numeric'
+        }).format(date);
       }
     }
   }
-  
-  if (!date) date = new Date();
-  
-  // Format: "Apr 23, 21:30"
-  const monthName = months[date.getMonth()];
-  const day = date.getDate();
-  
-  return `${monthName} ${day}, ${date.getFullYear()}, ${timeStr}`;
+
+  const safeTime = (typeof timeStr === 'string' ? timeStr.trim() : '') || '';
+
+  if (formattedDate && safeTime) return `${formattedDate} • ${safeTime}`;
+  if (formattedDate) return formattedDate;
+  if (safeTime) return safeTime;
+
+  return typeof dateStr === 'string' ? dateStr : '';
 }
 
 function getPeriodIcon(period) {
@@ -628,9 +758,16 @@ function updateTFLabels() {
 
 function switchTab(tab) {
   document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
-  document.querySelector('.tab-' + tab).classList.add('active');
+  const nextTabBtn = document.querySelector('.tab-' + tab);
+  if (nextTabBtn) nextTabBtn.classList.add('active');
+
   document.querySelectorAll('.content').forEach(c => c.classList.remove('active'));
-  document.getElementById('tab-'+tab).classList.add('active');
+  const nextContent = document.getElementById('tab-' + tab);
+  if (!nextContent) return;
+
+  requestAnimationFrame(() => {
+    nextContent.classList.add('active');
+  });
 }
 
 fetch('./players.json')
