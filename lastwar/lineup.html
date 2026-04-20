@@ -103,7 +103,7 @@
   .tabs {
     display: flex;
     gap: 0;
-    padding: 0;
+    padding: 10px 14px 0;
     background: linear-gradient(180deg, #0c1326 0%, #0a1020 100%);
     overflow: hidden;
     border-bottom: 1px solid rgba(148, 163, 184, 0.15);
@@ -120,6 +120,8 @@
     transition: color 0.22s ease;
     position: relative;
     overflow: hidden;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
   }
   .tab.active { color: #fff; }
   .tab:hover { color: #d5e1ff; }
@@ -269,7 +271,10 @@
     .header-right span {
       max-width: 100%;
     }
-    .tab-inner { padding: 13px 8px; }
+    .tabs {
+      padding: 8px 10px 0;
+    }
+    .tab-inner { padding: 13px 10px; }
     .tab-title { font-size: 0.78rem; letter-spacing: 0.03em; }
     .tab-icon { font-size: 1.2rem; }
 
@@ -797,6 +802,7 @@ const I18N = {
 
 let currentLang = localStorage.getItem('acmb_lang') || 'vi';
 let loadedData = null;
+const INFO_DOT_KEY = 'acmb_info_seen_v1';
 function t(key) { return (I18N[currentLang] || I18N.vi)[key] || key; }
 
 function setLang(lang) {
@@ -933,7 +939,7 @@ function buildCard(mode, slot, data) {
           <span class="time-text">${d.time || ''}</span>
         </div>
       </div>
-      <div class="card-subtitle">${formatBattleDate(data.meta?.next_battles?.[mode]?.[slot])}</div>
+      <div class="card-subtitle">${formatBattleDate(d.date)}</div>
     </div>
     ${summary}
     ${mainSection}
@@ -969,8 +975,7 @@ function formatBattleDate(dateStr) {
         return new Intl.DateTimeFormat(locale, {
           weekday: 'short',
           day: 'numeric',
-          month: 'short',
-          year: 'numeric'
+          month: 'short'
         }).format(date);
       }
     }
@@ -986,8 +991,28 @@ function getPeriodIcon(period) {
   return '☀️';
 }
 
+function formatUpdatedLabel(updatedStr) {
+  const safeUpdated = typeof updatedStr === 'string' ? updatedStr.trim() : '';
+  if (!safeUpdated) return '';
+
+  const now = new Date();
+  const timeText = new Intl.DateTimeFormat(currentLang === 'vi' ? 'vi-VN' : 'en-GB', {
+    hour: '2-digit',
+    minute: '2-digit',
+    hour12: false
+  }).format(now);
+
+  return `${safeUpdated} • ${timeText}`;
+}
+
+function renderInfoDotState() {
+  const seen = localStorage.getItem(INFO_DOT_KEY) === '1';
+  infoBtn.classList.toggle('has-dot', !seen);
+}
+
 function render(data) {
-  document.getElementById('week-label').textContent = t('updated') + ': ' + (data.meta?.updated || '');
+  document.getElementById('week-label').textContent = t('updated') + ': ' + formatUpdatedLabel(data.meta?.updated || '');
+  renderInfoDotState();
   ['sm','hn'].forEach(mode => {
     ['A','B'].forEach(slot => {
       const id = `${mode}-${slot.toLowerCase()}`;
@@ -1073,6 +1098,7 @@ const infoModalClose = document.getElementById('info-modal-close');
 function openInfoModal() {
   document.body.classList.add('modal-open');
   infoModal.classList.add('active');
+  localStorage.setItem(INFO_DOT_KEY, '1');
   infoBtn.classList.remove('has-dot');
 }
 
