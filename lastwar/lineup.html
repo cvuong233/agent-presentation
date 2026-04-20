@@ -933,7 +933,7 @@ function buildCard(mode, slot, data) {
           <span class="time-text">${d.time || ''}</span>
         </div>
       </div>
-      <div class="card-subtitle">${formatBattleDate(data.meta?.next_battles?.[mode]?.[slot], d.time)}</div>
+      <div class="card-subtitle">${formatBattleDate(data.meta?.next_battles?.[mode]?.[slot])}</div>
     </div>
     ${summary}
     ${mainSection}
@@ -947,11 +947,10 @@ function localizeRemoveReason(reason) {
   return localizeReason(reason);
 }
 
-function formatBattleDate(dateStr, timeStr) {
-  if (!dateStr && !timeStr) return '';
+function formatBattleDate(dateStr) {
+  if (!dateStr) return '';
 
   const locale = currentLang === 'vi' ? 'vi-VN' : 'en-GB';
-  let formattedDate = '';
 
   if (typeof dateStr === 'string') {
     const match = dateStr.trim().match(/^(\d{4})-(\d{2})-(\d{2})$/);
@@ -967,19 +966,15 @@ function formatBattleDate(dateStr, timeStr) {
         date.getMonth() === month - 1 &&
         date.getDate() === day
       ) {
-        formattedDate = new Intl.DateTimeFormat(locale, {
+        return new Intl.DateTimeFormat(locale, {
+          weekday: 'short',
+          day: 'numeric',
           month: 'short',
-          day: 'numeric'
+          year: 'numeric'
         }).format(date);
       }
     }
   }
-
-  const safeTime = (typeof timeStr === 'string' ? timeStr.trim() : '') || '';
-
-  if (formattedDate && safeTime) return `${formattedDate} • ${safeTime}`;
-  if (formattedDate) return formattedDate;
-  if (safeTime) return safeTime;
 
   return typeof dateStr === 'string' ? dateStr : '';
 }
