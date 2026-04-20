@@ -186,8 +186,27 @@
   .tf-btn:first-child { border-right: 1px solid #2a2a3e; }
 
   @media (max-width: 900px) {
-    .battle-grid { grid-template-columns: 1fr; }
-    .battle-grid .tf-toggle { display: flex; }
+    .battle-grid {
+      grid-template-columns: 1fr;
+      gap: 14px;
+    }
+    .battle-grid .tf-toggle {
+      display: flex;
+      margin-bottom: -14px;
+      border-bottom-left-radius: 0;
+      border-bottom-right-radius: 0;
+      position: relative;
+      z-index: 3;
+      box-shadow: 0 10px 24px rgba(0,0,0,0.18);
+    }
+    .battle-grid > .battle-card {
+      border-top-left-radius: 0;
+      border-top-right-radius: 0;
+    }
+    .battle-grid > .battle-card::before {
+      border-top-left-radius: 0;
+      border-top-right-radius: 0;
+    }
   }
 
   @media (max-width: 600px) {
@@ -230,25 +249,18 @@
 
     .card-header-top {
       flex-direction: row;
-      flex-wrap: wrap;
+      flex-wrap: nowrap;
       align-items: center;
-      gap: 6px;
+      justify-content: flex-end;
+      gap: 0;
       border-bottom: none;
       padding-bottom: 0;
     }
     .card-header-left {
-      flex-wrap: nowrap;
-      gap: 8px;
-      min-width: 0;
-    }
-    .card-header-left h2 {
-      font-size: 0.82rem;
-      white-space: nowrap;
-      overflow: hidden;
-      text-overflow: ellipsis;
-      max-width: 62vw;
+      display: none;
     }
     .card-header-right {
+      margin-left: auto;
       font-size: 0.74rem;
       flex-wrap: nowrap;
       gap: 6px;
@@ -279,12 +291,6 @@
     .section-block {
       margin: 8px;
     }
-  }
-
-  /* Mobile optimization - hide redundant TF toggle since battle type is in tab */
-  @media (max-width: 900px) {
-    .battle-grid { grid-template-columns: 1fr; }
-    .battle-grid .tf-toggle { display: flex; }
   }
 
   /* battle card */
