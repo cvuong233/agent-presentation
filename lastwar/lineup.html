@@ -274,9 +274,21 @@
     .tabs {
       padding: 8px 10px 0;
     }
-    .tab-inner { padding: 13px 10px; }
-    .tab-title { font-size: 0.78rem; letter-spacing: 0.03em; }
-    .tab-icon { font-size: 1.2rem; }
+    .tab-inner {
+      padding: 11px 8px 12px;
+      gap: 5px;
+      flex-direction: column;
+      min-height: 66px;
+    }
+    .tab-title {
+      font-size: 0.72rem;
+      letter-spacing: 0.02em;
+      white-space: normal;
+      text-align: center;
+      line-height: 1.08;
+      overflow-wrap: anywhere;
+    }
+    .tab-icon { font-size: 1.08rem; }
 
     .card-header-top {
       flex-direction: row;
