@@ -425,6 +425,57 @@
   }
 
   @media (max-width: 600px) {
+    .filters-shell {
+      padding: 8px 10px;
+    }
+    .filters {
+      padding: 10px;
+      gap: 6px;
+      border-radius: 14px;
+    }
+    #cuisine-filters {
+      display: flex;
+      flex-wrap: nowrap;
+      gap: 6px;
+      width: 100%;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+      scrollbar-width: none;
+      order: 3;
+      padding-bottom: 2px;
+    }
+    #cuisine-filters::-webkit-scrollbar {
+      display: none;
+    }
+    .filter-btn {
+      flex: 0 0 auto;
+      padding: 7px 12px;
+      font-size: 0.76rem;
+      gap: 6px;
+    }
+    #all-filter-btn,
+    .filter-btn.locate {
+      flex: 0 0 auto;
+    }
+    .filter-btn.locate {
+      margin-left: auto;
+      order: 2;
+    }
+    #sort-info,
+    .count {
+      width: auto;
+      margin-top: 0;
+      font-size: 0.72rem;
+    }
+    #sort-info {
+      order: 4;
+      color: #7d6858;
+    }
+    .count {
+      order: 5;
+      margin-left: 0;
+      color: #7d6858;
+    }
     .card-body {
       padding: 14px 14px 15px;
     }

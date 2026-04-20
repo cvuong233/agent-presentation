@@ -46,6 +46,7 @@
     white-space: nowrap;
     letter-spacing: 0.06em;
     text-shadow: 0 0 18px rgba(148, 163, 255, 0.2);
+    min-width: 0;
   }
   .header-right { margin-left: auto; display: flex; align-items: center; gap: 12px; position: relative; z-index: 1; }
   .header-right span {
@@ -190,6 +191,39 @@
   }
 
   @media (max-width: 600px) {
+    header {
+      align-items: flex-start;
+      gap: 10px;
+    }
+    header > div:first-child {
+      flex: 1 1 auto;
+      align-items: flex-start !important;
+      gap: 8px !important;
+      flex-wrap: nowrap !important;
+      min-width: 0;
+    }
+    header h1 {
+      white-space: normal;
+      overflow: visible;
+      text-overflow: clip;
+      line-height: 1.2;
+      font-size: 0.98rem;
+      letter-spacing: 0.035em;
+    }
+    .info-btn {
+      margin-left: 0 !important;
+      flex-shrink: 0;
+    }
+    .header-right {
+      width: 100%;
+      margin-left: 0;
+      justify-content: space-between;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+    .header-right span {
+      max-width: 100%;
+    }
     .tab-inner { padding: 13px 8px; }
     .tab-title { font-size: 0.78rem; letter-spacing: 0.03em; }
     .tab-icon { font-size: 1.2rem; }
@@ -850,7 +884,7 @@ function buildCard(mode, slot, data) {
           <h2>${t('team')} ${slot}</h2>
         </div>
         <div class="card-header-right">
-          <span class="period-badge"><span class="period-icon" aria-hidden="true">${getPeriodIcon(d.period)}</span><span class="period-text">${t(d.period)}</span></span>
+          <span class="period-badge"><span class="period-icon" aria-hidden="true">${getPeriodIcon(d.period)}</span><span class="period-text">${String(t(d.period)).replace(/^[^\p{L}\p{N}]+\s*/u, '')}</span></span>
           <span class="time-text">${d.time || ''}</span>
         </div>
       </div>
