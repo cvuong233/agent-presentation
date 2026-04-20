@@ -48,6 +48,23 @@
     text-shadow: 0 0 18px rgba(148, 163, 255, 0.2);
     min-width: 0;
   }
+  .header-title-row {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: nowrap;
+    min-width: 0;
+    flex: 1 1 auto;
+    position: relative;
+    z-index: 1;
+  }
+  .header-title-icon {
+    flex-shrink: 0;
+  }
+  .header-title {
+    min-width: 0;
+    max-width: 100%;
+  }
   .header-right { margin-left: auto; display: flex; align-items: center; gap: 12px; position: relative; z-index: 1; }
   .header-right span {
     font-size: 0.84rem;
@@ -213,25 +230,34 @@
     header {
       align-items: flex-start;
       gap: 10px;
+      padding: 16px 14px 14px;
     }
-    header > div:first-child {
+    .header-title-row {
+      width: 100%;
+      align-items: flex-start;
+      gap: 8px;
+    }
+    .header-title {
+      white-space: normal !important;
+      overflow: visible !important;
+      text-overflow: clip !important;
+      line-height: 1.14;
+      font-size: 0.88rem;
+      letter-spacing: 0.02em;
       flex: 1 1 auto;
-      align-items: flex-start !important;
-      gap: 8px !important;
-      flex-wrap: nowrap !important;
-      min-width: 0;
     }
-    header h1 {
-      white-space: normal;
-      overflow: visible;
-      text-overflow: clip;
-      line-height: 1.2;
-      font-size: 0.98rem;
-      letter-spacing: 0.035em;
+    .header-title-icon {
+      margin-top: 1px;
     }
     .info-btn {
       margin-left: 0 !important;
-      flex-shrink: 0;
+      align-self: flex-start;
+    }
+    .info-btn.has-dot::after {
+      top: 3px;
+      right: 3px;
+      width: 7px;
+      height: 7px;
     }
     .header-right {
       width: 100%;
@@ -585,6 +611,19 @@
     padding: 4px 7px;
     line-height: 1;
     color: #f5f8ff;
+    position: relative;
+    flex-shrink: 0;
+  }
+  .info-btn.has-dot::after {
+    content: '';
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #ff4d6d;
+    box-shadow: 0 0 0 2px rgba(10, 18, 36, 0.95), 0 0 12px rgba(255, 77, 109, 0.7);
   }
   .info-btn:hover {
     opacity: 1;
@@ -598,10 +637,10 @@
 <body>
 
 <header>
-  <div style="display:flex;align-items:center;gap:12px;flex-wrap:nowrap;min-width:0">
-    <span style="flex-shrink:0">⚔️</span>
-    <h1 data-i18n="title" style="margin:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">ACMB — Đội Hình Chiến Đấu</h1>
-    <button class="info-btn" id="info-btn" title="Lineup Rules" style="margin-left:8px">📋</button>
+  <div class="header-title-row">
+    <span class="header-title-icon">⚔️</span>
+    <h1 class="header-title" data-i18n="title">ACMB — Đội Hình Chiến Đấu</h1>
+    <button class="info-btn has-dot" id="info-btn" title="Lineup Rules">📋</button>
   </div>
   <div class="header-right">
     <span id="week-label"></span>
@@ -1039,6 +1078,7 @@ const infoModalClose = document.getElementById('info-modal-close');
 function openInfoModal() {
   document.body.classList.add('modal-open');
   infoModal.classList.add('active');
+  infoBtn.classList.remove('has-dot');
 }
 
 function closeInfoModal() {
