@@ -76,8 +76,7 @@
       "Đập Chai",
       "Panda Force",
       "Lýkos",
-      "hanubeast",
-      "ntacutiiii"
+      "hanubeast"
     ],
     "R2": [
       "1Mét45",
@@ -99,7 +98,8 @@
       "RavenRayne",
       "Trai Cầu Tôm",
       "aaaaatttttkkkkkk",
-      "vinh ccc"
+      "vinh ccc",
+      "ntacutiiii"
     ],
     "R1": [
       "A Ngỗng",
@@ -107,7 +107,8 @@
       "Mrpigvn",
       "Nguyện VT",
       "kevkevkev123",
-      "thangnet"
+      "thangnet",
+      "Ooo bé Na Ooo"
     ]
   },
   "last_matches": {
@@ -645,7 +646,7 @@
       }
     },
     "ntacutiiii": {
-      "rank": "R3",
+      "rank": "R2",
       "hn_team": "A",
       "sm_team": "A",
       "yc": {
@@ -1233,7 +1234,7 @@
       }
     },
     "Ooo bé Na Ooo": {
-      "rank": "R3",
+      "rank": "R1",
       "hn_team": "A",
       "yc": {
         "hn": 0,
@@ -1321,7 +1322,7 @@
             "reason": "Tuần trước hạng 12th / 12th last week"
           },
           {
-            "r": "R3",
+            "r": "R2",
             "name": "ntacutiiii",
             "reason": "Tuần trước hạng 13th / 13th last week"
           },
@@ -1331,7 +1332,7 @@
             "reason": "Tuần trước hạng 14th / 14th last week"
           },
           {
-            "r": "R3",
+            "r": "R1",
             "name": "Ooo bé Na Ooo",
             "reason": "Tuần trước hạng 15th / 15th last week"
           },
@@ -1529,7 +1530,7 @@
             "reason": "Tuần trước hạng 9th / 9th last week"
           },
           {
-            "r": "R3",
+            "r": "R2",
             "name": "ntacutiiii",
             "reason": "Tuần trước hạng 10th / 10th last week"
           },
