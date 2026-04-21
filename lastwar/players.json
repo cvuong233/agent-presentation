@@ -394,6 +394,7 @@
     },
     "Đập Chai": {
       "rank": "R3",
+      "hn_team": "A",
       "yc": {
         "hn": 1,
         "sm": 0
@@ -1352,13 +1353,7 @@
             "reason": "Mới vào đội (đội A) / New to slot (team restriction: A)"
           }
         ],
-        "subs": [
-          {
-            "r": "R3",
-            "name": "Aaaluan",
-            "reason": "Mới vào đội / New to slot"
-          }
-        ],
+        "subs": [],
         "off": [],
         "dayoff": [],
         "slot": "A",
@@ -1451,6 +1446,11 @@
           },
           {
             "r": "R3",
+            "name": "Dầu Thơm MeoBinh",
+            "reason": "Tuần trước hạng 17th / 17th last week"
+          },
+          {
+            "r": "R3",
             "name": "Lýkos",
             "reason": "Tuần trước hạng 18th / 18th last week"
           },
@@ -1463,14 +1463,14 @@
             "r": "R3",
             "name": "Nguyenngoctuan",
             "reason": "Tuần trước hạng 20th / 20th last week"
-          },
+          }
+        ],
+        "subs": [
           {
             "r": "R3",
             "name": "cu tí nhỏ xíu",
             "reason": "Tuần trước hạng 21st / 21st last week"
-          }
-        ],
-        "subs": [
+          },
           {
             "r": "R3",
             "name": "Đập Chai",
@@ -1577,15 +1577,26 @@
           {
             "r": "R4",
             "name": "Rymi68",
-            "reason": "Mới vào đội / New to slot"
+            "reason": "Tuần trước hạng 18th / 18th last week"
           },
           {
             "r": "R3",
             "name": "Dầu Thơm MeoBinh",
             "reason": "Mới vào đội (đội A) / New to slot (team restriction: A)"
+          },
+          {
+            "r": "R1",
+            "name": "Ooo bé Na Ooo",
+            "reason": "Mới vào đội (đội A) / New to slot (team restriction: A)"
           }
         ],
-        "subs": [],
+        "subs": [
+          {
+            "r": "R3",
+            "name": "Đập Chai",
+            "reason": "Mới vào đội (đội A) / New to slot (team restriction: A)"
+          }
+        ],
         "off": [],
         "dayoff": [],
         "slot": "A",
@@ -1635,6 +1646,11 @@
             "r": "R3",
             "name": "Phạm khánhh",
             "reason": "Tuần trước hạng 8th / 8th last week"
+          },
+          {
+            "r": "R3",
+            "name": "Dầu Thơm MeoBinh",
+            "reason": "Tuần trước hạng 9th / 9th last week"
           },
           {
             "r": "R3",
