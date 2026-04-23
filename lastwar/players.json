@@ -1339,13 +1339,14 @@
     "Haizzzzzzzzzzzz": {
       "rank": "R4",
       "yc": {
-        "hn": 1,
+        "hn": 0,
         "sm": 0
       },
       "cm": {
-        "hn": 2,
-        "sm": 1
-      }
+        "hn": 0,
+        "sm": 0
+      },
+      "note": "Permanent sub (busy) - YC rules waived"
     }
   },
   "lineup": {
@@ -1431,14 +1432,15 @@
             "r": "R1",
             "name": "Ooo bé Na Ooo",
             "reason": "Tuần trước hạng 15th / 15th last week"
-          },
+          }
+        ],
+        "subs": [
           {
             "r": "R4",
             "name": "Haizzzzzzzzzzzz",
-            "reason": "Tuần trước hạng 16th / 16th last week"
+            "reason": "Dự bị thường trực (bận) / Permanent sub (busy)"
           }
         ],
-        "subs": [],
         "off": [
           {
             "r": "R3",
@@ -1666,14 +1668,14 @@
             "reason": "Tuần trước hạng 18th / 18th last week"
           }
         ],
-        "subs": [],
-        "off": [
+        "subs": [
           {
             "r": "R4",
             "name": "Haizzzzzzzzzzzz",
-            "reason": "2 tuần vắng mặt liên tiếp / 2 consecutive absences"
+            "reason": "Dự bị thường trực (bận) / Permanent sub (busy)"
           }
         ],
+        "off": [],
         "dayoff": [],
         "slot": "A",
         "time": "21:30",
