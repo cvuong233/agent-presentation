@@ -1432,6 +1432,11 @@
             "r": "R1",
             "name": "Ooo bé Na Ooo",
             "reason": "Tuần trước hạng 15th / 15th last week"
+          },
+          {
+            "r": "R3",
+            "name": "Dầu Thơm MeoBinh",
+            "reason": "Đội A / Team A"
           }
         ],
         "subs": [
@@ -1441,13 +1446,7 @@
             "reason": "Dự bị thường trực (bận) / Permanent sub (busy)"
           }
         ],
-        "off": [
-          {
-            "r": "R3",
-            "name": "Dầu Thơm MeoBinh",
-            "reason": "Mới vào đội (đội A) / New to slot (team restriction: A)"
-          }
-        ],
+        "off": [],
         "dayoff": [],
         "slot": "A",
         "time": "18:30",
