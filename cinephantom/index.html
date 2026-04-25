@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>CinePhantom – Stremio Button</title>
+  <title>CinePhantom – Cinemeta Enrichment</title>
   <style>
     body { font-family: system-ui, sans-serif; background:#0b1020; color:#f4f7ff; margin:0; padding:32px; }
     .card { max-width:720px; margin:0 auto; background:#141b31; border:1px solid #2a355d; border-radius:20px; padding:24px; }
@@ -17,19 +17,23 @@
 <body>
   <div class="card">
     <h1>CinePhantom</h1>
-    <p class="muted">Stremio button build · 2026-04-26</p>
-    <p><a class="button" href="CinePhantom-stremio-button-20260425-190933-debug.apk" download>Download APK</a></p>
-    <p>Direct file: <code>CinePhantom-stremio-button-20260425-190933-debug.apk</code></p>
+    <p class="muted">Cinemeta enrichment · 2026-04-26</p>
+    <p><a class="button" href="CinePhantom-cinemeta-ui-20260426-022255-debug.apk" download>Download APK</a></p>
+    <p>Direct file: <code>CinePhantom-cinemeta-ui-20260426-022255-debug.apk</code></p>
     <hr style="border-color:#2a355d; margin:24px 0;">
     <h2>What's new</h2>
     <ul>
-      <li><strong>Stremio button</strong> – each result card now shows an "Open in Stremio" button.</li>
-      <li>Tapping the button opens the title directly in Stremio via deep link.</li>
-      <li>Content type (movie/series) is inferred from the IMDb type label.</li>
-      <li>Graceful fallback if Stremio is not installed.</li>
+      <li><strong>Cinemeta enrichment</strong> – background metadata fetch from Stremio Cinemeta for each IMDb search result.</li>
+      <li><strong>Rating badge</strong> – orange star rating badge appears next to the type chip when available.</li>
+      <li><strong>Genre chips</strong> – up to 3 genre labels shown below the title when Cinemeta data loads.</li>
+      <li><strong>Description snippet</strong> – short plot description shown between genres and cast.</li>
+      <li><strong>Graceful degradation</strong> – basic results render instantly; enrichment arrives asynchronously per item.</li>
+      <li><strong>Caching</strong> – Cinemeta metadata cached in-memory by IMDb ID to avoid redundant fetches.</li>
+      <li>Stremio deep link button preserved on all cards.</li>
     </ul>
     <h2>Previous builds</h2>
     <ul>
+      <li><a href="CinePhantom-stremio-button-20260425-190933-debug.apk" style="color:#a7b4de;">Stremio Button (2026-04-25)</a></li>
       <li><a href="CinePhantom-search-ux-2026-04-26-0237-debug.apk" style="color:#a7b4de;">Search UX (2026-04-26)</a></li>
       <li><a href="CinePhantom-ui-refresh-20260426-025722-debug.apk" style="color:#a7b4de;">UI Refresh (2026-04-26 v1)</a></li>
       <li><a href="CinePhantom-ui-refresh-20260426-025741-debug.apk" style="color:#a7b4de;">UI Refresh (2026-04-26 v2)</a></li>
