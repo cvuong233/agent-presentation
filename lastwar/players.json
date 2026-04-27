@@ -350,7 +350,7 @@
         "sm": 0
       },
       "cm": {
-        "hn": 25,
+        "hn": 0,
         "sm": 0
       }
     },
@@ -1709,7 +1709,13 @@
             "reason": "Tuần trước hạng 14th / 14th last week"
           }
         ],
-        "subs": [],
+        "subs": [
+          {
+            "r": "R3",
+            "name": "Nguyenngoctuan",
+            "reason": "1 thẻ vàng (vắng HN) / 1 YC (missed HN)"
+          }
+        ],
         "off": [],
         "dayoff": [],
         "slot": "B",
