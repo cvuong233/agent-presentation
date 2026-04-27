@@ -1369,6 +1369,11 @@
             "reason": "Tuần trước hạng 15th / 15th last week"
           },
           {
+            "r": "R4",
+            "name": "Haizzzzzzzzzzzz",
+            "reason": "Tuần trước hạng 16th / 16th last week"
+          },
+          {
             "r": "R2",
             "name": "Ooo bé Na Ooo",
             "reason": "Tuần trước hạng 16th / 16th last week"
@@ -1385,11 +1390,6 @@
           }
         ],
         "subs": [
-          {
-            "r": "R4",
-            "name": "Haizzzzzzzzzzzz",
-            "reason": "Dự bị thường trực (bận) / Permanent sub (busy)"
-          },
           {
             "r": "R3",
             "name": "Kute Gold",
