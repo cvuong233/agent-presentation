@@ -1614,21 +1614,21 @@
             "r": "R1",
             "name": "xuân3737",
             "reason": "Mới vào đội (đội A) / New to slot (team restriction: A)"
-          }
-        ],
-        "subs": [],
-        "off": [
+          },
           {
             "r": "R4",
             "name": "Rymi68",
             "reason": "Mới vào đội (đội A) / New to slot (team restriction: A)"
-          },
+          }
+        ],
+        "subs": [
           {
             "r": "R4",
             "name": "Haizzzzzzzzzzzz",
-            "reason": "Không đấu trận này / Not playing this match"
+            "reason": "Dự bị thường trực (bận) / Permanent sub (busy)"
           }
         ],
+        "off": [],
         "dayoff": [],
         "slot": "A",
         "time": "21:30",
