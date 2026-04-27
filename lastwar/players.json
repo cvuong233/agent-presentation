@@ -1370,15 +1370,14 @@
             "r": "R4",
             "name": "Haizzzzzzzzzzzz",
             "reason": "Dự bị thường trực (bận) / Permanent sub (busy)"
-          }
-        ],
-        "off": [
+          },
           {
             "r": "R3",
             "name": "Mr Rama",
-            "reason": "Không đấu trận này / Not playing this match"
+            "reason": "1 thẻ vàng (vắng SM) / 1 YC (missed SM)"
           }
         ],
+        "off": [],
         "dayoff": [],
         "slot": "A",
         "time": "18:30",
