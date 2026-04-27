@@ -346,7 +346,7 @@
     "Nguyenngoctuan": {
       "rank": "R3",
       "yc": {
-        "hn": 1,
+        "hn": 0,
         "sm": 0
       },
       "cm": {
@@ -1707,15 +1707,14 @@
             "r": "R3",
             "name": "danhoanh",
             "reason": "Tuần trước hạng 14th / 14th last week"
-          }
-        ],
-        "subs": [
+          },
           {
             "r": "R3",
             "name": "Nguyenngoctuan",
-            "reason": "1 thẻ vàng (vắng HN) / 1 YC (missed HN)"
+            "reason": "Có mặt trở lại / Returned to lineup"
           }
         ],
+        "subs": [],
         "off": [],
         "dayoff": [],
         "slot": "B",
