@@ -2,7 +2,7 @@
   "meta": {
     "clan": "ACMB",
     "game": "Last War VN",
-    "updated": "2026-04-23",
+    "updated": "2026-04-27",
     "notes": "C V = cường khùng (R4). SM = Bão Sa Mạc (Storm Mountain). HN = Bão Hẻm Núi (Canyon Storm). Lineup sorted by last match score. SM: 20 main + subs. HN: 30 main. SM reg closes Thu 9am ICT. HN reg closes Tue 9am ICT. Absence rule: 1 match absent = subs; 2 consecutive = removed.",
     "updated_hn_a": "2026-04-23"
   },
@@ -43,7 +43,6 @@
       "Marines Malevolent",
       "MickeyDee88",
       "Mr Khoai Tây",
-      "Mr Rama",
       "MrAugust2886",
       "Mèo Xing",
       "Napolego",
@@ -115,60 +114,59 @@
   "last_matches": {
     "sm": {
       "A": {
-        "date": "2026-04-17",
+        "date": "2026-04-24",
         "slot": "evening 18:30",
         "scores": {
-          "Hello AE": 7073688,
-          "LinLin": 3964383,
-          "Mr Rama": 3469614,
-          "zdevils": 2402059,
-          "cường khùng": 2077092,
-          "MrAugust2886": 1930582,
-          "tâm1980": 1842277,
-          "Thanh Tân 99": 1286853,
-          "PewPewBoi": 868177,
-          "Indefatigabl3": 646957,
-          "Panda Force": 622188,
-          "wolfwitch": 611092,
-          "ntacutiiii": 547234,
-          "Shashank1411": 520298,
-          "Ooo bé Na Ooo": 499829,
-          "Haizzzzzzzzzzzz": 282110,
-          "Lerxinhiu": 244242
+          "Hello AE": 5848262,
+          "LinLin": 4168352,
+          "Lerxinhiu": 3244637,
+          "Dầu Thơm MeoBinh": 3125908,
+          "zdevils": 3078254,
+          "cường khùng": 2809975,
+          "yologuy": 2504621,
+          "MrAugust2886": 2290706,
+          "Panda Force": 1959895,
+          "wolfwitch": 1513536,
+          "PewPewBoi": 1575500,
+          "Indefatigabl3": 1125800,
+          "tâm1980": 1080939,
+          "Shashank1411": 972657,
+          "Thanh Tân 99": 715177,
+          "Haizzzzzzzzzzzz": 555236,
+          "Ooo bé Na Ooo": 416189,
+          "ntacutiiii": 402590
         }
       },
       "B": {
-        "date": "2026-04-18",
+        "date": "2026-04-25",
         "slot": "morning 08:30",
         "scores": {
-          "Mr Khoai Tây": 2241466,
-          "Selnavi": 2191841,
-          "anh thợ sửa máy": 1854415,
-          "Phạm khánhh": 1841426,
-          "Rymi68": 1809797,
-          "Hemerage": 1765670,
-          "Chivas2026": 1697015,
-          "yologuy": 1686838,
-          "Marines Malevolent": 1677117,
-          "WitWiu": 1499788,
-          "danhoanh": 1497191,
-          "Vualidonzz": 1365632,
-          "NorthFog": 1239124,
-          "ÒOO": 1228545,
-          "Hải Anh 0612": 1059670,
-          "SanTa 1386": 875161,
-          "Dầu Thơm MeoBinh": 798278,
-          "Lýkos": 780996,
-          "hanubeast": 728663,
-          "Nguyenngoctuan": 587715,
-          "cu tí nhỏ xíu": 422822,
-          "Đập Chai": 223802
+          "ÒOO": 2855225,
+          "Selnavi": 2846185,
+          "Vualidonzz": 1920148,
+          "Hải Anh 0612": 1738037,
+          "cu tí nhỏ xíu": 1549576,
+          "Marines Malevolent": 1348873,
+          "danhoanh": 1301774,
+          "SanTa 1386": 1258573,
+          "NorthFog": 1109881,
+          "Chivas2026": 1052229,
+          "Hemerage": 934587,
+          "Rymi68": 889312,
+          "anh thợ sửa máy": 839368,
+          "Đập Chai": 835847,
+          "WitWiu": 822334,
+          "Phạm khánhh": 792785,
+          "hanubeast": 781811,
+          "Lýkos": 462932,
+          "Nguyenngoctuan": 412282,
+          "Mr Khoai Tây": 137030
         }
       }
     },
     "hn": {
       "A": {
-        "date": "2026-04-16",
+        "date": "2026-04-23",
         "slot": "night 21:30",
         "scores": {
           "Hello AE": 11645942,
@@ -192,101 +190,26 @@
         }
       },
       "B": {
-        "date": "2026-04-17",
+        "date": "2026-04-24",
         "slot": "morning 08:30",
         "scores": {
-          "Vualidonzz": 8235529,
-          "NorthFog": 5221301,
-          "Hải Anh 0612": 4927943,
-          "danhoanh": 4762216,
-          "yologuy": 4568944,
-          "Marines Malevolent": 4381645,
-          "ÒOO": 3726114,
-          "Phạm khánhh": 3665106,
-          "Dầu Thơm MeoBinh": 3143043,
-          "Selnavi": 2642044,
-          "Chivas2026": 2578882,
-          "Tommy4014": 1996299,
-          "SanTa 1386": 1576197,
-          "Mr Khoai Tây": 1357630,
-          "Hemerage": 799652
+          "Vualidonzz": 7056498,
+          "ÒOO": 6107919,
+          "Chivas2026": 4204658,
+          "yologuy": 4204205,
+          "Mr Khoai Tây": 4066365,
+          "Hải Anh 0612": 3860169,
+          "NorthFog": 3503924,
+          "Phạm khánhh": 3445113,
+          "Selnavi": 3358666,
+          "Marines Malevolent": 2637820,
+          "SanTa 1386": 1924992,
+          "Tommy4014": 1830723,
+          "Hemerage": 1285816,
+          "danhoanh": 685857
         }
       }
-    },
-    "HN-A": [
-      {
-        "name": "Hello AE",
-        "score": 11645942
-      },
-      {
-        "name": "cường khùng",
-        "score": 10333223
-      },
-      {
-        "name": "Lerxinhiu",
-        "score": 9297102
-      },
-      {
-        "name": "Dầu Thơm MeoBinh",
-        "score": 9130635
-      },
-      {
-        "name": "Mr Rama",
-        "score": 8082618
-      },
-      {
-        "name": "WitWiu",
-        "score": 7938402
-      },
-      {
-        "name": "zdevils",
-        "score": 6825865
-      },
-      {
-        "name": "anh thợ sửa máy",
-        "score": 5829284
-      },
-      {
-        "name": "MrAugust2886",
-        "score": 5611861
-      },
-      {
-        "name": "tâm1980",
-        "score": 5512807
-      },
-      {
-        "name": "Thanh Tân 99",
-        "score": 5449006
-      },
-      {
-        "name": "wolfwitch",
-        "score": 4863750
-      },
-      {
-        "name": "Indefatigabl3",
-        "score": 4860434
-      },
-      {
-        "name": "Shashank1411",
-        "score": 4593640
-      },
-      {
-        "name": "ntacutiiii",
-        "score": 4282473
-      },
-      {
-        "name": "Aaaluan",
-        "score": 3831963
-      },
-      {
-        "name": "LinLin",
-        "score": 3470131
-      },
-      {
-        "name": "Ooo bé Na Ooo",
-        "score": 2521110
-      }
-    ]
+    }
   },
   "players": {
     "Lerxinhiu": {
@@ -297,7 +220,7 @@
       },
       "cm": {
         "hn": 1,
-        "sm": 1
+        "sm": 0
       },
       "last_hn_score": 9297102
     },
@@ -309,7 +232,7 @@
       },
       "cm": {
         "hn": 1,
-        "sm": 1
+        "sm": 0
       },
       "last_hn_score": 10333223
     },
@@ -321,7 +244,7 @@
       },
       "cm": {
         "hn": 1,
-        "sm": 1
+        "sm": 0
       },
       "last_hn_score": 3470131
     },
@@ -368,7 +291,7 @@
       },
       "cm": {
         "hn": 1,
-        "sm": 1
+        "sm": 0
       },
       "last_hn_score": 11645942
     },
@@ -391,21 +314,9 @@
       },
       "cm": {
         "hn": 1,
-        "sm": 1
-      },
-      "last_hn_score": 6825865
-    },
-    "Mr Rama": {
-      "rank": "R3",
-      "yc": {
-        "hn": 0,
         "sm": 0
       },
-      "cm": {
-        "hn": 1,
-        "sm": 1
-      },
-      "last_hn_score": 8082618
+      "last_hn_score": 6825865
     },
     "Vualidonzz": {
       "rank": "R3",
@@ -426,7 +337,7 @@
       },
       "cm": {
         "hn": 1,
-        "sm": 1
+        "sm": 0
       },
       "last_hn_score": 4593640
     },
@@ -505,7 +416,7 @@
       },
       "cm": {
         "hn": 1,
-        "sm": 1
+        "sm": 0
       },
       "last_hn_score": 4863750
     },
@@ -561,7 +472,7 @@
       },
       "cm": {
         "hn": 24,
-        "sm": 1
+        "sm": 0
       }
     },
     "ÔngTânPro": {
@@ -583,7 +494,7 @@
       },
       "cm": {
         "hn": 1,
-        "sm": 1
+        "sm": 0
       },
       "last_hn_score": 4860434
     },
@@ -595,7 +506,7 @@
       },
       "cm": {
         "hn": 1,
-        "sm": 1
+        "sm": 0
       },
       "last_hn_score": 5449006
     },
@@ -652,7 +563,7 @@
       },
       "cm": {
         "hn": 1,
-        "sm": 1
+        "sm": 0
       },
       "last_hn_score": 5611861
     },
@@ -664,7 +575,7 @@
       },
       "cm": {
         "hn": 1,
-        "sm": 1
+        "sm": 0
       },
       "last_hn_score": 5512807
     },
@@ -769,7 +680,7 @@
       },
       "cm": {
         "hn": 0,
-        "sm": 12
+        "sm": 0
       },
       "sm_team": "A",
       "hn_team": "A",
@@ -1322,7 +1233,7 @@
       },
       "cm": {
         "hn": 25,
-        "sm": 1
+        "sm": 0
       }
     },
     "Ooo bé Na Ooo": {
@@ -1334,7 +1245,7 @@
       },
       "cm": {
         "hn": 0,
-        "sm": 1
+        "sm": 0
       },
       "last_hn_score": 2521110
     },
@@ -1346,7 +1257,7 @@
       },
       "cm": {
         "hn": 0,
-        "sm": 1
+        "sm": 0
       },
       "note": "Permanent sub (busy) - YC rules waived"
     }
@@ -1790,6 +1701,12 @@
       "name": "Hoá Đá",
       "reason": "Left the alliance",
       "date": "2026-04-13"
+    },
+    {
+      "name": "Mr Rama",
+      "rank": "R3",
+      "reason": "2 thẻ vàng liên tiếp SM / 2 consecutive SM YC",
+      "date": "2026-04-24"
     }
   ]
 }
