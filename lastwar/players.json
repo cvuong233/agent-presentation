@@ -77,7 +77,7 @@
       "Panda Force",
       "Lýkos",
       "hanubeast",
-      "Mr Rama"
+      "Kute Gold"
     ],
     "R2": [
       "1Mét45",
@@ -100,7 +100,8 @@
       "Trai Cầu Tôm",
       "aaaaatttttkkkkkk",
       "vinh ccc",
-      "ntacutiiii"
+      "ntacutiiii",
+      "Ooo bé Na Ooo"
     ],
     "R1": [
       "A Ngỗng",
@@ -109,7 +110,6 @@
       "Nguyện VT",
       "kevkevkev123",
       "thangnet",
-      "Ooo bé Na Ooo",
       "xuân3737"
     ]
   },
@@ -175,7 +175,6 @@
           "cường khùng": 10333223,
           "Lerxinhiu": 9297102,
           "Dầu Thơm MeoBinh": 9130635,
-          "Mr Rama": 8082618,
           "WitWiu": 7938402,
           "zdevils": 6825865,
           "anh thợ sửa máy": 5829284,
@@ -188,7 +187,8 @@
           "ntacutiiii": 4282473,
           "Aaaluan": 3831963,
           "LinLin": 3470131,
-          "Ooo bé Na Ooo": 2521110
+          "Ooo bé Na Ooo": 2521110,
+          "Kute Gold": 8082618
         }
       },
       "B": {
@@ -1239,7 +1239,7 @@
       }
     },
     "Ooo bé Na Ooo": {
-      "rank": "R1",
+      "rank": "R2",
       "hn_team": "A",
       "yc": {
         "hn": 0,
@@ -1263,18 +1263,6 @@
       },
       "note": "Permanent sub (busy) - YC rules waived"
     },
-    "Mr Rama": {
-      "rank": "R3",
-      "yc": {
-        "hn": 0,
-        "sm": 1
-      },
-      "cm": {
-        "hn": 1,
-        "sm": 1
-      },
-      "last_hn_score": 8082618
-    },
     "xuân3737": {
       "rank": "R1",
       "hn_team": "A",
@@ -1287,6 +1275,18 @@
         "hn": 0,
         "sm": 0
       }
+    },
+    "Kute Gold": {
+      "rank": "R3",
+      "yc": {
+        "hn": 0,
+        "sm": 1
+      },
+      "cm": {
+        "hn": 1,
+        "sm": 1
+      },
+      "last_hn_score": 8082618
     }
   },
   "lineup": {
@@ -1369,7 +1369,7 @@
             "reason": "Tuần trước hạng 15th / 15th last week"
           },
           {
-            "r": "R1",
+            "r": "R2",
             "name": "Ooo bé Na Ooo",
             "reason": "Tuần trước hạng 16th / 16th last week"
           },
@@ -1392,7 +1392,7 @@
           },
           {
             "r": "R3",
-            "name": "Mr Rama",
+            "name": "Kute Gold",
             "reason": "1 thẻ vàng (vắng SM) / 1 YC (missed SM)"
           }
         ],
@@ -1542,7 +1542,7 @@
           },
           {
             "r": "R3",
-            "name": "Mr Rama",
+            "name": "Kute Gold",
             "reason": "Tuần trước hạng 5th / 5th last week"
           },
           {
@@ -1606,7 +1606,7 @@
             "reason": "Tuần trước hạng 17th / 17th last week"
           },
           {
-            "r": "R1",
+            "r": "R2",
             "name": "Ooo bé Na Ooo",
             "reason": "Tuần trước hạng 18th / 18th last week"
           },
