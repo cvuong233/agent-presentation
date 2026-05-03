@@ -187,7 +187,8 @@
           "Ooo bé Na Ooo": 4115191,
           "anh thợ sửa máy": 2072650,
           "Đập Chai": 1847734,
-          "ntacutiiii": 1809676
+          "ntacutiiii": 1809676,
+          "tâm1980": 8842968
         }
       },
       "B": {
@@ -1638,6 +1639,11 @@
             "r": "R3",
             "name": "Đập Chai",
             "reason": "Tuần trước hạng 18th / 18th last week"
+          },
+          {
+            "r": "R3",
+            "name": "tâm1980",
+            "reason": "Chuyển đến HN-A / Assigned to HN-A"
           },
           {
             "r": "R2",
