@@ -18,26 +18,33 @@
   <div class="card">
     <h1>CinePhantom</h1>
     <p class="muted">Cinemeta enrichment · 2026-04-26</p>
-    <p><a class="button" href="CinePhantom-v84-stremio-ratingfix-20260503-2335-debug.apk" download>Download v84</a></p>
-    <p>Direct file: <code>CinePhantom-v84-stremio-ratingfix-20260503-2335-debug.apk</code></p>
+    <p><a class="button" href="CinePhantom-v97-detailphotos-20260504-0300-debug.apk" download>Download v97 (Latest)</a></p>
+    <p>Direct file: <code>CinePhantom-v97-detailphotos-20260504-0300-debug.apk</code></p>
     <hr style="border-color:#2a355d; margin:24px 0;">
-    <h2>What's new (v84)</h2>
+    <h2>What's new (v97)</h2>
     <ul>
-      <li><strong>Stremio button on detail page</strong> – open directly in Stremio from the detail screen.</li>
-      <li><strong>IMDb rating fix</strong> – rating now loads in background when opening from widget tap (was blocked on main thread).</li>
-      <li><strong>Rating badge</strong> – orange star rating badge appears next to the type chip when available.</li>
-      <li><strong>Genre chips</strong> – up to 3 genre labels shown below the title when Cinemeta data loads.</li>
-      <li><strong>Description snippet</strong> – short plot description shown between genres and cast.</li>
-      <li><strong>Graceful degradation</strong> – basic results render instantly; enrichment arrives asynchronously per item.</li>
-      <li><strong>Caching</strong> – Cinemeta metadata cached in-memory by IMDb ID to avoid redundant fetches.</li>
-      <li>Stremio deep link button preserved on all cards.</li>
+      <li><strong>Redesigned detail screen</strong> – hero poster backdrop, animated title, skeleton loading states.</li>
+      <li><strong>Real cast photos</strong> – loads actual TMDB cast/crew photos instead of static placeholders.</li>
+      <li><strong>Staggered animations</strong> – smooth entrance animations for posters, cast list, and metadata.</li>
+      <li><strong>Widget stability fixes</strong> – goAsync() for background poster downloads, null safety fixes, URI fallback.</li>
+      <li><strong>Two-phase periodic widget refresh</strong> – compute in background, apply on next update cycle.</li>
+      <li>Stremio deep link button preserved throughout.</li>
     </ul>
     <h2>Previous builds</h2>
     <ul>
-      <li><a href="CinePhantom-stremio-button-20260425-190933-debug.apk" style="color:#a7b4de;">Stremio Button (2026-04-25)</a></li>
-      <li><a href="CinePhantom-search-ux-2026-04-26-0237-debug.apk" style="color:#a7b4de;">Search UX (2026-04-26)</a></li>
-      <li><a href="CinePhantom-ui-refresh-20260426-025722-debug.apk" style="color:#a7b4de;">UI Refresh (2026-04-26 v1)</a></li>
-      <li><a href="CinePhantom-ui-refresh-20260426-025741-debug.apk" style="color:#a7b4de;">UI Refresh (2026-04-26 v2)</a></li>
+      <li><a href="CinePhantom-v96-twophase-periodic-20260504-011734-debug.apk" style="color:#a7b4de;">v96 — Two-phase periodic widget (2026-05-04)</a></li>
+      <li><a href="CinePhantom-v95-standard-20260504-011451-debug.apk" style="color:#a7b4de;">v95 — Standard refresh (2026-05-04)</a></li>
+      <li><a href="CinePhantom-v94-sync-20260504-010649-debug.apk" style="color:#a7b4de;">v94 — Sync fix (2026-05-04)</a></li>
+      <li><a href="CinePhantom-v93-debugcounter-20260504-005426-debug.apk" style="color:#a7b4de;">v93 — Debug counter (2026-05-04)</a></li>
+      <li><a href="CinePhantom-v92-15secrotate-20260504-004851-debug.apk" style="color:#a7b4de;">v92 — 15s rotate (2026-05-04)</a></li>
+      <li><a href="CinePhantom-v91-nullfix-20260504-004358-debug.apk" style="color:#a7b4de;">v91 — Null safety fix (2026-05-04)</a></li>
+      <li><a href="CinePhantom-v90-alarmids-20260504-003926-debug.apk" style="color:#a7b4de;">v90 — Alarm IDs fix (2026-05-04)</a></li>
+      <li><a href="CinePhantom-v89-twophase-20260504-003520-debug.apk" style="color:#a7b4de;">v89 — Two-phase (2026-05-04)</a></li>
+      <li><a href="CinePhantom-v88-uri-noipc-20260504-000754-debug.apk" style="color:#a7b4de;">v88 — URI no IPC (2026-05-04)</a></li>
+      <li><a href="CinePhantom-v87-goasyncfix-20260503-235815-debug.apk" style="color:#a7b4de;">v87 — goAsync fix (2026-05-03)</a></li>
+      <li><a href="CinePhantom-v86-portraitwidget-20260503-235418-debug.apk" style="color:#a7b4de;">v86 — Portrait widget (2026-05-03)</a></li>
+      <li><a href="CinePhantom-v85-compactwidget-20260503-234847-debug.apk" style="color:#a7b4de;">v85 — Compact widget (2026-05-03)</a></li>
+      <li><a href="CinePhantom-v84-stremio-ratingfix-20260503-2335-debug.apk" style="color:#a7b4de;">v84 — Stremio rating fix (2026-05-03)</a></li>
     </ul>
   </div>
 </body>
