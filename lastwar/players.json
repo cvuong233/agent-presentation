@@ -190,7 +190,9 @@
           "Ooo bé Na Ooo": 4505133,
           "Shashank1411": 4331160,
           "ntacutiiii": 3551102,
-          "xuân3737": 304835
+          "xuân3737": 304835,
+          "Lerxinhiu": 0,
+          "Rymi68": 0
         }
       },
       "B": {
@@ -220,11 +222,11 @@
     "Lerxinhiu": {
       "rank": "R5",
       "yc": {
-        "hn": 1,
+        "hn": 0,
         "sm": 0
       },
       "cm": {
-        "hn": 2,
+        "hn": 0,
         "sm": 0
       },
       "last_hn_score": 9297102
@@ -258,11 +260,11 @@
       "hn_team": "A",
       "sm_team": "A",
       "yc": {
-        "hn": 1,
+        "hn": 0,
         "sm": 0
       },
       "cm": {
-        "hn": 1,
+        "hn": 0,
         "sm": 0
       }
     },
@@ -1629,22 +1631,20 @@
             "r": "R1",
             "name": "xuân3737",
             "reason": "Tuần trước hạng 19th / 19th last week"
-          }
-        ],
-        "subs": [
-          {
-            "r": "R4",
-            "name": "Rymi68",
-            "reason": "1 thẻ vàng (vắng HN) / 1 YC (missed HN)"
-          }
-        ],
-        "off": [
+          },
           {
             "r": "R5",
             "name": "Lerxinhiu",
-            "reason": "2 thẻ vàng liên tiếp (vắng HN) / 2 consecutive YC (missed HN)"
+            "reason": "Tuần trước hạng 20th / 20th last week"
+          },
+          {
+            "r": "R4",
+            "name": "Rymi68",
+            "reason": "Tuần trước hạng 21st / 21st last week"
           }
         ],
+        "subs": [],
+        "off": [],
         "dayoff": [],
         "slot": "A",
         "time": "21:30",
