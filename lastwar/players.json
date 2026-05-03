@@ -1314,7 +1314,7 @@
         "hn": 0,
         "sm": 0
       },
-      "note": "Permanent sub (busy) - YC rules waived",
+      "note": "- YC rules waived",
       "last_sm_score": 2247984
     },
     "xuân3737": {
@@ -1373,6 +1373,11 @@
             "r": "R5",
             "name": "Lerxinhiu",
             "reason": "Tuần trước hạng 5th / 5th last week"
+          },
+          {
+            "r": "R4",
+            "name": "Haizzzzzzzzzzzz",
+            "reason": "Tuần trước hạng 6th / 6th last week"
           },
           {
             "r": "R4",
@@ -1446,11 +1451,6 @@
           }
         ],
         "subs": [
-          {
-            "r": "R4",
-            "name": "Haizzzzzzzzzzzz",
-            "reason": "Tuần trước hạng 6th / 6th last week"
-          },
           {
             "r": "R2",
             "name": "ntacutiiii",
@@ -1602,6 +1602,11 @@
             "reason": "Tuần trước hạng 5th / 5th last week"
           },
           {
+            "r": "R4",
+            "name": "Haizzzzzzzzzzzz",
+            "reason": "Tuần trước hạng 6th / 6th last week"
+          },
+          {
             "r": "R3",
             "name": "Thanh Tân 99",
             "reason": "Tuần trước hạng 7th / 7th last week"
@@ -1672,13 +1677,7 @@
             "reason": "Tuần trước hạng 20th / 20th last week"
           }
         ],
-        "subs": [
-          {
-            "r": "R4",
-            "name": "Haizzzzzzzzzzzz",
-            "reason": "Tuần trước hạng 6th / 6th last week"
-          }
-        ],
+        "subs": [],
         "off": [],
         "dayoff": [],
         "slot": "A",
