@@ -173,6 +173,7 @@
         "slot": "night 21:30",
         "scores": {
           "Hello AE": 19307495,
+          "Rymi68": 18242440,
           "cường khùng": 16039318,
           "Dầu Thơm MeoBinh": 13847131,
           "LinLin": 11785413,
@@ -180,6 +181,7 @@
           "MrAugust2886": 10641707,
           "WitWiu": 8991921,
           "zdevils": 8734123,
+          "Lerxinhiu": 8588058,
           "anh thợ sửa máy": 8290876,
           "tâm1980": 7634133,
           "wolfwitch": 6869576,
@@ -190,9 +192,7 @@
           "Ooo bé Na Ooo": 4505133,
           "Shashank1411": 4331160,
           "ntacutiiii": 3551102,
-          "xuân3737": 304835,
-          "Lerxinhiu": 0,
-          "Rymi68": 0
+          "xuân3737": 304835
         }
       },
       "B": {
@@ -229,7 +229,7 @@
         "hn": 0,
         "sm": 0
       },
-      "last_hn_score": 9297102
+      "last_hn_score": 8588058
     },
     "cường khùng": {
       "rank": "R4",
@@ -266,7 +266,8 @@
       "cm": {
         "hn": 0,
         "sm": 0
-      }
+      },
+      "last_hn_score": 18242440
     },
     "Hải Anh 0612": {
       "rank": "R4",
@@ -1544,102 +1545,102 @@
           },
           {
             "r": "R4",
-            "name": "cường khùng",
+            "name": "Rymi68",
             "reason": "Tuần trước hạng 2nd / 2nd last week"
+          },
+          {
+            "r": "R4",
+            "name": "cường khùng",
+            "reason": "Tuần trước hạng 3rd / 3rd last week"
           },
           {
             "r": "R3",
             "name": "Dầu Thơm MeoBinh",
-            "reason": "Tuần trước hạng 3rd / 3rd last week"
+            "reason": "Tuần trước hạng 4th / 4th last week"
           },
           {
             "r": "R4",
             "name": "LinLin",
-            "reason": "Tuần trước hạng 4th / 4th last week"
-          },
-          {
-            "r": "R3",
-            "name": "Kute Gold",
             "reason": "Tuần trước hạng 5th / 5th last week"
           },
           {
             "r": "R3",
-            "name": "MrAugust2886",
+            "name": "Kute Gold",
             "reason": "Tuần trước hạng 6th / 6th last week"
           },
           {
             "r": "R3",
-            "name": "WitWiu",
+            "name": "MrAugust2886",
             "reason": "Tuần trước hạng 7th / 7th last week"
+          },
+          {
+            "r": "R3",
+            "name": "WitWiu",
+            "reason": "Tuần trước hạng 8th / 8th last week"
           },
           {
             "r": "R4",
             "name": "zdevils",
-            "reason": "Tuần trước hạng 8th / 8th last week"
-          },
-          {
-            "r": "R3",
-            "name": "anh thợ sửa máy",
             "reason": "Tuần trước hạng 9th / 9th last week"
-          },
-          {
-            "r": "R3",
-            "name": "tâm1980",
-            "reason": "Tuần trước hạng 10th / 10th last week"
-          },
-          {
-            "r": "R4",
-            "name": "wolfwitch",
-            "reason": "Tuần trước hạng 11th / 11th last week"
-          },
-          {
-            "r": "R3",
-            "name": "Indefatigabl3",
-            "reason": "Tuần trước hạng 12th / 12th last week"
-          },
-          {
-            "r": "R3",
-            "name": "Thanh Tân 99",
-            "reason": "Tuần trước hạng 13th / 13th last week"
-          },
-          {
-            "r": "R3",
-            "name": "Lýkos",
-            "reason": "Tuần trước hạng 14th / 14th last week"
-          },
-          {
-            "r": "R3",
-            "name": "Aaaluan",
-            "reason": "Tuần trước hạng 15th / 15th last week"
-          },
-          {
-            "r": "R2",
-            "name": "Ooo bé Na Ooo",
-            "reason": "Tuần trước hạng 16th / 16th last week"
-          },
-          {
-            "r": "R3",
-            "name": "Shashank1411",
-            "reason": "Tuần trước hạng 17th / 17th last week"
-          },
-          {
-            "r": "R2",
-            "name": "ntacutiiii",
-            "reason": "Tuần trước hạng 18th / 18th last week"
-          },
-          {
-            "r": "R1",
-            "name": "xuân3737",
-            "reason": "Tuần trước hạng 19th / 19th last week"
           },
           {
             "r": "R5",
             "name": "Lerxinhiu",
-            "reason": "Tuần trước hạng 20th / 20th last week"
+            "reason": "Tuần trước hạng 10th / 10th last week"
+          },
+          {
+            "r": "R3",
+            "name": "anh thợ sửa máy",
+            "reason": "Tuần trước hạng 11th / 11th last week"
+          },
+          {
+            "r": "R3",
+            "name": "tâm1980",
+            "reason": "Tuần trước hạng 12th / 12th last week"
           },
           {
             "r": "R4",
-            "name": "Rymi68",
+            "name": "wolfwitch",
+            "reason": "Tuần trước hạng 13th / 13th last week"
+          },
+          {
+            "r": "R3",
+            "name": "Indefatigabl3",
+            "reason": "Tuần trước hạng 14th / 14th last week"
+          },
+          {
+            "r": "R3",
+            "name": "Thanh Tân 99",
+            "reason": "Tuần trước hạng 15th / 15th last week"
+          },
+          {
+            "r": "R3",
+            "name": "Lýkos",
+            "reason": "Tuần trước hạng 16th / 16th last week"
+          },
+          {
+            "r": "R3",
+            "name": "Aaaluan",
+            "reason": "Tuần trước hạng 17th / 17th last week"
+          },
+          {
+            "r": "R2",
+            "name": "Ooo bé Na Ooo",
+            "reason": "Tuần trước hạng 18th / 18th last week"
+          },
+          {
+            "r": "R3",
+            "name": "Shashank1411",
+            "reason": "Tuần trước hạng 19th / 19th last week"
+          },
+          {
+            "r": "R2",
+            "name": "ntacutiiii",
+            "reason": "Tuần trước hạng 20th / 20th last week"
+          },
+          {
+            "r": "R1",
+            "name": "xuân3737",
             "reason": "Tuần trước hạng 21st / 21st last week"
           }
         ],
