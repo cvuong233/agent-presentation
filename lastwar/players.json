@@ -256,7 +256,7 @@
     "Rymi68": {
       "rank": "R4",
       "hn_team": "A",
-      "sm_team": "A",
+      "sm_team": "B",
       "yc": {
         "hn": 0,
         "sm": 0
@@ -1345,11 +1345,6 @@
           },
           {
             "r": "R4",
-            "name": "Rymi68",
-            "reason": "Tuần trước hạng 2nd / 2nd last week"
-          },
-          {
-            "r": "R4",
             "name": "LinLin",
             "reason": "Tuần trước hạng 3rd / 3rd last week"
           },
@@ -1540,6 +1535,11 @@
             "r": "R3",
             "name": "SanTa 1386",
             "reason": "Tuần trước hạng 18th / 18th last week"
+          },
+          {
+            "r": "R4",
+            "name": "Rymi68",
+            "reason": "Transferred from SM-A"
           }
         ],
         "subs": [],
