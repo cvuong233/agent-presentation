@@ -134,7 +134,6 @@
           "tâm1980": 844362,
           "wolfwitch": 710283,
           "PewPewBoi": 509873,
-          "Ooo bé Na Ooo": 456609,
           "Indefatigabl3": 433487
         }
       },
@@ -184,7 +183,6 @@
           "Indefatigabl3": 5673971,
           "Kute Gold": 4916100,
           "MrAugust2886": 4436195,
-          "Ooo bé Na Ooo": 4115191,
           "anh thợ sửa máy": 2072650,
           "Đập Chai": 1847734,
           "ntacutiiii": 1809676,
@@ -1289,20 +1287,6 @@
       },
       "last_sm_score": 2169688
     },
-    "Ooo bé Na Ooo": {
-      "rank": "R2",
-      "hn_team": "A",
-      "yc": {
-        "hn": 0,
-        "sm": 0
-      },
-      "cm": {
-        "hn": 0,
-        "sm": 0
-      },
-      "last_hn_score": 3691912,
-      "last_sm_score": 894264
-    },
     "Haizzzzzzzzzzzz": {
       "rank": "R4",
       "yc": {
@@ -1416,11 +1400,6 @@
           {
             "r": "R3",
             "name": "Indefatigabl3",
-            "reason": "Tuần trước hạng 18th / 18th last week"
-          },
-          {
-            "r": "R2",
-            "name": "Ooo bé Na Ooo",
             "reason": "Tuần trước hạng 17th / 17th last week"
           }
         ],
@@ -1638,22 +1617,17 @@
           {
             "r": "R3",
             "name": "anh thợ sửa máy",
-            "reason": "Tuần trước hạng 18th / 18th last week"
+            "reason": "Tuần trước hạng 17th / 17th last week"
           },
           {
             "r": "R3",
             "name": "Đập Chai",
-            "reason": "Tuần trước hạng 19th / 19th last week"
-          },
-          {
-            "r": "R2",
-            "name": "Ooo bé Na Ooo",
-            "reason": "Tuần trước hạng 17th / 17th last week"
+            "reason": "Tuần trước hạng 18th / 18th last week"
           },
           {
             "r": "R2",
             "name": "ntacutiiii",
-            "reason": "Tuần trước hạng 20th / 20th last week"
+            "reason": "Tuần trước hạng 19th / 19th last week"
           }
         ],
         "subs": [],
@@ -1772,6 +1746,11 @@
       "rank": "R1",
       "reason": "Rời liên minh / Left alliance",
       "date": "2026-05-03"
+    },
+    {
+      "name": "Ooo bé Na Ooo",
+      "date": "2026-05-04",
+      "reason": "Left clan"
     }
   ]
 }
