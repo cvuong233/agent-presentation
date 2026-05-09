@@ -1661,6 +1661,11 @@
       "B": {
         "main": [
           {
+            "r": "R4",
+            "name": "yologuy",
+            "reason": "Theo xác nhận C V / Per C V confirmation"
+          },
+          {
             "r": "R3",
             "name": "Vualidonzz",
             "reason": "Tuần trước hạng 1st / 1st last week"
@@ -1726,13 +1731,7 @@
             "reason": "Tuần trước hạng 13th / 13th last week"
           }
         ],
-        "subs": [
-          {
-            "r": "R4",
-            "name": "yologuy",
-            "reason": "1 thẻ vàng (HN) / 1 YC (HN)"
-          }
-        ],
+        "subs": [],
         "off": [],
         "dayoff": [],
         "slot": "B",
