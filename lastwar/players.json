@@ -676,7 +676,8 @@
         "sm": 0
       },
       "last_hn_score": 3634880,
-      "last_sm_score": 711974
+      "last_sm_score": 711974,
+      "hn_team": "B"
     },
     "ntacutiiii": {
       "rank": "R2",
@@ -1729,6 +1730,11 @@
             "r": "R3",
             "name": "Selnavi",
             "reason": "Tuần trước hạng 13th / 13th last week"
+          },
+          {
+            "r": "R3",
+            "name": "SanTa 1386",
+            "reason": "Theo xác nhận C V / Per C V confirmation"
           }
         ],
         "subs": [],
