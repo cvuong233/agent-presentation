@@ -11,7 +11,7 @@
       "Lerxinhiu"
     ],
     "R4": [
-      "Hello AE",
+      "TusEngland",
       "Hemerage",
       "Hải Anh 0612",
       "LinLin",
@@ -77,8 +77,7 @@
       "Panda Force",
       "Lýkos",
       "hanubeast",
-      "Kute Gold",
-      "TusEngland"
+      "Kute Gold"
     ],
     "R2": [
       "1Mét45",
@@ -101,8 +100,7 @@
       "Trai Cầu Tôm",
       "aaaaatttttkkkkkk",
       "vinh ccc",
-      "ntacutiiii",
-      "Ooo bé Na Ooo"
+      "ntacutiiii"
     ],
     "R1": [
       "A Ngỗng",
@@ -172,7 +170,6 @@
         "date": "2026-04-30",
         "slot": "night 21:30",
         "scores": {
-          "Hello AE": 11248742,
           "Rymi68": 10720338,
           "cường khùng": 10275557,
           "LinLin": 9528102,
@@ -187,11 +184,11 @@
           "Indefatigabl3": 5673971,
           "Kute Gold": 4916100,
           "MrAugust2886": 4436195,
-          "Ooo bé Na Ooo": 4115191,
           "anh thợ sửa máy": 2072650,
           "Đập Chai": 1847734,
           "ntacutiiii": 1809676,
-          "tâm1980": 8842968
+          "tâm1980": 8842968,
+          "TusEngland": 11248742
         }
       },
       "B": {
@@ -296,19 +293,6 @@
       },
       "last_hn_score": 8828736,
       "last_sm_score": 1228350
-    },
-    "Hello AE": {
-      "rank": "R4",
-      "yc": {
-        "hn": 0,
-        "sm": 1
-      },
-      "cm": {
-        "hn": 0,
-        "sm": 1
-      },
-      "last_hn_score": 19256094,
-      "last_sm_score": 9466860
     },
     "Hemerage": {
       "rank": "R4",
@@ -1296,20 +1280,6 @@
       },
       "last_sm_score": 1834740
     },
-    "Ooo bé Na Ooo": {
-      "rank": "R2",
-      "hn_team": "A",
-      "yc": {
-        "hn": 0,
-        "sm": 1
-      },
-      "cm": {
-        "hn": 0,
-        "sm": 1
-      },
-      "last_hn_score": 3691912,
-      "last_sm_score": 894264
-    },
     "Haizzzzzzzzzzzz": {
       "rank": "R4",
       "yc": {
@@ -1337,15 +1307,16 @@
       "last_sm_score": 3003099
     },
     "TusEngland": {
-      "rank": "R3",
+      "rank": "R4",
       "yc": {
         "hn": 0,
-        "sm": 0
+        "sm": 1
       },
       "cm": {
         "hn": 0,
-        "sm": 0
+        "sm": 1
       },
+      "last_hn_score": 19256094,
       "last_sm_score": 3652415
     }
   },
@@ -1576,7 +1547,7 @@
         "main": [
           {
             "r": "R4",
-            "name": "Hello AE",
+            "name": "TusEngland",
             "reason": "Tuần trước hạng 1st / 1st last week"
           },
           {
@@ -1653,11 +1624,6 @@
             "r": "R3",
             "name": "MrAugust2886",
             "reason": "Tuần trước hạng 16th / 16th last week"
-          },
-          {
-            "r": "R2",
-            "name": "Ooo bé Na Ooo",
-            "reason": "Tuần trước hạng 17th / 17th last week"
           },
           {
             "r": "R3",
@@ -1791,6 +1757,12 @@
       "rank": "R1",
       "reason": "Rời liên minh / Left alliance",
       "date": "2026-05-03"
+    },
+    {
+      "name": "Ooo bé Na Ooo",
+      "rank": "R2",
+      "reason": "Rời liên minh / Left alliance",
+      "date": "2026-05-09"
     }
   ]
 }
