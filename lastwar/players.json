@@ -1425,7 +1425,13 @@
             "reason": "Tuần trước hạng 20th / 20th last week"
           }
         ],
-        "subs": [],
+        "subs": [
+          {
+            "r": "R4",
+            "name": "cường khùng",
+            "reason": "1 thẻ vàng (SM) / 1 YC (SM)"
+          }
+        ],
         "off": [],
         "dayoff": [],
         "slot": "A",
