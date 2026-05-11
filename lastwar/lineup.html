@@ -721,7 +721,6 @@
     <div class="battle-card" id="sm-a"></div>
     <div class="battle-card" id="sm-b"></div>
   </div>
-  <div id="recent-removed-sm"></div>
 </div>
 
 <div class="content" id="tab-hn">
@@ -735,7 +734,6 @@
     <div class="battle-card" id="hn-a"></div>
     <div class="battle-card" id="hn-b"></div>
   </div>
-  <div id="recent-removed-hn"></div>
 </div>
 
 <!-- Info Modal -->
@@ -938,21 +936,21 @@ function buildCard(mode, slot, data) {
     </div>`;
   }
 
-  // Removed/off section (per card)
-  const off = d.off || [];
+  // Recently removed section (battle-scoped, shown inside lineup card like dayoff)
+  const recentRemoved = ((data.recent_removed || {})[mode] || []);
   let removedSection = '';
-  if (off.length > 0) {
+  if (recentRemoved.length > 0) {
     let offRows = '';
-    for (const p of off) {
+    for (const p of recentRemoved) {
       offRows += `<tr>
         <td class="num">—</td>
-        <td><span class="rank-badge ${p.r.toLowerCase()}">${p.r}</span></td>
+        <td><span class="rank-badge ${(p.rank || p.r || '?').toLowerCase()}">${p.rank || p.r || '?'}</span></td>
         <td class="player-name">${p.name}</td>
         <td class="reason" style="color:#ef4444">${localizeRemoveReason(p.reason)}</td>
       </tr>`;
     }
     removedSection = `<div class="section-block" style="border-color:#ef444444;margin-bottom:14px">
-      <div class="section-header" style="background:linear-gradient(90deg,#1a0a0a,#2a0f0f);color:#ef4444;border-bottom:1px solid #ef444433">${t('removed_header')} <span class="section-count">(${off.length})</span></div>
+      <div class="section-header" style="background:linear-gradient(90deg,#1a0a0a,#2a0f0f);color:#ef4444;border-bottom:1px solid #ef444433">${t('removed_header')} <span class="section-count">(${recentRemoved.length})</span></div>
       <table style="background:#1a0d0d"><thead><tr><th style="width:32px">#</th><th style="width:40px">R</th><th>${t('player')}</th><th>${t('reason')}</th></tr></thead>
       <tbody>${offRows}</tbody></table>
     </div>`;
@@ -1050,25 +1048,10 @@ function renderInfoDotState() {
   infoBtn.classList.toggle('has-dot', !seen);
 }
 
-function renderRecentRemoved(mode, data) {
-  const items = ((data.recent_removed || {})[mode] || []);
-  const el = document.getElementById(`recent-removed-${mode}`);
-  if (!el) return;
-  if (!items.length) {
-    el.innerHTML = '';
-    return;
-  }
-  const battleName = mode === 'sm' ? (currentLang === 'vi' ? 'Bão Sa Mạc' : 'Desert Storm') : (currentLang === 'vi' ? 'Bão Hẻm Núi' : 'Canyon Storm');
-  const title = currentLang === 'vi' ? `🕒 Vừa rời đội hình — ${battleName}` : `🕒 Recently Removed — ${battleName}`;
-  el.innerHTML = `<div class="recent-box"><h2>${title}</h2><ul>${items.map(x => `<li><strong>${x.name}</strong>${x.rank ? ` (${x.rank})` : ''} — ${x.reason || ''}</li>`).join('')}</ul></div>`;
-}
-
 function render(data) {
   currentData = data;
   document.getElementById('week-label').textContent = t('updated') + ': ' + formatUpdatedLabel(data.meta?.updated || '');
   renderInfoDotState();
-  renderRecentRemoved('sm', data);
-  renderRecentRemoved('hn', data);
   ['sm','hn'].forEach(mode => {
     ['A','B'].forEach(slot => {
       const id = `${mode}-${slot.toLowerCase()}`;
@@ -1138,7 +1121,6 @@ function switchTab(tab) {
 
   requestAnimationFrame(() => {
     nextContent.classList.add('active');
-    if (currentData) renderRecentRemoved(tab, currentData);
   });
 }
 
