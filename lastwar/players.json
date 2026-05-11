@@ -229,16 +229,20 @@
       "rank": "R4",
       "yc": {
         "hn": 1,
-        "sm": 0
+        "sm": 1
       },
       "cm": {
         "hn": 1,
-        "sm": 0
+        "sm": 1
       },
       "last_hn_score": 15157480,
       "last_sm_score": 3606480,
       "sm_team": "A",
-      "hn_team": "A"
+      "hn_team": "A",
+      "manual_main": {
+        "hn": "A",
+        "sm": "A"
+      }
     },
     "LinLin": {
       "rank": "R4",
@@ -1416,7 +1420,7 @@
           {
             "r": "R4",
             "name": "cường khùng",
-            "reason": "Mới vào đội (SM-A) / New to slot (SM-A)"
+            "reason": "Giữ chính theo tay dù có 1 YC / Manual main override despite 1 YC"
           },
           {
             "r": "R3",
@@ -1635,6 +1639,11 @@
             "reason": "Tuần trước hạng 9th / 9th last week"
           },
           {
+            "r": "R4",
+            "name": "cường khùng",
+            "reason": "Giữ chính theo tay dù có 1 YC / Manual main override despite 1 YC"
+          },
+          {
             "r": "R3",
             "name": "Kute Gold",
             "reason": "Tuần trước hạng 6th / 6th last week"
@@ -1690,13 +1699,7 @@
             "reason": "Tuần trước hạng 15th / 15th last week"
           }
         ],
-        "subs": [
-          {
-            "r": "R4",
-            "name": "cường khùng",
-            "reason": "1 thẻ vàng (vắng HN) / 1 YC (missed HN)"
-          }
-        ],
+        "subs": [],
         "off": [],
         "dayoff": [],
         "slot": "A",
