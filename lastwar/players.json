@@ -236,7 +236,8 @@
         "sm": 1
       },
       "last_hn_score": 15157480,
-      "last_sm_score": 3606480
+      "last_sm_score": 3606480,
+      "sm_team": "A"
     },
     "LinLin": {
       "rank": "R4",
@@ -1429,6 +1430,11 @@
           {
             "r": "R4",
             "name": "TusEngland",
+            "reason": "1 thẻ vàng (vắng SM) / 1 YC (missed SM)"
+          },
+          {
+            "r": "R4",
+            "name": "cường khùng",
             "reason": "1 thẻ vàng (vắng SM) / 1 YC (missed SM)"
           }
         ],
