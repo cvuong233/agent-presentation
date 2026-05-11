@@ -937,7 +937,7 @@ function buildCard(mode, slot, data) {
   }
 
   // Recently removed section (battle-scoped, shown inside lineup card like dayoff)
-  const recentRemoved = ((data.recent_removed || {})[mode] || []);
+  const recentRemoved = ((((data.recent_removed || {})[mode] || {})[slot]) || []);
   let removedSection = '';
   if (recentRemoved.length > 0) {
     let offRows = '';

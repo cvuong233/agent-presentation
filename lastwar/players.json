@@ -1718,21 +1718,20 @@
     }
   },
   "recent_removed": {
-    "sm": [
-      {
-        "name": "Panda Force",
-        "rank": "R3",
-        "reason": "Rời liên minh / Left alliance",
-        "date": "2026-05-11"
-      }
-    ],
-    "hn": [
-      {
-        "name": "Panda Force",
-        "rank": "R3",
-        "reason": "Rời liên minh / Left alliance",
-        "date": "2026-05-11"
-      }
-    ]
+    "sm": {
+      "A": [
+        {
+          "name": "Panda Force",
+          "rank": "R3",
+          "reason": "Rời liên minh / Left alliance",
+          "date": "2026-05-11"
+        }
+      ],
+      "B": []
+    },
+    "hn": {
+      "A": [],
+      "B": []
+    }
   }
 }
