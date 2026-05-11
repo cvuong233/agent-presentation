@@ -18,7 +18,7 @@
   .battle-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-top: 20px; }
   @media (max-width: 900px) { .battle-grid { grid-template-columns: 1fr; } }
   .battle-card, .recent-box { background: #16213e; border-radius: 12px; overflow: hidden; border: 1px solid #2a2a3e; }
-  .recent-box { margin: 18px 24px 0; padding: 14px 18px; }
+  .recent-box { margin: 18px 0 0; padding: 14px 18px; }
   .recent-box h2 { font-size: 0.95rem; margin-bottom: 10px; color: #fca5a5; }
   .recent-box ul { padding-left: 18px; color: #cbd5e1; }
   .recent-box li { margin: 4px 0; }
@@ -64,13 +64,12 @@
   <h1>ACMB — Battle Lineup</h1>
   <span id="week-label">Updated</span>
 </header>
-<div id="recent-removed"></div>
 <div class="tabs">
   <div class="tab active" onclick="switchTab('sm')">🏜️ Bão Sa Mạc</div>
   <div class="tab" onclick="switchTab('hn')">⛰️ Bão Hẻm Núi</div>
 </div>
-<div class="content active" id="tab-sm"><div class="battle-grid"><div class="battle-card" id="sm-a"></div><div class="battle-card" id="sm-b"></div></div></div>
-<div class="content" id="tab-hn"><div class="battle-grid"><div class="battle-card" id="hn-a"></div><div class="battle-card" id="hn-b"></div></div></div>
+<div class="content active" id="tab-sm"><div id="recent-removed-sm"></div><div class="battle-grid"><div class="battle-card" id="sm-a"></div><div class="battle-card" id="sm-b"></div></div></div>
+<div class="content" id="tab-hn"><div id="recent-removed-hn"></div><div class="battle-grid"><div class="battle-card" id="hn-a"></div><div class="battle-card" id="hn-b"></div></div></div>
 <script>
 const RANK_ORDER = {R5:0, R4:1, R3:2, R2:3, R1:4};
 function rankSort(a, b) { return (RANK_ORDER[a.r] ?? 9) - (RANK_ORDER[b.r] ?? 9); }
@@ -116,15 +115,16 @@ function buildCard(mode, slot, data) {
   }
   return `<div class="card-header ${periodClass}"><div><h2>Team ${slot}</h2><div style="font-size:0.78rem;color:#aaa;margin-top:2px">${d.date || ''}</div></div><span class="slot-badge">${periodLabel} ${d.time || ''}</span></div>${counts}<table><thead><tr><th>#</th><th>R</th><th>Player</th><th>Reason</th></tr></thead><tbody>${rows}${subRows}${dayoffRows}</tbody></table>`;
 }
-function renderRecentRemoved(data) {
-  const items = data.recent_removed || [];
-  const el = document.getElementById('recent-removed');
-  if (!items.length) { el.innerHTML = ''; return; }
-  el.innerHTML = `<div class="recent-box"><h2>🕒 Recently Removed</h2><ul>${items.map(x => `<li><strong>${x.name}</strong>${x.rank ? ` (${x.rank})` : ''} — ${x.reason || ''}</li>`).join('')}</ul></div>`;
+function renderRecentRemoved(mode, data) {
+  const bucket = (data.recent_removed || {})[mode] || [];
+  const el = document.getElementById(`recent-removed-${mode}`);
+  if (!bucket.length) { el.innerHTML = ''; return; }
+  el.innerHTML = `<div class="recent-box"><h2>🕒 Recently Removed</h2><ul>${bucket.map(x => `<li><strong>${x.name}</strong>${x.rank ? ` (${x.rank})` : ''} — ${x.reason || ''}</li>`).join('')}</ul></div>`;
 }
 function render(data) {
   document.getElementById('week-label').textContent = 'Cập nhật: ' + ((data.meta && data.meta.updated) || '');
-  renderRecentRemoved(data);
+  renderRecentRemoved('sm', data);
+  renderRecentRemoved('hn', data);
   ['sm','hn'].forEach(mode => ['A','B'].forEach(slot => document.getElementById(`${mode}-${slot.toLowerCase()}`).innerHTML = buildCard(mode, slot, data)));
 }
 function switchTab(tab) {
