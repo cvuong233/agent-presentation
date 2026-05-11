@@ -711,7 +711,6 @@
 </div>
 
 <div class="content active" id="tab-sm">
-  <div id="recent-removed-sm"></div>
   <div class="battle-grid">
     <div class="battle-card skeleton-card" id="sm-a-skeleton"><div class="skeleton-shell"><div class="sk-line"></div><div class="sk-chip-wrap"><div class="sk-chip"></div><div class="sk-chip"></div><div class="sk-chip"></div></div><div class="sk-row"></div><div class="sk-row"></div><div class="sk-row"></div></div></div>
     <div class="battle-card skeleton-card" id="sm-b-skeleton"><div class="skeleton-shell"><div class="sk-line"></div><div class="sk-chip-wrap"><div class="sk-chip"></div><div class="sk-chip"></div><div class="sk-chip"></div></div><div class="sk-row"></div><div class="sk-row"></div><div class="sk-row"></div></div></div>
@@ -719,13 +718,13 @@
       <button class="tf-btn active" onclick="switchTF('sm','A')" id="sm-tf-a">Task Force A</button>
       <button class="tf-btn" onclick="switchTF('sm','B')" id="sm-tf-b">Task Force B</button>
     </div>
+    <div id="recent-removed-sm" style="grid-column: 1 / -1;"></div>
     <div class="battle-card" id="sm-a"></div>
     <div class="battle-card" id="sm-b"></div>
   </div>
 </div>
 
 <div class="content" id="tab-hn">
-  <div id="recent-removed-hn"></div>
   <div class="battle-grid">
     <div class="battle-card skeleton-card" id="hn-a-skeleton"><div class="skeleton-shell"><div class="sk-line"></div><div class="sk-chip-wrap"><div class="sk-chip"></div><div class="sk-chip"></div><div class="sk-chip"></div></div><div class="sk-row"></div><div class="sk-row"></div><div class="sk-row"></div></div></div>
     <div class="battle-card skeleton-card" id="hn-b-skeleton"><div class="skeleton-shell"><div class="sk-line"></div><div class="sk-chip-wrap"><div class="sk-chip"></div><div class="sk-chip"></div><div class="sk-chip"></div></div><div class="sk-row"></div><div class="sk-row"></div><div class="sk-row"></div></div></div>
@@ -733,6 +732,7 @@
       <button class="tf-btn active" onclick="switchTF('hn','A')" id="hn-tf-a">Task Force A</button>
       <button class="tf-btn" onclick="switchTF('hn','B')" id="hn-tf-b">Task Force B</button>
     </div>
+    <div id="recent-removed-hn" style="grid-column: 1 / -1;"></div>
     <div class="battle-card" id="hn-a"></div>
     <div class="battle-card" id="hn-b"></div>
   </div>
@@ -1058,7 +1058,9 @@ function renderRecentRemoved(mode, data) {
     el.innerHTML = '';
     return;
   }
-  el.innerHTML = `<div class="recent-box"><h2>🕒 Recently Removed</h2><ul>${items.map(x => `<li><strong>${x.name}</strong>${x.rank ? ` (${x.rank})` : ''} — ${x.reason || ''}</li>`).join('')}</ul></div>`;
+  const battleName = mode === 'sm' ? (currentLang === 'vi' ? 'Bão Sa Mạc' : 'Desert Storm') : (currentLang === 'vi' ? 'Bão Hẻm Núi' : 'Canyon Storm');
+  const title = currentLang === 'vi' ? `🕒 Vừa rời đội hình — ${battleName}` : `🕒 Recently Removed — ${battleName}`;
+  el.innerHTML = `<div class="recent-box"><h2>${title}</h2><ul>${items.map(x => `<li><strong>${x.name}</strong>${x.rank ? ` (${x.rank})` : ''} — ${x.reason || ''}</li>`).join('')}</ul></div>`;
 }
 
 function render(data) {
