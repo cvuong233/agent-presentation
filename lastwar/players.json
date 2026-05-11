@@ -3,7 +3,7 @@
     "clan": "ACMB",
     "game": "Last War VN",
     "updated": "2026-05-10",
-    "notes": "C V = cường khùng (R4). SM = Bão Sa Mạc (Storm Mountain). HN = Bão Hẻm Núi (Canyon Storm). Lineup sorted by last match score. SM: 20 main + subs. HN: 30 main. SM reg closes Thu 9am ICT. HN reg closes Tue 9am ICT. Absence rule: 1 match absent = subs; 2 consecutive = removed.",
+    "notes": "C V = cường khùng (R4). SM = Bão Sa Mạc (Storm Mountain). HN = Bão Hẻm Núi (Canyon Storm). Official model: last_matches = history, next_lineup = editable upcoming lineup. Both battles use 20 main / 10 subs. Build script runs only once after fresh results; later changes edit next_lineup directly.",
     "updated_hn_a": "2026-05-01"
   },
   "ranks": {
@@ -221,9 +221,7 @@
         "sm": 0
       },
       "last_hn_score": 6138706,
-      "last_sm_score": 5289312,
-      "sm_team": "A",
-      "hn_team": "A"
+      "last_sm_score": 5289312
     },
     "cường khùng": {
       "rank": "R4",
@@ -236,13 +234,7 @@
         "sm": 1
       },
       "last_hn_score": 15157480,
-      "last_sm_score": 3606480,
-      "sm_team": "A",
-      "hn_team": "A",
-      "manual_main": {
-        "hn": "A",
-        "sm": "A"
-      }
+      "last_sm_score": 3606480
     },
     "LinLin": {
       "rank": "R4",
@@ -255,14 +247,10 @@
         "sm": 0
       },
       "last_hn_score": 8032273,
-      "last_sm_score": 3649328,
-      "sm_team": "A",
-      "hn_team": "A"
+      "last_sm_score": 3649328
     },
     "Rymi68": {
       "rank": "R4",
-      "hn_team": "A",
-      "sm_team": "B",
       "yc": {
         "hn": 0,
         "sm": 0
@@ -285,9 +273,7 @@
         "sm": 0
       },
       "last_hn_score": 4638796,
-      "last_sm_score": 2465394,
-      "sm_team": "B",
-      "hn_team": "B"
+      "last_sm_score": 2465394
     },
     "yologuy": {
       "rank": "R4",
@@ -300,8 +286,7 @@
         "sm": 0
       },
       "last_hn_score": 8828736,
-      "last_sm_score": 1228350,
-      "sm_team": "A"
+      "last_sm_score": 1228350
     },
     "Hemerage": {
       "rank": "R4",
@@ -314,9 +299,7 @@
         "sm": 0
       },
       "last_hn_score": 1391316,
-      "last_sm_score": 1784535,
-      "sm_team": "B",
-      "hn_team": "B"
+      "last_sm_score": 1784535
     },
     "zdevils": {
       "rank": "R4",
@@ -329,9 +312,7 @@
         "sm": 0
       },
       "last_hn_score": 6771988,
-      "last_sm_score": 3713764,
-      "sm_team": "A",
-      "hn_team": "A"
+      "last_sm_score": 3713764
     },
     "Vualidonzz": {
       "rank": "R3",
@@ -344,9 +325,7 @@
         "sm": 0
       },
       "last_hn_score": 8791081,
-      "last_sm_score": 3213293,
-      "sm_team": "B",
-      "hn_team": "B"
+      "last_sm_score": 3213293
     },
     "Shashank1411": {
       "rank": "R3",
@@ -359,9 +338,7 @@
         "sm": 0
       },
       "last_hn_score": 2286762,
-      "last_sm_score": 781922,
-      "sm_team": "A",
-      "hn_team": "A"
+      "last_sm_score": 781922
     },
     "Nguyenngoctuan": {
       "rank": "R3",
@@ -374,9 +351,7 @@
         "sm": 0
       },
       "last_sm_score": 811893,
-      "last_hn_score": 2942073,
-      "sm_team": "B",
-      "hn_team": "B"
+      "last_hn_score": 2942073
     },
     "anh thợ sửa máy": {
       "rank": "R3",
@@ -389,9 +364,7 @@
         "sm": 0
       },
       "last_hn_score": 4449414,
-      "last_sm_score": 1568826,
-      "sm_team": "B",
-      "hn_team": "A"
+      "last_sm_score": 1568826
     },
     "danhoanh": {
       "rank": "R3",
@@ -404,9 +377,7 @@
         "sm": 0
       },
       "last_hn_score": 4245088,
-      "last_sm_score": 1734578,
-      "sm_team": "B",
-      "hn_team": "B"
+      "last_sm_score": 1734578
     },
     "Gặplàđánh": {
       "rank": "R3",
@@ -430,9 +401,7 @@
         "sm": 0
       },
       "last_sm_score": 1735855,
-      "last_hn_score": 4321791,
-      "sm_team": "B",
-      "hn_team": "A"
+      "last_hn_score": 4321791
     },
     "công chúa lavie": {
       "rank": "R3",
@@ -456,9 +425,7 @@
         "sm": 0
       },
       "last_hn_score": 4608821,
-      "last_sm_score": 1321048,
-      "sm_team": "A",
-      "hn_team": "A"
+      "last_sm_score": 1321048
     },
     "ChanzChanz": {
       "rank": "R3",
@@ -493,9 +460,7 @@
         "sm": 0
       },
       "last_hn_score": 4311851,
-      "last_sm_score": 1818863,
-      "sm_team": "B",
-      "hn_team": "B"
+      "last_sm_score": 1818863
     },
     "Marines Malevolent": {
       "rank": "R3",
@@ -508,9 +473,7 @@
         "sm": 0
       },
       "last_hn_score": 3604331,
-      "last_sm_score": 971956,
-      "sm_team": "B",
-      "hn_team": "B"
+      "last_sm_score": 971956
     },
     "PewPewBoi": {
       "rank": "R3",
@@ -522,8 +485,7 @@
         "hn": 24,
         "sm": 0
       },
-      "last_sm_score": 623862,
-      "sm_team": "A"
+      "last_sm_score": 623862
     },
     "ÔngTânPro": {
       "rank": "R3",
@@ -535,8 +497,7 @@
         "hn": 24,
         "sm": 0
       },
-      "last_sm_score": 1831617,
-      "sm_team": "A"
+      "last_sm_score": 1831617
     },
     "Indefatigabl3": {
       "rank": "R3",
@@ -549,9 +510,7 @@
         "sm": 0
       },
       "last_hn_score": 3164770,
-      "last_sm_score": 467950,
-      "sm_team": "A",
-      "hn_team": "A"
+      "last_sm_score": 467950
     },
     "Thanh Tân 99": {
       "rank": "R3",
@@ -564,9 +523,7 @@
         "sm": 0
       },
       "last_hn_score": 4565745,
-      "last_sm_score": 1560209,
-      "sm_team": "A",
-      "hn_team": "A"
+      "last_sm_score": 1560209
     },
     "Tommy4014": {
       "rank": "R3",
@@ -581,8 +538,7 @@
       "last_hn_score": 927757,
       "dayoff": {
         "hn": "B"
-      },
-      "hn_team": "B"
+      }
     },
     "Chivas2026": {
       "rank": "R3",
@@ -595,9 +551,7 @@
         "sm": 0
       },
       "last_hn_score": 5349183,
-      "last_sm_score": 3201231,
-      "sm_team": "B",
-      "hn_team": "B"
+      "last_sm_score": 3201231
     },
     "Selnavi": {
       "rank": "R3",
@@ -610,9 +564,7 @@
         "sm": 0
       },
       "last_hn_score": 783096,
-      "last_sm_score": 1479077,
-      "sm_team": "B",
-      "hn_team": "B"
+      "last_sm_score": 1479077
     },
     "Aaaluan": {
       "rank": "R3",
@@ -625,9 +577,7 @@
         "sm": 0
       },
       "last_hn_score": 3422956,
-      "last_sm_score": 671483,
-      "sm_team": "A",
-      "hn_team": "A"
+      "last_sm_score": 671483
     },
     "MrAugust2886": {
       "rank": "R3",
@@ -640,13 +590,10 @@
         "sm": 0
       },
       "last_hn_score": 4116683,
-      "last_sm_score": 1723668,
-      "sm_team": "A",
-      "hn_team": "A"
+      "last_sm_score": 1723668
     },
     "tâm1980": {
       "rank": "R3",
-      "hn_team": "A",
       "yc": {
         "hn": 0,
         "sm": 0
@@ -656,8 +603,7 @@
         "sm": 0
       },
       "last_hn_score": 3978449,
-      "last_sm_score": 1955283,
-      "sm_team": "A"
+      "last_sm_score": 1955283
     },
     "Khanhanh96": {
       "rank": "R3",
@@ -691,8 +637,7 @@
         "hn": 24,
         "sm": 0
       },
-      "last_sm_score": 1019990,
-      "sm_team": "B"
+      "last_sm_score": 1019990
     },
     "WitWiu": {
       "rank": "R3",
@@ -729,14 +674,10 @@
         "sm": 0
       },
       "last_hn_score": 3634880,
-      "last_sm_score": 711974,
-      "hn_team": "B",
-      "sm_team": "B"
+      "last_sm_score": 711974
     },
     "ntacutiiii": {
       "rank": "R2",
-      "hn_team": "A",
-      "sm_team": "A",
       "yc": {
         "hn": 0,
         "sm": 0
@@ -750,7 +691,6 @@
     },
     "cu tí nhỏ xíu": {
       "rank": "R3",
-      "sm_team": "B",
       "yc": {
         "hn": 0,
         "sm": 0
@@ -771,8 +711,6 @@
         "hn": 0,
         "sm": 0
       },
-      "sm_team": "A",
-      "hn_team": "A",
       "last_hn_score": 5595706,
       "last_sm_score": 3363118
     },
@@ -787,9 +725,7 @@
         "sm": 0
       },
       "last_hn_score": 3594440,
-      "last_sm_score": 1573849,
-      "sm_team": "B",
-      "hn_team": "B"
+      "last_sm_score": 1573849
     },
     "Haizzzzzzzzzz": {
       "rank": "R4",
@@ -956,9 +892,7 @@
         "sm": 0
       },
       "last_hn_score": 3087164,
-      "last_sm_score": 112551,
-      "sm_team": "B",
-      "hn_team": "B"
+      "last_sm_score": 112551
     },
     "Bakes56": {
       "rank": "R3",
@@ -981,8 +915,7 @@
         "hn": 24,
         "sm": 0
       },
-      "last_sm_score": 503339,
-      "sm_team": "A"
+      "last_sm_score": 503339
     },
     "Trường Kiên": {
       "rank": "R3",
@@ -1126,8 +1059,7 @@
         "hn": 24,
         "sm": 0
       },
-      "last_sm_score": 433171,
-      "sm_team": "B"
+      "last_sm_score": 433171
     },
     "PoisonFlower": {
       "rank": "R2",
@@ -1327,9 +1259,7 @@
         "sm": 0
       },
       "last_hn_score": 4197601,
-      "last_sm_score": 2405716,
-      "sm_team": "B",
-      "hn_team": "B"
+      "last_sm_score": 2405716
     },
     "Haizzzzzzzzzzzz": {
       "rank": "R4",
@@ -1343,9 +1273,7 @@
       },
       "note": "- YC rules waived",
       "last_sm_score": 829040,
-      "last_hn_score": 5266840,
-      "sm_team": "A",
-      "hn_team": "A"
+      "last_hn_score": 5266840
     },
     "Kute Gold": {
       "rank": "R3",
@@ -1358,9 +1286,7 @@
         "sm": 0
       },
       "last_hn_score": 5969356,
-      "last_sm_score": 3003099,
-      "sm_team": "A",
-      "hn_team": "A"
+      "last_sm_score": 3003099
     },
     "TusEngland": {
       "rank": "R4",
@@ -1373,12 +1299,10 @@
         "sm": 0
       },
       "last_hn_score": 7239303,
-      "last_sm_score": 3652415,
-      "sm_team": "A",
-      "hn_team": "A"
+      "last_sm_score": 3652415
     }
   },
-  "lineup": {
+  "next_lineup": {
     "sm": {
       "A": {
         "main": [
@@ -1484,10 +1408,10 @@
           }
         ],
         "subs": [],
-        "off": [],
         "dayoff": [],
         "slot": "A",
         "maxMain": 20,
+        "maxSubs": 10,
         "date": "2026-05-08",
         "time": "evening 18:30",
         "period": "evening 18:30"
@@ -1591,10 +1515,10 @@
           }
         ],
         "subs": [],
-        "off": [],
         "dayoff": [],
         "slot": "B",
         "maxMain": 20,
+        "maxSubs": 10,
         "date": "2026-05-09",
         "time": "morning 08:30",
         "period": "morning 08:30"
@@ -1700,10 +1624,10 @@
           }
         ],
         "subs": [],
-        "off": [],
         "dayoff": [],
         "slot": "A",
-        "maxMain": 30,
+        "maxMain": 20,
+        "maxSubs": 10,
         "date": "2026-05-07",
         "time": "night 21:30",
         "period": "night 21:30"
@@ -1777,7 +1701,6 @@
           }
         ],
         "subs": [],
-        "off": [],
         "dayoff": [
           {
             "r": "R3",
@@ -1786,43 +1709,15 @@
           }
         ],
         "slot": "B",
-        "maxMain": 30,
+        "maxMain": 20,
+        "maxSubs": 10,
         "date": "2026-05-08",
         "time": "morning 08:30",
         "period": "morning 08:30"
       }
     }
   },
-  "removed": [
-    {
-      "name": "Mr Khoai Tây",
-      "rank": "R3",
-      "reason": "2 thẻ vàng liên tiếp / 2 consecutive YC",
-      "date": "2026-04-08"
-    },
-    {
-      "name": "Trần Thế Lươn",
-      "rank": "R3",
-      "reason": "Rời liên minh / Left alliance",
-      "date": "2026-04-08"
-    },
-    {
-      "name": "Hoá Đá",
-      "reason": "Left the alliance",
-      "date": "2026-04-13"
-    },
-    {
-      "name": "xuân3737",
-      "rank": "R1",
-      "reason": "Rời liên minh / Left alliance",
-      "date": "2026-05-03"
-    },
-    {
-      "name": "Ooo bé Na Ooo",
-      "rank": "R2",
-      "reason": "Rời liên minh / Left alliance",
-      "date": "2026-05-09"
-    },
+  "recent_removed": [
     {
       "name": "Panda Force",
       "rank": "R3",
