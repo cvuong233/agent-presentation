@@ -1,8 +1,9 @@
 {
-  "updated": "2026-05-16T18:28:23.250133+00:00",
+  "updated": "2026-05-16T18:33:40.985647+00:00",
   "source": "MyDramaList",
   "year": 2026,
   "mode": "top_airing",
+  "count": 10,
   "kdramas": [
     {
       "rank": 723,
@@ -123,78 +124,6 @@
       "source": "MDL",
       "imdb_id": "tt42465202",
       "mdl_url": "https://mydramalist.com/729853-space-bakery"
-    },
-    {
-      "rank": 43939,
-      "title": "Recipe for Love",
-      "poster": "https://i.mydramalist.com/ABjoqv_4s.jpg?v=1",
-      "year": "2026",
-      "episodes": "50 episodes",
-      "rating": "7.7",
-      "overview": "Follows the story of two families in Onjeong that have been in conflict with each other for a long time, as they overcome their past disagreements, heal from their emotional wounds, and find love, eventually becoming…",
-      "source": "MDL",
-      "imdb_id": "tt39375564",
-      "mdl_url": "https://mydramalist.com/797060-i-ll-prescribe-you-love"
-    },
-    {
-      "rank": 46381,
-      "title": "Cabbage Your Life",
-      "poster": "https://i.mydramalist.com/Lw06oD_4s.jpg?v=1",
-      "year": "2026",
-      "episodes": "12 episodes",
-      "rating": "7.5",
-      "overview": "Set in Yeonriri, a village nicknamed a “clean yet fierce(?) zone.” The story follows the city-born family of Seong Tae Hun, who move down from Seoul to Yeonriri and struggle to return to the city. Through their experiences,…",
-      "source": "MDL",
-      "imdb_id": "tt40529147",
-      "mdl_url": "https://mydramalist.com/797138-if-it-s-deep-yeonriri"
-    },
-    {
-      "rank": 46808,
-      "title": "Our Happy Days",
-      "poster": "https://i.mydramalist.com/VX6yEL_4s.jpg?v=1",
-      "year": "2026",
-      "episodes": "120 episodes",
-      "rating": "7.4",
-      "overview": "A heartwarming story of a family, centered around the romance of perfectionist Ko Gyeol and clumsy Cho Eun Ae. Ko Gyeol is an architect with an arrogant attitude. There's an untold story behind his cynical attitude and…",
-      "source": "MDL",
-      "imdb_id": "tt40529758",
-      "mdl_url": "https://mydramalist.com/807164-our-happy-days"
-    },
-    {
-      "rank": 54184,
-      "title": "Pearl in Red",
-      "poster": "https://i.mydramalist.com/KpkwqR_4s.jpg?v=1",
-      "year": "2026",
-      "episodes": "102 episodes",
-      "rating": "7.0",
-      "overview": "A meticulous and intense revenge chronicle in which two women who return under false identities uncover the truth and sins hidden in the Adel family. Kim Myeong Hui, the older sister of her twin Kim Dan Hui, is a kind-hearted…",
-      "source": "MDL",
-      "imdb_id": "tt40295083",
-      "mdl_url": "https://mydramalist.com/803222-bulgeun-jinju"
-    },
-    {
-      "rank": 55334,
-      "title": "Tune In",
-      "poster": "https://i.mydramalist.com/l0KQmN_4s.jpg?v=1",
-      "year": "2026",
-      "episodes": "6 episodes",
-      "rating": "7.0",
-      "overview": "",
-      "source": "MDL",
-      "imdb_id": "tt38980445",
-      "mdl_url": "https://mydramalist.com/808292-tune-in"
-    },
-    {
-      "rank": 1655,
-      "title": "The Legend of Kitchen Soldier",
-      "poster": "https://i.mydramalist.com/JB6gEX_4s.jpg?v=1",
-      "year": "2026",
-      "episodes": "12 episodes",
-      "rating": "8.2",
-      "overview": "In the game of life, we all face countless quests of choice. Kang Seong Jae, who enlisted to escape a harsh reality, one day encounters a mysterious virtual \"Quest” screen to become an army cook. With each quest he…",
-      "source": "MDL",
-      "imdb_id": "tt38626513",
-      "mdl_url": "https://mydramalist.com/783738-becoming-a-cooking-soldier-legend"
     }
   ]
 }
