@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-15T01:00:50.299149+00:00",
+  "updated": "2026-05-16T01:00:43.388025+00:00",
   "movies": [
     {
       "rank": 1,
@@ -7,7 +7,7 @@
       "imdb_id": "tt11378946",
       "poster": "https://m.media-amazon.com/images/M/MV5BNzllNmRlN2EtMDQyOC00ODJjLTg4OWQtZDNmNGU3YzlkNjc1XkEyXkFqcGc@._V1_UX500_.jpg",
       "rating": "7.7",
-      "votes": "85K"
+      "votes": "86K"
     },
     {
       "rank": 2,
@@ -15,7 +15,7 @@
       "imdb_id": "tt17490712",
       "poster": "https://m.media-amazon.com/images/M/MV5BNTg2YWNkN2EtMzc1Ny00ZTBhLWFmYTItMmMyNzhjNjhhNmVhXkEyXkFqcGc@._V1_UX500_.jpg",
       "rating": "7.0",
-      "votes": "18K"
+      "votes": "19K"
     },
     {
       "rank": 3,
@@ -23,7 +23,7 @@
       "imdb_id": "tt33100314",
       "poster": "https://m.media-amazon.com/images/M/MV5BNzM3OTRlZDktYTk0OS00OTlmLWFhMjctMTZiODU4N2RiYzhhXkEyXkFqcGc@._V1_UX500_.jpg",
       "rating": "7.8",
-      "votes": "12K"
+      "votes": "14K"
     },
     {
       "rank": 4,
@@ -31,7 +31,7 @@
       "imdb_id": "tt33612209",
       "poster": "https://m.media-amazon.com/images/M/MV5BZmM3ZDU3ODItZmY5Yi00OTQ2LWE5OTctZTA5NDBhMWJkOGY3XkEyXkFqcGc@._V1_UX500_.jpg",
       "rating": "6.7",
-      "votes": "38K"
+      "votes": "39K"
     },
     {
       "rank": 5,
@@ -47,7 +47,7 @@
       "imdb_id": "tt16431404",
       "poster": "https://m.media-amazon.com/images/M/MV5BNjUzODE2ZWYtMDdiMS00ZTA0LWI4MzEtNDkyODNiNmIwMWY1XkEyXkFqcGc@._V1_UX500_.jpg",
       "rating": "6.1",
-      "votes": "64K"
+      "votes": "65K"
     },
     {
       "rank": 7,
@@ -55,7 +55,7 @@
       "imdb_id": "tt12042730",
       "poster": "https://m.media-amazon.com/images/M/MV5BNTkwNzJiYTctNzI3NC00NjE1LTlhYjktY2Q5MTdmMWFmNzcxXkEyXkFqcGc@._V1_UX500_.jpg",
       "rating": "8.3",
-      "votes": "287K"
+      "votes": "291K"
     },
     {
       "rank": 8,
@@ -63,7 +63,7 @@
       "imdb_id": "tt32565993",
       "poster": "https://m.media-amazon.com/images/M/MV5BNTFmZWI4YmMtNmQ0ZC00ZGQwLTk1OWEtZjAyZmIzOGY0MGFiXkEyXkFqcGc@._V1_UX500_.jpg",
       "rating": "7.7",
-      "votes": "6.1K"
+      "votes": "6.8K"
     },
     {
       "rank": 9,
@@ -71,7 +71,7 @@
       "imdb_id": "tt8036976",
       "poster": "https://m.media-amazon.com/images/M/MV5BOTgxOWY5NTMtYjdiNi00NTIyLTkwMTQtMWNjM2IzYTU0ODgyXkEyXkFqcGc@._V1_UX500_.jpg",
       "rating": "6.8",
-      "votes": "97K"
+      "votes": "98K"
     },
     {
       "rank": 10,
@@ -79,7 +79,7 @@
       "imdb_id": "tt29552248",
       "poster": "https://m.media-amazon.com/images/M/MV5BNWFlNWM2Y2YtY2VhOC00MWFiLWExNWYtYWViYzJhMDQyMTJiXkEyXkFqcGc@._V1_UX500_.jpg",
       "rating": "7.3",
-      "votes": "9.4K"
+      "votes": "10K"
     },
     {
       "rank": 11,
@@ -87,7 +87,7 @@
       "imdb_id": "tt0458352",
       "poster": "https://m.media-amazon.com/images/M/MV5BOWM3NTI3YWEtYjJmMy00M2U5LWI1NzEtZWM3ZDY2ZWNjOGRiXkEyXkFqcGc@._V1_UX500_.jpg",
       "rating": "7.0",
-      "votes": "548K"
+      "votes": "549K"
     },
     {
       "rank": 12,
@@ -95,7 +95,7 @@
       "imdb_id": "tt33071426",
       "poster": "https://m.media-amazon.com/images/M/MV5BMTcwOGZhYmItYTg3ZS00NjUwLWJiMmQtMjU5YjEwYWY0NmNkXkEyXkFqcGc@._V1_UX500_.jpg",
       "rating": "7.3",
-      "votes": "55K"
+      "votes": "56K"
     },
     {
       "rank": 13,
@@ -103,7 +103,7 @@
       "imdb_id": "tt35672862",
       "poster": "https://m.media-amazon.com/images/M/MV5BZjA1ZjFlZGItNTVjZC00NTFhLTg2YTEtODMzODRmNGFiNTdmXkEyXkFqcGc@._V1_UX500_.jpg",
       "rating": "7.3",
-      "votes": "11K"
+      "votes": "12K"
     },
     {
       "rank": 14,
@@ -126,8 +126,8 @@
       "title": "Obsession",
       "imdb_id": "tt37287335",
       "poster": "https://m.media-amazon.com/images/M/MV5BYzc1NWUwMDgtNGZlMS00ZmYzLWIzMzktNmMxMmY1MTUzNWExXkEyXkFqcGc@._V1_UX500_.jpg",
-      "rating": "7.9",
-      "votes": "2K"
+      "rating": "8.1",
+      "votes": "4.1K"
     },
     {
       "rank": 17,
@@ -135,7 +135,7 @@
       "imdb_id": "tt28650488",
       "poster": "https://m.media-amazon.com/images/M/MV5BMDg5MjRkNWEtYmU1Mi00MTExLTk5MDQtY2RiMWVkZWNiOThjXkEyXkFqcGc@._V1_UX500_.jpg",
       "rating": "6.3",
-      "votes": "49K"
+      "votes": "50K"
     },
     {
       "rank": 18,
@@ -151,7 +151,7 @@
       "imdb_id": "tt33978029",
       "poster": "https://m.media-amazon.com/images/M/MV5BZTM3N2EyMTEtNDhkMi00ZjNiLWI0MWUtOGViMjExODY3YTJhXkEyXkFqcGc@._V1_UX500_.jpg",
       "rating": "6.6",
-      "votes": "33K"
+      "votes": "34K"
     },
     {
       "rank": 20,
@@ -159,7 +159,7 @@
       "imdb_id": "tt27543632",
       "poster": "https://m.media-amazon.com/images/M/MV5BNjZiYjg3YzEtZTkwOS00MWYzLTgxODctNmNhMWU2MTI2YmVjXkEyXkFqcGc@._V1_UX500_.jpg",
       "rating": "6.7",
-      "votes": "147K"
+      "votes": "148K"
     },
     {
       "rank": 21,
@@ -167,7 +167,7 @@
       "imdb_id": "tt32916440",
       "poster": "https://m.media-amazon.com/images/M/MV5BZTRhYjI1MTItMWYwMi00MjY5LWI1OTktMzQwNzA3MWJlN2QyXkEyXkFqcGc@._V1_UX500_.jpg",
       "rating": "7.6",
-      "votes": "173K"
+      "votes": "174K"
     },
     {
       "rank": 22,
@@ -175,7 +175,7 @@
       "imdb_id": "tt14850054",
       "poster": "https://m.media-amazon.com/images/M/MV5BOWEzM2IzZTMtYzA2Yi00NjY0LWE1ODktNTllZmI3ZTI1MzBmXkEyXkFqcGc@._V1_UX500_.jpg",
       "rating": "5.2",
-      "votes": "33K"
+      "votes": "34K"
     },
     {
       "rank": 23,
@@ -191,7 +191,7 @@
       "imdb_id": "tt26443616",
       "poster": "https://m.media-amazon.com/images/M/MV5BNzRiMzZlMTMtNmU3OC00MDUwLThmNDUtMTBjZmQ3MWQ4NTljXkEyXkFqcGc@._V1_UX500_.jpg",
       "rating": "7.3",
-      "votes": "44K"
+      "votes": "45K"
     },
     {
       "rank": 25,
@@ -207,7 +207,7 @@
       "imdb_id": "tt32430579",
       "poster": "https://m.media-amazon.com/images/M/MV5BZThlN2M4ZTUtYTU3Mi00MDE5LWFhYWUtNjkxMWEwNjUwNDVhXkEyXkFqcGc@._V1_UX500_.jpg",
       "rating": "6.8",
-      "votes": "72K"
+      "votes": "73K"
     },
     {
       "rank": 27,
@@ -238,8 +238,8 @@
       "title": "Beast",
       "imdb_id": "tt7708226",
       "poster": "https://m.media-amazon.com/images/M/MV5BYjQ0OTgwZGUtNDhlYi00ZTM5LWI2NmYtNGYwYWJhNzVlYTc5XkEyXkFqcGc@._V1_UX500_.jpg",
-      "rating": "6.0",
-      "votes": "1.3K"
+      "rating": "5.9",
+      "votes": "1.4K"
     },
     {
       "rank": 31,
@@ -255,7 +255,7 @@
       "imdb_id": "tt27681354",
       "poster": "https://m.media-amazon.com/images/M/MV5BMTZkMTIzMTItMTQwZS00MTg4LWE0MTEtM2NiNmUzYjRmMGUxXkEyXkFqcGc@._V1_UX500_.jpg",
       "rating": "6.8",
-      "votes": "606"
+      "votes": "1.1K"
     },
     {
       "rank": 33,
@@ -271,7 +271,7 @@
       "imdb_id": "tt1757678",
       "poster": "https://m.media-amazon.com/images/M/MV5BZDYxY2I1OGMtN2Y4MS00ZmU1LTgyNDAtODA0MzAyYjI0N2Y2XkEyXkFqcGc@._V1_UX500_.jpg",
       "rating": "7.3",
-      "votes": "165K"
+      "votes": "166K"
     },
     {
       "rank": 35,
@@ -286,7 +286,7 @@
       "title": "Animal Farm",
       "imdb_id": "tt2467700",
       "poster": "https://m.media-amazon.com/images/M/MV5BY2U5YTliZDktZWFhZS00ZDI3LTk5MWMtMDFlMjA3MDI2MGMwXkEyXkFqcGc@._V1_UX500_.jpg",
-      "rating": "2.5",
+      "rating": "2.4",
       "votes": "2.2K"
     },
     {
@@ -295,7 +295,7 @@
       "imdb_id": "tt30144839",
       "poster": "https://m.media-amazon.com/images/M/MV5BMzBkZmQ0NjMtNTZlMy00ZjdlLTg5ODUtYWFlNGM0YzE3MTg0XkEyXkFqcGc@._V1_UX500_.jpg",
       "rating": "7.6",
-      "votes": "404K"
+      "votes": "405K"
     },
     {
       "rank": 38,
@@ -351,7 +351,7 @@
       "imdb_id": "tt12300742",
       "poster": "https://m.media-amazon.com/images/M/MV5BNzIzNWQxMjEtZmQ3MS00OTk2LWFlZjktZDUyYWRkM2M3NWVlXkEyXkFqcGc@._V1_UX500_.jpg",
       "rating": "7.4",
-      "votes": "187K"
+      "votes": "188K"
     },
     {
       "rank": 45,
@@ -366,7 +366,7 @@
       "title": "Balls Up",
       "imdb_id": "tt26735622",
       "poster": "https://m.media-amazon.com/images/M/MV5BZjJlMDFmOWMtY2NhZS00MzAwLWFiOWQtNzBiZDNiOWRiMDA4XkEyXkFqcGc@._V1_UX500_.jpg",
-      "rating": "4.7",
+      "rating": "4.6",
       "votes": "11K"
     },
     {
@@ -375,7 +375,7 @@
       "imdb_id": "tt31193180",
       "poster": "https://m.media-amazon.com/images/M/MV5BNjIwZWY4ZDEtMmIxZS00NDA4LTg4ZGMtMzUwZTYyNzgxMzk5XkEyXkFqcGc@._V1_UX500_.jpg",
       "rating": "7.5",
-      "votes": "478K"
+      "votes": "479K"
     },
     {
       "rank": 48,
@@ -383,7 +383,7 @@
       "imdb_id": "tt29567915",
       "poster": "https://m.media-amazon.com/images/M/MV5BMWUzODNkYWUtMmMzOC00NzZjLTlkMTctOTkwM2I2ZWI1MTlmXkEyXkFqcGc@._V1_UX500_.jpg",
       "rating": "7.4",
-      "votes": "91K"
+      "votes": "92K"
     },
     {
       "rank": 49,
@@ -399,7 +399,7 @@
       "imdb_id": "tt39749979",
       "poster": "https://m.media-amazon.com/images/M/MV5BZTMyMDM1ZjMtZjIyZS00MGMwLThiOTItZDk0MWE4MzNlZjExXkEyXkFqcGc@._V1_UX500_.jpg",
       "rating": "5.7",
-      "votes": "676"
+      "votes": "720"
     },
     {
       "rank": 51,
@@ -487,7 +487,7 @@
       "imdb_id": "tt16311594",
       "poster": "https://m.media-amazon.com/images/M/MV5BNGI0MDI4NjEtOWU3ZS00ODQyLWFhYTgtNGYxM2ZkM2Q2YjE3XkEyXkFqcGc@._V1_UX500_.jpg",
       "rating": "7.6",
-      "votes": "358K"
+      "votes": "359K"
     },
     {
       "rank": 62,
@@ -519,7 +519,7 @@
       "imdb_id": "tt23724682",
       "poster": "https://m.media-amazon.com/images/M/MV5BMzFmMWExMmMtZmYwZi00ZDIyLTlhYTUtZmM3ZTBlZWNjOWY4XkEyXkFqcGc@._V1_UX500_.jpg",
       "rating": "4.5",
-      "votes": "8.8K"
+      "votes": "8.9K"
     },
     {
       "rank": 66,
@@ -543,7 +543,7 @@
       "imdb_id": "tt5950044",
       "poster": "https://m.media-amazon.com/images/M/MV5BOGMwZGJiM2EtMzEwZC00YTYzLWIxNzYtMmJmZWNlZjgxZTMwXkEyXkFqcGc@._V1_UX500_.jpg",
       "rating": "7.0",
-      "votes": "413K"
+      "votes": "414K"
     },
     {
       "rank": 69,
@@ -558,8 +558,8 @@
       "title": "Billie Eilish: Hit Me Hard and Soft",
       "imdb_id": "tt39018643",
       "poster": "https://m.media-amazon.com/images/M/MV5BMTFkNzYwYWUtMjkzMS00NTYxLTk5OWMtZmVhZWNmNDc0NzMzXkEyXkFqcGc@._V1_UX500_.jpg",
-      "rating": "7.7",
-      "votes": "2K"
+      "rating": "7.6",
+      "votes": "2.1K"
     },
     {
       "rank": 71,
@@ -575,7 +575,7 @@
       "imdb_id": "tt31050594",
       "poster": "https://m.media-amazon.com/images/M/MV5BMWJmYjcwMTMtMDU1ZC00ZGI5LTlmZDAtODI3NDA2ZTE5ZGVlXkEyXkFqcGc@._V1_UX500_.jpg",
       "rating": "6.2",
-      "votes": "64K"
+      "votes": "65K"
     },
     {
       "rank": 73,
@@ -638,8 +638,8 @@
       "title": "KD: The Devil",
       "imdb_id": "tt15295368",
       "poster": "https://m.media-amazon.com/images/M/MV5BYjY4ZWQxMzYtYTVjYi00ZWJkLWI2MjktYzQ0MGQ4YTZlNmEzXkEyXkFqcGc@._V1_UX500_.jpg",
-      "rating": "8.6",
-      "votes": "1.9K"
+      "rating": "8.5",
+      "votes": "2K"
     },
     {
       "rank": 81,
@@ -671,7 +671,7 @@
       "imdb_id": "tt1745960",
       "poster": "https://m.media-amazon.com/images/M/MV5BMDBkZDNjMWEtOTdmMi00NmExLTg5MmMtNTFlYTJlNWY5YTdmXkEyXkFqcGc@._V1_UX500_.jpg",
       "rating": "8.2",
-      "votes": "864K"
+      "votes": "865K"
     },
     {
       "rank": 85,
@@ -809,7 +809,7 @@
       "imdb_id": "tt1190634",
       "poster": "https://m.media-amazon.com/images/M/MV5BZjU4OWNiYzQtMzc1NS00NjZlLTgyYTctZWY4ZmEzMTkxYjA4XkEyXkFqcGc@._V1_UX500_.jpg",
       "rating": "8.6",
-      "votes": "869K"
+      "votes": "870K"
     },
     {
       "rank": 2,
@@ -817,7 +817,7 @@
       "imdb_id": "tt33265765",
       "poster": "https://m.media-amazon.com/images/M/MV5BYTI2NzI3OTgtNjJmNS00Yjk3LTliMTMtZDA1MWM4MDA0N2QzXkEyXkFqcGc@._V1_UX500_.jpg",
       "rating": "8.0",
-      "votes": "4.6K"
+      "votes": "5.4K"
     },
     {
       "rank": 3,
@@ -841,7 +841,7 @@
       "imdb_id": "tt27331527",
       "poster": "https://m.media-amazon.com/images/M/MV5BZjFlMTMyZTAtY2NiZS00NzdjLWEwZTUtNDJjYjI4ZmU4NTBiXkEyXkFqcGc@._V1_UX500_.jpg",
       "rating": "6.7",
-      "votes": "7.4K"
+      "votes": "7.6K"
     },
     {
       "rank": 6,
@@ -857,7 +857,7 @@
       "imdb_id": "tt33332385",
       "poster": "https://m.media-amazon.com/images/M/MV5BYzE4ZDNkZWQtYTNmNy00MjQwLTk0ODItN2YyYWUwYzEzNzk2XkEyXkFqcGc@._V1_UX500_.jpg",
       "rating": "8.2",
-      "votes": "4.1K"
+      "votes": "4.4K"
     },
     {
       "rank": 8,
@@ -873,7 +873,7 @@
       "imdb_id": "tt36594331",
       "poster": "https://m.media-amazon.com/images/M/MV5BMmUzZWRkOGMtOGM2OC00ODk0LWFjZjUtMjUyOGRjYzgwYjdjXkEyXkFqcGc@._V1_UX500_.jpg",
       "rating": "8.6",
-      "votes": "19K"
+      "votes": "20K"
     },
     {
       "rank": 10,
@@ -881,7 +881,7 @@
       "imdb_id": "tt33253070",
       "poster": "https://m.media-amazon.com/images/M/MV5BYzA5NjAxMGItNTE5ZC00ZDhmLTk2NzEtYmUzZWNkNjllMzA2XkEyXkFqcGc@._V1_UX500_.jpg",
       "rating": "6.3",
-      "votes": "1K"
+      "votes": "1.1K"
     },
     {
       "rank": 11,
@@ -913,7 +913,7 @@
       "imdb_id": "tt14403178",
       "poster": "https://m.media-amazon.com/images/M/MV5BMGNlNDkyYzItNTg5Yy00NGFiLWJhYTctODE5NjNkYjk4ZDUwXkEyXkFqcGc@._V1_UX500_.jpg",
       "rating": "8.0",
-      "votes": "171K"
+      "votes": "172K"
     },
     {
       "rank": 15,
@@ -937,7 +937,7 @@
       "imdb_id": "tt27557666",
       "poster": "https://m.media-amazon.com/images/M/MV5BZTNkYmE5ZGQtMTUzNi00ZDE3LWE5YWQtODk4N2Q3Yzc0YzViXkEyXkFqcGc@._V1_UX500_.jpg",
       "rating": "6.6",
-      "votes": "6K"
+      "votes": "6.1K"
     },
     {
       "rank": 18,
@@ -960,8 +960,8 @@
       "title": "Half Man",
       "imdb_id": "tt32767294",
       "poster": "https://m.media-amazon.com/images/M/MV5BMmM3ZDgwNmItYTc4Mi00MTk4LWEwMWMtNjliZGQ4NTlkZGMzXkEyXkFqcGc@._V1_UX500_.jpg",
-      "rating": "7.5",
-      "votes": "2.2K"
+      "rating": "7.6",
+      "votes": "2.4K"
     },
     {
       "rank": 21,
@@ -977,7 +977,7 @@
       "imdb_id": "tt31137273",
       "poster": "https://m.media-amazon.com/images/M/MV5BOTI2NDRhZWUtZDQwOC00OTk1LTk3Y2QtNmFlZjczOTMyZjM5XkEyXkFqcGc@._V1_UX500_.jpg",
       "rating": "7.2",
-      "votes": "4.4K"
+      "votes": "4.6K"
     },
     {
       "rank": 23,
@@ -1001,7 +1001,7 @@
       "imdb_id": "tt10970762",
       "poster": "https://m.media-amazon.com/images/M/MV5BMjZhODhiYmEtNTg0ZS00Mjc0LTk0NTYtMGEwMGFlNjFkZGM0XkEyXkFqcGc@._V1_UX500_.jpg",
       "rating": "8.2",
-      "votes": "4.4K"
+      "votes": "4.5K"
     },
     {
       "rank": 26,
@@ -1073,7 +1073,7 @@
       "imdb_id": "tt31631142",
       "poster": "https://m.media-amazon.com/images/M/MV5BZTgyMjNhNjYtYjEwYy00NmFjLTg2MTQtZDNkYjZhYzMwODA0XkEyXkFqcGc@._V1_UX500_.jpg",
       "rating": "6.2",
-      "votes": "5.2K"
+      "votes": "5.3K"
     },
     {
       "rank": 35,
@@ -1112,8 +1112,8 @@
       "title": "Dutton Ranch",
       "imdb_id": "tt34991493",
       "poster": "https://m.media-amazon.com/images/M/MV5BMzk0YTExY2EtYzI1NS00M2ZlLWFjOGUtMTQyMDY1MmE2ZGViXkEyXkFqcGc@._V1_UX500_.jpg",
-      "rating": "",
-      "votes": ""
+      "rating": "8.1",
+      "votes": "400"
     },
     {
       "rank": 40,
@@ -1121,7 +1121,7 @@
       "imdb_id": "tt36104233",
       "poster": "https://m.media-amazon.com/images/M/MV5BMTIyODI5YzgtMjg1OC00OTMzLWE1ODgtNDQzMjViMDZhOTQ1XkEyXkFqcGc@._V1_UX500_.jpg",
       "rating": "7.1",
-      "votes": "5.4K"
+      "votes": "5.5K"
     },
     {
       "rank": 41,
@@ -1137,7 +1137,7 @@
       "imdb_id": "tt0141842",
       "poster": "https://m.media-amazon.com/images/M/MV5BZjYwNWQwOTMtMzYwOS00NTcxLWFhNTYtNGQ4YjdmYTcyNDFkXkEyXkFqcGc@._V1_UX500_.jpg",
       "rating": "9.2",
-      "votes": "579K"
+      "votes": "580K"
     },
     {
       "rank": 43,
@@ -1273,7 +1273,7 @@
       "imdb_id": "tt34273502",
       "poster": "https://m.media-amazon.com/images/M/MV5BOWZmYTU2OGEtYWUzYi00MGU1LTg3MjEtY2E0ODYyM2YwOGQ5XkEyXkFqcGc@._V1_UX500_.jpg",
       "rating": "6.5",
-      "votes": "913"
+      "votes": "948"
     },
     {
       "rank": 60,
@@ -1569,7 +1569,7 @@
       "imdb_id": "tt33022938",
       "poster": "https://m.media-amazon.com/images/M/MV5BNGIxMjVhYjEtY2NmYy00MjQwLWIxNGEtNzUzNDlkOTRjNTdjXkEyXkFqcGc@._V1_UX500_.jpg",
       "rating": "7.5",
-      "votes": "634"
+      "votes": "727"
     },
     {
       "rank": 97,
