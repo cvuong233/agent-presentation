@@ -1,12 +1,12 @@
 {
-  "updated": "2026-05-16T18:33:40.985647+00:00",
+  "updated": "2026-05-16T18:51:26.523854+00:00",
   "source": "MyDramaList",
   "year": 2026,
   "mode": "top_airing",
   "count": 10,
   "kdramas": [
     {
-      "rank": 723,
+      "rank": 725,
       "title": "Perfect Crown",
       "poster": "https://i.mydramalist.com/JBmnzj_4s.jpg?v=1",
       "year": "2026",
@@ -15,10 +15,11 @@
       "overview": "Set in an alternate version of Korea ruled by a constitutional monarchy in the 21st century. The story follows Chaebol heiress Seong Hui Ju, who is frustrated by her 'commoner' status despite having everything, and melancholic…",
       "source": "MDL",
       "imdb_id": "tt39333617",
+      "broadcast_rating": "13.5%",
       "mdl_url": "https://mydramalist.com/781538-wife-of-a-21st-century-prince"
     },
     {
-      "rank": 1355,
+      "rank": 1446,
       "title": "We Are All Trying Here",
       "poster": "https://i.mydramalist.com/Kp45k4_4s.jpg?v=1",
       "year": "2026",
@@ -27,10 +28,11 @@
       "overview": "A story of the struggles and journey of people tormented by envy and jealousy, while trying to find their own peace. Hwang Dong Man is an aspiring director who is the only one in the famous film industry group \"The Eight\"…",
       "source": "MDL",
       "imdb_id": "tt36732944",
+      "broadcast_rating": "3.869%",
       "mdl_url": "https://mydramalist.com/790724-everyone-is-fighting-their-own-worthlessness"
     },
     {
-      "rank": 742,
+      "rank": 763,
       "title": "Filing for Love",
       "poster": "https://i.mydramalist.com/mOQKZQ_4s.jpg?v=1",
       "year": "2026",
@@ -39,10 +41,11 @@
       "overview": "Gi Jun, once the ace of the internal audit team, is now stuck handling petty office scandals—all thanks to his manager, In A. One day, he receives an anonymous tip: In A is involved in an inappropriate relationship…",
       "source": "MDL",
       "imdb_id": "tt39010903",
+      "broadcast_rating": "9.360%",
       "mdl_url": "https://mydramalist.com/793102-secret-gratitude"
     },
     {
-      "rank": 2613,
+      "rank": 2588,
       "title": "Sold Out on You",
       "poster": "https://i.mydramalist.com/g0dxWo_4s.jpg?v=1",
       "year": "2026",
@@ -51,10 +54,11 @@
       "overview": "A healing romantic comedy that follows two individuals who pour their hearts into their work every day, yet feel like they have big holes in their hearts. Matthew Lee, CEO and lead researcher of a natural cosmetics ingredient…",
       "source": "MDL",
       "imdb_id": "tt39387440",
+      "broadcast_rating": "2.5%",
       "mdl_url": "https://mydramalist.com/788726-it-s-sold-out-again-today"
     },
     {
-      "rank": 744,
+      "rank": 686,
       "title": "My Royal Nemesis",
       "poster": "https://i.mydramalist.com/nOowWE_4s.jpg?v=1",
       "year": "2026",
@@ -63,10 +67,11 @@
       "overview": "A romance comedy centered on a love-hate relationship between Sin Seo Ri, a legendary villainess from Joseon, and Cha Se Gye, a ruthless modern-day chaebol. Sin Seo Ri, a nameless actress who becomes possessed by the…",
       "source": "MDL",
       "imdb_id": "tt38828946",
+      "broadcast_rating": "5.8%",
       "mdl_url": "https://mydramalist.com/788412-brave-new-world"
     },
     {
-      "rank": 1557,
+      "rank": 1562,
       "title": "Absolute Value of Romance",
       "poster": "https://i.mydramalist.com/ABdggL_4s.jpg?v=1",
       "year": "2026",
@@ -75,10 +80,11 @@
       "overview": "Yeo Eui Ju an ordinary high school student who is average in every way and tries to keep a low profile at school. But at night, she secretly becomes a writer, posting daring adults-only BL novels online. Despite her…",
       "source": "MDL",
       "imdb_id": "tt41090249",
+      "broadcast_rating": null,
       "mdl_url": "https://mydramalist.com/801546-absolute-value-of-romance"
     },
     {
-      "rank": 2559,
+      "rank": 2492,
       "title": "The Scarecrow",
       "poster": "https://i.mydramalist.com/yW1A5K_4s.jpg?v=1",
       "year": "2026",
@@ -87,10 +93,11 @@
       "overview": "Criminal profiler Kang Tae Ju is pulled out of retirement by a chilling summons: an imprisoned serial killer has been linked to additional unsolved deaths through DNA evidence, but he insists that Tae Ju join the investigation,…",
       "source": "MDL",
       "imdb_id": "tt39245629",
+      "broadcast_rating": "7.444%",
       "mdl_url": "https://mydramalist.com/786738-scarecrow"
     },
     {
-      "rank": 4274,
+      "rank": 4226,
       "title": "Gold Land",
       "poster": "https://i.mydramalist.com/nOzye6_4s.jpg?v=1",
       "year": "2026",
@@ -99,10 +106,11 @@
       "overview": "Kim Hui Ju works as a security screening agent at an international airport. Due to her boyfriend Lee Do Gyeong, who works as a co-pilot for an airline, she accidentally receives gold from a smuggling organization. Kim…",
       "source": "MDL",
       "imdb_id": "tt37253311",
+      "broadcast_rating": null,
       "mdl_url": "https://mydramalist.com/781124-goldland"
     },
     {
-      "rank": 6565,
+      "rank": 5814,
       "title": "Azure Spring",
       "poster": "https://i.mydramalist.com/b3ApVw_4s.jpg?v=1",
       "year": "2026",
@@ -111,10 +119,11 @@
       "overview": "The story depicts the journey of discovering the meaning of life lost in nature and living alongside forgotten neighbors. Here are two individuals who are unable to move forward due to their past and fear of the future.…",
       "source": "MDL",
       "imdb_id": "tt42338645",
+      "broadcast_rating": null,
       "mdl_url": "https://mydramalist.com/804102-azure-spring"
     },
     {
-      "rank": 12768,
+      "rank": 12780,
       "title": "Wooju Bakery",
       "poster": "https://i.mydramalist.com/73RpZN_4s.jpg?v=1",
       "year": "2026",
@@ -123,6 +132,7 @@
       "overview": "A small bakery was re-established after all kinds of hardship in a small old town that holds precious memories with his parents before his long-awaited opening ceremony. A spaceship crash-landed, and the bakery was ruined...…",
       "source": "MDL",
       "imdb_id": "tt42465202",
+      "broadcast_rating": null,
       "mdl_url": "https://mydramalist.com/729853-space-bakery"
     }
   ]
