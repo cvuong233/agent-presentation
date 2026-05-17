@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-17T14:38:04.241994+00:00",
+  "updated": "2026-05-17T14:41:26.528839+00:00",
   "source": "FUNdex",
   "mode": "weekly_tv_ott_drama_buzzworthiness",
   "count": 20,
@@ -202,7 +202,7 @@
       "first_air_date": "2026-04-29",
       "match_confidence": "high",
       "match_method": "tmdb_scored_search",
-      "match_notes": "query=Gold Land score=3088.9"
+      "match_notes": "query=GoldLand score=2588.9"
     },
     {
       "rank": 11,
@@ -275,14 +275,14 @@
       "source": "FUNdex",
       "source_url": "https://www.fundex.co.kr/fundex/funprogram.do?pjseq=13551",
       "poster": "https://www.fundex.co.kr/pjmeta/pjimg/pj_13551.jpg",
-      "imdb_id": null,
-      "tmdb_id": null,
-      "tmdb_name": null,
-      "original_title_ko": null,
-      "first_air_date": null,
-      "match_confidence": null,
-      "match_method": null,
-      "match_notes": null
+      "imdb_id": "tt26315487",
+      "tmdb_id": 127529,
+      "tmdb_name": "Bloodhounds",
+      "original_title_ko": "사냥개들",
+      "first_air_date": "2023-06-09",
+      "match_confidence": "manual-verified",
+      "match_method": "override-base-series",
+      "match_notes": "Season-specific entry not indexed reliably; use base-series IMDb/TMDB mapping for Bloodhounds."
     },
     {
       "rank": 15,
