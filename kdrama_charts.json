@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-17T13:18:27.560372+00:00",
+  "updated": "2026-05-17T13:37:15.649817+00:00",
   "source": "FUNdex",
   "mode": "weekly_tv_ott_drama_buzzworthiness",
   "count": 10,
@@ -19,7 +19,10 @@
       "tmdb_id": 278573,
       "tmdb_name": "Perfect Crown",
       "original_title_ko": "21세기 대군부인",
-      "first_air_date": "2026-04-10"
+      "first_air_date": "2026-04-10",
+      "match_confidence": "high",
+      "match_method": "tmdb_scored_search",
+      "match_notes": "query=Perfect Crown score=3191.8"
     },
     {
       "rank": 2,
@@ -36,7 +39,10 @@
       "tmdb_id": null,
       "tmdb_name": null,
       "original_title_ko": null,
-      "first_air_date": null
+      "first_air_date": null,
+      "match_confidence": "manual-unresolved",
+      "match_method": "override",
+      "match_notes": "No reliable TMDB/IMDb mapping found yet; keep unresolved until verified."
     },
     {
       "rank": 3,
@@ -53,7 +59,10 @@
       "tmdb_id": 289424,
       "tmdb_name": "We Are All Trying Here",
       "original_title_ko": "모두가 자신의 무가치함과 싸우고 있다",
-      "first_air_date": "2026-04-18"
+      "first_air_date": "2026-04-18",
+      "match_confidence": "high",
+      "match_method": "tmdb_scored_search",
+      "match_notes": "query=We Are All Trying Here score=3094.9"
     },
     {
       "rank": 4,
@@ -70,7 +79,10 @@
       "tmdb_id": 303143,
       "tmdb_name": "My Royal Nemesis",
       "original_title_ko": "멋진 신세계",
-      "first_air_date": "2026-05-08"
+      "first_air_date": "2026-05-08",
+      "match_confidence": "high",
+      "match_method": "tmdb_scored_search",
+      "match_notes": "query=My Royal Nemesis score=3103.7"
     },
     {
       "rank": 5,
@@ -87,7 +99,10 @@
       "tmdb_id": 297640,
       "tmdb_name": "Filing for Love",
       "original_title_ko": "은밀한 감사",
-      "first_air_date": "2026-04-25"
+      "first_air_date": "2026-04-25",
+      "match_confidence": "high",
+      "match_method": "tmdb_scored_search",
+      "match_notes": "query=Filing for Love score=3112.3"
     },
     {
       "rank": 6,
@@ -104,7 +119,10 @@
       "tmdb_id": 292121,
       "tmdb_name": "The Scarecrow",
       "original_title_ko": "허수아비",
-      "first_air_date": "2026-04-20"
+      "first_air_date": "2026-04-20",
+      "match_confidence": "high",
+      "match_method": "tmdb_scored_search",
+      "match_notes": "query=The Scarecrow score=3082.8"
     },
     {
       "rank": 7,
@@ -121,7 +139,10 @@
       "tmdb_id": 285838,
       "tmdb_name": "If Wishes Could Kill",
       "original_title_ko": "기리고",
-      "first_air_date": "2026-04-24"
+      "first_air_date": "2026-04-24",
+      "match_confidence": "high",
+      "match_method": "tmdb_scored_search",
+      "match_notes": "query=If Wishes Could Kill score=3112.6"
     },
     {
       "rank": 8,
@@ -138,7 +159,10 @@
       "tmdb_id": 287011,
       "tmdb_name": "Sold Out on You",
       "original_title_ko": "오늘도 매진했습니다",
-      "first_air_date": "2026-04-22"
+      "first_air_date": "2026-04-22",
+      "match_confidence": "high",
+      "match_method": "tmdb_scored_search",
+      "match_notes": "query=Sold Out On You score=3096.9"
     },
     {
       "rank": 9,
@@ -155,7 +179,10 @@
       "tmdb_id": 295509,
       "tmdb_name": "The Legend of Kitchen Soldier",
       "original_title_ko": "취사병 전설이 되다",
-      "first_air_date": "2026-05-11"
+      "first_air_date": "2026-05-11",
+      "match_confidence": "high",
+      "match_method": "tmdb_scored_search",
+      "match_notes": "query=The Legend of Kitchen Soldier score=3121.4"
     },
     {
       "rank": 10,
@@ -172,7 +199,10 @@
       "tmdb_id": 278113,
       "tmdb_name": "Gold Land",
       "original_title_ko": "골드랜드",
-      "first_air_date": "2026-04-29"
+      "first_air_date": "2026-04-29",
+      "match_confidence": "high",
+      "match_method": "tmdb_scored_search",
+      "match_notes": "query=Gold Land score=3088.9"
     }
   ]
 }
