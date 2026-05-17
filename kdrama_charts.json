@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-17T14:41:26.528839+00:00",
+  "updated": "2026-05-17T14:47:44.841776+00:00",
   "source": "FUNdex",
   "mode": "weekly_tv_ott_drama_buzzworthiness",
   "count": 20,
@@ -202,7 +202,7 @@
       "first_air_date": "2026-04-29",
       "match_confidence": "high",
       "match_method": "tmdb_scored_search",
-      "match_notes": "query=GoldLand score=2588.9"
+      "match_notes": "query=Gold Land score=3088.9"
     },
     {
       "rank": 11,
@@ -315,14 +315,14 @@
       "source": "FUNdex",
       "source_url": "https://www.fundex.co.kr/fundex/funprogram.do?pjseq=13647",
       "poster": "https://www.fundex.co.kr/pjmeta/pjimg/pj_13647.jpg",
-      "imdb_id": null,
-      "tmdb_id": null,
-      "tmdb_name": null,
-      "original_title_ko": null,
-      "first_air_date": null,
-      "match_confidence": null,
-      "match_method": null,
-      "match_notes": null
+      "imdb_id": "tt42206645",
+      "tmdb_id": 299365,
+      "tmdb_name": "Reborn Rookie",
+      "original_title_ko": "신입사원 강회장",
+      "first_air_date": "2026-05-30",
+      "match_confidence": "high",
+      "match_method": "imdb_suggestion_fallback",
+      "match_notes": "query=Reborn Rookie score=2580.0"
     },
     {
       "rank": 17,
@@ -355,14 +355,14 @@
       "source": "FUNdex",
       "source_url": "https://www.fundex.co.kr/fundex/funprogram.do?pjseq=13458",
       "poster": "https://www.fundex.co.kr/pjmeta/pjimg/pj_13458.jpg",
-      "imdb_id": null,
-      "tmdb_id": null,
-      "tmdb_name": null,
-      "original_title_ko": null,
-      "first_air_date": null,
-      "match_confidence": null,
-      "match_method": null,
-      "match_notes": null
+      "imdb_id": "tt41962163",
+      "tmdb_id": 297712,
+      "tmdb_name": "Fifties Professionals",
+      "original_title_ko": "오십프로",
+      "first_air_date": "2026-05-22",
+      "match_confidence": "high",
+      "match_method": "imdb_suggestion_fallback",
+      "match_notes": "query=Fifties Professionals score=2580.0"
     },
     {
       "rank": 19,
