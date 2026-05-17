@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-17T13:37:15.649817+00:00",
+  "updated": "2026-05-17T13:49:28.569005+00:00",
   "source": "FUNdex",
   "mode": "weekly_tv_ott_drama_buzzworthiness",
   "count": 10,
@@ -35,14 +35,14 @@
       "source": "FUNdex",
       "source_url": "https://www.fundex.co.kr/fundex/funprogram.do?pjseq=13614",
       "poster": "https://www.fundex.co.kr/pjmeta/pjimg/pj_13614.jpg",
-      "imdb_id": null,
-      "tmdb_id": null,
-      "tmdb_name": null,
-      "original_title_ko": null,
-      "first_air_date": null,
-      "match_confidence": "manual-unresolved",
-      "match_method": "override",
-      "match_notes": "No reliable TMDB/IMDb mapping found yet; keep unresolved until verified."
+      "imdb_id": "tt14596630",
+      "tmdb_id": 128995,
+      "tmdb_name": "Yumi's Cells",
+      "original_title_ko": "유미의 세포들",
+      "first_air_date": "2021-09-17",
+      "match_confidence": "manual-verified",
+      "match_method": "override-base-series",
+      "match_notes": "Season-specific entry not indexed reliably; use base-series IMDb/TMDB mapping for Yumi's Cells."
     },
     {
       "rank": 3,
