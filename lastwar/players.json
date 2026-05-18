@@ -98,8 +98,7 @@
       "RavenRayne",
       "Trai Cầu Tôm",
       "aaaaatttttkkkkkk",
-      "vinh ccc",
-      "ntacutiiii"
+      "vinh ccc"
     ],
     "R1": [
       "A Ngỗng",
@@ -674,19 +673,6 @@
       },
       "last_hn_score": 4822336,
       "last_sm_score": 976141
-    },
-    "ntacutiiii": {
-      "rank": "R2",
-      "yc": {
-        "hn": 0,
-        "sm": 0
-      },
-      "cm": {
-        "hn": 0,
-        "sm": 0
-      },
-      "last_hn_score": 4231482,
-      "last_sm_score": 361828
     },
     "cu tí nhỏ xíu": {
       "rank": "R3",
@@ -1394,11 +1380,6 @@
             "r": "R3",
             "name": "PewPewBoi",
             "reason": "Tuần trước hạng 18th / 18th last week"
-          },
-          {
-            "r": "R2",
-            "name": "ntacutiiii",
-            "reason": "Tuần trước hạng 19th / 19th last week"
           }
         ],
         "subs": [
@@ -1617,11 +1598,6 @@
             "r": "R3",
             "name": "Indefatigabl3",
             "reason": "Tuần trước hạng 17th / 17th last week"
-          },
-          {
-            "r": "R2",
-            "name": "ntacutiiii",
-            "reason": "Tuần trước hạng 19th / 19th last week"
           }
         ],
         "subs": [],
