@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-17T14:48:59.515151+00:00",
+  "updated": "2026-05-18T01:11:25.887966+00:00",
   "source": "FUNdex",
   "mode": "weekly_tv_ott_drama_buzzworthiness",
   "count": 20,
@@ -22,7 +22,7 @@
       "first_air_date": "2026-04-10",
       "match_confidence": "high",
       "match_method": "tmdb_scored_search",
-      "match_notes": "query=Perfect Crown score=3191.8"
+      "match_notes": "query=Perfect Crown score=3194.5"
     },
     {
       "rank": 2,
@@ -162,7 +162,7 @@
       "first_air_date": "2026-04-22",
       "match_confidence": "high",
       "match_method": "tmdb_scored_search",
-      "match_notes": "query=Sold Out On You score=3096.9"
+      "match_notes": "query=Sold Out On You score=3096.8"
     },
     {
       "rank": 9,
@@ -242,7 +242,7 @@
       "first_air_date": "2025-12-15",
       "match_confidence": "high",
       "match_method": "tmdb_scored_search",
-      "match_notes": "query=First Man score=2225.2"
+      "match_notes": "query=First Man score=2225.0"
     },
     {
       "rank": 13,
