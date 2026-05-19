@@ -1483,6 +1483,11 @@
             "r": "R3",
             "name": "Đập Chai",
             "reason": "Tuần trước hạng 17th / 17th last week"
+          },
+          {
+            "r": "R2",
+            "name": "Trai Cầu Tôm",
+            "reason": "Bổ sung thủ công / Manual add"
           }
         ],
         "subs": [
