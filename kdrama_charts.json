@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-26T01:11:05.270016+00:00",
+  "updated": "2026-05-26T01:49:16.447178+00:00",
   "source": "FUNdex",
   "mode": "weekly_tv_ott_drama_buzzworthiness",
   "count": 20,
@@ -22,7 +22,7 @@
       "first_air_date": "2026-04-10",
       "match_confidence": "high",
       "match_method": "tmdb_scored_search",
-      "match_notes": "query=Perfect Crown score=3139.7"
+      "match_notes": "query=Perfect Crown score=3133.0"
     },
     {
       "rank": 2,
@@ -302,7 +302,7 @@
       "first_air_date": "2026-05-22",
       "match_confidence": "high",
       "match_method": "tmdb_scored_search",
-      "match_notes": "query=Fifties Professionals score=3090.0"
+      "match_notes": "query=Fifties Professionals score=3089.7"
     },
     {
       "rank": 16,
