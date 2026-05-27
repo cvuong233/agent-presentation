@@ -2,7 +2,7 @@
   "meta": {
     "clan": "ACMB",
     "game": "Last War VN",
-    "updated": "2026-05-23",
+    "updated": "2026-05-27",
     "notes": "C V = cường khùng (R4). SM = Bão Sa Mạc (Storm Mountain). HN = Bão Hẻm Núi (Canyon Storm). Official model: last_matches = history, next_lineup = editable upcoming lineup. Both battles use 20 main / 10 subs. Build script runs only once after fresh results; later changes edit next_lineup directly.",
     "updated_hn_a": "2026-05-01"
   },
