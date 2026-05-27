@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-27T01:53:11.135056+00:00",
+  "updated": "2026-05-27T08:28:29.538388+00:00",
   "source": "FUNdex",
   "mode": "weekly_tv_ott_drama_buzzworthiness",
   "count": 20,
@@ -62,7 +62,7 @@
       "first_air_date": "2026-04-18",
       "match_confidence": "high",
       "match_method": "tmdb_scored_search",
-      "match_notes": "query=We Are All Trying Here score=3098.3"
+      "match_notes": "query=We Are All Trying Here score=3096.2"
     },
     {
       "rank": 4,
@@ -162,7 +162,7 @@
       "first_air_date": "2026-05-22",
       "match_confidence": "high",
       "match_method": "tmdb_scored_search",
-      "match_notes": "query=Fifties Professionals score=3089.7"
+      "match_notes": "query=Fifties Professionals score=3089.4"
     },
     {
       "rank": 9,
@@ -182,7 +182,7 @@
       "first_air_date": "2026-04-22",
       "match_confidence": "high",
       "match_method": "tmdb_scored_search",
-      "match_notes": "query=Sold Out On You score=3096.8"
+      "match_notes": "query=Sold Out On You score=3095.5"
     },
     {
       "rank": 10,
@@ -222,7 +222,7 @@
       "first_air_date": "2026-04-24",
       "match_confidence": "high",
       "match_method": "tmdb_scored_search",
-      "match_notes": "query=If Wishes Could Kill score=3106.0"
+      "match_notes": "query=If Wishes Could Kill score=3104.7"
     },
     {
       "rank": 12,
@@ -242,7 +242,7 @@
       "first_air_date": "2026-04-17",
       "match_confidence": "high",
       "match_method": "tmdb_scored_search",
-      "match_notes": "query=Absolute Value of Romance score=3096.9"
+      "match_notes": "query=Absolute Value of Romance score=3095.8"
     },
     {
       "rank": 13,
@@ -262,7 +262,7 @@
       "first_air_date": "2025-12-15",
       "match_confidence": "high",
       "match_method": "tmdb_scored_search",
-      "match_notes": "query=First Man score=2229.8"
+      "match_notes": "query=First Man score=2229.4"
     },
     {
       "rank": 14,
@@ -282,7 +282,7 @@
       "first_air_date": "2026-01-31",
       "match_confidence": "high",
       "match_method": "tmdb_scored_search",
-      "match_notes": "query=Recipe For Love score=2373.1"
+      "match_notes": "query=Recipe For Love score=2373.6"
     },
     {
       "rank": 15,
@@ -302,7 +302,7 @@
       "first_air_date": "2026-05-30",
       "match_confidence": "high",
       "match_method": "tmdb_scored_search",
-      "match_notes": "query=Reborn Rookie score=3072.6"
+      "match_notes": "query=Reborn Rookie score=3072.7"
     },
     {
       "rank": 16,
@@ -362,7 +362,7 @@
       "first_air_date": "2026-06-01",
       "match_confidence": "high",
       "match_method": "tmdb_scored_search",
-      "match_notes": "query=Doctor on the Edge score=3073.6"
+      "match_notes": "query=Doctor on the Edge score=3073.4"
     },
     {
       "rank": 19,
@@ -402,7 +402,7 @@
       "first_air_date": "2026-03-26",
       "match_confidence": "high",
       "match_method": "tmdb_scored_search",
-      "match_notes": "query=Cabbage Your Life score=3072.9"
+      "match_notes": "query=Cabbage Your Life score=3072.8"
     }
   ]
 }
