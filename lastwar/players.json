@@ -76,7 +76,8 @@
       "Đập Chai",
       "Lýkos",
       "hanubeast",
-      "Kute Gold"
+      "Kute Gold",
+      "Trai Cầu Tôm"
     ],
     "R2": [
       "1Mét45",
@@ -96,7 +97,6 @@
       "PoisonFlower",
       "ROTY5",
       "RavenRayne",
-      "Trai Cầu Tôm",
       "aaaaatttttkkkkkk",
       "vinh ccc"
     ],
@@ -1137,7 +1137,7 @@
       }
     },
     "Trai Cầu Tôm": {
-      "rank": "R2",
+      "rank": "R3",
       "yc": {
         "hn": 0,
         "sm": 0
@@ -1492,7 +1492,7 @@
             "reason": "Tuần trước hạng 19th / 19th last week"
           },
           {
-            "r": "R2",
+            "r": "R3",
             "name": "Trai Cầu Tôm",
             "reason": "Tuần trước hạng 5th / 5th last week"
           }
