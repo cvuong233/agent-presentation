@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-27T01:11:05.057468+00:00",
+  "updated": "2026-05-27T01:53:11.135056+00:00",
   "source": "FUNdex",
   "mode": "weekly_tv_ott_drama_buzzworthiness",
   "count": 20,
@@ -82,7 +82,7 @@
       "first_air_date": "2026-05-15",
       "match_confidence": "high",
       "match_method": "tmdb_scored_search",
-      "match_notes": "query=The WONDERfools score=3205.4"
+      "match_notes": "query=The WONDERfools score=3198.3"
     },
     {
       "rank": 5,
@@ -102,7 +102,7 @@
       "first_air_date": "2026-04-25",
       "match_confidence": "high",
       "match_method": "tmdb_scored_search",
-      "match_notes": "query=Filing for Love score=3106.3"
+      "match_notes": "query=Filing for Love score=3104.4"
     },
     {
       "rank": 6,
@@ -202,7 +202,7 @@
       "first_air_date": "2026-04-29",
       "match_confidence": "high",
       "match_method": "tmdb_scored_search",
-      "match_notes": "query=Gold Land score=3090.4"
+      "match_notes": "query=Gold Land score=3089.4"
     },
     {
       "rank": 11,
