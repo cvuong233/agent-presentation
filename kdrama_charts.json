@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-28T01:49:02.794549+00:00",
+  "updated": "2026-05-28T07:30:29.201621+00:00",
   "source": "FUNdex",
   "mode": "weekly_tv_ott_drama_buzzworthiness",
   "count": 20,
@@ -42,7 +42,7 @@
       "first_air_date": "2026-05-11",
       "match_confidence": "high",
       "match_method": "tmdb_scored_search",
-      "match_notes": "query=The Legend of Kitchen Soldier score=3106.7"
+      "match_notes": "query=The Legend of Kitchen Soldier score=3106.5"
     },
     {
       "rank": 3,
@@ -122,7 +122,7 @@
       "first_air_date": "2026-04-20",
       "match_confidence": "high",
       "match_method": "tmdb_scored_search",
-      "match_notes": "query=The Scarecrow score=3091.0"
+      "match_notes": "query=The Scarecrow score=3089.9"
     },
     {
       "rank": 7,
@@ -182,7 +182,7 @@
       "first_air_date": "2026-04-22",
       "match_confidence": "high",
       "match_method": "tmdb_scored_search",
-      "match_notes": "query=Sold Out On You score=3095.5"
+      "match_notes": "query=Sold Out On You score=3098.6"
     },
     {
       "rank": 10,
@@ -202,7 +202,7 @@
       "first_air_date": "2026-04-29",
       "match_confidence": "high",
       "match_method": "tmdb_scored_search",
-      "match_notes": "query=Gold Land score=3089.4"
+      "match_notes": "query=Gold Land score=3097.7"
     },
     {
       "rank": 11,
@@ -242,7 +242,7 @@
       "first_air_date": "2026-04-17",
       "match_confidence": "high",
       "match_method": "tmdb_scored_search",
-      "match_notes": "query=Absolute Value of Romance score=3095.8"
+      "match_notes": "query=Absolute Value of Romance score=3096.1"
     },
     {
       "rank": 13,
@@ -282,7 +282,7 @@
       "first_air_date": "2026-01-31",
       "match_confidence": "high",
       "match_method": "tmdb_scored_search",
-      "match_notes": "query=Recipe For Love score=2373.6"
+      "match_notes": "query=Recipe For Love score=2373.8"
     },
     {
       "rank": 15,
@@ -302,7 +302,7 @@
       "first_air_date": "2026-05-30",
       "match_confidence": "high",
       "match_method": "tmdb_scored_search",
-      "match_notes": "query=Reborn Rookie score=3072.7"
+      "match_notes": "query=Reborn Rookie score=3072.9"
     },
     {
       "rank": 16,
@@ -322,7 +322,7 @@
       "first_air_date": "2026-02-23",
       "match_confidence": "high",
       "match_method": "tmdb_scored_search",
-      "match_notes": "query=Pearl in Red score=3075.8"
+      "match_notes": "query=Pearl in Red score=3075.4"
     },
     {
       "rank": 17,
@@ -382,7 +382,7 @@
       "first_air_date": "2026-03-30",
       "match_confidence": "high",
       "match_method": "tmdb_scored_search",
-      "match_notes": "query=Our Happy Days score=3072.7"
+      "match_notes": "query=Our Happy Days score=3072.5"
     },
     {
       "rank": 20,
@@ -402,7 +402,7 @@
       "first_air_date": "2026-03-26",
       "match_confidence": "high",
       "match_method": "tmdb_scored_search",
-      "match_notes": "query=Cabbage Your Life score=3072.8"
+      "match_notes": "query=Cabbage Your Life score=3073.2"
     }
   ]
 }
