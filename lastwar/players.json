@@ -1384,7 +1384,13 @@
             "reason": "Tuần trước hạng 18th / 18th last week"
           }
         ],
-        "subs": [],
+        "subs": [
+          {
+            "r": "R4",
+            "name": "cường khùng",
+            "reason": "Vắng 1 trận / Missed 1 match"
+          }
+        ],
         "dayoff": [],
         "slot": "A",
         "maxMain": 20,
