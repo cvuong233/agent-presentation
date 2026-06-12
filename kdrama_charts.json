@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-11T10:42:53.386888+00:00",
+  "updated": "2026-06-12T00:31:04.126077+00:00",
   "source": "FUNdex",
   "mode": "weekly_tv_ott_drama_buzzworthiness",
   "count": 20,
@@ -321,8 +321,8 @@
       "original_title_ko": "내일도 출근!",
       "first_air_date": "2026-06-22",
       "match_confidence": "high",
-      "match_method": "imdb_suggestion_fallback",
-      "match_notes": "query=See You at Work Tomorrow! score=2580.0"
+      "match_method": "tmdb_scored_search",
+      "match_notes": "query=See You at Work Tomorrow! score=3073.4"
     },
     {
       "rank": 17,
