@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-25T00:42:18.555515+00:00",
+  "updated": "2026-06-26T00:43:22.810433+00:00",
   "source": "FUNdex",
   "mode": "weekly_tv_ott_drama_buzzworthiness",
   "count": 20,
@@ -22,7 +22,7 @@
       "first_air_date": "2026-05-08",
       "match_confidence": "high",
       "match_method": "tmdb_scored_search",
-      "match_notes": "query=My Royal Nemesis score=3110.4"
+      "match_notes": "query=My Royal Nemesis score=3108.3"
     },
     {
       "rank": 2,
@@ -42,7 +42,7 @@
       "first_air_date": "2026-06-05",
       "match_confidence": "high",
       "match_method": "tmdb_scored_search",
-      "match_notes": "query=Teach You a Lesson score=3234.2"
+      "match_notes": "query=Teach You a Lesson score=3240.4"
     },
     {
       "rank": 3,
@@ -62,7 +62,7 @@
       "first_air_date": "2026-05-11",
       "match_confidence": "high",
       "match_method": "tmdb_scored_search",
-      "match_notes": "query=The Legend of Kitchen Soldier score=3095.5"
+      "match_notes": "query=The Legend of Kitchen Soldier score=3092.6"
     },
     {
       "rank": 4,
@@ -82,7 +82,7 @@
       "first_air_date": "2026-05-30",
       "match_confidence": "high",
       "match_method": "tmdb_scored_search",
-      "match_notes": "query=Reborn Rookie score=3090.7"
+      "match_notes": "query=Reborn Rookie score=3091.8"
     },
     {
       "rank": 5,
@@ -102,7 +102,7 @@
       "first_air_date": "2026-06-01",
       "match_confidence": "high",
       "match_method": "tmdb_scored_search",
-      "match_notes": "query=Doctor on the Edge score=3090.0"
+      "match_notes": "query=Doctor on the Edge score=3089.5"
     },
     {
       "rank": 6,
@@ -122,7 +122,7 @@
       "first_air_date": "2026-06-22",
       "match_confidence": "high",
       "match_method": "tmdb_scored_search",
-      "match_notes": "query=See You at Work Tomorrow! score=3114.6"
+      "match_notes": "query=See You at Work Tomorrow! score=3125.1"
     },
     {
       "rank": 7,
@@ -142,7 +142,7 @@
       "first_air_date": "2026-05-22",
       "match_confidence": "high",
       "match_method": "tmdb_scored_search",
-      "match_notes": "query=Fifties Professionals score=3080.7"
+      "match_notes": "query=Fifties Professionals score=3081.2"
     },
     {
       "rank": 8,
@@ -162,7 +162,7 @@
       "first_air_date": "2026-05-15",
       "match_confidence": "high",
       "match_method": "tmdb_scored_search",
-      "match_notes": "query=The WONDERfools score=3108.6"
+      "match_notes": "query=The WONDERfools score=3107.9"
     },
     {
       "rank": 9,
@@ -182,7 +182,7 @@
       "first_air_date": "2026-01-31",
       "match_confidence": "high",
       "match_method": "tmdb_scored_search",
-      "match_notes": "query=Recipe For Love score=2373.9"
+      "match_notes": "query=Recipe For Love score=2373.4"
     },
     {
       "rank": 10,
@@ -202,7 +202,7 @@
       "first_air_date": "2026-06-26",
       "match_confidence": "high",
       "match_method": "tmdb_scored_search",
-      "match_notes": "query=Agent Kim Reactivated score=3075.9"
+      "match_notes": "query=Agent Kim Reactivated score=3075.7"
     },
     {
       "rank": 11,
@@ -242,7 +242,7 @@
       "first_air_date": "2026-06-26",
       "match_confidence": "high",
       "match_method": "tmdb_scored_search",
-      "match_notes": "query=Notes from the Last Row score=3077.0"
+      "match_notes": "query=Notes from the Last Row score=3076.9"
     },
     {
       "rank": 13,
@@ -262,7 +262,7 @@
       "first_air_date": "2026-02-23",
       "match_confidence": "high",
       "match_method": "tmdb_scored_search",
-      "match_notes": "query=Pearl in Red score=3072.8"
+      "match_notes": "query=Pearl in Red score=3072.6"
     },
     {
       "rank": 14,
@@ -282,7 +282,7 @@
       "first_air_date": "2026-03-30",
       "match_confidence": "high",
       "match_method": "tmdb_scored_search",
-      "match_notes": "query=Our Happy Days score=3072.6"
+      "match_notes": "query=Our Happy Days score=3072.3"
     },
     {
       "rank": 15,
@@ -302,7 +302,7 @@
       "first_air_date": "2026-01-08",
       "match_confidence": "medium",
       "match_method": "tmdb_scored_search",
-      "match_notes": "query=The Husband score=1003.8"
+      "match_notes": "query=The Husband score=1003.4"
     },
     {
       "rank": 16,
@@ -315,14 +315,14 @@
       "source": "FUNdex",
       "source_url": "https://www.fundex.co.kr/fundex/funprogram.do?pjseq=13815",
       "poster": "https://www.fundex.co.kr/pjmeta/pjimg/pj_13815.jpg",
-      "imdb_id": "tt39367226",
+      "imdb_id": "tt43357366",
       "tmdb_id": 300727,
-      "tmdb_name": "For the Apartment",
+      "tmdb_name": "Apartment",
       "original_title_ko": "아파트",
       "first_air_date": "2026-07-11",
       "match_confidence": "medium",
       "match_method": "imdb_suggestion_fallback",
-      "match_notes": "query=The Apartment Job score=1000.0"
+      "match_notes": "query=The Apartment Job score=1260.0"
     },
     {
       "rank": 17,
@@ -342,7 +342,7 @@
       "first_air_date": "2026-04-29",
       "match_confidence": "high",
       "match_method": "tmdb_scored_search",
-      "match_notes": "query=Gold Land score=3082.8"
+      "match_notes": "query=Gold Land score=3079.6"
     },
     {
       "rank": 18,
@@ -362,7 +362,7 @@
       "first_air_date": "2026-07-04",
       "match_confidence": "high",
       "match_method": "tmdb_scored_search",
-      "match_notes": "query=Love In Sync score=3072.5"
+      "match_notes": "query=Love In Sync score=3072.3"
     },
     {
       "rank": 19,
@@ -375,14 +375,14 @@
       "source": "FUNdex",
       "source_url": "https://www.fundex.co.kr/fundex/funprogram.do?pjseq=13814",
       "poster": "https://www.fundex.co.kr/pjmeta/pjimg/pj_13814.jpg",
-      "imdb_id": "tt11374272",
+      "imdb_id": "tt43619121",
       "tmdb_id": 320406,
-      "tmdb_name": "Sister Sledge: We Are Family",
+      "tmdb_name": "Family Register",
       "original_title_ko": "가족관계증명서",
       "first_air_date": "2026-07-06",
-      "match_confidence": "low",
+      "match_confidence": "medium",
       "match_method": "imdb_suggestion_fallback",
-      "match_notes": "query=Family Resister score=0.0"
+      "match_notes": "query=Family Resister score=1180.0"
     },
     {
       "rank": 20,
@@ -395,14 +395,14 @@
       "source": "FUNdex",
       "source_url": "https://www.fundex.co.kr/fundex/funprogram.do?pjseq=13828",
       "poster": "https://www.fundex.co.kr/pjmeta/pjimg/pj_13828.jpg",
-      "imdb_id": null,
-      "tmdb_id": null,
-      "tmdb_name": null,
-      "original_title_ko": null,
-      "first_air_date": null,
-      "match_confidence": null,
-      "match_method": null,
-      "match_notes": null
+      "imdb_id": "tt43592244",
+      "tmdb_id": 322055,
+      "tmdb_name": "The Prosecutor's Proposal",
+      "original_title_ko": "검사실의 제안",
+      "first_air_date": "2026-06-25",
+      "match_confidence": "high",
+      "match_method": "tmdb_scored_search",
+      "match_notes": "query=검사실의 제안 score=2882.3"
     }
   ]
 }
