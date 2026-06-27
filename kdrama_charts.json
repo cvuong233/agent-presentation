@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-26T00:43:22.810433+00:00",
+  "updated": "2026-06-27T00:40:56.526725+00:00",
   "source": "FUNdex",
   "mode": "weekly_tv_ott_drama_buzzworthiness",
   "count": 20,
@@ -22,7 +22,7 @@
       "first_air_date": "2026-05-08",
       "match_confidence": "high",
       "match_method": "tmdb_scored_search",
-      "match_notes": "query=My Royal Nemesis score=3108.3"
+      "match_notes": "query=My Royal Nemesis score=3108.1"
     },
     {
       "rank": 2,
@@ -42,7 +42,7 @@
       "first_air_date": "2026-06-05",
       "match_confidence": "high",
       "match_method": "tmdb_scored_search",
-      "match_notes": "query=Teach You a Lesson score=3240.4"
+      "match_notes": "query=Teach You a Lesson score=3250.6"
     },
     {
       "rank": 3,
@@ -62,7 +62,7 @@
       "first_air_date": "2026-05-11",
       "match_confidence": "high",
       "match_method": "tmdb_scored_search",
-      "match_notes": "query=The Legend of Kitchen Soldier score=3092.6"
+      "match_notes": "query=The Legend of Kitchen Soldier score=3091.3"
     },
     {
       "rank": 4,
@@ -82,7 +82,7 @@
       "first_air_date": "2026-05-30",
       "match_confidence": "high",
       "match_method": "tmdb_scored_search",
-      "match_notes": "query=Reborn Rookie score=3091.8"
+      "match_notes": "query=Reborn Rookie score=3090.2"
     },
     {
       "rank": 5,
@@ -102,7 +102,7 @@
       "first_air_date": "2026-06-01",
       "match_confidence": "high",
       "match_method": "tmdb_scored_search",
-      "match_notes": "query=Doctor on the Edge score=3089.5"
+      "match_notes": "query=Doctor on the Edge score=3091.1"
     },
     {
       "rank": 6,
@@ -122,7 +122,7 @@
       "first_air_date": "2026-06-22",
       "match_confidence": "high",
       "match_method": "tmdb_scored_search",
-      "match_notes": "query=See You at Work Tomorrow! score=3125.1"
+      "match_notes": "query=See You at Work Tomorrow! score=3131.4"
     },
     {
       "rank": 7,
@@ -142,7 +142,7 @@
       "first_air_date": "2026-05-22",
       "match_confidence": "high",
       "match_method": "tmdb_scored_search",
-      "match_notes": "query=Fifties Professionals score=3081.2"
+      "match_notes": "query=Fifties Professionals score=3081.9"
     },
     {
       "rank": 8,
@@ -162,7 +162,7 @@
       "first_air_date": "2026-05-15",
       "match_confidence": "high",
       "match_method": "tmdb_scored_search",
-      "match_notes": "query=The WONDERfools score=3107.9"
+      "match_notes": "query=The WONDERfools score=3108.1"
     },
     {
       "rank": 9,
@@ -182,7 +182,7 @@
       "first_air_date": "2026-01-31",
       "match_confidence": "high",
       "match_method": "tmdb_scored_search",
-      "match_notes": "query=Recipe For Love score=2373.4"
+      "match_notes": "query=Recipe For Love score=2374.0"
     },
     {
       "rank": 10,
@@ -202,7 +202,7 @@
       "first_air_date": "2026-06-26",
       "match_confidence": "high",
       "match_method": "tmdb_scored_search",
-      "match_notes": "query=Agent Kim Reactivated score=3075.7"
+      "match_notes": "query=Agent Kim Reactivated score=3078.7"
     },
     {
       "rank": 11,
@@ -222,7 +222,7 @@
       "first_air_date": "2025-12-15",
       "match_confidence": "high",
       "match_method": "tmdb_scored_search",
-      "match_notes": "query=First Man score=2224.3"
+      "match_notes": "query=First Man score=2224.1"
     },
     {
       "rank": 12,
@@ -242,7 +242,7 @@
       "first_air_date": "2026-06-26",
       "match_confidence": "high",
       "match_method": "tmdb_scored_search",
-      "match_notes": "query=Notes from the Last Row score=3076.9"
+      "match_notes": "query=Notes from the Last Row score=3077.6"
     },
     {
       "rank": 13,
@@ -262,7 +262,7 @@
       "first_air_date": "2026-02-23",
       "match_confidence": "high",
       "match_method": "tmdb_scored_search",
-      "match_notes": "query=Pearl in Red score=3072.6"
+      "match_notes": "query=Pearl in Red score=3073.2"
     },
     {
       "rank": 14,
@@ -282,7 +282,7 @@
       "first_air_date": "2026-03-30",
       "match_confidence": "high",
       "match_method": "tmdb_scored_search",
-      "match_notes": "query=Our Happy Days score=3072.3"
+      "match_notes": "query=Our Happy Days score=3072.4"
     },
     {
       "rank": 15,
@@ -302,7 +302,7 @@
       "first_air_date": "2026-01-08",
       "match_confidence": "medium",
       "match_method": "tmdb_scored_search",
-      "match_notes": "query=The Husband score=1003.4"
+      "match_notes": "query=The Husband score=1004.2"
     },
     {
       "rank": 16,
@@ -342,7 +342,7 @@
       "first_air_date": "2026-04-29",
       "match_confidence": "high",
       "match_method": "tmdb_scored_search",
-      "match_notes": "query=Gold Land score=3079.6"
+      "match_notes": "query=Gold Land score=3079.2"
     },
     {
       "rank": 18,
@@ -402,7 +402,7 @@
       "first_air_date": "2026-06-25",
       "match_confidence": "high",
       "match_method": "tmdb_scored_search",
-      "match_notes": "query=검사실의 제안 score=2882.3"
+      "match_notes": "query=검사실의 제안 score=2931.7"
     }
   ]
 }
