@@ -55,7 +55,7 @@
       "SanTa 1386",
       "e Asche",
       "Shashank1411",
-      "Thanh Tân 99",
+      "Thanhh Tân",
       "Tommy4014",
       "Trường Kiên",
       "Tuấn vĩ",
@@ -106,7 +106,8 @@
       "Mrpigvn",
       "Nguyện VT",
       "kevkevkev123",
-      "thangnet"
+      "thangnet",
+      "임윤아ヽKK"
     ]
   },
   "last_matches": {
@@ -127,7 +128,7 @@
           "임윤아ヽKK": 1710137,
           "RùaNgáo": 1462114,
           "tâm1980": 1371872,
-          "Thanh Tân 99": 1314947,
+          "Thanhh Tân": 1314947,
           "Shashank1411": 1086975,
           "Yunnin": 1067129,
           "wolfwitch": 868772,
@@ -178,7 +179,7 @@
           "zdevils": 7174496,
           "anh thợ sửa máy": 7063116,
           "Rymi68": 6995729,
-          "Thanh Tân 99": 6364199,
+          "Thanhh Tân": 6364199,
           "wolfwitch": 6264021,
           "tâm1980": 5974664,
           "Aaaluan": 5821748,
@@ -369,7 +370,7 @@
       "last_hn_score": 4747210,
       "last_sm_score": 810264
     },
-    "Thanh Tân 99": {
+    "Thanhh Tân": {
       "rank": "R3",
       "yc": { "hn": 0, "sm": 0 },
       "cm": { "hn": 0, "sm": 0 },
@@ -741,6 +742,12 @@
       "cm": { "hn": 0, "sm": 0 },
       "last_hn_score": 11348475,
       "last_sm_score": 4024644
+    },
+    "임윤아ヽKK": {
+      "rank": "R1",
+      "yc": { "hn": 0, "sm": 0 },
+      "cm": { "hn": 0, "sm": 0 },
+      "last_sm_score": 1710137
     }
   },
   "next_lineup": {
@@ -759,12 +766,13 @@
           { "r": "R3", "name": "Kute Gold", "reason": "Tuần trước hạng 9th / 9th last week" },
           { "r": "R3", "name": "RùaNgáo", "reason": "Tuần trước hạng 11th / 11th last week" },
           { "r": "R3", "name": "tâm1980", "reason": "Tuần trước hạng 12th / 12th last week" },
-          { "r": "R3", "name": "Thanh Tân 99", "reason": "Tuần trước hạng 13th / 13th last week" },
+          { "r": "R3", "name": "Thanhh Tân", "reason": "Tuần trước hạng 13th / 13th last week" },
           { "r": "R3", "name": "Shashank1411", "reason": "Tuần trước hạng 14th / 14th last week" },
           { "r": "R3", "name": "Yunnin", "reason": "Tuần trước hạng 15th / 15th last week" },
           { "r": "R3", "name": "Indefatigabl3", "reason": "Tuần trước hạng 18th / 18th last week" },
           { "r": "R3", "name": "Aaaluan", "reason": "Tuần trước hạng 19th / 19th last week" },
           { "r": "R3", "name": "PewPewBoi", "reason": "Tuần trước hạng 20th / 20th last week" },
+          { "r": "R1", "name": "임윤아ヽKK", "reason": "Tuần trước hạng 10th / 10th last week" },
           { "r": "R4", "name": "Haizzzzzzzzzzzz", "reason": "Tuần trước hạng 2nd / 2nd last week" }
         ],
         "subs": [],
@@ -823,7 +831,7 @@
           { "r": "R3", "name": "Dầu Thơm MeoBinh", "reason": "Tuần trước hạng 5th / 5th last week" },
           { "r": "R3", "name": "Đập Chai", "reason": "Tuần trước hạng 7th / 7th last week" },
           { "r": "R3", "name": "anh thợ sửa máy", "reason": "Tuần trước hạng 9th / 9th last week" },
-          { "r": "R3", "name": "Thanh Tân 99", "reason": "Tuần trước hạng 11th / 11th last week" },
+          { "r": "R3", "name": "Thanhh Tân", "reason": "Tuần trước hạng 11th / 11th last week" },
           { "r": "R3", "name": "tâm1980", "reason": "Tuần trước hạng 13th / 13th last week" },
           { "r": "R3", "name": "Aaaluan", "reason": "Tuần trước hạng 14th / 14th last week" },
           { "r": "R3", "name": "Shashank1411", "reason": "Tuần trước hạng 15th / 15th last week" },
