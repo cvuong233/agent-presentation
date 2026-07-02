@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-01T00:43:17.481919+00:00",
+  "updated": "2026-07-02T00:41:00.389883+00:00",
   "source": "FUNdex",
   "mode": "weekly_tv_ott_drama_buzzworthiness",
   "count": 20,
@@ -22,7 +22,7 @@
       "first_air_date": "2026-06-26",
       "match_confidence": "high",
       "match_method": "tmdb_scored_search",
-      "match_notes": "query=Notes from the Last Row score=3274.6"
+      "match_notes": "query=Notes from the Last Row score=3284.2"
     },
     {
       "rank": 2,
@@ -42,7 +42,7 @@
       "first_air_date": "2026-06-26",
       "match_confidence": "high",
       "match_method": "tmdb_scored_search",
-      "match_notes": "query=Agent Kim Reactivated score=3273.1"
+      "match_notes": "query=Agent Kim Reactivated score=3283.3"
     },
     {
       "rank": 3,
@@ -102,7 +102,7 @@
       "first_air_date": "2026-06-22",
       "match_confidence": "high",
       "match_method": "tmdb_scored_search",
-      "match_notes": "query=See You at Work Tomorrow! score=3142.1"
+      "match_notes": "query=See You at Work Tomorrow! score=3142.7"
     },
     {
       "rank": 6,
@@ -122,7 +122,7 @@
       "first_air_date": "2026-05-11",
       "match_confidence": "high",
       "match_method": "tmdb_scored_search",
-      "match_notes": "query=The Legend of Kitchen Soldier score=3089.3"
+      "match_notes": "query=The Legend of Kitchen Soldier score=3090.0"
     },
     {
       "rank": 7,
@@ -142,7 +142,7 @@
       "first_air_date": "2026-06-01",
       "match_confidence": "high",
       "match_method": "tmdb_scored_search",
-      "match_notes": "query=Doctor on the Edge score=3094.3"
+      "match_notes": "query=Doctor on the Edge score=3095.2"
     },
     {
       "rank": 8,
@@ -162,7 +162,7 @@
       "first_air_date": "2026-05-22",
       "match_confidence": "high",
       "match_method": "tmdb_scored_search",
-      "match_notes": "query=Fifties Professionals score=3088.0"
+      "match_notes": "query=Fifties Professionals score=3089.5"
     },
     {
       "rank": 9,
@@ -182,7 +182,7 @@
       "first_air_date": "2026-05-15",
       "match_confidence": "high",
       "match_method": "tmdb_scored_search",
-      "match_notes": "query=The WONDERfools score=3104.0"
+      "match_notes": "query=The WONDERfools score=3104.8"
     },
     {
       "rank": 10,
@@ -202,7 +202,7 @@
       "first_air_date": "2025-12-15",
       "match_confidence": "high",
       "match_method": "tmdb_scored_search",
-      "match_notes": "query=First Man score=2228.0"
+      "match_notes": "query=First Man score=2227.6"
     },
     {
       "rank": 11,
@@ -222,7 +222,7 @@
       "first_air_date": "2026-01-31",
       "match_confidence": "high",
       "match_method": "tmdb_scored_search",
-      "match_notes": "query=Recipe For Love score=2375.9"
+      "match_notes": "query=Recipe For Love score=2375.7"
     },
     {
       "rank": 12,
