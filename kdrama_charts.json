@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-04T02:26:40.211000+00:00",
+  "updated": "2026-07-05T02:35:56.414338+00:00",
   "source": "FUNdex",
   "mode": "weekly_tv_ott_drama_buzzworthiness",
   "count": 20,
@@ -22,7 +22,7 @@
       "first_air_date": "2026-06-26",
       "match_confidence": "high",
       "match_method": "tmdb_scored_search",
-      "match_notes": "query=Notes from the Last Row score=3253.6"
+      "match_notes": "query=Notes from the Last Row score=3224.2"
     },
     {
       "rank": 2,
@@ -42,7 +42,7 @@
       "first_air_date": "2026-06-26",
       "match_confidence": "high",
       "match_method": "tmdb_scored_search",
-      "match_notes": "query=Agent Kim Reactivated score=3296.5"
+      "match_notes": "query=Agent Kim Reactivated score=3298.7"
     },
     {
       "rank": 3,
@@ -102,7 +102,7 @@
       "first_air_date": "2026-06-22",
       "match_confidence": "high",
       "match_method": "tmdb_scored_search",
-      "match_notes": "query=See You at Work Tomorrow! score=3140.0"
+      "match_notes": "query=See You at Work Tomorrow! score=3139.5"
     },
     {
       "rank": 6,
@@ -122,7 +122,7 @@
       "first_air_date": "2026-05-11",
       "match_confidence": "high",
       "match_method": "tmdb_scored_search",
-      "match_notes": "query=The Legend of Kitchen Soldier score=3090.2"
+      "match_notes": "query=The Legend of Kitchen Soldier score=3090.4"
     },
     {
       "rank": 7,
@@ -142,7 +142,7 @@
       "first_air_date": "2026-06-01",
       "match_confidence": "high",
       "match_method": "tmdb_scored_search",
-      "match_notes": "query=Doctor on the Edge score=3095.5"
+      "match_notes": "query=Doctor on the Edge score=3095.9"
     },
     {
       "rank": 8,
@@ -162,7 +162,7 @@
       "first_air_date": "2026-05-22",
       "match_confidence": "high",
       "match_method": "tmdb_scored_search",
-      "match_notes": "query=Fifties Professionals score=3088.1"
+      "match_notes": "query=Fifties Professionals score=3087.7"
     },
     {
       "rank": 9,
@@ -182,7 +182,7 @@
       "first_air_date": "2026-05-15",
       "match_confidence": "high",
       "match_method": "tmdb_scored_search",
-      "match_notes": "query=The WONDERfools score=3103.8"
+      "match_notes": "query=The WONDERfools score=3103.4"
     },
     {
       "rank": 10,
@@ -202,7 +202,7 @@
       "first_air_date": "2025-12-15",
       "match_confidence": "high",
       "match_method": "tmdb_scored_search",
-      "match_notes": "query=First Man score=2228.4"
+      "match_notes": "query=First Man score=2227.9"
     },
     {
       "rank": 11,
@@ -242,7 +242,7 @@
       "first_air_date": "2026-07-17",
       "match_confidence": "high",
       "match_method": "tmdb_scored_search",
-      "match_notes": "query=The East Palace score=3079.3"
+      "match_notes": "query=The East Palace score=3078.8"
     },
     {
       "rank": 13,
@@ -262,7 +262,7 @@
       "first_air_date": "2026-07-13",
       "match_confidence": "high",
       "match_method": "tmdb_scored_search",
-      "match_notes": "query=Dream To You score=3081.3"
+      "match_notes": "query=Dream To You score=3080.7"
     },
     {
       "rank": 14,
@@ -302,7 +302,7 @@
       "first_air_date": "2026-02-23",
       "match_confidence": "high",
       "match_method": "tmdb_scored_search",
-      "match_notes": "query=Pearl in Red score=3076.5"
+      "match_notes": "query=Pearl in Red score=3076.2"
     },
     {
       "rank": 16,
@@ -322,7 +322,7 @@
       "first_air_date": "2026-03-30",
       "match_confidence": "high",
       "match_method": "tmdb_scored_search",
-      "match_notes": "query=Our Happy Days score=3074.0"
+      "match_notes": "query=Our Happy Days score=3074.6"
     },
     {
       "rank": 17,
@@ -342,7 +342,7 @@
       "first_air_date": "2026-07-04",
       "match_confidence": "high",
       "match_method": "tmdb_scored_search",
-      "match_notes": "query=The Husband score=3078.6"
+      "match_notes": "query=The Husband score=3084.6"
     },
     {
       "rank": 18,
@@ -361,8 +361,8 @@
       "original_title_ko": "아파트",
       "first_air_date": "2026-07-11",
       "match_confidence": "high",
-      "match_method": "imdb_suggestion_fallback",
-      "match_notes": "query=The Apartment Job score=2580.0"
+      "match_method": "tmdb_scored_search",
+      "match_notes": "query=The Apartment Job score=3079.4"
     },
     {
       "rank": 19,
@@ -382,7 +382,7 @@
       "first_air_date": "2026-06-25",
       "match_confidence": "high",
       "match_method": "tmdb_scored_search",
-      "match_notes": "query=The Prosecutors Proposal score=2430.4"
+      "match_notes": "query=The Prosecutors Proposal score=2434.5"
     },
     {
       "rank": 20,
@@ -402,7 +402,7 @@
       "first_air_date": "2026-07-04",
       "match_confidence": "high",
       "match_method": "tmdb_scored_search",
-      "match_notes": "query=Love In Sync score=3076.0"
+      "match_notes": "query=Love In Sync score=3076.7"
     }
   ]
 }
