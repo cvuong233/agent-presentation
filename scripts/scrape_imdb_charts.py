@@ -8,10 +8,38 @@ import asyncio
 import json
 import re
 import sys
+import time
+import urllib.request
 from datetime import datetime, timezone
 from pathlib import Path
 
 from playwright.async_api import async_playwright
+
+TMDB_API_KEY = "1f54bd990f1cdfb230adb312546d765d"
+TMDB_BASE    = "https://api.themoviedb.org/3"
+TMDB_IMG_BASE = "https://image.tmdb.org/t/p/w780"
+
+
+def tmdb_find_by_imdb(imdb_id: str) -> dict:
+    """Fetch TMDB data for a title by its IMDb ID. Returns {} on failure."""
+    if not imdb_id:
+        return {}
+    url = f"{TMDB_BASE}/find/{imdb_id}?external_source=imdb_id&api_key={TMDB_API_KEY}"
+    try:
+        with urllib.request.urlopen(url, timeout=10) as r:
+            data = json.loads(r.read())
+        # Try movie results first, then TV
+        for key in ("movie_results", "tv_results"):
+            results = data.get(key, [])
+            if results:
+                hit = results[0]
+                return {
+                    "tmdbId": hit.get("id"),
+                    "backdropPath": hit.get("backdrop_path") or "",
+                }
+    except Exception:
+        pass
+    return {}
 
 
 def format_votes(count: int) -> str:
@@ -166,6 +194,19 @@ async def main():
         print(f"  ✓ {len(tv)} TV shows")
 
         await browser.close()
+
+    # Enrich with TMDB backdrop_path and tmdbId
+    print("\nEnriching with TMDB data …")
+    for section, entries in [("movies", movies), ("tv", tv)]:
+        for entry in entries:
+            imdb_id = entry.get("imdb_id", "")
+            tmdb = tmdb_find_by_imdb(imdb_id)
+            if tmdb.get("tmdbId"):
+                entry["tmdbId"] = tmdb["tmdbId"]
+            if tmdb.get("backdropPath"):
+                entry["backdropPath"] = tmdb["backdropPath"]
+            time.sleep(0.1)  # rate-limit TMDB
+        print(f"  ✓ {section} enriched")
 
     output = {
         "updated": datetime.now(timezone.utc).isoformat(),

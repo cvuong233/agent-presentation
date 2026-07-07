@@ -96,6 +96,7 @@ def find_tmdb_show(title: str, year: str | None = None) -> dict | None:
         "tmdb_id":       best["id"],
         "tmdb_name":     best.get("name", ""),
         "first_air_date": best.get("first_air_date", ""),
+        "backdrop_path": best.get("backdrop_path") or "",
         "match_confidence": confidence,
         "match_method":  match_method,
         "match_notes":   match_notes,
@@ -290,14 +291,16 @@ async def main():
             method     = ""
             notes      = ""
 
+            backdrop_path = ""
             if tmdb_info:
-                tmdb_id    = tmdb_info["tmdb_id"]
-                tmdb_name  = tmdb_info["tmdb_name"]
-                first_air  = tmdb_info["first_air_date"]
-                confidence = tmdb_info["match_confidence"]
-                method     = tmdb_info["match_method"]
-                notes      = tmdb_info["match_notes"]
-                imdb_id    = get_imdb_id(tmdb_id)
+                tmdb_id       = tmdb_info["tmdb_id"]
+                tmdb_name     = tmdb_info["tmdb_name"]
+                first_air     = tmdb_info["first_air_date"]
+                backdrop_path = tmdb_info.get("backdrop_path", "")
+                confidence    = tmdb_info["match_confidence"]
+                method        = tmdb_info["match_method"]
+                notes         = tmdb_info["match_notes"]
+                imdb_id       = get_imdb_id(tmdb_id)
                 time.sleep(0.25)
 
             item: dict = {
@@ -317,6 +320,8 @@ async def main():
             if tmdb_id:
                 item["tmdb_id"]   = tmdb_id
                 item["tmdb_name"] = tmdb_name
+            if backdrop_path:
+                item["backdropPath"] = backdrop_path
             if korean_title:
                 item["original_title_ko"] = korean_title
             if first_air:
