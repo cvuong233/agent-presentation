@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-07T09:30:58.422423+00:00",
+  "updated": "2026-07-08T02:09:55.490410+00:00",
   "source": "FUNdex",
   "mode": "weekly_tv_ott_drama_buzzworthiness",
   "count": 20,
@@ -43,8 +43,8 @@
       "original_title_ko": "신입사원 강회장",
       "first_air_date": "2026-05-30",
       "match_confidence": "high",
-      "match_method": "imdb_suggestion_fallback",
-      "match_notes": "query=Reborn Rookie score=2580.0"
+      "match_method": "tmdb_scored_search",
+      "match_notes": "query=Reborn Rookie score=3104.0"
     },
     {
       "rank": 3,
@@ -64,8 +64,8 @@
       "original_title_ko": "맨 끝줄 소년",
       "first_air_date": "2026-06-26",
       "match_confidence": "high",
-      "match_method": "imdb_suggestion_fallback",
-      "match_notes": "query=Notes from the Last Row score=2580.0"
+      "match_method": "tmdb_scored_search",
+      "match_notes": "query=Notes from the Last Row score=3152.6"
     },
     {
       "rank": 4,
@@ -85,8 +85,8 @@
       "original_title_ko": "참교육",
       "first_air_date": "2026-06-05",
       "match_confidence": "high",
-      "match_method": "imdb_suggestion_fallback",
-      "match_notes": "query=Teach You a Lesson score=2580.0"
+      "match_method": "tmdb_scored_search",
+      "match_notes": "query=Teach You a Lesson score=3214.3"
     },
     {
       "rank": 5,
@@ -106,8 +106,8 @@
       "original_title_ko": "내일도 출근!",
       "first_air_date": "2026-06-22",
       "match_confidence": "high",
-      "match_method": "imdb_suggestion_fallback",
-      "match_notes": "query=See You at Work Tomorrow! score=2580.0"
+      "match_method": "tmdb_scored_search",
+      "match_notes": "query=See You at Work Tomorrow! score=3128.1"
     },
     {
       "rank": 6,
@@ -120,15 +120,15 @@
       "source": "FUNdex",
       "source_url": "https://www.fundex.co.kr/fundex/funprogram.do?pjseq=13648",
       "poster": "https://www.fundex.co.kr/pjmeta/pjimg/pj_13648.jpg",
-      "imdb_id": "tt38647911",
-      "tmdb_id": 278271,
-      "tmdb_name": "The Invisible Man and His Soon-to-Be Wife",
-      "backdropPath": "/8DEkl9AyRl8mvyvIirCsVvyYAg8.jpg",
-      "original_title_ko": "透明男と人間女～そのうち夫婦になるふたり～",
-      "first_air_date": "2026-01-08",
-      "match_confidence": "medium",
+      "imdb_id": "tt39393581",
+      "tmdb_id": 300954,
+      "tmdb_name": "The Husband",
+      "backdropPath": "/gstqnEsAPUyH7UGesUivqCdbcZr.jpg",
+      "original_title_ko": "결혼의 완성",
+      "first_air_date": "2026-07-04",
+      "match_confidence": "high",
       "match_method": "tmdb_scored_search",
-      "match_notes": "query=TheHusband score=1006.8"
+      "match_notes": "query=The Husband score=3091.0"
     },
     {
       "rank": 7,
@@ -169,8 +169,8 @@
       "original_title_ko": "취사병 전설이 되다",
       "first_air_date": "2026-05-11",
       "match_confidence": "high",
-      "match_method": "imdb_suggestion_fallback",
-      "match_notes": "query=The Legend of Kitchen Soldier score=2580.0"
+      "match_method": "tmdb_scored_search",
+      "match_notes": "query=The Legend of Kitchen Soldier score=3088.3"
     },
     {
       "rank": 9,
@@ -212,7 +212,7 @@
       "first_air_date": "2026-07-17",
       "match_confidence": "high",
       "match_method": "tmdb_scored_search",
-      "match_notes": "query=The East Palace score=3077.3"
+      "match_notes": "query=The East Palace score=3076.9"
     },
     {
       "rank": 11,
@@ -227,13 +227,13 @@
       "poster": "https://www.fundex.co.kr/pjmeta/pjimg/pj_13457.jpg",
       "imdb_id": "tt39073388",
       "tmdb_id": 303076,
-      "tmdb_name": "First Man",
+      "tmdb_name": "The First Man",
       "backdropPath": "/mHp8UKRPwZNjBmt9rncemEzIa6O.jpg",
       "original_title_ko": "첫 번째 남자",
       "first_air_date": "2025-12-15",
       "match_confidence": "high",
-      "match_method": "imdb_suggestion_fallback",
-      "match_notes": "query=First Man score=2580.0"
+      "match_method": "tmdb_scored_search",
+      "match_notes": "query=First Man score=2227.0"
     },
     {
       "rank": 12,
@@ -248,13 +248,13 @@
       "poster": "https://www.fundex.co.kr/pjmeta/pjimg/pj_13806.jpg",
       "imdb_id": "tt43440117",
       "tmdb_id": 315007,
-      "tmdb_name": "Love in Sync",
+      "tmdb_name": "Love In Sync",
       "backdropPath": "/2p8SssGsphxOELypa5GREVTblwj.jpg",
       "original_title_ko": "공감세포",
       "first_air_date": "2026-07-04",
       "match_confidence": "high",
-      "match_method": "imdb_suggestion_fallback",
-      "match_notes": "query=Love In Sync score=2580.0"
+      "match_method": "tmdb_scored_search",
+      "match_notes": "query=Love In Sync score=3081.8"
     },
     {
       "rank": 13,
@@ -275,7 +275,7 @@
       "first_air_date": "2026-01-31",
       "match_confidence": "high",
       "match_method": "tmdb_scored_search",
-      "match_notes": "query=Recipe For Love score=2376.6"
+      "match_notes": "query=Recipe For Love score=2375.7"
     },
     {
       "rank": 14,
@@ -290,13 +290,13 @@
       "poster": "https://www.fundex.co.kr/pjmeta/pjimg/pj_13597.jpg",
       "imdb_id": "tt34440854",
       "tmdb_id": 259837,
-      "tmdb_name": "The Wonderfools",
+      "tmdb_name": "The WONDERfools",
       "backdropPath": "/810mXC0xkxXVtoKIPGGVgO9PuLh.jpg",
       "original_title_ko": "원더풀스",
       "first_air_date": "2026-05-15",
       "match_confidence": "high",
-      "match_method": "imdb_suggestion_fallback",
-      "match_notes": "query=The WONDERfools score=2580.0"
+      "match_method": "tmdb_scored_search",
+      "match_notes": "query=The WONDERfools score=3101.9"
     },
     {
       "rank": 15,
@@ -309,15 +309,15 @@
       "source": "FUNdex",
       "source_url": "https://www.fundex.co.kr/fundex/funprogram.do?pjseq=13817",
       "poster": "https://www.fundex.co.kr/pjmeta/pjimg/pj_13817.jpg",
-      "imdb_id": null,
-      "tmdb_id": null,
-      "tmdb_name": null,
-      "backdropPath": null,
-      "original_title_ko": null,
-      "first_air_date": null,
-      "match_confidence": null,
-      "match_method": null,
-      "match_notes": null
+      "imdb_id": "tt40247521",
+      "tmdb_id": 298610,
+      "tmdb_name": "Chilling Romance",
+      "backdropPath": "/p9tpGftvG18M5y5wsBmPrQpVBsd.jpg",
+      "original_title_ko": "오싹한 연애",
+      "first_air_date": "2026-07-18",
+      "match_confidence": "medium",
+      "match_method": "imdb_suggestion_fallback",
+      "match_notes": "query=Spooky in Love score=1180.0"
     },
     {
       "rank": 16,
@@ -337,8 +337,8 @@
       "original_title_ko": "그대에게 드림",
       "first_air_date": "2026-07-13",
       "match_confidence": "high",
-      "match_method": "imdb_suggestion_fallback",
-      "match_notes": "query=Dream To You score=2580.0"
+      "match_method": "tmdb_scored_search",
+      "match_notes": "query=Dream To You score=3078.9"
     },
     {
       "rank": 17,
@@ -357,9 +357,9 @@
       "backdropPath": "/feISh3qoREwIPWbSaLqqumbmh7m.jpg",
       "original_title_ko": "검사실의 제안",
       "first_air_date": "2026-06-25",
-      "match_confidence": "medium",
-      "match_method": "imdb_suggestion_fallback",
-      "match_notes": "query=The Prosecutors Proposal score=1180.0"
+      "match_confidence": "high",
+      "match_method": "tmdb_scored_search",
+      "match_notes": "query=The Prosecutors Proposal score=2376.2"
     },
     {
       "rank": 18,
@@ -401,7 +401,7 @@
       "first_air_date": "2026-03-30",
       "match_confidence": "high",
       "match_method": "tmdb_scored_search",
-      "match_notes": "query=기쁜 우리 좋은 날 score=3223.8"
+      "match_notes": "query=Our Happy Days score=3073.8"
     },
     {
       "rank": 20,
@@ -421,8 +421,8 @@
       "original_title_ko": "붉은 진주",
       "first_air_date": "2026-02-23",
       "match_confidence": "high",
-      "match_method": "imdb_suggestion_fallback",
-      "match_notes": "query=Pearl in Red score=2580.0"
+      "match_method": "tmdb_scored_search",
+      "match_notes": "query=Pearl in Red score=3075.9"
     }
   ]
 }
