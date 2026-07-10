@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-09T02:28:28.939599+00:00",
+  "updated": "2026-07-10T02:30:38.185288+00:00",
   "source": "FUNdex",
   "mode": "weekly_tv_ott_drama_buzzworthiness",
   "count": 20,
@@ -44,7 +44,7 @@
       "first_air_date": "2026-05-30",
       "match_confidence": "high",
       "match_method": "tmdb_scored_search",
-      "match_notes": "query=Reborn Rookie score=3104.0"
+      "match_notes": "query=Reborn Rookie score=3104.1"
     },
     {
       "rank": 3,
@@ -65,7 +65,7 @@
       "first_air_date": "2026-06-26",
       "match_confidence": "high",
       "match_method": "tmdb_scored_search",
-      "match_notes": "query=Notes from the Last Row score=3145.5"
+      "match_notes": "query=Notes from the Last Row score=3128.7"
     },
     {
       "rank": 4,
@@ -86,7 +86,7 @@
       "first_air_date": "2026-06-05",
       "match_confidence": "high",
       "match_method": "tmdb_scored_search",
-      "match_notes": "query=Teach You a Lesson score=3208.7"
+      "match_notes": "query=Teach You a Lesson score=3204.6"
     },
     {
       "rank": 5,
@@ -107,7 +107,7 @@
       "first_air_date": "2026-06-22",
       "match_confidence": "high",
       "match_method": "tmdb_scored_search",
-      "match_notes": "query=See You at Work Tomorrow! score=3125.9"
+      "match_notes": "query=See You at Work Tomorrow! score=3124.5"
     },
     {
       "rank": 6,
@@ -128,7 +128,7 @@
       "first_air_date": "2026-07-04",
       "match_confidence": "high",
       "match_method": "tmdb_scored_search",
-      "match_notes": "query=The Husband score=3089.3"
+      "match_notes": "query=The Husband score=3088.9"
     },
     {
       "rank": 7,
@@ -149,7 +149,7 @@
       "first_air_date": "2026-06-01",
       "match_confidence": "high",
       "match_method": "tmdb_scored_search",
-      "match_notes": "query=Doctor on the Edge score=3099.0"
+      "match_notes": "query=Doctor on the Edge score=3097.3"
     },
     {
       "rank": 8,
@@ -170,7 +170,7 @@
       "first_air_date": "2026-05-11",
       "match_confidence": "high",
       "match_method": "tmdb_scored_search",
-      "match_notes": "query=The Legend of Kitchen Soldier score=3087.0"
+      "match_notes": "query=The Legend of Kitchen Soldier score=3085.7"
     },
     {
       "rank": 9,
@@ -212,7 +212,7 @@
       "first_air_date": "2026-07-17",
       "match_confidence": "high",
       "match_method": "tmdb_scored_search",
-      "match_notes": "query=The East Palace score=3076.1"
+      "match_notes": "query=The East Palace score=3075.9"
     },
     {
       "rank": 11,
@@ -254,7 +254,7 @@
       "first_air_date": "2026-07-04",
       "match_confidence": "high",
       "match_method": "tmdb_scored_search",
-      "match_notes": "query=Love In Sync score=3080.8"
+      "match_notes": "query=Love In Sync score=3079.7"
     },
     {
       "rank": 13,
@@ -275,7 +275,7 @@
       "first_air_date": "2026-01-31",
       "match_confidence": "high",
       "match_method": "tmdb_scored_search",
-      "match_notes": "query=Recipe For Love score=2376.5"
+      "match_notes": "query=Recipe For Love score=2375.7"
     },
     {
       "rank": 14,
@@ -296,7 +296,7 @@
       "first_air_date": "2026-05-15",
       "match_confidence": "high",
       "match_method": "tmdb_scored_search",
-      "match_notes": "query=The WONDERfools score=3102.0"
+      "match_notes": "query=The WONDERfools score=3100.7"
     },
     {
       "rank": 15,
@@ -311,13 +311,13 @@
       "poster": "https://www.fundex.co.kr/pjmeta/pjimg/pj_13817.jpg",
       "imdb_id": "tt40247521",
       "tmdb_id": 298610,
-      "tmdb_name": "Chilling Romance",
+      "tmdb_name": "Spooky in Love",
       "backdropPath": "/p9tpGftvG18M5y5wsBmPrQpVBsd.jpg",
       "original_title_ko": "오싹한 연애",
       "first_air_date": "2026-07-18",
-      "match_confidence": "medium",
-      "match_method": "imdb_suggestion_fallback",
-      "match_notes": "query=Spooky in Love score=1180.0"
+      "match_confidence": "high",
+      "match_method": "tmdb_scored_search",
+      "match_notes": "query=Spooky in Love score=3075.2"
     },
     {
       "rank": 16,
@@ -338,7 +338,7 @@
       "first_air_date": "2026-07-13",
       "match_confidence": "high",
       "match_method": "tmdb_scored_search",
-      "match_notes": "query=Dream To You score=3078.9"
+      "match_notes": "query=Dream To You score=3078.6"
     },
     {
       "rank": 17,
@@ -359,7 +359,7 @@
       "first_air_date": "2026-06-25",
       "match_confidence": "high",
       "match_method": "tmdb_scored_search",
-      "match_notes": "query=The Prosecutors Proposal score=2376.2"
+      "match_notes": "query=The Prosecutors Proposal score=2423.7"
     },
     {
       "rank": 18,
@@ -378,9 +378,9 @@
       "backdropPath": "/xBFkSHJAco6XCwYZ3YRZc81pn22.jpg",
       "original_title_ko": "가족관계증명서",
       "first_air_date": "2026-07-06",
-      "match_confidence": "medium",
-      "match_method": "imdb_suggestion_fallback",
-      "match_notes": "query=Family Resister score=1180.0"
+      "match_confidence": "high",
+      "match_method": "tmdb_scored_search",
+      "match_notes": "query=가족관계증명서 score=2876.8"
     },
     {
       "rank": 19,
@@ -422,7 +422,7 @@
       "first_air_date": "2026-02-23",
       "match_confidence": "high",
       "match_method": "tmdb_scored_search",
-      "match_notes": "query=Pearl in Red score=3076.5"
+      "match_notes": "query=Pearl in Red score=3077.1"
     }
   ]
 }
