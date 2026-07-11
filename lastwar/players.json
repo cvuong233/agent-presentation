@@ -599,7 +599,7 @@
     "Chan Say Hi": {
       "rank": "R2",
       "yc": { "hn": 0, "sm": 0 },
-      "cm": { "hn": 24, "sm": 24 }
+      "cm": { "hn": 24, "sm": 0 }
     },
     "Hunterla0101": {
       "rank": "R2",
@@ -772,6 +772,7 @@
           { "r": "R3", "name": "Indefatigabl3", "reason": "Tuần trước hạng 16th / 16th last week" },
           { "r": "R3", "name": "PewPewBoi", "reason": "Tuần trước hạng 18th / 18th last week" },
           { "r": "R3", "name": "KYLEPHAM2401", "reason": "Mới thêm vào / Newly added" },
+          { "r": "R2", "name": "Chan Say Hi", "reason": "" },
           { "r": "R1", "name": "임윤아ヽKK", "reason": "Tuần trước hạng 19th / 19th last week" }
         ],
         "subs": [
