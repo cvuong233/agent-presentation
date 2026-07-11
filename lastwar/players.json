@@ -511,7 +511,7 @@
     "KYLEPHAM2401": {
       "rank": "R3",
       "yc": { "hn": 0, "sm": 0 },
-      "cm": { "hn": 24, "sm": 24 }
+      "cm": { "hn": 24, "sm": 0 }
     },
     "Mèo Xing": {
       "rank": "R3",
@@ -771,6 +771,7 @@
           { "r": "R3", "name": "Aaaluan", "reason": "Tuần trước hạng 15th / 15th last week" },
           { "r": "R3", "name": "Indefatigabl3", "reason": "Tuần trước hạng 16th / 16th last week" },
           { "r": "R3", "name": "PewPewBoi", "reason": "Tuần trước hạng 18th / 18th last week" },
+          { "r": "R3", "name": "KYLEPHAM2401", "reason": "Mới thêm vào / Newly added" },
           { "r": "R1", "name": "임윤아ヽKK", "reason": "Tuần trước hạng 19th / 19th last week" }
         ],
         "subs": [
