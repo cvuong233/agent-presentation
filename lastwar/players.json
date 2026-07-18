@@ -307,7 +307,7 @@
     "danhoanh": {
       "rank": "R3",
       "yc": { "hn": 0, "sm": 0 },
-      "cm": { "hn": 1, "sm": 0 },
+      "cm": { "hn": 0, "sm": 0 },
       "last_hn_score": 4848648,
       "last_sm_score": 1422062
     },
@@ -902,9 +902,7 @@
           { "r": "R3", "name": "Trai Cầu Tôm", "reason": "Tuần trước hạng 14th / 14th last week" },
           { "r": "R3", "name": "Đập Chai", "reason": "Tuần trước hạng 15th / 15th last week" }
         ],
-        "subs": [
-          { "r": "R3", "name": "danhoanh", "reason": "1 vắng liên tiếp HN-B / 1 consecutive miss (HN-B)" }
-        ],
+        "subs": [],
         "dayoff": [],
         "slot": "B",
         "maxMain": 20,
@@ -919,9 +917,7 @@
     "sm": { "A": [], "B": [] },
     "hn": {
       "A": [],
-      "B": [
-        { "name": "Mr Khoai Tây", "reason": "2 vắng liên tiếp HN-B / 2 consecutive misses HN-B" }
-      ]
+      "B": []
     }
   }
 }
