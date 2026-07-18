@@ -857,9 +857,7 @@
         ],
         "subs": [
           { "r": "R3", "name": "e Asche", "reason": "Tuần trước hạng 10th / 10th last week" },
-          { "r": "R3", "name": "Nguyenngoctuan", "reason": "Tuần trước hạng 16th / 16th last week" },
-          { "r": "R3", "name": "Aaaluan", "reason": "Vắng mặt / Absent" },
-          { "r": "R3", "name": "Indefatigabl3", "reason": "Vắng mặt / Absent" }
+          { "r": "R3", "name": "Nguyenngoctuan", "reason": "Tuần trước hạng 16th / 16th last week" }
         ],
         "dayoff": [],
         "slot": "A",
