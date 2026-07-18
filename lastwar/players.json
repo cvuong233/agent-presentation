@@ -403,7 +403,7 @@
     "e Asche": {
       "rank": "R3",
       "yc": { "hn": 0, "sm": 0 },
-      "cm": { "hn": 1, "sm": 0 },
+      "cm": { "hn": 0, "sm": 0 },
       "last_hn_score": 4487287,
       "last_sm_score": 1694375
     },
@@ -864,6 +864,7 @@
           { "r": "R4", "name": "Haizzzzzzzzzzzz", "reason": "Vắng mặt / Absent" },
           { "r": "R3", "name": "Little Yolo", "reason": "Tuần trước hạng 5th / 5th last week" },
           { "r": "R3", "name": "Kute Gold", "reason": "Tuần trước hạng 6th / 6th last week" },
+          { "r": "R3", "name": "e Asche", "reason": "Tuần trước hạng 10th / 10th last week - chuyển sang HN Team A / switched to HN Team A" },
           { "r": "R3", "name": "Thanhh Tân", "reason": "Tuần trước hạng 11th / 11th last week" },
           { "r": "R3", "name": "Shashank1411", "reason": "Tuần trước hạng 12th / 12th last week" },
           { "r": "R3", "name": "anh thợ sửa máy", "reason": "Tuần trước hạng 13th / 13th last week" },
@@ -874,9 +875,7 @@
           { "r": "R3", "name": "KYLEPHAM2401", "reason": "Tuần trước hạng 19th / 19th last week" },
           { "r": "R1", "name": "임윤아ヽKK", "reason": "Tuần trước hạng 9th / 9th last week" }
         ],
-        "subs": [
-          { "r": "R3", "name": "e Asche", "reason": "Tuần trước hạng 10th / 10th last week" }
-        ],
+        "subs": [],
         "dayoff": [],
         "slot": "A",
         "maxMain": 20,
@@ -904,8 +903,7 @@
           { "r": "R3", "name": "Đập Chai", "reason": "Tuần trước hạng 15th / 15th last week" }
         ],
         "subs": [
-          { "r": "R3", "name": "danhoanh", "reason": "1 vắng liên tiếp HN-B / 1 consecutive miss (HN-B)" },
-          { "r": "R3", "name": "e Asche", "reason": "Vắng HN-B, đã chơi HN-A / Missed HN-B, played HN-A" }
+          { "r": "R3", "name": "danhoanh", "reason": "1 vắng liên tiếp HN-B / 1 consecutive miss (HN-B)" }
         ],
         "dayoff": [],
         "slot": "B",
