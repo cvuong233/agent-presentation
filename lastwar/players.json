@@ -81,7 +81,8 @@
       "Kute Gold",
       "Trai Cầu Tôm",
       "MR Dương",
-      "sửa máy promax"
+      "sửa máy promax",
+      "Bi小悟空"
     ],
     "R2": [
       "1Mét45",
@@ -784,6 +785,12 @@
       "yc": { "hn": 0, "sm": 0 },
       "cm": { "hn": 0, "sm": 0 },
       "note": ""
+    },
+    "Bi小悟空": {
+      "rank": "R3",
+      "yc": { "hn": 0, "sm": 0 },
+      "cm": { "hn": 0, "sm": 0 },
+      "note": ""
     }
   },
   "next_lineup": {
@@ -813,7 +820,8 @@
         ],
         "subs": [
           { "r": "R3", "name": "KYLEPHAM2401", "reason": "Tuần trước hạng 21st, dư chính SM-A (tối đa 20) / 21st last week, overflow from SM-A main (max 20)" },
-          { "r": "R1", "name": "임윤아ヽKK", "reason": "1 vắng liên tiếp SM-A / 1 consecutive miss (SM-A)" }
+          { "r": "R1", "name": "임윤아ヽKK", "reason": "1 vắng liên tiếp SM-A / 1 consecutive miss (SM-A)" },
+          { "r": "R3", "name": "Bi小悟空", "reason": "Người chơi mới, SM-A chính đã đủ 20 / New player, SM-A main already full (20)" }
         ],
         "dayoff": [],
         "slot": "A",
