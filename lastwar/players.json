@@ -79,7 +79,9 @@
       "Lýkos",
       "hanubeast",
       "Kute Gold",
-      "Trai Cầu Tôm"
+      "Trai Cầu Tôm",
+      "MR Dương",
+      "sửa máy promax"
     ],
     "R2": [
       "1Mét45",
@@ -291,7 +293,7 @@
     "Nguyenngoctuan": {
       "rank": "R3",
       "yc": { "hn": 0, "sm": 0 },
-      "cm": { "hn": 1, "sm": 0 },
+      "cm": { "hn": 0, "sm": 0 },
       "last_sm_score": 898050,
       "last_hn_score": 2856197
     },
@@ -687,6 +689,19 @@
       "last_hn_score": 3157701,
       "last_sm_score": 1219088
     },
+    "MR Dương": {
+      "rank": "R3",
+      "yc": { "hn": 0, "sm": 0 },
+      "cm": { "hn": 0, "sm": 0 },
+      "last_hn_score": 9935646,
+      "last_sm_score": 1861581
+    },
+    "sửa máy promax": {
+      "rank": "R3",
+      "yc": { "hn": 0, "sm": 0 },
+      "cm": { "hn": 0, "sm": 0 },
+      "last_sm_score": 1487646
+    },
     "No CommenT": {
       "rank": "R2",
       "yc": { "hn": 0, "sm": 0 },
@@ -808,8 +823,10 @@
           { "r": "R4", "name": "Hemerage", "reason": "Tuần trước hạng 6th / 6th last week" },
           { "r": "R3", "name": "Vualidonzz", "reason": "Tuần trước hạng 2nd / 2nd last week" },
           { "r": "R3", "name": "NorthFog", "reason": "Tuần trước hạng 4th / 4th last week" },
+          { "r": "R3", "name": "MR Dương", "reason": "Tuần trước hạng 5th / 5th last week" },
           { "r": "R3", "name": "ÒOO", "reason": "Tuần trước hạng 7th / 7th last week" },
           { "r": "R3", "name": "e Asche", "reason": "Tuần trước hạng 8th / 8th last week" },
+          { "r": "R3", "name": "sửa máy promax", "reason": "Tuần trước hạng 9th / 9th last week" },
           { "r": "R3", "name": "danhoanh", "reason": "Tuần trước hạng 10th / 10th last week" },
           { "r": "R3", "name": "Chivas2026", "reason": "Tuần trước hạng 11th / 11th last week" },
           { "r": "R3", "name": "Đập Chai", "reason": "Tuần trước hạng 12th / 12th last week" },
@@ -820,10 +837,11 @@
           { "r": "R3", "name": "cu tí nhỏ xíu", "reason": "Tuần trước hạng 17th / 17th last week" },
           { "r": "R3", "name": "SanTa 1386", "reason": "Tuần trước hạng 18th / 18th last week" },
           { "r": "R3", "name": "Lýkos", "reason": "Tuần trước hạng 19th / 19th last week" },
-          { "r": "R3", "name": "Marines Malevolent", "reason": "Tuần trước hạng 20th / 20th last week" },
-          { "r": "R3", "name": "Nguyenngoctuan", "reason": "Tuần trước hạng 21st / 21st last week" }
+          { "r": "R3", "name": "Marines Malevolent", "reason": "Tuần trước hạng 20th / 20th last week" }
         ],
-        "subs": [],
+        "subs": [
+          { "r": "R3", "name": "Nguyenngoctuan", "reason": "Tuần trước hạng 21st, dư chính SM-B (tối đa 20) / 21st last week, overflow from SM-B main (max 20)" }
+        ],
         "dayoff": [],
         "slot": "B",
         "maxMain": 20,
@@ -850,14 +868,14 @@
           { "r": "R3", "name": "Shashank1411", "reason": "Tuần trước hạng 12th / 12th last week" },
           { "r": "R3", "name": "anh thợ sửa máy", "reason": "Tuần trước hạng 13th / 13th last week" },
           { "r": "R3", "name": "MrAugust2886", "reason": "Tuần trước hạng 14th / 14th last week" },
+          { "r": "R3", "name": "Nguyenngoctuan", "reason": "Tuần trước hạng 16th / 16th last week - chuyển sang HN Team A / switched to HN Team A" },
           { "r": "R3", "name": "RùaNgáo", "reason": "Tuần trước hạng 17th / 17th last week" },
           { "r": "R3", "name": "tâm1980", "reason": "Tuần trước hạng 18th / 18th last week" },
           { "r": "R3", "name": "KYLEPHAM2401", "reason": "Tuần trước hạng 19th / 19th last week" },
           { "r": "R1", "name": "임윤아ヽKK", "reason": "Tuần trước hạng 9th / 9th last week" }
         ],
         "subs": [
-          { "r": "R3", "name": "e Asche", "reason": "Tuần trước hạng 10th / 10th last week" },
-          { "r": "R3", "name": "Nguyenngoctuan", "reason": "Tuần trước hạng 16th / 16th last week" }
+          { "r": "R3", "name": "e Asche", "reason": "Tuần trước hạng 10th / 10th last week" }
         ],
         "dayoff": [],
         "slot": "A",
@@ -873,6 +891,7 @@
           { "r": "R4", "name": "Hemerage", "reason": "Tuần trước hạng 6th / 6th last week" },
           { "r": "R4", "name": "Hải Anh 0612", "reason": "Tuần trước hạng 7th / 7th last week" },
           { "r": "R3", "name": "Vualidonzz", "reason": "Tuần trước hạng 1st / 1st last week" },
+          { "r": "R3", "name": "MR Dương", "reason": "Tuần trước hạng 2nd / 2nd last week" },
           { "r": "R3", "name": "Chivas2026", "reason": "Tuần trước hạng 3rd / 3rd last week" },
           { "r": "R3", "name": "ÒOO", "reason": "Tuần trước hạng 5th / 5th last week" },
           { "r": "R3", "name": "NorthFog", "reason": "Tuần trước hạng 8th / 8th last week" },
@@ -886,8 +905,7 @@
         ],
         "subs": [
           { "r": "R3", "name": "danhoanh", "reason": "1 vắng liên tiếp HN-B / 1 consecutive miss (HN-B)" },
-          { "r": "R3", "name": "e Asche", "reason": "Vắng HN-B, đã chơi HN-A / Missed HN-B, played HN-A" },
-          { "r": "R3", "name": "Nguyenngoctuan", "reason": "Vắng HN-B, đã chơi HN-A / Missed HN-B, played HN-A" }
+          { "r": "R3", "name": "e Asche", "reason": "Vắng HN-B, đã chơi HN-A / Missed HN-B, played HN-A" }
         ],
         "dayoff": [],
         "slot": "B",
