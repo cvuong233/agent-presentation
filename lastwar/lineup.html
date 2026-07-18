@@ -859,9 +859,11 @@ function setLang(lang) {
 
 function localizeReason(reason) {
   if (!reason) return '';
-  const parts = reason.split(' / ');
-  if (parts.length === 2) return currentLang === 'vi' ? parts[0] : parts[1];
-  return reason;
+  const idx = currentLang === 'vi' ? 0 : 1;
+  return reason.split(' - ').map(clause => {
+    const parts = clause.split(' / ');
+    return parts.length === 2 ? parts[idx] : clause;
+  }).join(' - ');
 }
 
 let currentData = null;
