@@ -111,7 +111,6 @@
       "Nguyện VT",
       "kevkevkev123",
       "thangnet",
-      "임윤아ヽKK",
       "上官武命",
       "Bin 37"
     ]
@@ -393,8 +392,7 @@
       "rank": "R3",
       "yc": { "hn": 0, "sm": 0 },
       "cm": { "hn": 0, "sm": 24 },
-      "last_hn_score": 927757,
-      "dayoff": { "hn": "B" }
+      "last_hn_score": 927757
     },
     "Chivas2026": {
       "rank": "R3",
@@ -774,13 +772,6 @@
       "last_hn_score": 11078486,
       "last_sm_score": 5217825
     },
-    "임윤아ヽKK": {
-      "rank": "R1",
-      "yc": { "hn": 0, "sm": 0 },
-      "cm": { "hn": 0, "sm": 1 },
-      "last_sm_score": 10787,
-      "last_hn_score": 4886207
-    },
     "上官武命": {
       "rank": "R1",
       "yc": { "hn": 0, "sm": 0 },
@@ -827,7 +818,6 @@
         ],
         "subs": [
           { "r": "R3", "name": "KYLEPHAM2401", "reason": "Tuần trước hạng 21st, dư chính SM-A (tối đa 20) / 21st last week, overflow from SM-A main (max 20)" },
-          { "r": "R1", "name": "임윤아ヽKK", "reason": "1 vắng liên tiếp SM-A / 1 consecutive miss (SM-A)" },
           { "r": "R3", "name": "Bi小悟空", "reason": "Người chơi mới, SM-A chính đã đủ 20 / New player, SM-A main already full (20)" }
         ],
         "dayoff": [],
@@ -896,8 +886,7 @@
           { "r": "R3", "name": "Nguyenngoctuan", "reason": "Tuần trước hạng 16th / 16th last week - chuyển sang HN Team A / switched to HN Team A" },
           { "r": "R3", "name": "RùaNgáo", "reason": "Tuần trước hạng 17th / 17th last week" },
           { "r": "R3", "name": "tâm1980", "reason": "Tuần trước hạng 18th / 18th last week" },
-          { "r": "R3", "name": "KYLEPHAM2401", "reason": "Tuần trước hạng 19th / 19th last week" },
-          { "r": "R1", "name": "임윤아ヽKK", "reason": "Tuần trước hạng 9th / 9th last week" }
+          { "r": "R3", "name": "KYLEPHAM2401", "reason": "Tuần trước hạng 19th / 19th last week" }
         ],
         "subs": [],
         "dayoff": [],
@@ -926,7 +915,8 @@
           { "r": "R3", "name": "Trai Cầu Tôm", "reason": "Tuần trước hạng 14th / 14th last week" },
           { "r": "R3", "name": "Đập Chai", "reason": "Tuần trước hạng 15th / 15th last week" },
           { "r": "R1", "name": "上官武命", "reason": "Người chơi mới / New player" },
-          { "r": "R1", "name": "Bin 37", "reason": "Người chơi mới / New player" }
+          { "r": "R1", "name": "Bin 37", "reason": "Người chơi mới / New player" },
+          { "r": "R3", "name": "Tommy4014", "reason": "Quay lại sau khi nghỉ / Back from day off" }
         ],
         "subs": [],
         "dayoff": [],
