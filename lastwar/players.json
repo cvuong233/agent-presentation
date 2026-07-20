@@ -849,19 +849,18 @@
           { "r": "R3", "name": "danhoanh", "reason": "Tuần trước hạng 10th / 10th last week" },
           { "r": "R3", "name": "Chivas2026", "reason": "Tuần trước hạng 11th / 11th last week" },
           { "r": "R3", "name": "Đập Chai", "reason": "Tuần trước hạng 12th / 12th last week" },
-          { "r": "R3", "name": "anh thợ sửa máy", "reason": "Tuần trước hạng 13th / 13th last week" },
           { "r": "R3", "name": "hanubeast", "reason": "Tuần trước hạng 14th / 14th last week" },
           { "r": "R3", "name": "Trai Cầu Tôm", "reason": "Tuần trước hạng 15th / 15th last week" },
           { "r": "R3", "name": "Phạm khánhh", "reason": "Tuần trước hạng 16th / 16th last week" },
           { "r": "R3", "name": "cu tí nhỏ xíu", "reason": "Tuần trước hạng 17th / 17th last week" },
           { "r": "R3", "name": "SanTa 1386", "reason": "Tuần trước hạng 18th / 18th last week" },
           { "r": "R3", "name": "Lýkos", "reason": "Tuần trước hạng 19th / 19th last week" },
-          { "r": "R3", "name": "Marines Malevolent", "reason": "Tuần trước hạng 20th / 20th last week" }
+          { "r": "R3", "name": "Marines Malevolent", "reason": "Tuần trước hạng 20th / 20th last week" },
+          { "r": "R2", "name": "Bin 37", "reason": "Mới thêm vào / Newly added" }
         ],
         "subs": [
           { "r": "R3", "name": "Nguyenngoctuan", "reason": "Tuần trước hạng 21st, dư chính SM-B (tối đa 20) / 21st last week, overflow from SM-B main (max 20)" },
           { "r": "R1", "name": "上官武命", "reason": "Người chơi mới, SM-B chính đã đủ 20 / New player, SM-B main already full (20)" },
-          { "r": "R1", "name": "Bin 37", "reason": "Người chơi mới, SM-B chính đã đủ 20 / New player, SM-B main already full (20)" },
           { "r": "R1", "name": "ThíchThìNhích92", "reason": "Người chơi mới, SM-B chính đã đủ 20 / New player, SM-B main already full (20)" }
         ],
         "dayoff": [],
@@ -889,7 +888,7 @@
           { "r": "R3", "name": "e Asche", "reason": "Tuần trước hạng 10th / 10th last week - chuyển sang HN Team A / switched to HN Team A" },
           { "r": "R3", "name": "Thanhh Tân", "reason": "Tuần trước hạng 11th / 11th last week" },
           { "r": "R3", "name": "Shashank1411", "reason": "Tuần trước hạng 12th / 12th last week" },
-          { "r": "R3", "name": "anh thợ sửa máy", "reason": "Tuần trước hạng 13th / 13th last week" },
+          { "r": "R3", "name": "sửa máy promax", "reason": "Mới thêm vào / Newly added" },
           { "r": "R3", "name": "MrAugust2886", "reason": "Tuần trước hạng 14th / 14th last week" },
           { "r": "R3", "name": "Nguyenngoctuan", "reason": "Tuần trước hạng 16th / 16th last week - chuyển sang HN Team A / switched to HN Team A" },
           { "r": "R3", "name": "RùaNgáo", "reason": "Tuần trước hạng 17th / 17th last week" },
