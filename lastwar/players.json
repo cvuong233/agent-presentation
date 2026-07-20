@@ -112,7 +112,8 @@
       "kevkevkev123",
       "thangnet",
       "上官武命",
-      "Bin 37"
+      "Bin 37",
+      "ThíchThìNhích92"
     ]
   },
   "last_matches": {
@@ -789,6 +790,12 @@
       "yc": { "hn": 0, "sm": 0 },
       "cm": { "hn": 0, "sm": 0 },
       "note": ""
+    },
+    "ThíchThìNhích92": {
+      "rank": "R1",
+      "yc": { "hn": 0, "sm": 0 },
+      "cm": { "hn": 0, "sm": 0 },
+      "note": ""
     }
   },
   "next_lineup": {
@@ -854,7 +861,8 @@
         "subs": [
           { "r": "R3", "name": "Nguyenngoctuan", "reason": "Tuần trước hạng 21st, dư chính SM-B (tối đa 20) / 21st last week, overflow from SM-B main (max 20)" },
           { "r": "R1", "name": "上官武命", "reason": "Người chơi mới, SM-B chính đã đủ 20 / New player, SM-B main already full (20)" },
-          { "r": "R1", "name": "Bin 37", "reason": "Người chơi mới, SM-B chính đã đủ 20 / New player, SM-B main already full (20)" }
+          { "r": "R1", "name": "Bin 37", "reason": "Người chơi mới, SM-B chính đã đủ 20 / New player, SM-B main already full (20)" },
+          { "r": "R1", "name": "ThíchThìNhích92", "reason": "Người chơi mới, SM-B chính đã đủ 20 / New player, SM-B main already full (20)" }
         ],
         "dayoff": [],
         "slot": "B",
@@ -917,7 +925,8 @@
           { "r": "R3", "name": "Đập Chai", "reason": "Tuần trước hạng 15th / 15th last week" },
           { "r": "R1", "name": "上官武命", "reason": "Người chơi mới / New player" },
           { "r": "R1", "name": "Bin 37", "reason": "Người chơi mới / New player" },
-          { "r": "R3", "name": "Tommy4014", "reason": "Quay lại sau khi nghỉ / Back from day off" }
+          { "r": "R3", "name": "Tommy4014", "reason": "Quay lại sau khi nghỉ / Back from day off" },
+          { "r": "R1", "name": "ThíchThìNhích92", "reason": "Người chơi mới, HN-B chính chưa đủ 20 / New player, HN-B main not yet full" }
         ],
         "subs": [],
         "dayoff": [],
