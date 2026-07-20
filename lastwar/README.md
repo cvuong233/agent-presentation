@@ -14,8 +14,8 @@ Automated lineup management for clan **ACMB** in Last War VN.
 ## Battles
 | Battle | Slot A | Slot B | Main | Subs | Reg Opens | Reg Closes |
 |---|---|---|---|---|---|---|
-| 🏜️ Bão Sa Mạc (SM) | Sat 18:30 ICT | Sun 08:30 ICT | 20 | 10 | Mon 9am | Thu 9am |
-| ⛰️ Bão Hẻm Núi (HN) | Thu 21:30 ICT | Fri 08:30 ICT | 20 | 10 | Sat 9am | Tue 9am |
+| 🏜️ Bão Sa Mạc (DSB) | Sat 18:30 ICT | Sun 08:30 ICT | 20 | 10 | Mon 9am | Thu 9am |
+| ⛰️ Bão Hẻm Núi (CSB) | Thu 21:30 ICT | Fri 08:30 ICT | 20 | 10 | Sat 9am | Tue 9am |
 
 ## Official Data Model
 - **`last_matches`** = historical truth (who played, where, and score)
@@ -55,7 +55,7 @@ Automated lineup management for clan **ACMB** in Last War VN.
 | `lineup.py` | CLI summary viewer for `next_lineup` |
 
 ## Bot Behaviour
-- **After lineup change:** bot replies with rank counts per affected slot only (e.g. `SM-B: R4:3 R3:14 R2:1 | Sub:2`)
+- **After lineup change:** bot replies with rank counts per affected slot only (e.g. `DSB-B: R4:3 R3:14 R2:1 | Sub:2`)
 - **Lineup URL:** only sent when user asks, or in cron reminders
 - **Never:** send full lineup table unprompted
 
@@ -65,10 +65,10 @@ Automated lineup management for clan **ACMB** in Last War VN.
 | `1585c56a` | ACMB Lineup Check | Sat/Sun/Mon/Wed 12pm ICT | 90s |
 
 ### Cron logic
-- **Sat 12pm:** HN reg opened → ask for HN results
-- **Sun 12pm:** Follow up HN / warn Tue 9am deadline
-- **Mon 12pm:** Final HN warning + ask for SM results
-- **Wed 12pm:** SM closes Thu 9am → remind to register or ask for results
+- **Sat 12pm:** CSB reg opened → ask for CSB results
+- **Sun 12pm:** Follow up CSB / warn Tue 9am deadline
+- **Mon 12pm:** Final CSB warning + ask for DSB results
+- **Wed 12pm:** DSB closes Thu 9am → remind to register or ask for results
 
 ## Official Workflow
 1. User sends battle result screenshots

@@ -9,7 +9,7 @@
 - [ ] Verify the change affects the correct battle (`sm` or `hn`) and slot (`A` or `B`)
 - [ ] If moving to `dayoff`, remember they should return next cycle
 - [ ] If removing from lineup, add them to `recent_removed[]`
-- [ ] Keep capacities within **20 main / 10 subs** for both SM and HN
+- [ ] Keep capacities within **20 main / 10 subs** for both DSB and CSB
 - [ ] Push `agent-presentation/lastwar/players.json` before reporting success
 
 ## WHEN processing fresh battle results

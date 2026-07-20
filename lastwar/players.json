@@ -860,8 +860,8 @@
         ],
         "subs": [
           { "r": "R2", "name": "Bin 37", "reason": "Mới thêm vào / Newly added" },
-          { "r": "R1", "name": "上官武命", "reason": "Người chơi mới, SM-B chính đã đủ 20 / New player, SM-B main already full (20)" },
-          { "r": "R1", "name": "ThíchThìNhích92", "reason": "Người chơi mới, SM-B chính đã đủ 20 / New player, SM-B main already full (20)" }
+          { "r": "R1", "name": "上官武命", "reason": "Người chơi mới, SM-B chính đã đủ 20 / New player, DSB-B main already full (20)" },
+          { "r": "R1", "name": "ThíchThìNhích92", "reason": "Người chơi mới, SM-B chính đã đủ 20 / New player, DSB-B main already full (20)" }
         ],
         "dayoff": [],
         "slot": "B",
@@ -885,16 +885,16 @@
           { "r": "R4", "name": "Haizzzzzzzzzzzz", "reason": "Vắng mặt / Absent" },
           { "r": "R3", "name": "Little Yolo", "reason": "Tuần trước hạng 5th / 5th last week" },
           { "r": "R3", "name": "Kute Gold", "reason": "Tuần trước hạng 6th / 6th last week" },
-          { "r": "R3", "name": "e Asche", "reason": "Tuần trước hạng 10th / 10th last week - chuyển sang HN Team A / switched to HN Team A" },
+          { "r": "R3", "name": "e Asche", "reason": "Tuần trước hạng 10th / 10th last week - chuyển sang HN Team A / switched to CSB Team A" },
           { "r": "R3", "name": "Thanhh Tân", "reason": "Tuần trước hạng 11th / 11th last week" },
           { "r": "R3", "name": "Shashank1411", "reason": "Tuần trước hạng 12th / 12th last week" },
           { "r": "R3", "name": "sửa máy promax", "reason": "Mới thêm vào / Newly added" },
           { "r": "R3", "name": "MrAugust2886", "reason": "Tuần trước hạng 14th / 14th last week" },
-          { "r": "R3", "name": "Nguyenngoctuan", "reason": "Tuần trước hạng 16th / 16th last week - chuyển sang HN Team A / switched to HN Team A" },
+          { "r": "R3", "name": "Nguyenngoctuan", "reason": "Tuần trước hạng 16th / 16th last week - chuyển sang HN Team A / switched to CSB Team A" },
           { "r": "R3", "name": "RùaNgáo", "reason": "Tuần trước hạng 17th / 17th last week" },
           { "r": "R3", "name": "tâm1980", "reason": "Tuần trước hạng 18th / 18th last week" },
           { "r": "R3", "name": "KYLEPHAM2401", "reason": "Tuần trước hạng 19th / 19th last week" },
-          { "r": "R3", "name": "Bi小悟空", "reason": "Người chơi mới, HN-A chính chưa đủ 20 / New player, HN-A main not yet full" }
+          { "r": "R3", "name": "Bi小悟空", "reason": "Người chơi mới, HN-A chính chưa đủ 20 / New player, CSB-A main not yet full" }
         ],
         "subs": [],
         "dayoff": [],
@@ -925,7 +925,7 @@
           { "r": "R1", "name": "上官武命", "reason": "Người chơi mới / New player" },
           { "r": "R1", "name": "Bin 37", "reason": "Người chơi mới / New player" },
           { "r": "R3", "name": "Tommy4014", "reason": "Quay lại sau khi nghỉ / Back from day off" },
-          { "r": "R1", "name": "ThíchThìNhích92", "reason": "Người chơi mới, HN-B chính chưa đủ 20 / New player, HN-B main not yet full" }
+          { "r": "R1", "name": "ThíchThìNhích92", "reason": "Người chơi mới, HN-B chính chưa đủ 20 / New player, CSB-B main not yet full" }
         ],
         "subs": [],
         "dayoff": [],
