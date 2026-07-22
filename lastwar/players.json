@@ -803,6 +803,12 @@
       "yc": { "hn": 0, "sm": 0 },
       "cm": { "hn": 0, "sm": 0 },
       "note": ""
+    },
+    "tRnuOwn9f 795": {
+      "rank": "R2",
+      "yc": { "hn": 0, "sm": 0 },
+      "cm": { "hn": 0, "sm": 0 },
+      "note": ""
     }
   },
   "next_lineup": {
@@ -869,7 +875,8 @@
           { "r": "R2", "name": "Bin 37", "reason": "Mới thêm vào / Newly added" },
           { "r": "R1", "name": "上官武命", "reason": "Người chơi mới, SM-B chính đã đủ 20 / New player, SM-B main already full (20)" },
           { "r": "R1", "name": "ThíchThìNhích92", "reason": "Người chơi mới, SM-B chính đã đủ 20 / New player, SM-B main already full (20)" },
-          { "r": "R1", "name": "Khánhh Báooo", "reason": "Người chơi mới, SM-B chính đã đủ 20 / New player, SM-B main already full (20)" }
+          { "r": "R1", "name": "Khánhh Báooo", "reason": "Người chơi mới, SM-B chính đã đủ 20 / New player, SM-B main already full (20)" },
+          { "r": "R2", "name": "tRnuOwn9f 795", "reason": "Người chơi mới, SM-B chính đã đủ 20 / New player, SM-B main already full (20)" }
         ],
         "dayoff": [],
         "slot": "B",
