@@ -1009,12 +1009,12 @@
           { "r": "R3", "name": "ÒOO", "reason": "Tuần trước hạng 16th / 16th last week" },
           { "r": "R3", "name": "ThíchThìNhích92", "reason": "Người chơi mới, chưa đăng ký trận trước / Newly added, pending first match" },
           { "r": "R3", "name": "Khánhh Báooo", "reason": "Người chơi mới, chưa đăng ký trận trước / Newly added, pending first match" },
-          { "r": "R3", "name": "danhoanh", "reason": "Người chơi mới, chưa đăng ký trận trước / Newly added, pending first match" }
+          { "r": "R3", "name": "danhoanh", "reason": "Người chơi mới, chưa đăng ký trận trước / Newly added, pending first match" },
+          { "r": "R2", "name": "tRnuOwn9f 795", "reason": "Người chơi mới, chuyển vào chính (còn slot trống) / Newly added, moved to main (open slot)" }
         ],
         "subs": [
           { "r": "R3", "name": "Lýkos", "reason": "Vắng trận vừa rồi, xuống dự bị / Missed last match, moved to subs" },
-          { "r": "R1", "name": "上官武命", "reason": "Vắng trận vừa rồi, xuống dự bị / Missed last match, moved to subs" },
-          { "r": "R2", "name": "tRnuOwn9f 795", "reason": "Người chơi mới / Newly added" }
+          { "r": "R1", "name": "上官武命", "reason": "Vắng trận vừa rồi, xuống dự bị / Missed last match, moved to subs" }
         ],
         "dayoff": [],
         "slot": "B",
