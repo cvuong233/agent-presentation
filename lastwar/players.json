@@ -1011,8 +1011,8 @@
         "subs": [
           { "r": "R3", "name": "Lýkos", "reason": "Vắng trận vừa rồi, xuống dự bị / Missed last match, moved to subs" },
           { "r": "R1", "name": "上官武命", "reason": "Vắng trận vừa rồi, xuống dự bị / Missed last match, moved to subs" },
-          { "r": "R3", "name": "ThíchThìNhích92", "reason": "Vắng trận vừa rồi, xuống dự bị / Missed last match, moved to subs" },
-          { "r": "R3", "name": "Khánhh Báooo", "reason": "Vắng trận vừa rồi, xuống dự bị / Missed last match, moved to subs" },
+          { "r": "R3", "name": "ThíchThìNhích92", "reason": "Mới thêm vào, chưa đăng ký trận đầu / Newly added, pending first match" },
+          { "r": "R3", "name": "Khánhh Báooo", "reason": "Mới thêm vào, chưa đăng ký trận đầu / Newly added, pending first match" },
           { "r": "R3", "name": "danhoanh", "reason": "Người chơi mới, chưa vào trận / New player, awaiting first match" }
         ],
         "dayoff": [],
