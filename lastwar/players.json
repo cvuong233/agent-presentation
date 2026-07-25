@@ -112,7 +112,8 @@
       "VN Đậu Hũ",
       "Bunny1308",
       "ZEKT",
-      "Mr Hải Nam"
+      "Mr Hải Nam",
+      "ᵛᶰ Đậu Hũ"
     ],
     "R1": [
       "A Ngỗng",
@@ -1510,6 +1511,21 @@
       },
       "note": "",
       "last_sm_score": 1527129
+    },
+    "ᵛᶰ Đậu Hũ": {
+      "rank": "R2",
+      "yc": {
+        "hn": 0,
+        "sm": 0
+      },
+      "cm": {
+        "hn": 0,
+        "sm": 0
+      },
+      "last_hn_score": 0,
+      "last_sm_score": 0,
+      "dayoff": false,
+      "note": ""
     }
   },
   "next_lineup": {
@@ -1881,6 +1897,10 @@
           {
             "name": "MR Dương",
             "reason": "Người chơi mới / Newly added"
+          },
+          {
+            "name": "Sầu riêng m7",
+            "reason": "Người chơi mới / Newly added"
           }
         ],
         "subs": [
@@ -1929,11 +1949,6 @@
             "r": "R3",
             "name": "NorthFog",
             "reason": "Tuần trước hạng 3rd / 3rd last week"
-          },
-          {
-            "r": "R3",
-            "name": "MR Dương",
-            "reason": "Tuần trước hạng 4th / 4th last week"
           },
           {
             "r": "R4",
@@ -2014,6 +2029,10 @@
             "r": "R2",
             "name": "tRnuOwn9f 795",
             "reason": "Người chơi mới, chuyển vào chính (còn slot trống) / Newly added, moved to main (open slot)"
+          },
+          {
+            "name": "ᵛᶰ Đậu Hũ",
+            "reason": "Người chơi mới / Newly added"
           }
         ],
         "subs": [
