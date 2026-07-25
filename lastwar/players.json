@@ -1013,7 +1013,8 @@
         ],
         "subs": [
           { "r": "R3", "name": "Lýkos", "reason": "Vắng trận vừa rồi, xuống dự bị / Missed last match, moved to subs" },
-          { "r": "R1", "name": "上官武命", "reason": "Vắng trận vừa rồi, xuống dự bị / Missed last match, moved to subs" }
+          { "r": "R1", "name": "上官武命", "reason": "Vắng trận vừa rồi, xuống dự bị / Missed last match, moved to subs" },
+          { "r": "R2", "name": "tRnuOwn9f 795", "reason": "Người chơi mới / Newly added" }
         ],
         "dayoff": [],
         "slot": "B",
