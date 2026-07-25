@@ -105,7 +105,11 @@
       "RavenRayne",
       "aaaaatttttkkkkkk",
       "vinh ccc",
-      "Bin 37"
+      "Bin 37",
+      "VN Đậu Hũ",
+      "Bunny1308",
+      "ZEKT",
+      "Mr Hải Nam"
     ],
     "R1": [
       "A Ngỗng",
@@ -476,8 +480,8 @@
     "Little Yolo": {
       "rank": "R3",
       "yc": { "hn": 0, "sm": 0 },
-      "cm": { "hn": 0, "sm": 0 },
-      "last_hn_score": 5710006,
+      "cm": { "hn": 1, "sm": 0 },
+      "last_hn_score": 4851738,
       "last_sm_score": 2266413
     },
     "Phạm khánhh": {
@@ -756,10 +760,10 @@
     "Haizzzzzzzzzzzz": {
       "rank": "R4",
       "yc": { "hn": 0, "sm": 0 },
-      "cm": { "hn": 0, "sm": 0 },
+      "cm": { "hn": 1, "sm": 0 },
       "note": "- YC rules waived",
       "last_sm_score": 3358836,
-      "last_hn_score": 4578217
+      "last_hn_score": 4268120
     },
     "Kute Gold": {
       "rank": "R3",
@@ -793,6 +797,34 @@
       "yc": { "hn": 0, "sm": 0 },
       "cm": { "hn": 1, "sm": 0 },
       "last_hn_score": 5116025,
+      "note": ""
+    },
+    "VN Đậu Hũ": {
+      "rank": "R2",
+      "yc": { "hn": 0, "sm": 0 },
+      "cm": { "hn": 1, "sm": 0 },
+      "last_hn_score": 4805518,
+      "note": ""
+    },
+    "Bunny1308": {
+      "rank": "R2",
+      "yc": { "hn": 0, "sm": 0 },
+      "cm": { "hn": 1, "sm": 0 },
+      "last_hn_score": 2624868,
+      "note": ""
+    },
+    "ZEKT": {
+      "rank": "R2",
+      "yc": { "hn": 0, "sm": 0 },
+      "cm": { "hn": 1, "sm": 0 },
+      "last_hn_score": 2517367,
+      "note": ""
+    },
+    "Mr Hải Nam": {
+      "rank": "R2",
+      "yc": { "hn": 0, "sm": 0 },
+      "cm": { "hn": 1, "sm": 0 },
+      "last_hn_score": 3360390,
       "note": ""
     },
     "ThíchThìNhích92": {
