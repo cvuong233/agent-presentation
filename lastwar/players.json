@@ -85,7 +85,9 @@
       "Bi小悟空",
       "ThíchThìNhích92",
       "Khánhh Báooo",
-      "Nhi Nở"
+      "Nhi Nở",
+      "Bắp đại ca",
+      "Sầu riêng m7"
     ],
     "R2": [
       "1Mét45",
@@ -110,9 +112,7 @@
       "VN Đậu Hũ",
       "Bunny1308",
       "ZEKT",
-      "Mr Hải Nam",
-      "Bắp đại ca",
-      "Sầu riêng m7"
+      "Mr Hải Nam"
     ],
     "R1": [
       "A Ngỗng",
@@ -860,14 +860,14 @@
       "last_sm_score": 932879
     },
     "Bắp đại ca": {
-      "rank": "R2",
+      "rank": "R3",
       "yc": { "hn": 0, "sm": 0 },
       "cm": { "hn": 0, "sm": 1 },
       "note": "",
       "last_sm_score": 2158477
     },
     "Sầu riêng m7": {
-      "rank": "R2",
+      "rank": "R3",
       "yc": { "hn": 0, "sm": 0 },
       "cm": { "hn": 0, "sm": 1 },
       "note": "",
