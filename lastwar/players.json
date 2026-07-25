@@ -84,7 +84,8 @@
       "sửa máy promax",
       "Bi小悟空",
       "ThíchThìNhích92",
-      "Khánhh Báooo"
+      "Khánhh Báooo",
+      "Nhi Nở"
     ],
     "R2": [
       "1Mét45",
@@ -839,6 +840,12 @@
       "cm": { "hn": 0, "sm": 0 },
       "note": ""
     },
+    "Nhi Nở": {
+      "rank": "R3",
+      "yc": { "hn": 0, "sm": 0 },
+      "cm": { "hn": 0, "sm": 0 },
+      "note": ""
+    },
     "tRnuOwn9f 795": {
       "rank": "R2",
       "yc": { "hn": 0, "sm": 0 },
@@ -873,7 +880,8 @@
         ],
         "subs": [
           { "r": "R3", "name": "KYLEPHAM2401", "reason": "Tuần trước hạng 21st, dư chính SM-A (tối đa 20) / 21st last week, overflow from SM-A main (max 20)" },
-          { "r": "R3", "name": "Bi小悟空", "reason": "Người chơi mới, SM-A chính đã đủ 20 / New player, SM-A main already full (20)" }
+          { "r": "R3", "name": "Bi小悟空", "reason": "Người chơi mới, SM-A chính đã đủ 20 / New player, SM-A main already full (20)" },
+          { "r": "R3", "name": "Nhi Nở", "reason": "Người chơi mới, SM-A chính đã đủ 20 / New player, SM-A main already full (20)" }
         ],
         "dayoff": [],
         "slot": "A",
@@ -946,7 +954,9 @@
           { "r": "R3", "name": "KYLEPHAM2401", "reason": "Tuần trước hạng 19th / 19th last week" },
           { "r": "R3", "name": "Bi小悟空", "reason": "Người chơi mới, HN-A chính chưa đủ 20 / New player, HN-A main not yet full" }
         ],
-        "subs": [],
+        "subs": [
+          { "r": "R3", "name": "Nhi Nở", "reason": "Người chơi mới, HN-A chính đã đủ 20 / New player, HN-A main already full (20)" }
+        ],
         "dayoff": [],
         "slot": "A",
         "maxMain": 20,
