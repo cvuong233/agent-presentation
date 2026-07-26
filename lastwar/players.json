@@ -1636,6 +1636,21 @@
       "last_sm_score": 0,
       "dayoff": 0,
       "note": ""
+    },
+    "cu tí nhỏ xiu": {
+      "rank": "R2",
+      "yc": {
+        "hn": 0,
+        "sm": 0
+      },
+      "cm": {
+        "hn": 0,
+        "sm": 0
+      },
+      "last_hn_score": 0,
+      "last_sm_score": 0,
+      "dayoff": 0,
+      "note": ""
     }
   },
   "next_lineup": {
@@ -2229,6 +2244,11 @@
             "name": "Zyn1998 n",
             "reason": "Người chơi mới / Newly added",
             "r": "R2"
+          },
+          {
+            "r": "R2",
+            "name": "cu tí nhỏ xiu",
+            "reason": "Người chơi mới / Newly added"
           }
         ],
         "dayoff": [],
