@@ -114,7 +114,8 @@
       "ZEKT",
       "Mr Hải Nam",
       "ᵛᶰ Đậu Hũ",
-      "Zyn1998 n"
+      "Zyn1998 n",
+      "Hoàng Hậuu"
     ],
     "R1": [
       "A Ngỗng",
@@ -1542,6 +1543,21 @@
       "last_sm_score": 0,
       "dayoff": false,
       "note": ""
+    },
+    "Hoàng Hậuu": {
+      "rank": "R2",
+      "yc": {
+        "hn": 0,
+        "sm": 0
+      },
+      "cm": {
+        "hn": 0,
+        "sm": 0
+      },
+      "last_hn_score": 0,
+      "last_sm_score": 0,
+      "dayoff": false,
+      "note": ""
     }
   },
   "next_lineup": {
@@ -1677,10 +1693,17 @@
           },
           {
             "name": "MR Dương",
-            "reason": "Người chơi mới / Newly added"
+            "reason": "Người chơi mới / Newly added",
+            "r": "R3"
           },
           {
             "name": "Zyn1998 n",
+            "reason": "Người chơi mới / Newly added",
+            "r": "R2"
+          },
+          {
+            "r": "R2",
+            "name": "Hoàng Hậuu",
             "reason": "Người chơi mới / Newly added"
           }
         ],
@@ -1916,10 +1939,17 @@
           },
           {
             "name": "MR Dương",
-            "reason": "Người chơi mới / Newly added"
+            "reason": "Người chơi mới / Newly added",
+            "r": "R3"
           },
           {
             "name": "Sầu riêng m7",
+            "reason": "Người chơi mới / Newly added",
+            "r": "R3"
+          },
+          {
+            "r": "R2",
+            "name": "Hoàng Hậuu",
             "reason": "Người chơi mới / Newly added"
           }
         ],
@@ -2052,7 +2082,8 @@
           },
           {
             "name": "ᵛᶰ Đậu Hũ",
-            "reason": "Người chơi mới / Newly added"
+            "reason": "Người chơi mới / Newly added",
+            "r": "R2"
           }
         ],
         "subs": [
@@ -2068,7 +2099,8 @@
           },
           {
             "name": "Zyn1998 n",
-            "reason": "Người chơi mới / Newly added"
+            "reason": "Người chơi mới / Newly added",
+            "r": "R2"
           }
         ],
         "dayoff": [],
