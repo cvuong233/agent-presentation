@@ -126,5 +126,27 @@
       "photos/bombia_2.jpg",
       "photos/bombia_3.jpg"
     ]
+  },
+  {
+    "id": "hoanglinh-bun-hai-san",
+    "name": "Hoàng Linh Quán - Bún hải sản - Bún cá chấm",
+    "cuisine": "Bún hải sản · Bún cá chấm",
+    "address": "40 P. Hoàng Cầu, Đống Đa, Hà Nội",
+    "lat": 21.0242,
+    "lng": 105.8296,
+    "phone": "0934 642 890",
+    "hours": "",
+    "price": "1,000 – 100,000₫",
+    "rating": 4.3,
+    "tags": [
+      "bún hải sản",
+      "bún cá chấm",
+      "Hoàng Cầu",
+      "Đống Đa"
+    ],
+    "note": "Bún hải sản và bún cá chấm, 145 đánh giá trên Google",
+    "image": "",
+    "maps_url": "https://maps.google.com/?q=Hoang+Linh+Quan+Bun+hai+san+40+Hoang+Cau+Dong+Da+Ha+Noi",
+    "images": []
   }
 ]
