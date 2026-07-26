@@ -3,7 +3,7 @@
     "clan": "ACMB",
     "game": "Last War VN",
     "updated": "2026-07-25",
-    "notes": "C V = cường khùng (R4). SM = Bão Sa Mạc (Desert Storm). HN = Bão Hẻm Núi (Canyon Storm). Official model: last_matches = history, next_lineup = editable upcoming lineup. Both battles use 20 main / 10 subs. Miss 1 match → subs next week. Miss 2 consecutive matches → removed from lineup.",
+    "notes": "C V = cường khùng (R4). SM = Bão Sa Mạc (Desert Storm). HN = Bão Hẻm Núi (Canyon Storm). Official model: last_matches = history, next_lineup = editable upcoming lineup. Both battles use 20 main / 10 subs. Lineup sorted by squad power descending.",
     "updated_hn_a": "2026-07-16",
     "updated_hn_b": "2026-07-17"
   },
@@ -240,1445 +240,389 @@
   },
   "players": {
     "Lerxinhiu": {
-      "rank": "R5",
-      "yc": {
-        "hn": 0,
-        "sm": 0
-      },
-      "cm": {
-        "hn": 0,
-        "sm": 0
-      },
-      "last_hn_score": 4809175,
-      "last_sm_score": 5252064
+      "rank": "R5"
     },
     "cường khùng": {
-      "rank": "R4",
-      "yc": {
-        "hn": 0,
-        "sm": 0
-      },
-      "cm": {
-        "hn": 0,
-        "sm": 0
-      },
-      "last_hn_score": 6741700,
-      "last_sm_score": 2120478
+      "rank": "R4"
     },
     "LinLin": {
-      "rank": "R4",
-      "yc": {
-        "hn": 0,
-        "sm": 0
-      },
-      "cm": {
-        "hn": 0,
-        "sm": 0
-      },
-      "last_hn_score": 4295661,
-      "last_sm_score": 3195015
+      "rank": "R4"
     },
     "Rymi68": {
-      "rank": "R4",
-      "yc": {
-        "hn": 0,
-        "sm": 0
-      },
-      "cm": {
-        "hn": 0,
-        "sm": 0
-      },
-      "last_hn_score": 5368135,
-      "last_sm_score": 6456207
+      "rank": "R4"
     },
     "Hải Anh 0612": {
-      "rank": "R4",
-      "yc": {
-        "hn": 0,
-        "sm": 0
-      },
-      "cm": {
-        "hn": 0,
-        "sm": 0
-      },
-      "last_hn_score": 6310850,
-      "last_sm_score": 2413593
+      "rank": "R4"
     },
     "yologuy": {
-      "rank": "R4",
-      "yc": {
-        "hn": 0,
-        "sm": 0
-      },
-      "cm": {
-        "hn": 0,
-        "sm": 0
-      },
-      "last_hn_score": 8599758,
-      "last_sm_score": 1955619
+      "rank": "R4"
     },
     "Hemerage": {
-      "rank": "R4",
-      "yc": {
-        "hn": 0,
-        "sm": 0
-      },
-      "cm": {
-        "hn": 0,
-        "sm": 0
-      },
-      "last_hn_score": 4122553,
-      "last_sm_score": 950106
+      "rank": "R4"
     },
     "zdevils": {
-      "rank": "R4",
-      "yc": {
-        "hn": 0,
-        "sm": 0
-      },
-      "cm": {
-        "hn": 0,
-        "sm": 0
-      },
-      "last_hn_score": 5500050,
-      "last_sm_score": 2758574
+      "rank": "R4"
     },
     "Vualidonzz": {
-      "rank": "R3",
-      "yc": {
-        "hn": 0,
-        "sm": 0
-      },
-      "cm": {
-        "hn": 0,
-        "sm": 0
-      },
-      "last_hn_score": 7536832,
-      "last_sm_score": 1768742
+      "rank": "R3"
     },
     "Shashank1411": {
-      "rank": "R3",
-      "yc": {
-        "hn": 0,
-        "sm": 0
-      },
-      "cm": {
-        "hn": 0,
-        "sm": 0
-      },
-      "last_hn_score": 4305430,
-      "last_sm_score": 749320
+      "rank": "R3"
     },
     "Nguyenngoctuan": {
-      "rank": "R3",
-      "yc": {
-        "hn": 0,
-        "sm": 0
-      },
-      "cm": {
-        "hn": 0,
-        "sm": 0
-      },
-      "last_sm_score": 307284,
-      "last_hn_score": 3202127
+      "rank": "R3"
     },
     "anh thợ sửa máy": {
-      "rank": "R3",
-      "yc": {
-        "hn": 0,
-        "sm": 0
-      },
-      "cm": {
-        "hn": 0,
-        "sm": 0
-      },
-      "last_hn_score": 3957792,
-      "last_sm_score": 1265272
+      "rank": "R3"
     },
     "danhoanh": {
-      "rank": "R3",
-      "yc": {
-        "hn": 0,
-        "sm": 0
-      },
-      "cm": {
-        "hn": 0,
-        "sm": 0
-      },
-      "last_hn_score": 4848648,
-      "last_sm_score": 1049103
+      "rank": "R3"
     },
     "Gặplàđánh": {
-      "rank": "R3",
-      "yc": {
-        "hn": 0,
-        "sm": 0
-      },
-      "cm": {
-        "hn": 0,
-        "sm": 0
-      }
+      "rank": "R3"
     },
     "Đập Chai": {
-      "rank": "R3",
-      "yc": {
-        "hn": 0,
-        "sm": 0
-      },
-      "cm": {
-        "hn": 0,
-        "sm": 0
-      },
-      "last_sm_score": 1597537,
-      "last_hn_score": 3416861
+      "rank": "R3"
     },
     "công chúa lavie": {
-      "rank": "R3",
-      "yc": {
-        "hn": 0,
-        "sm": 0
-      },
-      "cm": {
-        "hn": 0,
-        "sm": 0
-      }
+      "rank": "R3"
     },
     "wolfwitch": {
-      "rank": "R4",
-      "yc": {
-        "hn": 0,
-        "sm": 0
-      },
-      "cm": {
-        "hn": 0,
-        "sm": 0
-      },
-      "last_hn_score": 3127352,
-      "last_sm_score": 1052413
+      "rank": "R4"
     },
     "ChanzChanz": {
-      "rank": "R3",
-      "yc": {
-        "hn": 0,
-        "sm": 0
-      },
-      "cm": {
-        "hn": 0,
-        "sm": 0
-      }
+      "rank": "R3"
     },
     "Azyg": {
-      "rank": "R3",
-      "yc": {
-        "hn": 0,
-        "sm": 0
-      },
-      "cm": {
-        "hn": 0,
-        "sm": 0
-      }
+      "rank": "R3"
     },
     "NorthFog": {
-      "rank": "R3",
-      "yc": {
-        "hn": 0,
-        "sm": 0
-      },
-      "cm": {
-        "hn": 0,
-        "sm": 0
-      },
-      "last_hn_score": 6728319,
-      "last_sm_score": 2031502
+      "rank": "R3"
     },
     "Marines Malevolent": {
-      "rank": "R3",
-      "yc": {
-        "hn": 0,
-        "sm": 0
-      },
-      "cm": {
-        "hn": 0,
-        "sm": 0
-      },
-      "last_hn_score": 4080028,
-      "last_sm_score": 963388
+      "rank": "R3"
     },
     "PewPewBoi": {
-      "rank": "R3",
-      "yc": {
-        "hn": 0,
-        "sm": 0
-      },
-      "cm": {
-        "hn": 0,
-        "sm": 0
-      },
-      "last_sm_score": 514144
+      "rank": "R3"
     },
     "RùaNgáo": {
-      "rank": "R3",
-      "yc": {
-        "hn": 0,
-        "sm": 0
-      },
-      "cm": {
-        "hn": 0,
-        "sm": 0
-      },
-      "last_hn_score": 2658804,
-      "last_sm_score": 2145637
+      "rank": "R3"
     },
     "Indefatigabl3": {
-      "rank": "R3",
-      "yc": {
-        "hn": 0,
-        "sm": 0
-      },
-      "cm": {
-        "hn": 0,
-        "sm": 0
-      },
-      "last_hn_score": 4747210,
-      "last_sm_score": 1019710
+      "rank": "R3"
     },
     "Thanhh Tân": {
-      "rank": "R3",
-      "yc": {
-        "hn": 0,
-        "sm": 0
-      },
-      "cm": {
-        "hn": 0,
-        "sm": 0
-      },
-      "last_hn_score": 3599287,
-      "last_sm_score": 1050614
+      "rank": "R3"
     },
     "Tommy4014": {
-      "rank": "R3",
-      "yc": {
-        "hn": 0,
-        "sm": 0
-      },
-      "cm": {
-        "hn": 0,
-        "sm": 0
-      },
-      "last_hn_score": 4082586
+      "rank": "R3"
     },
     "Chivas2026": {
-      "rank": "R3",
-      "yc": {
-        "hn": 0,
-        "sm": 0
-      },
-      "cm": {
-        "hn": 0,
-        "sm": 0
-      },
-      "last_hn_score": 2573438,
-      "last_sm_score": 84337
+      "rank": "R3"
     },
     "e Asche": {
-      "rank": "R3",
-      "yc": {
-        "hn": 0,
-        "sm": 0
-      },
-      "cm": {
-        "hn": 0,
-        "sm": 0
-      },
-      "last_hn_score": 5669888,
-      "last_sm_score": 1392290
+      "rank": "R3"
     },
     "Aaaluan": {
-      "rank": "R3",
-      "yc": {
-        "hn": 0,
-        "sm": 0
-      },
-      "cm": {
-        "hn": 0,
-        "sm": 0
-      },
-      "last_hn_score": 5821748,
-      "last_sm_score": 1040327
+      "rank": "R3"
     },
     "MrAugust2886": {
-      "rank": "R3",
-      "yc": {
-        "hn": 0,
-        "sm": 0
-      },
-      "cm": {
-        "hn": 0,
-        "sm": 0
-      },
-      "last_hn_score": 2241247,
-      "last_sm_score": 1130283
+      "rank": "R3"
     },
     "tâm1980": {
-      "rank": "R3",
-      "yc": {
-        "hn": 0,
-        "sm": 0
-      },
-      "cm": {
-        "hn": 0,
-        "sm": 0
-      },
-      "last_hn_score": 2235830,
-      "last_sm_score": 1706196
+      "rank": "R3"
     },
     "Khanhanh96": {
-      "rank": "R3",
-      "yc": {
-        "hn": 0,
-        "sm": 0
-      },
-      "cm": {
-        "hn": 0,
-        "sm": 0
-      }
+      "rank": "R3"
     },
     "Tú Bướmm": {
-      "rank": "R3",
-      "yc": {
-        "hn": 0,
-        "sm": 0
-      },
-      "cm": {
-        "hn": 0,
-        "sm": 0
-      }
+      "rank": "R3"
     },
     "hanubeast": {
-      "rank": "R3",
-      "yc": {
-        "hn": 0,
-        "sm": 0
-      },
-      "cm": {
-        "hn": 0,
-        "sm": 0
-      },
-      "last_hn_score": 1449678,
-      "last_sm_score": 1270291
+      "rank": "R3"
     },
     "WitWiu": {
-      "rank": "R3",
-      "yc": {
-        "hn": 0,
-        "sm": 0
-      },
-      "cm": {
-        "hn": 0,
-        "sm": 0
-      },
-      "last_hn_score": 9823128,
-      "last_sm_score": 1348792
+      "rank": "R3"
     },
     "Chivas2025": {
-      "rank": "R3",
-      "yc": {
-        "hn": 0,
-        "sm": 0
-      },
-      "cm": {
-        "hn": 0,
-        "sm": 0
-      }
+      "rank": "R3"
     },
     "SanTa 1386": {
-      "rank": "R3",
-      "yc": {
-        "hn": 0,
-        "sm": 0
-      },
-      "cm": {
-        "hn": 0,
-        "sm": 0
-      },
-      "last_hn_score": 2803424,
-      "last_sm_score": 1043298
+      "rank": "R3"
     },
     "cu tí nhỏ xíu": {
-      "rank": "R3",
-      "yc": {
-        "hn": 0,
-        "sm": 0
-      },
-      "cm": {
-        "hn": 0,
-        "sm": 0
-      },
-      "last_sm_score": 222896
+      "rank": "R3"
     },
     "Yến Nhi NT": {
-      "rank": "R3",
-      "yc": {
-        "hn": 0,
-        "sm": 0
-      },
-      "cm": {
-        "hn": 0,
-        "sm": 0
-      },
-      "last_hn_score": 4851738,
-      "last_sm_score": 1037698
+      "rank": "R3"
     },
     "Phạm khánhh": {
-      "rank": "R3",
-      "yc": {
-        "hn": 0,
-        "sm": 0
-      },
-      "cm": {
-        "hn": 0,
-        "sm": 0
-      },
-      "last_hn_score": 5466944,
-      "last_sm_score": 1004299
+      "rank": "R3"
     },
     "Haizzzzzzzzzz": {
-      "rank": "R4",
-      "yc": {
-        "hn": 0,
-        "sm": 0
-      },
-      "cm": {
-        "hn": 0,
-        "sm": 0
-      }
+      "rank": "R4"
     },
     "khánhthỏ": {
-      "rank": "R3",
-      "yc": {
-        "hn": 0,
-        "sm": 0
-      },
-      "cm": {
-        "hn": 0,
-        "sm": 0
-      }
+      "rank": "R3"
     },
     "Blade1945": {
-      "rank": "R3",
-      "yc": {
-        "hn": 0,
-        "sm": 0
-      },
-      "cm": {
-        "hn": 0,
-        "sm": 0
-      }
+      "rank": "R3"
     },
     "Tuấn vĩ": {
-      "rank": "R3",
-      "yc": {
-        "hn": 0,
-        "sm": 0
-      },
-      "cm": {
-        "hn": 0,
-        "sm": 0
-      }
+      "rank": "R3"
     },
     "Ngu Cơ": {
-      "rank": "R3",
-      "yc": {
-        "hn": 0,
-        "sm": 0
-      },
-      "cm": {
-        "hn": 0,
-        "sm": 0
-      }
+      "rank": "R3"
     },
     "Hưng Lâm 29": {
-      "rank": "R3",
-      "yc": {
-        "hn": 0,
-        "sm": 0
-      },
-      "cm": {
-        "hn": 0,
-        "sm": 0
-      }
+      "rank": "R3"
     },
     "Beasty74": {
-      "rank": "R3",
-      "yc": {
-        "hn": 0,
-        "sm": 0
-      },
-      "cm": {
-        "hn": 0,
-        "sm": 0
-      }
+      "rank": "R3"
     },
     "KYLEPHAM2401": {
-      "rank": "R3",
-      "yc": {
-        "hn": 0,
-        "sm": 0
-      },
-      "cm": {
-        "hn": 0,
-        "sm": 0
-      },
-      "last_hn_score": 2009697,
-      "last_sm_score": 84674
+      "rank": "R3"
     },
     "Mèo Xing": {
-      "rank": "R3",
-      "yc": {
-        "hn": 0,
-        "sm": 0
-      },
-      "cm": {
-        "hn": 0,
-        "sm": 0
-      }
+      "rank": "R3"
     },
     "MickeyDee88": {
-      "rank": "R3",
-      "yc": {
-        "hn": 0,
-        "sm": 0
-      },
-      "cm": {
-        "hn": 0,
-        "sm": 0
-      }
+      "rank": "R3"
     },
     "hp73q1": {
-      "rank": "R3",
-      "yc": {
-        "hn": 0,
-        "sm": 0
-      },
-      "cm": {
-        "hn": 0,
-        "sm": 0
-      }
+      "rank": "R3"
     },
     "notgeorge57": {
-      "rank": "R3",
-      "yc": {
-        "hn": 0,
-        "sm": 0
-      },
-      "cm": {
-        "hn": 0,
-        "sm": 0
-      }
+      "rank": "R3"
     },
     "Chua24": {
-      "rank": "R3",
-      "yc": {
-        "hn": 0,
-        "sm": 0
-      },
-      "cm": {
-        "hn": 0,
-        "sm": 0
-      }
+      "rank": "R3"
     },
     "Outlaw Justice": {
-      "rank": "R3",
-      "yc": {
-        "hn": 0,
-        "sm": 0
-      },
-      "cm": {
-        "hn": 0,
-        "sm": 0
-      }
+      "rank": "R3"
     },
     "Mr Khoai Tây": {
-      "rank": "R3",
-      "yc": {
-        "hn": 0,
-        "sm": 0
-      },
-      "cm": {
-        "hn": 0,
-        "sm": 0
-      },
-      "last_hn_score": 3087164,
-      "last_sm_score": 112551
+      "rank": "R3"
     },
     "Bakes56": {
-      "rank": "R3",
-      "yc": {
-        "hn": 0,
-        "sm": 0
-      },
-      "cm": {
-        "hn": 0,
-        "sm": 0
-      }
+      "rank": "R3"
     },
     "Yunnin": {
-      "rank": "R3",
-      "yc": {
-        "hn": 0,
-        "sm": 0
-      },
-      "cm": {
-        "hn": 0,
-        "sm": 0
-      },
-      "last_sm_score": 2363173
+      "rank": "R3"
     },
     "Trường Kiên": {
-      "rank": "R3",
-      "yc": {
-        "hn": 0,
-        "sm": 0
-      },
-      "cm": {
-        "hn": 0,
-        "sm": 0
-      }
+      "rank": "R3"
     },
     "Lucky ZZK": {
-      "rank": "R3",
-      "yc": {
-        "hn": 0,
-        "sm": 0
-      },
-      "cm": {
-        "hn": 0,
-        "sm": 0
-      }
+      "rank": "R3"
     },
     "Napolego": {
-      "rank": "R3",
-      "yc": {
-        "hn": 0,
-        "sm": 0
-      },
-      "cm": {
-        "hn": 0,
-        "sm": 0
-      }
+      "rank": "R3"
     },
     "vinh ccc": {
-      "rank": "R2",
-      "yc": {
-        "hn": 0,
-        "sm": 0
-      },
-      "cm": {
-        "hn": 0,
-        "sm": 0
-      }
+      "rank": "R2"
     },
     "Carolyn C": {
-      "rank": "R2",
-      "yc": {
-        "hn": 0,
-        "sm": 0
-      },
-      "cm": {
-        "hn": 0,
-        "sm": 0
-      }
+      "rank": "R2"
     },
     "Big Bad Benzy": {
-      "rank": "R2",
-      "yc": {
-        "hn": 0,
-        "sm": 0
-      },
-      "cm": {
-        "hn": 0,
-        "sm": 0
-      }
+      "rank": "R2"
     },
     "Michael Dung Nguyen": {
-      "rank": "R2",
-      "yc": {
-        "hn": 0,
-        "sm": 0
-      },
-      "cm": {
-        "hn": 0,
-        "sm": 0
-      }
+      "rank": "R2"
     },
     "Chan Say Hi": {
-      "rank": "R3",
-      "yc": {
-        "hn": 0,
-        "sm": 0
-      },
-      "cm": {
-        "hn": 0,
-        "sm": 0
-      },
-      "last_sm_score": 380032
+      "rank": "R3"
     },
     "Hunterla0101": {
-      "rank": "R2",
-      "yc": {
-        "hn": 0,
-        "sm": 0
-      },
-      "cm": {
-        "hn": 0,
-        "sm": 0
-      }
+      "rank": "R2"
     },
     "ROTY5": {
-      "rank": "R2",
-      "yc": {
-        "hn": 0,
-        "sm": 0
-      },
-      "cm": {
-        "hn": 0,
-        "sm": 0
-      }
+      "rank": "R2"
     },
     "JOY to the WORLD": {
-      "rank": "R2",
-      "yc": {
-        "hn": 0,
-        "sm": 0
-      },
-      "cm": {
-        "hn": 0,
-        "sm": 0
-      }
+      "rank": "R2"
     },
     "HÀ NỘI": {
-      "rank": "R2",
-      "yc": {
-        "hn": 0,
-        "sm": 0
-      },
-      "cm": {
-        "hn": 0,
-        "sm": 0
-      }
+      "rank": "R2"
     },
     "Lýkos": {
-      "rank": "R3",
-      "yc": {
-        "hn": 0,
-        "sm": 0
-      },
-      "cm": {
-        "hn": 0,
-        "sm": 0
-      },
-      "last_hn_score": 3403091,
-      "last_sm_score": 1037996
+      "rank": "R3"
     },
     "PoisonFlower": {
-      "rank": "R2",
-      "yc": {
-        "hn": 0,
-        "sm": 0
-      },
-      "cm": {
-        "hn": 0,
-        "sm": 0
-      }
+      "rank": "R2"
     },
     "Matt born": {
-      "rank": "R2",
-      "yc": {
-        "hn": 0,
-        "sm": 0
-      },
-      "cm": {
-        "hn": 0,
-        "sm": 0
-      }
+      "rank": "R2"
     },
     "1Mét45": {
-      "rank": "R2",
-      "yc": {
-        "hn": 0,
-        "sm": 0
-      },
-      "cm": {
-        "hn": 0,
-        "sm": 0
-      }
+      "rank": "R2"
     },
     "RavenRayne": {
-      "rank": "R2",
-      "yc": {
-        "hn": 0,
-        "sm": 0
-      },
-      "cm": {
-        "hn": 0,
-        "sm": 0
-      }
+      "rank": "R2"
     },
     "Markuz89": {
-      "rank": "R2",
-      "yc": {
-        "hn": 0,
-        "sm": 0
-      },
-      "cm": {
-        "hn": 0,
-        "sm": 0
-      }
+      "rank": "R2"
     },
     "aaaaatttttkkkkkk": {
-      "rank": "R2",
-      "yc": {
-        "hn": 0,
-        "sm": 0
-      },
-      "cm": {
-        "hn": 0,
-        "sm": 0
-      }
+      "rank": "R2"
     },
     "BASTOS Đỏ": {
-      "rank": "R2",
-      "yc": {
-        "hn": 0,
-        "sm": 0
-      },
-      "cm": {
-        "hn": 0,
-        "sm": 0
-      }
+      "rank": "R2"
     },
     "Min130221": {
-      "rank": "R2",
-      "yc": {
-        "hn": 0,
-        "sm": 0
-      },
-      "cm": {
-        "hn": 0,
-        "sm": 0
-      }
+      "rank": "R2"
     },
     "Trai Cầu Tôm": {
-      "rank": "R3",
-      "yc": {
-        "hn": 0,
-        "sm": 0
-      },
-      "cm": {
-        "hn": 0,
-        "sm": 0
-      },
-      "last_hn_score": 2323931,
-      "last_sm_score": 2718168
+      "rank": "R3"
     },
     "MR Dương": {
-      "rank": "R3",
-      "yc": {
-        "hn": 0,
-        "sm": 0
-      },
-      "cm": {
-        "hn": 0,
-        "sm": 0
-      },
-      "last_hn_score": 6377049,
-      "last_sm_score": 2365724
+      "rank": "R3"
     },
     "sửa máy promax": {
-      "rank": "R3",
-      "yc": {
-        "hn": 0,
-        "sm": 0
-      },
-      "cm": {
-        "hn": 0,
-        "sm": 0
-      },
-      "last_sm_score": 1967663,
-      "last_hn_score": 3078778
+      "rank": "R3"
     },
     "No CommenT": {
-      "rank": "R2",
-      "yc": {
-        "hn": 0,
-        "sm": 0
-      },
-      "cm": {
-        "hn": 0,
-        "sm": 0
-      }
+      "rank": "R2"
     },
     "Belive0088": {
-      "rank": "R2",
-      "yc": {
-        "hn": 0,
-        "sm": 0
-      },
-      "cm": {
-        "hn": 0,
-        "sm": 0
-      }
+      "rank": "R2"
     },
     "Mr Beep": {
-      "rank": "R1",
-      "yc": {
-        "hn": 0,
-        "sm": 0
-      },
-      "cm": {
-        "hn": 0,
-        "sm": 0
-      }
+      "rank": "R1"
     },
     "Mrpigvn": {
-      "rank": "R1",
-      "yc": {
-        "hn": 0,
-        "sm": 0
-      },
-      "cm": {
-        "hn": 0,
-        "sm": 0
-      }
+      "rank": "R1"
     },
     "kevkevkev123": {
-      "rank": "R1",
-      "yc": {
-        "hn": 0,
-        "sm": 0
-      },
-      "cm": {
-        "hn": 0,
-        "sm": 0
-      }
+      "rank": "R1"
     },
     "thangnet": {
-      "rank": "R1",
-      "yc": {
-        "hn": 0,
-        "sm": 0
-      },
-      "cm": {
-        "hn": 0,
-        "sm": 0
-      }
+      "rank": "R1"
     },
     "A Ngỗng": {
-      "rank": "R1",
-      "yc": {
-        "hn": 0,
-        "sm": 0
-      },
-      "cm": {
-        "hn": 0,
-        "sm": 0
-      }
+      "rank": "R1"
     },
     "Nguyện VT": {
-      "rank": "R1",
-      "yc": {
-        "hn": 0,
-        "sm": 0
-      },
-      "cm": {
-        "hn": 0,
-        "sm": 0
-      }
+      "rank": "R1"
     },
     "ÒOO": {
-      "rank": "R3",
-      "yc": {
-        "hn": 0,
-        "sm": 0
-      },
-      "cm": {
-        "hn": 0,
-        "sm": 0
-      },
-      "last_hn_score": 1432190,
-      "last_sm_score": 976540
+      "rank": "R3"
     },
     "Haizzzzzzzzzzzz": {
       "rank": "R4",
-      "yc": {
-        "hn": 0,
-        "sm": 0
-      },
-      "cm": {
-        "hn": 0,
-        "sm": 0
-      },
-      "note": "- YC rules waived",
-      "last_sm_score": 1265862,
-      "last_hn_score": 4268120
+      "note": "- YC rules waived"
     },
     "Kute Gold": {
-      "rank": "R3",
-      "yc": {
-        "hn": 0,
-        "sm": 0
-      },
-      "cm": {
-        "hn": 0,
-        "sm": 0
-      },
-      "last_hn_score": 6059077,
-      "last_sm_score": 3111058
+      "rank": "R3"
     },
     "TusEngland": {
-      "rank": "R4",
-      "yc": {
-        "hn": 0,
-        "sm": 0
-      },
-      "cm": {
-        "hn": 0,
-        "sm": 0
-      },
-      "last_hn_score": 10446813,
-      "last_sm_score": 5053723
+      "rank": "R4"
     },
     "上官武命": {
       "rank": "R1",
-      "yc": {
-        "hn": 0,
-        "sm": 0
-      },
-      "cm": {
-        "hn": 0,
-        "sm": 0
-      },
       "note": ""
     },
     "Bi小悟空": {
       "rank": "R3",
-      "yc": {
-        "hn": 0,
-        "sm": 0
-      },
-      "cm": {
-        "hn": 0,
-        "sm": 0
-      },
-      "last_hn_score": 5430394,
-      "note": "",
-      "last_sm_score": 1511620
+      "note": ""
     },
     "Bin 37": {
       "rank": "R2",
-      "yc": {
-        "hn": 0,
-        "sm": 0
-      },
-      "cm": {
-        "hn": 0,
-        "sm": 0
-      },
-      "last_hn_score": 5116025,
-      "note": "",
-      "last_sm_score": 3019228
+      "note": ""
     },
     "VN Đậu Hũ": {
       "rank": "R2",
-      "yc": {
-        "hn": 0,
-        "sm": 0
-      },
-      "cm": {
-        "hn": 0,
-        "sm": 0
-      },
-      "last_hn_score": 4805518,
       "note": ""
     },
     "Bunny1308": {
       "rank": "R2",
-      "yc": {
-        "hn": 0,
-        "sm": 0
-      },
-      "cm": {
-        "hn": 0,
-        "sm": 0
-      },
-      "last_hn_score": 2624868,
       "note": ""
     },
     "ZEKT": {
       "rank": "R2",
-      "yc": {
-        "hn": 0,
-        "sm": 0
-      },
-      "cm": {
-        "hn": 0,
-        "sm": 0
-      },
-      "last_hn_score": 2517367,
       "note": ""
     },
     "Mr Hải Nam": {
       "rank": "R2",
-      "yc": {
-        "hn": 0,
-        "sm": 0
-      },
-      "cm": {
-        "hn": 0,
-        "sm": 0
-      },
-      "last_hn_score": 3360390,
       "note": ""
     },
     "ThíchThìNhích92": {
       "rank": "R3",
-      "yc": {
-        "hn": 0,
-        "sm": 0
-      },
-      "cm": {
-        "hn": 0,
-        "sm": 0
-      },
-      "note": "",
-      "last_sm_score": 1869553
+      "note": ""
     },
     "Khánhh Báooo": {
       "rank": "R3",
-      "yc": {
-        "hn": 0,
-        "sm": 0
-      },
-      "cm": {
-        "hn": 0,
-        "sm": 0
-      },
-      "note": "",
-      "last_sm_score": 314788
+      "note": ""
     },
     "Nhi Nở": {
       "rank": "R3",
-      "yc": {
-        "hn": 0,
-        "sm": 0
-      },
-      "cm": {
-        "hn": 0,
-        "sm": 0
-      },
       "note": ""
     },
     "tRnuOwn9f 795": {
       "rank": "R2",
-      "yc": {
-        "hn": 0,
-        "sm": 0
-      },
-      "cm": {
-        "hn": 0,
-        "sm": 0
-      },
-      "note": "",
-      "last_sm_score": 932879
+      "note": ""
     },
     "Bắp đại ca": {
       "rank": "R3",
-      "yc": {
-        "hn": 0,
-        "sm": 0
-      },
-      "cm": {
-        "hn": 0,
-        "sm": 0
-      },
-      "note": "",
-      "last_sm_score": 2158477
+      "note": ""
     },
     "Sầu riêng m7": {
       "rank": "R3",
-      "yc": {
-        "hn": 0,
-        "sm": 0
-      },
-      "cm": {
-        "hn": 0,
-        "sm": 0
-      },
-      "note": "",
-      "last_sm_score": 1527129
+      "note": ""
     },
     "ᵛᶰ Đậu Hũ": {
       "rank": "R2",
-      "yc": {
-        "hn": 0,
-        "sm": 0
-      },
-      "cm": {
-        "hn": 0,
-        "sm": 0
-      },
-      "last_hn_score": 0,
-      "last_sm_score": 0,
       "dayoff": false,
       "note": ""
     },
     "Zyn1998 n": {
       "rank": "R2",
-      "yc": {
-        "hn": 0,
-        "sm": 0
-      },
-      "cm": {
-        "hn": 0,
-        "sm": 0
-      },
-      "last_hn_score": 0,
-      "last_sm_score": 0,
       "dayoff": false,
       "note": ""
     },
     "Hoàng Hậuu": {
       "rank": "R2",
-      "yc": {
-        "hn": 0,
-        "sm": 0
-      },
-      "cm": {
-        "hn": 0,
-        "sm": 0
-      },
-      "last_hn_score": 0,
-      "last_sm_score": 0,
       "dayoff": false,
       "note": ""
     },
     "Sói Ken": {
       "rank": "R2",
-      "yc": {
-        "hn": 0,
-        "sm": 0
-      },
-      "cm": {
-        "hn": 0,
-        "sm": 0
-      },
-      "last_hn_score": 0,
-      "last_sm_score": 0,
       "dayoff": false,
       "note": ""
     },
     "Mèo Sunshine": {
       "rank": "R2",
-      "yc": {
-        "hn": 0,
-        "sm": 0
-      },
-      "cm": {
-        "hn": 0,
-        "sm": 0
-      },
-      "last_hn_score": 0,
-      "last_sm_score": 0,
       "dayoff": false,
       "note": ""
     },
     "Thiện phương": {
       "rank": "R2",
-      "yc": {
-        "hn": 0,
-        "sm": 0
-      },
-      "cm": {
-        "hn": 0,
-        "sm": 0
-      },
-      "last_hn_score": 0,
-      "last_sm_score": 0,
       "dayoff": false,
       "note": ""
     },
     "Whiskeysieubeo": {
       "rank": "R2",
-      "yc": {
-        "hn": 0,
-        "sm": 0
-      },
-      "cm": {
-        "hn": 0,
-        "sm": 0
-      },
-      "last_hn_score": 0,
-      "last_sm_score": 0,
       "dayoff": 0,
       "note": ""
     },
     "El Coderito": {
       "rank": "R2",
-      "yc": {
-        "hn": 0,
-        "sm": 0
-      },
-      "cm": {
-        "hn": 0,
-        "sm": 0
-      },
-      "last_hn_score": 0,
-      "last_sm_score": 0,
       "dayoff": 0,
       "note": ""
     },
     "cu tí nhỏ xiu": {
       "rank": "R2",
-      "yc": {
-        "hn": 0,
-        "sm": 0
-      },
-      "cm": {
-        "hn": 0,
-        "sm": 0
-      },
-      "last_hn_score": 0,
-      "last_sm_score": 0,
       "dayoff": 0,
       "note": ""
     },
     "NHBảoLong": {
       "rank": "R2",
-      "yc": {
-        "hn": 0,
-        "sm": 0
-      },
-      "cm": {
-        "hn": 0,
-        "sm": 0
-      },
-      "last_hn_score": 0,
-      "last_sm_score": 0,
       "dayoff": 0,
       "note": ""
     },
     "Tom and Jerry 9999": {
       "rank": "R2",
-      "yc": {
-        "hn": 0,
-        "sm": 0
-      },
-      "cm": {
-        "hn": 0,
-        "sm": 0
-      },
-      "last_hn_score": 0,
-      "last_sm_score": 0,
       "dayoff": 0,
       "note": ""
     }

@@ -18,7 +18,6 @@ Automated lineup management for clan **ACMB** in Last War VN.
 | ⛰️ Bão Hẻm Núi (HN) | Thu 21:30 ICT | Fri 08:30 ICT | 20 | 10 | Sat 9am | Tue 9am |
 
 ## Official Data Model
-- **`last_matches`** = historical truth (who played, where, and score)
 - **`next_lineup`** = editable upcoming lineup
 - Each `next_lineup.[sm|hn].[A|B]` contains only:
   - `main[]`
@@ -29,15 +28,15 @@ Automated lineup management for clan **ACMB** in Last War VN.
   - no `off[]`
   - no permanent `removed[]` display list for lineup rendering
   - no slot assignment logic (`sm_team` / `hn_team`) driving lineup rebuilds
+  - no `last_matches` history
+  - no `yc` (yellow card) or `cm` (consecutive miss) tracking
 
 ## Official Lineup Rules
 - **Main capacity:** 20
 - **Sub capacity:** 10
 - **Selection order:** by squad power descending — stronger players in main, weaker in subs
 - **Registration:** players register fresh each week with their current main squad power
-- **No cm rule:** consecutive miss tracking is no longer used for lineup decisions
-- **No yc rule:** yellow card rule is no longer used
-- **No score-based selection:** previous match scores are no longer used to determine placement
+- **No cm rule, no yc rule, no score-based selection** — these are abolished
 - **Dayoff:** player misses the upcoming match but is expected back the following cycle
 - After each week's registration window, lineups are sorted by power and locked in as **manually edited state**
 
@@ -66,16 +65,16 @@ Automated lineup management for clan **ACMB** in Last War VN.
 | `1585c56a` | ACMB Lineup Check | Sat/Sun/Mon/Wed 12pm ICT | 90s |
 
 ### Cron logic
-- **Sat 12pm:** HN reg opened → ask for HN results
-- **Sun 12pm:** Follow up HN / warn Tue 9am deadline
-- **Mon 12pm:** Final HN warning + ask for SM results
-- **Wed 12pm:** SM closes Thu 9am → remind to register or ask for results
+- **Sat 12pm:** HN reg opened (Sat 9am) → reset HN lineup, announce registration open
+- **Sun 12pm:** HN reminder (deadline Tue 9am, 2 days left)
+- **Mon 12pm:** HN final reminder (closes tomorrow Tue 9am) + SM reg opened (Mon 9am) → reset SM lineup
+- **Wed 12pm:** SM final reminder (closes tomorrow Thu 9am)
 
 ## Official Workflow
-1. Each week players register and provide their main squad power
-2. Bot adds registered players to `next_lineup` with their power value
-3. Lineup is sorted by power: top 20 → main, next 10 → subs
-4. After sorting, lineup is **manually edited state** — no rebuilding from scratch
+1. At start of registration period, bot resets the lineup for that battle (clear main + subs)
+2. Players text in: name, battle, team, and their current first squad power
+3. Bot adds each player to `next_lineup` with their power value
+4. Bot reports main/sub slot for each addition — and flags any changes (e.g. a player bumped from main to sub as stronger players register)
 5. Push to GitHub → page updates automatically
 
 ## Player Management
@@ -84,9 +83,8 @@ Automated lineup management for clan **ACMB** in Last War VN.
 - **Set dayoff:** move player into `next_lineup.[mode].[slot].dayoff`
 - **Return from dayoff:** put player back into main/subs in the next cycle
 - **Remove from lineup:** remove from `next_lineup` and add to `recent_removed[]`
-- **Player leaves clan:** remove from roster/future results and add to `recent_removed[]`
+- **Player leaves clan:** remove from roster and add to `recent_removed[]`
 - **Change rank:** update `players.[name].rank` + `ranks` lists
-- **Yellow card:** update `players.[name].yc.{hn|sm}` and `cm.{hn|sm}`
 
 ## GitHub
 Repo: https://github.com/cvuong233/agent-presentation
