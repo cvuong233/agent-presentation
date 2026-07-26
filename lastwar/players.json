@@ -1621,6 +1621,21 @@
       "last_sm_score": 0,
       "dayoff": 0,
       "note": ""
+    },
+    "El Coderito": {
+      "rank": "R2",
+      "yc": {
+        "hn": 0,
+        "sm": 0
+      },
+      "cm": {
+        "hn": 0,
+        "sm": 0
+      },
+      "last_hn_score": 0,
+      "last_sm_score": 0,
+      "dayoff": 0,
+      "note": ""
     }
   },
   "next_lineup": {
@@ -1787,6 +1802,11 @@
           {
             "r": "R2",
             "name": "Whiskeysieubeo",
+            "reason": "Người chơi mới / Newly added"
+          },
+          {
+            "r": "R2",
+            "name": "El Coderito",
             "reason": "Người chơi mới / Newly added"
           }
         ],
@@ -2075,6 +2095,11 @@
           {
             "r": "R2",
             "name": "Whiskeysieubeo",
+            "reason": "Người chơi mới / Newly added"
+          },
+          {
+            "r": "R2",
+            "name": "El Coderito",
             "reason": "Người chơi mới / Newly added"
           }
         ],
