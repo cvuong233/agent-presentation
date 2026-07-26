@@ -115,7 +115,9 @@
       "Mr Hải Nam",
       "ᵛᶰ Đậu Hũ",
       "Zyn1998 n",
-      "Hoàng Hậuu"
+      "Hoàng Hậuu",
+      "Sói Ken",
+      "Mèo Sunshine"
     ],
     "R1": [
       "A Ngỗng",
@@ -1558,6 +1560,36 @@
       "last_sm_score": 0,
       "dayoff": false,
       "note": ""
+    },
+    "Sói Ken": {
+      "rank": "R2",
+      "yc": {
+        "hn": 0,
+        "sm": 0
+      },
+      "cm": {
+        "hn": 0,
+        "sm": 0
+      },
+      "last_hn_score": 0,
+      "last_sm_score": 0,
+      "dayoff": false,
+      "note": ""
+    },
+    "Mèo Sunshine": {
+      "rank": "R2",
+      "yc": {
+        "hn": 0,
+        "sm": 0
+      },
+      "cm": {
+        "hn": 0,
+        "sm": 0
+      },
+      "last_hn_score": 0,
+      "last_sm_score": 0,
+      "dayoff": false,
+      "note": ""
     }
   },
   "next_lineup": {
@@ -1704,6 +1736,16 @@
           {
             "r": "R2",
             "name": "Hoàng Hậuu",
+            "reason": "Người chơi mới / Newly added"
+          },
+          {
+            "r": "R2",
+            "name": "Sói Ken",
+            "reason": "Người chơi mới / Newly added"
+          },
+          {
+            "r": "R2",
+            "name": "Mèo Sunshine",
             "reason": "Người chơi mới / Newly added"
           }
         ],
@@ -1973,6 +2015,16 @@
             "r": "R3",
             "name": "Nhi Nở",
             "reason": "Người chơi mới, chưa vào trận / New player, awaiting first match"
+          },
+          {
+            "r": "R2",
+            "name": "Sói Ken",
+            "reason": "Người chơi mới / Newly added"
+          },
+          {
+            "r": "R2",
+            "name": "Mèo Sunshine",
+            "reason": "Người chơi mới / Newly added"
           }
         ],
         "dayoff": [],
