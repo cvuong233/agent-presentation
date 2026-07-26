@@ -33,12 +33,13 @@ Automated lineup management for clan **ACMB** in Last War VN.
 ## Official Lineup Rules
 - **Main capacity:** 20
 - **Sub capacity:** 10
-- **Selection order for first draft after results:** by last-match score descending
-- **1 YC:** sub for that battle
-- **2 consecutive YC:** removed from lineup
+- **Selection order:** by squad power descending — stronger players in main, weaker in subs
+- **Registration:** players register fresh each week with their current main squad power
+- **No cm rule:** consecutive miss tracking is no longer used for lineup decisions
+- **No yc rule:** yellow card rule is no longer used
+- **No score-based selection:** previous match scores are no longer used to determine placement
 - **Dayoff:** player misses the upcoming match but is expected back the following cycle
-- **Recent removed:** only for players recently taken out of lineup; clear on next lineup cycle
-- After the first draft is created from battle results, the upcoming lineup is **manually edited state**, not something to rebuild from scratch repeatedly
+- After each week's registration window, lineups are sorted by power and locked in as **manually edited state**
 
 ## Ranks
 - **R5:** Lerxinhiu
@@ -71,14 +72,11 @@ Automated lineup management for clan **ACMB** in Last War VN.
 - **Wed 12pm:** SM closes Thu 9am → remind to register or ask for results
 
 ## Official Workflow
-1. User sends battle result screenshots
-2. Bot reads scores and updates `last_matches`
-3. Bot applies YC / removal consequences from those results
-4. Bot runs the build script **once** to create the next draft lineup
-5. That draft is stored in **`next_lineup`**
-6. After that, all lineup changes are made by **directly editing `next_lineup`**
-7. Do **not** rerun the build script unless a new battle result arrives
-8. Push to GitHub → page updates automatically
+1. Each week players register and provide their main squad power
+2. Bot adds registered players to `next_lineup` with their power value
+3. Lineup is sorted by power: top 20 → main, next 10 → subs
+4. After sorting, lineup is **manually edited state** — no rebuilding from scratch
+5. Push to GitHub → page updates automatically
 
 ## Player Management
 - **Move to main:** edit `next_lineup.[mode].[slot].main`
