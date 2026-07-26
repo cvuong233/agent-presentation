@@ -630,7 +630,14 @@
   "next_lineup": {
     "sm": {
       "A": {
-        "main": [],
+        "main": [
+          {
+            "r": "R3",
+            "name": "MR Dương",
+            "power": 48.5,
+            "reason": "Đăng ký tuần này / Weekly registration"
+          }
+        ],
         "subs": [],
         "dayoff": [],
         "slot": "A",
@@ -654,7 +661,14 @@
     },
     "hn": {
       "A": {
-        "main": [],
+        "main": [
+          {
+            "r": "R3",
+            "name": "MR Dương",
+            "power": 48.5,
+            "reason": "Đăng ký tuần này / Weekly registration"
+          }
+        ],
         "subs": [],
         "dayoff": [],
         "slot": "A",
