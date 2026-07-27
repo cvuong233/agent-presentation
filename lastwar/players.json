@@ -653,6 +653,9 @@
     },
     "ÒÓO": {
       "rank": "R3"
+    },
+    "Lưu Mẫn Nhi": {
+      "rank": "R3"
     }
   },
   "next_lineup": {
@@ -759,6 +762,12 @@
             "r": "R3",
             "name": "Marines Malevolent",
             "power": 42.8,
+            "reason": "Đăng ký tuần này / Weekly registration"
+          },
+          {
+            "r": "R3",
+            "name": "Lưu Mẫn Nhi",
+            "power": 42.3,
             "reason": "Đăng ký tuần này / Weekly registration"
           }
         ],
@@ -869,6 +878,12 @@
             "r": "R3",
             "name": "Marines Malevolent",
             "power": 42.8,
+            "reason": "Đăng ký tuần này / Weekly registration"
+          },
+          {
+            "r": "R3",
+            "name": "Lưu Mẫn Nhi",
+            "power": 42.3,
             "reason": "Đăng ký tuần này / Weekly registration"
           }
         ],
