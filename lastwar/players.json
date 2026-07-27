@@ -896,6 +896,12 @@
           },
           {
             "r": "R3",
+            "name": "sửa máy promax",
+            "power": 49.5,
+            "reason": "Đăng ký tuần này / Weekly registration"
+          },
+          {
+            "r": "R3",
             "name": "e Asche",
             "power": 48.3,
             "reason": "Đăng ký tuần này / Weekly registration"
@@ -983,7 +989,9 @@
             "name": "Aaaluan",
             "power": 41,
             "reason": "Đăng ký tuần này / Weekly registration"
-          },
+          }
+        ],
+        "subs": [
           {
             "r": "R3",
             "name": "Khánhh Báooo",
@@ -991,7 +999,6 @@
             "reason": "Đăng ký tuần này / Weekly registration"
           }
         ],
-        "subs": [],
         "dayoff": [],
         "slot": "B",
         "maxMain": 20,
@@ -1088,6 +1095,12 @@
           },
           {
             "r": "R3",
+            "name": "sửa máy promax",
+            "power": 49.5,
+            "reason": "Đăng ký tuần này / Weekly registration"
+          },
+          {
+            "r": "R3",
             "name": "Yến Nhi NT",
             "power": 49,
             "reason": "Đăng ký tuần này / Weekly registration"
@@ -1109,15 +1122,15 @@
             "name": "Cúc Hoa Long Lanh",
             "power": 47.8,
             "reason": "Đăng ký tuần này / Weekly registration"
-          },
+          }
+        ],
+        "subs": [
           {
             "r": "R3",
             "name": "RùaNgáo",
             "power": 46.5,
             "reason": "Đăng ký tuần này / Weekly registration"
-          }
-        ],
-        "subs": [
+          },
           {
             "r": "R3",
             "name": "ZEKT",
