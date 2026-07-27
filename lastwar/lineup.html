@@ -485,6 +485,7 @@
   .count-sub  { background: #f59e0b18; color: #f59e0b; border: 1px solid #f59e0b44; }
   .count-dayoff { background: #8b5cf618; color: #a78bfa; border: 1px solid #8b5cf644; }
   .count-open { background: #6b728018; color: #9ca3af; border: 1px solid #6b728044; }
+  .count-waiting { background: #4b556318; color: #8b95a5; border: 1px solid #4b556344; }
 
   /* section blocks */
   .section-block { margin: 8px 10px; border-radius: 8px; overflow: hidden; border: 1px solid #2a2a3e; }
@@ -509,6 +510,13 @@
   /* dayoff section */
   .section-block.dayoff-section { border-color: #8b5cf644; }
   .section-block.dayoff-section .section-header { background: linear-gradient(90deg, #150a1a, #1e0f2a); color: #a78bfa; border-bottom: 1px solid #8b5cf633; }
+
+  /* waiting list section - muted, not in active lineup */
+  .section-block.waiting-section { border-color: #4b556344; opacity: 0.8; }
+  .section-block.waiting-section .section-header { background: linear-gradient(90deg, #12141a, #191c24); color: #8b95a5; border-bottom: 1px solid #4b556333; font-weight: 600; }
+  .waiting-section tbody { background: #14161c; }
+  .waiting-section td { opacity: 0.6; }
+  .waiting-section tr:hover td { background: #1c1f28; opacity: 0.9; }
 
   /* rank badges row */
   .rank-summary { display: flex; gap: 6px; padding: 6px 14px; background: #0a0d1a; flex-wrap: wrap; border-bottom: 1px solid #1e1e30; }
@@ -782,8 +790,8 @@ const I18N = {
     tab_sm_sub: 'DSB', tab_hn_sub: 'CSB',
     updated: 'Cập nhật', team: 'Lực Lượng',
     tf_a: 'Lực Lượng A', tf_b: 'Lực Lượng B',
-    main: 'Chính thức', sub: 'Dự bị', dayoff: 'Nghỉ phép', open: 'Trống',
-    main_header: '✅ ĐỘI CHÍNH', sub_header: '🔄 DỰ BỊ', dayoff_header: '😴 NGHỈ PHÉP', removed_header: '❌ ĐÃ LOẠI',
+    main: 'Chính thức', sub: 'Dự bị', dayoff: 'Nghỉ phép', open: 'Trống', waiting: 'Chờ',
+    main_header: '✅ ĐỘI CHÍNH', sub_header: '🔄 DỰ BỊ', dayoff_header: '😴 NGHỈ PHÉP', removed_header: '❌ ĐÃ LOẠI', waiting_header: '⏳ DANH SÁCH CHỜ',
     player: 'Người chơi', reason: 'Ghi chú', date: 'Ngày',
     night: '🌙 Tối', morning: '☀️ Sáng', evening: '🌅 Chiều',
     transferred: 'Chuyển đội', new_to_slot: 'Mới vào đội',
@@ -804,8 +812,8 @@ const I18N = {
     tab_sm_sub: 'Bão Sa Mạc', tab_hn_sub: 'Bão Hẻm Núi',
     updated: 'Updated', team: 'Task Force',
     tf_a: 'Task Force A', tf_b: 'Task Force B',
-    main: 'Main', sub: 'Sub', dayoff: 'Day-off', open: 'Open',
-    main_header: '✅ MAIN ROSTER', sub_header: '🔄 SUBSTITUTES', dayoff_header: '😴 DAY-OFF', removed_header: '❌ REMOVED',
+    main: 'Main', sub: 'Sub', dayoff: 'Day-off', open: 'Open', waiting: 'Waiting',
+    main_header: '✅ MAIN ROSTER', sub_header: '🔄 SUBSTITUTES', dayoff_header: '😴 DAY-OFF', removed_header: '❌ REMOVED', waiting_header: '⏳ WAITING LIST',
     player: 'Player', reason: 'Note', date: 'Date',
     night: '🌙 Night', morning: '☀️ Morning', evening: '🌅 Evening',
     transferred: 'Transferred', new_to_slot: 'New to slot',
@@ -874,7 +882,7 @@ function buildTable(players, section, startNum) {
       html += `<tr class="rank-divider"><td colspan="4">── ${p.r} ──</td></tr>`;
       lastR = p.r;
     }
-    const prefix = section === 'main' ? num++ : section === 'sub' ? 'S'+(num++) : '—';
+    const prefix = section === 'main' ? num++ : section === 'sub' ? 'S'+(num++) : section === 'waiting' ? 'W'+(num++) : '—';
     html += `<tr>
       <td class="num">${prefix}</td>
       <td><span class="rank-badge ${p.r.toLowerCase()}">${p.r}</span></td>
@@ -898,11 +906,15 @@ function buildCard(mode, slot, data) {
   const d = data.next_lineup[mode][slot];
   const openSlots = d.maxMain - d.main.length;
   const dayoff = d.dayoff || [];
+  const maxSubs = d.maxSubs || 10;
+  const activeSubs = d.subs.slice(0, maxSubs);
+  const waitingList = d.subs.slice(maxSubs);
 
   // Summary bar
   const summary = `<div class="summary-bar">
     <span class="count-badge count-main">✅ ${t('main')}: ${d.main.length}/${d.maxMain}</span>
-    ${d.subs.length ? `<span class="count-badge count-sub">🔄 ${t('sub')}: ${d.subs.length}</span>` : ''}
+    ${activeSubs.length ? `<span class="count-badge count-sub">🔄 ${t('sub')}: ${activeSubs.length}/${maxSubs}</span>` : ''}
+    ${waitingList.length ? `<span class="count-badge count-waiting">⏳ ${t('waiting')}: ${waitingList.length}</span>` : ''}
     ${dayoff.length ? `<span class="count-badge count-dayoff">😴 ${t('dayoff')}: ${dayoff.length}</span>` : ''}
     ${openSlots > 0 ? `<span class="count-badge count-open">🔓 ${t('open')}: ${openSlots}</span>` : ''}
   </div>`;
@@ -914,12 +926,21 @@ function buildCard(mode, slot, data) {
     ${buildTable(d.main, 'main', 1)}
   </div>`;
 
-  // Sub section (only if there are subs)
+  // Sub section (only the top maxSubs entries are active substitutes)
   let subSection = '';
-  if (d.subs.length > 0) {
+  if (activeSubs.length > 0) {
     subSection = `<div class="section-block sub-section">
-      <div class="section-header">${t('sub_header')} <span class="section-count">(${d.subs.length})</span></div>
-      ${buildTable(d.subs, 'sub', 1)}
+      <div class="section-header">${t('sub_header')} <span class="section-count">(${activeSubs.length}/${maxSubs})</span></div>
+      ${buildTable(activeSubs, 'sub', 1)}
+    </div>`;
+  }
+
+  // Waiting list section (players beyond the sub cap - not in the active lineup)
+  let waitingSection = '';
+  if (waitingList.length > 0) {
+    waitingSection = `<div class="section-block waiting-section">
+      <div class="section-header">${t('waiting_header')} <span class="section-count">(${waitingList.length})</span></div>
+      ${buildTable(waitingList, 'waiting', 1)}
     </div>`;
   }
 
@@ -969,6 +990,7 @@ function buildCard(mode, slot, data) {
     ${summary}
     ${mainSection}
     ${subSection}
+    ${waitingSection}
     ${dayoffSection}
     ${removedSection}
   `;
