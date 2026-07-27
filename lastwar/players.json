@@ -648,7 +648,14 @@
         "period": "evening"
       },
       "B": {
-        "main": [],
+        "main": [
+          {
+            "r": "R3",
+            "name": "danhoanh",
+            "power": 44.86,
+            "reason": "Đăng ký tuần này / Weekly registration"
+          }
+        ],
         "subs": [],
         "dayoff": [],
         "slot": "B",
@@ -679,7 +686,14 @@
         "period": "night 21:30"
       },
       "B": {
-        "main": [],
+        "main": [
+          {
+            "r": "R3",
+            "name": "danhoanh",
+            "power": 44.86,
+            "reason": "Đăng ký tuần này / Weekly registration"
+          }
+        ],
         "subs": [],
         "dayoff": [],
         "slot": "B",
