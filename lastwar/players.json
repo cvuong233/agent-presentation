@@ -334,6 +334,9 @@
     "Chivas2026": {
       "rank": "R3"
     },
+    "NgocNamBoss": {
+      "rank": "R3"
+    },
     "e Asche": {
       "rank": "R3"
     },
@@ -712,6 +715,18 @@
           },
           {
             "r": "R3",
+            "name": "NgocNamBoss",
+            "power": 45.3,
+            "reason": "Đăng ký tuần này / Weekly registration"
+          },
+          {
+            "r": "R3",
+            "name": "Chivas2026",
+            "power": 45,
+            "reason": "Đăng ký tuần này / Weekly registration"
+          },
+          {
+            "r": "R3",
             "name": "danhoanh",
             "power": 44.86,
             "reason": "Đăng ký tuần này / Weekly registration"
@@ -806,6 +821,18 @@
             "r": "R3",
             "name": "ÒÓO",
             "power": 48,
+            "reason": "Đăng ký tuần này / Weekly registration"
+          },
+          {
+            "r": "R3",
+            "name": "NgocNamBoss",
+            "power": 45.3,
+            "reason": "Đăng ký tuần này / Weekly registration"
+          },
+          {
+            "r": "R3",
+            "name": "Chivas2026",
+            "power": 45,
             "reason": "Đăng ký tuần này / Weekly registration"
           },
           {
