@@ -657,6 +657,9 @@
     },
     "Lưu Mẫn Nhi": {
       "rank": "R3"
+    },
+    "Cúc Hoa Long Lanh": {
+      "rank": "R3"
     }
   },
   "next_lineup": {
@@ -711,6 +714,12 @@
             "reason": "Đăng ký tuần này / Weekly registration"
           },
           {
+            "r": "R3",
+            "name": "Cúc Hoa Long Lanh",
+            "power": 47.8,
+            "reason": "Đăng ký tuần này / Weekly registration"
+          },
+          {
             "r": "R4",
             "name": "wolfwitch",
             "power": 47.7,
@@ -726,6 +735,12 @@
             "r": "R3",
             "name": "tâm1980",
             "power": 45.7,
+            "reason": "Đăng ký tuần này / Weekly registration"
+          },
+          {
+            "r": "R3",
+            "name": "Thanhh Tân",
+            "power": 44,
             "reason": "Đăng ký tuần này / Weekly registration"
           },
           {
@@ -890,6 +905,12 @@
             "reason": "Đăng ký tuần này / Weekly registration"
           },
           {
+            "r": "R3",
+            "name": "Cúc Hoa Long Lanh",
+            "power": 47.8,
+            "reason": "Đăng ký tuần này / Weekly registration"
+          },
+          {
             "r": "R4",
             "name": "wolfwitch",
             "power": 47.7,
@@ -905,6 +926,12 @@
             "r": "R3",
             "name": "tâm1980",
             "power": 45.7,
+            "reason": "Đăng ký tuần này / Weekly registration"
+          },
+          {
+            "r": "R3",
+            "name": "Thanhh Tân",
+            "power": 44,
             "reason": "Đăng ký tuần này / Weekly registration"
           },
           {
