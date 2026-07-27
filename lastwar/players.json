@@ -88,7 +88,8 @@
       "Nhi Nở",
       "Bắp đại ca",
       "Sầu riêng m7",
-      "Tom and Jerry 9999"
+      "Tom and Jerry 9999",
+      "Cúc Hoa Long Lanh"
     ],
     "R2": [
       "1Mét45",
@@ -128,8 +129,7 @@
       "Nguyện VT",
       "kevkevkev123",
       "thangnet",
-      "上官武命",
-      "Cúc Hoa Long Lanh"
+      "上官武命"
     ]
   },
   "last_matches": {
@@ -660,7 +660,7 @@
       "rank": "R3"
     },
     "Cúc Hoa Long Lanh": {
-      "rank": "R1"
+      "rank": "R3"
     },
     "Clone or Sou": {
       "rank": "R3"
@@ -783,7 +783,7 @@
             "reason": "Đăng ký tuần này / Weekly registration"
           },
           {
-            "r": "R1",
+            "r": "R3",
             "name": "Cúc Hoa Long Lanh",
             "power": 47.8,
             "reason": "Đăng ký tuần này / Weekly registration"
@@ -1105,7 +1105,7 @@
             "reason": "Đăng ký tuần này / Weekly registration"
           },
           {
-            "r": "R1",
+            "r": "R3",
             "name": "Cúc Hoa Long Lanh",
             "power": 47.8,
             "reason": "Đăng ký tuần này / Weekly registration"
