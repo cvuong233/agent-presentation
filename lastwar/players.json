@@ -666,6 +666,9 @@
     },
     "Sting Chanh": {
       "rank": "R3"
+    },
+    "Zz Ma Tuý Đá zz": {
+      "rank": "R3"
     }
   },
   "next_lineup": {
@@ -711,6 +714,12 @@
             "r": "R4",
             "name": "wolfwitch",
             "reason": "R4"
+          },
+          {
+            "r": "R3",
+            "name": "Zz Ma Tuý Đá zz",
+            "power": 54,
+            "reason": "Đăng ký tuần này / Weekly registration"
           },
           {
             "r": "R3",
@@ -777,15 +786,15 @@
             "name": "RùaNgáo",
             "power": 46.5,
             "reason": "Đăng ký tuần này / Weekly registration"
-          },
+          }
+        ],
+        "subs": [
           {
             "r": "R3",
             "name": "Sầu riêng m7",
             "power": 46.2,
             "reason": "Đăng ký tuần này / Weekly registration"
-          }
-        ],
-        "subs": [
+          },
           {
             "r": "R3",
             "name": "tâm1980",
@@ -1006,6 +1015,12 @@
           },
           {
             "r": "R3",
+            "name": "Zz Ma Tuý Đá zz",
+            "power": 54,
+            "reason": "Đăng ký tuần này / Weekly registration"
+          },
+          {
+            "r": "R3",
             "name": "Tom and Jerry 9999",
             "power": 51.0,
             "reason": "Đăng ký tuần này / Weekly registration"
@@ -1069,15 +1084,15 @@
             "name": "tâm1980",
             "power": 45.7,
             "reason": "Đăng ký tuần này / Weekly registration"
-          },
+          }
+        ],
+        "subs": [
           {
             "r": "R3",
             "name": "Clone or Sou",
             "power": 45,
             "reason": "Đăng ký tuần này / Weekly registration"
-          }
-        ],
-        "subs": [
+          },
           {
             "r": "R3",
             "name": "Thanhh Tân",
