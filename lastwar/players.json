@@ -729,6 +729,12 @@
           },
           {
             "r": "R3",
+            "name": "MrAugust2886",
+            "power": 49.88,
+            "reason": "Đăng ký tuần này / Weekly registration"
+          },
+          {
+            "r": "R3",
             "name": "Yến Nhi NT",
             "power": 49,
             "reason": "Đăng ký tuần này / Weekly registration"
@@ -774,15 +780,15 @@
             "name": "Zyn1998 n",
             "power": 45.7,
             "reason": "Đăng ký tuần này / Weekly registration"
-          },
+          }
+        ],
+        "subs": [
           {
             "r": "R3",
             "name": "Clone or Sou",
             "power": 45,
             "reason": "Đăng ký tuần này / Weekly registration"
-          }
-        ],
-        "subs": [
+          },
           {
             "r": "R3",
             "name": "Thanhh Tân",
@@ -1078,6 +1084,12 @@
           },
           {
             "r": "R3",
+            "name": "MrAugust2886",
+            "power": 49.88,
+            "reason": "Đăng ký tuần này / Weekly registration"
+          },
+          {
+            "r": "R3",
             "name": "ᵛᶰ Đậu Hũ",
             "power": 48.4,
             "reason": "Đăng ký tuần này / Weekly registration"
@@ -1171,7 +1183,9 @@
             "name": "Aaaluan",
             "power": 41,
             "reason": "Đăng ký tuần này / Weekly registration"
-          },
+          }
+        ],
+        "subs": [
           {
             "r": "R3",
             "name": "Khánhh Báooo",
@@ -1179,7 +1193,6 @@
             "reason": "Đăng ký tuần này / Weekly registration"
           }
         ],
-        "subs": [],
         "dayoff": [],
         "slot": "B",
         "maxMain": 20,
