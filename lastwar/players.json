@@ -663,6 +663,9 @@
     },
     "Clone or Sou": {
       "rank": "R3"
+    },
+    "Sting Chanh": {
+      "rank": "R3"
     }
   },
   "next_lineup": {
@@ -735,6 +738,12 @@
           },
           {
             "r": "R3",
+            "name": "Sting Chanh",
+            "power": 49.7,
+            "reason": "Đăng ký tuần này / Weekly registration"
+          },
+          {
+            "r": "R3",
             "name": "Yến Nhi NT",
             "power": 49,
             "reason": "Đăng ký tuần này / Weekly registration"
@@ -774,15 +783,15 @@
             "name": "tâm1980",
             "power": 45.7,
             "reason": "Đăng ký tuần này / Weekly registration"
-          },
+          }
+        ],
+        "subs": [
           {
             "r": "R3",
             "name": "Zyn1998 n",
             "power": 45.7,
             "reason": "Đăng ký tuần này / Weekly registration"
-          }
-        ],
-        "subs": [
+          },
           {
             "r": "R3",
             "name": "Clone or Sou",
@@ -1003,6 +1012,12 @@
           },
           {
             "r": "R3",
+            "name": "Sting Chanh",
+            "power": 49.7,
+            "reason": "Đăng ký tuần này / Weekly registration"
+          },
+          {
+            "r": "R3",
             "name": "Yến Nhi NT",
             "power": 49,
             "reason": "Đăng ký tuần này / Weekly registration"
@@ -1048,7 +1063,9 @@
             "name": "Thanhh Tân",
             "power": 44,
             "reason": "Đăng ký tuần này / Weekly registration"
-          },
+          }
+        ],
+        "subs": [
           {
             "r": "R3",
             "name": "KYLEPHAM2401",
@@ -1056,7 +1073,6 @@
             "reason": "Đăng ký tuần này / Weekly registration"
           }
         ],
-        "subs": [],
         "dayoff": [],
         "slot": "A",
         "maxMain": 20,
