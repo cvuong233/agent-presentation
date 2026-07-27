@@ -87,7 +87,8 @@
       "Khánhh Báooo",
       "Nhi Nở",
       "Bắp đại ca",
-      "Sầu riêng m7"
+      "Sầu riêng m7",
+      "Tom and Jerry 9999"
     ],
     "R2": [
       "1Mét45",
@@ -646,7 +647,7 @@
       "note": ""
     },
     "Tom and Jerry 9999": {
-      "rank": "R2",
+      "rank": "R3",
       "dayoff": 0,
       "note": "",
       "power": 51.0
@@ -698,7 +699,7 @@
             "reason": "R4"
           },
           {
-            "r": "R2",
+            "r": "R3",
             "name": "Tom and Jerry 9999",
             "power": 51.0,
             "reason": "Đăng ký tuần này / Weekly registration"
@@ -865,7 +866,7 @@
             "reason": "R4"
           },
           {
-            "r": "R2",
+            "r": "R3",
             "name": "Tom and Jerry 9999",
             "power": 51.0,
             "reason": "Đăng ký tuần này / Weekly registration"
