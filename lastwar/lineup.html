@@ -745,39 +745,40 @@
     </div>
     <div class="info-modal-content">
 
-      <h3 data-i18n="info_selection">🏆 Ai Được Chọn?</h3>
+      <h3 data-i18n="info_selection">🏆 Thứ Tự Chọn</h3>
       <ul>
-        <li data-i18n="info_selection_desc">- Xếp hạng theo điểm trận trước (cao nhất lên đầu)
-- Điểm cao = suất chính, rank không quan trọng!
-- Điểm thấp hơn sẽ xuống dự bị</li>
+        <li data-i18n="info_selection_desc">- Xếp theo tổng lực (power) giảm dần, mạnh nhất lên đầu
+- Player rank cố định (R4/R5) luôn được xếp đầu danh sách chính thức</li>
       </ul>
 
-      <h3 data-i18n="info_team">👥 Mỗi Trận - Một Team</h3>
+      <h3 data-i18n="info_team">👥 Phân Đội</h3>
       <ul>
-        <li data-i18n="info_team_desc">- Mỗi tuần, bạn chỉ chơi 1 team (A hoặc B) cho mỗi battle
-- Không thể đứng cả Team A lẫn Team B cùng lúc
-- Team được chọn dựa trên điểm và sở thích cá nhân</li>
+        <li data-i18n="info_team_desc">- Mỗi tuần, bạn đăng ký 1 team (A hoặc B) cho mỗi battle
+- Không thể đứng cả Team A lẫn Team B cùng lúc</li>
       </ul>
 
       <h3 data-i18n="info_slot">📊 Sĩ Số Mỗi Team</h3>
       <ul>
-        <li data-i18n="info_slot_desc">- SM (Bão Sa Mạc): mỗi Lực Lượng (A/B) tối đa 20 người chính thức + 10 dự bị
-- HN (Bão Hẻm Núi): mỗi Lực Lượng (A/B) tối đa 20 người chính thức + 10 dự bị
-- Còn slot trống? Cơ hội cho người mới!</li>
+        <li data-i18n="info_slot_desc">- Mỗi Lực Lượng (A/B) tối đa 20 người chính thức + 10 dự bị (SM và HN)
+- Player rank cố định không tính vào giới hạn sĩ số</li>
       </ul>
 
       <h3 data-i18n="info_deadline">⏰ Hạn Đăng Ký</h3>
       <ul>
         <li data-i18n="info_deadline_desc">- HN: Thứ 3, 9:00 sáng (ICT)
-- SM: Thứ 5, 9:00 sáng (ICT)
-- Quá hạn = tự động xuống dự bị</li>
+- SM: Thứ 5, 9:00 sáng (ICT)</li>
       </ul>
 
-      <h3 data-i18n="info_absence">🔄 Nếu Bạn Vắng Mặt</h3>
+      <h3 data-i18n="info_absence">🔄 Nghỉ Phép</h3>
       <ul>
-        <li data-i18n="info_absence_desc">- Vắng 1 trận → Xuống dự bị tuần sau
-- Vắng 2 trận liên tiếp → Bị loại khỏi lineup
-- Báo trước nếu có thể để team sắp xếp</li>
+        <li data-i18n="info_absence_desc">- Xin nghỉ phép → vắng trận kế tiếp, quay lại chu kỳ sau
+- Không áp dụng luật thẻ vàng (yc) hay vắng liên tiếp (cm)</li>
+      </ul>
+
+      <h3 data-i18n="info_fixed">📌 Player Cố Định</h3>
+      <ul>
+        <li data-i18n="info_fixed_desc">- Player rank R5/R4 mạnh được tự động đăng ký mỗi tuần
+- Không cần đăng ký thủ công</li>
       </ul>
     </div>
   </div>
@@ -801,15 +802,17 @@ const I18N = {
     overflow: 'tràn', no_subs: 'Không có dự bị', no_dayoff: '',
     info_title: '📋 Thể Lệ Đội Hình',
     info_selection: '🏆 Thứ Tự Chọn',
-    info_selection_desc: 'Player được xếp theo điểm trận trước (cao nhất trước)\nThứ hạng không quan trọng - hiệu suất mới là yếu tố quyết định',
+    info_selection_desc: 'Xếp theo tổng lực (power) giảm dần, mạnh nhất lên đầu\nPlayer rank cố định (R4/R5) luôn được xếp đầu danh sách chính thức',
     info_team: '👥 Phân Đội',
-    info_team_desc: 'Mỗi tuần, mỗi player chỉ chơi 1 team (A hoặc B) cho mỗi battle\nKhông thể đứng cả 2 team cùng lúc',
+    info_team_desc: 'Mỗi tuần, bạn đăng ký 1 team (A hoặc B) cho mỗi battle\nKhông thể đứng cả 2 team cùng lúc',
     info_slot: '📊 Sĩ Số',
-    info_slot_desc: 'SM (Bão Sa Mạc): mỗi Lực Lượng (A/B) tối đa 20 người chính thức + 10 dự bị\nHN (Bão Hẻm Núi): mỗi Lực Lượng (A/B) tối đa 20 người chính thức + 10 dự bị',
+    info_slot_desc: 'Mỗi Lực Lượng (A/B) tối đa 20 người chính thức + 10 dự bị (SM và HN)\nPlayer rank cố định không tính vào giới hạn sĩ số',
     info_deadline: '⏰ Hạn Đăng Ký',
     info_deadline_desc: 'HN: 9am Thứ 3\nSM: 9am Thứ 5',
-    info_absence: '🔄 Vắng Mặt',
-    info_absence_desc: 'Vắng 1 trận → Xuống dự bị\nVắng 2 trận liên tiếp → Loại khỏi đội hình'
+    info_absence: '🔄 Nghỉ Phép',
+    info_absence_desc: 'Xin nghỉ phép → vắng trận kế tiếp, quay lại chu kỳ sau\nKhông áp dụng luật thẻ vàng (yc) hay vắng liên tiếp (cm)',
+    info_fixed: '📌 Player Cố Định',
+    info_fixed_desc: 'Player rank R5/R4 mạnh được tự động đăng ký mỗi tuần\nKhông cần đăng ký thủ công'
   },
   en: {
     title: 'ACMB — Battle Lineup',
@@ -825,15 +828,17 @@ const I18N = {
     overflow: 'overflow', no_subs: 'No substitutes', no_dayoff: '',
     info_title: '📋 Lineup Rules',
     info_selection: '🏆 Selection Order',
-    info_selection_desc: 'Players ranked by last match score (highest first)\nRank doesn\'t matter - performance does',
+    info_selection_desc: 'Ranked by squad power descending, strongest first\nFixed rank players (R4/R5) always sit at the top of main',
     info_team: '👥 Team Assignment',
-    info_team_desc: 'Each week, players join ONE team (A or B) per battle\nCannot be on both teams at the same time',
+    info_team_desc: 'Each week, register to ONE team (A or B) per battle\nCannot be on both teams at the same time',
     info_slot: '📊 Team Size',
-    info_slot_desc: 'DSB (Desert Storm Battle): each Task Force (A/B) holds up to 20 main + 10 subs\nCSB (Canyon Storm Battle): each Task Force (A/B) holds up to 20 main + 10 subs',
+    info_slot_desc: 'Each Task Force (A/B) holds up to 20 main + 10 subs (DSB and CSB)\nFixed rank players are exempt from this cap',
     info_deadline: '⏰ Registration Deadline',
     info_deadline_desc: 'CSB: Tue 9am ICT\nDSB: Thu 9am ICT',
-    info_absence: '🔄 Absence Policy',
-    info_absence_desc: 'Miss 1 match → Move to substitutes\nMiss 2 consecutive matches → Removed from lineup'
+    info_absence: '🔄 Dayoff Policy',
+    info_absence_desc: 'Taking a dayoff → miss the next match, expected back the following cycle\nNo cm (consecutive-miss) or yc (yellow card) rules apply',
+    info_fixed: '📌 Fixed Players',
+    info_fixed_desc: 'Strong R5/R4 players are auto-registered every week\nNo manual registration needed'
   }
 };
 
