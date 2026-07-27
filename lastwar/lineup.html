@@ -124,7 +124,6 @@
     border-top-right-radius: 14px;
   }
   .tab.active { color: #fff; }
-  .tab:hover { color: #d5e1ff; }
   .tab-inner {
     position: relative;
     z-index: 2;
@@ -143,7 +142,6 @@
     transition: opacity 0.25s ease, transform 0.3s ease;
     transform: scale(1.02);
   }
-  .tab:hover .tab-bg,
   .tab.active .tab-bg { opacity: 0.48; transform: scale(1); }
   .tab::after {
     content: '';
@@ -164,6 +162,12 @@
   .tab-hn .tab-bg { background: linear-gradient(135deg, #091d13 0%, #0f3a24 36%, #2d6a40 100%); }
   .tab-hn.active { box-shadow: inset 0 -1px 0 rgba(34, 197, 94, 0.25), 0 8px 30px rgba(34, 197, 94, 0.15); }
   .tab-hn::after { background: linear-gradient(90deg, #4ade80, #16a34a); }
+  /* Hover feedback only for real pointer devices - touchscreens report (hover: none),
+     which avoids the "stuck :hover after tap" bug that misrepresents the active tab on mobile. */
+  @media (hover: hover) and (pointer: fine) {
+    .tab:not(.active):hover { color: #d5e1ff; }
+    .tab:not(.active):hover .tab-bg { opacity: 0.48; transform: scale(1); }
+  }
   .tab-icon { font-size: 1.4rem; }
   .tab-label { display: none; }
   .tab-title {
