@@ -903,6 +903,12 @@
           },
           {
             "r": "R3",
+            "name": "SanTa 1386",
+            "power": 42,
+            "reason": "Đăng ký tuần này / Weekly registration"
+          },
+          {
+            "r": "R3",
             "name": "hanubeast",
             "power": 41.7,
             "reason": "Đăng ký tuần này / Weekly registration"
