@@ -657,6 +657,12 @@
           },
           {
             "r": "R3",
+            "name": "tâm1980",
+            "power": 45.7,
+            "reason": "Đăng ký tuần này / Weekly registration"
+          },
+          {
+            "r": "R3",
             "name": "PewPewBoi",
             "power": 41.5,
             "reason": "Đăng ký tuần này / Weekly registration"
@@ -696,6 +702,12 @@
             "name": "ThíchThìNhích92",
             "power": 44.0,
             "reason": "Đăng ký tuần này / Weekly registration"
+          },
+          {
+            "r": "R3",
+            "name": "Trai Cầu Tôm",
+            "power": 43.2,
+            "reason": "Đăng ký tuần này / Weekly registration"
           }
         ],
         "subs": [],
@@ -734,6 +746,12 @@
             "name": "Sầu riêng m7",
             "power": 46.2,
             "reason": "Đăng ký tuần này / Weekly registration"
+          },
+          {
+            "r": "R3",
+            "name": "tâm1980",
+            "power": 45.7,
+            "reason": "Đăng ký tuần này / Weekly registration"
           }
         ],
         "subs": [],
@@ -769,6 +787,12 @@
             "r": "R3",
             "name": "ThíchThìNhích92",
             "power": 44.0,
+            "reason": "Đăng ký tuần này / Weekly registration"
+          },
+          {
+            "r": "R3",
+            "name": "Trai Cầu Tôm",
+            "power": 43.2,
             "reason": "Đăng ký tuần này / Weekly registration"
           }
         ],
