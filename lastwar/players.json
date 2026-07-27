@@ -791,6 +791,12 @@
         "subs": [
           {
             "r": "R3",
+            "name": "Shashank1411",
+            "power": 46.73,
+            "reason": "Đăng ký tuần này / Weekly registration"
+          },
+          {
+            "r": "R3",
             "name": "RùaNgáo",
             "power": 46.5,
             "reason": "Đăng ký tuần này / Weekly registration"
@@ -829,6 +835,12 @@
             "r": "R3",
             "name": "NHBảoLong",
             "power": 43,
+            "reason": "Đăng ký tuần này / Weekly registration"
+          },
+          {
+            "r": "R3",
+            "name": "Yunnin",
+            "power": 42.95,
             "reason": "Đăng ký tuần này / Weekly registration"
           },
           {
