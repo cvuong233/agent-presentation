@@ -730,6 +730,12 @@
             "name": "Trai Cầu Tõm",
             "power": 43.2,
             "reason": "Đăng ký tuần này / Weekly registration"
+          },
+          {
+            "r": "R3",
+            "name": "Marines Malevolent",
+            "power": 42.8,
+            "reason": "Đăng ký tuần này / Weekly registration"
           }
         ],
         "subs": [],
@@ -815,6 +821,12 @@
             "r": "R3",
             "name": "Trai Cầu Tõm",
             "power": 43.2,
+            "reason": "Đăng ký tuần này / Weekly registration"
+          },
+          {
+            "r": "R3",
+            "name": "Marines Malevolent",
+            "power": 42.8,
             "reason": "Đăng ký tuần này / Weekly registration"
           }
         ],
