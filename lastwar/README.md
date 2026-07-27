@@ -1,7 +1,7 @@
-# ACMB Last War VN — Lineup System
+# Mates Last War VN — Lineup System
 
 ## Overview
-Automated lineup management for clan **ACMB** in Last War VN.
+Automated lineup management for clan **Mates** in Last War VN.
 
 ## 🌐 Live Lineup Page
 **https://cvuong233.github.io/agent-presentation/lastwar/lineup.html**
@@ -67,7 +67,7 @@ Automated lineup management for clan **ACMB** in Last War VN.
 ## Cron Jobs (OpenClaw)
 | ID | Name | Schedule | Timeout |
 |---|---|---|---|
-| `1585c56a` | ACMB Lineup Check | Sat/Sun/Mon/Wed 12pm ICT | 90s |
+| `1585c56a` | Mates Lineup Check | Sat/Sun/Mon/Wed 12pm ICT | 90s |
 
 ### Cron logic
 - **Sat 12pm:** HN reg opened (Sat 9am) → reset HN lineup, announce registration open

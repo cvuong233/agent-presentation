@@ -1,6 +1,6 @@
 {
   "meta": {
-    "clan": "ACMB",
+    "clan": "Mates",
     "game": "Last War VN",
     "updated": "2026-07-25",
     "notes": "C V = cường khùng (R4). SM = Bão Sa Mạc (Desert Storm). HN = Bão Hẻm Núi (Canyon Storm). Official model: last_matches = history, next_lineup = editable upcoming lineup. Both battles use 20 main / 10 subs. Lineup sorted by squad power descending. Fixed players (fixed=A/B) are auto-registered into their team each week using their stored power.",

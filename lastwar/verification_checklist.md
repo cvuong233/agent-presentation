@@ -15,7 +15,7 @@
 ## WHEN processing fresh battle results
 
 - [ ] Parse all visible players and scores carefully
-- [ ] Re-read screenshots to catch missed ACMB players
+- [ ] Re-read screenshots to catch missed Mates players
 - [ ] Apply YC / consecutive miss updates in player records
 - [ ] Clear `recent_removed[]` for the new lineup cycle
 - [ ] Run `rebuild_lineup.py` once to create draft `next_lineup`
