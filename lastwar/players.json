@@ -890,6 +890,12 @@
           },
           {
             "r": "R3",
+            "name": "Kute Gold",
+            "power": 51,
+            "reason": "Đăng ký tuần này / Weekly registration"
+          },
+          {
+            "r": "R3",
             "name": "Vualidonzz",
             "power": 50,
             "reason": "Đăng ký tuần này / Weekly registration"
@@ -910,6 +916,12 @@
             "r": "R3",
             "name": "ÒÓO",
             "power": 48,
+            "reason": "Đăng ký tuần này / Weekly registration"
+          },
+          {
+            "r": "R3",
+            "name": "Shashank1411",
+            "power": 46.73,
             "reason": "Đăng ký tuần này / Weekly registration"
           },
           {
@@ -956,8 +968,20 @@
           },
           {
             "r": "R3",
+            "name": "Thanhh Tân",
+            "power": 44,
+            "reason": "Đăng ký tuần này / Weekly registration"
+          },
+          {
+            "r": "R3",
             "name": "Trai Cầu Tõm",
             "power": 43.2,
+            "reason": "Đăng ký tuần này / Weekly registration"
+          },
+          {
+            "r": "R3",
+            "name": "Nguyenngoctuan",
+            "power": 43,
             "reason": "Đăng ký tuần này / Weekly registration"
           },
           {
@@ -965,7 +989,9 @@
             "name": "Marines Malevolent",
             "power": 42.8,
             "reason": "Đăng ký tuần này / Weekly registration"
-          },
+          }
+        ],
+        "subs": [
           {
             "r": "R3",
             "name": "Lưu Mẫn Nhi",
@@ -989,9 +1015,7 @@
             "name": "Aaaluan",
             "power": 41,
             "reason": "Đăng ký tuần này / Weekly registration"
-          }
-        ],
-        "subs": [
+          },
           {
             "r": "R3",
             "name": "Khánhh Báooo",
@@ -1195,6 +1219,12 @@
           },
           {
             "r": "R3",
+            "name": "Kute Gold",
+            "power": 51,
+            "reason": "Đăng ký tuần này / Weekly registration"
+          },
+          {
+            "r": "R3",
             "name": "Vualidonzz",
             "power": 50,
             "reason": "Đăng ký tuần này / Weekly registration"
@@ -1215,6 +1245,18 @@
             "r": "R3",
             "name": "ÒÓO",
             "power": 48,
+            "reason": "Đăng ký tuần này / Weekly registration"
+          },
+          {
+            "r": "R3",
+            "name": "Shashank1411",
+            "power": 46.73,
+            "reason": "Đăng ký tuần này / Weekly registration"
+          },
+          {
+            "r": "R3",
+            "name": "Sầu riêng m7",
+            "power": 46.2,
             "reason": "Đăng ký tuần này / Weekly registration"
           },
           {
@@ -1267,13 +1309,27 @@
           },
           {
             "r": "R3",
-            "name": "Trai Cầu Tõm",
-            "power": 43.2,
+            "name": "Thanhh Tân",
+            "power": 44,
             "reason": "Đăng ký tuần này / Weekly registration"
           },
           {
             "r": "R3",
+            "name": "Trai Cầu Tõm",
+            "power": 43.2,
+            "reason": "Đăng ký tuần này / Weekly registration"
+          }
+        ],
+        "subs": [
+          {
+            "r": "R3",
             "name": "NHBảoLong",
+            "power": 43,
+            "reason": "Đăng ký tuần này / Weekly registration"
+          },
+          {
+            "r": "R3",
+            "name": "Nguyenngoctuan",
             "power": 43,
             "reason": "Đăng ký tuần này / Weekly registration"
           },
@@ -1294,9 +1350,7 @@
             "name": "Tommy4014",
             "power": 42,
             "reason": "Đăng ký tuần này / Weekly registration"
-          }
-        ],
-        "subs": [
+          },
           {
             "r": "R3",
             "name": "hanubeast",
