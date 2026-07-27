@@ -654,6 +654,12 @@
             "name": "danhoanh",
             "power": 44.86,
             "reason": "Đăng ký tuần này / Weekly registration"
+          },
+          {
+            "r": "R4",
+            "name": "yologuy",
+            "power": 44.7,
+            "reason": "Đăng ký tuần này / Weekly registration"
           }
         ],
         "subs": [],
@@ -691,6 +697,12 @@
             "r": "R3",
             "name": "danhoanh",
             "power": 44.86,
+            "reason": "Đăng ký tuần này / Weekly registration"
+          },
+          {
+            "r": "R4",
+            "name": "yologuy",
+            "power": 44.7,
             "reason": "Đăng ký tuần này / Weekly registration"
           }
         ],
