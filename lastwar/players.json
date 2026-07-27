@@ -647,6 +647,9 @@
       "dayoff": 0,
       "note": "",
       "power": 51.0
+    },
+    "ÒÓO": {
+      "rank": "R3"
     }
   },
   "next_lineup": {
@@ -701,6 +704,12 @@
       },
       "B": {
         "main": [
+          {
+            "r": "R3",
+            "name": "ÒÓO",
+            "power": 48,
+            "reason": "Đăng ký tuần này / Weekly registration"
+          },
           {
             "r": "R3",
             "name": "danhoanh",
@@ -793,6 +802,12 @@
       },
       "B": {
         "main": [
+          {
+            "r": "R3",
+            "name": "ÒÓO",
+            "power": 48,
+            "reason": "Đăng ký tuần này / Weekly registration"
+          },
           {
             "r": "R3",
             "name": "danhoanh",
