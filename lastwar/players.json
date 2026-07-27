@@ -13,7 +13,6 @@
     ],
     "R4": [
       "TusEngland",
-      "Hemerage",
       "Hải Anh 0612",
       "LinLin",
       "Rymi68",
@@ -89,7 +88,8 @@
       "Bắp đại ca",
       "Sầu riêng m7",
       "Tom and Jerry 9999",
-      "Cúc Hoa Long Lanh"
+      "Cúc Hoa Long Lanh",
+      "Hemerage"
     ],
     "R2": [
       "1Mét45",
@@ -267,8 +267,7 @@
       "power": 44.7
     },
     "Hemerage": {
-      "rank": "R4",
-      "fixed": "B"
+      "rank": "R3"
     },
     "zdevils": {
       "rank": "R4",
