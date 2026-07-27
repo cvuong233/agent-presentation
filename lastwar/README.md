@@ -40,6 +40,11 @@ Automated lineup management for clan **ACMB** in Last War VN.
 - **Dayoff:** player misses the upcoming match but is expected back the following cycle
 - After each week's registration window, lineups are sorted by power and locked in as **manually edited state**
 
+## Fixed Players
+- **Fixed Team A (auto-registered every week):** Lerxinhiu, TusEngland, LinLin, zdevils, cường khùng, Haizzzzzzzzzzzz, Rymi68, wolfwitch
+- **Fixed Team B (auto-registered every week):** Hải Anh 0612, Hemerage, yologuy
+- At the start of each registration period, fixed players are automatically inserted into their team using their last stored power (`players[name].power` in `players.json`). They don't need to manually register.
+
 ## Ranks
 - **R5:** Lerxinhiu
 - **R4:** Haizzzzzzzzzz, cường khùng, LinLin, Rymi68, Hải Anh 0612, yologuy, Hello AE, Hemerage, zdevils

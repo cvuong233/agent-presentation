@@ -3,7 +3,7 @@
     "clan": "ACMB",
     "game": "Last War VN",
     "updated": "2026-07-25",
-    "notes": "C V = cường khùng (R4). SM = Bão Sa Mạc (Desert Storm). HN = Bão Hẻm Núi (Canyon Storm). Official model: last_matches = history, next_lineup = editable upcoming lineup. Both battles use 20 main / 10 subs. Lineup sorted by squad power descending.",
+    "notes": "C V = cường khùng (R4). SM = Bão Sa Mạc (Desert Storm). HN = Bão Hẻm Núi (Canyon Storm). Official model: last_matches = history, next_lineup = editable upcoming lineup. Both battles use 20 main / 10 subs. Lineup sorted by squad power descending. Fixed players (fixed=A/B) are auto-registered into their team each week using their stored power.",
     "updated_hn_a": "2026-07-16",
     "updated_hn_b": "2026-07-17"
   },
@@ -240,28 +240,37 @@
   },
   "players": {
     "Lerxinhiu": {
-      "rank": "R5"
+      "rank": "R5",
+      "fixed": "A"
     },
     "cường khùng": {
-      "rank": "R4"
+      "rank": "R4",
+      "fixed": "A"
     },
     "LinLin": {
-      "rank": "R4"
+      "rank": "R4",
+      "fixed": "A"
     },
     "Rymi68": {
-      "rank": "R4"
+      "rank": "R4",
+      "fixed": "A"
     },
     "Hải Anh 0612": {
-      "rank": "R4"
+      "rank": "R4",
+      "fixed": "B"
     },
     "yologuy": {
-      "rank": "R4"
+      "rank": "R4",
+      "fixed": "B",
+      "power": 44.7
     },
     "Hemerage": {
-      "rank": "R4"
+      "rank": "R4",
+      "fixed": "B"
     },
     "zdevils": {
-      "rank": "R4"
+      "rank": "R4",
+      "fixed": "A"
     },
     "Vualidonzz": {
       "rank": "R3"
@@ -276,7 +285,8 @@
       "rank": "R3"
     },
     "danhoanh": {
-      "rank": "R3"
+      "rank": "R3",
+      "power": 44.86
     },
     "Gặplàđánh": {
       "rank": "R3"
@@ -288,7 +298,9 @@
       "rank": "R3"
     },
     "wolfwitch": {
-      "rank": "R4"
+      "rank": "R4",
+      "fixed": "A",
+      "power": 47.7
     },
     "ChanzChanz": {
       "rank": "R3"
@@ -297,13 +309,15 @@
       "rank": "R3"
     },
     "NorthFog": {
-      "rank": "R3"
+      "rank": "R3",
+      "power": 44.6
     },
     "Marines Malevolent": {
       "rank": "R3"
     },
     "PewPewBoi": {
-      "rank": "R3"
+      "rank": "R3",
+      "power": 41.5
     },
     "RùaNgáo": {
       "rank": "R3"
@@ -330,7 +344,8 @@
       "rank": "R3"
     },
     "tâm1980": {
-      "rank": "R3"
+      "rank": "R3",
+      "power": 45.7
     },
     "Khanhanh96": {
       "rank": "R3"
@@ -474,10 +489,12 @@
       "rank": "R2"
     },
     "Trai Cầu Tõm": {
-      "rank": "R3"
+      "rank": "R3",
+      "power": 43.2
     },
     "MR Dương": {
-      "rank": "R3"
+      "rank": "R3",
+      "power": 48.5
     },
     "sửa máy promax": {
       "rank": "R3"
@@ -511,13 +528,15 @@
     },
     "Haizzzzzzzzzzzz": {
       "rank": "R4",
-      "note": "- YC rules waived"
+      "note": "- YC rules waived",
+      "fixed": "A"
     },
     "Kute Gold": {
       "rank": "R3"
     },
     "TusEngland": {
-      "rank": "R4"
+      "rank": "R4",
+      "fixed": "A"
     },
     "上官武命": {
       "rank": "R1",
@@ -549,7 +568,8 @@
     },
     "ThíchThìNhích92": {
       "rank": "R3",
-      "note": ""
+      "note": "",
+      "power": 44.0
     },
     "Khánhh Báooo": {
       "rank": "R3",
@@ -569,7 +589,8 @@
     },
     "Sầu riêng m7": {
       "rank": "R3",
-      "note": ""
+      "note": "",
+      "power": 46.2
     },
     "ᵛᶰ Đậu Hũ": {
       "rank": "R2",
@@ -624,7 +645,8 @@
     "Tom and Jerry 9999": {
       "rank": "R2",
       "dayoff": 0,
-      "note": ""
+      "note": "",
+      "power": 51.0
     }
   },
   "next_lineup": {
