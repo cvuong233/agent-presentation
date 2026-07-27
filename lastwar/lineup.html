@@ -981,7 +981,7 @@ function buildCard(mode, slot, data) {
           <h2>${t('team')} ${slot}</h2>
         </div>
         <div class="card-header-right">
-          <span class="period-badge"><span class="period-icon" aria-hidden="true">${getPeriodIcon(d.period)}</span><span class="period-text">${String(t(d.period)).replace(/^[^\p{L}\p{N}]+\s*/u, '')}</span></span>
+          <span class="period-badge"><span class="period-icon" aria-hidden="true">${getPeriodIcon(normalizePeriod(d.period))}</span><span class="period-text">${String(t(normalizePeriod(d.period))).replace(/^[^\p{L}\p{N}]+\s*/u, '')}</span></span>
           <span class="time-text">${d.time || ''}</span>
         </div>
       </div>
@@ -1029,6 +1029,12 @@ function formatBattleDate(dateStr) {
   }
 
   return typeof dateStr === 'string' ? dateStr : '';
+}
+
+function normalizePeriod(period) {
+  // Data sometimes stores extra text after the period keyword (e.g. "night 21:30").
+  // Only match on the leading keyword so display doesn't break on that extra text.
+  return (typeof period === 'string' ? period.trim().split(/\s+/)[0] : '').toLowerCase();
 }
 
 function getPeriodIcon(period) {
