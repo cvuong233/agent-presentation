@@ -780,7 +780,14 @@
             "reason": "Đăng ký tuần này / Weekly registration"
           }
         ],
-        "subs": [],
+        "subs": [
+          {
+            "r": "R3",
+            "name": "El Coderito",
+            "power": 51,
+            "reason": "Đăng ký tuần này / Weekly registration"
+          }
+        ],
         "dayoff": [],
         "slot": "A",
         "maxMain": 20,
@@ -932,6 +939,12 @@
             "r": "R3",
             "name": "Tom and Jerry 9999",
             "power": 51.0,
+            "reason": "Đăng ký tuần này / Weekly registration"
+          },
+          {
+            "r": "R3",
+            "name": "El Coderito",
+            "power": 51,
             "reason": "Đăng ký tuần này / Weekly registration"
           },
           {
