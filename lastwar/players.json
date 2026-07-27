@@ -632,6 +632,12 @@
       "A": {
         "main": [
           {
+            "r": "R2",
+            "name": "Tom and Jerry 9999",
+            "power": 51.0,
+            "reason": "Đăng ký tuần này / Weekly registration"
+          },
+          {
             "r": "R3",
             "name": "MR Dương",
             "power": 48.5,
@@ -641,6 +647,12 @@
             "r": "R4",
             "name": "wolfwitch",
             "power": 47.7,
+            "reason": "Đăng ký tuần này / Weekly registration"
+          },
+          {
+            "r": "R3",
+            "name": "Sầu riêng m7",
+            "power": 46.2,
             "reason": "Đăng ký tuần này / Weekly registration"
           }
         ],
@@ -666,6 +678,12 @@
             "name": "yologuy",
             "power": 44.7,
             "reason": "Đăng ký tuần này / Weekly registration"
+          },
+          {
+            "r": "R3",
+            "name": "NorthFog",
+            "power": 44.6,
+            "reason": "Đăng ký tuần này / Weekly registration"
           }
         ],
         "subs": [],
@@ -682,6 +700,12 @@
       "A": {
         "main": [
           {
+            "r": "R2",
+            "name": "Tom and Jerry 9999",
+            "power": 51.0,
+            "reason": "Đăng ký tuần này / Weekly registration"
+          },
+          {
             "r": "R3",
             "name": "MR Dương",
             "power": 48.5,
@@ -691,6 +715,12 @@
             "r": "R4",
             "name": "wolfwitch",
             "power": 47.7,
+            "reason": "Đăng ký tuần này / Weekly registration"
+          },
+          {
+            "r": "R3",
+            "name": "Sầu riêng m7",
+            "power": 46.2,
             "reason": "Đăng ký tuần này / Weekly registration"
           }
         ],
@@ -715,6 +745,12 @@
             "r": "R4",
             "name": "yologuy",
             "power": 44.7,
+            "reason": "Đăng ký tuần này / Weekly registration"
+          },
+          {
+            "r": "R3",
+            "name": "NorthFog",
+            "power": 44.6,
             "reason": "Đăng ký tuần này / Weekly registration"
           }
         ],
