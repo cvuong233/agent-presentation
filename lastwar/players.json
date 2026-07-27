@@ -627,7 +627,7 @@
       "dayoff": false,
       "note": ""
     },
-    "Whiskeysieubeo": {
+    "duckiecutie": {
       "rank": "R2",
       "dayoff": 0,
       "note": ""
@@ -742,7 +742,7 @@
           },
           {
             "r": "R3",
-            "name": "Whiskeysieubeo",
+            "name": "duckiecutie",
             "power": 50,
             "reason": "Đăng ký tuần này / Weekly registration"
           },
@@ -1070,7 +1070,7 @@
           },
           {
             "r": "R3",
-            "name": "Whiskeysieubeo",
+            "name": "duckiecutie",
             "power": 50,
             "reason": "Đăng ký tuần này / Weekly registration"
           },
