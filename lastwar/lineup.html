@@ -894,7 +894,7 @@ function buildTable(players, section, startNum) {
       <td class="num">${prefix}</td>
       <td><span class="rank-badge ${p.r.toLowerCase()}">${p.r}</span></td>
       <td class="player-name">${p.name}</td>
-      <td class="reason ${reasonClass(p, section)}">${localizeReason(p.reason)}</td>
+      <td class="reason ${reasonClass(p, section)}">${p.power != null ? p.power + 'M' : localizeReason(p.reason)}</td>
     </tr>`;
   }
   html += '</tbody></table>';
