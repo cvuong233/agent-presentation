@@ -803,6 +803,12 @@
           },
           {
             "r": "R3",
+            "name": "ZEKT",
+            "power": 46.47,
+            "reason": "Đăng ký tuần này / Weekly registration"
+          },
+          {
+            "r": "R3",
             "name": "Sầu riêng m7",
             "power": 46.2,
             "reason": "Đăng ký tuần này / Weekly registration"
@@ -1111,6 +1117,12 @@
           }
         ],
         "subs": [
+          {
+            "r": "R3",
+            "name": "ZEKT",
+            "power": 46.47,
+            "reason": "Đăng ký tuần này / Weekly registration"
+          },
           {
             "r": "R3",
             "name": "Sầu riêng m7",
