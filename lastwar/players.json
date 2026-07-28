@@ -852,12 +852,6 @@
             "reason": "R4"
           },
           {
-            "r": "R3",
-            "name": "Hemerage",
-            "reason": "R4",
-            "power": 47.4
-          },
-          {
             "r": "R4",
             "name": "yologuy",
             "reason": "R4"
@@ -896,6 +890,12 @@
             "name": "ÒÓO",
             "power": 48,
             "reason": "Đăng ký tuần này / Weekly registration"
+          },
+          {
+            "r": "R3",
+            "name": "Hemerage",
+            "reason": "R4",
+            "power": 47.4
           },
           {
             "r": "R3",
@@ -987,12 +987,6 @@
             "r": "R3",
             "name": "SanTa 1386",
             "power": 42,
-            "reason": "Đăng ký tuần này / Weekly registration"
-          },
-          {
-            "r": "R3",
-            "name": "hanubeast",
-            "power": 41.7,
             "reason": "Đăng ký tuần này / Weekly registration"
           },
           {
@@ -1181,12 +1175,6 @@
             "reason": "R4"
           },
           {
-            "r": "R3",
-            "name": "Hemerage",
-            "reason": "R4",
-            "power": 47.4
-          },
-          {
             "r": "R4",
             "name": "yologuy",
             "reason": "R4"
@@ -1220,6 +1208,12 @@
             "name": "ÒÓO",
             "power": 48,
             "reason": "Đăng ký tuần này / Weekly registration"
+          },
+          {
+            "r": "R3",
+            "name": "Hemerage",
+            "reason": "R4",
+            "power": 47.4
           },
           {
             "r": "R3",
@@ -1323,12 +1317,6 @@
             "r": "R3",
             "name": "Tommy4014",
             "power": 42,
-            "reason": "Đăng ký tuần này / Weekly registration"
-          },
-          {
-            "r": "R3",
-            "name": "hanubeast",
-            "power": 41.7,
             "reason": "Đăng ký tuần này / Weekly registration"
           },
           {
