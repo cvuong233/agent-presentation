@@ -20,7 +20,8 @@
       "yologuy",
       "zdevils",
       "Haizzzzzzzzzzzz",
-      "wolfwitch"
+      "wolfwitch",
+      "Clone or Sou"
     ],
     "R3": [
       "Aaaluan",
@@ -267,7 +268,8 @@
       "power": 44.7
     },
     "Hemerage": {
-      "rank": "R3"
+      "rank": "R3",
+      "power": 47.4
     },
     "zdevils": {
       "rank": "R4",
@@ -662,7 +664,7 @@
       "rank": "R3"
     },
     "Clone or Sou": {
-      "rank": "R3"
+      "rank": "R4"
     },
     "Sting Chanh": {
       "rank": "R3"
@@ -809,7 +811,7 @@
             "reason": "Đăng ký tuần này / Weekly registration"
           },
           {
-            "r": "R3",
+            "r": "R4",
             "name": "Clone or Sou",
             "power": 45,
             "reason": "Đăng ký tuần này / Weekly registration"
@@ -849,9 +851,10 @@
             "reason": "R4"
           },
           {
-            "r": "R4",
+            "r": "R3",
             "name": "Hemerage",
-            "reason": "R4"
+            "reason": "R4",
+            "power": 47.4
           },
           {
             "r": "R4",
@@ -1149,7 +1152,7 @@
             "reason": "Đăng ký tuần này / Weekly registration"
           },
           {
-            "r": "R3",
+            "r": "R4",
             "name": "Clone or Sou",
             "power": 45,
             "reason": "Đăng ký tuần này / Weekly registration"
@@ -1177,9 +1180,10 @@
             "reason": "R4"
           },
           {
-            "r": "R4",
+            "r": "R3",
             "name": "Hemerage",
-            "reason": "R4"
+            "reason": "R4",
+            "power": 47.4
           },
           {
             "r": "R4",
