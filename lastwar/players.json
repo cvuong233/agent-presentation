@@ -692,11 +692,6 @@
           },
           {
             "r": "R4",
-            "name": "Rymi68",
-            "reason": "R4"
-          },
-          {
-            "r": "R4",
             "name": "zdevils",
             "reason": "R4"
           },
@@ -786,15 +781,15 @@
             "name": "Cúc Hoa Long Lanh",
             "power": 47.8,
             "reason": "Đăng ký tuần này / Weekly registration"
-          }
-        ],
-        "subs": [
+          },
           {
             "r": "R3",
             "name": "RùaNgáo",
             "power": 46.5,
             "reason": "Đăng ký tuần này / Weekly registration"
-          },
+          }
+        ],
+        "subs": [
           {
             "r": "R3",
             "name": "ZEKT",
@@ -823,12 +818,6 @@
             "r": "R3",
             "name": "NHBảoLong",
             "power": 43,
-            "reason": "Đăng ký tuần này / Weekly registration"
-          },
-          {
-            "r": "R3",
-            "name": "Yunnin",
-            "power": 42.95,
             "reason": "Đăng ký tuần này / Weekly registration"
           },
           {
@@ -867,6 +856,11 @@
           {
             "r": "R4",
             "name": "yologuy",
+            "reason": "R4"
+          },
+          {
+            "r": "R4",
+            "name": "Rymi68",
             "reason": "R4"
           },
           {
@@ -964,15 +958,21 @@
             "name": "Nguyenngoctuan",
             "power": 43,
             "reason": "Đăng ký tuần này / Weekly registration"
+          }
+        ],
+        "subs": [
+          {
+            "r": "R3",
+            "name": "Yunnin",
+            "power": 42.95,
+            "reason": "Đăng ký tuần này / Weekly registration"
           },
           {
             "r": "R3",
             "name": "Marines Malevolent",
             "power": 42.8,
             "reason": "Đăng ký tuần này / Weekly registration"
-          }
-        ],
-        "subs": [
+          },
           {
             "r": "R3",
             "name": "Lưu Mẫn Nhi",
