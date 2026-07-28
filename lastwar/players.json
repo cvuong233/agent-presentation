@@ -664,7 +664,8 @@
       "rank": "R3"
     },
     "Clone or Sou": {
-      "rank": "R4"
+      "rank": "R4",
+      "fixed": "A"
     },
     "Sting Chanh": {
       "rank": "R3"
@@ -710,6 +711,11 @@
           {
             "r": "R4",
             "name": "wolfwitch",
+            "reason": "R4"
+          },
+          {
+            "r": "R4",
+            "name": "Clone or Sou",
             "reason": "R4"
           },
           {
@@ -783,15 +789,15 @@
             "name": "Cúc Hoa Long Lanh",
             "power": 47.8,
             "reason": "Đăng ký tuần này / Weekly registration"
-          },
+          }
+        ],
+        "subs": [
           {
             "r": "R3",
             "name": "RùaNgáo",
             "power": 46.5,
             "reason": "Đăng ký tuần này / Weekly registration"
-          }
-        ],
-        "subs": [
+          },
           {
             "r": "R3",
             "name": "ZEKT",
@@ -808,12 +814,6 @@
             "r": "R3",
             "name": "Zyn1998 n",
             "power": 45.7,
-            "reason": "Đăng ký tuần này / Weekly registration"
-          },
-          {
-            "r": "R4",
-            "name": "Clone or Sou",
-            "power": 45,
             "reason": "Đăng ký tuần này / Weekly registration"
           },
           {
@@ -1060,6 +1060,11 @@
             "reason": "R4"
           },
           {
+            "r": "R4",
+            "name": "Clone or Sou",
+            "reason": "R4"
+          },
+          {
             "r": "R3",
             "name": "Zz Ma Tuý Đá zz",
             "power": 54,
@@ -1124,15 +1129,15 @@
             "name": "e Asche",
             "power": 48.3,
             "reason": "Đăng ký tuần này / Weekly registration"
-          },
+          }
+        ],
+        "subs": [
           {
             "r": "R3",
             "name": "Cúc Hoa Long Lanh",
             "power": 47.8,
             "reason": "Đăng ký tuần này / Weekly registration"
-          }
-        ],
-        "subs": [
+          },
           {
             "r": "R3",
             "name": "RùaNgáo",
@@ -1149,12 +1154,6 @@
             "r": "R3",
             "name": "tâm1980",
             "power": 45.7,
-            "reason": "Đăng ký tuần này / Weekly registration"
-          },
-          {
-            "r": "R4",
-            "name": "Clone or Sou",
-            "power": 45,
             "reason": "Đăng ký tuần này / Weekly registration"
           },
           {
