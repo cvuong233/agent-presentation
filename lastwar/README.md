@@ -4,12 +4,14 @@
 Automated lineup management for clan **Mates** in Last War VN.
 
 ## 🌐 Live Lineup Page
-**https://cvuong233.github.io/agent-presentation/lastwar/lineup.html**
+Moved off GitHub Pages — the page now lives in its own Vercel deployment
+(see `lastwar-line-up-web/` in the LastWar project). This folder
+(`agent-presentation/lastwar/`) is data-only now.
 
 ## Architecture
-- **`players.json`** — single source of truth: ranks, battle history, and upcoming lineup state
-- **`lineup.html`** — display template only; fetches `players.json` at load time, never edited for data changes
-- To update: edit `players.json` → push → GitHub Pages auto-updates
+- **`players.json`** — single source of truth: ranks, battle history, and upcoming lineup state. Still lives here.
+- **`lineup.html`** — no longer hosted in this repo. The frontend (`lastwar-line-up-web`) reads/writes this data through `lastwar-lineup-be` (a small backend on Railway), which holds the GitHub token and commits here via the Contents API. The frontend also has a direct-from-this-repo fallback read path (`raw.githubusercontent.com`) if that backend is ever down.
+- To update: same as before for the data (edit `players.json` → push), but the page itself no longer needs a push/redeploy when only data changes.
 
 ## Battles
 | Battle | Slot A | Slot B | Main | Subs | Reg Opens | Reg Closes |
@@ -55,9 +57,13 @@ Automated lineup management for clan **Mates** in Last War VN.
 ## Files
 | File | Purpose |
 |---|---|
-| `players.json` | All data: ranks, `last_matches`, `next_lineup`, player info |
-| `lineup.html` | Web UI — GitHub Pages display template |
-| `lineup.py` | CLI summary viewer for `next_lineup` |
+| `players.json` | All data: ranks, `last_matches`, `next_lineup`, player info. Source of truth. |
+| `verification_checklist.md` | Checklist for making lineup changes / processing results |
+
+`lineup.html` used to live here but was moved to `lastwar-line-up-web`
+(separate Vercel deployment) to get instant cache invalidation on
+deploy instead of GitHub Pages' CDN TTL. `lineup.py` referenced above
+was already gone from this folder before this cleanup.
 
 ## Bot Behaviour
 - **After lineup change:** bot replies with rank counts per affected slot only (e.g. `SM-B: R4:3 R3:14 R2:1 | Sub:2`)
