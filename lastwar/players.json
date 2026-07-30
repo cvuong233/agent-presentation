@@ -681,17 +681,20 @@
           {
             "r": "R5",
             "name": "Lerxinhiu",
-            "reason": "R5"
+            "reason": "R5",
+            "pos": "A"
           },
           {
             "r": "R4",
             "name": "cường khùng",
-            "reason": "R4"
+            "reason": "R4",
+            "pos": "B"
           },
           {
             "r": "R4",
             "name": "LinLin",
-            "reason": "R4"
+            "reason": "R4",
+            "pos": "E"
           },
           {
             "r": "R4",
