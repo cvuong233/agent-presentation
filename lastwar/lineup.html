@@ -686,6 +686,95 @@
   }
   @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
   @keyframes slideUp { from { transform: translateY(20px); opacity: 0; } to { transform: translateY(0); opacity: 1; } }
+
+  /* position column (R4-edited formation slot) */
+  .pos-cell { min-width: 88px; }
+  .pos-value { color: #7dd3fc; font-weight: 600; }
+  .pos-empty { color: #445; }
+  .pos-input {
+    width: 100%;
+    max-width: 108px;
+    background: #0b1327;
+    border: 1px solid #2a395a;
+    border-radius: 6px;
+    color: #dbe4ff;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 0.82rem;
+    padding: 4px 8px;
+  }
+  .pos-input:focus { outline: none; border-color: #e94560; }
+
+  /* login modal fields */
+  .login-field { margin-bottom: 12px; }
+  .login-field label { display: block; font-size: 0.78rem; color: #9fb0d4; margin-bottom: 4px; }
+  .login-field input {
+    width: 100%;
+    padding: 9px 11px;
+    border-radius: 8px;
+    border: 1px solid #2a395a;
+    background: #0b1327;
+    color: #dbe4ff;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 0.92rem;
+  }
+  .login-field input:focus { outline: none; border-color: #e94560; }
+  .login-error { color: #ff6f88; font-size: 0.8rem; margin-top: 4px; display: none; }
+  .login-actions { margin-top: 16px; }
+  .login-btn {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    font-weight: 700;
+    cursor: pointer;
+    background: linear-gradient(135deg, #e94560, #c73652);
+    color: #fff;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 0.92rem;
+  }
+  .login-btn:hover { box-shadow: 0 6px 16px rgba(233,69,96,0.35); }
+
+  /* floating edit toolbar */
+  .edit-toolbar {
+    position: fixed;
+    left: 50%;
+    bottom: 18px;
+    transform: translateX(-50%);
+    background: linear-gradient(135deg, #101a31, #0d1730);
+    border: 1px solid rgba(233, 69, 96, 0.5);
+    border-radius: 14px;
+    padding: 10px 16px;
+    display: none;
+    align-items: center;
+    gap: 12px;
+    box-shadow: 0 12px 30px rgba(0,0,0,0.5);
+    z-index: 500;
+    font-size: 0.82rem;
+    color: #dbe4ff;
+    max-width: 92vw;
+  }
+  .edit-toolbar.active { display: flex; }
+  .edit-toolbar .save-status { color: #9fb0d4; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .edit-toolbar .save-btn {
+    background: linear-gradient(135deg, #22c55e, #16a34a);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 16px;
+    font-weight: 700;
+    cursor: pointer;
+    white-space: nowrap;
+  }
+  .edit-toolbar .save-btn:disabled { opacity: 0.45; cursor: not-allowed; }
+  .edit-toolbar .logout-btn {
+    background: transparent;
+    border: 1px solid #3a4568;
+    color: #aab4d4;
+    border-radius: 8px;
+    padding: 8px 12px;
+    cursor: pointer;
+    white-space: nowrap;
+  }
 </style>
 </head>
 <body>
@@ -695,6 +784,7 @@
     <span class="header-title-icon">⚔️</span>
     <h1 class="header-title" data-i18n="title">Mates — Đội Hình Chiến Đấu</h1>
     <button class="info-btn has-dot" id="info-btn" title="Lineup Rules">📋</button>
+    <button class="info-btn" id="edit-login-btn" title="R4 Login">🔐</button>
   </div>
   <div class="header-right">
     <span id="week-label"></span>
@@ -784,6 +874,38 @@
   </div>
 </div>
 
+<!-- Login Modal (R4 edit access) -->
+<div class="info-modal-overlay" id="login-modal">
+  <div class="info-modal-card" style="max-width:360px">
+    <div class="info-modal-header">
+      <span class="info-modal-title">🔐 R4 Login</span>
+      <button class="info-modal-close" id="login-modal-close">✕</button>
+    </div>
+    <div class="info-modal-content">
+      <div class="login-field">
+        <label for="login-username">Username</label>
+        <input type="text" id="login-username" autocomplete="username">
+      </div>
+      <div class="login-field">
+        <label for="login-password">Password</label>
+        <input type="password" id="login-password" autocomplete="current-password">
+      </div>
+      <div class="login-error" id="login-error">Sai tài khoản hoặc mật khẩu / Wrong username or password</div>
+      <div class="login-actions">
+        <button class="login-btn" id="login-submit">Login</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Edit toolbar (visible once logged in as R4) -->
+<div class="edit-toolbar" id="edit-toolbar">
+  <span>✏️ Vị trí / Position</span>
+  <span class="save-status" id="save-status"></span>
+  <button class="save-btn" id="save-positions-btn" disabled>💾 Save</button>
+  <button class="logout-btn" id="logout-btn">Logout</button>
+</div>
+
 
 
 <script>
@@ -796,7 +918,7 @@ const I18N = {
     tf_a: 'Lực Lượng A', tf_b: 'Lực Lượng B',
     main: 'Chính thức', sub: 'Dự bị', dayoff: 'Nghỉ phép', open: 'Trống', waiting: 'Chờ',
     main_header: '✅ ĐỘI CHÍNH', sub_header: '🔄 DỰ BỊ', dayoff_header: '😴 NGHỈ PHÉP', removed_header: '❌ ĐÃ LOẠI', waiting_header: '⏳ DANH SÁCH CHỜ',
-    player: 'Người chơi', reason: 'Ghi chú', date: 'Ngày',
+    player: 'Người chơi', reason: 'Ghi chú', date: 'Ngày', position: 'Vị trí',
     night: '🌙 Tối', morning: '☀️ Sáng', evening: '🌅 Chiều',
     transferred: 'Chuyển đội', new_to_slot: 'Mới vào đội',
     overflow: 'tràn', no_subs: 'Không có dự bị', no_dayoff: '',
@@ -818,7 +940,7 @@ const I18N = {
     tf_a: 'Task Force A', tf_b: 'Task Force B',
     main: 'Main', sub: 'Sub', dayoff: 'Day-off', open: 'Open', waiting: 'Waiting',
     main_header: '✅ MAIN ROSTER', sub_header: '🔄 SUBSTITUTES', dayoff_header: '😴 DAY-OFF', removed_header: '❌ REMOVED', waiting_header: '⏳ WAITING LIST',
-    player: 'Player', reason: 'Note', date: 'Date',
+    player: 'Player', reason: 'Note', date: 'Date', position: 'Position',
     night: '🌙 Night', morning: '☀️ Morning', evening: '🌅 Evening',
     transferred: 'Transferred', new_to_slot: 'New to slot',
     overflow: 'overflow', no_subs: 'No substitutes', no_dayoff: '',
@@ -833,6 +955,205 @@ const I18N = {
     info_fixed_desc: 'Strong R5/R4 players are auto-registered every week\nNo manual registration needed'
   }
 };
+
+// ---- R4 Position Editor ----
+// The R4 password check and the GitHub write both happen server-side now
+// (see LastWar/position-api/). This page only ever holds a short-lived
+// session token, never a GitHub credential.
+const EDITOR_TOKEN_KEY = 'acmb_editor_token_v1';
+const API_BASE = 'https://lastwar-lineup-production.up.railway.app';
+
+let pendingEdits = {};
+let hasUnsavedChanges = false;
+
+function posKey(mode, slot, section, name) { return `${mode}|${slot}|${section}|${name}`; }
+
+function decodeJwtPayload(token) {
+  try {
+    const b64 = token.split('.')[1].replace(/-/g, '+').replace(/_/g, '/');
+    return JSON.parse(decodeURIComponent(escape(atob(b64))));
+  } catch (e) {
+    return null;
+  }
+}
+
+function loadStoredToken() {
+  const token = localStorage.getItem(EDITOR_TOKEN_KEY);
+  if (!token) return null;
+  const payload = decodeJwtPayload(token);
+  if (!payload || !payload.exp || payload.exp * 1000 < Date.now()) {
+    localStorage.removeItem(EDITOR_TOKEN_KEY);
+    return null;
+  }
+  return token;
+}
+
+let editorToken = loadStoredToken();
+let isEditor = !!editorToken;
+
+function onPosInput(input) {
+  const { mode, slot, section, name } = input.dataset;
+  pendingEdits[posKey(mode, slot, section, name)] = input.value;
+  hasUnsavedChanges = true;
+  updateSaveButton();
+}
+
+function updateSaveButton() {
+  const btn = document.getElementById('save-positions-btn');
+  if (btn) btn.disabled = !hasUnsavedChanges;
+  const status = document.getElementById('save-status');
+  if (status && !status.textContent.startsWith('❌') && !status.textContent.startsWith('✅')) {
+    status.textContent = hasUnsavedChanges ? '● Chưa lưu / Unsaved' : '';
+  }
+}
+
+function updateEditUI() {
+  const btn = document.getElementById('edit-login-btn');
+  const toolbar = document.getElementById('edit-toolbar');
+  if (btn) {
+    btn.textContent = isEditor ? '🔓' : '🔐';
+    btn.title = isEditor ? 'R4 (logged in)' : 'R4 Login';
+  }
+  if (toolbar) toolbar.classList.toggle('active', isEditor);
+  updateSaveButton();
+  if (loadedData) render(loadedData);
+}
+
+function openLoginModal() {
+  document.body.classList.add('modal-open');
+  document.getElementById('login-modal').classList.add('active');
+  document.getElementById('login-error').style.display = 'none';
+  document.getElementById('login-username').value = '';
+  document.getElementById('login-password').value = '';
+  setTimeout(() => document.getElementById('login-username').focus(), 50);
+}
+
+function closeLoginModal() {
+  document.body.classList.remove('modal-open');
+  document.getElementById('login-modal').classList.remove('active');
+}
+
+function showLoginError(msg) {
+  const el = document.getElementById('login-error');
+  el.textContent = msg;
+  el.style.display = 'block';
+}
+
+async function attemptLogin() {
+  const u = document.getElementById('login-username').value.trim();
+  const p = document.getElementById('login-password').value;
+  const submitBtn = document.getElementById('login-submit');
+  submitBtn.disabled = true;
+  try {
+    const res = await fetch(`${API_BASE}/api/login`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ username: u, password: p })
+    });
+    if (res.status === 429) {
+      showLoginError('Quá nhiều lần thử sai, thử lại sau ít phút / Too many attempts, try again in a few minutes');
+      return;
+    }
+    if (!res.ok) {
+      showLoginError('Sai tài khoản hoặc mật khẩu / Wrong username or password');
+      return;
+    }
+    const body = await res.json();
+    editorToken = body.token;
+    localStorage.setItem(EDITOR_TOKEN_KEY, editorToken);
+    isEditor = true;
+    closeLoginModal();
+    updateEditUI();
+  } catch (e) {
+    showLoginError('Không kết nối được máy chủ / Could not reach the server: ' + e.message);
+  } finally {
+    submitBtn.disabled = false;
+  }
+}
+
+function clearEditorSession() {
+  isEditor = false;
+  editorToken = null;
+  localStorage.removeItem(EDITOR_TOKEN_KEY);
+}
+
+// Voluntary logout (Logout button) - confirms if there's unsaved work.
+function logoutEditor() {
+  if (hasUnsavedChanges && !confirm('Bạn có thay đổi chưa lưu, đăng xuất sẽ mất thay đổi. Tiếp tục?\nYou have unsaved changes — log out anyway?')) return;
+  pendingEdits = {};
+  hasUnsavedChanges = false;
+  clearEditorSession();
+  updateEditUI();
+}
+
+// Forced logout (session expired mid-save, per the server's 401). Unlike the
+// voluntary path above, this must never be blocked by a confirm dialog, and
+// deliberately keeps pendingEdits so the R4's typed value survives a re-login.
+function forceLogout(message) {
+  clearEditorSession();
+  updateEditUI();
+  openLoginModal();
+  if (message) showLoginError(message);
+}
+
+async function savePositions() {
+  const btn = document.getElementById('save-positions-btn');
+  const status = document.getElementById('save-status');
+  btn.disabled = true;
+  status.textContent = 'Đang lưu... / Saving...';
+
+  const edits = Object.keys(pendingEdits).map(key => {
+    const [mode, slot, section, name] = key.split('|');
+    return { mode, slot, section, name, pos: pendingEdits[key] };
+  });
+
+  try {
+    const res = await fetch(`${API_BASE}/api/positions`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${editorToken}` },
+      body: JSON.stringify({ edits })
+    });
+
+    if (res.status === 401) {
+      status.textContent = '';
+      forceLogout('Phiên đăng nhập đã hết hạn, đăng nhập lại / Session expired, please log in again');
+      return;
+    }
+
+    const body = await res.json().catch(() => ({}));
+    if (!res.ok) {
+      throw new Error(body.error || `HTTP ${res.status}`);
+    }
+
+    // Apply the confirmed edits onto our in-memory copy so the UI reflects
+    // reality immediately, without waiting on GitHub Pages' CDN to catch up.
+    const appliedSet = new Set(body.applied || []);
+    for (const e of edits) {
+      if (!appliedSet.has(e.name)) continue;
+      const arr = loadedData?.next_lineup?.[e.mode]?.[e.slot]?.[e.section];
+      const entry = Array.isArray(arr) ? arr.find(p => p.name === e.name) : null;
+      if (entry) {
+        if (e.pos.trim()) entry.pos = e.pos.trim();
+        else delete entry.pos;
+      }
+    }
+
+    pendingEdits = {};
+    hasUnsavedChanges = false;
+    if (body.skipped && body.skipped.length) {
+      status.textContent = `⚠️ Đã lưu, bỏ qua: ${body.skipped.join(', ')}`;
+    } else {
+      status.textContent = '✅ Đã lưu / Saved';
+      setTimeout(() => { if (status.textContent.startsWith('✅')) status.textContent = ''; }, 4000);
+    }
+    render(loadedData);
+  } catch (e) {
+    console.error(e);
+    status.textContent = '❌ Lỗi / Save failed: ' + e.message;
+  } finally {
+    updateSaveButton();
+  }
+}
 
 let currentLang = localStorage.getItem('acmb_lang') || 'vi';
 let loadedData = null;
@@ -875,23 +1196,38 @@ function reasonClass(p, section) {
   return 'positive';
 }
 
-function buildTable(players, section, startNum) {
+function buildTable(players, section, startNum, mode, slot) {
   if (!players.length) return '';
   const sorted = [...players].sort(rankSort);
-  let html = `<table><thead><tr><th style="width:32px">#</th><th style="width:40px">R</th><th>${t('player')}</th><th>${t('reason')}</th></tr></thead><tbody>`;
+  const showPos = section === 'main' || section === 'sub';
+  const colCount = showPos ? 5 : 4;
+  let html = `<table><thead><tr><th style="width:32px">#</th><th style="width:40px">R</th><th>${t('player')}</th><th>${t('reason')}</th>${showPos ? `<th>${t('position')}</th>` : ''}</tr></thead><tbody>`;
   let lastR = null;
   let num = startNum || 1;
   for (const p of sorted) {
     if (p.r !== lastR) {
-      html += `<tr class="rank-divider"><td colspan="4">── ${p.r} ──</td></tr>`;
+      html += `<tr class="rank-divider"><td colspan="${colCount}">── ${p.r} ──</td></tr>`;
       lastR = p.r;
     }
     const prefix = section === 'main' ? num++ : section === 'sub' ? 'S'+(num++) : section === 'waiting' ? 'W'+(num++) : '—';
+    let posCell = '';
+    if (showPos) {
+      if (isEditor) {
+        const editKey = posKey(mode, slot, section, p.name);
+        const rawVal = pendingEdits.hasOwnProperty(editKey) ? pendingEdits[editKey] : (p.pos || '');
+        const safeVal = String(rawVal).replace(/&/g, '&amp;').replace(/"/g, '&quot;');
+        const safeName = String(p.name).replace(/&/g, '&amp;').replace(/"/g, '&quot;');
+        posCell = `<td class="pos-cell"><input class="pos-input" data-mode="${mode}" data-slot="${slot}" data-section="${section}" data-name="${safeName}" value="${safeVal}" placeholder="—" oninput="onPosInput(this)"></td>`;
+      } else {
+        posCell = `<td class="pos-cell ${p.pos ? 'pos-value' : 'pos-empty'}">${p.pos ? p.pos : '—'}</td>`;
+      }
+    }
     html += `<tr>
       <td class="num">${prefix}</td>
       <td><span class="rank-badge ${p.r.toLowerCase()}">${p.r}</span></td>
       <td class="player-name">${p.name}</td>
       <td class="reason ${reasonClass(p, section)}">${p.power != null ? p.power + 'M' : localizeReason(p.reason)}</td>
+      ${posCell}
     </tr>`;
   }
   html += '</tbody></table>';
@@ -927,7 +1263,7 @@ function buildCard(mode, slot, data) {
   const mainSection = `<div class="section-block main-section">
     <div class="section-header">${t('main_header')} <span class="section-count">(${d.main.length}/${d.maxMain})</span></div>
     <div class="rank-summary">${rankBadges(d.main)}</div>
-    ${buildTable(d.main, 'main', 1)}
+    ${buildTable(d.main, 'main', 1, mode, slot)}
   </div>`;
 
   // Sub section (only the top maxSubs entries are active substitutes)
@@ -935,7 +1271,7 @@ function buildCard(mode, slot, data) {
   if (activeSubs.length > 0) {
     subSection = `<div class="section-block sub-section">
       <div class="section-header">${t('sub_header')} <span class="section-count">(${activeSubs.length}/${maxSubs})</span></div>
-      ${buildTable(activeSubs, 'sub', 1)}
+      ${buildTable(activeSubs, 'sub', 1, mode, slot)}
     </div>`;
   }
 
@@ -1193,7 +1529,28 @@ document.addEventListener('keydown', (e) => {
   if (e.key === 'Escape' && infoModal.classList.contains('active')) {
     closeInfoModal();
   }
+  if (e.key === 'Escape' && document.getElementById('login-modal').classList.contains('active')) {
+    closeLoginModal();
+  }
 });
+
+// Login / edit-mode wiring
+const editLoginBtn = document.getElementById('edit-login-btn');
+const loginModal = document.getElementById('login-modal');
+const loginModalClose = document.getElementById('login-modal-close');
+
+editLoginBtn.addEventListener('click', (e) => {
+  e.stopPropagation();
+  if (!isEditor) openLoginModal();
+});
+loginModalClose.addEventListener('click', closeLoginModal);
+loginModal.addEventListener('click', (e) => { if (e.target === loginModal) closeLoginModal(); });
+document.getElementById('login-submit').addEventListener('click', attemptLogin);
+document.getElementById('login-password').addEventListener('keydown', (e) => { if (e.key === 'Enter') attemptLogin(); });
+document.getElementById('login-username').addEventListener('keydown', (e) => { if (e.key === 'Enter') document.getElementById('login-password').focus(); });
+document.getElementById('save-positions-btn').addEventListener('click', savePositions);
+document.getElementById('logout-btn').addEventListener('click', logoutEditor);
+updateEditUI();
 </script>
 </body>
 </html>
