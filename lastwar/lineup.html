@@ -1479,7 +1479,9 @@ function switchTab(tab) {
   });
 }
 
-fetch('./players.json')
+// Cache-bust: GitHub Pages' CDN caches players.json for a while, which made
+// R4 saves look like they didn't stick on reload even though they had.
+fetch('./players.json?t=' + Date.now(), { cache: 'no-store' })
   .then(r => r.json())
   .then(data => { loadedData = data; setLang(currentLang); syncTFVisibility(); })
   .catch(e => document.body.innerHTML += `<p style="color:red;padding:20px">Error: ${e}</p>`);
