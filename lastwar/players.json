@@ -2,7 +2,7 @@
   "meta": {
     "clan": "Mates",
     "game": "Last War VN",
-    "updated": "2026-07-25",
+    "updated": "2026-08-02",
     "notes": "C V = cường khùng (R4). SM = Bão Sa Mạc (Desert Storm). HN = Bão Hẻm Núi (Canyon Storm). Official model: last_matches = history, next_lineup = editable upcoming lineup. Both battles use 20 main / 10 subs. Lineup sorted by squad power descending. Fixed players (fixed=A/B) are auto-registered into their team each week using their stored power.",
     "updated_hn_a": "2026-07-16",
     "updated_hn_b": "2026-07-17"
@@ -535,7 +535,8 @@
     "Haizzzzzzzzzzzz": {
       "rank": "R4",
       "note": "- YC rules waived",
-      "fixed": "A"
+      "fixed": "A",
+      "yc_sm": 1
     },
     "Kute Gold": {
       "rank": "R3"
@@ -596,7 +597,8 @@
     "Sầu riêng m7": {
       "rank": "R3",
       "note": "",
-      "power": 46.2
+      "power": 46.2,
+      "yc_hn": 1
     },
     "ᵛᶰ Đậu Hũ": {
       "rank": "R2",
@@ -606,7 +608,8 @@
     "Zyn1998 n": {
       "rank": "R2",
       "dayoff": false,
-      "note": ""
+      "note": "",
+      "yc_hn": 1
     },
     "Hoàng Hậuu": {
       "rank": "R2",
@@ -631,7 +634,8 @@
     "duckiecutie": {
       "rank": "R2",
       "dayoff": 0,
-      "note": ""
+      "note": "",
+      "yc_sm": 1
     },
     "El Coderito": {
       "rank": "R2",
@@ -652,7 +656,8 @@
       "rank": "R3",
       "dayoff": 0,
       "note": "",
-      "power": 51.0
+      "power": 51.0,
+      "yc_sm": 1
     },
     "ÒÓO": {
       "rank": "R3"
@@ -695,11 +700,6 @@
           },
           {
             "r": "R4",
-            "name": "Haizzzzzzzzzzzz",
-            "reason": "R4"
-          },
-          {
-            "r": "R4",
             "name": "TusEngland",
             "reason": "R4"
           },
@@ -712,135 +712,20 @@
             "r": "R4",
             "name": "Clone or Sou",
             "reason": "R4"
-          },
-          {
-            "r": "R3",
-            "name": "Zz Ma Tuý Đá zz",
-            "power": 54,
-            "reason": "Đăng ký tuần này / Weekly registration"
-          },
-          {
-            "r": "R3",
-            "name": "Thiện phương",
-            "power": 53,
-            "reason": "Đăng ký tuần này / Weekly registration"
-          },
-          {
-            "r": "R3",
-            "name": "Tom and Jerry 9999",
-            "power": 51.0,
-            "reason": "Đăng ký tuần này / Weekly registration"
-          },
-          {
-            "r": "R3",
-            "name": "El Coderito",
-            "power": 51,
-            "reason": "Đăng ký tuần này / Weekly registration"
-          },
-          {
-            "r": "R3",
-            "name": "duckiecutie",
-            "power": 50,
-            "reason": "Đăng ký tuần này / Weekly registration"
-          },
-          {
-            "r": "R3",
-            "name": "zdevils",
-            "power": 50,
-            "reason": "Đăng ký tuần này / Weekly registration"
-          },
-          {
-            "r": "R3",
-            "name": "MrAugust2886",
-            "power": 49.88,
-            "reason": "Đăng ký tuần này / Weekly registration"
-          },
-          {
-            "r": "R3",
-            "name": "Sting Chanh",
-            "power": 49.7,
-            "reason": "Đăng ký tuần này / Weekly registration"
-          },
-          {
-            "r": "R3",
-            "name": "Sói Ken",
-            "power": 49.6,
-            "reason": "Đăng ký tuần này / Weekly registration"
-          },
-          {
-            "r": "R3",
-            "name": "Yến Nhi NT",
-            "power": 49,
-            "reason": "Đăng ký tuần này / Weekly registration"
-          },
-          {
-            "r": "R3",
-            "name": "MR Dương",
-            "power": 48.5,
-            "reason": "Đăng ký tuần này / Weekly registration"
-          },
-          {
-            "r": "R3",
-            "name": "ᵛᶰ Đậu Hũ",
-            "power": 48.4,
-            "reason": "Đăng ký tuần này / Weekly registration"
-          },
-          {
-            "r": "R3",
-            "name": "Cúc Hoa Long Lanh",
-            "power": 47.8,
-            "reason": "Đăng ký tuần này / Weekly registration"
           }
         ],
         "subs": [
           {
-            "r": "R3",
-            "name": "RùaNgáo",
-            "power": 46.5,
-            "reason": "Đăng ký tuần này / Weekly registration"
-          },
-          {
-            "r": "R3",
-            "name": "ZEKT",
-            "power": 46.47,
-            "reason": "Đăng ký tuần này / Weekly registration"
-          },
-          {
-            "r": "R3",
-            "name": "tâm1980",
-            "power": 45.7,
-            "reason": "Đăng ký tuần này / Weekly registration"
-          },
-          {
-            "r": "R3",
-            "name": "Zyn1998 n",
-            "power": 45.7,
-            "reason": "Đăng ký tuần này / Weekly registration"
-          },
-          {
-            "r": "R3",
-            "name": "NHBảoLong",
-            "power": 43,
-            "reason": "Đăng ký tuần này / Weekly registration"
-          },
-          {
-            "r": "R3",
-            "name": "KYLEPHAM2401",
-            "power": 42,
-            "reason": "Đăng ký tuần này / Weekly registration"
-          },
-          {
-            "r": "R3",
-            "name": "PewPewBoi",
-            "power": 41.5,
-            "reason": "Đăng ký tuần này / Weekly registration"
+            "r": "R4",
+            "name": "Haizzzzzzzzzzzz",
+            "reason": "R4 - 🟨 Phạt tuần trước / Penalized last week"
           }
         ],
         "dayoff": [],
         "slot": "A",
         "maxMain": 20,
         "maxSubs": 10,
-        "date": "2026-07-31",
+        "date": "2026-08-07",
         "time": "18:30 ICT",
         "period": "evening"
       },
@@ -860,153 +745,14 @@
             "r": "R4",
             "name": "Rymi68",
             "reason": "R4"
-          },
-          {
-            "r": "R3",
-            "name": "Kute Gold",
-            "power": 51,
-            "reason": "Đăng ký tuần này / Weekly registration"
-          },
-          {
-            "r": "R3",
-            "name": "Vualidonzz",
-            "power": 50,
-            "reason": "Đăng ký tuần này / Weekly registration"
-          },
-          {
-            "r": "R3",
-            "name": "sửa máy promax",
-            "power": 49.5,
-            "reason": "Đăng ký tuần này / Weekly registration"
-          },
-          {
-            "r": "R3",
-            "name": "e Asche",
-            "power": 48.3,
-            "reason": "Đăng ký tuần này / Weekly registration"
-          },
-          {
-            "r": "R3",
-            "name": "ÒÓO",
-            "power": 48,
-            "reason": "Đăng ký tuần này / Weekly registration"
-          },
-          {
-            "r": "R3",
-            "name": "Hemerage",
-            "reason": "R4",
-            "power": 47.4
-          },
-          {
-            "r": "R3",
-            "name": "Shashank1411",
-            "power": 46.73,
-            "reason": "Đăng ký tuần này / Weekly registration"
-          },
-          {
-            "r": "R3",
-            "name": "Đập Chai",
-            "power": 45.5,
-            "reason": "Đăng ký tuần này / Weekly registration"
-          },
-          {
-            "r": "R3",
-            "name": "NgocNamBoss",
-            "power": 45.3,
-            "reason": "Đăng ký tuần này / Weekly registration"
-          },
-          {
-            "r": "R3",
-            "name": "Chivas2026",
-            "power": 45,
-            "reason": "Đăng ký tuần này / Weekly registration"
-          },
-          {
-            "r": "R3",
-            "name": "danhoanh",
-            "power": 44.86,
-            "reason": "Đăng ký tuần này / Weekly registration"
-          },
-          {
-            "r": "R3",
-            "name": "NorthFog",
-            "power": 44.6,
-            "reason": "Đăng ký tuần này / Weekly registration"
-          },
-          {
-            "r": "R3",
-            "name": "ThíchThìNhích92",
-            "power": 44.0,
-            "reason": "Đăng ký tuần này / Weekly registration"
-          },
-          {
-            "r": "R3",
-            "name": "Phạm khánhh",
-            "power": 44,
-            "reason": "Đăng ký tuần này / Weekly registration"
-          },
-          {
-            "r": "R3",
-            "name": "Thanhh Tân",
-            "power": 44,
-            "reason": "Đăng ký tuần này / Weekly registration"
-          },
-          {
-            "r": "R3",
-            "name": "Trai Cầu Tõm",
-            "power": 43.2,
-            "reason": "Đăng ký tuần này / Weekly registration"
-          },
-          {
-            "r": "R3",
-            "name": "Nguyenngoctuan",
-            "power": 43,
-            "reason": "Đăng ký tuần này / Weekly registration"
           }
         ],
-        "subs": [
-          {
-            "r": "R3",
-            "name": "Yunnin",
-            "power": 42.95,
-            "reason": "Đăng ký tuần này / Weekly registration"
-          },
-          {
-            "r": "R3",
-            "name": "Marines Malevolent",
-            "power": 42.8,
-            "reason": "Đăng ký tuần này / Weekly registration"
-          },
-          {
-            "r": "R3",
-            "name": "Lưu Mẫn Nhi",
-            "power": 42.3,
-            "reason": "Đăng ký tuần này / Weekly registration"
-          },
-          {
-            "r": "R3",
-            "name": "SanTa 1386",
-            "power": 42,
-            "reason": "Đăng ký tuần này / Weekly registration"
-          },
-          {
-            "r": "R3",
-            "name": "Aaaluan",
-            "power": 41,
-            "reason": "Đăng ký tuần này / Weekly registration"
-          },
-          {
-            "r": "R3",
-            "name": "Khánhh Báooo",
-            "power": 40,
-            "reason": "Đăng ký tuần này / Weekly registration"
-          }
-        ],
+        "subs": [],
         "dayoff": [],
         "slot": "B",
         "maxMain": 20,
         "maxSubs": 10,
-        "date": "2026-08-01",
+        "date": "2026-08-08",
         "time": "08:30 ICT",
         "period": "morning"
       }
@@ -1053,117 +799,14 @@
             "r": "R4",
             "name": "Clone or Sou",
             "reason": "R4"
-          },
-          {
-            "r": "R3",
-            "name": "Zz Ma Tuý Đá zz",
-            "power": 54,
-            "reason": "Đăng ký tuần này / Weekly registration"
-          },
-          {
-            "r": "R3",
-            "name": "Thiện phương",
-            "power": 53,
-            "reason": "Đăng ký tuần này / Weekly registration"
-          },
-          {
-            "r": "R3",
-            "name": "Tom and Jerry 9999",
-            "power": 51.0,
-            "reason": "Đăng ký tuần này / Weekly registration"
-          },
-          {
-            "r": "R3",
-            "name": "El Coderito",
-            "power": 51,
-            "reason": "Đăng ký tuần này / Weekly registration"
-          },
-          {
-            "r": "R3",
-            "name": "duckiecutie",
-            "power": 50,
-            "reason": "Đăng ký tuần này / Weekly registration"
-          },
-          {
-            "r": "R3",
-            "name": "zdevils",
-            "power": 50,
-            "reason": "Đăng ký tuần này / Weekly registration"
-          },
-          {
-            "r": "R3",
-            "name": "Sting Chanh",
-            "power": 49.7,
-            "reason": "Đăng ký tuần này / Weekly registration"
-          },
-          {
-            "r": "R3",
-            "name": "Sói Ken",
-            "power": 49.6,
-            "reason": "Đăng ký tuần này / Weekly registration"
-          },
-          {
-            "r": "R3",
-            "name": "sửa máy promax",
-            "power": 49.5,
-            "reason": "Đăng ký tuần này / Weekly registration"
-          },
-          {
-            "r": "R3",
-            "name": "Yến Nhi NT",
-            "power": 49,
-            "reason": "Đăng ký tuần này / Weekly registration"
-          },
-          {
-            "r": "R3",
-            "name": "MR Dương",
-            "power": 48.5,
-            "reason": "Đăng ký tuần này / Weekly registration"
-          },
-          {
-            "r": "R3",
-            "name": "e Asche",
-            "power": 48.3,
-            "reason": "Đăng ký tuần này / Weekly registration"
           }
         ],
-        "subs": [
-          {
-            "r": "R3",
-            "name": "Cúc Hoa Long Lanh",
-            "power": 47.8,
-            "reason": "Đăng ký tuần này / Weekly registration"
-          },
-          {
-            "r": "R3",
-            "name": "RùaNgáo",
-            "power": 46.5,
-            "reason": "Đăng ký tuần này / Weekly registration"
-          },
-          {
-            "r": "R3",
-            "name": "ZEKT",
-            "power": 46.47,
-            "reason": "Đăng ký tuần này / Weekly registration"
-          },
-          {
-            "r": "R3",
-            "name": "tâm1980",
-            "power": 45.7,
-            "reason": "Đăng ký tuần này / Weekly registration"
-          },
-          {
-            "r": "R3",
-            "name": "KYLEPHAM2401",
-            "power": 42,
-            "reason": "Đăng ký tuần này / Weekly registration"
-          }
-        ],
+        "subs": [],
         "dayoff": [],
         "slot": "A",
         "maxMain": 20,
         "maxSubs": 10,
-        "date": "2026-07-28",
+        "date": "2026-08-06",
         "time": "21:30 ICT",
         "period": "night 21:30"
       },
@@ -1178,165 +821,14 @@
             "r": "R4",
             "name": "yologuy",
             "reason": "R4"
-          },
-          {
-            "r": "R3",
-            "name": "Kute Gold",
-            "power": 51,
-            "reason": "Đăng ký tuần này / Weekly registration"
-          },
-          {
-            "r": "R3",
-            "name": "Vualidonzz",
-            "power": 50,
-            "reason": "Đăng ký tuần này / Weekly registration"
-          },
-          {
-            "r": "R3",
-            "name": "MrAugust2886",
-            "power": 49.88,
-            "reason": "Đăng ký tuần này / Weekly registration"
-          },
-          {
-            "r": "R3",
-            "name": "ᵛᶰ Đậu Hũ",
-            "power": 48.4,
-            "reason": "Đăng ký tuần này / Weekly registration"
-          },
-          {
-            "r": "R3",
-            "name": "ÒÓO",
-            "power": 48,
-            "reason": "Đăng ký tuần này / Weekly registration"
-          },
-          {
-            "r": "R3",
-            "name": "Hemerage",
-            "reason": "R4",
-            "power": 47.4
-          },
-          {
-            "r": "R3",
-            "name": "Shashank1411",
-            "power": 46.73,
-            "reason": "Đăng ký tuần này / Weekly registration"
-          },
-          {
-            "r": "R3",
-            "name": "Sầu riêng m7",
-            "power": 46.2,
-            "reason": "Đăng ký tuần này / Weekly registration"
-          },
-          {
-            "r": "R3",
-            "name": "Zyn1998 n",
-            "power": 45.7,
-            "reason": "Đăng ký tuần này / Weekly registration"
-          },
-          {
-            "r": "R3",
-            "name": "Đập Chai",
-            "power": 45.5,
-            "reason": "Đăng ký tuần này / Weekly registration"
-          },
-          {
-            "r": "R3",
-            "name": "NgocNamBoss",
-            "power": 45.3,
-            "reason": "Đăng ký tuần này / Weekly registration"
-          },
-          {
-            "r": "R3",
-            "name": "Chivas2026",
-            "power": 45,
-            "reason": "Đăng ký tuần này / Weekly registration"
-          },
-          {
-            "r": "R3",
-            "name": "danhoanh",
-            "power": 44.86,
-            "reason": "Đăng ký tuần này / Weekly registration"
-          },
-          {
-            "r": "R3",
-            "name": "NorthFog",
-            "power": 44.6,
-            "reason": "Đăng ký tuần này / Weekly registration"
-          },
-          {
-            "r": "R3",
-            "name": "ThíchThìNhích92",
-            "power": 44.0,
-            "reason": "Đăng ký tuần này / Weekly registration"
-          },
-          {
-            "r": "R3",
-            "name": "Phạm khánhh",
-            "power": 44,
-            "reason": "Đăng ký tuần này / Weekly registration"
-          },
-          {
-            "r": "R3",
-            "name": "Thanhh Tân",
-            "power": 44,
-            "reason": "Đăng ký tuần này / Weekly registration"
-          },
-          {
-            "r": "R3",
-            "name": "Trai Cầu Tõm",
-            "power": 43.2,
-            "reason": "Đăng ký tuần này / Weekly registration"
           }
         ],
-        "subs": [
-          {
-            "r": "R3",
-            "name": "NHBảoLong",
-            "power": 43,
-            "reason": "Đăng ký tuần này / Weekly registration"
-          },
-          {
-            "r": "R3",
-            "name": "Nguyenngoctuan",
-            "power": 43,
-            "reason": "Đăng ký tuần này / Weekly registration"
-          },
-          {
-            "r": "R3",
-            "name": "Marines Malevolent",
-            "power": 42.8,
-            "reason": "Đăng ký tuần này / Weekly registration"
-          },
-          {
-            "r": "R3",
-            "name": "Lưu Mẫn Nhi",
-            "power": 42.3,
-            "reason": "Đăng ký tuần này / Weekly registration"
-          },
-          {
-            "r": "R3",
-            "name": "Tommy4014",
-            "power": 42,
-            "reason": "Đăng ký tuần này / Weekly registration"
-          },
-          {
-            "r": "R3",
-            "name": "Aaaluan",
-            "power": 41,
-            "reason": "Đăng ký tuần này / Weekly registration"
-          },
-          {
-            "r": "R3",
-            "name": "Khánhh Báooo",
-            "power": 40,
-            "reason": "Đăng ký tuần này / Weekly registration"
-          }
-        ],
+        "subs": [],
         "dayoff": [],
         "slot": "B",
         "maxMain": 20,
         "maxSubs": 10,
-        "date": "2026-07-29",
+        "date": "2026-08-07",
         "time": "08:30 ICT",
         "period": "morning 08:30"
       }
