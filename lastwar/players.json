@@ -341,7 +341,8 @@
       "rank": "R3"
     },
     "e Asche": {
-      "rank": "R3"
+      "rank": "R3",
+      "power": 49
     },
     "Aaaluan": {
       "rank": "R3"
@@ -375,7 +376,8 @@
       "rank": "R3"
     },
     "Yến Nhi NT": {
-      "rank": "R3"
+      "rank": "R3",
+      "power": 50
     },
     "Phạm khánhh": {
       "rank": "R3"
@@ -712,6 +714,12 @@
             "r": "R4",
             "name": "Clone or Sou",
             "reason": "R4"
+          },
+          {
+            "r": "R3",
+            "name": "Yến Nhi NT",
+            "power": 50,
+            "reason": "Đăng ký tuần này / Weekly registration"
           }
         ],
         "subs": [
@@ -745,6 +753,12 @@
             "r": "R4",
             "name": "Rymi68",
             "reason": "R4"
+          },
+          {
+            "r": "R3",
+            "name": "e Asche",
+            "power": 49,
+            "reason": "Đăng ký tuần này / Weekly registration"
           },
           {
             "r": "R3",
@@ -805,6 +819,18 @@
             "r": "R4",
             "name": "Clone or Sou",
             "reason": "R4"
+          },
+          {
+            "r": "R3",
+            "name": "Yến Nhi NT",
+            "power": 50,
+            "reason": "Đăng ký tuần này / Weekly registration"
+          },
+          {
+            "r": "R3",
+            "name": "e Asche",
+            "power": 49,
+            "reason": "Đăng ký tuần này / Weekly registration"
           }
         ],
         "subs": [],
