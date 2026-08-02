@@ -96,7 +96,8 @@
       "El Coderito",
       "duckiecutie",
       "ᵛᶰ Đậu Hũ",
-      "Clone or Sou"
+      "Clone or Sou",
+      "Deptraitube2012"
     ],
     "R2": [
       "1Mét45",
@@ -703,6 +704,10 @@
     "PTKhang RiO": {
       "rank": "R4",
       "fixed": "A"
+    },
+    "Deptraitube2012": {
+      "rank": "R3",
+      "power": 55.0
     }
   },
   "next_lineup": {
@@ -743,6 +748,12 @@
             "r": "R4",
             "name": "PTKhang RiO",
             "reason": "R4"
+          },
+          {
+            "r": "R3",
+            "name": "Deptraitube2012",
+            "power": 55.0,
+            "reason": "Đăng ký tuần này / Weekly registration"
           },
           {
             "r": "R3",
@@ -950,6 +961,12 @@
             "r": "R4",
             "name": "PTKhang RiO",
             "reason": "R4"
+          },
+          {
+            "r": "R3",
+            "name": "Deptraitube2012",
+            "power": 55.0,
+            "reason": "Đăng ký tuần này / Weekly registration"
           },
           {
             "r": "R3",
