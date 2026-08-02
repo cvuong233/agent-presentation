@@ -565,7 +565,8 @@
     },
     "Bin 37": {
       "rank": "R2",
-      "note": ""
+      "note": "",
+      "power": 48.0
     },
     "VN Đậu Hũ": {
       "rank": "R2",
@@ -821,6 +822,12 @@
             "reason": "Đăng ký tuần này / Weekly registration"
           },
           {
+            "r": "R2",
+            "name": "Bin 37",
+            "power": 48.0,
+            "reason": "Đăng ký tuần này / Weekly registration"
+          },
+          {
             "r": "R3",
             "name": "Shashank1411",
             "power": 47.16,
@@ -1003,6 +1010,12 @@
             "r": "R3",
             "name": "Kute Gold",
             "power": 51.6,
+            "reason": "Đăng ký tuần này / Weekly registration"
+          },
+          {
+            "r": "R2",
+            "name": "Bin 37",
+            "power": 48.0,
             "reason": "Đăng ký tuần này / Weekly registration"
           },
           {
