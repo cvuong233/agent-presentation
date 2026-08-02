@@ -650,7 +650,8 @@
     "El Coderito": {
       "rank": "R2",
       "dayoff": 0,
-      "note": ""
+      "note": "",
+      "power": 52.0
     },
     "cu tí nhỏ xiu": {
       "rank": "R2",
@@ -732,6 +733,12 @@
             "r": "R2",
             "name": "Thiện phương",
             "power": 54.0,
+            "reason": "Đăng ký tuần này / Weekly registration"
+          },
+          {
+            "r": "R2",
+            "name": "El Coderito",
+            "power": 52.0,
             "reason": "Đăng ký tuần này / Weekly registration"
           },
           {
@@ -897,6 +904,12 @@
             "r": "R2",
             "name": "Thiện phương",
             "power": 54.0,
+            "reason": "Đăng ký tuần này / Weekly registration"
+          },
+          {
+            "r": "R2",
+            "name": "El Coderito",
+            "power": 52.0,
             "reason": "Đăng ký tuần này / Weekly registration"
           },
           {
