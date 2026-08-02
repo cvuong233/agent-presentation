@@ -318,7 +318,7 @@
     },
     "NorthFog": {
       "rank": "R3",
-      "power": 44.6
+      "power": 45.2
     },
     "Marines Malevolent": {
       "rank": "R3"
@@ -835,6 +835,12 @@
           },
           {
             "r": "R3",
+            "name": "NorthFog",
+            "power": 45.2,
+            "reason": "Đăng ký tuần này / Weekly registration"
+          },
+          {
+            "r": "R3",
             "name": "Phạm khánhh",
             "power": 45.0,
             "reason": "Đăng ký tuần này / Weekly registration"
@@ -1022,6 +1028,12 @@
             "r": "R3",
             "name": "Shashank1411",
             "power": 47.16,
+            "reason": "Đăng ký tuần này / Weekly registration"
+          },
+          {
+            "r": "R3",
+            "name": "NorthFog",
+            "power": 45.2,
             "reason": "Đăng ký tuần này / Weekly registration"
           },
           {
