@@ -19,8 +19,7 @@
       "cường khùng",
       "yologuy",
       "Haizzzzzzzzzzzz",
-      "wolfwitch",
-      "Clone or Sou"
+      "wolfwitch"
     ],
     "R3": [
       "Aaaluan",
@@ -95,7 +94,8 @@
       "Thiện phương",
       "El Coderito",
       "duckiecutie",
-      "ᵛᶰ Đậu Hũ"
+      "ᵛᶰ Đậu Hũ",
+      "Clone or Sou"
     ],
     "R2": [
       "1Mét45",
@@ -683,7 +683,7 @@
       "rank": "R3"
     },
     "Clone or Sou": {
-      "rank": "R4",
+      "rank": "R3",
       "fixed": "A"
     },
     "Sting Chanh": {
@@ -727,7 +727,7 @@
             "reason": "R4"
           },
           {
-            "r": "R4",
+            "r": "R3",
             "name": "Clone or Sou",
             "reason": "R4"
           },
@@ -904,7 +904,7 @@
             "reason": "R4"
           },
           {
-            "r": "R4",
+            "r": "R3",
             "name": "Clone or Sou",
             "reason": "R4"
           },
