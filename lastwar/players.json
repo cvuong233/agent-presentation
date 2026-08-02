@@ -282,7 +282,8 @@
       "rank": "R3"
     },
     "Shashank1411": {
-      "rank": "R3"
+      "rank": "R3",
+      "power": 47.16
     },
     "Nguyenngoctuan": {
       "rank": "R3",
@@ -814,6 +815,12 @@
           },
           {
             "r": "R3",
+            "name": "Shashank1411",
+            "power": 47.16,
+            "reason": "Đăng ký tuần này / Weekly registration"
+          },
+          {
+            "r": "R3",
             "name": "Phạm khánhh",
             "power": 45.0,
             "reason": "Đăng ký tuần này / Weekly registration"
@@ -983,6 +990,12 @@
             "r": "R3",
             "name": "Kute Gold",
             "power": 51.6,
+            "reason": "Đăng ký tuần này / Weekly registration"
+          },
+          {
+            "r": "R3",
+            "name": "Shashank1411",
+            "power": 47.16,
             "reason": "Đăng ký tuần này / Weekly registration"
           },
           {
