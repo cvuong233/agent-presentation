@@ -19,7 +19,8 @@
       "cường khùng",
       "yologuy",
       "Haizzzzzzzzzzzz",
-      "wolfwitch"
+      "wolfwitch",
+      "PTKhang RiO"
     ],
     "R3": [
       "Aaaluan",
@@ -698,6 +699,10 @@
     "Kendy Nguyên 86": {
       "rank": "R3",
       "power": 50.1
+    },
+    "PTKhang RiO": {
+      "rank": "R4",
+      "fixed": "A"
     }
   },
   "next_lineup": {
@@ -732,6 +737,11 @@
           {
             "r": "R4",
             "name": "Haizzzzzzzzzzzz",
+            "reason": "R4"
+          },
+          {
+            "r": "R4",
+            "name": "PTKhang RiO",
             "reason": "R4"
           },
           {
@@ -928,6 +938,11 @@
           {
             "r": "R4",
             "name": "wolfwitch",
+            "reason": "R4"
+          },
+          {
+            "r": "R4",
+            "name": "PTKhang RiO",
             "reason": "R4"
           },
           {
