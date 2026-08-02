@@ -547,7 +547,8 @@
       "yc_sm": 1
     },
     "Kute Gold": {
-      "rank": "R3"
+      "rank": "R3",
+      "power": 51.6
     },
     "TusEngland": {
       "rank": "R4",
@@ -796,6 +797,12 @@
           },
           {
             "r": "R3",
+            "name": "Kute Gold",
+            "power": 51.6,
+            "reason": "Đăng ký tuần này / Weekly registration"
+          },
+          {
+            "r": "R3",
             "name": "Kendy Nguyên 86",
             "power": 50.1,
             "reason": "Đăng ký tuần này / Weekly registration"
@@ -972,6 +979,12 @@
             "r": "R4",
             "name": "yologuy",
             "reason": "R4"
+          },
+          {
+            "r": "R3",
+            "name": "Kute Gold",
+            "power": 51.6,
+            "reason": "Đăng ký tuần này / Weekly registration"
           },
           {
             "r": "R3",
