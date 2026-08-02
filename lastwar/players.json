@@ -631,7 +631,8 @@
     "Sói Ken": {
       "rank": "R2",
       "dayoff": false,
-      "note": ""
+      "note": "",
+      "power": 50.2
     },
     "Mèo Sunshine": {
       "rank": "R2",
@@ -748,6 +749,12 @@
             "r": "R3",
             "name": "duckiecutie",
             "power": 50.7,
+            "reason": "Đăng ký tuần này / Weekly registration"
+          },
+          {
+            "r": "R2",
+            "name": "Sói Ken",
+            "power": 50.2,
             "reason": "Đăng ký tuần này / Weekly registration"
           },
           {
@@ -926,6 +933,12 @@
             "r": "R3",
             "name": "duckiecutie",
             "power": 50.7,
+            "reason": "Đăng ký tuần này / Weekly registration"
+          },
+          {
+            "r": "R2",
+            "name": "Sói Ken",
+            "power": 50.2,
             "reason": "Đăng ký tuần này / Weekly registration"
           },
           {
