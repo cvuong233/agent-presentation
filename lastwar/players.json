@@ -674,7 +674,7 @@
       "rank": "R3",
       "dayoff": 0,
       "note": "",
-      "power": 51.0,
+      "power": 51.5,
       "yc_sm": 0
     },
     "ÒÓO": {
@@ -754,6 +754,12 @@
             "r": "R3",
             "name": "El Coderito",
             "power": 52.0,
+            "reason": "Đăng ký tuần này / Weekly registration"
+          },
+          {
+            "r": "R3",
+            "name": "Tom and Jerry 9999",
+            "power": 51.5,
             "reason": "Đăng ký tuần này / Weekly registration"
           },
           {
@@ -955,6 +961,12 @@
             "r": "R3",
             "name": "El Coderito",
             "power": 52.0,
+            "reason": "Đăng ký tuần này / Weekly registration"
+          },
+          {
+            "r": "R3",
+            "name": "Tom and Jerry 9999",
+            "power": 51.5,
             "reason": "Đăng ký tuần này / Weekly registration"
           },
           {
