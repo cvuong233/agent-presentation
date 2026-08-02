@@ -90,7 +90,8 @@
       "Tom and Jerry 9999",
       "Cúc Hoa Long Lanh",
       "Hemerage",
-      "zdevils"
+      "zdevils",
+      "Kendy Nguyên 86"
     ],
     "R2": [
       "1Mét45",
@@ -282,7 +283,8 @@
       "rank": "R3"
     },
     "Nguyenngoctuan": {
-      "rank": "R3"
+      "rank": "R3",
+      "power": 43.0
     },
     "anh thợ sửa máy": {
       "rank": "R3"
@@ -320,7 +322,7 @@
     },
     "PewPewBoi": {
       "rank": "R3",
-      "power": 41.5
+      "power": 42.0
     },
     "RùaNgáo": {
       "rank": "R3"
@@ -370,7 +372,8 @@
       "rank": "R3"
     },
     "SanTa 1386": {
-      "rank": "R3"
+      "rank": "R3",
+      "power": 43.7
     },
     "cu tí nhỏ xíu": {
       "rank": "R3"
@@ -380,7 +383,8 @@
       "power": 50
     },
     "Phạm khánhh": {
-      "rank": "R3"
+      "rank": "R3",
+      "power": 45.0
     },
     "Haizzzzzzzzzz": {
       "rank": "R4"
@@ -578,11 +582,12 @@
     "ThíchThìNhích92": {
       "rank": "R3",
       "note": "",
-      "power": 44.0
+      "power": 44.3
     },
     "Khánhh Báooo": {
       "rank": "R3",
-      "note": ""
+      "note": "",
+      "power": 41.0
     },
     "Nhi Nở": {
       "rank": "R3",
@@ -605,7 +610,8 @@
     "ᵛᶰ Đậu Hũ": {
       "rank": "R2",
       "dayoff": false,
-      "note": ""
+      "note": "",
+      "power": 49.0
     },
     "Zyn1998 n": {
       "rank": "R2",
@@ -631,13 +637,15 @@
     "Thiện phương": {
       "rank": "R2",
       "dayoff": false,
-      "note": ""
+      "note": "",
+      "power": 54.0
     },
     "duckiecutie": {
       "rank": "R2",
       "dayoff": 0,
       "note": "",
-      "yc_sm": 1
+      "yc_sm": 1,
+      "power": 50.7
     },
     "El Coderito": {
       "rank": "R2",
@@ -665,7 +673,8 @@
       "rank": "R3"
     },
     "Lưu Mẫn Nhi": {
-      "rank": "R3"
+      "rank": "R3",
+      "power": 44.0
     },
     "Cúc Hoa Long Lanh": {
       "rank": "R3"
@@ -679,6 +688,10 @@
     },
     "Zz Ma Tuý Đá zz": {
       "rank": "R3"
+    },
+    "Kendy Nguyên 86": {
+      "rank": "R3",
+      "power": 50.1
     }
   },
   "next_lineup": {
@@ -716,9 +729,21 @@
             "reason": "R4"
           },
           {
+            "r": "R2",
+            "name": "Thiện phương",
+            "power": 54.0,
+            "reason": "Đăng ký tuần này / Weekly registration"
+          },
+          {
             "r": "R3",
             "name": "Yến Nhi NT",
-            "power": 50,
+            "power": 50.0,
+            "reason": "Đăng ký tuần này / Weekly registration"
+          },
+          {
+            "r": "R3",
+            "name": "PewPewBoi",
+            "power": 42.0,
             "reason": "Đăng ký tuần này / Weekly registration"
           }
         ],
@@ -727,6 +752,12 @@
             "r": "R4",
             "name": "Haizzzzzzzzzzzz",
             "reason": "R4 - 🟨 Phạt tuần trước / Penalized last week"
+          },
+          {
+            "r": "R2",
+            "name": "duckiecutie",
+            "power": 50.7,
+            "reason": "🟨 Phạt tuần trước / Penalized last week"
           }
         ],
         "dayoff": [],
@@ -756,14 +787,56 @@
           },
           {
             "r": "R3",
+            "name": "Kendy Nguyên 86",
+            "power": 50.1,
+            "reason": "Đăng ký tuần này / Weekly registration"
+          },
+          {
+            "r": "R3",
             "name": "e Asche",
-            "power": 49,
+            "power": 49.0,
+            "reason": "Đăng ký tuần này / Weekly registration"
+          },
+          {
+            "r": "R3",
+            "name": "Phạm khánhh",
+            "power": 45.0,
+            "reason": "Đăng ký tuần này / Weekly registration"
+          },
+          {
+            "r": "R3",
+            "name": "ThíchThìNhích92",
+            "power": 44.3,
+            "reason": "Đăng ký tuần này / Weekly registration"
+          },
+          {
+            "r": "R3",
+            "name": "Lưu Mẫn Nhi",
+            "power": 44.0,
+            "reason": "Đăng ký tuần này / Weekly registration"
+          },
+          {
+            "r": "R3",
+            "name": "SanTa 1386",
+            "power": 43.7,
             "reason": "Đăng ký tuần này / Weekly registration"
           },
           {
             "r": "R3",
             "name": "Marines Malevolent",
             "power": 43.43,
+            "reason": "Đăng ký tuần này / Weekly registration"
+          },
+          {
+            "r": "R3",
+            "name": "Nguyenngoctuan",
+            "power": 43.0,
+            "reason": "Đăng ký tuần này / Weekly registration"
+          },
+          {
+            "r": "R3",
+            "name": "Khánhh Báooo",
+            "power": 41.0,
             "reason": "Đăng ký tuần này / Weekly registration"
           }
         ],
@@ -821,15 +894,45 @@
             "reason": "R4"
           },
           {
+            "r": "R2",
+            "name": "Thiện phương",
+            "power": 54.0,
+            "reason": "Đăng ký tuần này / Weekly registration"
+          },
+          {
+            "r": "R2",
+            "name": "duckiecutie",
+            "power": 50.7,
+            "reason": "Đăng ký tuần này / Weekly registration"
+          },
+          {
+            "r": "R3",
+            "name": "Kendy Nguyên 86",
+            "power": 50.1,
+            "reason": "Đăng ký tuần này / Weekly registration"
+          },
+          {
             "r": "R3",
             "name": "Yến Nhi NT",
-            "power": 50,
+            "power": 50.0,
             "reason": "Đăng ký tuần này / Weekly registration"
           },
           {
             "r": "R3",
             "name": "e Asche",
-            "power": 49,
+            "power": 49.0,
+            "reason": "Đăng ký tuần này / Weekly registration"
+          },
+          {
+            "r": "R2",
+            "name": "ᵛᶰ Đậu Hũ",
+            "power": 49.0,
+            "reason": "Đăng ký tuần này / Weekly registration"
+          },
+          {
+            "r": "R3",
+            "name": "Nguyenngoctuan",
+            "power": 43.0,
             "reason": "Đăng ký tuần này / Weekly registration"
           }
         ],
@@ -856,8 +959,38 @@
           },
           {
             "r": "R3",
+            "name": "Phạm khánhh",
+            "power": 45.0,
+            "reason": "Đăng ký tuần này / Weekly registration"
+          },
+          {
+            "r": "R3",
+            "name": "ThíchThìNhích92",
+            "power": 44.3,
+            "reason": "Đăng ký tuần này / Weekly registration"
+          },
+          {
+            "r": "R3",
+            "name": "Lưu Mẫn Nhi",
+            "power": 44.0,
+            "reason": "Đăng ký tuần này / Weekly registration"
+          },
+          {
+            "r": "R3",
+            "name": "SanTa 1386",
+            "power": 43.7,
+            "reason": "Đăng ký tuần này / Weekly registration"
+          },
+          {
+            "r": "R3",
             "name": "Marines Malevolent",
             "power": 43.43,
+            "reason": "Đăng ký tuần này / Weekly registration"
+          },
+          {
+            "r": "R3",
+            "name": "Khánhh Báooo",
+            "power": 41.0,
             "reason": "Đăng ký tuần này / Weekly registration"
           }
         ],
