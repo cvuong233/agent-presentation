@@ -91,7 +91,11 @@
       "Cúc Hoa Long Lanh",
       "Hemerage",
       "zdevils",
-      "Kendy Nguyên 86"
+      "Kendy Nguyên 86",
+      "Thiện phương",
+      "El Coderito",
+      "duckiecutie",
+      "ᵛᶰ Đậu Hũ"
     ],
     "R2": [
       "1Mét45",
@@ -117,12 +121,10 @@
       "Bunny1308",
       "ZEKT",
       "Mr Hải Nam",
-      "ᵛᶰ Đậu Hũ",
       "Zyn1998 n",
       "Hoàng Hậuu",
       "Sói Ken",
-      "Mèo Sunshine",
-      "Thiện phương"
+      "Mèo Sunshine"
     ],
     "R1": [
       "A Ngỗng",
@@ -608,7 +610,7 @@
       "yc_hn": 1
     },
     "ᵛᶰ Đậu Hũ": {
-      "rank": "R2",
+      "rank": "R3",
       "dayoff": false,
       "note": "",
       "power": 49.0
@@ -635,20 +637,20 @@
       "note": ""
     },
     "Thiện phương": {
-      "rank": "R2",
+      "rank": "R3",
       "dayoff": false,
       "note": "",
       "power": 54.0
     },
     "duckiecutie": {
-      "rank": "R2",
+      "rank": "R3",
       "dayoff": 0,
       "note": "",
       "yc_sm": 1,
       "power": 50.7
     },
     "El Coderito": {
-      "rank": "R2",
+      "rank": "R3",
       "dayoff": 0,
       "note": "",
       "power": 52.0
@@ -730,13 +732,13 @@
             "reason": "R4"
           },
           {
-            "r": "R2",
+            "r": "R3",
             "name": "Thiện phương",
             "power": 54.0,
             "reason": "Đăng ký tuần này / Weekly registration"
           },
           {
-            "r": "R2",
+            "r": "R3",
             "name": "El Coderito",
             "power": 52.0,
             "reason": "Đăng ký tuần này / Weekly registration"
@@ -761,7 +763,7 @@
             "reason": "R4 - 🟨 Phạt tuần trước / Penalized last week"
           },
           {
-            "r": "R2",
+            "r": "R3",
             "name": "duckiecutie",
             "power": 50.7,
             "reason": "🟨 Phạt tuần trước / Penalized last week"
@@ -901,19 +903,19 @@
             "reason": "R4"
           },
           {
-            "r": "R2",
+            "r": "R3",
             "name": "Thiện phương",
             "power": 54.0,
             "reason": "Đăng ký tuần này / Weekly registration"
           },
           {
-            "r": "R2",
+            "r": "R3",
             "name": "El Coderito",
             "power": 52.0,
             "reason": "Đăng ký tuần này / Weekly registration"
           },
           {
-            "r": "R2",
+            "r": "R3",
             "name": "duckiecutie",
             "power": 50.7,
             "reason": "Đăng ký tuần này / Weekly registration"
@@ -937,7 +939,7 @@
             "reason": "Đăng ký tuần này / Weekly registration"
           },
           {
-            "r": "R2",
+            "r": "R3",
             "name": "ᵛᶰ Đậu Hũ",
             "power": 49.0,
             "reason": "Đăng ký tuần này / Weekly registration"
