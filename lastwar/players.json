@@ -544,7 +544,7 @@
       "rank": "R4",
       "note": "- YC rules waived",
       "fixed": "A",
-      "yc_sm": 1
+      "yc_sm": 0
     },
     "Kute Gold": {
       "rank": "R3",
@@ -647,7 +647,7 @@
       "rank": "R3",
       "dayoff": 0,
       "note": "",
-      "yc_sm": 1,
+      "yc_sm": 0,
       "power": 50.7
     },
     "El Coderito": {
@@ -671,7 +671,7 @@
       "dayoff": 0,
       "note": "",
       "power": 51.0,
-      "yc_sm": 1
+      "yc_sm": 0
     },
     "ÒÓO": {
       "rank": "R3"
@@ -727,6 +727,11 @@
             "reason": "R4"
           },
           {
+            "r": "R4",
+            "name": "Haizzzzzzzzzzzz",
+            "reason": "R4"
+          },
+          {
             "r": "R3",
             "name": "Thiện phương",
             "power": 54.0,
@@ -736,6 +741,12 @@
             "r": "R3",
             "name": "El Coderito",
             "power": 52.0,
+            "reason": "Đăng ký tuần này / Weekly registration"
+          },
+          {
+            "r": "R3",
+            "name": "duckiecutie",
+            "power": 50.7,
             "reason": "Đăng ký tuần này / Weekly registration"
           },
           {
@@ -757,19 +768,7 @@
             "reason": "Đăng ký tuần này / Weekly registration"
           }
         ],
-        "subs": [
-          {
-            "r": "R4",
-            "name": "Haizzzzzzzzzzzz",
-            "reason": "R4 - 🟨 Phạt tuần trước / Penalized last week"
-          },
-          {
-            "r": "R3",
-            "name": "duckiecutie",
-            "power": 50.7,
-            "reason": "🟨 Phạt tuần trước / Penalized last week"
-          }
-        ],
+        "subs": [],
         "dayoff": [],
         "slot": "A",
         "maxMain": 20,
