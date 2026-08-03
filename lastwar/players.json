@@ -845,15 +845,15 @@
             "name": "NHBảoLong",
             "power": 44.0,
             "reason": "Đăng ký tuần này / Weekly registration"
-          },
+          }
+        ],
+        "subs": [
           {
             "r": "R3",
             "name": "KYLEPHAM2401",
             "power": 42.7,
             "reason": "Đăng ký tuần này / Weekly registration"
-          }
-        ],
-        "subs": [
+          },
           {
             "r": "R3",
             "name": "PewPewBoi",
