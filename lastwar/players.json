@@ -669,7 +669,8 @@
     "NHBảoLong": {
       "rank": "R2",
       "dayoff": 0,
-      "note": ""
+      "note": "",
+      "power": 44.0
     },
     "Tom and Jerry 9999": {
       "rank": "R3",
@@ -795,6 +796,12 @@
             "r": "R3",
             "name": "tâm1980",
             "power": 45.7,
+            "reason": "Đăng ký tuần này / Weekly registration"
+          },
+          {
+            "r": "R2",
+            "name": "NHBảoLong",
+            "power": 44.0,
             "reason": "Đăng ký tuần này / Weekly registration"
           },
           {
@@ -1029,13 +1036,20 @@
             "reason": "Đăng ký tuần này / Weekly registration"
           },
           {
+            "r": "R2",
+            "name": "NHBảoLong",
+            "power": 44.0,
+            "reason": "Đăng ký tuần này / Weekly registration"
+          }
+        ],
+        "subs": [
+          {
             "r": "R3",
             "name": "Nguyenngoctuan",
             "power": 43.0,
             "reason": "Đăng ký tuần này / Weekly registration"
           }
         ],
-        "subs": [],
         "dayoff": [],
         "slot": "A",
         "maxMain": 20,
