@@ -608,7 +608,8 @@
     },
     "tRnuOwn9f 795": {
       "rank": "R2",
-      "note": ""
+      "note": "",
+      "power": 46.7
     },
     "Bắp đại ca": {
       "rank": "R3",
@@ -916,6 +917,12 @@
             "reason": "Đăng ký tuần này / Weekly registration"
           },
           {
+            "r": "R2",
+            "name": "tRnuOwn9f 795",
+            "power": 46.7,
+            "reason": "Đăng ký tuần này / Weekly registration"
+          },
+          {
             "r": "R3",
             "name": "Đập Chai",
             "power": 46.0,
@@ -968,15 +975,15 @@
             "name": "Marines Malevolent",
             "power": 43.43,
             "reason": "Đăng ký tuần này / Weekly registration"
-          },
+          }
+        ],
+        "subs": [
           {
             "r": "R3",
             "name": "Nguyenngoctuan",
             "power": 43.0,
             "reason": "Đăng ký tuần này / Weekly registration"
-          }
-        ],
-        "subs": [
+          },
           {
             "r": "R3",
             "name": "Tommy4014",
@@ -1189,6 +1196,12 @@
             "r": "R3",
             "name": "Shashank1411",
             "power": 47.16,
+            "reason": "Đăng ký tuần này / Weekly registration"
+          },
+          {
+            "r": "R2",
+            "name": "tRnuOwn9f 795",
+            "power": 46.7,
             "reason": "Đăng ký tuần này / Weekly registration"
           },
           {
