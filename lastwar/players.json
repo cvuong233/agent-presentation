@@ -726,6 +726,10 @@
       "rank": "R3",
       "power": 55.0
     },
+    "ZzBMT47zz": {
+      "rank": "R3",
+      "power": 55.0
+    },
     "Bơ Bắp 1": {
       "rank": "R2",
       "power": 50.0
@@ -778,6 +782,12 @@
           {
             "r": "R3",
             "name": "Deptraitube2012",
+            "power": 55.0,
+            "reason": "Đăng ký tuần này / Weekly registration"
+          },
+          {
+            "r": "R3",
+            "name": "ZzBMT47zz",
             "power": 55.0,
             "reason": "Đăng ký tuần này / Weekly registration"
           },
@@ -840,15 +850,15 @@
             "name": "tâm1980",
             "power": 45.7,
             "reason": "Đăng ký tuần này / Weekly registration"
-          },
+          }
+        ],
+        "subs": [
           {
             "r": "R3",
             "name": "NHBảoLong",
             "power": 44.0,
             "reason": "Đăng ký tuần này / Weekly registration"
-          }
-        ],
-        "subs": [
+          },
           {
             "r": "R3",
             "name": "KYLEPHAM2401",
@@ -1093,6 +1103,12 @@
           },
           {
             "r": "R3",
+            "name": "ZzBMT47zz",
+            "power": 55.0,
+            "reason": "Đăng ký tuần này / Weekly registration"
+          },
+          {
+            "r": "R3",
             "name": "Thiện phương",
             "power": 54.0,
             "reason": "Đăng ký tuần này / Weekly registration"
@@ -1144,15 +1160,15 @@
             "name": "MR Dương",
             "power": 49.3,
             "reason": "Đăng ký tuần này / Weekly registration"
-          },
+          }
+        ],
+        "subs": [
           {
             "r": "R3",
             "name": "e Asche",
             "power": 49.0,
             "reason": "Đăng ký tuần này / Weekly registration"
-          }
-        ],
-        "subs": [
+          },
           {
             "r": "R3",
             "name": "tâm1980",
