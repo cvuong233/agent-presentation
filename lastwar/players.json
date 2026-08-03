@@ -336,7 +336,8 @@
       "rank": "R3"
     },
     "Thanhh Tân": {
-      "rank": "R3"
+      "rank": "R3",
+      "power": 45.0
     },
     "Tommy4014": {
       "rank": "R3"
@@ -413,7 +414,8 @@
       "rank": "R3"
     },
     "KYLEPHAM2401": {
-      "rank": "R3"
+      "rank": "R3",
+      "power": 42.7
     },
     "Mèo Xing": {
       "rank": "R3"
@@ -806,6 +808,12 @@
           },
           {
             "r": "R3",
+            "name": "KYLEPHAM2401",
+            "power": 42.7,
+            "reason": "Đăng ký tuần này / Weekly registration"
+          },
+          {
+            "r": "R3",
             "name": "PewPewBoi",
             "power": 42.0,
             "reason": "Đăng ký tuần này / Weekly registration"
@@ -876,6 +884,12 @@
           {
             "r": "R3",
             "name": "Phạm khánhh",
+            "power": 45.0,
+            "reason": "Đăng ký tuần này / Weekly registration"
+          },
+          {
+            "r": "R3",
+            "name": "Thanhh Tân",
             "power": 45.0,
             "reason": "Đăng ký tuần này / Weekly registration"
           },
@@ -1045,6 +1059,12 @@
         "subs": [
           {
             "r": "R3",
+            "name": "KYLEPHAM2401",
+            "power": 42.7,
+            "reason": "Đăng ký tuần này / Weekly registration"
+          },
+          {
+            "r": "R3",
             "name": "Nguyenngoctuan",
             "power": 43.0,
             "reason": "Đăng ký tuần này / Weekly registration"
@@ -1097,6 +1117,12 @@
           {
             "r": "R3",
             "name": "Phạm khánhh",
+            "power": 45.0,
+            "reason": "Đăng ký tuần này / Weekly registration"
+          },
+          {
+            "r": "R3",
+            "name": "Thanhh Tân",
             "power": 45.0,
             "reason": "Đăng ký tuần này / Weekly registration"
           },
