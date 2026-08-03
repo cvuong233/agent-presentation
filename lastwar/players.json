@@ -303,7 +303,8 @@
       "rank": "R3"
     },
     "Đập Chai": {
-      "rank": "R3"
+      "rank": "R3",
+      "power": 46.0
     },
     "công chúa lavie": {
       "rank": "R3"
@@ -909,6 +910,12 @@
           },
           {
             "r": "R3",
+            "name": "Đập Chai",
+            "power": 46.0,
+            "reason": "Đăng ký tuần này / Weekly registration"
+          },
+          {
+            "r": "R3",
             "name": "Chivas2026",
             "power": 45.5,
             "reason": "Đăng ký tuần này / Weekly registration"
@@ -960,15 +967,15 @@
             "name": "Nguyenngoctuan",
             "power": 43.0,
             "reason": "Đăng ký tuần này / Weekly registration"
-          },
+          }
+        ],
+        "subs": [
           {
             "r": "R3",
             "name": "Tommy4014",
             "power": 42.8,
             "reason": "Đăng ký tuần này / Weekly registration"
-          }
-        ],
-        "subs": [
+          },
           {
             "r": "R3",
             "name": "Khánhh Báooo",
@@ -1169,6 +1176,12 @@
             "r": "R3",
             "name": "Shashank1411",
             "power": 47.16,
+            "reason": "Đăng ký tuần này / Weekly registration"
+          },
+          {
+            "r": "R3",
+            "name": "Đập Chai",
+            "power": 46.0,
             "reason": "Đăng ký tuần này / Weekly registration"
           },
           {
