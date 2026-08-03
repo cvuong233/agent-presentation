@@ -101,7 +101,8 @@
       "Deptraitube2012",
       "Sói Ken",
       "Bin 37",
-      "tRnuOwn9f 795"
+      "tRnuOwn9f 795",
+      "NHBảoLong"
     ],
     "R2": [
       "1Mét45",
@@ -676,7 +677,7 @@
       "note": ""
     },
     "NHBảoLong": {
-      "rank": "R2",
+      "rank": "R3",
       "dayoff": 0,
       "note": "",
       "power": 44.0
@@ -840,7 +841,7 @@
             "reason": "Đăng ký tuần này / Weekly registration"
           },
           {
-            "r": "R2",
+            "r": "R3",
             "name": "NHBảoLong",
             "power": 44.0,
             "reason": "Đăng ký tuần này / Weekly registration"
@@ -898,7 +899,7 @@
             "reason": "Đăng ký tuần này / Weekly registration"
           },
           {
-            "r": "R3",
+            "r": "R2",
             "name": "Bơ Bắp 1",
             "power": 50.0,
             "reason": "Đăng ký tuần này / Weekly registration"
@@ -922,7 +923,7 @@
             "reason": "Đăng ký tuần này / Weekly registration"
           },
           {
-            "r": "R2",
+            "r": "R3",
             "name": "Bin 37",
             "power": 48.0,
             "reason": "Đăng ký tuần này / Weekly registration"
@@ -934,7 +935,7 @@
             "reason": "Đăng ký tuần này / Weekly registration"
           },
           {
-            "r": "R2",
+            "r": "R3",
             "name": "tRnuOwn9f 795",
             "power": 46.7,
             "reason": "Đăng ký tuần này / Weekly registration"
@@ -1152,7 +1153,7 @@
             "reason": "Đăng ký tuần này / Weekly registration"
           },
           {
-            "r": "R2",
+            "r": "R3",
             "name": "NHBảoLong",
             "power": 44.0,
             "reason": "Đăng ký tuần này / Weekly registration"
@@ -1203,7 +1204,7 @@
             "reason": "Đăng ký tuần này / Weekly registration"
           },
           {
-            "r": "R3",
+            "r": "R2",
             "name": "Bơ Bắp 1",
             "power": 50.0,
             "reason": "Đăng ký tuần này / Weekly registration"
@@ -1221,7 +1222,7 @@
             "reason": "Đăng ký tuần này / Weekly registration"
           },
           {
-            "r": "R2",
+            "r": "R3",
             "name": "Bin 37",
             "power": 48.0,
             "reason": "Đăng ký tuần này / Weekly registration"
@@ -1233,7 +1234,7 @@
             "reason": "Đăng ký tuần này / Weekly registration"
           },
           {
-            "r": "R2",
+            "r": "R3",
             "name": "tRnuOwn9f 795",
             "power": 46.7,
             "reason": "Đăng ký tuần này / Weekly registration"
