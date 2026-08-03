@@ -20,7 +20,8 @@
       "yologuy",
       "Haizzzzzzzzzzzz",
       "wolfwitch",
-      "PTKhang RiO"
+      "PTKhang RiO",
+      "Tài Béooo"
     ],
     "R3": [
       "Aaaluan",
@@ -714,6 +715,10 @@
       "rank": "R4",
       "fixed": "A"
     },
+    "Tài Béooo": {
+      "rank": "R4",
+      "fixed": "A"
+    },
     "Deptraitube2012": {
       "rank": "R3",
       "power": 55.0
@@ -760,6 +765,11 @@
           {
             "r": "R4",
             "name": "PTKhang RiO",
+            "reason": "R4"
+          },
+          {
+            "r": "R4",
+            "name": "Tài Béooo",
             "reason": "R4"
           },
           {
@@ -1059,6 +1069,11 @@
           {
             "r": "R4",
             "name": "PTKhang RiO",
+            "reason": "R4"
+          },
+          {
+            "r": "R4",
+            "name": "Tài Béooo",
             "reason": "R4"
           },
           {
