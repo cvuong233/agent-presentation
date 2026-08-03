@@ -275,7 +275,7 @@
     },
     "Hemerage": {
       "rank": "R3",
-      "power": 47.4
+      "power": 48.35
     },
     "zdevils": {
       "rank": "R3",
@@ -905,6 +905,12 @@
             "reason": "Đăng ký tuần này / Weekly registration"
           },
           {
+            "r": "R3",
+            "name": "Hemerage",
+            "power": 48.35,
+            "reason": "Đăng ký tuần này / Weekly registration"
+          },
+          {
             "r": "R2",
             "name": "Bin 37",
             "power": 48.0,
@@ -969,15 +975,15 @@
             "name": "SanTa 1386",
             "power": 43.7,
             "reason": "Đăng ký tuần này / Weekly registration"
-          },
+          }
+        ],
+        "subs": [
           {
             "r": "R3",
             "name": "Marines Malevolent",
             "power": 43.43,
             "reason": "Đăng ký tuần này / Weekly registration"
-          }
-        ],
-        "subs": [
+          },
           {
             "r": "R3",
             "name": "Nguyenngoctuan",
@@ -1187,6 +1193,12 @@
             "reason": "Đăng ký tuần này / Weekly registration"
           },
           {
+            "r": "R3",
+            "name": "Hemerage",
+            "power": 48.35,
+            "reason": "Đăng ký tuần này / Weekly registration"
+          },
+          {
             "r": "R2",
             "name": "Bin 37",
             "power": 48.0,
@@ -1263,7 +1275,9 @@
             "name": "Tommy4014",
             "power": 42.8,
             "reason": "Đăng ký tuần này / Weekly registration"
-          },
+          }
+        ],
+        "subs": [
           {
             "r": "R3",
             "name": "Khánhh Báooo",
@@ -1271,7 +1285,6 @@
             "reason": "Đăng ký tuần này / Weekly registration"
           }
         ],
-        "subs": [],
         "dayoff": [],
         "slot": "B",
         "maxMain": 20,
