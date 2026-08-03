@@ -810,7 +810,7 @@
             "reason": "Đăng ký tuần này / Weekly registration"
           },
           {
-            "r": "R2",
+            "r": "R3",
             "name": "Sói Ken",
             "power": 50.2,
             "reason": "Đăng ký tuần này / Weekly registration"
@@ -1108,7 +1108,7 @@
             "reason": "Đăng ký tuần này / Weekly registration"
           },
           {
-            "r": "R2",
+            "r": "R3",
             "name": "Sói Ken",
             "power": 50.2,
             "reason": "Đăng ký tuần này / Weekly registration"
@@ -1142,15 +1142,15 @@
             "name": "e Asche",
             "power": 49.0,
             "reason": "Đăng ký tuần này / Weekly registration"
-          },
+          }
+        ],
+        "subs": [
           {
             "r": "R3",
             "name": "tâm1980",
             "power": 45.7,
             "reason": "Đăng ký tuần này / Weekly registration"
-          }
-        ],
-        "subs": [
+          },
           {
             "r": "R2",
             "name": "NHBảoLong",
