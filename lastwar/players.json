@@ -650,7 +650,8 @@
     "Mèo Sunshine": {
       "rank": "R2",
       "dayoff": false,
-      "note": ""
+      "note": "",
+      "power": 42.0
     },
     "Thiện phương": {
       "rank": "R3",
@@ -857,6 +858,12 @@
           {
             "r": "R3",
             "name": "PewPewBoi",
+            "power": 42.0,
+            "reason": "Đăng ký tuần này / Weekly registration"
+          },
+          {
+            "r": "R2",
+            "name": "Mèo Sunshine",
             "power": 42.0,
             "reason": "Đăng ký tuần này / Weekly registration"
           }
@@ -1168,6 +1175,12 @@
             "r": "R3",
             "name": "Nguyenngoctuan",
             "power": 43.0,
+            "reason": "Đăng ký tuần này / Weekly registration"
+          },
+          {
+            "r": "R2",
+            "name": "Mèo Sunshine",
+            "power": 42.0,
             "reason": "Đăng ký tuần này / Weekly registration"
           }
         ],
