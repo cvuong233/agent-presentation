@@ -345,7 +345,8 @@
       "power": 42.8
     },
     "Chivas2026": {
-      "rank": "R3"
+      "rank": "R3",
+      "power": 45.5
     },
     "NgocNamBoss": {
       "rank": "R3"
@@ -908,6 +909,12 @@
           },
           {
             "r": "R3",
+            "name": "Chivas2026",
+            "power": 45.5,
+            "reason": "Đăng ký tuần này / Weekly registration"
+          },
+          {
+            "r": "R3",
             "name": "NorthFog",
             "power": 45.2,
             "reason": "Đăng ký tuần này / Weekly registration"
@@ -959,7 +966,9 @@
             "name": "Tommy4014",
             "power": 42.8,
             "reason": "Đăng ký tuần này / Weekly registration"
-          },
+          }
+        ],
+        "subs": [
           {
             "r": "R3",
             "name": "Khánhh Báooo",
@@ -967,7 +976,6 @@
             "reason": "Đăng ký tuần này / Weekly registration"
           }
         ],
-        "subs": [],
         "dayoff": [],
         "slot": "B",
         "maxMain": 20,
@@ -1161,6 +1169,12 @@
             "r": "R3",
             "name": "Shashank1411",
             "power": 47.16,
+            "reason": "Đăng ký tuần này / Weekly registration"
+          },
+          {
+            "r": "R3",
+            "name": "Chivas2026",
+            "power": 45.5,
             "reason": "Đăng ký tuần này / Weekly registration"
           },
           {
