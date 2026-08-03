@@ -1165,12 +1165,6 @@
         "subs": [
           {
             "r": "R3",
-            "name": "e Asche",
-            "power": 49.0,
-            "reason": "Đăng ký tuần này / Weekly registration"
-          },
-          {
-            "r": "R3",
             "name": "tâm1980",
             "power": 45.7,
             "reason": "Đăng ký tuần này / Weekly registration"
@@ -1236,6 +1230,12 @@
             "r": "R2",
             "name": "Bơ Bắp 1",
             "power": 50.0,
+            "reason": "Đăng ký tuần này / Weekly registration"
+          },
+          {
+            "r": "R3",
+            "name": "e Asche",
+            "power": 49.0,
             "reason": "Đăng ký tuần này / Weekly registration"
           },
           {
@@ -1321,15 +1321,15 @@
             "name": "Trai Cầu Tõm",
             "power": 43.7,
             "reason": "Đăng ký tuần này / Weekly registration"
-          },
+          }
+        ],
+        "subs": [
           {
             "r": "R3",
             "name": "Marines Malevolent",
             "power": 43.43,
             "reason": "Đăng ký tuần này / Weekly registration"
-          }
-        ],
-        "subs": [
+          },
           {
             "r": "R3",
             "name": "Tommy4014",
