@@ -513,7 +513,7 @@
     },
     "Trai Cầu Tõm": {
       "rank": "R3",
-      "power": 43.2
+      "power": 43.7
     },
     "MR Dương": {
       "rank": "R3",
@@ -980,6 +980,12 @@
         "subs": [
           {
             "r": "R3",
+            "name": "Trai Cầu Tõm",
+            "power": 43.7,
+            "reason": "Đăng ký tuần này / Weekly registration"
+          },
+          {
+            "r": "R3",
             "name": "Marines Malevolent",
             "power": 43.43,
             "reason": "Đăng ký tuần này / Weekly registration"
@@ -1266,18 +1272,24 @@
           },
           {
             "r": "R3",
+            "name": "Trai Cầu Tõm",
+            "power": 43.7,
+            "reason": "Đăng ký tuần này / Weekly registration"
+          },
+          {
+            "r": "R3",
             "name": "Marines Malevolent",
             "power": 43.43,
             "reason": "Đăng ký tuần này / Weekly registration"
-          },
+          }
+        ],
+        "subs": [
           {
             "r": "R3",
             "name": "Tommy4014",
             "power": 42.8,
             "reason": "Đăng ký tuần này / Weekly registration"
-          }
-        ],
-        "subs": [
+          },
           {
             "r": "R3",
             "name": "Khánhh Báooo",
