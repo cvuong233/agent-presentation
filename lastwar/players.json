@@ -360,7 +360,8 @@
       "power": 49
     },
     "Aaaluan": {
-      "rank": "R3"
+      "rank": "R3",
+      "power": 41.0
     },
     "MrAugust2886": {
       "rank": "R3"
@@ -1036,6 +1037,12 @@
             "name": "Khánhh Báooo",
             "power": 41.0,
             "reason": "Đăng ký tuần này / Weekly registration"
+          },
+          {
+            "r": "R3",
+            "name": "Aaaluan",
+            "power": 41.0,
+            "reason": "Đăng ký tuần này / Weekly registration"
           }
         ],
         "dayoff": [],
@@ -1339,6 +1346,12 @@
           {
             "r": "R3",
             "name": "Khánhh Báooo",
+            "power": 41.0,
+            "reason": "Đăng ký tuần này / Weekly registration"
+          },
+          {
+            "r": "R3",
+            "name": "Aaaluan",
             "power": 41.0,
             "reason": "Đăng ký tuần này / Weekly registration"
           }
