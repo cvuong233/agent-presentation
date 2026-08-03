@@ -623,7 +623,7 @@
     "Sầu riêng m7": {
       "rank": "R3",
       "note": "",
-      "power": 46.2,
+      "power": 47.5,
       "yc_hn": 1
     },
     "ᵛᶰ Đậu Hũ": {
@@ -962,6 +962,12 @@
           },
           {
             "r": "R3",
+            "name": "Sầu riêng m7",
+            "power": 47.5,
+            "reason": "Đăng ký tuần này / Weekly registration"
+          },
+          {
+            "r": "R3",
             "name": "Shashank1411",
             "power": 47.16,
             "reason": "Đăng ký tuần này / Weekly registration"
@@ -1007,15 +1013,15 @@
             "name": "ThíchThìNhích92",
             "power": 44.3,
             "reason": "Đăng ký tuần này / Weekly registration"
-          },
+          }
+        ],
+        "subs": [
           {
             "r": "R3",
             "name": "Lưu Mẫn Nhi",
             "power": 44.0,
             "reason": "Đăng ký tuần này / Weekly registration"
-          }
-        ],
-        "subs": [
+          },
           {
             "r": "R3",
             "name": "SanTa 1386",
@@ -1291,6 +1297,12 @@
           },
           {
             "r": "R3",
+            "name": "Sầu riêng m7",
+            "power": 47.5,
+            "reason": "Đăng ký tuần này / Weekly registration"
+          },
+          {
+            "r": "R3",
             "name": "Shashank1411",
             "power": 47.16,
             "reason": "Đăng ký tuần này / Weekly registration"
@@ -1342,15 +1354,15 @@
             "name": "Lưu Mẫn Nhi",
             "power": 44.0,
             "reason": "Đăng ký tuần này / Weekly registration"
-          },
+          }
+        ],
+        "subs": [
           {
             "r": "R3",
             "name": "SanTa 1386",
             "power": 43.7,
             "reason": "Đăng ký tuần này / Weekly registration"
-          }
-        ],
-        "subs": [
+          },
           {
             "r": "R3",
             "name": "Trai Cầu Tõm",
