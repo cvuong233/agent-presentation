@@ -285,7 +285,8 @@
       "power": 50
     },
     "Vualidonzz": {
-      "rank": "R3"
+      "rank": "R3",
+      "power": 50.2
     },
     "Shashank1411": {
       "rank": "R3",
@@ -912,6 +913,12 @@
           },
           {
             "r": "R3",
+            "name": "Vualidonzz",
+            "power": 50.2,
+            "reason": "Đăng ký tuần này / Weekly registration"
+          },
+          {
+            "r": "R3",
             "name": "Kendy Nguyên 86",
             "power": 50.1,
             "reason": "Đăng ký tuần này / Weekly registration"
@@ -999,15 +1006,15 @@
             "name": "Lưu Mẫn Nhi",
             "power": 44.0,
             "reason": "Đăng ký tuần này / Weekly registration"
-          },
+          }
+        ],
+        "subs": [
           {
             "r": "R3",
             "name": "SanTa 1386",
             "power": 43.7,
             "reason": "Đăng ký tuần này / Weekly registration"
-          }
-        ],
-        "subs": [
+          },
           {
             "r": "R3",
             "name": "Trai Cầu Tõm",
@@ -1234,6 +1241,12 @@
             "reason": "Đăng ký tuần này / Weekly registration"
           },
           {
+            "r": "R3",
+            "name": "Vualidonzz",
+            "power": 50.2,
+            "reason": "Đăng ký tuần này / Weekly registration"
+          },
+          {
             "r": "R2",
             "name": "Bơ Bắp 1",
             "power": 50.0,
@@ -1322,15 +1335,15 @@
             "name": "SanTa 1386",
             "power": 43.7,
             "reason": "Đăng ký tuần này / Weekly registration"
-          },
+          }
+        ],
+        "subs": [
           {
             "r": "R3",
             "name": "Trai Cầu Tõm",
             "power": 43.7,
             "reason": "Đăng ký tuần này / Weekly registration"
-          }
-        ],
-        "subs": [
+          },
           {
             "r": "R3",
             "name": "Marines Malevolent",
