@@ -99,7 +99,9 @@
       "ᵛᶰ Đậu Hũ",
       "Clone or Sou",
       "Deptraitube2012",
-      "Bơ Bắp 1"
+      "Sói Ken",
+      "Bin 37",
+      "tRnuOwn9f 795"
     ],
     "R2": [
       "1Mét45",
@@ -120,15 +122,14 @@
       "RavenRayne",
       "aaaaatttttkkkkkk",
       "vinh ccc",
-      "Bin 37",
       "VN Đậu Hũ",
       "Bunny1308",
       "ZEKT",
       "Mr Hải Nam",
       "Zyn1998 n",
       "Hoàng Hậuu",
-      "Sói Ken",
-      "Mèo Sunshine"
+      "Mèo Sunshine",
+      "Bơ Bắp 1"
     ],
     "R1": [
       "A Ngỗng",
@@ -573,7 +574,7 @@
       "note": ""
     },
     "Bin 37": {
-      "rank": "R2",
+      "rank": "R3",
       "note": "",
       "power": 48.0
     },
@@ -608,7 +609,7 @@
       "note": ""
     },
     "tRnuOwn9f 795": {
-      "rank": "R2",
+      "rank": "R3",
       "note": "",
       "power": 46.7
     },
@@ -640,7 +641,7 @@
       "note": ""
     },
     "Sói Ken": {
-      "rank": "R2",
+      "rank": "R3",
       "dayoff": false,
       "note": "",
       "power": 50.2
@@ -724,7 +725,7 @@
       "power": 55.0
     },
     "Bơ Bắp 1": {
-      "rank": "R3",
+      "rank": "R2",
       "power": 50.0
     }
   },
