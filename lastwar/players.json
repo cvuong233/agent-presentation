@@ -515,7 +515,7 @@
     },
     "MR Dương": {
       "rank": "R3",
-      "power": 48.5
+      "power": 49.3
     },
     "sửa máy promax": {
       "rank": "R3"
@@ -684,7 +684,8 @@
       "yc_sm": 0
     },
     "ÒÓO": {
-      "rank": "R3"
+      "rank": "R3",
+      "power": 48.5
     },
     "Lưu Mẫn Nhi": {
       "rank": "R3",
@@ -802,6 +803,12 @@
           },
           {
             "r": "R3",
+            "name": "MR Dương",
+            "power": 49.3,
+            "reason": "Đăng ký tuần này / Weekly registration"
+          },
+          {
+            "r": "R3",
             "name": "tâm1980",
             "power": 45.7,
             "reason": "Đăng ký tuần này / Weekly registration"
@@ -873,6 +880,12 @@
             "r": "R3",
             "name": "e Asche",
             "power": 49.0,
+            "reason": "Đăng ký tuần này / Weekly registration"
+          },
+          {
+            "r": "R3",
+            "name": "ÒÓO",
+            "power": 48.5,
             "reason": "Đăng ký tuần này / Weekly registration"
           },
           {
@@ -1051,6 +1064,12 @@
           },
           {
             "r": "R3",
+            "name": "MR Dương",
+            "power": 49.3,
+            "reason": "Đăng ký tuần này / Weekly registration"
+          },
+          {
+            "r": "R3",
             "name": "e Asche",
             "power": 49.0,
             "reason": "Đăng ký tuần này / Weekly registration"
@@ -1066,15 +1085,15 @@
             "name": "tâm1980",
             "power": 45.7,
             "reason": "Đăng ký tuần này / Weekly registration"
-          },
+          }
+        ],
+        "subs": [
           {
             "r": "R2",
             "name": "NHBảoLong",
             "power": 44.0,
             "reason": "Đăng ký tuần này / Weekly registration"
-          }
-        ],
-        "subs": [
+          },
           {
             "r": "R3",
             "name": "KYLEPHAM2401",
@@ -1118,6 +1137,12 @@
             "r": "R3",
             "name": "Bơ Bắp 1",
             "power": 50.0,
+            "reason": "Đăng ký tuần này / Weekly registration"
+          },
+          {
+            "r": "R3",
+            "name": "ÒÓO",
+            "power": 48.5,
             "reason": "Đăng ký tuần này / Weekly registration"
           },
           {
