@@ -622,7 +622,7 @@
       "rank": "R3",
       "dayoff": false,
       "note": "",
-      "power": 49.0
+      "power": 49.5
     },
     "Zyn1998 n": {
       "rank": "R2",
@@ -799,6 +799,12 @@
             "r": "R3",
             "name": "Yến Nhi NT",
             "power": 50.0,
+            "reason": "Đăng ký tuần này / Weekly registration"
+          },
+          {
+            "r": "R3",
+            "name": "ᵛᶰ Đậu Hũ",
+            "power": 49.5,
             "reason": "Đăng ký tuần này / Weekly registration"
           },
           {
@@ -1064,6 +1070,12 @@
           },
           {
             "r": "R3",
+            "name": "ᵛᶰ Đậu Hũ",
+            "power": 49.5,
+            "reason": "Đăng ký tuần này / Weekly registration"
+          },
+          {
+            "r": "R3",
             "name": "MR Dương",
             "power": 49.3,
             "reason": "Đăng ký tuần này / Weekly registration"
@@ -1071,12 +1083,6 @@
           {
             "r": "R3",
             "name": "e Asche",
-            "power": 49.0,
-            "reason": "Đăng ký tuần này / Weekly registration"
-          },
-          {
-            "r": "R3",
-            "name": "ᵛᶰ Đậu Hũ",
             "power": 49.0,
             "reason": "Đăng ký tuần này / Weekly registration"
           },
