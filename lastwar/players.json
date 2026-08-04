@@ -704,7 +704,8 @@
       "rank": "R3"
     },
     "Clone or Sou": {
-      "rank": "R3"
+      "rank": "R3",
+      "power": 46.7
     },
     "Sting Chanh": {
       "rank": "R3",
@@ -859,6 +860,7 @@
           {
             "r": "R3",
             "name": "Clone or Sou",
+            "power": 46.7,
             "reason": "Đăng ký tuần này / Weekly registration"
           },
           {
