@@ -858,6 +858,12 @@
         "subs": [
           {
             "r": "R3",
+            "name": "Cúc Hoa Long Lanh",
+            "power": 48.2,
+            "reason": "Đăng ký tuần này / Weekly registration"
+          },
+          {
+            "r": "R3",
             "name": "tâm1980",
             "power": 45.7,
             "reason": "Đăng ký tuần này / Weekly registration"
@@ -1190,6 +1196,12 @@
           }
         ],
         "subs": [
+          {
+            "r": "R3",
+            "name": "Cúc Hoa Long Lanh",
+            "power": 48.2,
+            "reason": "Đăng ký tuần này / Weekly registration"
+          },
           {
             "r": "R3",
             "name": "MR Dương",
