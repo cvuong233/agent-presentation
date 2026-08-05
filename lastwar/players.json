@@ -592,7 +592,8 @@
     },
     "ZEKT": {
       "rank": "R2",
-      "note": ""
+      "note": "",
+      "power": 47.13
     },
     "Mr Hải Nam": {
       "rank": "R2",
@@ -862,6 +863,12 @@
             "r": "R3",
             "name": "Cúc Hoa Long Lanh",
             "power": 48.2,
+            "reason": "Đăng ký tuần này / Weekly registration"
+          },
+          {
+            "r": "R2",
+            "name": "ZEKT",
+            "power": 47.13,
             "reason": "Đăng ký tuần này / Weekly registration"
           },
           {
