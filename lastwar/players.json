@@ -525,7 +525,8 @@
       "power": 49.3
     },
     "sửa máy promax": {
-      "rank": "R3"
+      "rank": "R3",
+      "power": 50.3
     },
     "No CommenT": {
       "rank": "R2"
@@ -933,6 +934,12 @@
           },
           {
             "r": "R3",
+            "name": "sửa máy promax",
+            "power": 50.3,
+            "reason": "Đăng ký tuần này / Weekly registration"
+          },
+          {
+            "r": "R3",
             "name": "Vualidonzz",
             "power": 50.2,
             "reason": "Đăng ký tuần này / Weekly registration"
@@ -1020,15 +1027,15 @@
             "name": "Thanhh Tân",
             "power": 45.0,
             "reason": "Đăng ký tuần này / Weekly registration"
-          },
+          }
+        ],
+        "subs": [
           {
             "r": "R3",
             "name": "ThíchThìNhích92",
             "power": 44.3,
             "reason": "Đăng ký tuần này / Weekly registration"
-          }
-        ],
-        "subs": [
+          },
           {
             "r": "R3",
             "name": "Lưu Mẫn Nhi",
