@@ -335,7 +335,8 @@
     },
     "Đập Chai": {
       "rank": "R3",
-      "power": 46.0
+      "power": 46.0,
+      "yc_hn": 1
     },
     "công chúa lavie": {
       "rank": "R3"
@@ -415,7 +416,8 @@
     },
     "SanTa 1386": {
       "rank": "R3",
-      "power": 43.7
+      "power": 43.7,
+      "yc_hn": 1
     },
     "cu tí nhỏ xíu": {
       "rank": "R3"
@@ -643,7 +645,8 @@
     "tRnuOwn9f 795": {
       "rank": "R3",
       "note": "",
-      "power": 46.7
+      "power": 46.7,
+      "yc_sm": 1
     },
     "Bắp đại ca": {
       "rank": "R3",
@@ -653,7 +656,8 @@
       "rank": "R3",
       "note": "",
       "power": 47.5,
-      "yc_hn": 1
+      "yc_hn": 1,
+      "yc_sm": 1
     },
     "ᵛᶰ Đậu Hũ": {
       "rank": "R3",
@@ -727,7 +731,8 @@
     },
     "Lưu Mẫn Nhi": {
       "rank": "R3",
-      "power": 44.0
+      "power": 44.0,
+      "yc_sm": 1
     },
     "Cúc Hoa Long Lanh": {
       "rank": "R3"
