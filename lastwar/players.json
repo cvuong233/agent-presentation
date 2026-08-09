@@ -104,7 +104,8 @@
       "tRnuOwn9f 795",
       "NHBảoLong",
       "ZEKT",
-      "Mèo Sunshine"
+      "Mèo Sunshine",
+      "Piipo"
     ],
     "R2": [
       "1Mét45",
@@ -770,6 +771,9 @@
     "Bơ Bắp 1": {
       "rank": "R2",
       "power": 50.0
+    },
+    "Piipo": {
+      "rank": "R3"
     }
   },
   "next_lineup": {
@@ -815,6 +819,42 @@
             "r": "R4",
             "name": "Tài Béooo",
             "reason": "R4"
+          },
+          {
+            "r": "R3",
+            "name": "Piipo",
+            "power": 55.25,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Thiện phương",
+            "power": 54.3,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "El Coderito",
+            "power": 52.3,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Yến Nhi NT",
+            "power": 51.0,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Clone or Sou",
+            "power": 47.5,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "PewPewBoi",
+            "power": 43.0,
+            "reason": ""
           }
         ],
         "subs": [],
@@ -842,6 +882,30 @@
             "r": "R4",
             "name": "Rymi68",
             "reason": "R4"
+          },
+          {
+            "r": "R3",
+            "name": "Kendy Nguyên 86",
+            "power": 50.7,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "MR Dương",
+            "power": 50.0,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Lưu Mẫn Nhi",
+            "power": 45.0,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "ThíchThìNhích92",
+            "power": 44.7,
+            "reason": ""
           }
         ],
         "subs": [],
@@ -901,6 +965,48 @@
             "r": "R4",
             "name": "Tài Béooo",
             "reason": "R4"
+          },
+          {
+            "r": "R3",
+            "name": "Piipo",
+            "power": 55.25,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Thiện phương",
+            "power": 54.3,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "El Coderito",
+            "power": 52.3,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Yến Nhi NT",
+            "power": 51.0,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Kendy Nguyên 86",
+            "power": 50.7,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Clone or Sou",
+            "power": 47.5,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "PewPewBoi",
+            "power": 43.0,
+            "reason": ""
           }
         ],
         "subs": [],
@@ -923,6 +1029,24 @@
             "r": "R4",
             "name": "yologuy",
             "reason": "R4"
+          },
+          {
+            "r": "R3",
+            "name": "MR Dương",
+            "power": 50.0,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Lưu Mẫn Nhi",
+            "power": 45.0,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "ThíchThìNhích92",
+            "power": 44.7,
+            "reason": ""
           }
         ],
         "subs": [],
