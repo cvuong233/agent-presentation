@@ -879,6 +879,12 @@
           },
           {
             "r": "R3",
+            "name": "Sói Ken",
+            "power": 50.8,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "Bắp đại ca",
             "power": 50.0,
             "reason": ""
@@ -888,15 +894,15 @@
             "name": "Cúc Hoa Long Lanh",
             "power": 48.4,
             "reason": ""
-          },
+          }
+        ],
+        "subs": [
           {
             "r": "R3",
             "name": "Clone or Sou",
             "power": 47.5,
             "reason": ""
-          }
-        ],
-        "subs": [
+          },
           {
             "r": "R3",
             "name": "TúTú01",
@@ -1213,18 +1219,24 @@
           },
           {
             "r": "R3",
-            "name": "Kendy Nguyên 86",
-            "power": 50.7,
+            "name": "Sói Ken",
+            "power": 50.8,
             "reason": ""
           },
           {
             "r": "R3",
-            "name": "sửa máy promax",
+            "name": "Kendy Nguyên 86",
             "power": 50.7,
             "reason": ""
           }
         ],
         "subs": [
+          {
+            "r": "R3",
+            "name": "sửa máy promax",
+            "power": 50.7,
+            "reason": ""
+          },
           {
             "r": "R3",
             "name": "e Asche",
@@ -1276,12 +1288,6 @@
           {
             "r": "R3",
             "name": "KYLEPHAM2401",
-            "power": 43.0,
-            "reason": ""
-          },
-          {
-            "r": "R3",
-            "name": "Mèo Sunshine",
             "power": 43.0,
             "reason": ""
           }
