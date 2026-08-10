@@ -827,6 +827,12 @@
           },
           {
             "r": "R3",
+            "name": "Deptraitube2012",
+            "power": 55.5,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "Thiện phương",
             "power": 54.3,
             "reason": ""
@@ -884,15 +890,15 @@
             "name": "NHBảoLong",
             "power": 44.0,
             "reason": ""
-          },
+          }
+        ],
+        "subs": [
           {
             "r": "R3",
             "name": "PewPewBoi",
             "power": 43.0,
             "reason": ""
-          }
-        ],
-        "subs": [
+          },
           {
             "r": "R3",
             "name": "KYLEPHAM2401",
@@ -1119,6 +1125,12 @@
           },
           {
             "r": "R3",
+            "name": "Deptraitube2012",
+            "power": 55.5,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "Thiện phương",
             "power": 54.3,
             "reason": ""
@@ -1170,15 +1182,15 @@
             "name": "e Asche",
             "power": 50.5,
             "reason": ""
-          },
+          }
+        ],
+        "subs": [
           {
             "r": "R3",
             "name": "Bắp đại ca",
             "power": 50.0,
             "reason": ""
-          }
-        ],
-        "subs": [
+          },
           {
             "r": "R3",
             "name": "Cúc Hoa Long Lanh",
