@@ -1065,6 +1065,12 @@
           },
           {
             "r": "R3",
+            "name": "Nguyenngoctuan",
+            "power": 44.0,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "Aaaluan",
             "power": 42.0,
             "reason": ""
@@ -1235,6 +1241,12 @@
             "r": "R3",
             "name": "TúTú01",
             "power": 46.0,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Nguyenngoctuan",
+            "power": 44.0,
             "reason": ""
           },
           {
