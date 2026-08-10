@@ -851,6 +851,12 @@
           },
           {
             "r": "R3",
+            "name": "Tom and Jerry 9999",
+            "power": 52.0,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "duckiecutie",
             "power": 51.3,
             "reason": ""
@@ -884,15 +890,15 @@
             "name": "Clone or Sou",
             "power": 47.5,
             "reason": ""
-          },
+          }
+        ],
+        "subs": [
           {
             "r": "R3",
             "name": "NHBảoLong",
             "power": 44.0,
             "reason": ""
-          }
-        ],
-        "subs": [
+          },
           {
             "r": "R3",
             "name": "PewPewBoi",
@@ -1149,6 +1155,12 @@
           },
           {
             "r": "R3",
+            "name": "Tom and Jerry 9999",
+            "power": 52.0,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "duckiecutie",
             "power": 51.3,
             "reason": ""
@@ -1176,15 +1188,15 @@
             "name": "sửa máy promax",
             "power": 50.7,
             "reason": ""
-          },
+          }
+        ],
+        "subs": [
           {
             "r": "R3",
             "name": "e Asche",
             "power": 50.5,
             "reason": ""
-          }
-        ],
-        "subs": [
+          },
           {
             "r": "R3",
             "name": "Bắp đại ca",
