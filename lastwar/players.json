@@ -1301,14 +1301,7 @@
         "date": "2026-08-06",
         "time": "21:30 ICT",
         "period": "night 21:30",
-        "waiting": [
-          {
-            "r": "R3",
-            "name": "PewPewBoi",
-            "power": 43.0,
-            "reason": ""
-          }
-        ]
+        "waiting": []
       },
       "B": {
         "main": [
