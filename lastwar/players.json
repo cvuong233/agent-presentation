@@ -1111,6 +1111,12 @@
             "name": "Sầu riêng m7",
             "power": 48.2,
             "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "tRnuOwn9f 795",
+            "power": 47.0,
+            "reason": ""
           }
         ],
         "dayoff": [],
@@ -1371,6 +1377,12 @@
           },
           {
             "r": "R3",
+            "name": "tRnuOwn9f 795",
+            "power": 47.0,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "Marines Malevolent",
             "power": 46.2,
             "reason": ""
@@ -1422,15 +1434,15 @@
             "name": "Tommy4014",
             "power": 42.8,
             "reason": ""
-          },
+          }
+        ],
+        "subs": [
           {
             "r": "R3",
             "name": "Aaaluan",
             "power": 42.0,
             "reason": ""
-          }
-        ],
-        "subs": [
+          },
           {
             "r": "R3",
             "name": "Khánhh Báooo",
