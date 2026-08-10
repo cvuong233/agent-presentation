@@ -898,6 +898,12 @@
             "name": "KYLEPHAM2401",
             "power": 43.0,
             "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Mèo Sunshine",
+            "power": 43.0,
+            "reason": ""
           }
         ],
         "dayoff": [],
@@ -1200,6 +1206,12 @@
           {
             "r": "R3",
             "name": "KYLEPHAM2401",
+            "power": 43.0,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Mèo Sunshine",
             "power": 43.0,
             "reason": ""
           }
