@@ -896,6 +896,12 @@
         "subs": [
           {
             "r": "R3",
+            "name": "ZzBMT47zz",
+            "power": 56.0,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "Bắp đại ca",
             "power": 50.0,
             "reason": ""
@@ -1174,6 +1180,12 @@
           }
         ],
         "subs": [
+          {
+            "r": "R3",
+            "name": "ZzBMT47zz",
+            "power": 56.0,
+            "reason": ""
+          },
           {
             "r": "R3",
             "name": "Sting Chanh",
