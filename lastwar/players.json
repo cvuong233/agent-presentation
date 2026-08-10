@@ -1015,6 +1015,12 @@
           },
           {
             "r": "R3",
+            "name": "Đập Chai",
+            "power": 46.5,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "Marines Malevolent",
             "power": 46.2,
             "reason": ""
@@ -1048,15 +1054,15 @@
             "name": "Phạm khánhh",
             "power": 45.0,
             "reason": ""
-          },
+          }
+        ],
+        "subs": [
           {
             "r": "R3",
             "name": "ThíchThìNhích92",
             "power": 44.7,
             "reason": ""
-          }
-        ],
-        "subs": [
+          },
           {
             "r": "R3",
             "name": "SanTa 1386",
@@ -1398,6 +1404,12 @@
           }
         ],
         "subs": [
+          {
+            "r": "R3",
+            "name": "Đập Chai",
+            "power": 46.5,
+            "reason": ""
+          },
           {
             "r": "R3",
             "name": "SanTa 1386",
