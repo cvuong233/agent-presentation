@@ -141,7 +141,8 @@
       "Nguyện VT",
       "kevkevkev123",
       "thangnet",
-      "上官武命"
+      "上官武命",
+      "KhoaiTây83"
     ]
   },
   "last_matches": {
@@ -777,6 +778,9 @@
     },
     "TúTú01": {
       "rank": "R3"
+    },
+    "KhoaiTây83": {
+      "rank": "R1"
     }
   },
   "next_lineup": {
@@ -1027,6 +1031,12 @@
             "reason": ""
           },
           {
+            "r": "R1",
+            "name": "KhoaiTây83",
+            "power": 46.3,
+            "reason": ""
+          },
+          {
             "r": "R3",
             "name": "Marines Malevolent",
             "power": 46.2,
@@ -1055,15 +1065,15 @@
             "name": "Thanhh Tân",
             "power": 45.8,
             "reason": ""
-          },
+          }
+        ],
+        "subs": [
           {
             "r": "R3",
             "name": "Orion Là Chocopie",
             "power": 45.0,
             "reason": ""
-          }
-        ],
-        "subs": [
+          },
           {
             "r": "R3",
             "name": "Phạm khánhh",
@@ -1382,6 +1392,12 @@
             "reason": ""
           },
           {
+            "r": "R1",
+            "name": "KhoaiTây83",
+            "power": 46.3,
+            "reason": ""
+          },
+          {
             "r": "R3",
             "name": "Marines Malevolent",
             "power": 46.2,
@@ -1428,15 +1444,15 @@
             "name": "ThíchThìNhích92",
             "power": 44.7,
             "reason": ""
-          },
+          }
+        ],
+        "subs": [
           {
             "r": "R3",
             "name": "Tommy4014",
             "power": 42.8,
             "reason": ""
-          }
-        ],
-        "subs": [
+          },
           {
             "r": "R3",
             "name": "Aaaluan",
