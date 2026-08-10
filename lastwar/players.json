@@ -840,6 +840,12 @@
           },
           {
             "r": "R3",
+            "name": "Sting Chanh",
+            "power": 52.0,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "duckiecutie",
             "power": 51.3,
             "reason": ""
@@ -870,6 +876,12 @@
           },
           {
             "r": "R3",
+            "name": "NHBảoLong",
+            "power": 44.0,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "PewPewBoi",
             "power": 43.0,
             "reason": ""
@@ -881,7 +893,14 @@
             "reason": ""
           }
         ],
-        "subs": [],
+        "subs": [
+          {
+            "r": "R3",
+            "name": "Bắp đại ca",
+            "power": 50.0,
+            "reason": ""
+          }
+        ],
         "dayoff": [],
         "slot": "A",
         "maxMain": 20,
@@ -1013,8 +1032,20 @@
         "subs": [
           {
             "r": "R3",
+            "name": "ᵛᶰ Đậu Hũ",
+            "power": 50.2,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "Sầu riêng m7",
             "power": 48.2,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Khánhh Báooo",
+            "power": 41.0,
             "reason": ""
           }
         ],
@@ -1145,6 +1176,12 @@
         "subs": [
           {
             "r": "R3",
+            "name": "Sting Chanh",
+            "power": 52.0,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "zdevils",
             "power": 51.0,
             "reason": ""
@@ -1153,6 +1190,18 @@
             "r": "R3",
             "name": "e Asche",
             "power": 50.5,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Bắp đại ca",
+            "power": 50.0,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "NHBảoLong",
+            "power": 44.0,
             "reason": ""
           }
         ],
@@ -1180,6 +1229,12 @@
             "r": "R2",
             "name": "Bơ Bắp 1",
             "power": 50.3,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "ᵛᶰ Đậu Hũ",
+            "power": 50.2,
             "reason": ""
           },
           {
@@ -1252,6 +1307,12 @@
             "r": "R3",
             "name": "Aaaluan",
             "power": 42.0,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Khánhh Báooo",
+            "power": 41.0,
             "reason": ""
           }
         ],
