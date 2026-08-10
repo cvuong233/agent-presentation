@@ -940,7 +940,8 @@
         "maxSubs": 10,
         "date": "2026-08-07",
         "time": "18:30 ICT",
-        "period": "evening"
+        "period": "evening",
+        "waiting": []
       },
       "B": {
         "main": [
@@ -1112,7 +1113,8 @@
         "maxSubs": 10,
         "date": "2026-08-08",
         "time": "08:30 ICT",
-        "period": "morning"
+        "period": "morning",
+        "waiting": []
       }
     },
     "hn": {
@@ -1298,7 +1300,15 @@
         "maxSubs": 10,
         "date": "2026-08-06",
         "time": "21:30 ICT",
-        "period": "night 21:30"
+        "period": "night 21:30",
+        "waiting": [
+          {
+            "r": "R3",
+            "name": "Mèo Sunshine",
+            "power": 43.0,
+            "reason": ""
+          }
+        ]
       },
       "B": {
         "main": [
@@ -1441,7 +1451,8 @@
         "maxSubs": 10,
         "date": "2026-08-07",
         "time": "08:30 ICT",
-        "period": "morning 08:30"
+        "period": "morning 08:30",
+        "waiting": []
       }
     }
   },
