@@ -105,7 +105,8 @@
       "NHBảoLong",
       "ZEKT",
       "Mèo Sunshine",
-      "Piipo"
+      "Piipo",
+      "TúTú01"
     ],
     "R2": [
       "1Mét45",
@@ -773,6 +774,9 @@
     "Orion Là Chocopie": {
       "rank": "R3",
       "power": 44.0
+    },
+    "TúTú01": {
+      "rank": "R3"
     }
   },
   "next_lineup": {
@@ -895,6 +899,12 @@
         "subs": [
           {
             "r": "R3",
+            "name": "TúTú01",
+            "power": 46.0,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "NHBảoLong",
             "power": 44.0,
             "reason": ""
@@ -987,6 +997,12 @@
           },
           {
             "r": "R3",
+            "name": "Shashank1411",
+            "power": 48.62,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "ÒÓO",
             "power": 48.5,
             "reason": ""
@@ -1038,19 +1054,13 @@
             "name": "ThíchThìNhích92",
             "power": 44.7,
             "reason": ""
-          },
-          {
-            "r": "R3",
-            "name": "SanTa 1386",
-            "power": 44.3,
-            "reason": ""
           }
         ],
         "subs": [
           {
             "r": "R3",
-            "name": "Sầu riêng m7",
-            "power": 48.2,
+            "name": "SanTa 1386",
+            "power": 44.3,
             "reason": ""
           },
           {
@@ -1063,6 +1073,12 @@
             "r": "R3",
             "name": "Khánhh Báooo",
             "power": 41.0,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Sầu riêng m7",
+            "power": 48.2,
             "reason": ""
           }
         ],
@@ -1217,6 +1233,12 @@
           },
           {
             "r": "R3",
+            "name": "TúTú01",
+            "power": 46.0,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "NHBảoLong",
             "power": 44.0,
             "reason": ""
@@ -1282,6 +1304,12 @@
             "r": "R3",
             "name": "Bin 37",
             "power": 49.5,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Shashank1411",
+            "power": 48.62,
             "reason": ""
           },
           {
