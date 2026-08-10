@@ -784,6 +784,46 @@
       "A": {
         "main": [
           {
+            "r": "R5",
+            "name": "Lerxinhiu",
+            "reason": "R5"
+          },
+          {
+            "r": "R4",
+            "name": "cường khùng",
+            "reason": "R4"
+          },
+          {
+            "r": "R4",
+            "name": "LinLin",
+            "reason": "R4"
+          },
+          {
+            "r": "R4",
+            "name": "TusEngland",
+            "reason": "R4"
+          },
+          {
+            "r": "R4",
+            "name": "wolfwitch",
+            "reason": "R4"
+          },
+          {
+            "r": "R4",
+            "name": "Haizzzzzzzzzzzz",
+            "reason": "R4"
+          },
+          {
+            "r": "R4",
+            "name": "PTKhang RiO",
+            "reason": "R4"
+          },
+          {
+            "r": "R4",
+            "name": "Tài Béooo",
+            "reason": "R4"
+          },
+          {
             "r": "R3",
             "name": "ZzBMT47zz",
             "power": 56.0,
@@ -854,7 +894,9 @@
             "name": "Cúc Hoa Long Lanh",
             "power": 48.4,
             "reason": ""
-          },
+          }
+        ],
+        "subs": [
           {
             "r": "R3",
             "name": "Clone or Sou",
@@ -890,48 +932,6 @@
             "name": "Mèo Sunshine",
             "power": 43.0,
             "reason": ""
-          },
-          {
-            "r": "R5",
-            "name": "Lerxinhiu",
-            "reason": "R5"
-          },
-          {
-            "r": "R4",
-            "name": "cường khùng",
-            "reason": "R4"
-          }
-        ],
-        "subs": [
-          {
-            "r": "R4",
-            "name": "LinLin",
-            "reason": "R4"
-          },
-          {
-            "r": "R4",
-            "name": "TusEngland",
-            "reason": "R4"
-          },
-          {
-            "r": "R4",
-            "name": "wolfwitch",
-            "reason": "R4"
-          },
-          {
-            "r": "R4",
-            "name": "Haizzzzzzzzzzzz",
-            "reason": "R4"
-          },
-          {
-            "r": "R4",
-            "name": "PTKhang RiO",
-            "reason": "R4"
-          },
-          {
-            "r": "R4",
-            "name": "Tài Béooo",
-            "reason": "R4"
           }
         ],
         "dayoff": [],
@@ -946,10 +946,19 @@
       "B": {
         "main": [
           {
-            "r": "R3",
-            "name": "danhoanh",
-            "power": 46.0,
-            "reason": ""
+            "r": "R4",
+            "name": "Hải Anh 0612",
+            "reason": "R4"
+          },
+          {
+            "r": "R4",
+            "name": "yologuy",
+            "reason": "R4"
+          },
+          {
+            "r": "R4",
+            "name": "Rymi68",
+            "reason": "R4"
           },
           {
             "r": "R3",
@@ -1025,6 +1034,12 @@
           },
           {
             "r": "R3",
+            "name": "danhoanh",
+            "power": 46.0,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "Chivas2026",
             "power": 46.0,
             "reason": ""
@@ -1046,7 +1061,9 @@
             "name": "Orion Là Chocopie",
             "power": 45.0,
             "reason": ""
-          },
+          }
+        ],
+        "subs": [
           {
             "r": "R3",
             "name": "Phạm khánhh",
@@ -1064,9 +1081,7 @@
             "name": "SanTa 1386",
             "power": 44.3,
             "reason": ""
-          }
-        ],
-        "subs": [
+          },
           {
             "r": "R3",
             "name": "Nguyenngoctuan",
@@ -1092,21 +1107,6 @@
             "reason": ""
           },
           {
-            "r": "R4",
-            "name": "Hải Anh 0612",
-            "reason": "R4"
-          },
-          {
-            "r": "R4",
-            "name": "yologuy",
-            "reason": "R4"
-          },
-          {
-            "r": "R4",
-            "name": "Rymi68",
-            "reason": "R4"
-          },
-          {
             "r": "R3",
             "name": "Sầu riêng m7",
             "power": 48.2,
@@ -1126,6 +1126,51 @@
     "hn": {
       "A": {
         "main": [
+          {
+            "r": "R5",
+            "name": "Lerxinhiu",
+            "reason": "R5"
+          },
+          {
+            "r": "R4",
+            "name": "cường khùng",
+            "reason": "R4"
+          },
+          {
+            "r": "R4",
+            "name": "LinLin",
+            "reason": "R4"
+          },
+          {
+            "r": "R4",
+            "name": "Rymi68",
+            "reason": "R4"
+          },
+          {
+            "r": "R4",
+            "name": "Haizzzzzzzzzzzz",
+            "reason": "R4"
+          },
+          {
+            "r": "R4",
+            "name": "TusEngland",
+            "reason": "R4"
+          },
+          {
+            "r": "R4",
+            "name": "wolfwitch",
+            "reason": "R4"
+          },
+          {
+            "r": "R4",
+            "name": "PTKhang RiO",
+            "reason": "R4"
+          },
+          {
+            "r": "R4",
+            "name": "Tài Béooo",
+            "reason": "R4"
+          },
           {
             "r": "R3",
             "name": "ZzBMT47zz",
@@ -1191,7 +1236,9 @@
             "name": "Kendy Nguyên 86",
             "power": 50.7,
             "reason": ""
-          },
+          }
+        ],
+        "subs": [
           {
             "r": "R3",
             "name": "sửa máy promax",
@@ -1245,59 +1292,12 @@
             "name": "KYLEPHAM2401",
             "power": 43.0,
             "reason": ""
-          }
-        ],
-        "subs": [
+          },
           {
             "r": "R3",
             "name": "Mèo Sunshine",
             "power": 43.0,
             "reason": ""
-          },
-          {
-            "r": "R5",
-            "name": "Lerxinhiu",
-            "reason": "R5"
-          },
-          {
-            "r": "R4",
-            "name": "cường khùng",
-            "reason": "R4"
-          },
-          {
-            "r": "R4",
-            "name": "LinLin",
-            "reason": "R4"
-          },
-          {
-            "r": "R4",
-            "name": "Rymi68",
-            "reason": "R4"
-          },
-          {
-            "r": "R4",
-            "name": "Haizzzzzzzzzzzz",
-            "reason": "R4"
-          },
-          {
-            "r": "R4",
-            "name": "TusEngland",
-            "reason": "R4"
-          },
-          {
-            "r": "R4",
-            "name": "wolfwitch",
-            "reason": "R4"
-          },
-          {
-            "r": "R4",
-            "name": "PTKhang RiO",
-            "reason": "R4"
-          },
-          {
-            "r": "R4",
-            "name": "Tài Béooo",
-            "reason": "R4"
           }
         ],
         "dayoff": [],
@@ -1312,10 +1312,14 @@
       "B": {
         "main": [
           {
-            "r": "R3",
-            "name": "danhoanh",
-            "power": 46.0,
-            "reason": ""
+            "r": "R4",
+            "name": "Hải Anh 0612",
+            "reason": "R4"
+          },
+          {
+            "r": "R4",
+            "name": "yologuy",
+            "reason": "R4"
           },
           {
             "r": "R2",
@@ -1373,6 +1377,12 @@
           },
           {
             "r": "R3",
+            "name": "danhoanh",
+            "power": 46.0,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "Chivas2026",
             "power": 46.0,
             "reason": ""
@@ -1418,24 +1428,14 @@
             "name": "Aaaluan",
             "power": 42.0,
             "reason": ""
-          },
+          }
+        ],
+        "subs": [
           {
             "r": "R3",
             "name": "Khánhh Báooo",
             "power": 41.0,
             "reason": ""
-          },
-          {
-            "r": "R4",
-            "name": "Hải Anh 0612",
-            "reason": "R4"
-          }
-        ],
-        "subs": [
-          {
-            "r": "R4",
-            "name": "yologuy",
-            "reason": "R4"
           },
           {
             "r": "R3",
