@@ -729,10 +729,6 @@
       "rank": "R3",
       "power": 48.5
     },
-    "Lưu Mẫn Nhi": {
-      "rank": "R3",
-      "power": 44.0
-    },
     "Cúc Hoa Long Lanh": {
       "rank": "R3"
     },
@@ -773,6 +769,10 @@
     },
     "Piipo": {
       "rank": "R3"
+    },
+    "Orion Là Chocopie": {
+      "rank": "R3",
+      "power": 44.0
     }
   },
   "next_lineup": {
@@ -1023,7 +1023,7 @@
           },
           {
             "r": "R3",
-            "name": "Lưu Mẫn Nhi",
+            "name": "Orion Là Chocopie",
             "power": 45.0,
             "reason": ""
           },
@@ -1328,7 +1328,7 @@
           },
           {
             "r": "R3",
-            "name": "Lưu Mẫn Nhi",
+            "name": "Orion Là Chocopie",
             "power": 45.0,
             "reason": ""
           },
