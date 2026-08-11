@@ -1091,6 +1091,18 @@
         "subs": [
           {
             "r": "R3",
+            "name": "Sầu riêng m7",
+            "power": 48.2,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "tRnuOwn9f 795",
+            "power": 47.0,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "NorthFog",
             "power": 45.85,
             "reason": ""
@@ -1136,18 +1148,6 @@
             "name": "Tommy4014",
             "power": 43.2,
             "reason": ""
-          },
-          {
-            "r": "R3",
-            "name": "Aaaluan",
-            "power": 42.0,
-            "reason": ""
-          },
-          {
-            "r": "R3",
-            "name": "Khánhh Báooo",
-            "power": 41.0,
-            "reason": ""
           }
         ],
         "dayoff": [],
@@ -1160,14 +1160,14 @@
         "waiting": [
           {
             "r": "R3",
-            "name": "Sầu riêng m7",
-            "power": 48.2,
+            "name": "Aaaluan",
+            "power": 42.0,
             "reason": ""
           },
           {
             "r": "R3",
-            "name": "tRnuOwn9f 795",
-            "power": 47.0,
+            "name": "Khánhh Báooo",
+            "power": 41.0,
             "reason": ""
           }
         ]
@@ -1483,6 +1483,12 @@
         "subs": [
           {
             "r": "R3",
+            "name": "Đập Chai",
+            "power": 46.5,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "Phạm khánhh",
             "power": 45.0,
             "reason": ""
@@ -1491,6 +1497,12 @@
             "r": "R3",
             "name": "ThíchThìNhích92",
             "power": 44.7,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "SanTa 1386",
+            "power": 44.3,
             "reason": ""
           },
           {
@@ -1509,18 +1521,6 @@
             "r": "R3",
             "name": "Khánhh Báooo",
             "power": 41.0,
-            "reason": ""
-          },
-          {
-            "r": "R3",
-            "name": "Đập Chai",
-            "power": 46.5,
-            "reason": ""
-          },
-          {
-            "r": "R3",
-            "name": "SanTa 1386",
-            "power": 44.3,
             "reason": ""
           }
         ],
