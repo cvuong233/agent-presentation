@@ -378,7 +378,7 @@
     },
     "Tommy4014": {
       "rank": "R3",
-      "power": 42.8
+      "power": 43.2
     },
     "Chivas2026": {
       "rank": "R3",
@@ -909,6 +909,12 @@
           },
           {
             "r": "R3",
+            "name": "ZEKT",
+            "power": 47.32,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "TúTú01",
             "power": 46.0,
             "reason": ""
@@ -1008,6 +1014,12 @@
           },
           {
             "r": "R3",
+            "name": "Hemerage",
+            "power": 49.1,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "Shashank1411",
             "power": 48.62,
             "reason": ""
@@ -1059,15 +1071,15 @@
             "name": "NorthFog",
             "power": 45.85,
             "reason": ""
-          },
+          }
+        ],
+        "subs": [
           {
             "r": "R3",
             "name": "Thanhh Tân",
             "power": 45.8,
             "reason": ""
-          }
-        ],
-        "subs": [
+          },
           {
             "r": "R3",
             "name": "Orion Là Chocopie",
@@ -1101,7 +1113,7 @@
           {
             "r": "R3",
             "name": "Tommy4014",
-            "power": 42.8,
+            "power": 43.2,
             "reason": ""
           },
           {
@@ -1121,12 +1133,6 @@
             "name": "Sầu riêng m7",
             "power": 48.2,
             "reason": ""
-          },
-          {
-            "r": "R3",
-            "name": "tRnuOwn9f 795",
-            "power": 47.0,
-            "reason": ""
           }
         ],
         "dayoff": [],
@@ -1136,7 +1142,14 @@
         "date": "2026-08-08",
         "time": "08:30 ICT",
         "period": "morning",
-        "waiting": []
+        "waiting": [
+          {
+            "r": "R3",
+            "name": "tRnuOwn9f 795",
+            "power": 47.0,
+            "reason": ""
+          }
+        ]
       }
     },
     "hn": {
@@ -1287,6 +1300,12 @@
           },
           {
             "r": "R3",
+            "name": "ZEKT",
+            "power": 47.32,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "TúTú01",
             "power": 46.0,
             "reason": ""
@@ -1308,12 +1327,6 @@
             "name": "KYLEPHAM2401",
             "power": 43.0,
             "reason": ""
-          },
-          {
-            "r": "R3",
-            "name": "Mèo Sunshine",
-            "power": 43.0,
-            "reason": ""
           }
         ],
         "dayoff": [],
@@ -1323,7 +1336,14 @@
         "date": "2026-08-06",
         "time": "21:30 ICT",
         "period": "night 21:30",
-        "waiting": []
+        "waiting": [
+          {
+            "r": "R3",
+            "name": "Mèo Sunshine",
+            "power": 43.0,
+            "reason": ""
+          }
+        ]
       },
       "B": {
         "main": [
@@ -1359,6 +1379,12 @@
             "r": "R3",
             "name": "Bin 37",
             "power": 49.5,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Hemerage",
+            "power": 49.1,
             "reason": ""
           },
           {
@@ -1438,19 +1464,19 @@
             "name": "Phạm khánhh",
             "power": 45.0,
             "reason": ""
-          },
-          {
-            "r": "R3",
-            "name": "ThíchThìNhích92",
-            "power": 44.7,
-            "reason": ""
           }
         ],
         "subs": [
           {
             "r": "R3",
+            "name": "ThíchThìNhích92",
+            "power": 44.7,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "Tommy4014",
-            "power": 42.8,
+            "power": 43.2,
             "reason": ""
           },
           {
