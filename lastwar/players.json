@@ -781,6 +781,9 @@
     },
     "KhoaiTây83": {
       "rank": "R1"
+    },
+    "Bạch Long Mã": {
+      "rank": "R3"
     }
   },
   "next_lineup": {
@@ -865,6 +868,12 @@
           },
           {
             "r": "R3",
+            "name": "Kute Gold",
+            "power": 52.0,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "MrAugust2886",
             "power": 51.8,
             "reason": ""
@@ -892,15 +901,15 @@
             "name": "Sói Ken",
             "power": 50.8,
             "reason": ""
-          },
+          }
+        ],
+        "subs": [
           {
             "r": "R3",
             "name": "Bắp đại ca",
             "power": 50.0,
             "reason": ""
-          }
-        ],
-        "subs": [
+          },
           {
             "r": "R3",
             "name": "Cúc Hoa Long Lanh",
@@ -975,6 +984,12 @@
             "r": "R4",
             "name": "Rymi68",
             "reason": "R4"
+          },
+          {
+            "r": "R3",
+            "name": "Bạch Long Mã",
+            "power": 53.5,
+            "reason": ""
           },
           {
             "r": "R3",
@@ -1071,15 +1086,15 @@
             "name": "Chivas2026",
             "power": 46.0,
             "reason": ""
-          },
+          }
+        ],
+        "subs": [
           {
             "r": "R3",
             "name": "NorthFog",
             "power": 45.85,
             "reason": ""
-          }
-        ],
-        "subs": [
+          },
           {
             "r": "R3",
             "name": "Thanhh Tân",
@@ -1133,12 +1148,6 @@
             "name": "Khánhh Báooo",
             "power": 41.0,
             "reason": ""
-          },
-          {
-            "r": "R3",
-            "name": "Sầu riêng m7",
-            "power": 48.2,
-            "reason": ""
           }
         ],
         "dayoff": [],
@@ -1149,6 +1158,12 @@
         "time": "08:30 ICT",
         "period": "morning",
         "waiting": [
+          {
+            "r": "R3",
+            "name": "Sầu riêng m7",
+            "power": 48.2,
+            "reason": ""
+          },
           {
             "r": "R3",
             "name": "tRnuOwn9f 795",
