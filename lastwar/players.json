@@ -1300,12 +1300,6 @@
           },
           {
             "r": "R3",
-            "name": "ZEKT",
-            "power": 47.32,
-            "reason": ""
-          },
-          {
-            "r": "R3",
             "name": "TúTú01",
             "power": 46.0,
             "reason": ""
@@ -1327,6 +1321,12 @@
             "name": "KYLEPHAM2401",
             "power": 43.0,
             "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Mèo Sunshine",
+            "power": 43.0,
+            "reason": ""
           }
         ],
         "dayoff": [],
@@ -1336,14 +1336,7 @@
         "date": "2026-08-06",
         "time": "21:30 ICT",
         "period": "night 21:30",
-        "waiting": [
-          {
-            "r": "R3",
-            "name": "Mèo Sunshine",
-            "power": 43.0,
-            "reason": ""
-          }
-        ]
+        "waiting": []
       },
       "B": {
         "main": [
@@ -1413,6 +1406,12 @@
           },
           {
             "r": "R3",
+            "name": "ZEKT",
+            "power": 47.32,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "tRnuOwn9f 795",
             "power": 47.0,
             "reason": ""
@@ -1458,15 +1457,15 @@
             "name": "Orion Là Chocopie",
             "power": 45.0,
             "reason": ""
-          },
+          }
+        ],
+        "subs": [
           {
             "r": "R3",
             "name": "Phạm khánhh",
             "power": 45.0,
             "reason": ""
-          }
-        ],
-        "subs": [
+          },
           {
             "r": "R3",
             "name": "ThíchThìNhích92",
