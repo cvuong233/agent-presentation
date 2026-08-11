@@ -1321,6 +1321,12 @@
           },
           {
             "r": "R3",
+            "name": "NgocNamBoss",
+            "power": 46.79,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "TúTú01",
             "power": 46.0,
             "reason": ""
@@ -1342,12 +1348,6 @@
             "name": "KYLEPHAM2401",
             "power": 43.0,
             "reason": ""
-          },
-          {
-            "r": "R3",
-            "name": "Mèo Sunshine",
-            "power": 43.0,
-            "reason": ""
           }
         ],
         "dayoff": [],
@@ -1357,7 +1357,14 @@
         "date": "2026-08-06",
         "time": "21:30 ICT",
         "period": "night 21:30",
-        "waiting": []
+        "waiting": [
+          {
+            "r": "R3",
+            "name": "Mèo Sunshine",
+            "power": 43.0,
+            "reason": ""
+          }
+        ]
       },
       "B": {
         "main": [
