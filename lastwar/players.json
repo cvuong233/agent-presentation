@@ -316,7 +316,7 @@
     },
     "Vualidonzz": {
       "rank": "R3",
-      "power": 50.2
+      "power": 50.6
     },
     "Shashank1411": {
       "rank": "R3",
@@ -1011,6 +1011,12 @@
           },
           {
             "r": "R3",
+            "name": "Vualidonzz",
+            "power": 50.6,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "e Asche",
             "power": 50.5,
             "reason": ""
@@ -1086,12 +1092,6 @@
             "name": "danhoanh",
             "power": 46.0,
             "reason": ""
-          },
-          {
-            "r": "R3",
-            "name": "Chivas2026",
-            "power": 46.0,
-            "reason": ""
           }
         ],
         "subs": [
@@ -1105,6 +1105,12 @@
             "r": "R3",
             "name": "tRnuOwn9f 795",
             "power": 47.0,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Chivas2026",
+            "power": 46.0,
             "reason": ""
           },
           {
@@ -1148,12 +1154,6 @@
             "name": "Nguyenngoctuan",
             "power": 44.0,
             "reason": ""
-          },
-          {
-            "r": "R3",
-            "name": "Tommy4014",
-            "power": 43.2,
-            "reason": ""
           }
         ],
         "dayoff": [],
@@ -1164,6 +1164,12 @@
         "time": "08:30 ICT",
         "period": "morning",
         "waiting": [
+          {
+            "r": "R3",
+            "name": "Tommy4014",
+            "power": 43.2,
+            "reason": ""
+          },
           {
             "r": "R3",
             "name": "Aaaluan",
