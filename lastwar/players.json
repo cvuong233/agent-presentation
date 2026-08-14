@@ -979,12 +979,14 @@
           {
             "r": "R4",
             "name": "Hải Anh 0612",
-            "reason": "R4"
+            "reason": "R4",
+            "pos": "oil 2"
           },
           {
             "r": "R4",
             "name": "yologuy",
-            "reason": "R4"
+            "reason": "R4",
+            "pos": "science"
           },
           {
             "r": "R4",
@@ -995,103 +997,120 @@
             "r": "R3",
             "name": "Bạch Long Mã",
             "power": 53.5,
-            "reason": ""
+            "reason": "",
+            "pos": "oil 2"
           },
           {
             "r": "R3",
             "name": "Kendy Nguyên 86",
             "power": 50.7,
-            "reason": ""
+            "reason": "",
+            "pos": "oil 1"
           },
           {
             "r": "R3",
             "name": "sửa máy promax",
             "power": 50.7,
-            "reason": ""
+            "reason": "",
+            "pos": "oil 1"
           },
           {
             "r": "R3",
             "name": "Vualidonzz",
             "power": 50.6,
-            "reason": ""
+            "reason": "",
+            "pos": "oil 2"
           },
           {
             "r": "R3",
             "name": "e Asche",
             "power": 50.5,
-            "reason": ""
+            "reason": "",
+            "pos": "oil 1"
           },
           {
             "r": "R2",
             "name": "Bơ Bắp 1",
             "power": 50.3,
-            "reason": ""
+            "reason": "",
+            "pos": "hos 2"
           },
           {
             "r": "R3",
             "name": "ᵛᶰ Đậu Hũ",
             "power": 50.2,
-            "reason": ""
+            "reason": "",
+            "pos": "hos 3"
           },
           {
             "r": "R3",
             "name": "MR Dương",
             "power": 50.0,
-            "reason": ""
+            "reason": "",
+            "pos": "hos 1"
           },
           {
             "r": "R3",
             "name": "Bin 37",
             "power": 49.5,
-            "reason": ""
+            "reason": "",
+            "pos": "hos 2"
           },
           {
             "r": "R3",
             "name": "Hemerage",
             "power": 49.1,
-            "reason": ""
+            "reason": "",
+            "pos": "science"
           },
           {
             "r": "R3",
             "name": "Shashank1411",
             "power": 48.62,
-            "reason": ""
+            "reason": "",
+            "pos": "hos 1"
           },
           {
             "r": "R3",
             "name": "ÒÓO",
             "power": 48.5,
-            "reason": ""
+            "reason": "",
+            "pos": "hos 4"
           },
           {
             "r": "R3",
             "name": "RùaNgáo",
             "power": 48.0,
-            "reason": ""
+            "reason": "",
+            "pos": "hos 2"
           },
           {
             "r": "R3",
             "name": "Đập Chai",
             "power": 46.5,
-            "reason": ""
+            "reason": "",
+            "pos": "hos 3"
           },
           {
             "r": "R1",
             "name": "KhoaiTây83",
             "power": 46.3,
-            "reason": ""
+            "reason": "",
+            "pos": "Oil 1"
           },
           {
             "r": "R3",
             "name": "Marines Malevolent",
             "power": 46.2,
-            "reason": ""
+            "reason": "",
+            "pos": "science"
           },
           {
             "r": "R3",
             "name": "danhoanh",
             "power": 46.0,
-            "reason": ""
+            "reason": "",
+            "pos": "oil 1"
           }
         ],
         "subs": [
