@@ -311,7 +311,8 @@
     },
     "Hemerage": {
       "rank": "R3",
-      "power": 48.35
+      "power": 48.35,
+      "yc_hn": 1
     },
     "zdevils": {
       "rank": "R3",
@@ -319,7 +320,8 @@
     },
     "Vualidonzz": {
       "rank": "R3",
-      "power": 50.6
+      "power": 50.6,
+      "yc_sm": 1
     },
     "Shashank1411": {
       "rank": "R3",
@@ -360,7 +362,8 @@
     },
     "NorthFog": {
       "rank": "R3",
-      "power": 45.2
+      "power": 45.2,
+      "yc_sm": 1
     },
     "Marines Malevolent": {
       "rank": "R3"
@@ -396,7 +399,8 @@
     },
     "Aaaluan": {
       "rank": "R3",
-      "power": 41.0
+      "power": 41.0,
+      "yc_hn": 1
     },
     "MrAugust2886": {
       "rank": "R3"
@@ -628,7 +632,8 @@
     "ZEKT": {
       "rank": "R3",
       "note": "",
-      "power": 47.13
+      "power": 47.13,
+      "yc_hn": 1
     },
     "Mr Hải Nam": {
       "rank": "R2",
@@ -662,7 +667,8 @@
       "rank": "R3",
       "note": "",
       "power": 47.5,
-      "yc_sm": 1
+      "yc_sm": 1,
+      "yc_hn": 1
     },
     "ᵛᶰ Đậu Hũ": {
       "rank": "R3",
@@ -685,7 +691,8 @@
       "rank": "R3",
       "dayoff": false,
       "note": "",
-      "power": 50.2
+      "power": 50.2,
+      "yc_hn": 1
     },
     "Mèo Sunshine": {
       "rank": "R3",
@@ -743,7 +750,8 @@
     },
     "Sting Chanh": {
       "rank": "R3",
-      "power": 51.0
+      "power": 51.0,
+      "yc_hn": 1
     },
     "Zz Ma Tuý Đá zz": {
       "rank": "R3"
@@ -780,7 +788,8 @@
       "power": 44.0
     },
     "TúTú01": {
-      "rank": "R3"
+      "rank": "R3",
+      "yc_sm": 1
     },
     "KhoaiTây83": {
       "rank": "R1"
