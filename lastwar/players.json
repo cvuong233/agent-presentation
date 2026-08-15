@@ -388,7 +388,7 @@
     },
     "Chivas2026": {
       "rank": "R3",
-      "power": 45.5
+      "power": 46.29
     },
     "NgocNamBoss": {
       "rank": "R3",
@@ -878,6 +878,12 @@
             "name": "NgocNamBoss",
             "power": 46.97,
             "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Chivas2026",
+            "power": 46.29,
+            "reason": ""
           }
         ],
         "subs": [],
@@ -966,6 +972,12 @@
             "r": "R3",
             "name": "NgocNamBoss",
             "power": 46.97,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Chivas2026",
+            "power": 46.29,
             "reason": ""
           }
         ],
