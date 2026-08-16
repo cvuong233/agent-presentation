@@ -648,7 +648,7 @@
     "Khánhh Báooo": {
       "rank": "R3",
       "note": "",
-      "power": 41.0
+      "power": 42.0
     },
     "Nhi Nở": {
       "rank": "R3",
@@ -933,6 +933,12 @@
             "name": "Orion Là Chocopie",
             "power": 46.0,
             "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Khánhh Báooo",
+            "power": 42.0,
+            "reason": ""
           }
         ],
         "subs": [],
@@ -1081,6 +1087,12 @@
             "r": "R3",
             "name": "Orion Là Chocopie",
             "power": 46.0,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Khánhh Báooo",
+            "power": 42.0,
             "reason": ""
           }
         ],
