@@ -408,7 +408,7 @@
     },
     "tâm1980": {
       "rank": "R3",
-      "power": 45.7
+      "power": 47.0
     },
     "Khanhanh96": {
       "rank": "R3"
@@ -603,7 +603,7 @@
     },
     "Kute Gold": {
       "rank": "R3",
-      "power": 51.6
+      "power": 52.5
     },
     "TusEngland": {
       "rank": "R4",
@@ -643,7 +643,7 @@
     "ThíchThìNhích92": {
       "rank": "R3",
       "note": "",
-      "power": 44.3
+      "power": 47.0
     },
     "Khánhh Báooo": {
       "rank": "R3",
@@ -743,7 +743,8 @@
       "power": 48.5
     },
     "Cúc Hoa Long Lanh": {
-      "rank": "R3"
+      "rank": "R3",
+      "power": 49.5
     },
     "Clone or Sou": {
       "rank": "R3",
@@ -759,7 +760,7 @@
     },
     "Kendy Nguyên 86": {
       "rank": "R3",
-      "power": 50.1
+      "power": 51.0
     },
     "PTKhang RiO": {
       "rank": "R4",
@@ -786,7 +787,7 @@
     },
     "Orion Là Chocopie": {
       "rank": "R3",
-      "power": 44.0
+      "power": 46.0
     },
     "TúTú01": {
       "rank": "R3",
@@ -842,6 +843,18 @@
             "r": "R4",
             "name": "Tài Béooo",
             "reason": "R4"
+          },
+          {
+            "r": "R3",
+            "name": "Cúc Hoa Long Lanh",
+            "power": 49.5,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "tâm1980",
+            "power": 47.0,
+            "reason": ""
           }
         ],
         "subs": [],
@@ -875,6 +888,24 @@
           },
           {
             "r": "R3",
+            "name": "Kute Gold",
+            "power": 52.5,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Kendy Nguyên 86",
+            "power": 51.0,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "ThíchThìNhích92",
+            "power": 47.0,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "NgocNamBoss",
             "power": 46.97,
             "reason": ""
@@ -883,6 +914,12 @@
             "r": "R3",
             "name": "Chivas2026",
             "power": 46.29,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Orion Là Chocopie",
+            "power": 46.0,
             "reason": ""
           }
         ],
@@ -950,6 +987,18 @@
             "name": "ᵛᶰ Đậu Hũ",
             "power": 50.7,
             "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Cúc Hoa Long Lanh",
+            "power": 49.5,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "tâm1980",
+            "power": 47.0,
+            "reason": ""
           }
         ],
         "subs": [],
@@ -976,6 +1025,24 @@
           },
           {
             "r": "R3",
+            "name": "Kute Gold",
+            "power": 52.5,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Kendy Nguyên 86",
+            "power": 51.0,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "ThíchThìNhích92",
+            "power": 47.0,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "NgocNamBoss",
             "power": 46.97,
             "reason": ""
@@ -984,6 +1051,12 @@
             "r": "R3",
             "name": "Chivas2026",
             "power": 46.29,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Orion Là Chocopie",
+            "power": 46.0,
             "reason": ""
           }
         ],
