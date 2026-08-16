@@ -675,7 +675,7 @@
       "rank": "R3",
       "dayoff": false,
       "note": "",
-      "power": 49.5
+      "power": 50.7
     },
     "Zyn1998 n": {
       "rank": "R2",
@@ -944,6 +944,12 @@
             "r": "R4",
             "name": "Tài Béooo",
             "reason": "R4"
+          },
+          {
+            "r": "R3",
+            "name": "ᵛᶰ Đậu Hũ",
+            "power": 50.7,
+            "reason": ""
           }
         ],
         "subs": [],
