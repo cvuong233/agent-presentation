@@ -370,7 +370,7 @@
     },
     "PewPewBoi": {
       "rank": "R3",
-      "power": 42.0
+      "power": 44.0
     },
     "RùaNgáo": {
       "rank": "R3"
@@ -861,6 +861,12 @@
             "name": "tâm1980",
             "power": 47.0,
             "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "PewPewBoi",
+            "power": 44.0,
+            "reason": ""
           }
         ],
         "subs": [],
@@ -1010,6 +1016,12 @@
             "r": "R3",
             "name": "tâm1980",
             "power": 47.0,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "PewPewBoi",
+            "power": 44.0,
             "reason": ""
           }
         ],
