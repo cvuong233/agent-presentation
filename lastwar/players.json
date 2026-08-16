@@ -712,7 +712,7 @@
       "dayoff": 0,
       "note": "",
       "yc_sm": 0,
-      "power": 50.7
+      "power": 51.7
     },
     "El Coderito": {
       "rank": "R3",
@@ -843,6 +843,12 @@
             "r": "R4",
             "name": "Tài Béooo",
             "reason": "R4"
+          },
+          {
+            "r": "R3",
+            "name": "duckiecutie",
+            "power": 51.7,
+            "reason": ""
           },
           {
             "r": "R3",
@@ -981,6 +987,12 @@
             "r": "R4",
             "name": "Tài Béooo",
             "reason": "R4"
+          },
+          {
+            "r": "R3",
+            "name": "duckiecutie",
+            "power": 51.7,
+            "reason": ""
           },
           {
             "r": "R3",
