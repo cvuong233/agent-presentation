@@ -776,7 +776,7 @@
     },
     "ZzBMT47zz": {
       "rank": "R3",
-      "power": 55.0
+      "power": 56.0
     },
     "Bơ Bắp 1": {
       "rank": "R2",
@@ -843,6 +843,12 @@
             "r": "R4",
             "name": "Tài Béooo",
             "reason": "R4"
+          },
+          {
+            "r": "R3",
+            "name": "ZzBMT47zz",
+            "power": 56.0,
+            "reason": ""
           },
           {
             "r": "R3",
@@ -999,6 +1005,12 @@
             "r": "R4",
             "name": "Tài Béooo",
             "reason": "R4"
+          },
+          {
+            "r": "R3",
+            "name": "ZzBMT47zz",
+            "power": 56.0,
+            "reason": ""
           },
           {
             "r": "R3",
