@@ -6,7 +6,8 @@
     "notes": "C V = cường khùng (R4). SM = Bão Sa Mạc (Desert Storm). HN = Bão Hẻm Núi (Canyon Storm). Official model: last_matches = history, next_lineup = editable upcoming lineup. Both battles use 20 main / 10 subs. Lineup sorted by squad power descending. Fixed players (fixed=A/B) are auto-registered into their team each week using their stored power.",
     "updated_hn_a": "2026-08-17",
     "updated_hn_b": "2026-08-17",
-    "updated_sm_b": "2026-08-17"
+    "updated_sm_b": "2026-08-17",
+    "updated_sm_a": "2026-08-17"
   },
   "ranks": {
     "R5": [
@@ -901,6 +902,12 @@
           },
           {
             "r": "R3",
+            "name": "Sting Chanh",
+            "power": 52.3,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "duckiecutie",
             "power": 51.7,
             "reason": ""
@@ -928,15 +935,15 @@
             "name": "ᵛᶰ Đậu Hũ",
             "power": 50.8,
             "reason": ""
-          },
+          }
+        ],
+        "subs": [
           {
             "r": "R3",
             "name": "MR Dương",
             "power": 50.7,
             "reason": ""
-          }
-        ],
-        "subs": [
+          },
           {
             "r": "R3",
             "name": "Bắp đại ca",
