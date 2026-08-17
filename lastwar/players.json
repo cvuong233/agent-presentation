@@ -668,7 +668,7 @@
     "Sầu riêng m7": {
       "rank": "R3",
       "note": "",
-      "power": 47.5,
+      "power": 48.7,
       "yc_sm": 1,
       "yc_hn": 1
     },
@@ -1030,7 +1030,14 @@
             "reason": ""
           }
         ],
-        "subs": [],
+        "subs": [
+          {
+            "r": "R3",
+            "name": "Sầu riêng m7",
+            "power": 48.7,
+            "reason": ""
+          }
+        ],
         "dayoff": [],
         "slot": "B",
         "maxMain": 20,
@@ -1157,6 +1164,12 @@
           }
         ],
         "subs": [
+          {
+            "r": "R3",
+            "name": "Sầu riêng m7",
+            "power": 48.7,
+            "reason": ""
+          },
           {
             "r": "R3",
             "name": "Mèo Sunshine",
