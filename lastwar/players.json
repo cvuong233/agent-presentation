@@ -801,7 +801,8 @@
     },
     "TúTú01": {
       "rank": "R3",
-      "yc_sm": 1
+      "yc_sm": 1,
+      "power": 48
     },
     "KhoaiTây83": {
       "rank": "R1",
@@ -970,6 +971,12 @@
           },
           {
             "r": "R3",
+            "name": "TúTú01",
+            "power": 48,
+            "reason": "yc_sm=1"
+          },
+          {
+            "r": "R3",
             "name": "tâm1980",
             "power": 47.0,
             "reason": ""
@@ -991,12 +998,6 @@
             "name": "Mèo Sunshine",
             "power": 44.0,
             "reason": ""
-          },
-          {
-            "r": "R3",
-            "name": "KYLEPHAM2401",
-            "power": 43.0,
-            "reason": ""
           }
         ],
         "dayoff": [],
@@ -1006,7 +1007,14 @@
         "date": "2026-08-21",
         "time": "18:30 ICT",
         "period": "evening",
-        "waiting": []
+        "waiting": [
+          {
+            "r": "R3",
+            "name": "KYLEPHAM2401",
+            "power": 43.0,
+            "reason": ""
+          }
+        ]
       },
       "B": {
         "main": [
@@ -1234,12 +1242,6 @@
           },
           {
             "r": "R1",
-            "name": "Lil Hen Hen",
-            "power": 58.4,
-            "reason": ""
-          },
-          {
-            "r": "R1",
             "name": "Rio Gia Huy",
             "power": 57.0,
             "reason": ""
@@ -1297,6 +1299,12 @@
             "name": "zdevils",
             "power": 51.0,
             "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "ᵛᶰ Đậu Hũ",
+            "power": 50.8,
+            "reason": ""
           }
         ],
         "subs": [
@@ -1310,12 +1318,6 @@
             "r": "R3",
             "name": "Sói Ken",
             "power": 51.4,
-            "reason": ""
-          },
-          {
-            "r": "R3",
-            "name": "ᵛᶰ Đậu Hũ",
-            "power": 50.8,
             "reason": ""
           },
           {
@@ -1346,6 +1348,12 @@
             "r": "R3",
             "name": "ZEKT",
             "power": 48.64,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "TúTú01",
+            "power": 48,
             "reason": ""
           },
           {
@@ -1547,7 +1555,9 @@
       "B": []
     },
     "hn": {
-      "A": [],
+      "A": [
+        {"name": "Lil Hen Hen", "r": "R1"}
+      ],
       "B": []
     }
   }
