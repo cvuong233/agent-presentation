@@ -316,7 +316,7 @@
     },
     "zdevils": {
       "rank": "R3",
-      "power": 50
+      "power": 51.0
     },
     "Vualidonzz": {
       "rank": "R3",
@@ -404,7 +404,8 @@
       "yc_hn": 1
     },
     "MrAugust2886": {
-      "rank": "R3"
+      "rank": "R3",
+      "power": 52.0
     },
     "tâm1980": {
       "rank": "R3",
@@ -563,7 +564,7 @@
     },
     "MR Dương": {
       "rank": "R3",
-      "power": 49.3
+      "power": 50.7
     },
     "sửa máy promax": {
       "rank": "R3",
@@ -693,7 +694,7 @@
       "rank": "R3",
       "dayoff": false,
       "note": "",
-      "power": 50.2,
+      "power": 51.4,
       "yc_hn": 1
     },
     "Mèo Sunshine": {
@@ -773,7 +774,7 @@
     },
     "Deptraitube2012": {
       "rank": "R3",
-      "power": 55.0
+      "power": 56.0
     },
     "ZzBMT47zz": {
       "rank": "R3",
@@ -864,6 +865,12 @@
           },
           {
             "r": "R3",
+            "name": "Deptraitube2012",
+            "power": 56.0,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "Thiện phương",
             "power": 55.0,
             "reason": ""
@@ -888,8 +895,20 @@
           },
           {
             "r": "R3",
+            "name": "Sói Ken",
+            "power": 51.4,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "Yến Nhi NT",
             "power": 51.1,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "zdevils",
+            "power": 51.0,
             "reason": ""
           },
           {
@@ -898,6 +917,14 @@
             "power": 50.8,
             "reason": ""
           },
+          {
+            "r": "R3",
+            "name": "MR Dương",
+            "power": 50.7,
+            "reason": ""
+          }
+        ],
+        "subs": [
           {
             "r": "R3",
             "name": "Cúc Hoa Long Lanh",
@@ -921,9 +948,7 @@
             "name": "PewPewBoi",
             "power": 44.0,
             "reason": ""
-          }
-        ],
-        "subs": [
+          },
           {
             "r": "R3",
             "name": "Mèo Sunshine",
@@ -968,6 +993,12 @@
           {
             "r": "R3",
             "name": "sửa máy promax",
+            "power": 52.0,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "MrAugust2886",
             "power": 52.0,
             "reason": ""
           },
@@ -1054,12 +1085,6 @@
             "name": "Tommy4014",
             "power": 43.9,
             "reason": ""
-          },
-          {
-            "r": "R3",
-            "name": "Khánhh Báooo",
-            "power": 42.0,
-            "reason": ""
           }
         ],
         "subs": [
@@ -1073,6 +1098,12 @@
             "r": "R3",
             "name": "tRnuOwn9f 795",
             "power": 48.0,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Khánhh Báooo",
+            "power": 42.0,
             "reason": ""
           }
         ],
@@ -1148,6 +1179,12 @@
           },
           {
             "r": "R3",
+            "name": "Deptraitube2012",
+            "power": 56.0,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "Thiện phương",
             "power": 55.0,
             "reason": ""
@@ -1178,14 +1215,40 @@
           },
           {
             "r": "R3",
+            "name": "zdevils",
+            "power": 51.0,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "ᵛᶰ Đậu Hũ",
             "power": 50.8,
             "reason": ""
           },
           {
             "r": "R3",
+            "name": "MR Dương",
+            "power": 50.7,
+            "reason": ""
+          }
+        ],
+        "subs": [
+          {
+            "r": "R3",
+            "name": "Sói Ken",
+            "power": 51.4,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "Cúc Hoa Long Lanh",
             "power": 49.5,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Sầu riêng m7",
+            "power": 48.7,
             "reason": ""
           },
           {
@@ -1198,14 +1261,6 @@
             "r": "R3",
             "name": "NHBảoLong",
             "power": 45.0,
-            "reason": ""
-          }
-        ],
-        "subs": [
-          {
-            "r": "R3",
-            "name": "Sầu riêng m7",
-            "power": 48.7,
             "reason": ""
           },
           {
@@ -1251,6 +1306,12 @@
           {
             "r": "R3",
             "name": "sửa máy promax",
+            "power": 52.0,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "MrAugust2886",
             "power": 52.0,
             "reason": ""
           },
