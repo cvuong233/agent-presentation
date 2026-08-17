@@ -663,7 +663,7 @@
       "rank": "R3",
       "note": "",
       "power": 48.0,
-      "yc_sm": 1
+      "yc_sm": 0
     },
     "Bắp đại ca": {
       "rank": "R3",
@@ -676,7 +676,7 @@
       "rank": "R3",
       "note": "",
       "power": 48.7,
-      "yc_sm": 1,
+      "yc_sm": 0,
       "yc_hn": 1
     },
     "ᵛᶰ Đậu Hũ": {
@@ -1034,7 +1034,19 @@
           },
           {
             "r": "R3",
+            "name": "Sầu riêng m7",
+            "power": 48.7,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "Clone or Sou",
+            "power": 48.0,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "tRnuOwn9f 795",
             "power": 48.0,
             "reason": ""
           },
@@ -1085,7 +1097,9 @@
             "name": "Yunnin",
             "power": 45.48,
             "reason": ""
-          },
+          }
+        ],
+        "subs": [
           {
             "r": "R3",
             "name": "Trai Cầu Tõm",
@@ -1096,20 +1110,6 @@
             "r": "R3",
             "name": "SanTa 1386",
             "power": 44.8,
-            "reason": ""
-          }
-        ],
-        "subs": [
-          {
-            "r": "R3",
-            "name": "Sầu riêng m7",
-            "power": 48.7,
-            "reason": ""
-          },
-          {
-            "r": "R3",
-            "name": "tRnuOwn9f 795",
-            "power": 48.0,
             "reason": ""
           },
           {
