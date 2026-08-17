@@ -705,9 +705,9 @@
     "Sói Ken": {
       "rank": "R3",
       "dayoff": false,
-      "note": "banned from HN this week (yc_hn=2, missed 2 consecutive battles) — ban expires 2026-08-22",
+      "note": "",
       "power": 51.4,
-      "yc_hn": 2
+      "yc_hn": 1
     },
     "Mèo Sunshine": {
       "rank": "R3",
@@ -1274,6 +1274,12 @@
             "r": "R3",
             "name": "Rio Gia Huy",
             "power": 57.0,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Sói Ken",
+            "power": 51.4,
             "reason": ""
           },
           {
