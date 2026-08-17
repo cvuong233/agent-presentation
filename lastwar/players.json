@@ -2,7 +2,7 @@
   "meta": {
     "clan": "Mates",
     "game": "Last War VN",
-    "updated": "2026-08-15",
+    "updated": "2026-08-17",
     "notes": "C V = cường khùng (R4). SM = Bão Sa Mạc (Desert Storm). HN = Bão Hẻm Núi (Canyon Storm). Official model: last_matches = history, next_lineup = editable upcoming lineup. Both battles use 20 main / 10 subs. Lineup sorted by squad power descending. Fixed players (fixed=A/B) are auto-registered into their team each week using their stored power.",
     "updated_hn_a": "2026-08-13",
     "updated_hn_b": "2026-08-14"
@@ -816,8 +816,7 @@
     },
     "Rio Gia Huy": {
       "rank": "R3",
-      "power": 57.0,
-      "yc_hn": 1
+      "power": 57.0
     }
   },
   "next_lineup": {
@@ -985,7 +984,7 @@
         "slot": "A",
         "maxMain": 20,
         "maxSubs": 10,
-        "date": "2026-08-07",
+        "date": "2026-08-21",
         "time": "18:30 ICT",
         "period": "evening",
         "waiting": []
@@ -1148,7 +1147,7 @@
         "slot": "B",
         "maxMain": 20,
         "maxSubs": 10,
-        "date": "2026-08-08",
+        "date": "2026-08-22",
         "time": "08:30 ICT",
         "period": "morning",
         "waiting": []
@@ -1201,6 +1200,12 @@
             "r": "R4",
             "name": "Tài Béooo",
             "reason": "R4"
+          },
+          {
+            "r": "R3",
+            "name": "Rio Gia Huy",
+            "power": 57.0,
+            "reason": ""
           },
           {
             "r": "R3",
@@ -1261,25 +1266,19 @@
             "name": "Bắp đại ca",
             "power": 50.7,
             "reason": ""
-          },
-          {
-            "r": "R3",
-            "name": "MR Dương",
-            "power": 50.7,
-            "reason": ""
           }
         ],
         "subs": [
           {
             "r": "R3",
-            "name": "Rio Gia Huy",
-            "power": 57.0,
+            "name": "Sói Ken",
+            "power": 51.4,
             "reason": ""
           },
           {
             "r": "R3",
-            "name": "Sói Ken",
-            "power": 51.4,
+            "name": "MR Dương",
+            "power": 50.7,
             "reason": ""
           },
           {
@@ -1329,7 +1328,7 @@
         "slot": "A",
         "maxMain": 20,
         "maxSubs": 10,
-        "date": "2026-08-06",
+        "date": "2026-08-20",
         "time": "21:30 ICT",
         "period": "night 21:30",
         "waiting": []
@@ -1473,7 +1472,7 @@
         "slot": "B",
         "maxMain": 20,
         "maxSubs": 10,
-        "date": "2026-08-07",
+        "date": "2026-08-21",
         "time": "08:30 ICT",
         "period": "morning 08:30",
         "waiting": []
