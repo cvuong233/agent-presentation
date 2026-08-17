@@ -680,10 +680,10 @@
     },
     "Sầu riêng m7": {
       "rank": "R3",
-      "note": "banned from HN this week (yc_hn=2, missed 2 consecutive battles) — ban expires 2026-08-22",
+      "note": "",
       "power": 48.7,
       "yc_sm": 0,
-      "yc_hn": 2
+      "yc_hn": 1
     },
     "ᵛᶰ Đậu Hũ": {
       "rank": "R3",
@@ -1258,13 +1258,13 @@
           },
           {
             "r": "R3",
-            "name": "MR Dương",
+            "name": "Bắp đại ca",
             "power": 50.7,
             "reason": ""
           },
           {
             "r": "R3",
-            "name": "Bắp đại ca",
+            "name": "MR Dương",
             "power": 50.7,
             "reason": ""
           }
@@ -1280,6 +1280,12 @@
             "r": "R3",
             "name": "Cúc Hoa Long Lanh",
             "power": 49.5,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Sầu riêng m7",
+            "power": 48.7,
             "reason": ""
           },
           {
