@@ -373,7 +373,10 @@
       "power": 44.0
     },
     "RùaNgáo": {
-      "rank": "R3"
+      "rank": "R3",
+      "power": 48.8,
+      "yc_sm": 0,
+      "yc_hn": 0
     },
     "Indefatigabl3": {
       "rank": "R3"
@@ -1016,6 +1019,12 @@
           },
           {
             "r": "R3",
+            "name": "RùaNgáo",
+            "power": 48.8,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "Clone or Sou",
             "power": 48.0,
             "reason": ""
@@ -1079,12 +1088,6 @@
             "name": "SanTa 1386",
             "power": 44.8,
             "reason": ""
-          },
-          {
-            "r": "R3",
-            "name": "Tommy4014",
-            "power": 43.9,
-            "reason": ""
           }
         ],
         "subs": [
@@ -1098,6 +1101,12 @@
             "r": "R3",
             "name": "tRnuOwn9f 795",
             "power": 48.0,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Tommy4014",
+            "power": 43.9,
             "reason": ""
           },
           {
@@ -1325,6 +1334,12 @@
             "r": "R3",
             "name": "Bơ Bắp 1",
             "power": 51.0,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "RùaNgáo",
+            "power": 48.8,
             "reason": ""
           },
           {
