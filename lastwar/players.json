@@ -667,7 +667,10 @@
     },
     "Bắp đại ca": {
       "rank": "R3",
-      "note": ""
+      "note": "",
+      "power": 50.7,
+      "yc_sm": 0,
+      "yc_hn": 0
     },
     "Sầu riêng m7": {
       "rank": "R3",
@@ -928,6 +931,12 @@
           }
         ],
         "subs": [
+          {
+            "r": "R3",
+            "name": "Bắp đại ca",
+            "power": 50.7,
+            "reason": ""
+          },
           {
             "r": "R3",
             "name": "Cúc Hoa Long Lanh",
@@ -1246,6 +1255,12 @@
             "r": "R3",
             "name": "Sói Ken",
             "power": 51.4,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Bắp đại ca",
+            "power": 50.7,
             "reason": ""
           },
           {
