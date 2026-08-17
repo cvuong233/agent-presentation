@@ -4,8 +4,8 @@
     "game": "Last War VN",
     "updated": "2026-08-17",
     "notes": "C V = cường khùng (R4). SM = Bão Sa Mạc (Desert Storm). HN = Bão Hẻm Núi (Canyon Storm). Official model: last_matches = history, next_lineup = editable upcoming lineup. Both battles use 20 main / 10 subs. Lineup sorted by squad power descending. Fixed players (fixed=A/B) are auto-registered into their team each week using their stored power.",
-    "updated_hn_a": "2026-08-13",
-    "updated_hn_b": "2026-08-14"
+    "updated_hn_a": "2026-08-17",
+    "updated_hn_b": "2026-08-17"
   },
   "ranks": {
     "R5": [
@@ -638,8 +638,7 @@
     "ZEKT": {
       "rank": "R3",
       "note": "",
-      "power": 47.13,
-      "yc_hn": 1
+      "power": 48.64
     },
     "Mr Hải Nam": {
       "rank": "R2",
@@ -805,11 +804,16 @@
       "power": 47.1
     },
     "Bạch Long Mã": {
-      "rank": "R3"
+      "rank": "R3",
+      "power": 54.0
     },
     "Rio Gia Huy": {
       "rank": "R3",
       "power": 57.0
+    },
+    "Lil Hen Hen": {
+      "rank": "R3",
+      "power": 58.4
     }
   },
   "next_lineup": {
@@ -1196,6 +1200,12 @@
           },
           {
             "r": "R3",
+            "name": "Lil Hen Hen",
+            "power": 58.4,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "Rio Gia Huy",
             "power": 57.0,
             "reason": ""
@@ -1253,12 +1263,6 @@
             "name": "ᵛᶰ Đậu Hũ",
             "power": 50.8,
             "reason": ""
-          },
-          {
-            "r": "R3",
-            "name": "Bắp đại ca",
-            "power": 50.7,
-            "reason": ""
           }
         ],
         "subs": [
@@ -1266,6 +1270,12 @@
             "r": "R3",
             "name": "Sói Ken",
             "power": 51.4,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Bắp đại ca",
+            "power": 50.7,
             "reason": ""
           },
           {
@@ -1284,6 +1294,12 @@
             "r": "R3",
             "name": "Sầu riêng m7",
             "power": 48.7,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "ZEKT",
+            "power": 48.64,
             "reason": ""
           },
           {
@@ -1309,12 +1325,6 @@
             "name": "PewPewBoi",
             "power": 44.0,
             "reason": ""
-          },
-          {
-            "r": "R3",
-            "name": "KYLEPHAM2401",
-            "power": 43.0,
-            "reason": ""
           }
         ],
         "dayoff": [],
@@ -1324,7 +1334,14 @@
         "date": "2026-08-20",
         "time": "21:30 ICT",
         "period": "night 21:30",
-        "waiting": []
+        "waiting": [
+          {
+            "r": "R3",
+            "name": "KYLEPHAM2401",
+            "power": 43.0,
+            "reason": ""
+          }
+        ]
       },
       "B": {
         "main": [
@@ -1337,6 +1354,12 @@
             "r": "R4",
             "name": "yologuy",
             "reason": "R4"
+          },
+          {
+            "r": "R3",
+            "name": "Bạch Long Mã",
+            "power": 54.0,
+            "reason": ""
           },
           {
             "r": "R3",
@@ -1439,15 +1462,15 @@
             "name": "SanTa 1386",
             "power": 44.8,
             "reason": ""
-          },
+          }
+        ],
+        "subs": [
           {
             "r": "R3",
             "name": "Trai Cầu Tõm",
             "power": 44.8,
             "reason": ""
-          }
-        ],
-        "subs": [
+          },
           {
             "r": "R3",
             "name": "Tommy4014",
