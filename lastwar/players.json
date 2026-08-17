@@ -5,7 +5,8 @@
     "updated": "2026-08-17",
     "notes": "C V = cường khùng (R4). SM = Bão Sa Mạc (Desert Storm). HN = Bão Hẻm Núi (Canyon Storm). Official model: last_matches = history, next_lineup = editable upcoming lineup. Both battles use 20 main / 10 subs. Lineup sorted by squad power descending. Fixed players (fixed=A/B) are auto-registered into their team each week using their stored power.",
     "updated_hn_a": "2026-08-17",
-    "updated_hn_b": "2026-08-17"
+    "updated_hn_b": "2026-08-17",
+    "updated_sm_b": "2026-08-17"
   },
   "ranks": {
     "R5": [
@@ -399,7 +400,7 @@
     },
     "e Asche": {
       "rank": "R3",
-      "power": 49
+      "power": 51.3
     },
     "Aaaluan": {
       "rank": "R3",
@@ -1025,6 +1026,12 @@
           },
           {
             "r": "R3",
+            "name": "e Asche",
+            "power": 51.3,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "Kendy Nguyên 86",
             "power": 51.0,
             "reason": ""
@@ -1100,15 +1107,15 @@
             "name": "Orion Là Chocopie",
             "power": 46.0,
             "reason": ""
-          },
+          }
+        ],
+        "subs": [
           {
             "r": "R3",
             "name": "Phạm khánhh",
             "power": 46.0,
             "reason": ""
-          }
-        ],
-        "subs": [
+          },
           {
             "r": "R3",
             "name": "Yunnin",
@@ -1248,6 +1255,12 @@
           },
           {
             "r": "R3",
+            "name": "e Asche",
+            "power": 51.3,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "Yến Nhi NT",
             "power": 51.1,
             "reason": ""
@@ -1256,12 +1269,6 @@
             "r": "R3",
             "name": "zdevils",
             "power": 51.0,
-            "reason": ""
-          },
-          {
-            "r": "R3",
-            "name": "ᵛᶰ Đậu Hũ",
-            "power": 50.8,
             "reason": ""
           }
         ],
@@ -1276,6 +1283,12 @@
             "r": "R3",
             "name": "Sói Ken",
             "power": 51.4,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "ᵛᶰ Đậu Hũ",
+            "power": 50.8,
             "reason": ""
           },
           {
@@ -1319,12 +1332,6 @@
             "name": "NHBảoLong",
             "power": 45.0,
             "reason": ""
-          },
-          {
-            "r": "R3",
-            "name": "Mèo Sunshine",
-            "power": 44.0,
-            "reason": ""
           }
         ],
         "dayoff": [],
@@ -1335,6 +1342,12 @@
         "time": "21:30 ICT",
         "period": "night 21:30",
         "waiting": [
+          {
+            "r": "R3",
+            "name": "Mèo Sunshine",
+            "power": 44.0,
+            "reason": ""
+          },
           {
             "r": "R3",
             "name": "PewPewBoi",
