@@ -472,7 +472,7 @@
     },
     "KYLEPHAM2401": {
       "rank": "R3",
-      "power": 42.7
+      "power": 43.0
     },
     "Mèo Xing": {
       "rank": "R3"
@@ -973,6 +973,12 @@
             "name": "Mèo Sunshine",
             "power": 44.0,
             "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "KYLEPHAM2401",
+            "power": 43.0,
+            "reason": ""
           }
         ],
         "dayoff": [],
@@ -1298,6 +1304,12 @@
             "r": "R3",
             "name": "PewPewBoi",
             "power": 44.0,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "KYLEPHAM2401",
+            "power": 43.0,
             "reason": ""
           }
         ],
