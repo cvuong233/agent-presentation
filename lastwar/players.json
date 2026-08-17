@@ -344,7 +344,7 @@
     "Đập Chai": {
       "rank": "R3",
       "power": 46.0,
-      "yc_hn": 1
+      "yc_hn": 0
     },
     "công chúa lavie": {
       "rank": "R3"
@@ -370,7 +370,8 @@
     },
     "PewPewBoi": {
       "rank": "R3",
-      "power": 44.0
+      "power": 44.0,
+      "yc_hn": 1
     },
     "RùaNgáo": {
       "rank": "R3",
@@ -395,7 +396,8 @@
     },
     "NgocNamBoss": {
       "rank": "R3",
-      "power": 46.97
+      "power": 46.97,
+      "yc_hn": 1
     },
     "e Asche": {
       "rank": "R3",
@@ -408,11 +410,13 @@
     },
     "MrAugust2886": {
       "rank": "R3",
-      "power": 52.0
+      "power": 52.0,
+      "yc_hn": 1
     },
     "tâm1980": {
       "rank": "R3",
-      "power": 47.0
+      "power": 47.0,
+      "yc_hn": 1
     },
     "Khanhanh96": {
       "rank": "R3"
@@ -432,7 +436,7 @@
     "SanTa 1386": {
       "rank": "R3",
       "power": 44.8,
-      "yc_hn": 1
+      "yc_hn": 0
     },
     "cu tí nhỏ xíu": {
       "rank": "R3"
@@ -563,7 +567,8 @@
     },
     "Trai Cầu Tõm": {
       "rank": "R3",
-      "power": 44.8
+      "power": 44.8,
+      "yc_hn": 1
     },
     "MR Dương": {
       "rank": "R3",
@@ -608,7 +613,8 @@
     },
     "Kute Gold": {
       "rank": "R3",
-      "power": 52.5
+      "power": 52.5,
+      "yc_hn": 1
     },
     "TusEngland": {
       "rank": "R4",
@@ -674,10 +680,10 @@
     },
     "Sầu riêng m7": {
       "rank": "R3",
-      "note": "",
+      "note": "banned from HN this week (yc_hn=2, missed 2 consecutive battles) — ban expires 2026-08-24",
       "power": 48.7,
       "yc_sm": 0,
-      "yc_hn": 1
+      "yc_hn": 2
     },
     "ᵛᶰ Đậu Hũ": {
       "rank": "R3",
@@ -699,9 +705,9 @@
     "Sói Ken": {
       "rank": "R3",
       "dayoff": false,
-      "note": "",
+      "note": "banned from HN this week (yc_hn=2, missed 2 consecutive battles) — ban expires 2026-08-24",
       "power": 51.4,
-      "yc_hn": 1
+      "yc_hn": 2
     },
     "Mèo Sunshine": {
       "rank": "R3",
@@ -810,7 +816,8 @@
     },
     "Rio Gia Huy": {
       "rank": "R3",
-      "power": 57.0
+      "power": 57.0,
+      "yc_hn": 1
     }
   },
   "next_lineup": {
@@ -1185,12 +1192,6 @@
           },
           {
             "r": "R3",
-            "name": "Rio Gia Huy",
-            "power": 57.0,
-            "reason": ""
-          },
-          {
-            "r": "R3",
             "name": "ZzBMT47zz",
             "power": 56.0,
             "reason": ""
@@ -1248,31 +1249,25 @@
             "name": "MR Dương",
             "power": 50.7,
             "reason": ""
-          }
-        ],
-        "subs": [
-          {
-            "r": "R3",
-            "name": "Sói Ken",
-            "power": 51.4,
-            "reason": ""
           },
           {
             "r": "R3",
             "name": "Bắp đại ca",
             "power": 50.7,
             "reason": ""
+          }
+        ],
+        "subs": [
+          {
+            "r": "R3",
+            "name": "Rio Gia Huy",
+            "power": 57.0,
+            "reason": ""
           },
           {
             "r": "R3",
             "name": "Cúc Hoa Long Lanh",
             "power": 49.5,
-            "reason": ""
-          },
-          {
-            "r": "R3",
-            "name": "Sầu riêng m7",
-            "power": 48.7,
             "reason": ""
           },
           {
@@ -1289,13 +1284,13 @@
           },
           {
             "r": "R3",
-            "name": "PewPewBoi",
+            "name": "Mèo Sunshine",
             "power": 44.0,
             "reason": ""
           },
           {
             "r": "R3",
-            "name": "Mèo Sunshine",
+            "name": "PewPewBoi",
             "power": 44.0,
             "reason": ""
           }
@@ -1323,19 +1318,7 @@
           },
           {
             "r": "R3",
-            "name": "Kute Gold",
-            "power": 52.5,
-            "reason": ""
-          },
-          {
-            "r": "R3",
             "name": "sửa máy promax",
-            "power": 52.0,
-            "reason": ""
-          },
-          {
-            "r": "R3",
-            "name": "MrAugust2886",
             "power": 52.0,
             "reason": ""
           },
@@ -1389,12 +1372,6 @@
           },
           {
             "r": "R3",
-            "name": "NgocNamBoss",
-            "power": 46.97,
-            "reason": ""
-          },
-          {
-            "r": "R3",
             "name": "Chivas2026",
             "power": 46.29,
             "reason": ""
@@ -1413,7 +1390,7 @@
           },
           {
             "r": "R3",
-            "name": "Trai Cầu Tõm",
+            "name": "SanTa 1386",
             "power": 44.8,
             "reason": ""
           },
@@ -1433,7 +1410,25 @@
         "subs": [
           {
             "r": "R3",
-            "name": "SanTa 1386",
+            "name": "Kute Gold",
+            "power": 52.5,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "MrAugust2886",
+            "power": 52.0,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "NgocNamBoss",
+            "power": 46.97,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Trai Cầu Tõm",
             "power": 44.8,
             "reason": ""
           }
