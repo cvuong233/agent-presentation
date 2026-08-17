@@ -384,7 +384,7 @@
     },
     "Tommy4014": {
       "rank": "R3",
-      "power": 43.2
+      "power": 43.9
     },
     "Chivas2026": {
       "rank": "R3",
@@ -1019,6 +1019,12 @@
           },
           {
             "r": "R3",
+            "name": "Tommy4014",
+            "power": 43.9,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "Khánhh Báooo",
             "power": 42.0,
             "reason": ""
@@ -1243,6 +1249,12 @@
             "r": "R3",
             "name": "Trai Cầu Tõm",
             "power": 44.8,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Tommy4014",
+            "power": 43.9,
             "reason": ""
           },
           {
