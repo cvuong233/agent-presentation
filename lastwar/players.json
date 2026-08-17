@@ -865,6 +865,12 @@
             "reason": "R4"
           },
           {
+            "r": "R1",
+            "name": "Lil Hen Hen",
+            "power": 58.4,
+            "reason": ""
+          },
+          {
             "r": "R3",
             "name": "Rio Gia Huy",
             "power": 57.0,
@@ -929,15 +935,15 @@
             "name": "zdevils",
             "power": 51.0,
             "reason": ""
-          },
+          }
+        ],
+        "subs": [
           {
             "r": "R3",
             "name": "ᵛᶰ Đậu Hũ",
             "power": 50.8,
             "reason": ""
-          }
-        ],
-        "subs": [
+          },
           {
             "r": "R3",
             "name": "MR Dương",
@@ -954,6 +960,12 @@
             "r": "R3",
             "name": "Cúc Hoa Long Lanh",
             "power": 49.5,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "ZEKT",
+            "power": 48.64,
             "reason": ""
           },
           {
@@ -1014,6 +1026,12 @@
             "r": "R4",
             "name": "Rymi68",
             "reason": "R4"
+          },
+          {
+            "r": "R3",
+            "name": "Bạch Long Mã",
+            "power": 54.0,
+            "reason": ""
           },
           {
             "r": "R3",
@@ -1110,15 +1128,15 @@
             "name": "Chivas2026",
             "power": 46.29,
             "reason": ""
-          },
+          }
+        ],
+        "subs": [
           {
             "r": "R3",
             "name": "Orion Là Chocopie",
             "power": 46.0,
             "reason": ""
-          }
-        ],
-        "subs": [
+          },
           {
             "r": "R3",
             "name": "Phạm khánhh",
