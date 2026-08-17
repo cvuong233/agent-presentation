@@ -435,7 +435,7 @@
     },
     "Yến Nhi NT": {
       "rank": "R3",
-      "power": 50
+      "power": 51.1
     },
     "Phạm khánhh": {
       "rank": "R3",
@@ -888,6 +888,12 @@
           },
           {
             "r": "R3",
+            "name": "Yến Nhi NT",
+            "power": 51.1,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "ᵛᶰ Đậu Hũ",
             "power": 50.8,
             "reason": ""
@@ -915,7 +921,9 @@
             "name": "PewPewBoi",
             "power": 44.0,
             "reason": ""
-          },
+          }
+        ],
+        "subs": [
           {
             "r": "R3",
             "name": "Mèo Sunshine",
@@ -923,7 +931,6 @@
             "reason": ""
           }
         ],
-        "subs": [],
         "dayoff": [],
         "slot": "A",
         "maxMain": 20,
@@ -1165,6 +1172,12 @@
           },
           {
             "r": "R3",
+            "name": "Yến Nhi NT",
+            "power": 51.1,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "ᵛᶰ Đậu Hũ",
             "power": 50.8,
             "reason": ""
@@ -1186,12 +1199,6 @@
             "name": "NHBảoLong",
             "power": 45.0,
             "reason": ""
-          },
-          {
-            "r": "R3",
-            "name": "PewPewBoi",
-            "power": 44.0,
-            "reason": ""
           }
         ],
         "subs": [
@@ -1199,6 +1206,12 @@
             "r": "R3",
             "name": "Sầu riêng m7",
             "power": 48.7,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "PewPewBoi",
+            "power": 44.0,
             "reason": ""
           },
           {
