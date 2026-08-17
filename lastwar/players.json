@@ -736,7 +736,7 @@
       "rank": "R3",
       "dayoff": 0,
       "note": "",
-      "power": 51.5,
+      "power": 52.6,
       "yc_sm": 0
     },
     "ÒÓO": {
@@ -865,6 +865,12 @@
             "r": "R3",
             "name": "El Coderito",
             "power": 52.7,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Tom and Jerry 9999",
+            "power": 52.6,
             "reason": ""
           },
           {
@@ -1075,6 +1081,12 @@
             "r": "R3",
             "name": "El Coderito",
             "power": 52.7,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Tom and Jerry 9999",
+            "power": 52.6,
             "reason": ""
           },
           {
