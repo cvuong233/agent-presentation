@@ -706,7 +706,7 @@
       "rank": "R3",
       "dayoff": false,
       "note": "",
-      "power": 54.0
+      "power": 55.0
     },
     "duckiecutie": {
       "rank": "R3",
@@ -859,6 +859,12 @@
             "r": "R3",
             "name": "ZzBMT47zz",
             "power": 56.0,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Thiện phương",
+            "power": 55.0,
             "reason": ""
           },
           {
@@ -1085,6 +1091,12 @@
           },
           {
             "r": "R3",
+            "name": "Thiện phương",
+            "power": 55.0,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "El Coderito",
             "power": 52.7,
             "reason": ""
@@ -1130,7 +1142,9 @@
             "name": "PewPewBoi",
             "power": 44.0,
             "reason": ""
-          },
+          }
+        ],
+        "subs": [
           {
             "r": "R3",
             "name": "Mèo Sunshine",
@@ -1138,7 +1152,6 @@
             "reason": ""
           }
         ],
-        "subs": [],
         "dayoff": [],
         "slot": "A",
         "maxMain": 20,
