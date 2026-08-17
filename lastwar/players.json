@@ -410,8 +410,7 @@
     },
     "MrAugust2886": {
       "rank": "R3",
-      "power": 52.0,
-      "yc_hn": 1
+      "power": 52.0
     },
     "tâm1980": {
       "rank": "R3",
@@ -613,8 +612,7 @@
     },
     "Kute Gold": {
       "rank": "R3",
-      "power": 52.5,
-      "yc_hn": 1
+      "power": 52.5
     },
     "TusEngland": {
       "rank": "R4",
@@ -1347,7 +1345,19 @@
           },
           {
             "r": "R3",
+            "name": "Kute Gold",
+            "power": 52.5,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "sửa máy promax",
+            "power": 52.0,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "MrAugust2886",
             "power": 52.0,
             "reason": ""
           },
@@ -1443,18 +1453,6 @@
           }
         ],
         "subs": [
-          {
-            "r": "R3",
-            "name": "Kute Gold",
-            "power": 52.5,
-            "reason": ""
-          },
-          {
-            "r": "R3",
-            "name": "MrAugust2886",
-            "power": 52.0,
-            "reason": ""
-          },
           {
             "r": "R3",
             "name": "NgocNamBoss",
