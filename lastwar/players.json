@@ -333,7 +333,7 @@
     },
     "Nguyenngoctuan": {
       "rank": "R3",
-      "power": 43.0
+      "power": 44.0
     },
     "anh thợ sửa máy": {
       "rank": "R3"
@@ -370,7 +370,8 @@
       "yc_sm": 1
     },
     "Marines Malevolent": {
-      "rank": "R3"
+      "rank": "R3",
+      "power": 46.5
     },
     "PewPewBoi": {
       "rank": "R3",
@@ -1134,32 +1135,29 @@
           },
           {
             "r": "R3",
-            "name": "Thanhh Tân",
-            "power": 46.3,
+            "name": "Marines Malevolent",
+            "power": 46.5,
             "reason": ""
           }
         ],
         "subs": [
           {
             "r": "R3",
-            "name": "NorthFog",
-            "power": 46.2,
-            "reason": "yc_sm=1"
-          }
-        ],
-        "dayoff": [],
-        "slot": "B",
-        "maxMain": 20,
-        "maxSubs": 10,
-        "date": "2026-08-22",
-        "time": "08:30 ICT",
-        "period": "morning",
-        "waiting": [
+            "name": "Thanhh Tân",
+            "power": 46.3,
+            "reason": ""
+          },
           {
             "r": "R3",
             "name": "Chivas2026",
             "power": 46.29,
             "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "NorthFog",
+            "power": 46.2,
+            "reason": "yc_sm=1"
           },
           {
             "r": "R3",
@@ -1193,20 +1191,30 @@
           },
           {
             "r": "R3",
+            "name": "Nguyenngoctuan",
+            "power": 44.0,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "Tommy4014",
             "power": 43.9,
             "reason": ""
-          },
+          }
+        ],
+        "dayoff": [],
+        "slot": "B",
+        "maxMain": 20,
+        "maxSubs": 10,
+        "date": "2026-08-22",
+        "time": "08:30 ICT",
+        "period": "morning",
+        "waiting": [
           {
             "r": "R3",
             "name": "Khánhh Báooo",
             "power": 42.0,
             "reason": ""
-          },
-          {
-            "r": "R4",
-            "name": "Rymi68",
-            "reason": "no stored power"
           }
         ]
       }
@@ -1514,6 +1522,12 @@
           },
           {
             "r": "R3",
+            "name": "Marines Malevolent",
+            "power": 46.5,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "Thanhh Tân",
             "power": 46.3,
             "reason": ""
@@ -1529,12 +1543,6 @@
             "name": "NorthFog",
             "power": 46.2,
             "reason": ""
-          },
-          {
-            "r": "R3",
-            "name": "Orion Là Chocopie",
-            "power": 46.0,
-            "reason": ""
           }
         ],
         "subs": [
@@ -1543,19 +1551,16 @@
             "name": "Hemerage",
             "power": 49.6,
             "reason": "yc_hn=1"
-          }
-        ],
-        "dayoff": [],
-        "slot": "B",
-        "maxMain": 20,
-        "maxSubs": 10,
-        "date": "2026-08-21",
-        "time": "08:30 ICT",
-        "period": "morning 08:30",
-        "waiting": [
+          },
           {
             "r": "R3",
             "name": "Phạm khánhh",
+            "power": 46.0,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Orion Là Chocopie",
             "power": 46.0,
             "reason": ""
           },
@@ -1573,6 +1578,12 @@
           },
           {
             "r": "R3",
+            "name": "Nguyenngoctuan",
+            "power": 44.0,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "Tommy4014",
             "power": 43.9,
             "reason": ""
@@ -1583,7 +1594,15 @@
             "power": 42.0,
             "reason": ""
           }
-        ]
+        ],
+        "dayoff": [],
+        "slot": "B",
+        "maxMain": 20,
+        "maxSubs": 10,
+        "date": "2026-08-21",
+        "time": "08:30 ICT",
+        "period": "morning 08:30",
+        "waiting": []
       }
     }
   },
