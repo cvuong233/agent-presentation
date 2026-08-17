@@ -427,7 +427,7 @@
     },
     "SanTa 1386": {
       "rank": "R3",
-      "power": 43.7,
+      "power": 44.8,
       "yc_hn": 1
     },
     "cu tí nhỏ xíu": {
@@ -567,7 +567,7 @@
     },
     "sửa máy promax": {
       "rank": "R3",
-      "power": 50.3
+      "power": 52.0
     },
     "No CommenT": {
       "rank": "R2"
@@ -658,7 +658,7 @@
     "tRnuOwn9f 795": {
       "rank": "R3",
       "note": "",
-      "power": 46.7,
+      "power": 48.0,
       "yc_sm": 1
     },
     "Bắp đại ca": {
@@ -676,7 +676,7 @@
       "rank": "R3",
       "dayoff": false,
       "note": "",
-      "power": 50.7
+      "power": 50.8
     },
     "Zyn1998 n": {
       "rank": "R2",
@@ -795,7 +795,8 @@
       "yc_sm": 1
     },
     "KhoaiTây83": {
-      "rank": "R1"
+      "rank": "R1",
+      "power": 47.1
     },
     "Bạch Long Mã": {
       "rank": "R3"
@@ -887,6 +888,12 @@
           },
           {
             "r": "R3",
+            "name": "ᵛᶰ Đậu Hũ",
+            "power": 50.8,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "Cúc Hoa Long Lanh",
             "power": 49.5,
             "reason": ""
@@ -953,6 +960,12 @@
           },
           {
             "r": "R3",
+            "name": "sửa máy promax",
+            "power": 52.0,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "Kendy Nguyên 86",
             "power": 51.0,
             "reason": ""
@@ -972,6 +985,12 @@
           {
             "r": "R3",
             "name": "danhoanh",
+            "power": 47.1,
+            "reason": ""
+          },
+          {
+            "r": "R1",
+            "name": "KhoaiTây83",
             "power": 47.1,
             "reason": ""
           },
@@ -1019,6 +1038,12 @@
           },
           {
             "r": "R3",
+            "name": "SanTa 1386",
+            "power": 44.8,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "Tommy4014",
             "power": 43.9,
             "reason": ""
@@ -1035,6 +1060,12 @@
             "r": "R3",
             "name": "Sầu riêng m7",
             "power": 48.7,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "tRnuOwn9f 795",
+            "power": 48.0,
             "reason": ""
           }
         ],
@@ -1135,7 +1166,7 @@
           {
             "r": "R3",
             "name": "ᵛᶰ Đậu Hũ",
-            "power": 50.7,
+            "power": 50.8,
             "reason": ""
           },
           {
@@ -1206,6 +1237,12 @@
           },
           {
             "r": "R3",
+            "name": "sửa máy promax",
+            "power": 52.0,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "Kendy Nguyên 86",
             "power": 51.0,
             "reason": ""
@@ -1224,7 +1261,19 @@
           },
           {
             "r": "R3",
+            "name": "tRnuOwn9f 795",
+            "power": 48.0,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "danhoanh",
+            "power": 47.1,
+            "reason": ""
+          },
+          {
+            "r": "R1",
+            "name": "KhoaiTây83",
             "power": 47.1,
             "reason": ""
           },
@@ -1277,7 +1326,14 @@
             "reason": ""
           }
         ],
-        "subs": [],
+        "subs": [
+          {
+            "r": "R3",
+            "name": "SanTa 1386",
+            "power": 44.8,
+            "reason": ""
+          }
+        ],
         "dayoff": [],
         "slot": "B",
         "maxMain": 20,
