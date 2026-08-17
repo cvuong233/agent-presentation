@@ -1032,6 +1032,11 @@
             "pos": "science"
           },
           {
+            "r": "R4",
+            "name": "Rymi68",
+            "reason": "R4"
+          },
+          {
             "r": "R3",
             "name": "Bạch Long Mã",
             "power": 54.0,
@@ -1132,15 +1137,15 @@
             "name": "NgocNamBoss",
             "power": 46.97,
             "reason": ""
-          },
+          }
+        ],
+        "subs": [
           {
             "r": "R3",
             "name": "Marines Malevolent",
             "power": 46.5,
             "reason": ""
-          }
-        ],
-        "subs": [
+          },
           {
             "r": "R3",
             "name": "Thanhh Tân",
@@ -1194,12 +1199,6 @@
             "name": "Nguyenngoctuan",
             "power": 44.0,
             "reason": ""
-          },
-          {
-            "r": "R3",
-            "name": "Tommy4014",
-            "power": 43.9,
-            "reason": ""
           }
         ],
         "dayoff": [],
@@ -1210,6 +1209,12 @@
         "time": "08:30 ICT",
         "period": "morning",
         "waiting": [
+          {
+            "r": "R3",
+            "name": "Tommy4014",
+            "power": 43.9,
+            "reason": ""
+          },
           {
             "r": "R3",
             "name": "Khánhh Báooo",
