@@ -329,7 +329,7 @@
     },
     "Shashank1411": {
       "rank": "R3",
-      "power": 47.16
+      "power": 49.02
     },
     "Nguyenngoctuan": {
       "rank": "R3",
@@ -366,7 +366,7 @@
     },
     "NorthFog": {
       "rank": "R3",
-      "power": 45.2,
+      "power": 46.2,
       "yc_sm": 1
     },
     "Marines Malevolent": {
@@ -1080,6 +1080,12 @@
           },
           {
             "r": "R3",
+            "name": "Shashank1411",
+            "power": 49.02,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "RùaNgáo",
             "power": 48.8,
             "reason": ""
@@ -1131,15 +1137,16 @@
             "name": "Thanhh Tân",
             "power": 46.3,
             "reason": ""
-          },
-          {
-            "r": "R3",
-            "name": "Chivas2026",
-            "power": 46.29,
-            "reason": ""
           }
         ],
-        "subs": [],
+        "subs": [
+          {
+            "r": "R3",
+            "name": "NorthFog",
+            "power": 46.2,
+            "reason": "yc_sm=1"
+          }
+        ],
         "dayoff": [],
         "slot": "B",
         "maxMain": 20,
@@ -1148,6 +1155,12 @@
         "time": "08:30 ICT",
         "period": "morning",
         "waiting": [
+          {
+            "r": "R3",
+            "name": "Chivas2026",
+            "power": 46.29,
+            "reason": ""
+          },
           {
             "r": "R3",
             "name": "Orion Là Chocopie",
@@ -1453,6 +1466,12 @@
           },
           {
             "r": "R3",
+            "name": "Shashank1411",
+            "power": 49.02,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "RùaNgáo",
             "power": 48.8,
             "reason": ""
@@ -1507,20 +1526,14 @@
           },
           {
             "r": "R3",
+            "name": "NorthFog",
+            "power": 46.2,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "Orion Là Chocopie",
             "power": 46.0,
-            "reason": ""
-          },
-          {
-            "r": "R3",
-            "name": "Phạm khánhh",
-            "power": 46.0,
-            "reason": ""
-          },
-          {
-            "r": "R3",
-            "name": "SanTa 1386",
-            "power": 44.8,
             "reason": ""
           }
         ],
@@ -1540,6 +1553,18 @@
         "time": "08:30 ICT",
         "period": "morning 08:30",
         "waiting": [
+          {
+            "r": "R3",
+            "name": "Phạm khánhh",
+            "power": 46.0,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "SanTa 1386",
+            "power": 44.8,
+            "reason": ""
+          },
           {
             "r": "R3",
             "name": "Trai Cầu Tõm",
