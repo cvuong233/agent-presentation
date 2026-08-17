@@ -700,7 +700,7 @@
       "rank": "R3",
       "dayoff": false,
       "note": "",
-      "power": 42.0
+      "power": 44.0
     },
     "Thiện phương": {
       "rank": "R3",
@@ -900,6 +900,12 @@
           {
             "r": "R3",
             "name": "PewPewBoi",
+            "power": 44.0,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Mèo Sunshine",
             "power": 44.0,
             "reason": ""
           }
@@ -1122,6 +1128,12 @@
           {
             "r": "R3",
             "name": "PewPewBoi",
+            "power": 44.0,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Mèo Sunshine",
             "power": 44.0,
             "reason": ""
           }
