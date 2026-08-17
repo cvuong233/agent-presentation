@@ -370,8 +370,7 @@
     },
     "PewPewBoi": {
       "rank": "R3",
-      "power": 44.0,
-      "yc_hn": 1
+      "power": 44.0
     },
     "RùaNgáo": {
       "rank": "R3",
@@ -396,8 +395,7 @@
     },
     "NgocNamBoss": {
       "rank": "R3",
-      "power": 46.97,
-      "yc_hn": 1
+      "power": 46.97
     },
     "e Asche": {
       "rank": "R3",
@@ -414,8 +412,7 @@
     },
     "tâm1980": {
       "rank": "R3",
-      "power": 47.0,
-      "yc_hn": 1
+      "power": 47.0
     },
     "Khanhanh96": {
       "rank": "R3"
@@ -566,8 +563,7 @@
     },
     "Trai Cầu Tõm": {
       "rank": "R3",
-      "power": 44.8,
-      "yc_hn": 1
+      "power": 44.8
     },
     "MR Dương": {
       "rank": "R3",
@@ -692,8 +688,7 @@
     "Zyn1998 n": {
       "rank": "R2",
       "dayoff": false,
-      "note": "",
-      "yc_hn": 1
+      "note": ""
     },
     "Hoàng Hậuu": {
       "rank": "R2",
@@ -1411,6 +1406,12 @@
           },
           {
             "r": "R3",
+            "name": "NgocNamBoss",
+            "power": 46.97,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "Thanhh Tân",
             "power": 46.3,
             "reason": ""
@@ -1441,6 +1442,14 @@
           },
           {
             "r": "R3",
+            "name": "Trai Cầu Tõm",
+            "power": 44.8,
+            "reason": ""
+          }
+        ],
+        "subs": [
+          {
+            "r": "R3",
             "name": "Tommy4014",
             "power": 43.9,
             "reason": ""
@@ -1449,20 +1458,6 @@
             "r": "R3",
             "name": "Khánhh Báooo",
             "power": 42.0,
-            "reason": ""
-          }
-        ],
-        "subs": [
-          {
-            "r": "R3",
-            "name": "NgocNamBoss",
-            "power": 46.97,
-            "reason": ""
-          },
-          {
-            "r": "R3",
-            "name": "Trai Cầu Tõm",
-            "power": 44.8,
             "reason": ""
           }
         ],
