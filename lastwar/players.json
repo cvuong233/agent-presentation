@@ -799,6 +799,10 @@
     },
     "Bạch Long Mã": {
       "rank": "R3"
+    },
+    "Rio Gia Huy": {
+      "rank": "R3",
+      "power": 57.0
     }
   },
   "next_lineup": {
@@ -844,6 +848,12 @@
             "r": "R4",
             "name": "Tài Béooo",
             "reason": "R4"
+          },
+          {
+            "r": "R3",
+            "name": "Rio Gia Huy",
+            "power": 57.0,
+            "reason": ""
           },
           {
             "r": "R3",
@@ -1048,6 +1058,12 @@
             "r": "R4",
             "name": "Tài Béooo",
             "reason": "R4"
+          },
+          {
+            "r": "R3",
+            "name": "Rio Gia Huy",
+            "power": 57.0,
+            "reason": ""
           },
           {
             "r": "R3",
