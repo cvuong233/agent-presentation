@@ -315,7 +315,7 @@
     },
     "Hemerage": {
       "rank": "R3",
-      "power": 48.35,
+      "power": 49.6,
       "yc_hn": 1
     },
     "zdevils": {
@@ -1031,11 +1031,6 @@
             "pos": "science"
           },
           {
-            "r": "R4",
-            "name": "Rymi68",
-            "reason": "R4"
-          },
-          {
             "r": "R3",
             "name": "Bạch Long Mã",
             "power": 54.0,
@@ -1075,6 +1070,12 @@
             "r": "R2",
             "name": "Bơ Bắp 1",
             "power": 51.0,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Hemerage",
+            "power": 49.6,
             "reason": ""
           },
           {
@@ -1138,7 +1139,15 @@
             "reason": ""
           }
         ],
-        "subs": [
+        "subs": [],
+        "dayoff": [],
+        "slot": "B",
+        "maxMain": 20,
+        "maxSubs": 10,
+        "date": "2026-08-22",
+        "time": "08:30 ICT",
+        "period": "morning",
+        "waiting": [
           {
             "r": "R3",
             "name": "Orion Là Chocopie",
@@ -1180,16 +1189,13 @@
             "name": "Khánhh Báooo",
             "power": 42.0,
             "reason": ""
+          },
+          {
+            "r": "R4",
+            "name": "Rymi68",
+            "reason": "no stored power"
           }
-        ],
-        "dayoff": [],
-        "slot": "B",
-        "maxMain": 20,
-        "maxSubs": 10,
-        "date": "2026-08-22",
-        "time": "08:30 ICT",
-        "period": "morning",
-        "waiting": []
+        ]
       }
     },
     "hn": {
@@ -1521,6 +1527,21 @@
         "subs": [
           {
             "r": "R3",
+            "name": "Hemerage",
+            "power": 49.6,
+            "reason": "yc_hn=1"
+          }
+        ],
+        "dayoff": [],
+        "slot": "B",
+        "maxMain": 20,
+        "maxSubs": 10,
+        "date": "2026-08-21",
+        "time": "08:30 ICT",
+        "period": "morning 08:30",
+        "waiting": [
+          {
+            "r": "R3",
             "name": "Trai Cầu Tõm",
             "power": 44.8,
             "reason": ""
@@ -1537,15 +1558,7 @@
             "power": 42.0,
             "reason": ""
           }
-        ],
-        "dayoff": [],
-        "slot": "B",
-        "maxMain": 20,
-        "maxSubs": 10,
-        "date": "2026-08-21",
-        "time": "08:30 ICT",
-        "period": "morning 08:30",
-        "waiting": []
+        ]
       }
     }
   },
