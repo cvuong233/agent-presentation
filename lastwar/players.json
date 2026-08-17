@@ -384,7 +384,7 @@
     },
     "Thanhh Tân": {
       "rank": "R3",
-      "power": 45.0
+      "power": 46.3
     },
     "Tommy4014": {
       "rank": "R3",
@@ -1083,6 +1083,12 @@
           },
           {
             "r": "R3",
+            "name": "Thanhh Tân",
+            "power": 46.3,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "Chivas2026",
             "power": 46.29,
             "reason": ""
@@ -1098,15 +1104,15 @@
             "name": "Phạm khánhh",
             "power": 46.0,
             "reason": ""
-          },
+          }
+        ],
+        "subs": [
           {
             "r": "R3",
             "name": "Yunnin",
             "power": 45.48,
             "reason": ""
-          }
-        ],
-        "subs": [
+          },
           {
             "r": "R3",
             "name": "Trai Cầu Tõm",
@@ -1368,6 +1374,12 @@
             "r": "R3",
             "name": "ThíchThìNhích92",
             "power": 47.0,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Thanhh Tân",
+            "power": 46.3,
             "reason": ""
           },
           {
