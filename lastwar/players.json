@@ -916,6 +916,12 @@
           },
           {
             "r": "R3",
+            "name": "MrAugust2886",
+            "power": 52.0,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "duckiecutie",
             "power": 51.7,
             "reason": ""
@@ -931,15 +937,15 @@
             "name": "Yến Nhi NT",
             "power": 51.1,
             "reason": ""
-          },
+          }
+        ],
+        "subs": [
           {
             "r": "R3",
             "name": "zdevils",
             "power": 51.0,
             "reason": ""
-          }
-        ],
-        "subs": [
+          },
           {
             "r": "R3",
             "name": "ᵛᶰ Đậu Hũ",
@@ -993,12 +999,6 @@
             "name": "PewPewBoi",
             "power": 44.0,
             "reason": ""
-          },
-          {
-            "r": "R3",
-            "name": "Mèo Sunshine",
-            "power": 44.0,
-            "reason": ""
           }
         ],
         "dayoff": [],
@@ -1009,6 +1009,12 @@
         "time": "18:30 ICT",
         "period": "evening",
         "waiting": [
+          {
+            "r": "R3",
+            "name": "Mèo Sunshine",
+            "power": 44.0,
+            "reason": ""
+          },
           {
             "r": "R3",
             "name": "KYLEPHAM2401",
@@ -1051,12 +1057,6 @@
           {
             "r": "R3",
             "name": "sửa máy promax",
-            "power": 52.0,
-            "reason": ""
-          },
-          {
-            "r": "R3",
-            "name": "MrAugust2886",
             "power": 52.0,
             "reason": ""
           },
@@ -1137,15 +1137,15 @@
             "name": "ThíchThìNhích92",
             "power": 47.0,
             "reason": ""
-          }
-        ],
-        "subs": [
+          },
           {
             "r": "R3",
             "name": "NgocNamBoss",
             "power": 46.97,
             "reason": ""
-          },
+          }
+        ],
+        "subs": [
           {
             "r": "R3",
             "name": "Marines Malevolent",
@@ -1199,6 +1199,12 @@
             "name": "SanTa 1386",
             "power": 44.8,
             "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Nguyenngoctuan",
+            "power": 44.0,
+            "reason": ""
           }
         ],
         "dayoff": [],
@@ -1209,12 +1215,6 @@
         "time": "08:30 ICT",
         "period": "morning",
         "waiting": [
-          {
-            "r": "R3",
-            "name": "Nguyenngoctuan",
-            "power": 44.0,
-            "reason": ""
-          },
           {
             "r": "R3",
             "name": "Tommy4014",
