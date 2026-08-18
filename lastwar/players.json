@@ -631,7 +631,7 @@
     "Bin 37": {
       "rank": "R3",
       "note": "",
-      "power": 48.0
+      "power": 50.0
     },
     "VN Đậu Hũ": {
       "rank": "R2",
@@ -1097,6 +1097,12 @@
           },
           {
             "r": "R3",
+            "name": "Bin 37",
+            "power": 50.0,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "Hemerage",
             "power": 49.6,
             "reason": ""
@@ -1148,15 +1154,15 @@
             "name": "ThíchThìNhích92",
             "power": 47.0,
             "reason": ""
-          },
+          }
+        ],
+        "subs": [
           {
             "r": "R3",
             "name": "NgocNamBoss",
             "power": 46.97,
             "reason": ""
-          }
-        ],
-        "subs": [
+          },
           {
             "r": "R3",
             "name": "Marines Malevolent",
@@ -1210,12 +1216,6 @@
             "name": "SanTa 1386",
             "power": 44.8,
             "reason": ""
-          },
-          {
-            "r": "R3",
-            "name": "Nguyenngoctuan",
-            "power": 44.0,
-            "reason": ""
           }
         ],
         "dayoff": [],
@@ -1226,6 +1226,12 @@
         "time": "08:30 ICT",
         "period": "morning",
         "waiting": [
+          {
+            "r": "R3",
+            "name": "Nguyenngoctuan",
+            "power": 44.0,
+            "reason": ""
+          },
           {
             "r": "R3",
             "name": "Tommy4014",
