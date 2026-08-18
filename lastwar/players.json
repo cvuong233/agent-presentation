@@ -146,7 +146,8 @@
       "上官武命",
       "KhoaiTây83",
       "Rio Gia Huy",
-      "Lil Hen Hen"
+      "Lil Hen Hen",
+      "Lil Sal Sal"
     ]
   },
   "last_matches": {
@@ -820,6 +821,10 @@
     "Lil Hen Hen": {
       "rank": "R1",
       "power": 58.4
+    },
+    "Lil Sal Sal": {
+      "rank": "R1",
+      "power": 58.5
     }
   },
   "next_lineup": {
@@ -865,6 +870,12 @@
             "r": "R4",
             "name": "Tài Béooo",
             "reason": "R4"
+          },
+          {
+            "r": "R1",
+            "name": "Lil Sal Sal",
+            "power": 58.5,
+            "reason": ""
           },
           {
             "r": "R1",
@@ -931,15 +942,15 @@
             "name": "Sói Ken",
             "power": 51.4,
             "reason": ""
-          },
+          }
+        ],
+        "subs": [
           {
             "r": "R3",
             "name": "Yến Nhi NT",
             "power": 51.1,
             "reason": ""
-          }
-        ],
-        "subs": [
+          },
           {
             "r": "R3",
             "name": "zdevils",
@@ -993,12 +1004,6 @@
             "name": "NHBảoLong",
             "power": 45.0,
             "reason": ""
-          },
-          {
-            "r": "R3",
-            "name": "PewPewBoi",
-            "power": 44.0,
-            "reason": ""
           }
         ],
         "dayoff": [],
@@ -1012,6 +1017,12 @@
           {
             "r": "R3",
             "name": "Mèo Sunshine",
+            "power": 44.0,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "PewPewBoi",
             "power": 44.0,
             "reason": ""
           },
