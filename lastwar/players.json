@@ -348,7 +348,7 @@
     },
     "Đập Chai": {
       "rank": "R3",
-      "power": 46.0,
+      "power": 46.5,
       "yc_hn": 0
     },
     "công chúa lavie": {
@@ -1171,6 +1171,12 @@
           },
           {
             "r": "R3",
+            "name": "Đập Chai",
+            "power": 46.5,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "Thanhh Tân",
             "power": 46.3,
             "reason": ""
@@ -1210,12 +1216,6 @@
             "name": "Trai Cầu Tõm",
             "power": 44.8,
             "reason": ""
-          },
-          {
-            "r": "R3",
-            "name": "SanTa 1386",
-            "power": 44.8,
-            "reason": ""
           }
         ],
         "dayoff": [],
@@ -1226,6 +1226,12 @@
         "time": "08:30 ICT",
         "period": "morning",
         "waiting": [
+          {
+            "r": "R3",
+            "name": "SanTa 1386",
+            "power": 44.8,
+            "reason": ""
+          },
           {
             "r": "R3",
             "name": "Nguyenngoctuan",
