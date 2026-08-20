@@ -1264,12 +1264,14 @@
           {
             "r": "R4",
             "name": "cường khùng",
-            "reason": "R4"
+            "reason": "R4",
+            "pos": "sr 2"
           },
           {
             "r": "R4",
             "name": "LinLin",
-            "reason": "R4"
+            "reason": "R4",
+            "pos": "df"
           },
           {
             "r": "R4",
@@ -1289,7 +1291,8 @@
           {
             "r": "R4",
             "name": "wolfwitch",
-            "reason": "R4"
+            "reason": "R4",
+            "pos": "sr 1"
           },
           {
             "r": "R4",
@@ -1329,13 +1332,15 @@
             "r": "R3",
             "name": "El Coderito",
             "power": 52.7,
-            "reason": ""
+            "reason": "",
+            "pos": "df 1"
           },
           {
             "r": "R3",
             "name": "Tom and Jerry 9999",
             "power": 52.6,
-            "reason": ""
+            "reason": "",
+            "pos": "sr 2"
           },
           {
             "r": "R3",
@@ -1354,13 +1359,15 @@
             "r": "R3",
             "name": "Yến Nhi NT",
             "power": 51.1,
-            "reason": ""
+            "reason": "",
+            "pos": "sw 3"
           },
           {
             "r": "R3",
             "name": "zdevils",
             "power": 51.0,
-            "reason": ""
+            "reason": "",
+            "pos": "srr 1"
           },
           {
             "r": "R3",
