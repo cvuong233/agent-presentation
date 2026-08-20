@@ -1483,120 +1483,140 @@
           {
             "r": "R4",
             "name": "Hải Anh 0612",
-            "reason": "R4"
+            "reason": "R4",
+            "pos": "vr"
           },
           {
             "r": "R4",
             "name": "yologuy",
-            "reason": "R4"
+            "reason": "R4",
+            "pos": "df 1"
           },
           {
             "r": "R3",
             "name": "Bạch Long Mã",
             "power": 54.0,
-            "reason": ""
+            "reason": "",
+            "pos": "vr"
           },
           {
             "r": "R3",
             "name": "Kute Gold",
             "power": 52.5,
-            "reason": ""
+            "reason": "",
+            "pos": "pw"
           },
           {
             "r": "R3",
             "name": "sửa máy promax",
             "power": 52.0,
-            "reason": ""
+            "reason": "",
+            "pos": "sr 1"
           },
           {
             "r": "R3",
             "name": "MrAugust2886",
             "power": 52.0,
-            "reason": ""
+            "reason": "",
+            "pos": "pw"
           },
           {
             "r": "R3",
             "name": "Kendy Nguyên 86",
             "power": 51.0,
-            "reason": ""
+            "reason": "",
+            "pos": "df 2"
           },
           {
             "r": "R2",
             "name": "Bơ Bắp 1",
             "power": 51.0,
-            "reason": ""
+            "reason": "",
+            "pos": "sr 2"
           },
           {
             "r": "R3",
             "name": "Shashank1411",
             "power": 49.02,
-            "reason": ""
+            "reason": "",
+            "pos": "sr 1"
           },
           {
             "r": "R3",
             "name": "RùaNgáo",
             "power": 48.8,
-            "reason": ""
+            "reason": "",
+            "pos": "df 2"
           },
           {
             "r": "R3",
             "name": "Clone or Sou",
             "power": 48.0,
-            "reason": ""
+            "reason": "",
+            "pos": "df 1"
           },
           {
             "r": "R3",
             "name": "tRnuOwn9f 795",
             "power": 48.0,
-            "reason": ""
+            "reason": "",
+            "pos": "data 2"
           },
           {
             "r": "R3",
             "name": "danhoanh",
             "power": 47.1,
-            "reason": ""
+            "reason": "",
+            "pos": "sw 1"
           },
           {
             "r": "R1",
             "name": "KhoaiTây83",
             "power": 47.1,
-            "reason": ""
+            "reason": "",
+            "pos": "sw 1"
           },
           {
             "r": "R3",
             "name": "ThíchThìNhích92",
             "power": 47.0,
-            "reason": ""
+            "reason": "",
+            "pos": "sw 4"
           },
           {
             "r": "R3",
             "name": "NgocNamBoss",
             "power": 46.97,
-            "reason": ""
+            "reason": "",
+            "pos": "df 2"
           },
           {
             "r": "R3",
             "name": "Marines Malevolent",
             "power": 46.5,
-            "reason": ""
+            "reason": "",
+            "pos": "sw 3"
           },
           {
             "r": "R3",
             "name": "Thanhh Tân",
             "power": 46.3,
-            "reason": ""
+            "reason": "",
+            "pos": "data 1"
           },
           {
             "r": "R3",
             "name": "Chivas2026",
             "power": 46.29,
-            "reason": ""
+            "reason": "",
+            "pos": "sw 4"
           },
           {
             "r": "R3",
             "name": "NorthFog",
             "power": 46.2,
-            "reason": ""
+            "reason": "",
+            "pos": "sw 2"
           }
         ],
         "subs": [
