@@ -1259,7 +1259,8 @@
           {
             "r": "R5",
             "name": "Lerxinhiu",
-            "reason": "R5"
+            "reason": "R5",
+            "pos": "pw"
           },
           {
             "r": "R4",
@@ -1271,22 +1272,25 @@
             "r": "R4",
             "name": "LinLin",
             "reason": "R4",
-            "pos": "df"
+            "pos": "df 1"
           },
           {
             "r": "R4",
             "name": "Rymi68",
-            "reason": "R4"
+            "reason": "R4",
+            "pos": "pw"
           },
           {
             "r": "R4",
             "name": "Haizzzzzzzzzzzz",
-            "reason": "R4"
+            "reason": "R4",
+            "pos": "df 2"
           },
           {
             "r": "R4",
             "name": "TusEngland",
-            "reason": "R4"
+            "reason": "R4",
+            "pos": "vr"
           },
           {
             "r": "R4",
@@ -1297,36 +1301,42 @@
           {
             "r": "R4",
             "name": "PTKhang RiO",
-            "reason": "R4"
+            "reason": "R4",
+            "pos": "vr"
           },
           {
             "r": "R4",
             "name": "Tài Béooo",
-            "reason": "R4"
+            "reason": "R4",
+            "pos": "vr"
           },
           {
             "r": "R1",
             "name": "Rio Gia Huy",
             "power": 57.0,
-            "reason": ""
+            "reason": "",
+            "pos": "vr"
           },
           {
             "r": "R3",
             "name": "ZzBMT47zz",
             "power": 56.0,
-            "reason": ""
+            "reason": "",
+            "pos": "pw"
           },
           {
             "r": "R3",
             "name": "Deptraitube2012",
             "power": 56.0,
-            "reason": ""
+            "reason": "",
+            "pos": "pw"
           },
           {
             "r": "R3",
             "name": "Thiện phương",
             "power": 55.0,
-            "reason": ""
+            "reason": "",
+            "pos": "df 2"
           },
           {
             "r": "R3",
@@ -1353,7 +1363,8 @@
             "r": "R3",
             "name": "e Asche",
             "power": 51.3,
-            "reason": ""
+            "reason": "",
+            "pos": "data 1 - 2"
           },
           {
             "r": "R3",
