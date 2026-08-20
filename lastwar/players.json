@@ -1341,7 +1341,8 @@
             "r": "R3",
             "name": "duckiecutie",
             "power": 51.7,
-            "reason": ""
+            "reason": "",
+            "pos": "sw 2"
           },
           {
             "r": "R3",
@@ -1365,7 +1366,8 @@
             "r": "R3",
             "name": "ᵛᶰ Đậu Hũ",
             "power": 50.8,
-            "reason": ""
+            "reason": "",
+            "pos": "sw 1"
           }
         ],
         "subs": [
@@ -1647,7 +1649,10 @@
     },
     "hn": {
       "A": [
-        {"name": "Lil Hen Hen", "r": "R1"}
+        {
+          "name": "Lil Hen Hen",
+          "r": "R1"
+        }
       ],
       "B": []
     }
