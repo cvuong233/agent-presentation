@@ -839,12 +839,14 @@
           {
             "r": "R4",
             "name": "cường khùng",
-            "reason": "R4"
+            "reason": "R4",
+            "pos": "hos 1"
           },
           {
             "r": "R4",
             "name": "LinLin",
-            "reason": "R4"
+            "reason": "R4",
+            "pos": "fac"
           },
           {
             "r": "R4",
@@ -854,12 +856,14 @@
           {
             "r": "R4",
             "name": "wolfwitch",
-            "reason": "R4"
+            "reason": "R4",
+            "pos": "science"
           },
           {
             "r": "R4",
             "name": "Haizzzzzzzzzzzz",
-            "reason": "R4"
+            "reason": "R4",
+            "pos": "science"
           },
           {
             "r": "R4",
@@ -869,79 +873,92 @@
           {
             "r": "R4",
             "name": "Tài Béooo",
-            "reason": "R4"
+            "reason": "R4",
+            "pos": "oil 2"
           },
           {
             "r": "R1",
             "name": "Lil Sal Sal",
             "power": 58.5,
-            "reason": ""
+            "reason": "",
+            "pos": "oil 1"
           },
           {
             "r": "R1",
             "name": "Lil Hen Hen",
             "power": 58.4,
-            "reason": ""
+            "reason": "",
+            "pos": "science"
           },
           {
             "r": "R1",
             "name": "Rio Gia Huy",
             "power": 57.0,
-            "reason": ""
+            "reason": "",
+            "pos": "arsenal"
           },
           {
             "r": "R3",
             "name": "ZzBMT47zz",
             "power": 56.0,
-            "reason": ""
+            "reason": "",
+            "pos": "oil 1"
           },
           {
             "r": "R3",
             "name": "Deptraitube2012",
             "power": 56.0,
-            "reason": ""
+            "reason": "",
+            "pos": "oil 1"
           },
           {
             "r": "R3",
             "name": "Thiện phương",
             "power": 55.0,
-            "reason": ""
+            "reason": "",
+            "pos": "oil 2"
           },
           {
             "r": "R3",
             "name": "El Coderito",
             "power": 52.7,
-            "reason": ""
+            "reason": "",
+            "pos": "hos 4"
           },
           {
             "r": "R3",
             "name": "Tom and Jerry 9999",
             "power": 52.6,
-            "reason": ""
+            "reason": "",
+            "pos": "hos 2"
           },
           {
             "r": "R3",
             "name": "Sting Chanh",
             "power": 52.3,
-            "reason": ""
+            "reason": "",
+            "pos": "hos 4"
           },
           {
             "r": "R3",
             "name": "MrAugust2886",
             "power": 52.0,
-            "reason": ""
+            "reason": "",
+            "pos": "hos 1"
           },
           {
             "r": "R3",
             "name": "duckiecutie",
             "power": 51.7,
-            "reason": ""
+            "reason": "",
+            "pos": "oil 2"
           },
           {
             "r": "R3",
             "name": "Sói Ken",
             "power": 51.4,
-            "reason": ""
+            "reason": "",
+            "pos": "hos 2"
           }
         ],
         "subs": [
