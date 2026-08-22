@@ -405,7 +405,7 @@
     },
     "NgocNamBoss": {
       "rank": "R3",
-      "power": 46.97
+      "power": 47.35
     },
     "e Asche": {
       "rank": "R3",
@@ -695,7 +695,7 @@
       "rank": "R3",
       "dayoff": false,
       "note": "",
-      "power": 50.8
+      "power": 51.3
     },
     "Zyn1998 n": {
       "rank": "R2",
@@ -913,6 +913,12 @@
             "name": "yologuy",
             "reason": "R4",
             "pos": "science"
+          },
+          {
+            "r": "R3",
+            "name": "NgocNamBoss",
+            "power": 47.35,
+            "reason": ""
           }
         ],
         "subs": [],
@@ -1007,6 +1013,18 @@
             "name": "yologuy",
             "reason": "R4",
             "pos": "df 1"
+          },
+          {
+            "r": "R3",
+            "name": "ᵛᶰ Đậu Hũ",
+            "power": 51.3,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "NgocNamBoss",
+            "power": 47.35,
+            "reason": ""
           }
         ],
         "subs": [],
