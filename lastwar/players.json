@@ -4,10 +4,10 @@
     "game": "Last War VN",
     "updated": "2026-08-22",
     "notes": "C V = cường khùng (R4). SM = Bão Sa Mạc (Desert Storm). HN = Bão Hẻm Núi (Canyon Storm). Official model: last_matches = history, next_lineup = editable upcoming lineup. Both battles use 20 main / 10 subs. Lineup sorted by squad power descending. Fixed players (fixed=A/B) are auto-registered into their team each week using their stored power.",
-    "updated_hn_a": "2026-08-17",
-    "updated_hn_b": "2026-08-17",
-    "updated_sm_b": "2026-08-17",
-    "updated_sm_a": "2026-08-17"
+    "updated_hn_a": "2026-08-22",
+    "updated_hn_b": "2026-08-22",
+    "updated_sm_b": "2026-08-22",
+    "updated_sm_a": "2026-08-22"
   },
   "ranks": {
     "R5": [
@@ -863,6 +863,11 @@
           },
           {
             "r": "R4",
+            "name": "Rymi68",
+            "reason": "R4"
+          },
+          {
+            "r": "R4",
             "name": "wolfwitch",
             "reason": "R4",
             "pos": "science"
@@ -883,180 +888,17 @@
             "name": "Tài Béooo",
             "reason": "R4",
             "pos": "oil 2"
-          },
-          {
-            "r": "R1",
-            "name": "Lil Sal Sal",
-            "power": 58.5,
-            "reason": "",
-            "pos": "oil 1"
-          },
-          {
-            "r": "R1",
-            "name": "Lil Hen Hen",
-            "power": 58.4,
-            "reason": "",
-            "pos": "science"
-          },
-          {
-            "r": "R3",
-            "name": "ZzBMT47zz",
-            "power": 56.0,
-            "reason": "",
-            "pos": "oil 1"
-          },
-          {
-            "r": "R3",
-            "name": "Deptraitube2012",
-            "power": 56.0,
-            "reason": "",
-            "pos": "oil 1"
-          },
-          {
-            "r": "R3",
-            "name": "Thiện phương",
-            "power": 55.0,
-            "reason": "",
-            "pos": "oil 2"
-          },
-          {
-            "r": "R3",
-            "name": "El Coderito",
-            "power": 52.7,
-            "reason": "",
-            "pos": "hos 4"
-          },
-          {
-            "r": "R3",
-            "name": "Tom and Jerry 9999",
-            "power": 52.6,
-            "reason": "",
-            "pos": "hos 2"
-          },
-          {
-            "r": "R3",
-            "name": "Sting Chanh",
-            "power": 52.3,
-            "reason": "",
-            "pos": "hos 4"
-          },
-          {
-            "r": "R3",
-            "name": "MrAugust2886",
-            "power": 52.0,
-            "reason": "",
-            "pos": "hos 1"
-          },
-          {
-            "r": "R3",
-            "name": "duckiecutie",
-            "power": 51.7,
-            "reason": "",
-            "pos": "oil 2"
-          },
-          {
-            "r": "R3",
-            "name": "Sói Ken",
-            "power": 51.4,
-            "reason": "",
-            "pos": "hos 2"
-          },
-          {
-            "r": "R3",
-            "name": "zdevils",
-            "power": 51.0,
-            "reason": ""
           }
         ],
-        "subs": [
-          {
-            "r": "R1",
-            "name": "Rio Gia Huy",
-            "power": 57.0,
-            "reason": "yc_sm=1"
-          },
-          {
-            "r": "R3",
-            "name": "Yến Nhi NT",
-            "power": 51.1,
-            "reason": "yc_sm=1"
-          },
-          {
-            "r": "R3",
-            "name": "ᵛᶰ Đậu Hũ",
-            "power": 50.8,
-            "reason": ""
-          },
-          {
-            "r": "R3",
-            "name": "MR Dương",
-            "power": 50.7,
-            "reason": ""
-          },
-          {
-            "r": "R3",
-            "name": "Bắp đại ca",
-            "power": 50.7,
-            "reason": ""
-          },
-          {
-            "r": "R3",
-            "name": "Cúc Hoa Long Lanh",
-            "power": 49.5,
-            "reason": ""
-          },
-          {
-            "r": "R3",
-            "name": "ZEKT",
-            "power": 48.64,
-            "reason": ""
-          },
-          {
-            "r": "R3",
-            "name": "TúTú01",
-            "power": 48,
-            "reason": ""
-          },
-          {
-            "r": "R3",
-            "name": "tâm1980",
-            "power": 47.0,
-            "reason": ""
-          },
-          {
-            "r": "R3",
-            "name": "NHBảoLong",
-            "power": 45.0,
-            "reason": ""
-          }
-        ],
+        "subs": [],
         "dayoff": [],
         "slot": "A",
         "maxMain": 20,
         "maxSubs": 10,
-        "date": "2026-08-21",
+        "date": "2026-08-29",
         "time": "18:30 ICT",
         "period": "evening",
-        "waiting": [
-          {
-            "r": "R3",
-            "name": "Mèo Sunshine",
-            "power": 44.0,
-            "reason": ""
-          },
-          {
-            "r": "R3",
-            "name": "PewPewBoi",
-            "power": 44.0,
-            "reason": ""
-          },
-          {
-            "r": "R3",
-            "name": "KYLEPHAM2401",
-            "power": 43.0,
-            "reason": ""
-          }
-        ]
+        "waiting": []
       },
       "B": {
         "main": [
@@ -1071,210 +913,17 @@
             "name": "yologuy",
             "reason": "R4",
             "pos": "science"
-          },
-          {
-            "r": "R4",
-            "name": "Rymi68",
-            "reason": "R4"
-          },
-          {
-            "r": "R3",
-            "name": "Bạch Long Mã",
-            "power": 54.0,
-            "reason": ""
-          },
-          {
-            "r": "R3",
-            "name": "Kute Gold",
-            "power": 52.5,
-            "reason": ""
-          },
-          {
-            "r": "R3",
-            "name": "sửa máy promax",
-            "power": 52.0,
-            "reason": ""
-          },
-          {
-            "r": "R3",
-            "name": "e Asche",
-            "power": 51.3,
-            "reason": ""
-          },
-          {
-            "r": "R3",
-            "name": "Kendy Nguyên 86",
-            "power": 51.0,
-            "reason": ""
-          },
-          {
-            "r": "R2",
-            "name": "Bơ Bắp 1",
-            "power": 51.0,
-            "reason": ""
-          },
-          {
-            "r": "R3",
-            "name": "ÒÓO",
-            "power": 50.0,
-            "reason": ""
-          },
-          {
-            "r": "R3",
-            "name": "Bin 37",
-            "power": 50.0,
-            "reason": ""
-          },
-          {
-            "r": "R3",
-            "name": "Hemerage",
-            "power": 49.6,
-            "reason": ""
-          },
-          {
-            "r": "R3",
-            "name": "Shashank1411",
-            "power": 49.02,
-            "reason": ""
-          },
-          {
-            "r": "R3",
-            "name": "RùaNgáo",
-            "power": 48.8,
-            "reason": ""
-          },
-          {
-            "r": "R3",
-            "name": "Clone or Sou",
-            "power": 48.0,
-            "reason": ""
-          },
-          {
-            "r": "R3",
-            "name": "tRnuOwn9f 795",
-            "power": 48.0,
-            "reason": ""
-          },
-          {
-            "r": "R3",
-            "name": "danhoanh",
-            "power": 47.1,
-            "reason": ""
-          },
-          {
-            "r": "R1",
-            "name": "KhoaiTây83",
-            "power": 47.1,
-            "reason": ""
-          },
-          {
-            "r": "R3",
-            "name": "ThíchThìNhích92",
-            "power": 47.0,
-            "reason": ""
-          },
-          {
-            "r": "R3",
-            "name": "NgocNamBoss",
-            "power": 46.97,
-            "reason": ""
           }
         ],
-        "subs": [
-          {
-            "r": "R3",
-            "name": "Sầu riêng m7",
-            "power": 48.7,
-            "reason": "yc_sm=1"
-          },
-          {
-            "r": "R3",
-            "name": "Marines Malevolent",
-            "power": 46.5,
-            "reason": ""
-          },
-          {
-            "r": "R3",
-            "name": "Đập Chai",
-            "power": 46.5,
-            "reason": ""
-          },
-          {
-            "r": "R3",
-            "name": "Thanhh Tân",
-            "power": 46.3,
-            "reason": ""
-          },
-          {
-            "r": "R3",
-            "name": "Chivas2026",
-            "power": 46.29,
-            "reason": ""
-          },
-          {
-            "r": "R3",
-            "name": "NorthFog",
-            "power": 46.2,
-            "reason": ""
-          },
-          {
-            "r": "R3",
-            "name": "Orion Là Chocopie",
-            "power": 46.0,
-            "reason": ""
-          },
-          {
-            "r": "R3",
-            "name": "Phạm khánhh",
-            "power": 46.0,
-            "reason": ""
-          },
-          {
-            "r": "R3",
-            "name": "Yunnin",
-            "power": 45.48,
-            "reason": ""
-          },
-          {
-            "r": "R3",
-            "name": "Trai Cầu Tõm",
-            "power": 44.8,
-            "reason": ""
-          }
-        ],
+        "subs": [],
         "dayoff": [],
         "slot": "B",
         "maxMain": 20,
         "maxSubs": 10,
-        "date": "2026-08-22",
+        "date": "2026-08-30",
         "time": "08:30 ICT",
         "period": "morning",
-        "waiting": [
-          {
-            "r": "R3",
-            "name": "SanTa 1386",
-            "power": 44.8,
-            "reason": ""
-          },
-          {
-            "r": "R3",
-            "name": "Nguyenngoctuan",
-            "power": 44.0,
-            "reason": ""
-          },
-          {
-            "r": "R3",
-            "name": "Tommy4014",
-            "power": 43.9,
-            "reason": ""
-          },
-          {
-            "r": "R3",
-            "name": "Khánhh Báooo",
-            "power": 42.0,
-            "reason": ""
-          }
-        ]
+        "waiting": []
       }
     },
     "hn": {
@@ -1300,27 +949,27 @@
           },
           {
             "r": "R4",
-            "name": "Rymi68",
-            "reason": "R4",
-            "pos": "pw"
-          },
-          {
-            "r": "R4",
-            "name": "Haizzzzzzzzzzzz",
-            "reason": "R4",
-            "pos": "df 2"
-          },
-          {
-            "r": "R4",
             "name": "TusEngland",
             "reason": "R4",
             "pos": "vr"
           },
           {
             "r": "R4",
+            "name": "Rymi68",
+            "reason": "R4",
+            "pos": "pw"
+          },
+          {
+            "r": "R4",
             "name": "wolfwitch",
             "reason": "R4",
             "pos": "sr 1"
+          },
+          {
+            "r": "R4",
+            "name": "Haizzzzzzzzzzzz",
+            "reason": "R4",
+            "pos": "df 2"
           },
           {
             "r": "R4",
@@ -1333,167 +982,17 @@
             "name": "Tài Béooo",
             "reason": "R4",
             "pos": "vr"
-          },
-          {
-            "r": "R1",
-            "name": "Rio Gia Huy",
-            "power": 57.0,
-            "reason": "",
-            "pos": "vr"
-          },
-          {
-            "r": "R3",
-            "name": "ZzBMT47zz",
-            "power": 56.0,
-            "reason": "",
-            "pos": "pw"
-          },
-          {
-            "r": "R3",
-            "name": "Deptraitube2012",
-            "power": 56.0,
-            "reason": "",
-            "pos": "pw"
-          },
-          {
-            "r": "R3",
-            "name": "Thiện phương",
-            "power": 55.0,
-            "reason": "",
-            "pos": "df 2"
-          },
-          {
-            "r": "R3",
-            "name": "El Coderito",
-            "power": 52.7,
-            "reason": "",
-            "pos": "df 1"
-          },
-          {
-            "r": "R3",
-            "name": "Tom and Jerry 9999",
-            "power": 52.6,
-            "reason": "",
-            "pos": "sr 2"
-          },
-          {
-            "r": "R3",
-            "name": "Sting Chanh",
-            "power": 52.3,
-            "reason": ""
-          },
-          {
-            "r": "R3",
-            "name": "duckiecutie",
-            "power": 51.7,
-            "reason": "",
-            "pos": "sw 2"
-          },
-          {
-            "r": "R3",
-            "name": "e Asche",
-            "power": 51.3,
-            "reason": "",
-            "pos": "data 1 - 2"
-          },
-          {
-            "r": "R3",
-            "name": "Yến Nhi NT",
-            "power": 51.1,
-            "reason": "",
-            "pos": "sw 3"
-          },
-          {
-            "r": "R3",
-            "name": "zdevils",
-            "power": 51.0,
-            "reason": "",
-            "pos": "srr 1"
           }
         ],
-        "subs": [
-          {
-            "r": "R3",
-            "name": "ᵛᶰ Đậu Hũ",
-            "power": 50.8,
-            "reason": ""
-          },
-          {
-            "r": "R3",
-            "name": "MR Dương",
-            "power": 50.7,
-            "reason": "yc_hn=1"
-          },
-          {
-            "r": "R3",
-            "name": "Bắp đại ca",
-            "power": 50.7,
-            "reason": ""
-          },
-          {
-            "r": "R3",
-            "name": "Cúc Hoa Long Lanh",
-            "power": 49.5,
-            "reason": ""
-          },
-          {
-            "r": "R3",
-            "name": "Sầu riêng m7",
-            "power": 48.7,
-            "reason": ""
-          },
-          {
-            "r": "R3",
-            "name": "ZEKT",
-            "power": 48.64,
-            "reason": ""
-          },
-          {
-            "r": "R3",
-            "name": "TúTú01",
-            "power": 48,
-            "reason": ""
-          },
-          {
-            "r": "R3",
-            "name": "tâm1980",
-            "power": 47.0,
-            "reason": ""
-          },
-          {
-            "r": "R3",
-            "name": "NHBảoLong",
-            "power": 45.0,
-            "reason": ""
-          },
-          {
-            "r": "R3",
-            "name": "Mèo Sunshine",
-            "power": 44.0,
-            "reason": ""
-          }
-        ],
+        "subs": [],
         "dayoff": [],
         "slot": "A",
         "maxMain": 20,
         "maxSubs": 10,
-        "date": "2026-08-20",
+        "date": "2026-08-28",
         "time": "21:30 ICT",
         "period": "night 21:30",
-        "waiting": [
-          {
-            "r": "R3",
-            "name": "PewPewBoi",
-            "power": 44.0,
-            "reason": ""
-          },
-          {
-            "r": "R3",
-            "name": "KYLEPHAM2401",
-            "power": 43.0,
-            "reason": ""
-          }
-        ]
+        "waiting": []
       },
       "B": {
         "main": [
@@ -1508,188 +1007,14 @@
             "name": "yologuy",
             "reason": "R4",
             "pos": "df 1"
-          },
-          {
-            "r": "R3",
-            "name": "Bạch Long Mã",
-            "power": 54.0,
-            "reason": "",
-            "pos": "vr"
-          },
-          {
-            "r": "R3",
-            "name": "Kute Gold",
-            "power": 52.5,
-            "reason": "",
-            "pos": "pw"
-          },
-          {
-            "r": "R3",
-            "name": "MrAugust2886",
-            "power": 52.0,
-            "reason": "",
-            "pos": "pw"
-          },
-          {
-            "r": "R3",
-            "name": "Kendy Nguyên 86",
-            "power": 51.0,
-            "reason": "",
-            "pos": "df 2"
-          },
-          {
-            "r": "R2",
-            "name": "Bơ Bắp 1",
-            "power": 51.0,
-            "reason": "",
-            "pos": "sr 2"
-          },
-          {
-            "r": "R3",
-            "name": "Hemerage",
-            "power": 49.6,
-            "reason": ""
-          },
-          {
-            "r": "R3",
-            "name": "Shashank1411",
-            "power": 49.02,
-            "reason": "",
-            "pos": "sr 1"
-          },
-          {
-            "r": "R3",
-            "name": "RùaNgáo",
-            "power": 48.8,
-            "reason": "",
-            "pos": "df 2"
-          },
-          {
-            "r": "R3",
-            "name": "Clone or Sou",
-            "power": 48.0,
-            "reason": "",
-            "pos": "df 1"
-          },
-          {
-            "r": "R3",
-            "name": "tRnuOwn9f 795",
-            "power": 48.0,
-            "reason": "",
-            "pos": "data 2"
-          },
-          {
-            "r": "R3",
-            "name": "danhoanh",
-            "power": 47.1,
-            "reason": "",
-            "pos": "sw 1"
-          },
-          {
-            "r": "R1",
-            "name": "KhoaiTây83",
-            "power": 47.1,
-            "reason": "",
-            "pos": "sw 1"
-          },
-          {
-            "r": "R3",
-            "name": "ThíchThìNhích92",
-            "power": 47.0,
-            "reason": "",
-            "pos": "sw 4"
-          },
-          {
-            "r": "R3",
-            "name": "NgocNamBoss",
-            "power": 46.97,
-            "reason": "",
-            "pos": "df 2"
-          },
-          {
-            "r": "R3",
-            "name": "Marines Malevolent",
-            "power": 46.5,
-            "reason": "",
-            "pos": "sw 3"
-          },
-          {
-            "r": "R3",
-            "name": "Thanhh Tân",
-            "power": 46.3,
-            "reason": "",
-            "pos": "data 1"
-          },
-          {
-            "r": "R3",
-            "name": "Chivas2026",
-            "power": 46.29,
-            "reason": "",
-            "pos": "sw 4"
-          },
-          {
-            "r": "R3",
-            "name": "NorthFog",
-            "power": 46.2,
-            "reason": "",
-            "pos": "sw 2"
           }
         ],
-        "subs": [
-          {
-            "r": "R3",
-            "name": "sửa máy promax",
-            "power": 52.0,
-            "reason": "yc_hn=1"
-          },
-          {
-            "r": "R3",
-            "name": "Phạm khánhh",
-            "power": 46.0,
-            "reason": ""
-          },
-          {
-            "r": "R3",
-            "name": "Orion Là Chocopie",
-            "power": 46.0,
-            "reason": ""
-          },
-          {
-            "r": "R3",
-            "name": "SanTa 1386",
-            "power": 44.8,
-            "reason": ""
-          },
-          {
-            "r": "R3",
-            "name": "Trai Cầu Tõm",
-            "power": 44.8,
-            "reason": ""
-          },
-          {
-            "r": "R3",
-            "name": "Nguyenngoctuan",
-            "power": 44.0,
-            "reason": ""
-          },
-          {
-            "r": "R3",
-            "name": "Tommy4014",
-            "power": 43.9,
-            "reason": ""
-          },
-          {
-            "r": "R3",
-            "name": "Khánhh Báooo",
-            "power": 42.0,
-            "reason": ""
-          }
-        ],
+        "subs": [],
         "dayoff": [],
         "slot": "B",
         "maxMain": 20,
         "maxSubs": 10,
-        "date": "2026-08-21",
+        "date": "2026-08-29",
         "time": "08:30 ICT",
         "period": "morning 08:30",
         "waiting": []
