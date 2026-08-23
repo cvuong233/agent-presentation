@@ -921,6 +921,12 @@
           },
           {
             "r": "R3",
+            "name": "ÒÓO",
+            "power": 50.0,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "NgocNamBoss",
             "power": 47.35,
             "reason": ""
@@ -1023,6 +1029,12 @@
           {
             "r": "R3",
             "name": "Bin 37",
+            "power": 50.0,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "ÒÓO",
             "power": 50.0,
             "reason": ""
           },
