@@ -779,7 +779,7 @@
     },
     "Kendy Nguyên 86": {
       "rank": "R3",
-      "power": 51.0
+      "power": 51.3
     },
     "PTKhang RiO": {
       "rank": "R4",
@@ -909,6 +909,18 @@
           },
           {
             "r": "R3",
+            "name": "Kendy Nguyên 86",
+            "power": 51.3,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Bin 37",
+            "power": 50.0,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "NgocNamBoss",
             "power": 47.35,
             "reason": ""
@@ -1000,6 +1012,18 @@
             "r": "R3",
             "name": "ᵛᶰ Đậu Hũ",
             "power": 51.3,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Kendy Nguyên 86",
+            "power": 51.3,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Bin 37",
+            "power": 50.0,
             "reason": ""
           },
           {
