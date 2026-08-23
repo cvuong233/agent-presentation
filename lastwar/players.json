@@ -422,7 +422,7 @@
     },
     "tâm1980": {
       "rank": "R3",
-      "power": 47.0
+      "power": 48.8
     },
     "Khanhanh96": {
       "rank": "R3"
@@ -441,7 +441,7 @@
     },
     "SanTa 1386": {
       "rank": "R3",
-      "power": 44.8,
+      "power": 45.5,
       "yc_hn": 0
     },
     "cu tí nhỏ xíu": {
@@ -883,6 +883,12 @@
             "r": "R4",
             "name": "Tài Béooo",
             "reason": "R4"
+          },
+          {
+            "r": "R3",
+            "name": "tâm1980",
+            "power": 48.8,
+            "reason": ""
           }
         ],
         "subs": [],
@@ -929,6 +935,12 @@
             "r": "R3",
             "name": "NgocNamBoss",
             "power": 47.35,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "SanTa 1386",
+            "power": 45.5,
             "reason": ""
           }
         ],
@@ -990,6 +1002,12 @@
             "r": "R4",
             "name": "Tài Béooo",
             "reason": "R4"
+          },
+          {
+            "r": "R3",
+            "name": "tâm1980",
+            "power": 48.8,
+            "reason": ""
           }
         ],
         "subs": [],
@@ -1013,6 +1031,12 @@
             "r": "R4",
             "name": "yologuy",
             "reason": "R4"
+          },
+          {
+            "r": "R3",
+            "name": "Bạch Long Mã",
+            "power": 54.0,
+            "reason": ""
           },
           {
             "r": "R3",
@@ -1042,6 +1066,12 @@
             "r": "R3",
             "name": "NgocNamBoss",
             "power": 47.35,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "SanTa 1386",
+            "power": 45.5,
             "reason": ""
           }
         ],
