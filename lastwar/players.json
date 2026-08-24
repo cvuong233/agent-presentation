@@ -345,7 +345,7 @@
     },
     "danhoanh": {
       "rank": "R3",
-      "power": 47.1
+      "power": 47.6
     },
     "Gặplàđánh": {
       "rank": "R3"
@@ -384,7 +384,7 @@
     },
     "RùaNgáo": {
       "rank": "R3",
-      "power": 48.8,
+      "power": 48.7,
       "yc_sm": 0,
       "yc_hn": 0
     },
@@ -578,7 +578,7 @@
     },
     "MR Dương": {
       "rank": "R3",
-      "power": 50.7,
+      "power": 52.0,
       "yc_hn": 1
     },
     "sửa máy promax": {
@@ -731,7 +731,7 @@
       "dayoff": 0,
       "note": "",
       "yc_sm": 0,
-      "power": 51.7
+      "power": 52.5
     },
     "El Coderito": {
       "rank": "R3",
@@ -886,6 +886,12 @@
           },
           {
             "r": "R3",
+            "name": "duckiecutie",
+            "power": 52.5,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "MrAugust2886",
             "power": 52.0,
             "reason": ""
@@ -900,6 +906,12 @@
             "r": "R3",
             "name": "tâm1980",
             "power": 48.8,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "RùaNgáo",
+            "power": 48.7,
             "reason": ""
           },
           {
@@ -930,6 +942,18 @@
             "r": "R4",
             "name": "yologuy",
             "reason": "R4"
+          },
+          {
+            "r": "R3",
+            "name": "MR Dương",
+            "power": 52.0,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "sửa máy promax",
+            "power": 52.0,
+            "reason": ""
           },
           {
             "r": "R3",
@@ -977,6 +1001,12 @@
             "r": "R3",
             "name": "Chivas2026",
             "power": 47.94,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "danhoanh",
+            "power": 47.6,
             "reason": ""
           },
           {
@@ -1083,6 +1113,12 @@
           },
           {
             "r": "R3",
+            "name": "duckiecutie",
+            "power": 52.5,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "Cúc Hoa Long Lanh",
             "power": 50.6,
             "reason": ""
@@ -1095,12 +1131,25 @@
           },
           {
             "r": "R3",
+            "name": "RùaNgáo",
+            "power": 48.7,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "NHBảoLong",
             "power": 46.0,
             "reason": ""
           }
         ],
-        "subs": [],
+        "subs": [
+          {
+            "r": "R3",
+            "name": "sửa máy promax",
+            "power": 52.0,
+            "reason": "yc_hn=1"
+          }
+        ],
         "dayoff": [],
         "slot": "A",
         "maxMain": 20,
@@ -1231,7 +1280,20 @@
             "reason": ""
           }
         ],
-        "subs": [],
+        "subs": [
+          {
+            "r": "R3",
+            "name": "MR Dương",
+            "power": 52.0,
+            "reason": "yc_hn=1"
+          },
+          {
+            "r": "R3",
+            "name": "danhoanh",
+            "power": 47.6,
+            "reason": ""
+          }
+        ],
         "dayoff": [],
         "slot": "B",
         "maxMain": 20,
