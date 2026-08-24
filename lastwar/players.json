@@ -99,7 +99,7 @@
       "El Coderito",
       "duckiecutie",
       "ᵛᶰ Đậu Hũ",
-      "Clone or Sou",
+      "Clone Or SouLy々",
       "Deptraitube2012",
       "Sói Ken",
       "Bin 37",
@@ -676,7 +676,7 @@
     "Bắp đại ca": {
       "rank": "R3",
       "note": "",
-      "power": 50.7,
+      "power": 51.6,
       "yc_sm": 0,
       "yc_hn": 0
     },
@@ -707,7 +707,7 @@
       "rank": "R3",
       "dayoff": false,
       "note": "",
-      "power": 51.4,
+      "power": 51.8,
       "yc_hn": 1
     },
     "Mèo Sunshine": {
@@ -761,10 +761,6 @@
       "rank": "R3",
       "power": 50.6
     },
-    "Clone or Sou": {
-      "rank": "R3",
-      "power": 48.0
-    },
     "Sting Chanh": {
       "rank": "R3",
       "power": 52.3,
@@ -807,7 +803,7 @@
     "TúTú01": {
       "rank": "R3",
       "yc_sm": 0,
-      "power": 48
+      "power": 48.0
     },
     "KhoaiTây83": {
       "rank": "R1",
@@ -833,6 +829,10 @@
     "eMorgenröte": {
       "rank": "R3",
       "power": 51.7
+    },
+    "Clone Or SouLy々": {
+      "rank": "R3",
+      "power": 49.5
     }
   },
   "next_lineup": {
@@ -892,6 +892,12 @@
           },
           {
             "r": "R3",
+            "name": "Thiện phương",
+            "power": 55.0,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "Tom and Jerry 9999",
             "power": 53.4,
             "reason": ""
@@ -922,6 +928,18 @@
           },
           {
             "r": "R3",
+            "name": "Sói Ken",
+            "power": 51.8,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Bắp đại ca",
+            "power": 51.6,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "Cúc Hoa Long Lanh",
             "power": 50.6,
             "reason": ""
@@ -931,11 +949,31 @@
             "name": "RùaNgáo",
             "power": 49.7,
             "reason": ""
+          }
+        ],
+        "subs": [
+          {
+            "r": "R1",
+            "name": "Rio Gia Huy",
+            "power": 57.0,
+            "reason": "yc_sm=1"
+          },
+          {
+            "r": "R3",
+            "name": "Sầu riêng m7",
+            "power": 49.4,
+            "reason": "yc_sm=1"
           },
           {
             "r": "R3",
             "name": "tâm1980",
             "power": 48.8,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "TúTú01",
+            "power": 48.0,
             "reason": ""
           },
           {
@@ -949,14 +987,6 @@
             "name": "KYLEPHAM2401",
             "power": 44.0,
             "reason": ""
-          }
-        ],
-        "subs": [
-          {
-            "r": "R3",
-            "name": "Sầu riêng m7",
-            "power": 49.4,
-            "reason": "yc_sm=1"
           }
         ],
         "dayoff": [],
@@ -1030,6 +1060,12 @@
           },
           {
             "r": "R3",
+            "name": "Clone Or SouLy々",
+            "power": 49.5,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "Shashank1411",
             "power": 49.36,
             "reason": ""
@@ -1081,15 +1117,15 @@
             "name": "Marines Malevolent",
             "power": 46.7,
             "reason": ""
-          },
+          }
+        ],
+        "subs": [
           {
             "r": "R3",
             "name": "Phạm khánhh",
             "power": 46.5,
             "reason": ""
-          }
-        ],
-        "subs": [
+          },
           {
             "r": "R3",
             "name": "NorthFog",
@@ -1186,6 +1222,18 @@
             "reason": ""
           },
           {
+            "r": "R1",
+            "name": "Rio Gia Huy",
+            "power": 57.0,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Thiện phương",
+            "power": 55.0,
+            "reason": ""
+          },
+          {
             "r": "R3",
             "name": "Tom and Jerry 9999",
             "power": 53.4,
@@ -1217,6 +1265,12 @@
           },
           {
             "r": "R3",
+            "name": "Bắp đại ca",
+            "power": 51.6,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "Cúc Hoa Long Lanh",
             "power": 50.6,
             "reason": ""
@@ -1226,11 +1280,31 @@
             "name": "RùaNgáo",
             "power": 49.7,
             "reason": ""
+          }
+        ],
+        "subs": [
+          {
+            "r": "R3",
+            "name": "sửa máy promax",
+            "power": 52.0,
+            "reason": "yc_hn=1"
+          },
+          {
+            "r": "R3",
+            "name": "Sói Ken",
+            "power": 51.8,
+            "reason": "yc_hn=1"
           },
           {
             "r": "R3",
             "name": "tâm1980",
             "power": 48.8,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "TúTú01",
+            "power": 48.0,
             "reason": ""
           },
           {
@@ -1244,14 +1318,6 @@
             "name": "KYLEPHAM2401",
             "power": 44.0,
             "reason": ""
-          }
-        ],
-        "subs": [
-          {
-            "r": "R3",
-            "name": "sửa máy promax",
-            "power": 52.0,
-            "reason": "yc_hn=1"
           }
         ],
         "dayoff": [],
@@ -1325,6 +1391,12 @@
           },
           {
             "r": "R3",
+            "name": "Clone Or SouLy々",
+            "power": 49.5,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "Sầu riêng m7",
             "power": 49.4,
             "reason": ""
@@ -1376,12 +1448,6 @@
             "name": "Orion Là Chocopie",
             "power": 47.0,
             "reason": ""
-          },
-          {
-            "r": "R3",
-            "name": "Marines Malevolent",
-            "power": 46.7,
-            "reason": ""
           }
         ],
         "subs": [
@@ -1390,6 +1456,12 @@
             "name": "MR Dương",
             "power": 52.0,
             "reason": "yc_hn=1"
+          },
+          {
+            "r": "R3",
+            "name": "Marines Malevolent",
+            "power": 46.7,
+            "reason": ""
           },
           {
             "r": "R3",
