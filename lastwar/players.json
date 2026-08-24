@@ -334,7 +334,7 @@
     },
     "Shashank1411": {
       "rank": "R3",
-      "power": 49.02
+      "power": 49.36
     },
     "Nguyenngoctuan": {
       "rank": "R3",
@@ -799,7 +799,7 @@
     },
     "Bơ Bắp 1": {
       "rank": "R2",
-      "power": 51.0
+      "power": 51.1
     },
     "Piipo": {
       "rank": "R3"
@@ -932,6 +932,12 @@
             "reason": ""
           },
           {
+            "r": "R2",
+            "name": "Bơ Bắp 1",
+            "power": 51.1,
+            "reason": ""
+          },
+          {
             "r": "R3",
             "name": "Bin 37",
             "power": 50.0,
@@ -941,6 +947,12 @@
             "r": "R3",
             "name": "ÒÓO",
             "power": 50.0,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Shashank1411",
+            "power": 49.36,
             "reason": ""
           },
           {
@@ -1105,6 +1117,12 @@
             "reason": ""
           },
           {
+            "r": "R2",
+            "name": "Bơ Bắp 1",
+            "power": 51.1,
+            "reason": ""
+          },
+          {
             "r": "R3",
             "name": "Bin 37",
             "power": 50.0,
@@ -1114,6 +1132,12 @@
             "r": "R3",
             "name": "ÒÓO",
             "power": 50.0,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Shashank1411",
+            "power": 49.36,
             "reason": ""
           },
           {
