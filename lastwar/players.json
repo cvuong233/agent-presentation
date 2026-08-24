@@ -1256,17 +1256,23 @@
           {
             "r": "R4",
             "name": "Hải Anh 0612",
-            "reason": "R4"
+            "reason": ""
           },
           {
             "r": "R4",
             "name": "yologuy",
-            "reason": "R4"
+            "reason": ""
           },
           {
             "r": "R3",
             "name": "Bạch Long Mã",
             "power": 54.0,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Kute Gold",
+            "power": 53.3,
             "reason": ""
           },
           {
@@ -1307,6 +1313,12 @@
           },
           {
             "r": "R3",
+            "name": "Sầu riêng m7",
+            "power": 49.4,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "Shashank1411",
             "power": 49.36,
             "reason": ""
@@ -1330,6 +1342,18 @@
             "reason": ""
           },
           {
+            "r": "R1",
+            "name": "KhoaiTây83",
+            "power": 47.8,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "danhoanh",
+            "power": 47.6,
+            "reason": ""
+          },
+          {
             "r": "R3",
             "name": "NgocNamBoss",
             "power": 47.35,
@@ -1343,8 +1367,28 @@
           },
           {
             "r": "R3",
+            "name": "Marines Malevolent",
+            "power": 46.7,
+            "reason": ""
+          }
+        ],
+        "subs": [
+          {
+            "r": "R3",
+            "name": "MR Dương",
+            "power": 52.0,
+            "reason": "yc_hn=1"
+          },
+          {
+            "r": "R3",
             "name": "Phạm khánhh",
             "power": 46.5,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "NorthFog",
+            "power": 46.3,
             "reason": ""
           },
           {
@@ -1369,50 +1413,6 @@
             "r": "R3",
             "name": "Khánhh Báooo",
             "power": 43.0,
-            "reason": ""
-          }
-        ],
-        "subs": [
-          {
-            "r": "R3",
-            "name": "Kute Gold",
-            "power": 53.3,
-            "reason": ""
-          },
-          {
-            "r": "R3",
-            "name": "MR Dương",
-            "power": 52.0,
-            "reason": "yc_hn=1"
-          },
-          {
-            "r": "R3",
-            "name": "Sầu riêng m7",
-            "power": 49.4,
-            "reason": ""
-          },
-          {
-            "r": "R1",
-            "name": "KhoaiTây83",
-            "power": 47.8,
-            "reason": ""
-          },
-          {
-            "r": "R3",
-            "name": "danhoanh",
-            "power": 47.6,
-            "reason": ""
-          },
-          {
-            "r": "R3",
-            "name": "Marines Malevolent",
-            "power": 46.7,
-            "reason": ""
-          },
-          {
-            "r": "R3",
-            "name": "NorthFog",
-            "power": 46.3,
             "reason": ""
           }
         ],
