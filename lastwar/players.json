@@ -750,7 +750,7 @@
       "rank": "R3",
       "dayoff": 0,
       "note": "",
-      "power": 52.6,
+      "power": 53.4,
       "yc_sm": 0
     },
     "ÒÓO": {
@@ -888,6 +888,12 @@
             "r": "R3",
             "name": "ZzBMT47zz",
             "power": 57.0,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Tom and Jerry 9999",
+            "power": 53.4,
             "reason": ""
           },
           {
@@ -1177,6 +1183,12 @@
             "r": "R3",
             "name": "ZzBMT47zz",
             "power": 57.0,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Tom and Jerry 9999",
+            "power": 53.4,
             "reason": ""
           },
           {
