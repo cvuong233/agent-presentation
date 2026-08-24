@@ -108,7 +108,8 @@
       "ZEKT",
       "Mèo Sunshine",
       "Piipo",
-      "TúTú01"
+      "TúTú01",
+      "Rio Gia Huy"
     ],
     "R2": [
       "1Mét45",
@@ -145,7 +146,6 @@
       "thangnet",
       "上官武命",
       "KhoaiTây83",
-      "Rio Gia Huy",
       "Lil Hen Hen",
       "Lil Sal Sal"
     ]
@@ -814,7 +814,7 @@
       "power": 54.0
     },
     "Rio Gia Huy": {
-      "rank": "R1",
+      "rank": "R3",
       "power": 57.0,
       "yc_sm": 1
     },
@@ -953,7 +953,7 @@
         ],
         "subs": [
           {
-            "r": "R1",
+            "r": "R3",
             "name": "Rio Gia Huy",
             "power": 57.0,
             "reason": "yc_sm=1"
@@ -1222,7 +1222,7 @@
             "reason": ""
           },
           {
-            "r": "R1",
+            "r": "R3",
             "name": "Rio Gia Huy",
             "power": 57.0,
             "reason": ""
