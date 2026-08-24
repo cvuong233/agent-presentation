@@ -393,7 +393,7 @@
     },
     "Thanhh Tân": {
       "rank": "R3",
-      "power": 46.3
+      "power": 47.5
     },
     "Tommy4014": {
       "rank": "R3",
@@ -783,7 +783,7 @@
     },
     "Deptraitube2012": {
       "rank": "R3",
-      "power": 56.0
+      "power": 56.5
     },
     "ZzBMT47zz": {
       "rank": "R3",
@@ -892,6 +892,12 @@
           },
           {
             "r": "R3",
+            "name": "Deptraitube2012",
+            "power": 56.5,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "Thiện phương",
             "power": 55.0,
             "reason": ""
@@ -943,12 +949,6 @@
             "name": "Cúc Hoa Long Lanh",
             "power": 50.6,
             "reason": ""
-          },
-          {
-            "r": "R3",
-            "name": "RùaNgáo",
-            "power": 49.7,
-            "reason": ""
           }
         ],
         "subs": [
@@ -957,6 +957,12 @@
             "name": "Rio Gia Huy",
             "power": 57.0,
             "reason": "yc_sm=1"
+          },
+          {
+            "r": "R3",
+            "name": "RùaNgáo",
+            "power": 49.7,
+            "reason": ""
           },
           {
             "r": "R3",
@@ -1108,6 +1114,12 @@
           },
           {
             "r": "R3",
+            "name": "Thanhh Tân",
+            "power": 47.5,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "NgocNamBoss",
             "power": 47.35,
             "reason": ""
@@ -1117,15 +1129,15 @@
             "name": "Orion Là Chocopie",
             "power": 47.0,
             "reason": ""
-          },
+          }
+        ],
+        "subs": [
           {
             "r": "R3",
             "name": "Marines Malevolent",
             "power": 46.7,
             "reason": ""
-          }
-        ],
-        "subs": [
+          },
           {
             "r": "R3",
             "name": "Phạm khánhh",
@@ -1235,6 +1247,12 @@
           },
           {
             "r": "R3",
+            "name": "Deptraitube2012",
+            "power": 56.5,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "Thiện phương",
             "power": 55.0,
             "reason": ""
@@ -1280,12 +1298,6 @@
             "name": "Cúc Hoa Long Lanh",
             "power": 50.6,
             "reason": ""
-          },
-          {
-            "r": "R3",
-            "name": "RùaNgáo",
-            "power": 49.7,
-            "reason": ""
           }
         ],
         "subs": [
@@ -1300,6 +1312,12 @@
             "name": "Sói Ken",
             "power": 51.8,
             "reason": "yc_hn=1"
+          },
+          {
+            "r": "R3",
+            "name": "RùaNgáo",
+            "power": 49.7,
+            "reason": ""
           },
           {
             "r": "R3",
@@ -1451,14 +1469,14 @@
           },
           {
             "r": "R3",
-            "name": "NgocNamBoss",
-            "power": 47.35,
+            "name": "Thanhh Tân",
+            "power": 47.5,
             "reason": ""
           },
           {
             "r": "R3",
-            "name": "Orion Là Chocopie",
-            "power": 47.0,
+            "name": "NgocNamBoss",
+            "power": 47.35,
             "reason": ""
           }
         ],
@@ -1468,6 +1486,12 @@
             "name": "MR Dương",
             "power": 52.0,
             "reason": "yc_hn=1"
+          },
+          {
+            "r": "R3",
+            "name": "Orion Là Chocopie",
+            "power": 47.0,
+            "reason": ""
           },
           {
             "r": "R3",
