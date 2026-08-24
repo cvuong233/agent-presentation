@@ -338,7 +338,7 @@
     },
     "Nguyenngoctuan": {
       "rank": "R3",
-      "power": 44.0
+      "power": 45.0
     },
     "anh thợ sửa máy": {
       "rank": "R3"
@@ -1005,6 +1005,12 @@
           },
           {
             "r": "R3",
+            "name": "Nguyenngoctuan",
+            "power": 45.0,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "Khánhh Báooo",
             "power": 43.0,
             "reason": ""
@@ -1198,6 +1204,12 @@
             "r": "R3",
             "name": "Trai Cầu Tõm",
             "power": 45.5,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Nguyenngoctuan",
+            "power": 45.0,
             "reason": ""
           },
           {
