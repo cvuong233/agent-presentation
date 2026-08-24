@@ -384,7 +384,7 @@
     },
     "RùaNgáo": {
       "rank": "R3",
-      "power": 48.7,
+      "power": 49.7,
       "yc_sm": 0,
       "yc_hn": 0
     },
@@ -621,7 +621,7 @@
     },
     "Kute Gold": {
       "rank": "R3",
-      "power": 52.5
+      "power": 53.3
     },
     "TusEngland": {
       "rank": "R4",
@@ -904,14 +904,14 @@
           },
           {
             "r": "R3",
-            "name": "tâm1980",
-            "power": 48.8,
+            "name": "RùaNgáo",
+            "power": 49.7,
             "reason": ""
           },
           {
             "r": "R3",
-            "name": "RùaNgáo",
-            "power": 48.7,
+            "name": "tâm1980",
+            "power": 48.8,
             "reason": ""
           },
           {
@@ -942,6 +942,12 @@
             "r": "R4",
             "name": "yologuy",
             "reason": "R4"
+          },
+          {
+            "r": "R3",
+            "name": "Kute Gold",
+            "power": 53.3,
+            "reason": ""
           },
           {
             "r": "R3",
@@ -1044,7 +1050,9 @@
             "name": "Nguyenngoctuan",
             "power": 45.0,
             "reason": ""
-          },
+          }
+        ],
+        "subs": [
           {
             "r": "R3",
             "name": "Khánhh Báooo",
@@ -1052,7 +1060,6 @@
             "reason": ""
           }
         ],
-        "subs": [],
         "dayoff": [],
         "slot": "B",
         "maxMain": 20,
@@ -1125,14 +1132,14 @@
           },
           {
             "r": "R3",
-            "name": "tâm1980",
-            "power": 48.8,
+            "name": "RùaNgáo",
+            "power": 49.7,
             "reason": ""
           },
           {
             "r": "R3",
-            "name": "RùaNgáo",
-            "power": 48.7,
+            "name": "tâm1980",
+            "power": 48.8,
             "reason": ""
           },
           {
@@ -1281,6 +1288,12 @@
           }
         ],
         "subs": [
+          {
+            "r": "R3",
+            "name": "Kute Gold",
+            "power": 53.3,
+            "reason": ""
+          },
           {
             "r": "R3",
             "name": "MR Dương",
