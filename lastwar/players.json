@@ -454,7 +454,7 @@
     },
     "Phạm khánhh": {
       "rank": "R3",
-      "power": 46.0
+      "power": 46.5
     },
     "Haizzzzzzzzzz": {
       "rank": "R4"
@@ -981,6 +981,12 @@
           },
           {
             "r": "R3",
+            "name": "Phạm khánhh",
+            "power": 46.5,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "SanTa 1386",
             "power": 45.5,
             "reason": ""
@@ -1162,6 +1168,12 @@
             "r": "R3",
             "name": "Orion Là Chocopie",
             "power": 47.0,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Phạm khánhh",
+            "power": 46.5,
             "reason": ""
           },
           {
