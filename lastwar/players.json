@@ -574,7 +574,7 @@
     },
     "Trai Cầu Tõm": {
       "rank": "R3",
-      "power": 44.8
+      "power": 45.5
     },
     "MR Dương": {
       "rank": "R3",
@@ -660,12 +660,12 @@
     "ThíchThìNhích92": {
       "rank": "R3",
       "note": "",
-      "power": 47.0
+      "power": 48.1
     },
     "Khánhh Báooo": {
       "rank": "R3",
       "note": "",
-      "power": 42.0
+      "power": 43.0
     },
     "Nhi Nở": {
       "rank": "R3",
@@ -674,7 +674,7 @@
     "tRnuOwn9f 795": {
       "rank": "R3",
       "note": "",
-      "power": 48.0,
+      "power": 49.0,
       "yc_sm": 0
     },
     "Bắp đại ca": {
@@ -748,7 +748,7 @@
       "rank": "R3",
       "dayoff": 0,
       "note": "",
-      "power": 45.0
+      "power": 46.0
     },
     "Tom and Jerry 9999": {
       "rank": "R3",
@@ -763,7 +763,7 @@
     },
     "Cúc Hoa Long Lanh": {
       "rank": "R3",
-      "power": 49.5
+      "power": 50.6
     },
     "Clone or Sou": {
       "rank": "R3",
@@ -806,7 +806,7 @@
     },
     "Orion Là Chocopie": {
       "rank": "R3",
-      "power": 46.0
+      "power": 47.0
     },
     "TúTú01": {
       "rank": "R3",
@@ -886,8 +886,20 @@
           },
           {
             "r": "R3",
+            "name": "Cúc Hoa Long Lanh",
+            "power": 50.6,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "tâm1980",
             "power": 48.8,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "NHBảoLong",
+            "power": 46.0,
             "reason": ""
           }
         ],
@@ -933,14 +945,44 @@
           },
           {
             "r": "R3",
+            "name": "tRnuOwn9f 795",
+            "power": 49.0,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "ThíchThìNhích92",
+            "power": 48.1,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "NgocNamBoss",
             "power": 47.35,
             "reason": ""
           },
           {
             "r": "R3",
+            "name": "Orion Là Chocopie",
+            "power": 47.0,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "SanTa 1386",
             "power": 45.5,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Trai Cầu Tõm",
+            "power": 45.5,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Khánhh Báooo",
+            "power": 43.0,
             "reason": ""
           }
         ],
@@ -1005,8 +1047,20 @@
           },
           {
             "r": "R3",
+            "name": "Cúc Hoa Long Lanh",
+            "power": 50.6,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "tâm1980",
             "power": 48.8,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "NHBảoLong",
+            "power": 46.0,
             "reason": ""
           }
         ],
@@ -1064,14 +1118,44 @@
           },
           {
             "r": "R3",
+            "name": "tRnuOwn9f 795",
+            "power": 49.0,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "ThíchThìNhích92",
+            "power": 48.1,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "NgocNamBoss",
             "power": 47.35,
             "reason": ""
           },
           {
             "r": "R3",
+            "name": "Orion Là Chocopie",
+            "power": 47.0,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "SanTa 1386",
             "power": 45.5,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Trai Cầu Tõm",
+            "power": 45.5,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Khánhh Báooo",
+            "power": 43.0,
             "reason": ""
           }
         ],
