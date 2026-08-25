@@ -1454,12 +1454,6 @@
           },
           {
             "r": "R3",
-            "name": "Hemerage",
-            "power": 49.9,
-            "reason": ""
-          },
-          {
-            "r": "R3",
             "name": "Clone Or SouLy々",
             "power": 49.5,
             "reason": ""
@@ -1511,6 +1505,12 @@
             "name": "Thanhh Tân",
             "power": 47.5,
             "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "NgocNamBoss",
+            "power": 47.35,
+            "reason": ""
           }
         ],
         "subs": [
@@ -1519,12 +1519,6 @@
             "name": "MR Dương",
             "power": 52.0,
             "reason": "yc_hn=1"
-          },
-          {
-            "r": "R3",
-            "name": "NgocNamBoss",
-            "power": 47.35,
-            "reason": ""
           },
           {
             "r": "R3",
