@@ -307,7 +307,10 @@
     },
     "Rymi68": {
       "rank": "R4",
-      "fixed": "A"
+      "fixed": {
+        "sm": "B",
+        "hn": "A"
+      }
     },
     "Hải Anh 0612": {
       "rank": "R4",
@@ -647,7 +650,7 @@
     "ZEKT": {
       "rank": "R3",
       "note": "",
-      "power": 48.64
+      "power": 49.26
     },
     "Mr Hải Nam": {
       "rank": "R2",
@@ -763,7 +766,7 @@
     },
     "Sting Chanh": {
       "rank": "R3",
-      "power": 52.3,
+      "power": 53.6,
       "yc_hn": 0
     },
     "Zz Ma Tuý Đá zz": {
@@ -861,11 +864,6 @@
           },
           {
             "r": "R4",
-            "name": "Rymi68",
-            "reason": "R4"
-          },
-          {
-            "r": "R4",
             "name": "wolfwitch",
             "reason": "R4"
           },
@@ -900,6 +898,12 @@
             "r": "R3",
             "name": "Thiện phương",
             "power": 55.0,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Sting Chanh",
+            "power": 53.6,
             "reason": ""
           },
           {
@@ -943,12 +947,6 @@
             "name": "Bắp đại ca",
             "power": 51.6,
             "reason": ""
-          },
-          {
-            "r": "R3",
-            "name": "Cúc Hoa Long Lanh",
-            "power": 50.6,
-            "reason": ""
           }
         ],
         "subs": [
@@ -966,6 +964,12 @@
           },
           {
             "r": "R3",
+            "name": "Cúc Hoa Long Lanh",
+            "power": 50.6,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "RùaNgáo",
             "power": 49.7,
             "reason": ""
@@ -975,6 +979,12 @@
             "name": "Sầu riêng m7",
             "power": 49.4,
             "reason": "yc_sm=1"
+          },
+          {
+            "r": "R3",
+            "name": "ZEKT",
+            "power": 49.26,
+            "reason": ""
           },
           {
             "r": "R3",
@@ -999,12 +1009,6 @@
             "name": "Mèo Sunshine",
             "power": 45.0,
             "reason": ""
-          },
-          {
-            "r": "R3",
-            "name": "KYLEPHAM2401",
-            "power": 44.0,
-            "reason": ""
           }
         ],
         "dayoff": [],
@@ -1014,10 +1018,22 @@
         "date": "2026-08-29",
         "time": "18:30 ICT",
         "period": "evening",
-        "waiting": []
+        "waiting": [
+          {
+            "r": "R3",
+            "name": "KYLEPHAM2401",
+            "power": 44.0,
+            "reason": ""
+          }
+        ]
       },
       "B": {
         "main": [
+          {
+            "r": "R4",
+            "name": "Rymi68",
+            "reason": "R4"
+          },
           {
             "r": "R4",
             "name": "Hải Anh 0612",
@@ -1129,15 +1145,15 @@
             "name": "NgocNamBoss",
             "power": 47.35,
             "reason": ""
-          },
+          }
+        ],
+        "subs": [
           {
             "r": "R3",
             "name": "Orion Là Chocopie",
             "power": 47.0,
             "reason": ""
-          }
-        ],
-        "subs": [
+          },
           {
             "r": "R3",
             "name": "Marines Malevolent",
@@ -1195,6 +1211,11 @@
       "A": {
         "main": [
           {
+            "r": "R4",
+            "name": "Rymi68",
+            "reason": "R4"
+          },
+          {
             "r": "R5",
             "name": "Lerxinhiu",
             "reason": "R5"
@@ -1212,11 +1233,6 @@
           {
             "r": "R4",
             "name": "TusEngland",
-            "reason": "R4"
-          },
-          {
-            "r": "R4",
-            "name": "Rymi68",
             "reason": "R4"
           },
           {
