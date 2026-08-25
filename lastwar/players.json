@@ -947,6 +947,12 @@
             "name": "Bắp đại ca",
             "power": 51.6,
             "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Cúc Hoa Long Lanh",
+            "power": 50.6,
+            "reason": ""
           }
         ],
         "subs": [
@@ -960,12 +966,6 @@
             "r": "R3",
             "name": "Yến Nhi NT",
             "power": 51.0,
-            "reason": ""
-          },
-          {
-            "r": "R3",
-            "name": "Cúc Hoa Long Lanh",
-            "power": 50.6,
             "reason": ""
           },
           {
