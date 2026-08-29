@@ -438,7 +438,7 @@
     },
     "NgocNamBoss": {
       "rank": "R3",
-      "power": 47.35,
+      "power": 48.0,
       "yc_sm": 0,
       "yc_hn": 0
     },
@@ -687,7 +687,7 @@
     "Bin 37": {
       "rank": "R3",
       "note": "",
-      "power": 50.0,
+      "power": 51.0,
       "yc_sm": 0,
       "yc_hn": 0
     },
@@ -828,7 +828,7 @@
     },
     "ÒÓO": {
       "rank": "R3",
-      "power": 50.0,
+      "power": 50.5,
       "yc_sm": 0,
       "yc_hn": 0
     },
@@ -1013,6 +1013,24 @@
             "r": "R4",
             "name": "yologuy",
             "reason": "R4"
+          },
+          {
+            "r": "R3",
+            "name": "Bin 37",
+            "power": 51.0,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "ÒÓO",
+            "power": 50.5,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "NgocNamBoss",
+            "power": 48.0,
+            "reason": ""
           }
         ],
         "subs": [],
@@ -1095,6 +1113,24 @@
           {
             "r": "R4",
             "name": "yologuy",
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Bin 37",
+            "power": 51.0,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "ÒÓO",
+            "power": 50.5,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "NgocNamBoss",
+            "power": 48.0,
             "reason": ""
           }
         ],
