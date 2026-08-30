@@ -702,8 +702,9 @@
     "ZEKT": {
       "rank": "R3",
       "note": "",
-      "power": 49.26,
-      "yc_sm": 0
+      "power": 49.58,
+      "yc_sm": 0,
+      "yc_hn": 0
     },
     "Mr Hải Nam": {
       "rank": "R2",
@@ -1006,6 +1007,12 @@
           },
           {
             "r": "R3",
+            "name": "ZEKT",
+            "power": 49.58,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "tâm1980",
             "power": 49.0,
             "reason": ""
@@ -1156,6 +1163,12 @@
             "r": "R3",
             "name": "ᵛᶰ Đậu Hũ",
             "power": 51.7,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "ZEKT",
+            "power": 49.58,
             "reason": ""
           },
           {
