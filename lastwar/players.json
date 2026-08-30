@@ -85,7 +85,7 @@
       "MR Dương",
       "sửa máy promax",
       "Bi小悟空",
-      "ThíchThìNhích92",
+      "TiềnGiang63",
       "Khánhh Báooo",
       "Nhi Nở",
       "Bắp đại ca",
@@ -212,7 +212,7 @@
           "NgocNamBoss": 823883,
           "Orion Là Chocopie": 746331,
           "ÒÓO": 692966,
-          "ThíchThìNhích92": 614376,
+          "TiềnGiang63": 614376,
           "Marines Malevolent": 585569,
           "Bơ Bắp 1": 529112,
           "Đập Chai": 483470,
@@ -267,7 +267,7 @@
           "Kute Gold": 10950930,
           "yologuy": 9348773,
           "Thanhh Tân": 8771661,
-          "ThíchThìNhích92": 8736013,
+          "TiềnGiang63": 8736013,
           "Phạm khánhh": 8250797,
           "NgocNamBoss": 7563193,
           "MrAugust2886": 7294440,
@@ -709,10 +709,10 @@
       "rank": "R2",
       "note": ""
     },
-    "ThíchThìNhích92": {
+    "TiềnGiang63": {
       "rank": "R3",
       "note": "",
-      "power": 48.1,
+      "power": 48.5,
       "yc_sm": 0,
       "yc_hn": 0
     },
@@ -1046,6 +1046,12 @@
           },
           {
             "r": "R3",
+            "name": "TiềnGiang63",
+            "power": 48.5,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "Chivas2026",
             "power": 48.44,
             "reason": ""
@@ -1173,6 +1179,12 @@
             "r": "R3",
             "name": "ÒÓO",
             "power": 50.5,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "TiềnGiang63",
+            "power": 48.5,
             "reason": ""
           },
           {
