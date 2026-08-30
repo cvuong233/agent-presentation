@@ -794,7 +794,7 @@
       "dayoff": 0,
       "note": "",
       "yc_sm": 0,
-      "power": 52.5,
+      "power": 52.9,
       "yc_hn": 0
     },
     "El Coderito": {
@@ -994,6 +994,12 @@
           },
           {
             "r": "R3",
+            "name": "duckiecutie",
+            "power": 52.9,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "tâm1980",
             "power": 49.0,
             "reason": ""
@@ -1132,6 +1138,12 @@
             "r": "R3",
             "name": "Thiện phương",
             "power": 55.0,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "duckiecutie",
+            "power": 52.9,
             "reason": ""
           },
           {
