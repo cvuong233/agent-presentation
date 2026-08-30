@@ -752,7 +752,7 @@
       "rank": "R3",
       "dayoff": false,
       "note": "",
-      "power": 51.3,
+      "power": 51.7,
       "yc_hn": 0
     },
     "Zyn1998 n": {
@@ -1000,6 +1000,12 @@
           },
           {
             "r": "R3",
+            "name": "ᵛᶰ Đậu Hũ",
+            "power": 51.7,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "tâm1980",
             "power": 49.0,
             "reason": ""
@@ -1144,6 +1150,12 @@
             "r": "R3",
             "name": "duckiecutie",
             "power": 52.9,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "ᵛᶰ Đậu Hũ",
+            "power": 51.7,
             "reason": ""
           },
           {
