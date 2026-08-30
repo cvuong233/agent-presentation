@@ -432,7 +432,7 @@
     },
     "Chivas2026": {
       "rank": "R3",
-      "power": 47.94,
+      "power": 48.44,
       "yc_sm": 0,
       "yc_hn": 0
     },
@@ -1046,6 +1046,12 @@
           },
           {
             "r": "R3",
+            "name": "Chivas2026",
+            "power": 48.44,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "NgocNamBoss",
             "power": 48.0,
             "reason": ""
@@ -1167,6 +1173,12 @@
             "r": "R3",
             "name": "ÒÓO",
             "power": 50.5,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Chivas2026",
+            "power": 48.44,
             "reason": ""
           },
           {
