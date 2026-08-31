@@ -941,7 +941,7 @@
     },
     "PoMzzz": {
       "rank": "R3",
-      "power": 51.6,
+      "power": 52,
       "yc_sm": 0,
       "yc_hn": 0
     }
@@ -1034,6 +1034,12 @@
           },
           {
             "r": "R3",
+            "name": "PoMzzz",
+            "power": 52,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "ᵛᶰ Đậu Hũ",
             "power": 51.7,
             "reason": ""
@@ -1055,15 +1061,15 @@
             "name": "Sầu riêng m7",
             "power": 49.5,
             "reason": ""
-          },
+          }
+        ],
+        "subs": [
           {
             "r": "R3",
             "name": "tâm1980",
             "power": 49.0,
             "reason": ""
-          }
-        ],
-        "subs": [
+          },
           {
             "r": "R3",
             "name": "TúTú01",
@@ -1383,6 +1389,12 @@
           },
           {
             "r": "R3",
+            "name": "PoMzzz",
+            "power": 52,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "ᵛᶰ Đậu Hũ",
             "power": 51.7,
             "reason": ""
@@ -1392,15 +1404,15 @@
             "name": "Cúc Hoa Long Lanh",
             "power": 51,
             "reason": ""
-          },
+          }
+        ],
+        "subs": [
           {
             "r": "R3",
             "name": "ZEKT",
             "power": 49.58,
             "reason": ""
-          }
-        ],
-        "subs": [
+          },
           {
             "r": "R3",
             "name": "tâm1980",
