@@ -210,7 +210,6 @@
           "NorthFog": 919480,
           "Chivas2026": 893854,
           "NgocNamBoss": 823883,
-          "Orion Là Chocopie": 746331,
           "ÒÓO": 692966,
           "TiềnGiang63": 614376,
           "Marines Malevolent": 585569,
@@ -218,7 +217,8 @@
           "Đập Chai": 483470,
           "KhoaiTây83": 416833,
           "Trai Cầu Tõm": 401975,
-          "Yunnin": 25066
+          "Yunnin": 25066,
+          "Commander 2211": 746331
         }
       }
     },
@@ -286,8 +286,8 @@
           "Khánhh Báooo": 1881185,
           "danhoanh": 1877080,
           "SanTa 1386": 1435965,
-          "Orion Là Chocopie": 1209687,
-          "Chivas2026": 613778
+          "Chivas2026": 613778,
+          "Commander 2211": 1209687
         }
       }
     }
@@ -352,7 +352,7 @@
     },
     "Shashank1411": {
       "rank": "R3",
-      "power": 49.36,
+      "power": 49.83,
       "yc_sm": 1,
       "yc_hn": 0
     },
@@ -376,7 +376,7 @@
     },
     "Đập Chai": {
       "rank": "R3",
-      "power": 46.5,
+      "power": 47,
       "yc_hn": 0
     },
     "công chúa lavie": {
@@ -491,7 +491,7 @@
     },
     "Phạm khánhh": {
       "rank": "R3",
-      "power": 46.5,
+      "power": 47,
       "yc_sm": 0,
       "yc_hn": 0
     },
@@ -666,7 +666,7 @@
     },
     "Kute Gold": {
       "rank": "R3",
-      "power": 53.3,
+      "power": 54,
       "yc_sm": 0,
       "yc_hn": 0
     },
@@ -835,7 +835,7 @@
     },
     "Cúc Hoa Long Lanh": {
       "rank": "R3",
-      "power": 50.6,
+      "power": 51,
       "yc_sm": 0,
       "yc_hn": 0
     },
@@ -887,9 +887,9 @@
     "Piipo": {
       "rank": "R3"
     },
-    "Orion Là Chocopie": {
+    "Commander 2211": {
       "rank": "R3",
-      "power": 47.0,
+      "power": 47,
       "yc_sm": 1,
       "yc_hn": 1
     },
@@ -907,7 +907,7 @@
     },
     "Bạch Long Mã": {
       "rank": "R3",
-      "power": 54.0,
+      "power": 54.4,
       "yc_hn": 0
     },
     "Rio Gia Huy": {
@@ -1007,6 +1007,12 @@
           },
           {
             "r": "R3",
+            "name": "Cúc Hoa Long Lanh",
+            "power": 51,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "ZEKT",
             "power": 49.58,
             "reason": ""
@@ -1047,6 +1053,18 @@
           },
           {
             "r": "R3",
+            "name": "Bạch Long Mã",
+            "power": 54.4,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Kute Gold",
+            "power": 54,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "Kendy Nguyên 86",
             "power": 51.7,
             "reason": ""
@@ -1065,6 +1083,12 @@
           },
           {
             "r": "R3",
+            "name": "Shashank1411",
+            "power": 49.83,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "TiềnGiang63",
             "power": 48.5,
             "reason": ""
@@ -1079,6 +1103,24 @@
             "r": "R3",
             "name": "NgocNamBoss",
             "power": 48.0,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Đập Chai",
+            "power": 47,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Commander 2211",
+            "power": 47,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Phạm khánhh",
+            "power": 47,
             "reason": ""
           },
           {
@@ -1167,6 +1209,12 @@
           },
           {
             "r": "R3",
+            "name": "Cúc Hoa Long Lanh",
+            "power": 51,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "ZEKT",
             "power": 49.58,
             "reason": ""
@@ -1202,6 +1250,18 @@
           },
           {
             "r": "R3",
+            "name": "Bạch Long Mã",
+            "power": 54.4,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Kute Gold",
+            "power": 54,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "Kendy Nguyên 86",
             "power": 51.7,
             "reason": ""
@@ -1220,6 +1280,12 @@
           },
           {
             "r": "R3",
+            "name": "Shashank1411",
+            "power": 49.83,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "TiềnGiang63",
             "power": 48.5,
             "reason": ""
@@ -1234,6 +1300,24 @@
             "r": "R3",
             "name": "NgocNamBoss",
             "power": 48.0,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Đập Chai",
+            "power": 47,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Commander 2211",
+            "power": 47,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Phạm khánhh",
+            "power": 47,
             "reason": ""
           },
           {
