@@ -128,6 +128,77 @@
     ]
   },
   {
+    "id": "say-say-hanoi",
+    "name": "Say Say Hanoi",
+    "cuisine": "Cafe · Wine bar",
+    "address": "41/152 Ngõ Xã Đàn 2, Hà Nội",
+    "lat": 21.0138,
+    "lng": 105.8319,
+    "phone": "",
+    "hours": "Cafe 9:00 – 18:00, Wine/food 16:00 – 24:00",
+    "price": "",
+    "tags": [
+      "cafe",
+      "wine",
+      "food",
+      "late-night"
+    ],
+    "note": "Cafe 9:00–18:00, Wine/food 16:00–24:00",
+    "image": "photos/say_say_hanoi.jpg",
+    "maps_url": "https://maps.google.com/?q=Say+Say+Hanoi+41/152+Ngo+Xa+Dan+2+Ha+Noi",
+    "images": [
+      "photos/say_say_hanoi.jpg"
+    ]
+  },
+  {
+    "id": "bar-hop",
+    "name": "Bar Hop",
+    "cuisine": "Cafe · Cocktail bar",
+    "address": "165 Bùi Thị Xuân, Hà Nội",
+    "lat": 21.0197,
+    "lng": 105.8479,
+    "phone": "",
+    "hours": "Cafe 9:00 – 17:00, Cocktail bar 17:00 – 1:00",
+    "price": "",
+    "tags": [
+      "cafe",
+      "cocktail",
+      "bar",
+      "late-night"
+    ],
+    "note": "Cafe 9:00–17:00, Cocktail bar 17:00–1:00",
+    "image": "photos/bar_hop.jpg",
+    "maps_url": "https://maps.google.com/?q=Bar+Hop+165+Bui+Thi+Xuan+Ha+Noi",
+    "images": [
+      "photos/bar_hop.jpg"
+    ]
+  },
+  {
+    "id": "zamba-garden",
+    "name": "Zamba Garden",
+    "cuisine": "Nhà hàng Việt Nam",
+    "address": "5 P. Yên Lãng, Đống Đa, Hà Nội",
+    "lat": 21.0130,
+    "lng": 105.8210,
+    "phone": "",
+    "hours": "",
+    "price": "",
+    "rating": 4.2,
+    "review_count": 834,
+    "tags": [
+      "vietnamese",
+      "restaurant",
+      "outdoor",
+      "reservation-required"
+    ],
+    "note": "Cần đặt bàn trước, có khu vực ngoài trời và phòng riêng. 4.2 ⭐ (834 đánh giá Google)",
+    "image": "photos/zamba_garden.jpg",
+    "maps_url": "https://maps.google.com/?q=Zamba+Garden+5+P+Yen+Lang+Dong+Da+Ha+Noi",
+    "images": [
+      "photos/zamba_garden.jpg"
+    ]
+  },
+  {
     "id": "hoanglinh-bun-hai-san",
     "name": "Hoàng Linh Quán - Bún hải sản - Bún cá chấm",
     "cuisine": "Bún hải sản · Bún cá chấm",
