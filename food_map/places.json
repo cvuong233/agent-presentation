@@ -221,5 +221,32 @@
     "images": [
       "https://static.riviu.co/image/2020/09/09/1727ae44843c4927a32c18e8c767fbc6.jpg"
     ]
+  },
+  {
+    "id": "standing-bar-tran-vu",
+    "name": "Standing Bar: Craft Beer, Tapas & Grill",
+    "cuisine": "bar / craft beer / tapas",
+    "address": "170 P. Trấn Vũ, Ba Đình, Hà Nội",
+    "lat": 21.0452,
+    "lng": 105.8437,
+    "phone": "",
+    "hours": "",
+    "price": "",
+    "rating": 4.6,
+    "review_count": 1200,
+    "tags": [
+      "bar",
+      "craft-beer",
+      "tapas",
+      "rooftop",
+      "outdoor",
+      "cocktails"
+    ],
+    "note": "Rooftop seating, outdoor seating, great cocktails. 1.2K Google reviews.",
+    "image": "photos/standing_bar.jpg",
+    "maps_url": "https://maps.google.com/?q=Standing+Bar+170+P+Tran+Vu+Ba+Dinh+Ha+Noi",
+    "images": [
+      "photos/standing_bar.jpg"
+    ]
   }
 ]
