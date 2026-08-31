@@ -449,7 +449,7 @@
     },
     "MrAugust2886": {
       "rank": "R3",
-      "power": 52.0,
+      "power": 52.8,
       "yc_sm": 0,
       "yc_hn": 0
     },
@@ -1001,6 +1001,12 @@
           },
           {
             "r": "R3",
+            "name": "MrAugust2886",
+            "power": 52.8,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "ᵛᶰ Đậu Hũ",
             "power": 51.7,
             "reason": ""
@@ -1276,6 +1282,12 @@
             "r": "R3",
             "name": "Kute Gold",
             "power": 54,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "MrAugust2886",
+            "power": 52.8,
             "reason": ""
           },
           {
