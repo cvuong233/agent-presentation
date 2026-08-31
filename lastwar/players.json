@@ -476,7 +476,7 @@
     },
     "SanTa 1386": {
       "rank": "R3",
-      "power": 45.5,
+      "power": 46,
       "yc_hn": 0,
       "yc_sm": 0
     },
@@ -1169,6 +1169,12 @@
         "subs": [
           {
             "r": "R3",
+            "name": "SanTa 1386",
+            "power": 46,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "Khánhh Báooo",
             "power": 43.5,
             "reason": ""
@@ -1405,6 +1411,12 @@
             "r": "R3",
             "name": "Trai Cầu Tõm",
             "power": 46.4,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "SanTa 1386",
+            "power": 46,
             "reason": ""
           },
           {
