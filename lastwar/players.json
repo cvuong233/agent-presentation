@@ -135,7 +135,8 @@
       "Bunny1308",
       "Mr Hải Nam",
       "Zyn1998 n",
-      "Hoàng Hậuu"
+      "Hoàng Hậuu",
+      "KhoaiTây83"
     ],
     "R1": [
       "A Ngỗng",
@@ -145,9 +146,9 @@
       "kevkevkev123",
       "thangnet",
       "上官武命",
-      "KhoaiTây83",
       "Lil Hen Hen",
-      "Lil Sal Sal"
+      "Lil Sal Sal",
+      "Commander 2211"
     ]
   },
   "last_matches": {
@@ -891,7 +892,7 @@
       "rank": "R3"
     },
     "Commander 2211": {
-      "rank": "R3",
+      "rank": "R1",
       "power": 47,
       "yc_sm": 1,
       "yc_hn": 1
@@ -903,7 +904,7 @@
       "yc_hn": 1
     },
     "KhoaiTây83": {
-      "rank": "R1",
+      "rank": "R2",
       "power": 48.2,
       "yc_sm": 0,
       "yc_hn": 0
@@ -1206,7 +1207,7 @@
             "reason": ""
           },
           {
-            "r": "R1",
+            "r": "R2",
             "name": "KhoaiTây83",
             "power": 48.2,
             "reason": ""
@@ -1238,7 +1239,7 @@
             "reason": ""
           },
           {
-            "r": "R3",
+            "r": "R1",
             "name": "Commander 2211",
             "power": 47,
             "reason": ""
@@ -1562,7 +1563,7 @@
             "reason": ""
           },
           {
-            "r": "R1",
+            "r": "R2",
             "name": "KhoaiTây83",
             "power": 48.2,
             "reason": ""
@@ -1594,7 +1595,7 @@
             "reason": ""
           },
           {
-            "r": "R3",
+            "r": "R1",
             "name": "Commander 2211",
             "power": 47,
             "reason": ""
