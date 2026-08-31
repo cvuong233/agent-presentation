@@ -827,7 +827,7 @@
       "rank": "R3",
       "dayoff": 0,
       "note": "",
-      "power": 53.4,
+      "power": 53.7,
       "yc_sm": 0,
       "yc_hn": 0
     },
@@ -1022,6 +1022,12 @@
           },
           {
             "r": "R3",
+            "name": "Tom and Jerry 9999",
+            "power": 53.7,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "duckiecutie",
             "power": 52.9,
             "reason": ""
@@ -1055,15 +1061,15 @@
             "name": "ᵛᶰ Đậu Hũ",
             "power": 51.7,
             "reason": ""
-          },
+          }
+        ],
+        "subs": [
           {
             "r": "R3",
             "name": "Cúc Hoa Long Lanh",
             "power": 51,
             "reason": ""
-          }
-        ],
-        "subs": [
+          },
           {
             "r": "R3",
             "name": "RùaNgáo",
@@ -1388,6 +1394,12 @@
           },
           {
             "r": "R3",
+            "name": "Tom and Jerry 9999",
+            "power": 53.7,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "duckiecutie",
             "power": 52.9,
             "reason": ""
@@ -1415,15 +1427,15 @@
             "name": "Yến Nhi NT",
             "power": 52,
             "reason": ""
-          },
+          }
+        ],
+        "subs": [
           {
             "r": "R3",
             "name": "PoMzzz",
             "power": 52,
             "reason": ""
-          }
-        ],
-        "subs": [
+          },
           {
             "r": "R3",
             "name": "ᵛᶰ Đậu Hũ",
