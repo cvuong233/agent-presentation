@@ -958,6 +958,11 @@
           },
           {
             "r": "R4",
+            "name": "cường khùng",
+            "reason": "R4"
+          },
+          {
+            "r": "R4",
             "name": "LinLin",
             "reason": "R4"
           },
@@ -1057,19 +1062,14 @@
             "name": "ZEKT",
             "power": 49.58,
             "reason": ""
-          },
+          }
+        ],
+        "subs": [
           {
             "r": "R3",
             "name": "Sầu riêng m7",
             "power": 49.5,
             "reason": ""
-          }
-        ],
-        "subs": [
-          {
-            "r": "R4",
-            "name": "cường khùng",
-            "reason": "yc_sm=1"
           },
           {
             "r": "R3",
@@ -1342,6 +1342,11 @@
             "reason": "R4"
           },
           {
+            "r": "R4",
+            "name": "Tài Béooo",
+            "reason": "R4"
+          },
+          {
             "r": "R3",
             "name": "Deptraitube2012",
             "power": 57,
@@ -1406,19 +1411,14 @@
             "name": "Cúc Hoa Long Lanh",
             "power": 51,
             "reason": ""
-          },
+          }
+        ],
+        "subs": [
           {
             "r": "R3",
             "name": "ZEKT",
             "power": 49.58,
             "reason": ""
-          }
-        ],
-        "subs": [
-          {
-            "r": "R4",
-            "name": "Tài Béooo",
-            "reason": "yc_hn=1"
           },
           {
             "r": "R3",
