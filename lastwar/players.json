@@ -731,7 +731,7 @@
     "tRnuOwn9f 795": {
       "rank": "R3",
       "note": "",
-      "power": 49.0,
+      "power": 49.4,
       "yc_sm": 0,
       "yc_hn": 0
     },
@@ -1107,6 +1107,12 @@
           },
           {
             "r": "R3",
+            "name": "tRnuOwn9f 795",
+            "power": 49.4,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "TiềnGiang63",
             "power": 48.5,
             "reason": ""
@@ -1158,7 +1164,9 @@
             "name": "Trai Cầu Tõm",
             "power": 46.4,
             "reason": ""
-          },
+          }
+        ],
+        "subs": [
           {
             "r": "R3",
             "name": "Khánhh Báooo",
@@ -1166,7 +1174,6 @@
             "reason": ""
           }
         ],
-        "subs": [],
         "dayoff": [],
         "slot": "B",
         "maxMain": 20,
@@ -1340,6 +1347,12 @@
           },
           {
             "r": "R3",
+            "name": "tRnuOwn9f 795",
+            "power": 49.4,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "TiềnGiang63",
             "power": 48.5,
             "reason": ""
@@ -1385,15 +1398,15 @@
             "name": "Phạm khánhh",
             "power": 47,
             "reason": ""
-          },
+          }
+        ],
+        "subs": [
           {
             "r": "R3",
             "name": "Trai Cầu Tõm",
             "power": 46.4,
             "reason": ""
-          }
-        ],
-        "subs": [
+          },
           {
             "r": "R3",
             "name": "Khánhh Báooo",
