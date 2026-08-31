@@ -614,7 +614,7 @@
     },
     "Trai Cầu Tõm": {
       "rank": "R3",
-      "power": 45.5,
+      "power": 46.4,
       "yc_sm": 0,
       "yc_hn": 0
     },
@@ -1155,6 +1155,12 @@
           },
           {
             "r": "R3",
+            "name": "Trai Cầu Tõm",
+            "power": 46.4,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "Khánhh Báooo",
             "power": 43.5,
             "reason": ""
@@ -1382,12 +1388,19 @@
           },
           {
             "r": "R3",
+            "name": "Trai Cầu Tõm",
+            "power": 46.4,
+            "reason": ""
+          }
+        ],
+        "subs": [
+          {
+            "r": "R3",
             "name": "Khánhh Báooo",
             "power": 43.5,
             "reason": ""
           }
         ],
-        "subs": [],
         "dayoff": [],
         "slot": "B",
         "maxMain": 20,
