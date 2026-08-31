@@ -342,7 +342,7 @@
     },
     "zdevils": {
       "rank": "R3",
-      "power": 52.0,
+      "power": 52,
       "yc_sm": 0,
       "yc_hn": 0
     },
@@ -993,6 +993,11 @@
           },
           {
             "r": "R3",
+            "name": "zdevils",
+            "reason": "R3"
+          },
+          {
+            "r": "R3",
             "name": "Deptraitube2012",
             "power": 57,
             "reason": ""
@@ -1056,15 +1061,15 @@
             "name": "RùaNgáo",
             "power": 50.2,
             "reason": ""
-          },
+          }
+        ],
+        "subs": [
           {
             "r": "R3",
             "name": "ZEKT",
             "power": 49.58,
             "reason": ""
-          }
-        ],
-        "subs": [
+          },
           {
             "r": "R3",
             "name": "Sầu riêng m7",
@@ -1348,6 +1353,11 @@
           },
           {
             "r": "R3",
+            "name": "zdevils",
+            "reason": "R3"
+          },
+          {
+            "r": "R3",
             "name": "Deptraitube2012",
             "power": 57,
             "reason": ""
@@ -1405,15 +1415,15 @@
             "name": "ᵛᶰ Đậu Hũ",
             "power": 51.7,
             "reason": ""
-          },
+          }
+        ],
+        "subs": [
           {
             "r": "R3",
             "name": "Cúc Hoa Long Lanh",
             "power": 51,
             "reason": ""
-          }
-        ],
-        "subs": [
+          },
           {
             "r": "R3",
             "name": "ZEKT",
