@@ -841,7 +841,7 @@
     },
     "Sting Chanh": {
       "rank": "R3",
-      "power": 53.6,
+      "power": 53.9,
       "yc_hn": 0,
       "yc_sm": 0
     },
@@ -991,6 +991,12 @@
             "r": "R3",
             "name": "Thiện phương",
             "power": 55.0,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Sting Chanh",
+            "power": 53.9,
             "reason": ""
           },
           {
@@ -1242,6 +1248,12 @@
             "r": "R3",
             "name": "Thiện phương",
             "power": 55.0,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Sting Chanh",
+            "power": 53.9,
             "reason": ""
           },
           {
