@@ -543,7 +543,10 @@
       "rank": "R3"
     },
     "Bakes56": {
-      "rank": "R3"
+      "rank": "R3",
+      "power": 45,
+      "yc_sm": 0,
+      "yc_hn": 0
     },
     "Yunnin": {
       "rank": "R3",
@@ -802,7 +805,7 @@
       "rank": "R3",
       "dayoff": 0,
       "note": "",
-      "power": 53.3,
+      "power": 53.7,
       "yc_sm": 0,
       "yc_hn": 0
     },
@@ -1003,6 +1006,12 @@
             "r": "R3",
             "name": "Sting Chanh",
             "power": 53.9,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "El Coderito",
+            "power": 53.7,
             "reason": ""
           },
           {
@@ -1229,6 +1238,12 @@
           },
           {
             "r": "R3",
+            "name": "Bakes56",
+            "power": 45,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "Khánhh Báooo",
             "power": 43.5,
             "reason": ""
@@ -1312,6 +1327,12 @@
           },
           {
             "r": "R3",
+            "name": "El Coderito",
+            "power": 53.7,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "duckiecutie",
             "power": 52.9,
             "reason": ""
@@ -1351,7 +1372,9 @@
             "name": "tâm1980",
             "power": 49.0,
             "reason": ""
-          },
+          }
+        ],
+        "subs": [
           {
             "r": "R3",
             "name": "TúTú01",
@@ -1359,7 +1382,6 @@
             "reason": ""
           }
         ],
-        "subs": [],
         "dayoff": [],
         "slot": "A",
         "maxMain": 20,
@@ -1525,6 +1547,12 @@
             "r": "R3",
             "name": "SanTa 1386",
             "power": 46,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Bakes56",
+            "power": 45,
             "reason": ""
           },
           {
