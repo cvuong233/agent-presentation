@@ -2,12 +2,12 @@
   "meta": {
     "clan": "Mates",
     "game": "Last War VN",
-    "updated": "2026-08-30",
+    "updated": "2026-08-31",
     "notes": "C V = cường khùng (R4). SM = Bão Sa Mạc (Desert Storm). HN = Bão Hẻm Núi (Canyon Storm). Official model: last_matches = history, next_lineup = editable upcoming lineup. Both battles use 20 main / 10 subs. Lineup sorted by squad power descending. Fixed players (fixed=A/B) are auto-registered into their team each week using their stored power.",
-    "updated_hn_a": "2026-08-30",
+    "updated_hn_a": "2026-08-31",
     "updated_hn_b": "2026-08-30",
     "updated_sm_b": "2026-08-30",
-    "updated_sm_a": "2026-08-30"
+    "updated_sm_a": "2026-08-31"
   },
   "ranks": {
     "R5": [
@@ -774,7 +774,7 @@
       "rank": "R3",
       "dayoff": false,
       "note": "",
-      "power": 51.8,
+      "power": 52.2,
       "yc_hn": 0,
       "yc_sm": 0
     },
@@ -1034,6 +1034,12 @@
           },
           {
             "r": "R3",
+            "name": "Sói Ken",
+            "power": 52.2,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "Yến Nhi NT",
             "power": 52,
             "reason": ""
@@ -1055,15 +1061,15 @@
             "name": "Cúc Hoa Long Lanh",
             "power": 51,
             "reason": ""
-          },
+          }
+        ],
+        "subs": [
           {
             "r": "R3",
             "name": "RùaNgáo",
             "power": 50.2,
             "reason": ""
-          }
-        ],
-        "subs": [
+          },
           {
             "r": "R3",
             "name": "ZEKT",
@@ -1388,6 +1394,12 @@
           },
           {
             "r": "R3",
+            "name": "Sói Ken",
+            "power": 52.2,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "eMorgenröte",
             "power": 52,
             "reason": ""
@@ -1409,15 +1421,15 @@
             "name": "PoMzzz",
             "power": 52,
             "reason": ""
-          },
+          }
+        ],
+        "subs": [
           {
             "r": "R3",
             "name": "ᵛᶰ Đậu Hũ",
             "power": 51.7,
             "reason": ""
-          }
-        ],
-        "subs": [
+          },
           {
             "r": "R3",
             "name": "Cúc Hoa Long Lanh",
