@@ -932,7 +932,7 @@
     },
     "Clone Or SouLy々": {
       "rank": "R3",
-      "power": 49.5,
+      "power": 50,
       "yc_sm": 0,
       "yc_hn": 0
     },
@@ -1143,6 +1143,12 @@
           },
           {
             "r": "R3",
+            "name": "Clone Or SouLy々",
+            "power": 50,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "Shashank1411",
             "power": 49.83,
             "reason": ""
@@ -1176,15 +1182,15 @@
             "name": "Thanhh Tân",
             "power": 48,
             "reason": ""
-          },
+          }
+        ],
+        "subs": [
           {
             "r": "R3",
             "name": "Marines Malevolent",
             "power": 47.1,
             "reason": ""
-          }
-        ],
-        "subs": [
+          },
           {
             "r": "R3",
             "name": "Phạm khánhh",
@@ -1431,6 +1437,12 @@
           },
           {
             "r": "R3",
+            "name": "Clone Or SouLy々",
+            "power": 50,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "Shashank1411",
             "power": 49.83,
             "reason": ""
@@ -1476,12 +1488,6 @@
             "name": "Marines Malevolent",
             "power": 47.1,
             "reason": ""
-          },
-          {
-            "r": "R3",
-            "name": "Đập Chai",
-            "power": 47,
-            "reason": ""
           }
         ],
         "subs": [
@@ -1494,6 +1500,12 @@
           {
             "r": "R3",
             "name": "Commander 2211",
+            "power": 47,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Đập Chai",
             "power": 47,
             "reason": ""
           },
