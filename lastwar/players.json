@@ -413,7 +413,7 @@
     },
     "RùaNgáo": {
       "rank": "R3",
-      "power": 49.7,
+      "power": 50.2,
       "yc_sm": 0,
       "yc_hn": 0
     },
@@ -1052,18 +1052,24 @@
           },
           {
             "r": "R3",
+            "name": "RùaNgáo",
+            "power": 50.2,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "ZEKT",
             "power": 49.58,
             "reason": ""
-          },
+          }
+        ],
+        "subs": [
           {
             "r": "R3",
             "name": "Sầu riêng m7",
             "power": 49.5,
             "reason": ""
-          }
-        ],
-        "subs": [
+          },
           {
             "r": "R3",
             "name": "tâm1980",
@@ -1515,6 +1521,12 @@
           },
           {
             "r": "R3",
+            "name": "RùaNgáo",
+            "power": 50.2,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "Clone Or SouLy々",
             "power": 50,
             "reason": ""
@@ -1560,15 +1572,15 @@
             "name": "NgocNamBoss",
             "power": 48.0,
             "reason": ""
-          },
+          }
+        ],
+        "subs": [
           {
             "r": "R3",
             "name": "Thanhh Tân",
             "power": 48,
             "reason": ""
-          }
-        ],
-        "subs": [
+          },
           {
             "r": "R3",
             "name": "Marines Malevolent",
