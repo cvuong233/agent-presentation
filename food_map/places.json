@@ -17,11 +17,12 @@
       "Hoàng Cầu"
     ],
     "note": "View nhìn ra đường tàu điện trên cao, không gian rooftop đẹp về đêm",
-    "image": "photos/xinu_interior.jpg",
+    "image": "photos/xinu_1.jpg",
     "maps_url": "https://maps.google.com/?q=XINU+xien+nuong+Hoang+Cau+Ha+Noi",
     "images": [
       "photos/xinu_1.jpg",
-      "photos/xinu_2.jpg"
+      "photos/xinu_2.jpg",
+      "photos/xinu_3.jpg"
     ]
   },
   {
@@ -42,10 +43,12 @@
       "Liễu Giai"
     ],
     "note": "Quán xiên nướng phong cách Trung Hoa, khu Kim Mã / Liễu Giai",
-    "image": "photos/abao.jpg",
+    "image": "photos/abao_1.jpg",
     "maps_url": "https://maps.google.com/?q=A+Bao+Nuong+Xien+285+Kim+Ma+Ha+Noi",
     "images": [
-      "photos/abao_1.jpg"
+      "photos/abao_1.jpg",
+      "photos/abao_2.jpg",
+      "photos/abao_3.jpg"
     ]
   },
   {
@@ -68,11 +71,12 @@
       "Cầu Giấy"
     ],
     "note": "Lẩu Tứ Xuyên cay đúng vị, không gian đèn lồng ấm cúng",
-    "image": "photos/thuchuong_google.jpg",
+    "image": "photos/thuchuong_1.jpg",
     "maps_url": "https://maps.google.com/?q=Thuc+Huong+Lau+83+Trung+Hoa+Cau+Giay+Ha+Noi",
     "images": [
       "photos/thuchuong_1.jpg",
-      "photos/thuchuong_2.jpg"
+      "photos/thuchuong_2.jpg",
+      "photos/thuchuong_3.jpg"
     ]
   },
   {
@@ -94,7 +98,7 @@
       "Tây Hồ"
     ],
     "note": "Chả cá ngon, đánh giá cao, khu An Dương Tây Hồ",
-    "image": "photos/chacabaolinh.jpg",
+    "image": "photos/chacabaolinh_1.jpg",
     "maps_url": "https://maps.google.com/?q=Cha+Ca+Bao+Linh+An+Duong+Tay+Ho+Ha+Noi",
     "images": [
       "photos/chacabaolinh_1.jpg",
@@ -147,7 +151,10 @@
     "image": "photos/say_say_hanoi.jpg",
     "maps_url": "https://maps.google.com/?q=Say+Say+Hanoi+41/152+Ngo+Xa+Dan+2+Ha+Noi",
     "images": [
-      "photos/say_say_hanoi.jpg"
+      "photos/say_say_hanoi.jpg",
+      "photos/say_say_hanoi_2.jpg",
+      "photos/say_say_hanoi_3.jpg",
+      "photos/say_say_hanoi_4.jpg"
     ]
   },
   {
@@ -170,7 +177,9 @@
     "image": "photos/bar_hop.jpg",
     "maps_url": "https://maps.google.com/?q=Bar+Hop+165+Bui+Thi+Xuan+Ha+Noi",
     "images": [
-      "photos/bar_hop.jpg"
+      "photos/bar_hop.jpg",
+      "photos/bar_hop_2.jpg",
+      "photos/bar_hop_3.jpg"
     ]
   },
   {
@@ -195,7 +204,10 @@
     "image": "photos/zamba_garden.jpg",
     "maps_url": "https://maps.google.com/?q=Zamba+Garden+5+P+Yen+Lang+Dong+Da+Ha+Noi",
     "images": [
-      "photos/zamba_garden.jpg"
+      "photos/zamba_garden.jpg",
+      "photos/zamba_garden_2.jpg",
+      "photos/zamba_garden_3.jpg",
+      "photos/zamba_garden_4.jpg"
     ]
   },
   {
@@ -216,10 +228,12 @@
       "Đống Đa"
     ],
     "note": "Bún hải sản và bún cá chấm, nước dùng thanh không tanh, tươi ngon. 4.3 ⭐ (145 đánh giá Google)",
-    "image": "https://static.riviu.co/image/2020/09/09/1727ae44843c4927a32c18e8c767fbc6.jpg",
+    "image": "photos/hoanglinh_1.jpg",
     "maps_url": "https://maps.google.com/?q=Hoang+Linh+Quan+Bun+hai+san+40+Hoang+Cau+Dong+Da+Ha+Noi",
     "images": [
-      "https://static.riviu.co/image/2020/09/09/1727ae44843c4927a32c18e8c767fbc6.jpg"
+      "photos/hoanglinh_1.jpg",
+      "photos/hoanglinh_2.jpg",
+      "photos/hoanglinh_3.jpg"
     ]
   },
   {
@@ -243,10 +257,13 @@
       "cocktails"
     ],
     "note": "Rooftop seating, outdoor seating, great cocktails. 1.2K Google reviews.",
-    "image": "photos/standing_bar.jpg",
+    "image": "photos/standing_bar_2.jpg",
     "maps_url": "https://maps.google.com/?q=Standing+Bar+170+P+Tran+Vu+Ba+Dinh+Ha+Noi",
     "images": [
-      "photos/standing_bar.jpg"
+      "photos/standing_bar_2.jpg",
+      "photos/standing_bar.jpg",
+      "photos/standing_bar_3.jpg",
+      "photos/standing_bar_4.jpg"
     ]
   }
 ]
