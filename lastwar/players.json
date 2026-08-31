@@ -1004,6 +1004,12 @@
           },
           {
             "r": "R3",
+            "name": "Rio Gia Huy",
+            "power": 57,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "Thiện phương",
             "power": 55.0,
             "reason": ""
@@ -1055,15 +1061,15 @@
             "name": "PoMzzz",
             "power": 52,
             "reason": ""
-          },
+          }
+        ],
+        "subs": [
           {
             "r": "R3",
             "name": "ᵛᶰ Đậu Hũ",
             "power": 51.7,
             "reason": ""
-          }
-        ],
-        "subs": [
+          },
           {
             "r": "R3",
             "name": "Cúc Hoa Long Lanh",
@@ -1382,6 +1388,12 @@
           },
           {
             "r": "R3",
+            "name": "Rio Gia Huy",
+            "power": 57,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "Thiện phương",
             "power": 55.0,
             "reason": ""
@@ -1427,18 +1439,18 @@
             "name": "sửa máy promax",
             "power": 52,
             "reason": ""
-          },
-          {
-            "r": "R3",
-            "name": "Yến Nhi NT",
-            "power": 52,
-            "reason": ""
           }
         ],
         "subs": [
           {
             "r": "R3",
             "name": "PoMzzz",
+            "power": 52,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Yến Nhi NT",
             "power": 52,
             "reason": ""
           },
