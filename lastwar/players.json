@@ -904,7 +904,7 @@
     },
     "KhoaiTây83": {
       "rank": "R1",
-      "power": 47.8,
+      "power": 48.2,
       "yc_sm": 0,
       "yc_hn": 0
     },
@@ -1181,19 +1181,25 @@
             "reason": ""
           },
           {
+            "r": "R1",
+            "name": "KhoaiTây83",
+            "power": 48.2,
+            "reason": ""
+          },
+          {
             "r": "R3",
             "name": "NgocNamBoss",
             "power": 48.0,
             "reason": ""
-          },
+          }
+        ],
+        "subs": [
           {
             "r": "R3",
             "name": "Thanhh Tân",
             "power": 48,
             "reason": ""
-          }
-        ],
-        "subs": [
+          },
           {
             "r": "R3",
             "name": "Marines Malevolent",
@@ -1494,6 +1500,12 @@
             "reason": ""
           },
           {
+            "r": "R1",
+            "name": "KhoaiTây83",
+            "power": 48.2,
+            "reason": ""
+          },
+          {
             "r": "R3",
             "name": "NgocNamBoss",
             "power": 48.0,
@@ -1504,15 +1516,15 @@
             "name": "Thanhh Tân",
             "power": 48,
             "reason": ""
-          },
+          }
+        ],
+        "subs": [
           {
             "r": "R3",
             "name": "Marines Malevolent",
             "power": 47.1,
             "reason": ""
-          }
-        ],
-        "subs": [
+          },
           {
             "r": "R3",
             "name": "Phạm khánhh",
