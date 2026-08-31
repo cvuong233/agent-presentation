@@ -335,7 +335,7 @@
     },
     "Hemerage": {
       "rank": "R3",
-      "power": 49.9,
+      "power": 50.5,
       "yc_hn": 0,
       "yc_sm": 0
     },
@@ -397,7 +397,7 @@
     },
     "NorthFog": {
       "rank": "R3",
-      "power": 46.3,
+      "power": 46.66,
       "yc_sm": 0,
       "yc_hn": 0
     },
@@ -626,7 +626,7 @@
     },
     "sửa máy promax": {
       "rank": "R3",
-      "power": 52.0,
+      "power": 52,
       "yc_hn": 0,
       "yc_sm": 0
     },
@@ -926,7 +926,7 @@
     },
     "eMorgenröte": {
       "rank": "R3",
-      "power": 51.7,
+      "power": 52,
       "yc_sm": 0,
       "yc_hn": 0
     },
@@ -1095,6 +1095,18 @@
           },
           {
             "r": "R3",
+            "name": "eMorgenröte",
+            "power": 52,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "sửa máy promax",
+            "power": 52,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "Kendy Nguyên 86",
             "power": 51.7,
             "reason": ""
@@ -1108,6 +1120,12 @@
           {
             "r": "R3",
             "name": "ÒÓO",
+            "power": 50.5,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Hemerage",
             "power": 50.5,
             "reason": ""
           },
@@ -1152,10 +1170,12 @@
             "name": "Marines Malevolent",
             "power": 47.1,
             "reason": ""
-          },
+          }
+        ],
+        "subs": [
           {
             "r": "R3",
-            "name": "Đập Chai",
+            "name": "Phạm khánhh",
             "power": 47,
             "reason": ""
           },
@@ -1167,12 +1187,16 @@
           },
           {
             "r": "R3",
-            "name": "Phạm khánhh",
+            "name": "Đập Chai",
             "power": 47,
             "reason": ""
-          }
-        ],
-        "subs": [
+          },
+          {
+            "r": "R3",
+            "name": "NorthFog",
+            "power": 46.66,
+            "reason": ""
+          },
           {
             "r": "R3",
             "name": "Trai Cầu Tõm",
@@ -1266,6 +1290,18 @@
             "r": "R3",
             "name": "duckiecutie",
             "power": 52.9,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "eMorgenröte",
+            "power": 52,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "sửa máy promax",
+            "power": 52,
             "reason": ""
           },
           {
@@ -1365,6 +1401,12 @@
           },
           {
             "r": "R3",
+            "name": "Hemerage",
+            "power": 50.5,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "Shashank1411",
             "power": 49.83,
             "reason": ""
@@ -1416,12 +1458,6 @@
             "name": "Đập Chai",
             "power": 47,
             "reason": ""
-          },
-          {
-            "r": "R3",
-            "name": "Commander 2211",
-            "power": 47,
-            "reason": ""
           }
         ],
         "subs": [
@@ -1429,6 +1465,18 @@
             "r": "R3",
             "name": "Phạm khánhh",
             "power": 47,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Commander 2211",
+            "power": 47,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "NorthFog",
+            "power": 46.66,
             "reason": ""
           },
           {
