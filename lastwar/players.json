@@ -403,7 +403,7 @@
     },
     "Marines Malevolent": {
       "rank": "R3",
-      "power": 46.7,
+      "power": 47.1,
       "yc_sm": 0,
       "yc_hn": 0
     },
@@ -745,7 +745,7 @@
     "Sầu riêng m7": {
       "rank": "R3",
       "note": "",
-      "power": 49.4,
+      "power": 49.5,
       "yc_sm": 0,
       "yc_hn": 0
     },
@@ -1019,6 +1019,12 @@
           },
           {
             "r": "R3",
+            "name": "Sầu riêng m7",
+            "power": 49.5,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "tâm1980",
             "power": 49.0,
             "reason": ""
@@ -1103,6 +1109,12 @@
             "r": "R3",
             "name": "NgocNamBoss",
             "power": 48.0,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Marines Malevolent",
+            "power": 47.1,
             "reason": ""
           },
           {
@@ -1286,6 +1298,12 @@
           },
           {
             "r": "R3",
+            "name": "Sầu riêng m7",
+            "power": 49.5,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "TiềnGiang63",
             "power": 48.5,
             "reason": ""
@@ -1300,6 +1318,12 @@
             "r": "R3",
             "name": "NgocNamBoss",
             "power": 48.0,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Marines Malevolent",
+            "power": 47.1,
             "reason": ""
           },
           {
