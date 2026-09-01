@@ -519,7 +519,8 @@
     },
     "KYLEPHAM2401": {
       "rank": "R3",
-      "power": 44.0,
+      "power": 45,
+      "yc_sm": 0,
       "yc_hn": 0
     },
     "Mèo Xing": {
@@ -1115,6 +1116,12 @@
           {
             "r": "R3",
             "name": "Mèo Sunshine",
+            "power": 45,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "KYLEPHAM2401",
             "power": 45,
             "reason": ""
           }
