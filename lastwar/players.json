@@ -743,7 +743,7 @@
     "Bắp đại ca": {
       "rank": "R3",
       "note": "",
-      "power": 51.6,
+      "power": 52,
       "yc_sm": 0,
       "yc_hn": 0
     },
@@ -1073,6 +1073,12 @@
           },
           {
             "r": "R3",
+            "name": "Bắp đại ca",
+            "power": 52,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "ᵛᶰ Đậu Hũ",
             "power": 51.7,
             "reason": ""
@@ -1118,12 +1124,6 @@
             "name": "Mèo Sunshine",
             "power": 45,
             "reason": ""
-          },
-          {
-            "r": "R3",
-            "name": "KYLEPHAM2401",
-            "power": 45,
-            "reason": ""
           }
         ],
         "dayoff": [],
@@ -1133,7 +1133,14 @@
         "date": "2026-08-29",
         "time": "18:30 ICT",
         "period": "evening",
-        "waiting": []
+        "waiting": [
+          {
+            "r": "R3",
+            "name": "KYLEPHAM2401",
+            "power": 45,
+            "reason": ""
+          }
+        ]
       },
       "B": {
         "main": [
