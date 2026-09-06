@@ -719,7 +719,7 @@
     "TiềnGiang63": {
       "rank": "R3",
       "note": "",
-      "power": 48.5,
+      "power": 48.6,
       "yc_sm": 0,
       "yc_hn": 0
     },
@@ -1053,6 +1053,12 @@
             "name": "Bin 37",
             "power": 51,
             "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "TiềnGiang63",
+            "power": 48.6,
+            "reason": ""
           }
         ],
         "subs": [],
@@ -1165,6 +1171,12 @@
             "r": "R3",
             "name": "Bin 37",
             "power": 51,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "TiềnGiang63",
+            "power": 48.6,
             "reason": ""
           }
         ],
