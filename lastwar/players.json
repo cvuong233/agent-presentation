@@ -457,7 +457,7 @@
     },
     "tâm1980": {
       "rank": "R3",
-      "power": 49.0,
+      "power": 48.6,
       "yc_sm": 0,
       "yc_hn": 0
     },
@@ -1001,6 +1001,12 @@
             "name": "Cúc Hoa Long Lanh",
             "power": 51.5,
             "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "tâm1980",
+            "power": 48.6,
+            "reason": ""
           }
         ],
         "subs": [],
@@ -1112,6 +1118,12 @@
             "r": "R3",
             "name": "Cúc Hoa Long Lanh",
             "power": 51.5,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "tâm1980",
+            "power": 48.6,
             "reason": ""
           }
         ],
