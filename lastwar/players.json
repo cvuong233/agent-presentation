@@ -836,13 +836,13 @@
     },
     "ÒÓO": {
       "rank": "R3",
-      "power": 50.5,
+      "power": 51,
       "yc_sm": 0,
       "yc_hn": 0
     },
     "Cúc Hoa Long Lanh": {
       "rank": "R3",
-      "power": 51,
+      "power": 51.5,
       "yc_sm": 0,
       "yc_hn": 0
     },
@@ -857,7 +857,7 @@
     },
     "Kendy Nguyên 86": {
       "rank": "R3",
-      "power": 51.7,
+      "power": 52.1,
       "yc_sm": 0,
       "yc_hn": 0
     },
@@ -995,6 +995,12 @@
             "r": "R4",
             "name": "Tài Béooo",
             "reason": "R4"
+          },
+          {
+            "r": "R3",
+            "name": "Cúc Hoa Long Lanh",
+            "power": 51.5,
+            "reason": ""
           }
         ],
         "subs": [],
@@ -1023,6 +1029,18 @@
             "r": "R4",
             "name": "yologuy",
             "reason": "R4"
+          },
+          {
+            "r": "R3",
+            "name": "Kendy Nguyên 86",
+            "power": 52.1,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "ÒÓO",
+            "power": 51,
+            "reason": ""
           }
         ],
         "subs": [],
@@ -1083,6 +1101,12 @@
             "r": "R4",
             "name": "Tài Béooo",
             "reason": "R4"
+          },
+          {
+            "r": "R3",
+            "name": "Cúc Hoa Long Lanh",
+            "power": 51.5,
+            "reason": ""
           }
         ],
         "subs": [],
@@ -1106,6 +1130,18 @@
             "r": "R4",
             "name": "yologuy",
             "reason": "R4"
+          },
+          {
+            "r": "R3",
+            "name": "Kendy Nguyên 86",
+            "power": 52.1,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "ÒÓO",
+            "power": 51,
+            "reason": ""
           }
         ],
         "subs": [],
