@@ -405,7 +405,7 @@
     },
     "Marines Malevolent": {
       "rank": "R3",
-      "power": 47.1,
+      "power": 47.3,
       "yc_sm": 0,
       "yc_hn": 0
     },
@@ -451,7 +451,7 @@
     },
     "MrAugust2886": {
       "rank": "R3",
-      "power": 52.8,
+      "power": 53.47,
       "yc_sm": 0,
       "yc_hn": 0
     },
@@ -620,7 +620,7 @@
     },
     "Trai Cầu Tõm": {
       "rank": "R3",
-      "power": 46.4,
+      "power": 46.6,
       "yc_sm": 0,
       "yc_hn": 0
     },
@@ -1013,6 +1013,12 @@
           },
           {
             "r": "R3",
+            "name": "MrAugust2886",
+            "power": 53.47,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "duckiecutie",
             "power": 53.4,
             "reason": ""
@@ -1149,6 +1155,12 @@
           },
           {
             "r": "R3",
+            "name": "Marines Malevolent",
+            "power": 47.3,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "Nhi Nở",
             "power": 47.2,
             "reason": ""
@@ -1161,21 +1173,33 @@
           },
           {
             "r": "R3",
-            "name": "SanTa 1386",
-            "power": 46.5,
-            "reason": ""
-          },
-          {
-            "r": "R3",
-            "name": "Khánhh Báooo",
-            "power": 44,
+            "name": "Đập Chai",
+            "power": 47,
             "reason": ""
           }
         ],
         "subs": [
           {
             "r": "R3",
+            "name": "Trai Cầu Tõm",
+            "power": 46.6,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "SanTa 1386",
+            "power": 46.5,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "Aaaluan",
+            "power": 44,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Khánhh Báooo",
             "power": 44,
             "reason": ""
           }
@@ -1248,6 +1272,12 @@
             "r": "R3",
             "name": "Thiện phương",
             "power": 56,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "MrAugust2886",
+            "power": 53.47,
             "reason": ""
           },
           {
@@ -1377,6 +1407,12 @@
           },
           {
             "r": "R3",
+            "name": "Marines Malevolent",
+            "power": 47.3,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "Nhi Nở",
             "power": 47.2,
             "reason": ""
@@ -1389,14 +1425,20 @@
           },
           {
             "r": "R3",
-            "name": "SanTa 1386",
-            "power": 46.5,
+            "name": "Đập Chai",
+            "power": 47,
             "reason": ""
           },
           {
             "r": "R3",
-            "name": "Khánhh Báooo",
-            "power": 44,
+            "name": "Trai Cầu Tõm",
+            "power": 46.6,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "SanTa 1386",
+            "power": 46.5,
             "reason": ""
           }
         ],
@@ -1410,6 +1452,12 @@
           {
             "r": "R3",
             "name": "Aaaluan",
+            "power": 44,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Khánhh Báooo",
             "power": 44,
             "reason": ""
           }
