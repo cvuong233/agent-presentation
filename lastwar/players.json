@@ -796,7 +796,7 @@
       "rank": "R3",
       "dayoff": false,
       "note": "",
-      "power": 55.0,
+      "power": 56,
       "yc_sm": 0,
       "yc_hn": 0
     },
@@ -1003,6 +1003,12 @@
             "r": "R3",
             "name": "ZzBMT47zz",
             "power": 58,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Thiện phương",
+            "power": 56,
             "reason": ""
           },
           {
@@ -1236,6 +1242,12 @@
             "r": "R3",
             "name": "ZzBMT47zz",
             "power": 58,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Thiện phương",
+            "power": 56,
             "reason": ""
           },
           {
