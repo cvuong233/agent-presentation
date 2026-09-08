@@ -424,7 +424,7 @@
     },
     "Thanhh Tân": {
       "rank": "R3",
-      "power": 48,
+      "power": 48.5,
       "yc_sm": 0,
       "yc_hn": 0
     },
@@ -1234,18 +1234,24 @@
           },
           {
             "r": "R3",
+            "name": "Thanhh Tân",
+            "power": 48.5,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "danhoanh",
             "power": 48.31,
             "reason": ""
-          },
+          }
+        ],
+        "subs": [
           {
             "r": "R3",
             "name": "NgocNamBoss",
             "power": 48,
             "reason": ""
-          }
-        ],
-        "subs": [
+          },
           {
             "r": "R3",
             "name": "Marines Malevolent",
@@ -1577,6 +1583,12 @@
           },
           {
             "r": "R3",
+            "name": "Thanhh Tân",
+            "power": 48.5,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "danhoanh",
             "power": 48.31,
             "reason": ""
@@ -1592,12 +1604,6 @@
             "name": "Marines Malevolent",
             "power": 47.3,
             "reason": ""
-          },
-          {
-            "r": "R3",
-            "name": "Nhi Nở",
-            "power": 47.2,
-            "reason": ""
           }
         ],
         "subs": [
@@ -1605,6 +1611,12 @@
             "r": "R3",
             "name": "Chivas2026",
             "power": 48.98,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Nhi Nở",
+            "power": 47.2,
             "reason": ""
           },
           {
