@@ -747,7 +747,7 @@
     "Bắp đại ca": {
       "rank": "R3",
       "note": "",
-      "power": 52,
+      "power": 52.5,
       "yc_sm": 0,
       "yc_hn": 0
     },
@@ -1055,6 +1055,12 @@
           },
           {
             "r": "R3",
+            "name": "Bắp đại ca",
+            "power": 52.5,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "Cúc Hoa Long Lanh",
             "power": 51.5,
             "reason": ""
@@ -1064,15 +1070,15 @@
             "name": "Shashank1411",
             "power": 50.7,
             "reason": ""
-          },
+          }
+        ],
+        "subs": [
           {
             "r": "R3",
             "name": "tâm1980",
             "power": 48.6,
             "reason": ""
-          }
-        ],
-        "subs": [
+          },
           {
             "r": "R3",
             "name": "TúTú01",
@@ -1379,18 +1385,24 @@
           },
           {
             "r": "R3",
+            "name": "Bắp đại ca",
+            "power": 52.5,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "Cúc Hoa Long Lanh",
             "power": 51.5,
             "reason": ""
-          },
+          }
+        ],
+        "subs": [
           {
             "r": "R3",
             "name": "Shashank1411",
             "power": 50.7,
             "reason": ""
-          }
-        ],
-        "subs": [
+          },
           {
             "r": "R3",
             "name": "tâm1980",
