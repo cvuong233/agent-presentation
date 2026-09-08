@@ -487,7 +487,7 @@
     },
     "Yến Nhi NT": {
       "rank": "R3",
-      "power": 52,
+      "power": 52.6,
       "yc_sm": 0,
       "yc_hn": 0
     },
@@ -912,7 +912,7 @@
     },
     "KhoaiTây83": {
       "rank": "R2",
-      "power": 48.2,
+      "power": 48.8,
       "yc_sm": 0,
       "yc_hn": 0
     },
@@ -950,7 +950,7 @@
     },
     "PoMzzz": {
       "rank": "R3",
-      "power": 52,
+      "power": 52.54,
       "yc_sm": 0,
       "yc_hn": 0
     }
@@ -1055,10 +1055,24 @@
           },
           {
             "r": "R3",
+            "name": "Yến Nhi NT",
+            "power": 52.6,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "PoMzzz",
+            "power": 52.54,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "Bắp đại ca",
             "power": 52.5,
             "reason": ""
-          },
+          }
+        ],
+        "subs": [
           {
             "r": "R3",
             "name": "Cúc Hoa Long Lanh",
@@ -1070,9 +1084,7 @@
             "name": "Shashank1411",
             "power": 50.7,
             "reason": ""
-          }
-        ],
-        "subs": [
+          },
           {
             "r": "R3",
             "name": "tâm1980",
@@ -1209,6 +1221,12 @@
             "reason": ""
           },
           {
+            "r": "R2",
+            "name": "KhoaiTây83",
+            "power": 48.8,
+            "reason": ""
+          },
+          {
             "r": "R3",
             "name": "TiềnGiang63",
             "power": 48.6,
@@ -1225,15 +1243,15 @@
             "name": "NgocNamBoss",
             "power": 48,
             "reason": ""
-          },
+          }
+        ],
+        "subs": [
           {
             "r": "R3",
             "name": "Marines Malevolent",
             "power": 47.3,
             "reason": ""
-          }
-        ],
-        "subs": [
+          },
           {
             "r": "R3",
             "name": "Nhi Nở",
@@ -1391,6 +1409,20 @@
           },
           {
             "r": "R3",
+            "name": "Yến Nhi NT",
+            "power": 52.6,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "PoMzzz",
+            "power": 52.54,
+            "reason": ""
+          }
+        ],
+        "subs": [
+          {
+            "r": "R3",
             "name": "Bắp đại ca",
             "power": 52.5,
             "reason": ""
@@ -1400,9 +1432,7 @@
             "name": "Cúc Hoa Long Lanh",
             "power": 51.5,
             "reason": ""
-          }
-        ],
-        "subs": [
+          },
           {
             "r": "R3",
             "name": "Shashank1411",
@@ -1534,6 +1564,12 @@
             "reason": ""
           },
           {
+            "r": "R2",
+            "name": "KhoaiTây83",
+            "power": 48.8,
+            "reason": ""
+          },
+          {
             "r": "R3",
             "name": "TiềnGiang63",
             "power": 48.6,
@@ -1562,12 +1598,6 @@
             "name": "Nhi Nở",
             "power": 47.2,
             "reason": ""
-          },
-          {
-            "r": "R3",
-            "name": "Phạm khánhh",
-            "power": 47,
-            "reason": ""
           }
         ],
         "subs": [
@@ -1580,6 +1610,12 @@
           {
             "r": "R3",
             "name": "Đập Chai",
+            "power": 47,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Phạm khánhh",
             "power": 47,
             "reason": ""
           },
