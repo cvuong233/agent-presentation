@@ -1168,6 +1168,12 @@
           },
           {
             "r": "R3",
+            "name": "eMorgenröte",
+            "power": 52,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "ÒÓO",
             "power": 51,
             "reason": ""
@@ -1225,15 +1231,15 @@
             "name": "Marines Malevolent",
             "power": 47.3,
             "reason": ""
-          },
+          }
+        ],
+        "subs": [
           {
             "r": "R3",
             "name": "Nhi Nở",
             "power": 47.2,
             "reason": ""
-          }
-        ],
-        "subs": [
+          },
           {
             "r": "R3",
             "name": "Đập Chai",
@@ -1493,6 +1499,12 @@
           },
           {
             "r": "R3",
+            "name": "eMorgenröte",
+            "power": 52,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "ÒÓO",
             "power": 51,
             "reason": ""
@@ -1556,12 +1568,6 @@
             "name": "Phạm khánhh",
             "power": 47,
             "reason": ""
-          },
-          {
-            "r": "R3",
-            "name": "Đập Chai",
-            "power": 47,
-            "reason": ""
           }
         ],
         "subs": [
@@ -1569,6 +1575,12 @@
             "r": "R3",
             "name": "Chivas2026",
             "power": 48.98,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Đập Chai",
+            "power": 47,
             "reason": ""
           },
           {
