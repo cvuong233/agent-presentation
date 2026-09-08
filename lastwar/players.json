@@ -879,7 +879,7 @@
     },
     "Deptraitube2012": {
       "rank": "R3",
-      "power": 57,
+      "power": 57.5,
       "yc_sm": 0,
       "yc_hn": 0
     },
@@ -1007,6 +1007,12 @@
           },
           {
             "r": "R3",
+            "name": "Deptraitube2012",
+            "power": 57.5,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "Thiện phương",
             "power": 56,
             "reason": ""
@@ -1064,15 +1070,15 @@
             "name": "tâm1980",
             "power": 48.6,
             "reason": ""
-          },
+          }
+        ],
+        "subs": [
           {
             "r": "R3",
             "name": "TúTú01",
             "power": 48,
             "reason": ""
-          }
-        ],
-        "subs": [
+          },
           {
             "r": "R3",
             "name": "NHBảoLong",
@@ -1325,6 +1331,12 @@
           },
           {
             "r": "R3",
+            "name": "Deptraitube2012",
+            "power": 57.5,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "Thiện phương",
             "power": 56,
             "reason": ""
@@ -1376,15 +1388,15 @@
             "name": "Shashank1411",
             "power": 50.7,
             "reason": ""
-          },
+          }
+        ],
+        "subs": [
           {
             "r": "R3",
             "name": "tâm1980",
             "power": 48.6,
             "reason": ""
-          }
-        ],
-        "subs": [
+          },
           {
             "r": "R3",
             "name": "TúTú01",
