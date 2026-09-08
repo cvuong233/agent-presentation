@@ -754,7 +754,7 @@
     "Sầu riêng m7": {
       "rank": "R3",
       "note": "",
-      "power": 49.5,
+      "power": 49.8,
       "yc_sm": 0,
       "yc_hn": 1
     },
@@ -1210,6 +1210,12 @@
           },
           {
             "r": "R3",
+            "name": "Sầu riêng m7",
+            "power": 49.8,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "tRnuOwn9f 795",
             "power": 49.5,
             "reason": ""
@@ -1237,15 +1243,15 @@
             "name": "Thanhh Tân",
             "power": 48.5,
             "reason": ""
-          },
+          }
+        ],
+        "subs": [
           {
             "r": "R3",
             "name": "danhoanh",
             "power": 48.31,
             "reason": ""
-          }
-        ],
-        "subs": [
+          },
           {
             "r": "R3",
             "name": "NgocNamBoss",
@@ -1607,6 +1613,12 @@
           }
         ],
         "subs": [
+          {
+            "r": "R3",
+            "name": "Sầu riêng m7",
+            "power": 49.8,
+            "reason": ""
+          },
           {
             "r": "R3",
             "name": "Chivas2026",
