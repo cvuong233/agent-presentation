@@ -740,7 +740,7 @@
     "tRnuOwn9f 795": {
       "rank": "R3",
       "note": "",
-      "power": 49.4,
+      "power": 49.5,
       "yc_sm": 0,
       "yc_hn": 0
     },
@@ -1180,6 +1180,12 @@
           },
           {
             "r": "R3",
+            "name": "tRnuOwn9f 795",
+            "power": 49.5,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "Chivas2026",
             "power": 48.98,
             "reason": ""
@@ -1213,18 +1219,18 @@
             "name": "Nhi Nở",
             "power": 47.2,
             "reason": ""
-          },
-          {
-            "r": "R3",
-            "name": "Phạm khánhh",
-            "power": 47,
-            "reason": ""
           }
         ],
         "subs": [
           {
             "r": "R3",
             "name": "Đập Chai",
+            "power": 47,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Phạm khánhh",
             "power": 47,
             "reason": ""
           },
@@ -1487,6 +1493,12 @@
           },
           {
             "r": "R3",
+            "name": "tRnuOwn9f 795",
+            "power": 49.5,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "TiềnGiang63",
             "power": 48.6,
             "reason": ""
@@ -1526,12 +1538,6 @@
             "name": "Đập Chai",
             "power": 47,
             "reason": ""
-          },
-          {
-            "r": "R3",
-            "name": "Trai Cầu Tõm",
-            "power": 46.6,
-            "reason": ""
           }
         ],
         "subs": [
@@ -1539,6 +1545,12 @@
             "r": "R3",
             "name": "Chivas2026",
             "power": 48.98,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Trai Cầu Tõm",
+            "power": 46.6,
             "reason": ""
           },
           {
