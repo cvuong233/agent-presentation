@@ -353,7 +353,7 @@
     },
     "Shashank1411": {
       "rank": "R3",
-      "power": 49.83,
+      "power": 50.7,
       "yc_sm": 0,
       "yc_hn": 0
     },
@@ -788,7 +788,7 @@
       "rank": "R3",
       "dayoff": false,
       "note": "",
-      "power": 45.0,
+      "power": 45.2,
       "yc_sm": 0,
       "yc_hn": 0
     },
@@ -812,7 +812,7 @@
       "rank": "R3",
       "dayoff": 0,
       "note": "",
-      "power": 53.7,
+      "power": 53.8,
       "yc_sm": 0,
       "yc_hn": 0
     },
@@ -825,7 +825,7 @@
       "rank": "R3",
       "dayoff": 0,
       "note": "",
-      "power": 46.0,
+      "power": 47,
       "yc_sm": 1,
       "yc_hn": 1
     },
@@ -833,7 +833,7 @@
       "rank": "R3",
       "dayoff": 0,
       "note": "",
-      "power": 53.7,
+      "power": 55,
       "yc_sm": 0,
       "yc_hn": 0
     },
@@ -851,7 +851,7 @@
     },
     "Sting Chanh": {
       "rank": "R3",
-      "power": 53.9,
+      "power": 54.5,
       "yc_hn": 0,
       "yc_sm": 0
     },
@@ -907,7 +907,7 @@
     "TúTú01": {
       "rank": "R3",
       "yc_sm": 0,
-      "power": 47.69,
+      "power": 48,
       "yc_hn": 0
     },
     "KhoaiTây83": {
@@ -1013,6 +1013,24 @@
           },
           {
             "r": "R3",
+            "name": "Tom and Jerry 9999",
+            "power": 55,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Sting Chanh",
+            "power": 54.5,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "El Coderito",
+            "power": 53.8,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "MrAugust2886",
             "power": 53.47,
             "reason": ""
@@ -1037,8 +1055,28 @@
           },
           {
             "r": "R3",
+            "name": "Shashank1411",
+            "power": 50.7,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "tâm1980",
             "power": 48.6,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "TúTú01",
+            "power": 48,
+            "reason": ""
+          }
+        ],
+        "subs": [
+          {
+            "r": "R3",
+            "name": "NHBảoLong",
+            "power": 47,
             "reason": ""
           },
           {
@@ -1046,9 +1084,14 @@
             "name": "KYLEPHAM2401",
             "power": 45.6,
             "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Mèo Sunshine",
+            "power": 45.2,
+            "reason": ""
           }
         ],
-        "subs": [],
         "dayoff": [],
         "slot": "A",
         "maxMain": 20,
@@ -1282,6 +1325,24 @@
           },
           {
             "r": "R3",
+            "name": "Tom and Jerry 9999",
+            "power": 55,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Sting Chanh",
+            "power": 54.5,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "El Coderito",
+            "power": 53.8,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "MrAugust2886",
             "power": 53.47,
             "reason": ""
@@ -1306,8 +1367,28 @@
           },
           {
             "r": "R3",
+            "name": "Shashank1411",
+            "power": 50.7,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "tâm1980",
             "power": 48.6,
+            "reason": ""
+          }
+        ],
+        "subs": [
+          {
+            "r": "R3",
+            "name": "TúTú01",
+            "power": 48,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "NHBảoLong",
+            "power": 47,
             "reason": ""
           },
           {
@@ -1315,9 +1396,14 @@
             "name": "KYLEPHAM2401",
             "power": 45.6,
             "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Mèo Sunshine",
+            "power": 45.2,
+            "reason": ""
           }
         ],
-        "subs": [],
         "dayoff": [],
         "slot": "A",
         "maxMain": 20,
