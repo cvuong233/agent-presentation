@@ -336,7 +336,7 @@
     },
     "Hemerage": {
       "rank": "R3",
-      "power": 50.5,
+      "power": 51,
       "yc_hn": 0,
       "yc_sm": 0
     },
@@ -1210,6 +1210,12 @@
           },
           {
             "r": "R3",
+            "name": "Hemerage",
+            "power": 51,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "RùaNgáo",
             "power": 50.9,
             "reason": ""
@@ -1243,15 +1249,15 @@
             "name": "KhoaiTây83",
             "power": 48.8,
             "reason": ""
-          },
+          }
+        ],
+        "subs": [
           {
             "r": "R3",
             "name": "TiềnGiang63",
             "power": 48.6,
             "reason": ""
-          }
-        ],
-        "subs": [
+          },
           {
             "r": "R3",
             "name": "Thanhh Tân",
@@ -1305,12 +1311,6 @@
             "name": "Trai Cầu Tõm",
             "power": 46.6,
             "reason": ""
-          },
-          {
-            "r": "R3",
-            "name": "Nguyenngoctuan",
-            "power": 46.6,
-            "reason": ""
           }
         ],
         "dayoff": [],
@@ -1321,6 +1321,12 @@
         "time": "08:30 ICT",
         "period": "morning",
         "waiting": [
+          {
+            "r": "R3",
+            "name": "Nguyenngoctuan",
+            "power": 46.6,
+            "reason": ""
+          },
           {
             "r": "R3",
             "name": "SanTa 1386",
@@ -1596,6 +1602,12 @@
           },
           {
             "r": "R3",
+            "name": "Hemerage",
+            "power": 51,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "RùaNgáo",
             "power": 50.9,
             "reason": ""
@@ -1635,12 +1647,6 @@
             "name": "NorthFog",
             "power": 48.33,
             "reason": ""
-          },
-          {
-            "r": "R3",
-            "name": "danhoanh",
-            "power": 48.31,
-            "reason": ""
           }
         ],
         "subs": [
@@ -1654,6 +1660,12 @@
             "r": "R3",
             "name": "Chivas2026",
             "power": 48.98,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "danhoanh",
+            "power": 48.31,
             "reason": ""
           },
           {
@@ -1697,12 +1709,6 @@
             "name": "Nguyenngoctuan",
             "power": 46.6,
             "reason": ""
-          },
-          {
-            "r": "R3",
-            "name": "SanTa 1386",
-            "power": 46.5,
-            "reason": ""
           }
         ],
         "dayoff": [],
@@ -1713,6 +1719,12 @@
         "time": "08:30 ICT",
         "period": "morning 08:30",
         "waiting": [
+          {
+            "r": "R3",
+            "name": "SanTa 1386",
+            "power": 46.5,
+            "reason": ""
+          },
           {
             "r": "R3",
             "name": "Khánhh Báooo",
