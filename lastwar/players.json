@@ -780,7 +780,7 @@
       "rank": "R3",
       "dayoff": false,
       "note": "",
-      "power": 52.2,
+      "power": 52.67,
       "yc_hn": 0,
       "yc_sm": 0
     },
@@ -924,7 +924,7 @@
     },
     "Rio Gia Huy": {
       "rank": "R3",
-      "power": 57.0,
+      "power": 58.3,
       "yc_sm": 0,
       "yc_hn": 0
     },
@@ -1055,6 +1055,12 @@
           },
           {
             "r": "R3",
+            "name": "Sói Ken",
+            "power": 52.67,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "Yến Nhi NT",
             "power": 52.6,
             "reason": ""
@@ -1064,15 +1070,15 @@
             "name": "PoMzzz",
             "power": 52.54,
             "reason": ""
-          },
+          }
+        ],
+        "subs": [
           {
             "r": "R3",
             "name": "Bắp đại ca",
             "power": 52.5,
             "reason": ""
-          }
-        ],
-        "subs": [
+          },
           {
             "r": "R3",
             "name": "Cúc Hoa Long Lanh",
@@ -1141,6 +1147,12 @@
             "r": "R4",
             "name": "yologuy",
             "reason": "R4"
+          },
+          {
+            "r": "R3",
+            "name": "Rio Gia Huy",
+            "power": 58.3,
+            "reason": ""
           },
           {
             "r": "R3",
@@ -1237,15 +1249,15 @@
             "name": "TiềnGiang63",
             "power": 48.6,
             "reason": ""
-          },
+          }
+        ],
+        "subs": [
           {
             "r": "R3",
             "name": "Thanhh Tân",
             "power": 48.5,
             "reason": ""
-          }
-        ],
-        "subs": [
+          },
           {
             "r": "R3",
             "name": "NorthFog",
@@ -1299,12 +1311,6 @@
             "name": "SanTa 1386",
             "power": 46.5,
             "reason": ""
-          },
-          {
-            "r": "R3",
-            "name": "Aaaluan",
-            "power": 44,
-            "reason": ""
           }
         ],
         "dayoff": [],
@@ -1318,6 +1324,12 @@
           {
             "r": "R3",
             "name": "Khánhh Báooo",
+            "power": 44,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Aaaluan",
             "power": 44,
             "reason": ""
           }
@@ -1428,18 +1440,24 @@
           },
           {
             "r": "R3",
+            "name": "Sói Ken",
+            "power": 52.67,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "Yến Nhi NT",
             "power": 52.6,
             "reason": ""
-          },
+          }
+        ],
+        "subs": [
           {
             "r": "R3",
             "name": "PoMzzz",
             "power": 52.54,
             "reason": ""
-          }
-        ],
-        "subs": [
+          },
           {
             "r": "R3",
             "name": "Bắp đại ca",
@@ -1509,6 +1527,12 @@
             "r": "R4",
             "name": "yologuy",
             "reason": "R4"
+          },
+          {
+            "r": "R3",
+            "name": "Rio Gia Huy",
+            "power": 58.3,
+            "reason": ""
           },
           {
             "r": "R3",
@@ -1611,12 +1635,6 @@
             "name": "danhoanh",
             "power": 48.31,
             "reason": ""
-          },
-          {
-            "r": "R3",
-            "name": "NgocNamBoss",
-            "power": 48,
-            "reason": ""
           }
         ],
         "subs": [
@@ -1630,6 +1648,12 @@
             "r": "R3",
             "name": "Chivas2026",
             "power": 48.98,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "NgocNamBoss",
+            "power": 48,
             "reason": ""
           },
           {
@@ -1673,12 +1697,6 @@
             "name": "Aaaluan",
             "power": 44,
             "reason": ""
-          },
-          {
-            "r": "R3",
-            "name": "Khánhh Báooo",
-            "power": 44,
-            "reason": ""
           }
         ],
         "dayoff": [],
@@ -1688,7 +1706,14 @@
         "date": "2026-08-29",
         "time": "08:30 ICT",
         "period": "morning 08:30",
-        "waiting": []
+        "waiting": [
+          {
+            "r": "R3",
+            "name": "Khánhh Báooo",
+            "power": 44,
+            "reason": ""
+          }
+        ]
       }
     }
   }
