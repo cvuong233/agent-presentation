@@ -399,7 +399,7 @@
     },
     "NorthFog": {
       "rank": "R3",
-      "power": 46.66,
+      "power": 48.33,
       "yc_sm": 0,
       "yc_hn": 0
     },
@@ -1248,6 +1248,12 @@
         "subs": [
           {
             "r": "R3",
+            "name": "NorthFog",
+            "power": 48.33,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "danhoanh",
             "power": 48.31,
             "reason": ""
@@ -1299,12 +1305,6 @@
             "name": "Aaaluan",
             "power": 44,
             "reason": ""
-          },
-          {
-            "r": "R3",
-            "name": "Khánhh Báooo",
-            "power": 44,
-            "reason": ""
           }
         ],
         "dayoff": [],
@@ -1314,7 +1314,14 @@
         "date": "2026-08-30",
         "time": "08:30 ICT",
         "period": "morning",
-        "waiting": []
+        "waiting": [
+          {
+            "r": "R3",
+            "name": "Khánhh Báooo",
+            "power": 44,
+            "reason": ""
+          }
+        ]
       }
     },
     "hn": {
@@ -1595,6 +1602,12 @@
           },
           {
             "r": "R3",
+            "name": "NorthFog",
+            "power": 48.33,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "danhoanh",
             "power": 48.31,
             "reason": ""
@@ -1603,12 +1616,6 @@
             "r": "R3",
             "name": "NgocNamBoss",
             "power": 48,
-            "reason": ""
-          },
-          {
-            "r": "R3",
-            "name": "Marines Malevolent",
-            "power": 47.3,
             "reason": ""
           }
         ],
@@ -1623,6 +1630,12 @@
             "r": "R3",
             "name": "Chivas2026",
             "power": 48.98,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Marines Malevolent",
+            "power": 47.3,
             "reason": ""
           },
           {
