@@ -89,7 +89,6 @@
       "Khánhh Báooo",
       "Nhi Nở",
       "Bắp đại ca",
-      "Sầu riêng m7",
       "Tom and Jerry 9999",
       "Cúc Hoa Long Lanh",
       "Hemerage",
@@ -103,7 +102,6 @@
       "Deptraitube2012",
       "Sói Ken",
       "Bin 37",
-      "tRnuOwn9f 795",
       "NHBảoLong",
       "ZEKT",
       "Mèo Sunshine",
@@ -148,7 +146,9 @@
       "上官武命",
       "Lil Hen Hen",
       "Lil Sal Sal",
-      "Commander 2211"
+      "Commander 2211",
+      "tRnuOwn9f 795",
+      "Sầu riêng m7"
     ]
   },
   "last_matches": {
@@ -738,7 +738,7 @@
       "yc_hn": 0
     },
     "tRnuOwn9f 795": {
-      "rank": "R3",
+      "rank": "R1",
       "note": "",
       "power": 49.5,
       "yc_sm": 0,
@@ -752,7 +752,7 @@
       "yc_hn": 0
     },
     "Sầu riêng m7": {
-      "rank": "R3",
+      "rank": "R1",
       "note": "",
       "power": 49.8,
       "yc_sm": 0,
@@ -1227,13 +1227,13 @@
             "reason": ""
           },
           {
-            "r": "R3",
+            "r": "R1",
             "name": "Sầu riêng m7",
             "power": 49.8,
             "reason": ""
           },
           {
-            "r": "R3",
+            "r": "R1",
             "name": "tRnuOwn9f 795",
             "power": 49.5,
             "reason": ""
@@ -1619,7 +1619,7 @@
             "reason": ""
           },
           {
-            "r": "R3",
+            "r": "R1",
             "name": "tRnuOwn9f 795",
             "power": 49.5,
             "reason": ""
@@ -1657,7 +1657,7 @@
         ],
         "subs": [
           {
-            "r": "R3",
+            "r": "R1",
             "name": "Sầu riêng m7",
             "power": 49.8,
             "reason": ""
