@@ -1001,6 +1001,12 @@
           },
           {
             "r": "R3",
+            "name": "Rio Gia Huy",
+            "power": 58.3,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "ZzBMT47zz",
             "power": 58,
             "reason": ""
@@ -1064,15 +1070,15 @@
             "name": "Yến Nhi NT",
             "power": 52.6,
             "reason": ""
-          },
+          }
+        ],
+        "subs": [
           {
             "r": "R3",
             "name": "PoMzzz",
             "power": 52.54,
             "reason": ""
-          }
-        ],
-        "subs": [
+          },
           {
             "r": "R3",
             "name": "Bắp đại ca",
@@ -1147,12 +1153,6 @@
             "r": "R4",
             "name": "yologuy",
             "reason": "R4"
-          },
-          {
-            "r": "R3",
-            "name": "Rio Gia Huy",
-            "power": 58.3,
-            "reason": ""
           },
           {
             "r": "R3",
@@ -1249,15 +1249,15 @@
             "name": "KhoaiTây83",
             "power": 48.8,
             "reason": ""
-          }
-        ],
-        "subs": [
+          },
           {
             "r": "R3",
             "name": "TiềnGiang63",
             "power": 48.6,
             "reason": ""
-          },
+          }
+        ],
+        "subs": [
           {
             "r": "R3",
             "name": "Thanhh Tân",
@@ -1311,6 +1311,12 @@
             "name": "Trai Cầu Tõm",
             "power": 46.6,
             "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Nguyenngoctuan",
+            "power": 46.6,
+            "reason": ""
           }
         ],
         "dayoff": [],
@@ -1321,12 +1327,6 @@
         "time": "08:30 ICT",
         "period": "morning",
         "waiting": [
-          {
-            "r": "R3",
-            "name": "Nguyenngoctuan",
-            "power": 46.6,
-            "reason": ""
-          },
           {
             "r": "R3",
             "name": "SanTa 1386",
@@ -1398,6 +1398,12 @@
           },
           {
             "r": "R3",
+            "name": "Rio Gia Huy",
+            "power": 58.3,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "ZzBMT47zz",
             "power": 58,
             "reason": ""
@@ -1455,15 +1461,15 @@
             "name": "Sói Ken",
             "power": 52.67,
             "reason": ""
-          },
+          }
+        ],
+        "subs": [
           {
             "r": "R3",
             "name": "Yến Nhi NT",
             "power": 52.6,
             "reason": ""
-          }
-        ],
-        "subs": [
+          },
           {
             "r": "R3",
             "name": "PoMzzz",
@@ -1542,12 +1548,6 @@
           },
           {
             "r": "R3",
-            "name": "Rio Gia Huy",
-            "power": 58.3,
-            "reason": ""
-          },
-          {
-            "r": "R3",
             "name": "Bạch Long Mã",
             "power": 54.7,
             "reason": ""
@@ -1647,6 +1647,12 @@
             "name": "NorthFog",
             "power": 48.33,
             "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "danhoanh",
+            "power": 48.31,
+            "reason": ""
           }
         ],
         "subs": [
@@ -1660,12 +1666,6 @@
             "r": "R3",
             "name": "Chivas2026",
             "power": 48.98,
-            "reason": ""
-          },
-          {
-            "r": "R3",
-            "name": "danhoanh",
-            "power": 48.31,
             "reason": ""
           },
           {
@@ -1709,6 +1709,12 @@
             "name": "Nguyenngoctuan",
             "power": 46.6,
             "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "SanTa 1386",
+            "power": 46.5,
+            "reason": ""
           }
         ],
         "dayoff": [],
@@ -1719,12 +1725,6 @@
         "time": "08:30 ICT",
         "period": "morning 08:30",
         "waiting": [
-          {
-            "r": "R3",
-            "name": "SanTa 1386",
-            "power": 46.5,
-            "reason": ""
-          },
           {
             "r": "R3",
             "name": "Khánhh Báooo",
