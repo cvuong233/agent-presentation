@@ -796,7 +796,7 @@
       "rank": "R3",
       "dayoff": false,
       "note": "",
-      "power": 56,
+      "power": 56.3,
       "yc_sm": 0,
       "yc_hn": 0
     },
@@ -999,6 +999,12 @@
             "r": "R4",
             "name": "Tài Béooo",
             "reason": "R4"
+          },
+          {
+            "r": "R3",
+            "name": "Thiện phương",
+            "power": 56.3,
+            "reason": ""
           }
         ],
         "subs": [],
