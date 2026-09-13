@@ -457,7 +457,7 @@
     },
     "tâm1980": {
       "rank": "R3",
-      "power": 48.6,
+      "power": 49,
       "yc_sm": 0,
       "yc_hn": 0
     },
@@ -1004,6 +1004,12 @@
             "r": "R3",
             "name": "Thiện phương",
             "power": 56.3,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "tâm1980",
+            "power": 49,
             "reason": ""
           }
         ],
