@@ -1197,6 +1197,12 @@
           },
           {
             "r": "R3",
+            "name": "Đập Chai",
+            "power": 47,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "hanubeast",
             "power": 46,
             "reason": ""
