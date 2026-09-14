@@ -623,7 +623,7 @@
     },
     "Trai Cầu Tõm": {
       "rank": "R3",
-      "power": 46.6,
+      "power": 47.2,
       "yc_sm": 0,
       "yc_hn": 0
     },
@@ -757,7 +757,7 @@
     "Sầu riêng m7": {
       "rank": "R1",
       "note": "",
-      "power": 49.8,
+      "power": 50,
       "yc_sm": 0,
       "yc_hn": 1
     },
@@ -1111,6 +1111,12 @@
             "reason": ""
           },
           {
+            "r": "R1",
+            "name": "Sầu riêng m7",
+            "power": 50,
+            "reason": ""
+          },
+          {
             "r": "R3",
             "name": "Chivas2026",
             "power": 49.77,
@@ -1126,6 +1132,12 @@
             "r": "R3",
             "name": "NgocNamBoss",
             "power": 48.4,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Trai Cầu Tõm",
+            "power": 47.2,
             "reason": ""
           },
           {
