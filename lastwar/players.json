@@ -368,7 +368,7 @@
     },
     "danhoanh": {
       "rank": "R3",
-      "power": 48.31,
+      "power": 48.72,
       "yc_sm": 0,
       "yc_hn": 0
     },
@@ -1163,6 +1163,12 @@
             "r": "R3",
             "name": "TiềnGiang63",
             "power": 49,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "danhoanh",
+            "power": 48.72,
             "reason": ""
           },
           {
