@@ -1023,6 +1023,12 @@
           },
           {
             "r": "R3",
+            "name": "zdevils",
+            "power": 53,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "Cúc Hoa Long Lanh",
             "power": 52,
             "reason": ""
