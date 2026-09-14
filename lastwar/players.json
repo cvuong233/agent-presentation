@@ -468,7 +468,10 @@
       "rank": "R3"
     },
     "hanubeast": {
-      "rank": "R3"
+      "rank": "R3",
+      "power": 46,
+      "yc_sm": 0,
+      "yc_hn": 0
     },
     "WitWiu": {
       "rank": "R3"
@@ -1069,6 +1072,12 @@
             "r": "R3",
             "name": "NgocNamBoss",
             "power": 48.4,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "hanubeast",
+            "power": 46,
             "reason": ""
           }
         ],
