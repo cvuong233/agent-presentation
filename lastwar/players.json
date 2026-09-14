@@ -765,7 +765,7 @@
       "rank": "R3",
       "dayoff": false,
       "note": "",
-      "power": 51.7,
+      "power": 52.4,
       "yc_hn": 0,
       "yc_sm": 0
     },
@@ -1043,6 +1043,12 @@
             "r": "R3",
             "name": "zdevils",
             "power": 53,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "ᵛᶰ Đậu Hũ",
+            "power": 52.4,
             "reason": ""
           },
           {
