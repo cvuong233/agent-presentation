@@ -854,7 +854,7 @@
     },
     "Sting Chanh": {
       "rank": "R3",
-      "power": 54.5,
+      "power": 54.8,
       "yc_hn": 0,
       "yc_sm": 0
     },
@@ -1029,6 +1029,12 @@
           },
           {
             "r": "R3",
+            "name": "Sting Chanh",
+            "power": 54.8,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "El Coderito",
             "power": 54.3,
             "reason": ""
@@ -1068,7 +1074,9 @@
             "name": "NHBảoLong",
             "power": 47,
             "reason": ""
-          },
+          }
+        ],
+        "subs": [
           {
             "r": "R3",
             "name": "KYLEPHAM2401",
@@ -1076,7 +1084,6 @@
             "reason": ""
           }
         ],
-        "subs": [],
         "dayoff": [],
         "slot": "A",
         "maxMain": 20,
