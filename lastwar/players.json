@@ -1131,6 +1131,12 @@
           },
           {
             "r": "R3",
+            "name": "sửa máy promax",
+            "power": 53,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "Kendy Nguyên 86",
             "power": 52.6,
             "reason": ""
