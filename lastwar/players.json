@@ -415,7 +415,7 @@
     },
     "RùaNgáo": {
       "rank": "R3",
-      "power": 50.9,
+      "power": 51.3,
       "yc_sm": 0,
       "yc_hn": 0
     },
@@ -1065,18 +1065,24 @@
           },
           {
             "r": "R3",
+            "name": "RùaNgáo",
+            "power": 51.3,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "tâm1980",
             "power": 49,
             "reason": ""
-          },
+          }
+        ],
+        "subs": [
           {
             "r": "R3",
             "name": "NHBảoLong",
             "power": 47,
             "reason": ""
-          }
-        ],
-        "subs": [
+          },
           {
             "r": "R3",
             "name": "KYLEPHAM2401",
