@@ -921,7 +921,7 @@
     },
     "Bạch Long Mã": {
       "rank": "R3",
-      "power": 54.7,
+      "power": 55.3,
       "yc_hn": 0,
       "yc_sm": 0
     },
@@ -1073,6 +1073,12 @@
             "name": "yologuy",
             "reason": "R4",
             "power": 44.7
+          },
+          {
+            "r": "R3",
+            "name": "Bạch Long Mã",
+            "power": 55.3,
+            "reason": ""
           },
           {
             "r": "R3",
