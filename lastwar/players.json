@@ -882,7 +882,7 @@
     },
     "Deptraitube2012": {
       "rank": "R3",
-      "power": 57.5,
+      "power": 58,
       "yc_sm": 0,
       "yc_hn": 0
     },
@@ -1002,6 +1002,12 @@
             "r": "R4",
             "name": "Tài Béooo",
             "reason": "R4"
+          },
+          {
+            "r": "R3",
+            "name": "Deptraitube2012",
+            "power": 58,
+            "reason": ""
           },
           {
             "r": "R3",
