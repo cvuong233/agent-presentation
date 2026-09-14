@@ -434,7 +434,7 @@
     },
     "Chivas2026": {
       "rank": "R3",
-      "power": 48.98,
+      "power": 49.77,
       "yc_sm": 0,
       "yc_hn": 1
     },
@@ -1108,6 +1108,12 @@
             "r": "R3",
             "name": "ÒÓO",
             "power": 51,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Chivas2026",
+            "power": 49.77,
             "reason": ""
           },
           {
