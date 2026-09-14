@@ -722,7 +722,7 @@
     "TiềnGiang63": {
       "rank": "R3",
       "note": "",
-      "power": 48.6,
+      "power": 49,
       "yc_sm": 0,
       "yc_hn": 0
     },
@@ -848,7 +848,7 @@
     },
     "Cúc Hoa Long Lanh": {
       "rank": "R3",
-      "power": 51.5,
+      "power": 52,
       "yc_sm": 0,
       "yc_hn": 0
     },
@@ -1017,6 +1017,12 @@
           },
           {
             "r": "R3",
+            "name": "Cúc Hoa Long Lanh",
+            "power": 52,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "tâm1980",
             "power": 49,
             "reason": ""
@@ -1078,6 +1084,12 @@
             "r": "R3",
             "name": "Bin 37",
             "power": 52,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "TiềnGiang63",
+            "power": 49,
             "reason": ""
           },
           {
