@@ -353,7 +353,7 @@
     },
     "Shashank1411": {
       "rank": "R3",
-      "power": 50.7,
+      "power": 50.9,
       "yc_sm": 0,
       "yc_hn": 0
     },
@@ -399,7 +399,7 @@
     },
     "NorthFog": {
       "rank": "R3",
-      "power": 48.33,
+      "power": 48.7,
       "yc_sm": 0,
       "yc_hn": 0
     },
@@ -496,7 +496,7 @@
     },
     "Phạm khánhh": {
       "rank": "R3",
-      "power": 47,
+      "power": 48,
       "yc_sm": 0,
       "yc_hn": 0
     },
@@ -791,7 +791,7 @@
       "rank": "R3",
       "dayoff": false,
       "note": "",
-      "power": 45.2,
+      "power": 45.3,
       "yc_sm": 0,
       "yc_hn": 0
     },
@@ -836,7 +836,7 @@
       "rank": "R3",
       "dayoff": 0,
       "note": "",
-      "power": 55,
+      "power": 55.5,
       "yc_sm": 0,
       "yc_hn": 0
     },
@@ -894,7 +894,7 @@
     },
     "Bơ Bắp 1": {
       "rank": "R3",
-      "power": 52.5,
+      "power": 53,
       "yc_sm": 0,
       "yc_hn": 0
     },
@@ -947,7 +947,7 @@
     },
     "Clone Or SouLy々": {
       "rank": "R3",
-      "power": 50.5,
+      "power": 51,
       "yc_sm": 0,
       "yc_hn": 0
     },
@@ -1029,6 +1029,12 @@
           },
           {
             "r": "R3",
+            "name": "Tom and Jerry 9999",
+            "power": 55.5,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "Sting Chanh",
             "power": 54.8,
             "reason": ""
@@ -1068,15 +1074,21 @@
             "name": "RùaNgáo",
             "power": 51.3,
             "reason": ""
+          }
+        ],
+        "subs": [
+          {
+            "r": "R3",
+            "name": "Shashank1411",
+            "power": 50.9,
+            "reason": ""
           },
           {
             "r": "R3",
             "name": "tâm1980",
             "power": 49,
             "reason": ""
-          }
-        ],
-        "subs": [
+          },
           {
             "r": "R3",
             "name": "NHBảoLong",
@@ -1087,6 +1099,12 @@
             "r": "R3",
             "name": "KYLEPHAM2401",
             "power": 45.7,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Mèo Sunshine",
+            "power": 45.3,
             "reason": ""
           }
         ],
@@ -1137,6 +1155,12 @@
           },
           {
             "r": "R3",
+            "name": "Bơ Bắp 1",
+            "power": 53,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "Kendy Nguyên 86",
             "power": 52.6,
             "reason": ""
@@ -1150,6 +1174,12 @@
           {
             "r": "R3",
             "name": "ÒÓO",
+            "power": 51,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Clone Or SouLy々",
             "power": 51,
             "reason": ""
           },
@@ -1179,8 +1209,20 @@
           },
           {
             "r": "R3",
+            "name": "NorthFog",
+            "power": 48.7,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "NgocNamBoss",
             "power": 48.4,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Phạm khánhh",
+            "power": 48,
             "reason": ""
           },
           {
@@ -1194,7 +1236,9 @@
             "name": "SanTa 1386",
             "power": 47,
             "reason": ""
-          },
+          }
+        ],
+        "subs": [
           {
             "r": "R3",
             "name": "Đập Chai",
@@ -1208,7 +1252,6 @@
             "reason": ""
           }
         ],
-        "subs": [],
         "dayoff": [],
         "slot": "B",
         "maxMain": 20,
