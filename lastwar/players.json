@@ -405,7 +405,7 @@
     },
     "Marines Malevolent": {
       "rank": "R3",
-      "power": 47.3,
+      "power": 47.9,
       "yc_sm": 0,
       "yc_hn": 0
     },
@@ -629,7 +629,7 @@
     },
     "MR Dương": {
       "rank": "R3",
-      "power": 52,
+      "power": 53,
       "yc_hn": 0,
       "yc_sm": 0
     },
@@ -1059,6 +1059,12 @@
           },
           {
             "r": "R3",
+            "name": "MR Dương",
+            "power": 53,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "ᵛᶰ Đậu Hũ",
             "power": 52.4,
             "reason": ""
@@ -1068,15 +1074,15 @@
             "name": "Cúc Hoa Long Lanh",
             "power": 52,
             "reason": ""
-          },
+          }
+        ],
+        "subs": [
           {
             "r": "R3",
             "name": "RùaNgáo",
             "power": 51.3,
             "reason": ""
-          }
-        ],
-        "subs": [
+          },
           {
             "r": "R3",
             "name": "Shashank1411",
@@ -1233,12 +1239,18 @@
           },
           {
             "r": "R3",
-            "name": "Trai Cầu Tõm",
-            "power": 47.2,
+            "name": "Marines Malevolent",
+            "power": 47.9,
             "reason": ""
           }
         ],
         "subs": [
+          {
+            "r": "R3",
+            "name": "Trai Cầu Tõm",
+            "power": 47.2,
+            "reason": ""
+          },
           {
             "r": "R3",
             "name": "Đập Chai",
