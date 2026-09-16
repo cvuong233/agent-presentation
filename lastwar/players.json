@@ -424,7 +424,7 @@
     },
     "Thanhh Tân": {
       "rank": "R3",
-      "power": 48.5,
+      "power": 49,
       "yc_sm": 0,
       "yc_hn": 0
     },
@@ -1233,6 +1233,12 @@
           },
           {
             "r": "R3",
+            "name": "Thanhh Tân",
+            "power": 49,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "danhoanh",
             "power": 48.72,
             "reason": ""
@@ -1254,15 +1260,15 @@
             "name": "Phạm khánhh",
             "power": 48,
             "reason": ""
-          },
+          }
+        ],
+        "subs": [
           {
             "r": "R3",
             "name": "Marines Malevolent",
             "power": 47.9,
             "reason": ""
-          }
-        ],
-        "subs": [
+          },
           {
             "r": "R3",
             "name": "Trai Cầu Tõm",
