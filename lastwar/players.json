@@ -783,7 +783,7 @@
       "rank": "R3",
       "dayoff": false,
       "note": "",
-      "power": 52.67,
+      "power": 53.06,
       "yc_hn": 0,
       "yc_sm": 0
     },
@@ -1053,6 +1053,12 @@
           },
           {
             "r": "R3",
+            "name": "Sói Ken",
+            "power": 53.06,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "zdevils",
             "power": 53,
             "reason": ""
@@ -1068,15 +1074,15 @@
             "name": "ᵛᶰ Đậu Hũ",
             "power": 52.4,
             "reason": ""
-          },
+          }
+        ],
+        "subs": [
           {
             "r": "R3",
             "name": "Cúc Hoa Long Lanh",
             "power": 52,
             "reason": ""
-          }
-        ],
-        "subs": [
+          },
           {
             "r": "R3",
             "name": "RùaNgáo",
