@@ -927,7 +927,7 @@
     },
     "Rio Gia Huy": {
       "rank": "R3",
-      "power": 58.3,
+      "power": 59,
       "yc_sm": 0,
       "yc_hn": 0
     },
@@ -1005,6 +1005,12 @@
           },
           {
             "r": "R3",
+            "name": "Rio Gia Huy",
+            "power": 59,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "Deptraitube2012",
             "power": 58,
             "reason": ""
@@ -1068,15 +1074,15 @@
             "name": "MR Dương",
             "power": 53,
             "reason": ""
-          },
+          }
+        ],
+        "subs": [
           {
             "r": "R3",
             "name": "ᵛᶰ Đậu Hũ",
             "power": 52.4,
             "reason": ""
-          }
-        ],
-        "subs": [
+          },
           {
             "r": "R3",
             "name": "Cúc Hoa Long Lanh",
