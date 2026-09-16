@@ -490,7 +490,7 @@
     },
     "Yến Nhi NT": {
       "rank": "R3",
-      "power": 52.6,
+      "power": 53.2,
       "yc_sm": 0,
       "yc_hn": 0
     },
@@ -1059,6 +1059,12 @@
           },
           {
             "r": "R3",
+            "name": "Yến Nhi NT",
+            "power": 53.2,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "Sói Ken",
             "power": 53.06,
             "reason": ""
@@ -1068,15 +1074,15 @@
             "name": "zdevils",
             "power": 53,
             "reason": ""
-          },
+          }
+        ],
+        "subs": [
           {
             "r": "R3",
             "name": "MR Dương",
             "power": 53,
             "reason": ""
-          }
-        ],
-        "subs": [
+          },
           {
             "r": "R3",
             "name": "ᵛᶰ Đậu Hũ",
