@@ -947,7 +947,7 @@
     },
     "Clone Or SouLy々": {
       "rank": "R3",
-      "power": 51,
+      "power": 51.5,
       "yc_sm": 0,
       "yc_hn": 0
     },
@@ -1131,6 +1131,12 @@
           {
             "r": "R3",
             "name": "ÒÓO",
+            "power": 51.5,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Clone Or SouLy々",
             "power": 51.5,
             "reason": ""
           },
