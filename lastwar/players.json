@@ -416,7 +416,7 @@
     "RùaNgáo": {
       "rank": "R3",
       "power": 51.3,
-      "yc_sm": 1,
+      "yc_sm": 0,
       "yc_hn": 0
     },
     "Indefatigabl3": {
@@ -470,7 +470,7 @@
     "hanubeast": {
       "rank": "R3",
       "power": 46,
-      "yc_sm": 1,
+      "yc_sm": 0,
       "yc_hn": 0
     },
     "WitWiu": {
@@ -524,7 +524,7 @@
     "KYLEPHAM2401": {
       "rank": "R3",
       "power": 45.7,
-      "yc_sm": 1,
+      "yc_sm": 0,
       "yc_hn": 0
     },
     "Mèo Xing": {
@@ -631,7 +631,7 @@
       "rank": "R3",
       "power": 53,
       "yc_hn": 0,
-      "yc_sm": 1
+      "yc_sm": 0
     },
     "sửa máy promax": {
       "rank": "R3",
@@ -792,7 +792,7 @@
       "dayoff": false,
       "note": "",
       "power": 45.3,
-      "yc_sm": 1,
+      "yc_sm": 0,
       "yc_hn": 0
     },
     "Thiện phương": {
@@ -829,7 +829,7 @@
       "dayoff": 0,
       "note": "",
       "power": 47,
-      "yc_sm": 1,
+      "yc_sm": 0,
       "yc_hn": 1
     },
     "Tom and Jerry 9999": {
