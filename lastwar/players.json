@@ -743,7 +743,7 @@
     "tRnuOwn9f 795": {
       "rank": "R1",
       "note": "",
-      "power": 50,
+      "power": 50.4,
       "yc_sm": 0,
       "yc_hn": 0
     },
@@ -1120,6 +1120,12 @@
             "r": "R1",
             "name": "Sầu riêng m7",
             "power": 50.8,
+            "reason": ""
+          },
+          {
+            "r": "R1",
+            "name": "tRnuOwn9f 795",
+            "power": 50.4,
             "reason": ""
           },
           {
