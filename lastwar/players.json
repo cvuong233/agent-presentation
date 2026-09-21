@@ -329,7 +329,7 @@
     },
     "yologuy": {
       "rank": "R4",
-      "fixed": "B",
+      "fixed": "A",
       "power": 44.7,
       "yc_sm": 0,
       "yc_hn": 0
@@ -985,6 +985,12 @@
           },
           {
             "r": "R4",
+            "name": "yologuy",
+            "reason": "R4",
+            "power": 44.7
+          },
+          {
+            "r": "R4",
             "name": "Haizzzzzzzzzzzz",
             "reason": "R4"
           },
@@ -1073,12 +1079,6 @@
             "r": "R4",
             "name": "Hải Anh 0612",
             "reason": "R4"
-          },
-          {
-            "r": "R4",
-            "name": "yologuy",
-            "reason": "R4",
-            "power": 44.7
           },
           {
             "r": "R3",
