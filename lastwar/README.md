@@ -50,14 +50,17 @@ Attendance penalty system. Tracked **per player, per battle type** in `players[n
 
 ### The three transitions
 
-Only three things ever change a YC count. After every battle, for each player who was **registered**
-for it (in `main[]` **or** `subs[]`), apply exactly one of the first two:
+Only three things ever change a YC count. After every battle:
 
 | # | Situation | Effect |
 |---|---|---|
-| 1 | **Registered and PLAYED** — name appears in that battle's `scores` (from main **or** from subs) | `yc = 0` |
-| 2 | **Registered and DID NOT play** — name absent from that battle's `scores` | `yc += 1` |
+| 1 | **Registered (main or subs) and PLAYED** — name appears in that battle's `scores` (from main **or** from subs) | `yc = 0` |
+| 2 | **Registered in `main[]` and DID NOT play** — name absent from that battle's `scores` | `yc += 1` |
 | 3 | Ban expires (the following Saturday) | `yc = 0` |
+
+Only a **main-slot** miss increments the count. A sub who doesn't appear in `scores` takes no
+card at all — subs are not held to the same attendance bar as main. Playing, however, resets the
+count regardless of which pool the player played from (see rule 1) — that asymmetry is intentional.
 
 Consequences of the resulting value:
 
@@ -104,9 +107,9 @@ Two misses back to back, nothing in between. Banned: removed from HN main, subs,
 
 - **Per battle type, independently.** Playing SM does **not** reset `yc_hn`, and vice versa. Only a
   battle of the same type resets that type's count.
-- **Missing from subs still counts as a miss.** Being in `subs[]` is not an excuse; a registered sub
-  who does not appear in `scores` takes the card. (Rule 1 is what protects a sub who *did* play —
-  not their being a sub.)
+- **Missing from subs is NOT a miss.** Only `main[]` misses take a card. A registered sub who does
+  not appear in `scores` keeps their count exactly as it was — no card, no reset. (Rule 1 still
+  applies if a sub *did* play: that resets their count to `0` same as a main player.)
 - **Dayoff is not a miss.** A player in `dayoff[]` was not registered for that battle: no card, and
   no reset either — their count is left exactly as it was.
 - **Not registered at all → nothing happens.** YC only applies to players who were in `main[]` or `subs[]`.
@@ -118,10 +121,13 @@ Two misses back to back, nothing in between. Banned: removed from HN main, subs,
 ### Processing order after a battle
 
 1. Read that battle's `scores` from `last_matches`.
-2. For **every** registered name, apply transition 1 or 2 above — **resets first, before any
-   increment is considered**, so no stale card survives a battle the player appeared in.
-3. Clear any ban whose expiry Saturday has passed (`yc = 0`, drop the `note`).
-4. Only now, apply the lineup effects: `yc = 1` → subs, `yc = 2` → removed from all pools.
+2. For every registered name (main or subs) who appears in `scores`, reset `yc = 0` — **resets
+   first, before any increment is considered**, so no stale card survives a battle the player
+   appeared in.
+3. For every name registered in `main[]` who does **not** appear in `scores`, increment `yc += 1`.
+   Subs absent from `scores` are left untouched.
+4. Clear any ban whose expiry Saturday has passed (`yc = 0`, drop the `note`).
+5. Only now, apply the lineup effects: `yc = 1` → subs, `yc = 2` → removed from all pools.
 
 ## Fixed Players
 - **Fixed Team A (auto-registered every week):** Lerxinhiu, TusEngland, LinLin, zdevils, cường khùng, Haizzzzzzzzzzzz, Rymi68, wolfwitch
