@@ -623,7 +623,7 @@
     },
     "Trai Cầu Tõm": {
       "rank": "R3",
-      "power": 47.2,
+      "power": 47.8,
       "yc_sm": 0,
       "yc_hn": 0
     },
@@ -1168,6 +1168,12 @@
             "r": "R3",
             "name": "Đập Chai",
             "power": 48,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Trai Cầu Tõm",
+            "power": 47.8,
             "reason": ""
           },
           {
