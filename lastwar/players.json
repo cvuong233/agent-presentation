@@ -921,7 +921,7 @@
     },
     "Bạch Long Mã": {
       "rank": "R3",
-      "power": 55.3,
+      "power": 56.3,
       "yc_hn": 0,
       "yc_sm": 0
     },
@@ -1085,6 +1085,12 @@
             "r": "R4",
             "name": "Hải Anh 0612",
             "reason": "R4"
+          },
+          {
+            "r": "R3",
+            "name": "Bạch Long Mã",
+            "power": 56.3,
+            "reason": ""
           },
           {
             "r": "R3",
