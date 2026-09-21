@@ -145,8 +145,8 @@ Two misses back to back, nothing in between. Banned: removed from HN main, subs,
 6. Only now, apply the lineup effects: `yc = 1` → subs, `yc = 2` → removed from all pools.
 
 ## Fixed Players
-- **Fixed Team A (auto-registered every week):** Lerxinhiu, TusEngland, LinLin, zdevils, cường khùng, Haizzzzzzzzzzzz, Rymi68, wolfwitch
-- **Fixed Team B (auto-registered every week):** Hải Anh 0612, Hemerage, yologuy
+- **Fixed Team A (auto-registered every week):** Lerxinhiu, TusEngland, LinLin, zdevils, cường khùng, Haizzzzzzzzzzzz, Rymi68, wolfwitch, yologuy
+- **Fixed Team B (auto-registered every week):** Hải Anh 0612, Hemerage
 - At the start of each registration period, fixed players are automatically inserted into their team using their last stored power (`players[name].power` in `players.json`). They don't need to manually register.
 
 ## Ranks
