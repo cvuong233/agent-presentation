@@ -595,7 +595,10 @@
       "rank": "R2"
     },
     "Lýkos": {
-      "rank": "R3"
+      "rank": "R3",
+      "power": 45,
+      "yc_sm": 0,
+      "yc_hn": 0
     },
     "PoisonFlower": {
       "rank": "R2"
@@ -1267,6 +1270,12 @@
             "r": "R3",
             "name": "SanTa 1386",
             "power": 47.5,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Lýkos",
+            "power": 45,
             "reason": ""
           }
         ],
