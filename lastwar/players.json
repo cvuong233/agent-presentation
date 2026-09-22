@@ -368,7 +368,7 @@
     },
     "danhoanh": {
       "rank": "R3",
-      "power": 48.72,
+      "power": 49.2,
       "yc_sm": 0,
       "yc_hn": 0
     },
@@ -399,13 +399,13 @@
     },
     "NorthFog": {
       "rank": "R3",
-      "power": 48.7,
+      "power": 49.3,
       "yc_sm": 0,
       "yc_hn": 0
     },
     "Marines Malevolent": {
       "rank": "R3",
-      "power": 47.9,
+      "power": 49.3,
       "yc_sm": 0,
       "yc_hn": 0
     },
@@ -451,7 +451,7 @@
     },
     "MrAugust2886": {
       "rank": "R3",
-      "power": 53.8,
+      "power": 54.2,
       "yc_sm": 0,
       "yc_hn": 0
     },
@@ -629,7 +629,7 @@
     },
     "MR Dương": {
       "rank": "R3",
-      "power": 53,
+      "power": 53.9,
       "yc_hn": 0,
       "yc_sm": 0
     },
@@ -711,7 +711,7 @@
     "ZEKT": {
       "rank": "R3",
       "note": "",
-      "power": 49.58,
+      "power": 50.59,
       "yc_sm": 0,
       "yc_hn": 0
     },
@@ -750,7 +750,7 @@
     "Bắp đại ca": {
       "rank": "R3",
       "note": "",
-      "power": 52.5,
+      "power": 53.7,
       "yc_sm": 0,
       "yc_hn": 0
     },
@@ -836,7 +836,7 @@
       "rank": "R3",
       "dayoff": 0,
       "note": "",
-      "power": 55.5,
+      "power": 56.3,
       "yc_sm": 0,
       "yc_hn": 0
     },
@@ -1023,6 +1023,12 @@
           },
           {
             "r": "R3",
+            "name": "Tom and Jerry 9999",
+            "power": 56.3,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "duckiecutie",
             "power": 56,
             "reason": ""
@@ -1041,8 +1047,20 @@
           },
           {
             "r": "R3",
+            "name": "MrAugust2886",
+            "power": 54.2,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "zdevils",
             "power": 54,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Bắp đại ca",
+            "power": 53.7,
             "reason": ""
           },
           {
@@ -1051,6 +1069,14 @@
             "power": 52.5,
             "reason": ""
           },
+          {
+            "r": "R3",
+            "name": "ZEKT",
+            "power": 50.59,
+            "reason": ""
+          }
+        ],
+        "subs": [
           {
             "r": "R3",
             "name": "tâm1980",
@@ -1064,7 +1090,6 @@
             "reason": ""
           }
         ],
-        "subs": [],
         "dayoff": [],
         "slot": "A",
         "maxMain": 20,
@@ -1102,6 +1127,12 @@
             "r": "R3",
             "name": "sửa máy promax",
             "power": 54,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "MR Dương",
+            "power": 53.9,
             "reason": ""
           },
           {
@@ -1160,6 +1191,24 @@
           },
           {
             "r": "R3",
+            "name": "Marines Malevolent",
+            "power": 49.3,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "NorthFog",
+            "power": 49.3,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "danhoanh",
+            "power": 49.2,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "Phạm khánhh",
             "power": 49,
             "reason": ""
@@ -1168,6 +1217,14 @@
             "r": "R3",
             "name": "NgocNamBoss",
             "power": 48.8,
+            "reason": ""
+          }
+        ],
+        "subs": [
+          {
+            "r": "R3",
+            "name": "Chivas2026",
+            "power": 50.35,
             "reason": ""
           },
           {
@@ -1186,14 +1243,6 @@
             "r": "R3",
             "name": "SanTa 1386",
             "power": 47.5,
-            "reason": ""
-          }
-        ],
-        "subs": [
-          {
-            "r": "R3",
-            "name": "Chivas2026",
-            "power": 50.35,
             "reason": ""
           }
         ],
