@@ -353,7 +353,7 @@
     },
     "Shashank1411": {
       "rank": "R3",
-      "power": 50.9,
+      "power": 51.51,
       "yc_sm": 0,
       "yc_hn": 0
     },
@@ -1071,12 +1071,18 @@
           },
           {
             "r": "R3",
-            "name": "ZEKT",
-            "power": 50.59,
+            "name": "Shashank1411",
+            "power": 51.51,
             "reason": ""
           }
         ],
         "subs": [
+          {
+            "r": "R3",
+            "name": "ZEKT",
+            "power": 50.59,
+            "reason": ""
+          },
           {
             "r": "R3",
             "name": "tâm1980",
