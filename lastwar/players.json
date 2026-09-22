@@ -794,7 +794,7 @@
       "rank": "R3",
       "dayoff": false,
       "note": "",
-      "power": 45.3,
+      "power": 46,
       "yc_sm": 0,
       "yc_hn": 0
     },
@@ -1108,6 +1108,12 @@
             "r": "R3",
             "name": "KYLEPHAM2401",
             "power": 47,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Mèo Sunshine",
+            "power": 46,
             "reason": ""
           }
         ],
