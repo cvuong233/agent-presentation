@@ -387,7 +387,7 @@
     "wolfwitch": {
       "rank": "R4",
       "fixed": "A",
-      "power": 47.7,
+      "power": 53.5,
       "yc_sm": 0,
       "yc_hn": 0
     },
@@ -415,7 +415,7 @@
     },
     "RùaNgáo": {
       "rank": "R3",
-      "power": 51.3,
+      "power": 52.3,
       "yc_sm": 0,
       "yc_hn": 0
     },
@@ -910,7 +910,7 @@
     "TúTú01": {
       "rank": "R3",
       "yc_sm": 0,
-      "power": 48,
+      "power": 48.5,
       "yc_hn": 0
     },
     "KhoaiTây83": {
@@ -981,7 +981,7 @@
             "r": "R4",
             "name": "wolfwitch",
             "reason": "R4",
-            "power": 47.7
+            "power": 53.5
           },
           {
             "r": "R4",
@@ -1071,12 +1071,18 @@
           },
           {
             "r": "R3",
-            "name": "Shashank1411",
-            "power": 51.51,
+            "name": "RùaNgáo",
+            "power": 52.3,
             "reason": ""
           }
         ],
         "subs": [
+          {
+            "r": "R3",
+            "name": "Shashank1411",
+            "power": 51.51,
+            "reason": ""
+          },
           {
             "r": "R3",
             "name": "ZEKT",
@@ -1087,6 +1093,12 @@
             "r": "R3",
             "name": "tâm1980",
             "power": 49,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "TúTú01",
+            "power": 48.5,
             "reason": ""
           },
           {
