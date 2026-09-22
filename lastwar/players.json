@@ -894,7 +894,7 @@
     },
     "Bơ Bắp 1": {
       "rank": "R3",
-      "power": 53,
+      "power": 53.5,
       "yc_sm": 0,
       "yc_hn": 0
     },
@@ -1161,6 +1161,12 @@
           },
           {
             "r": "R3",
+            "name": "Bơ Bắp 1",
+            "power": 53.5,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "Kendy Nguyên 86",
             "power": 53,
             "reason": ""
@@ -1230,12 +1236,6 @@
             "name": "Phạm khánhh",
             "power": 49,
             "reason": ""
-          },
-          {
-            "r": "R3",
-            "name": "NgocNamBoss",
-            "power": 48.8,
-            "reason": ""
           }
         ],
         "subs": [
@@ -1243,6 +1243,12 @@
             "r": "R3",
             "name": "Chivas2026",
             "power": 50.35,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "NgocNamBoss",
+            "power": 48.8,
             "reason": ""
           },
           {
