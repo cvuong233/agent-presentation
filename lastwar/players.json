@@ -336,7 +336,7 @@
       "yc_hn": 0
     },
     "Hemerage": {
-      "rank": "R3",
+      "rank": "R4",
       "power": 51,
       "yc_hn": 0,
       "yc_sm": 0,
@@ -929,7 +929,7 @@
       "yc_sm": 0
     },
     "Rio Gia Huy": {
-      "rank": "R3",
+      "rank": "R4",
       "power": 59,
       "yc_sm": 0,
       "yc_hn": 0,
@@ -1009,10 +1009,9 @@
             "reason": "R4"
           },
           {
-            "r": "R3",
+            "r": "R4",
             "name": "Rio Gia Huy",
-            "reason": "fixed",
-            "power": 59
+            "reason": "R4"
           },
           {
             "r": "R3",
@@ -1159,10 +1158,9 @@
             "reason": "R4"
           },
           {
-            "r": "R3",
+            "r": "R4",
             "name": "Hemerage",
-            "reason": "fixed",
-            "power": 51
+            "reason": "R4"
           },
           {
             "r": "R3",
