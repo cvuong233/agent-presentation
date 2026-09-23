@@ -108,7 +108,8 @@
       "Rio Gia Huy",
       "Bơ Bắp 1",
       "wolfwitch",
-      "Tài Béooo"
+      "Tài Béooo",
+      "Quang Rồng 1995"
     ],
     "R2": [
       "1Mét45",
@@ -424,7 +425,7 @@
     },
     "Thanhh Tân": {
       "rank": "R3",
-      "power": 49,
+      "power": 49.5,
       "yc_sm": 0,
       "yc_hn": 0
     },
@@ -959,6 +960,12 @@
       "power": 52.54,
       "yc_sm": 0,
       "yc_hn": 0
+    },
+    "Quang Rồng 1995": {
+      "rank": "R3",
+      "power": 53,
+      "yc_sm": 0,
+      "yc_hn": 0
     }
   },
   "next_lineup": {
@@ -1183,6 +1190,12 @@
           },
           {
             "r": "R3",
+            "name": "Quang Rồng 1995",
+            "power": 53,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "ᵛᶰ Đậu Hũ",
             "power": 52.8,
             "reason": ""
@@ -1231,14 +1244,8 @@
           },
           {
             "r": "R3",
-            "name": "Marines Malevolent",
-            "power": 49.3,
-            "reason": ""
-          },
-          {
-            "r": "R3",
-            "name": "NorthFog",
-            "power": 49.3,
+            "name": "Thanhh Tân",
+            "power": 49.5,
             "reason": ""
           }
         ],
@@ -1247,6 +1254,18 @@
             "r": "R3",
             "name": "Chivas2026",
             "power": 50.35,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "NorthFog",
+            "power": 49.3,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Marines Malevolent",
+            "power": 49.3,
             "reason": ""
           },
           {
