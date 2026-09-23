@@ -1076,18 +1076,24 @@
           },
           {
             "r": "R3",
+            "name": "wolfwitch",
+            "power": 53.5,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "PoMzzz",
             "power": 53.4,
             "reason": ""
-          },
+          }
+        ],
+        "subs": [
           {
             "r": "R3",
             "name": "Cúc Hoa Long Lanh",
             "power": 52.5,
             "reason": ""
-          }
-        ],
-        "subs": [
+          },
           {
             "r": "R3",
             "name": "RùaNgáo",
