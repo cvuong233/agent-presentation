@@ -957,7 +957,7 @@
     },
     "PoMzzz": {
       "rank": "R3",
-      "power": 52.54,
+      "power": 53.4,
       "yc_sm": 0,
       "yc_hn": 0
     },
@@ -1066,6 +1066,12 @@
             "r": "R3",
             "name": "Bắp đại ca",
             "power": 53.7,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "PoMzzz",
+            "power": 53.4,
             "reason": ""
           },
           {
