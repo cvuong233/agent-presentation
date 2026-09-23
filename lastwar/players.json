@@ -295,6 +295,12 @@
     }
   },
   "players": {
+    "ღFobiyaღ": {
+      "rank": "R3",
+      "power": 60,
+      "yc_sm": 0,
+      "yc_hn": 0
+    },
     "Lerxinhiu": {
       "rank": "R5",
       "fixed": "A",
@@ -1015,6 +1021,12 @@
           },
           {
             "r": "R3",
+            "name": "ღFobiyaღ",
+            "power": 60,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "Deptraitube2012",
             "power": 58.8,
             "reason": ""
@@ -1078,12 +1090,6 @@
             "name": "wolfwitch",
             "power": 53.5,
             "reason": ""
-          },
-          {
-            "r": "R3",
-            "name": "PoMzzz",
-            "power": 53.4,
-            "reason": ""
           }
         ],
         "subs": [
@@ -1091,6 +1097,12 @@
             "r": "R3",
             "name": "Tom and Jerry 9999",
             "power": 56.3,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "PoMzzz",
+            "power": 53.4,
             "reason": ""
           },
           {
