@@ -491,7 +491,7 @@
     },
     "Yến Nhi NT": {
       "rank": "R3",
-      "power": 53.2,
+      "power": 53.7,
       "yc_sm": 0,
       "yc_hn": 0
     },
@@ -1070,6 +1070,12 @@
           },
           {
             "r": "R3",
+            "name": "Yến Nhi NT",
+            "power": 53.7,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "PoMzzz",
             "power": 53.4,
             "reason": ""
@@ -1079,15 +1085,15 @@
             "name": "Cúc Hoa Long Lanh",
             "power": 52.5,
             "reason": ""
-          },
+          }
+        ],
+        "subs": [
           {
             "r": "R3",
             "name": "RùaNgáo",
             "power": 52.3,
             "reason": ""
-          }
-        ],
-        "subs": [
+          },
           {
             "r": "R3",
             "name": "Shashank1411",
