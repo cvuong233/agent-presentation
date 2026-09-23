@@ -885,7 +885,7 @@
     },
     "Deptraitube2012": {
       "rank": "R3",
-      "power": 58,
+      "power": 58.8,
       "yc_sm": 0,
       "yc_hn": 0
     },
@@ -1015,6 +1015,12 @@
           },
           {
             "r": "R3",
+            "name": "Deptraitube2012",
+            "power": 58.8,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "ZzBMT47zz",
             "power": 58.5,
             "reason": ""
@@ -1078,12 +1084,6 @@
             "name": "PoMzzz",
             "power": 53.4,
             "reason": ""
-          },
-          {
-            "r": "R3",
-            "name": "Cúc Hoa Long Lanh",
-            "power": 52.5,
-            "reason": ""
           }
         ],
         "subs": [
@@ -1091,6 +1091,12 @@
             "r": "R3",
             "name": "Tom and Jerry 9999",
             "power": 56.3,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Cúc Hoa Long Lanh",
+            "power": 52.5,
             "reason": ""
           },
           {
