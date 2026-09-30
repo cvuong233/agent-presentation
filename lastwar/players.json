@@ -981,13 +981,13 @@
       "yc_hn": 0
     },
     "Chú Thỏ Fê Cỏ": {
-      "rank": "R3",
+      "rank": "R1",
       "power": 53.7,
       "yc_sm": 0,
       "yc_hn": 0
     },
     "MARIAH": {
-      "rank": "R3",
+      "rank": "R2",
       "power": 47.38,
       "yc_sm": 0,
       "yc_hn": 0
@@ -1260,7 +1260,7 @@
             "reason": ""
           },
           {
-            "r": "R3",
+            "r": "R1",
             "name": "Chú Thỏ Fê Cỏ",
             "power": 53.7,
             "reason": ""
@@ -1296,7 +1296,7 @@
             "reason": ""
           },
           {
-            "r": "R3",
+            "r": "R2",
             "name": "KhoaiTây83",
             "power": 50.3,
             "reason": ""
@@ -1388,7 +1388,7 @@
             "reason": ""
           },
           {
-            "r": "R3",
+            "r": "R2",
             "name": "MARIAH",
             "power": 47.38,
             "reason": ""
