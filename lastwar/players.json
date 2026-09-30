@@ -1178,10 +1178,9 @@
           },
           {
             "r": "R3",
-            "name": "Mèo Sunshine",
-            "power": 47,
-            "reason": "",
-            "vol_sub": true
+            "name": "TúTú01",
+            "power": 49,
+            "reason": ""
           }
         ],
         "dayoff": [],
@@ -1194,15 +1193,16 @@
         "waiting": [
           {
             "r": "R3",
-            "name": "TúTú01",
+            "name": "NHBảoLong",
             "power": 49,
             "reason": ""
           },
           {
             "r": "R3",
-            "name": "NHBảoLong",
-            "power": 49,
-            "reason": ""
+            "name": "Mèo Sunshine",
+            "power": 47,
+            "reason": "",
+            "vol_sub": true
           },
           {
             "r": "R3",
