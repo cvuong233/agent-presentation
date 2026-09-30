@@ -453,7 +453,8 @@
     },
     "Aaaluan": {
       "rank": "R3",
-      "power": 44,
+      "power": 45,
+      "yc_sm": 0,
       "yc_hn": 1
     },
     "MrAugust2886": {
@@ -1405,6 +1406,12 @@
             "r": "R3",
             "name": "Khánh Báooo",
             "power": 45.6,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Aaaluan",
+            "power": 45,
             "reason": ""
           }
         ]
