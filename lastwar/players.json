@@ -375,7 +375,7 @@
     },
     "Nguyenngoctuan": {
       "rank": "R3",
-      "power": 49,
+      "power": 50.0,
       "yc_sm": 0,
       "yc_hn": 0
     },
@@ -1373,6 +1373,12 @@
           {
             "r": "R3",
             "name": "Thanhh Tân",
+            "power": 50.0,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Nguyenngoctuan",
             "power": 50.0,
             "reason": ""
           },
