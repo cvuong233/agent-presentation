@@ -955,7 +955,7 @@
     },
     "eMorgenröte": {
       "rank": "R3",
-      "power": 54,
+      "power": 54.0,
       "yc_sm": 0,
       "yc_hn": 0
     },
@@ -1298,6 +1298,12 @@
           },
           {
             "r": "R3",
+            "name": "eMorgenröte",
+            "power": 54.0,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "Clone Or SouLy々",
             "power": 53.8,
             "reason": ""
@@ -1349,12 +1355,6 @@
             "name": "Chivas2026",
             "power": 50.9,
             "reason": ""
-          },
-          {
-            "r": "R3",
-            "name": "Trai Cầu Tõm",
-            "power": 50.5,
-            "reason": ""
           }
         ],
         "subs": [
@@ -1367,6 +1367,12 @@
           {
             "r": "R3",
             "name": "Marines Malevolent",
+            "power": 50.5,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Trai Cầu Tõm",
             "power": 50.5,
             "reason": ""
           },
