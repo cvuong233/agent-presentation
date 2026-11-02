@@ -460,7 +460,7 @@
     },
     "Aaaluan": {
       "rank": "R3",
-      "power": 45,
+      "power": 47.5,
       "yc_sm": 0,
       "yc_hn": 1
     },
@@ -1446,6 +1446,12 @@
             "name": "Khánhh Báooo",
             "power": 48.2,
             "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Aaaluan",
+            "power": 47.5,
+            "reason": "yc=1"
           }
         ],
         "dayoff": [],
