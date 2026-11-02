@@ -882,7 +882,7 @@
     "PTKhang RiO": {
       "rank": "R4",
       "fixed": "A",
-      "yc_sm": 1,
+      "yc_sm": 0,
       "yc_hn": 0
     },
     "Tài Béooo": {
@@ -1083,6 +1083,11 @@
             "reason": "R4"
           },
           {
+            "r": "R4",
+            "name": "PTKhang RiO",
+            "reason": "R4"
+          },
+          {
             "r": "R3",
             "name": "ʚɞ FOBIYA ʚɞ",
             "power": 63.0,
@@ -1094,13 +1099,7 @@
             "reason": "R4"
           }
         ],
-        "subs": [
-          {
-            "r": "R4",
-            "name": "PTKhang RiO",
-            "reason": "yc=1"
-          }
-        ],
+        "subs": [],
         "dayoff": [],
         "slot": "A",
         "maxMain": 20,
