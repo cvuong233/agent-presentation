@@ -1078,15 +1078,21 @@
             "reason": "R4"
           },
           {
+            "r": "R4",
+            "name": "yologuy",
+            "reason": "R4"
+          },
+          {
             "r": "R3",
             "name": "ʚɞ FOBIYA ʚɞ",
             "power": 63.0,
             "reason": "fixed"
           },
           {
-            "r": "R4",
-            "name": "yologuy",
-            "reason": "R4"
+            "r": "R3",
+            "name": "Vinsmoke Cừu",
+            "power": 57.0,
+            "reason": ""
           }
         ],
         "subs": [],
