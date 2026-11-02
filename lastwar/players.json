@@ -14,7 +14,6 @@
       "Lerxinhiu"
     ],
     "R4": [
-      "TusEngland",
       "Hải Anh 0612",
       "LinLin",
       "Rymi68",
@@ -693,13 +692,6 @@
       "yc_sm": 0,
       "yc_hn": 0
     },
-    "TusEngland": {
-      "rank": "R4",
-      "fixed": "A",
-      "yc_sm": 0,
-      "yc_hn": 0,
-      "power": 63.0
-    },
     "上官武命": {
       "rank": "R1",
       "note": ""
@@ -1077,11 +1069,6 @@
           },
           {
             "r": "R4",
-            "name": "TusEngland",
-            "reason": "R4"
-          },
-          {
-            "r": "R4",
             "name": "Rio Gia Huy",
             "reason": "R4"
           },
@@ -1162,11 +1149,6 @@
           {
             "r": "R4",
             "name": "Haizzzzzzzzzzzz",
-            "reason": "R4"
-          },
-          {
-            "r": "R4",
-            "name": "TusEngland",
             "reason": "R4"
           },
           {
@@ -1475,5 +1457,7 @@
       }
     }
   },
-  "recent_removed": []
+  "recent_removed": [
+    "TusEngland"
+  ]
 }
