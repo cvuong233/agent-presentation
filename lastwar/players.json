@@ -972,7 +972,7 @@
     },
     "Anh Cửu lạc quan": {
       "rank": "R3",
-      "power": 58.5,
+      "power": 57.0,
       "yc_sm": 0,
       "yc_hn": 0
     },
@@ -1223,6 +1223,12 @@
           },
           {
             "r": "R3",
+            "name": "Vinsmoke Cừu",
+            "power": 57.0,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "sửa máy promax",
             "power": 56.8,
             "reason": ""
@@ -1238,18 +1244,18 @@
             "name": "Yến Nhi NT",
             "power": 56.4,
             "reason": ""
-          },
-          {
-            "r": "R3",
-            "name": "Kendy Nguyên 86",
-            "power": 56.0,
-            "reason": ""
           }
         ],
         "subs": [
           {
             "r": "R3",
             "name": "Chú Thỏ Fê Cỏ",
+            "power": 56.0,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Kendy Nguyên 86",
             "power": 56.0,
             "reason": ""
           },
