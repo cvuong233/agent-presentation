@@ -115,7 +115,8 @@
       "Nhơ em",
       "Long TướngTrĩ",
       "trĩ yêu mình em",
-      "Phạm khánh"
+      "Phạm khánh",
+      "Chú Thỏ Fê Cỏ"
     ],
     "R2": [
       "1Mét45",
@@ -349,11 +350,10 @@
       "yc_hn": 0
     },
     "Hemerage": {
-      "rank": "R4",
+      "rank": "R3",
       "power": 55.0,
       "yc_hn": 0,
-      "yc_sm": 0,
-      "fixed": "B"
+      "yc_sm": 0
     },
     "zdevils": {
       "rank": "R3",
@@ -977,7 +977,7 @@
       "yc_hn": 0
     },
     "Chú Thỏ Fê Cỏ": {
-      "rank": "R1",
+      "rank": "R3",
       "power": 56.0,
       "yc_sm": 0,
       "yc_hn": 0
@@ -1112,9 +1112,10 @@
             "reason": "R4"
           },
           {
-            "r": "R4",
+            "r": "R3",
             "name": "Hemerage",
-            "reason": "R4"
+            "reason": "",
+            "power": 55.0
           }
         ],
         "subs": [],
@@ -1247,7 +1248,7 @@
         ],
         "subs": [
           {
-            "r": "R1",
+            "r": "R3",
             "name": "Chú Thỏ Fê Cỏ",
             "power": 56.0,
             "reason": ""
@@ -1306,9 +1307,10 @@
             "reason": "R4"
           },
           {
-            "r": "R4",
+            "r": "R3",
             "name": "Hemerage",
-            "reason": "R4"
+            "reason": "",
+            "power": 55.0
           },
           {
             "r": "R4",
