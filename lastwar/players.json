@@ -1145,6 +1145,11 @@
           },
           {
             "r": "R4",
+            "name": "cường khùng",
+            "reason": "R4"
+          },
+          {
+            "r": "R4",
             "name": "LinLin",
             "reason": "R4"
           },
@@ -1473,7 +1478,6 @@
     }
   },
   "recent_removed": [
-    "TusEngland",
-    "cường khùng"
+    "TusEngland"
   ]
 }
