@@ -102,7 +102,7 @@
       "Mèo Sunshine",
       "Piipo",
       "TúTú01",
-      "Rio Gia Huy",
+      "Trĩ Đế",
       "Bơ Bắp 1",
       "wolfwitch",
       "Tài Béooo",
@@ -177,7 +177,7 @@
           "Tom and Jerry 9999": 4588851,
           "Haizzzzzzzzzzzz": 4531069,
           "Sting Chanh": 4083390,
-          "Rio Gia Huy": 3360829,
+          "Trĩ Đế": 3360829,
           "ღFobiyaღ": 3185115,
           "LinLin": 3120407,
           "ᵛᶰ Đậu Hũ": 2528463,
@@ -925,13 +925,6 @@
       "yc_hn": 0,
       "yc_sm": 0
     },
-    "Rio Gia Huy": {
-      "rank": "R4",
-      "power": 59,
-      "yc_sm": 0,
-      "yc_hn": 1,
-      "fixed": "A"
-    },
     "Lil Hen Hen": {
       "rank": "R1",
       "power": 58.4
@@ -1071,6 +1064,13 @@
       "power": 57.0,
       "yc_sm": 0,
       "yc_hn": 0
+    },
+    "Trĩ Đế": {
+      "rank": "R4",
+      "power": 59,
+      "yc_sm": 0,
+      "yc_hn": 0,
+      "fixed": "A"
     }
   },
   "next_lineup": {
@@ -1095,7 +1095,7 @@
           },
           {
             "r": "R4",
-            "name": "Rio Gia Huy",
+            "name": "Trĩ Đế",
             "reason": "R4"
           },
           {
@@ -1452,7 +1452,7 @@
           },
           {
             "r": "R4",
-            "name": "Rio Gia Huy",
+            "name": "Trĩ Đế",
             "reason": "R4"
           },
           {
