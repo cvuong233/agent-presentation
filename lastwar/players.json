@@ -19,7 +19,6 @@
       "Rymi68",
       "cường khùng",
       "yologuy",
-      "Haizzzzzzzzzzzz",
       "PTKhang RiO"
     ],
     "R3": [
@@ -520,9 +519,6 @@
       "yc_sm": 0,
       "yc_hn": 0
     },
-    "Haizzzzzzzzzz": {
-      "rank": "R4"
-    },
     "khánhthỏ": {
       "rank": "R3"
     },
@@ -689,13 +685,6 @@
     },
     "ÒOO": {
       "rank": "R3"
-    },
-    "Haizzzzzzzzzzzz": {
-      "rank": "R4",
-      "note": "- YC rules waived",
-      "fixed": "A",
-      "yc_sm": 0,
-      "yc_hn": 0
     },
     "上官武命": {
       "rank": "R1",
@@ -1106,11 +1095,6 @@
           },
           {
             "r": "R4",
-            "name": "Haizzzzzzzzzzzz",
-            "reason": "R4"
-          },
-          {
-            "r": "R4",
             "name": "Rio Gia Huy",
             "reason": "R4"
           },
@@ -1202,6 +1186,12 @@
             "name": "danhoanh",
             "power": 52.6,
             "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Long TướngTrĩ",
+            "power": 52,
+            "reason": ""
           }
         ],
         "subs": [
@@ -1225,12 +1215,6 @@
             "power": 53.6,
             "reason": "",
             "vol_sub": true
-          },
-          {
-            "r": "R3",
-            "name": "Long TướngTrĩ",
-            "power": 52,
-            "reason": ""
           },
           {
             "r": "R3",
@@ -1459,11 +1443,6 @@
           {
             "r": "R4",
             "name": "LinLin",
-            "reason": "R4"
-          },
-          {
-            "r": "R4",
-            "name": "Haizzzzzzzzzzzz",
             "reason": "R4"
           },
           {
@@ -1786,6 +1765,7 @@
     }
   },
   "recent_removed": [
-    "TusEngland"
+    "TusEngland",
+    "Haizzzzzzzzzzzz"
   ]
 }
