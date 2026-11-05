@@ -2,7 +2,7 @@
   "meta": {
     "clan": "Mates",
     "game": "Last War VN",
-    "updated": "2026-11-04",
+    "updated": "2026-11-05",
     "notes": "C V = cường khùng (R4). SM = Bão Sa Mạc (Desert Storm). HN = Bão Hẻm Núi (Canyon Storm). Official model: last_matches = history, next_lineup = editable upcoming lineup. Both battles use 20 main / 10 subs. Lineup sorted by squad power descending. Fixed players (fixed=A/B) are auto-registered into their team each week using their stored power.",
     "updated_hn_a": "2026-11-03",
     "updated_hn_b": "2026-11-02",
@@ -120,7 +120,9 @@
       "29Yêu Nhền Nhện",
       "em bé vịt",
       "Roronoa Chanh",
-      "Mèoo Siêu Nhân"
+      "Mèoo Siêu Nhân",
+      "Sói Tóc Đỏ",
+      "Vinsmoke Cừu"
     ],
     "R2": [
       "1Mét45",
@@ -232,37 +234,36 @@
     },
     "hn": {
       "A": {
-        "date": "2026-08-20",
+        "date": "2026-11-05",
         "slot": "night 21:30",
         "scores": {
-          "TusEngland": 10415665,
-          "PTKhang RiO": 10109966,
-          "Rio Gia Huy": 7302038,
-          "ZzBMT47zz": 7249238,
-          "Tài Béooo": 7184691,
-          "zdevils": 6004584,
-          "Thiện phương": 5886713,
-          "Deptraitube2012": 5795465,
-          "duckiecutie": 5777418,
-          "Rymi68": 5354519,
-          "e Asche": 4990281,
-          "Lerxinhiu": 4630183,
-          "wolfwitch": 4187947,
-          "Tom and Jerry 9999": 3555474,
-          "ᵛᶰ Đậu Hũ": 3392814,
-          "cường khùng": 3361446,
-          "Yến Nhi NT": 3259098,
-          "LinLin": 3251379,
-          "El Coderito": 3168648,
-          "Haizzzzzzzzzzzz": 2514535,
-          "Cúc Hoa Long Lanh": 1790969,
-          "Sting Chanh": 1220774,
-          "Bắp đại ca": 1070477,
-          "Sầu riêng m7": 1054447,
-          "ZEKT": 377925,
-          "NHBảoLong": 327991,
-          "tâm1980": 79500,
-          "TúTú01": 49500
+          "PTKhang RiO": 10776722,
+          "Deptraitube2012": 8340406,
+          "Rymi68": 8305346,
+          "Thiện phương": 8073050,
+          "LinLin": 8004186,
+          "Vinsmoke Cừu": 7946591,
+          "Tom and Jerry 9999": 7676347,
+          "sửa máy promax": 7108429,
+          "Yến Nhi NT": 6963661,
+          "em bé vịt": 6707510,
+          "Lerxinhiu": 5809148,
+          "wolfwitch": 5353058,
+          "Roronoa Chanh": 5306704,
+          "Trĩ Đế": 5201071,
+          "ღFobiyaღ": 4731121,
+          "Kendy Nguyên 86": 4383701,
+          "cường khùng": 3634713,
+          "Sầu riêng m7": 3362573,
+          "29Yêu Nhền Nhện": 3137381,
+          "Cúc Hoa Long Lanh": 2880901,
+          "Sói Tóc Đỏ": 2527633,
+          "KYLEPHAM2401": 2487798,
+          "zdevils": 2423719,
+          "PoMzzz": 2301808,
+          "tâm1980": 1857327,
+          "Bắp đại ca": 1570028,
+          "Mèoo Siêu Nhân": 451854
         }
       },
       "B": {
@@ -770,7 +771,7 @@
       "note": "",
       "power": 54.4,
       "yc_sm": 0,
-      "yc_hn": 1
+      "yc_hn": 0
     },
     "ᵛᶰ Đậu Hũ": {
       "rank": "R3",
@@ -939,7 +940,7 @@
       "rank": "R4",
       "power": 59,
       "yc_sm": 0,
-      "yc_hn": 0,
+      "yc_hn": 1,
       "fixed": "A"
     },
     "Lil Hen Hen": {
@@ -1067,6 +1068,18 @@
     "Mèoo Siêu Nhân": {
       "rank": "R3",
       "power": 50.0,
+      "yc_sm": 0,
+      "yc_hn": 0
+    },
+    "Sói Tóc Đỏ": {
+      "rank": "R3",
+      "power": 57.0,
+      "yc_sm": 0,
+      "yc_hn": 0
+    },
+    "Vinsmoke Cừu": {
+      "rank": "R3",
+      "power": 57.0,
       "yc_sm": 0,
       "yc_hn": 0
     }
