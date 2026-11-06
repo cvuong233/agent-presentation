@@ -2,7 +2,7 @@
   "meta": {
     "clan": "Mates",
     "game": "Last War VN",
-    "updated": "2026-11-05",
+    "updated": "2026-11-06",
     "notes": "C V = cường khùng (R4). SM = Bão Sa Mạc (Desert Storm). HN = Bão Hẻm Núi (Canyon Storm). Official model: last_matches = history, next_lineup = editable upcoming lineup. Both battles use 20 main / 10 subs. Lineup sorted by squad power descending. Fixed players (fixed=A/B) are auto-registered into their team each week using their stored power.",
     "updated_hn_a": "2026-11-03",
     "updated_hn_b": "2026-11-02",
@@ -266,36 +266,31 @@
         }
       },
       "B": {
-        "date": "2026-08-21",
+        "date": "2026-11-06",
         "slot": "morning 08:30",
         "scores": {
-          "Hải Anh 0612": 13124664,
-          "Clone or Sou": 12472284,
-          "Bạch Long Mã": 11137333,
-          "Kute Gold": 10950930,
-          "yologuy": 9348773,
-          "Thanhh Tân": 8771661,
-          "TiềnGiang63": 8736013,
-          "Phạm khánhh": 8250797,
-          "NgocNamBoss": 7563193,
-          "MrAugust2886": 7294440,
-          "Shashank1411": 7020196,
-          "Kendy Nguyên 86": 6911493,
-          "Bơ Bắp 1": 6787061,
-          "KhoaiTây83": 6609188,
-          "Hemerage": 6371211,
-          "Marines Malevolent": 6326221,
-          "RùaNgáo": 6197492,
-          "Trai Cầu Tõm": 5943541,
-          "tRnuOwn9f 795": 5710664,
-          "Tommy4014": 5647660,
-          "Nguyenngoctuan": 2016012,
-          "NorthFog": 2007550,
-          "Khánhh Báooo": 1881185,
-          "danhoanh": 1877080,
-          "SanTa 1386": 1435965,
-          "Chivas2026": 613778,
-          "Commander 2211": 1209687
+          "ᵛᶰ Đậu Hũ": 10648430,
+          "Bạch Long Mã": 8884286,
+          "MR Dương": 8022582,
+          "Bơ Bắp 1": 7713796,
+          "yologuy": 6438677,
+          "Hải Anh 0612": 5949965,
+          "RùaNgáo": 5279135,
+          "Thanhh Tân": 5208214,
+          "KhoaiTây83": 5183223,
+          "ÒÓO": 4877542,
+          "NorthFog": 4815068,
+          "Tommy4014": 4318503,
+          "TiềnGiang63": 3940670,
+          "Trai Cầu Tõm": 3848073,
+          "Phạm khánhh": 3667376,
+          "Bin 37": 3483772,
+          "Đập Chai": 3410433,
+          "Aaaluan": 2923556,
+          "NgocNamBoss": 2679237,
+          "eMorgenröte": 2306486,
+          "Khánhh Báooo": 2250026,
+          "SanTa 1386": 2185356
         }
       }
     }
@@ -356,7 +351,7 @@
     "Hemerage": {
       "rank": "R3",
       "power": 55.0,
-      "yc_hn": 0,
+      "yc_hn": 1,
       "yc_sm": 0
     },
     "zdevils": {
@@ -380,7 +375,7 @@
       "rank": "R3",
       "power": 51,
       "yc_sm": 0,
-      "yc_hn": 0
+      "yc_hn": 1
     },
     "anh thợ sửa máy": {
       "rank": "R3"
@@ -448,7 +443,8 @@
     },
     "Tommy4014": {
       "rank": "R3",
-      "power": 50.5
+      "power": 50.5,
+      "yc_hn": 0
     },
     "Chivas2026": {
       "rank": "R3",
@@ -466,7 +462,7 @@
       "rank": "R3",
       "power": 47.5,
       "yc_sm": 0,
-      "yc_hn": 1
+      "yc_hn": 0
     },
     "MrAugust2886": {
       "rank": "R3",
