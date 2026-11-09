@@ -514,7 +514,7 @@
     },
     "ZzBMT47zz": {
       "rank": "R3",
-      "power": 61.0,
+      "power": 63,
       "yc_sm": 0,
       "yc_hn": 0
     },
@@ -896,6 +896,12 @@
           },
           {
             "r": "R3",
+            "name": "ZzBMT47zz",
+            "power": 63,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "Deptraitube2012",
             "power": 62,
             "reason": ""
@@ -965,12 +971,6 @@
             "name": "Bắp đại ca",
             "power": 57,
             "reason": ""
-          },
-          {
-            "r": "R3",
-            "name": "凱棓 Nct2",
-            "power": 56.93,
-            "reason": ""
           }
         ],
         "subs": [
@@ -980,6 +980,12 @@
             "power": 57,
             "reason": "",
             "vol_sub": true
+          },
+          {
+            "r": "R3",
+            "name": "凱棓 Nct2",
+            "power": 56.93,
+            "reason": ""
           },
           {
             "r": "R3",
