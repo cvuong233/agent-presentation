@@ -16,7 +16,7 @@ Moved off GitHub Pages — the page now lives in its own Vercel deployment
 ## Battles
 | Battle | Slot A | Slot B | Main | Subs | Reg Opens | Reg Closes |
 |---|---|---|---|---|---|---|
-| 🏜️ Bão Sa Mạc (SM) | Sat 18:30 ICT | Sun 08:30 ICT | 20 | 10 | Mon 9am | Thu 9am |
+| 🏜️ Bão Sa Mạc (SM) | Fri 18:30 ICT | Sat 08:30 ICT | 20 | 10 | Mon 9am | Thu 9am |
 | ⛰️ Bão Hẻm Núi (HN) | Thu 21:30 ICT | Fri 08:30 ICT | 20 | 10 | Sat 9am | Tue 9am |
 
 ## Official Data Model
