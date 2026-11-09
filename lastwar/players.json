@@ -316,7 +316,7 @@
     },
     "Marines Malevolent": {
       "rank": "R3",
-      "power": 52.4,
+      "power": 52.5,
       "yc_sm": 0,
       "yc_hn": 0
     },
@@ -1184,6 +1184,12 @@
           },
           {
             "r": "R3",
+            "name": "Marines Malevolent",
+            "power": 52.5,
+            "reason": ""
+          },
+          {
+            "r": "R3",
             "name": "Trai Cầu Tõm",
             "power": 52.2,
             "reason": ""
@@ -1217,12 +1223,6 @@
             "name": "Khánhh Báooo",
             "power": 49,
             "reason": ""
-          },
-          {
-            "r": "R3",
-            "name": "Aaaluan",
-            "power": 48.5,
-            "reason": ""
           }
         ],
         "dayoff": [],
@@ -1232,7 +1232,14 @@
         "date": "2026-11-13",
         "time": "08:30 ICT",
         "period": "morning 08:30",
-        "waiting": []
+        "waiting": [
+          {
+            "r": "R3",
+            "name": "Aaaluan",
+            "power": 48.5,
+            "reason": ""
+          }
+        ]
       }
     }
   },
