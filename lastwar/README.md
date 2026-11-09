@@ -39,6 +39,8 @@ Moved off GitHub Pages — the page now lives in its own Vercel deployment
 - **Sub capacity:** 10
 - **Selection order:** by squad power descending — stronger players in main, weaker in subs
 - **Registration:** players register fresh each week with their current main squad power
+- **Incomplete registrations don't count:** a comment must state both the **team (A/B)** and the **first squad power**. If either is missing (e.g. `55 air` with no team, or `Team A` with no power), the player is **not registered** — don't guess or fill it in.
+- **Only current clan members count:** registrations from players not in `players` (left the clan, or other alliance tags like `[SXM]`, `[AppA]`) are ignored.
 - **No cm rule, no score-based selection** — these are abolished. The **YC rule is live** — see below.
 - **Dayoff:** player misses the upcoming match but is expected back the following cycle
 - After each week's registration window, lineups are sorted by power and locked in as **manually edited state**
