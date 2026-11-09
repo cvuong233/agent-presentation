@@ -3,8 +3,7 @@
 ## BEFORE making Last War lineup changes
 
 - [ ] Confirm you are editing **`next_lineup`**, not rebuilding from scratch
-- [ ] Confirm there is **new battle result data** before running `rebuild_lineup.py`
-- [ ] If there is no new result data, do **not** rerun the build script
+- [ ] Only reset a slot's lineup when processing a **new battle result** for that slot
 - [ ] Verify the target player exists in `players`
 - [ ] Verify the change affects the correct battle (`sm` or `hn`) and slot (`A` or `B`)
 - [ ] If moving to `dayoff`, remember they should return next cycle
@@ -26,5 +25,6 @@
 - [ ] Clear expired bans (expiry Saturday passed → `yc = 0`, drop the ban `note`)
 - [ ] Apply lineup effects last: `yc = 1` → subs, `yc = 2` → removed from main + subs + waiting
 - [ ] Clear `recent_removed[]` for the new lineup cycle
-- [ ] Run `rebuild_lineup.py` once to create draft `next_lineup`
-- [ ] After the draft exists, stop rebuilding and switch to direct edits only
+- [ ] **Reset that slot's lineup in the same commit** (no cron does this): clear pools, re-insert fixed players,
+      apply `yc = 1` → subs / `yc = 2` → excluded, set next week's `date`
+- [ ] After the reset, switch to direct edits only (registrations, moves)

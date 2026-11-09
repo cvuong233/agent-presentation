@@ -143,6 +143,7 @@ Two misses back to back, nothing in between. Banned: removed from HN main, subs,
    at `0` — a power-bumped or voluntary sub owes no attendance.
 5. Clear any ban whose expiry Saturday has passed (`yc = 0`, drop the `note`).
 6. Only now, apply the lineup effects: `yc = 1` → subs, `yc = 2` → removed from all pools.
+7. Reset that slot's lineup for the next cycle — see [Lineup Reset](#lineup-reset).
 
 ## Fixed Players
 - **Fixed Team A (auto-registered every week):** Lerxinhiu, LinLin, zdevils, cường khùng, Rymi68, PTKhang RiO, Trĩ Đế, ʚɞ FOBIYA ʚɞ
@@ -169,22 +170,21 @@ was already gone from this folder before this cleanup.
 
 ## Bot Behaviour
 - **After lineup change:** bot replies with rank counts per affected slot only (e.g. `SM-B: R4:3 R3:14 R2:1 | Sub:2`)
-- **Lineup URL:** only sent when user asks, or in cron reminders
+- **Lineup URL:** only sent when user asks
 - **Never:** send full lineup table unprompted
 
-## Cron Jobs (OpenClaw)
-| ID | Name | Schedule | Timeout |
-|---|---|---|---|
-| `1585c56a` | Mates Lineup Check | Sat/Sun/Mon/Wed 12pm ICT | 90s |
+## Lineup Reset
+There is **no cron**. A slot's lineup is reset **as part of processing that slot's battle result** —
+recording the result and resetting are one operation, never two separate steps.
 
-### Cron logic
-- **Sat 12pm:** HN reg opened (Sat 9am) → reset HN lineup, announce registration open
-- **Sun 12pm:** HN reminder (deadline Tue 9am, 2 days left)
-- **Mon 12pm:** HN final reminder (closes tomorrow Tue 9am) + SM reg opened (Mon 9am) → reset SM lineup
-- **Wed 12pm:** SM final reminder (closes tomorrow Thu 9am)
+After a result for `[sm|hn].[A|B]` is recorded and YC is applied (see *Processing order* above):
+1. Clear that slot's `main[]`, `subs[]`, `dayoff[]`, `waiting[]`.
+2. Re-insert that slot's fixed players (`players[name].fixed`, per battle type if it's a dict) with their stored power.
+3. Apply YC lineup effects: `yc = 1` → `subs[]`, `yc = 2` → not inserted (banned).
+4. Set the slot's `date` to next week's battle date.
 
 ## Official Workflow
-1. At start of registration period, bot resets the lineup for that battle (clear main + subs)
+1. When a battle result comes in, the bot records it, applies YC, and resets that slot's lineup (see *Lineup Reset*)
 2. Players text in: name, battle, team, and their current first squad power
 3. Bot adds each player to `next_lineup` with their power value
 4. Bot reports main/sub slot for each addition — and flags any changes (e.g. a player bumped from main to sub as stronger players register)
