@@ -98,7 +98,8 @@
       "LinhngulamM",
       "hanubeast",
       "Marines Malevolent",
-      "Trường Kiên"
+      "Trường Kiên",
+      "粉粉泡芙"
     ],
     "R2": [
       "KhoaiiTây",
@@ -110,7 +111,6 @@
     ],
     "R1": [
       "休閒兔OoO Thỏ",
-      "粉粉泡芙",
       "War Soldier 01",
       "洋芋片片 NCT2"
     ]
@@ -634,7 +634,7 @@
       "power": 54.87
     },
     "粉粉泡芙": {
-      "rank": "R1",
+      "rank": "R3",
       "yc_sm": 0,
       "yc_hn": 0,
       "power": 53.4
@@ -1089,7 +1089,7 @@
             "reason": ""
           },
           {
-            "r": "R1",
+            "r": "R3",
             "name": "粉粉泡芙",
             "power": 53.4,
             "reason": "A or B",
