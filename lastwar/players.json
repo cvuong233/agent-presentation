@@ -630,12 +630,14 @@
     "休閒兔OoO Thỏ": {
       "rank": "R1",
       "yc_sm": 0,
-      "yc_hn": 0
+      "yc_hn": 0,
+      "power": 54.87
     },
     "粉粉泡芙": {
       "rank": "R1",
       "yc_sm": 0,
-      "yc_hn": 0
+      "yc_hn": 0,
+      "power": 53.4
     },
     "War Soldier 01": {
       "rank": "R1",
@@ -941,6 +943,13 @@
             "reason": ""
           },
           {
+            "r": "R1",
+            "name": "休閒兔OoO Thỏ",
+            "power": 54.87,
+            "reason": "A or B",
+            "flex": true
+          },
+          {
             "r": "R3",
             "name": "tâm1980",
             "power": 54,
@@ -958,12 +967,6 @@
             "name": "Mèoo Siêu Nhân",
             "power": 51,
             "reason": ""
-          },
-          {
-            "r": "R3",
-            "name": "KYLEPHAM2401",
-            "power": 49,
-            "reason": ""
           }
         ],
         "dayoff": [],
@@ -973,7 +976,14 @@
         "date": "2026-11-13",
         "time": "18:30 ICT",
         "period": "evening 18:30",
-        "waiting": []
+        "waiting": [
+          {
+            "r": "R3",
+            "name": "KYLEPHAM2401",
+            "power": 49,
+            "reason": ""
+          }
+        ]
       },
       "B": {
         "main": [
@@ -1079,6 +1089,13 @@
             "reason": ""
           },
           {
+            "r": "R1",
+            "name": "粉粉泡芙",
+            "power": 53.4,
+            "reason": "A or B",
+            "flex": true
+          },
+          {
             "r": "R3",
             "name": "Thanhh Tân",
             "power": 53.3,
@@ -1089,15 +1106,15 @@
             "name": "Andy Le",
             "power": 53.2,
             "reason": ""
-          },
+          }
+        ],
+        "subs": [
           {
             "r": "R3",
             "name": "Phạm khánhh",
             "power": 53,
             "reason": ""
-          }
-        ],
-        "subs": [
+          },
           {
             "r": "R3",
             "name": "Chivas2026",
@@ -1151,12 +1168,6 @@
             "name": "Nguyenngoctuan",
             "power": 51,
             "reason": ""
-          },
-          {
-            "r": "R3",
-            "name": "Khánhh Báooo",
-            "power": 49.5,
-            "reason": ""
           }
         ],
         "dayoff": [],
@@ -1167,6 +1178,12 @@
         "time": "08:30 ICT",
         "period": "morning 08:30",
         "waiting": [
+          {
+            "r": "R3",
+            "name": "Khánhh Báooo",
+            "power": 49.5,
+            "reason": ""
+          },
           {
             "r": "R3",
             "name": "Aaaluan",
