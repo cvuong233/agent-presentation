@@ -158,7 +158,7 @@ Two misses back to back, nothing in between. Banned: removed from HN main, subs,
 - **R4:** PTKhang RiO, Rymi68, cường khùng, LinLin, ʚɞ FOBIYA ʚɞ, Hải Anh 0612, Trĩ Đế, zdevils
 - **R3:** everyone else (see players.json)
 - **R2:** KhoaiiTây, Chua24, ChanzChanz, Bảo Anh 2011, HÀ NỘI, TrumNt
-- **R1:** 休閒兔OoO Thỏ, War Soldier 01, 洋芋片片 NCT2
+- **R1:** War Soldier 01, 洋芋片片 NCT2
 
 ## Files
 | File | Purpose |
