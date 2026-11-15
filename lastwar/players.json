@@ -810,9 +810,7 @@
             "r": "R4",
             "name": "PTKhang RiO",
             "reason": "R4"
-          }
-        ],
-        "subs": [
+          },
           {
             "r": "R4",
             "name": "LinLin",
@@ -825,6 +823,7 @@
             "reason": "R4"
           }
         ],
+        "subs": [],
         "dayoff": [],
         "slot": "A",
         "maxMain": 20,
@@ -893,9 +892,7 @@
             "r": "R4",
             "name": "PTKhang RiO",
             "reason": "R4"
-          }
-        ],
-        "subs": [
+          },
           {
             "r": "R4",
             "name": "LinLin",
@@ -903,6 +900,7 @@
             "power": 61
           }
         ],
+        "subs": [],
         "dayoff": [],
         "slot": "A",
         "maxMain": 20,

@@ -76,7 +76,7 @@ Consequences of the resulting value:
 | Value | Meaning | Lineup effect for the next battle of that type |
 |---|---|---|
 | `0` | Clean | Normal eligible pool — main or subs by power, as usual |
-| `1` | One warning | **Forced into `subs[]`** as penalty. Still registered, still eligible to play. |
+| `1` | One warning | **Forced into `subs[]`** as penalty. Still registered, still eligible to play. **Exception: R4/R5 keep their main slot** — the card is still recorded and still counts toward a ban. |
 | `2` | Second warning | **BANNED for 1 week** from that battle type. Removed from `main[]`, `subs[]`, and waiting list. Ban expires the following **Saturday**; they may re-register the week after, starting at `yc = 0`. |
 
 ### The rule that keeps getting broken
@@ -145,7 +145,7 @@ Two misses back to back, nothing in between. Banned: removed from HN main, subs,
    `yc += 1` **only if their `yc` going into this battle was already `1`**. If it was `0`, leave it
    at `0` — a power-bumped or voluntary sub owes no attendance.
 5. Clear any ban whose expiry Saturday has passed (`yc = 0`, drop the `note`).
-6. Only now, apply the lineup effects: `yc = 1` → subs, `yc = 2` → removed from all pools.
+6. Only now, apply the lineup effects: `yc = 1` → subs (except R4/R5, who stay in main), `yc = 2` → removed from all pools.
 7. Reset that slot's lineup for the next cycle — see [Lineup Reset](#lineup-reset).
 
 ## Fixed Players
@@ -183,7 +183,7 @@ recording the result and resetting are one operation, never two separate steps.
 After a result for `[sm|hn].[A|B]` is recorded and YC is applied (see *Processing order* above):
 1. Clear that slot's `main[]`, `subs[]`, `dayoff[]`, `waiting[]`.
 2. Re-insert that slot's fixed players (`players[name].fixed`, per battle type if it's a dict) with their stored power.
-3. Apply YC lineup effects: `yc = 1` → `subs[]`, `yc = 2` → not inserted (banned).
+3. Apply YC lineup effects: `yc = 1` → `subs[]` (R4/R5 stay in `main[]`), `yc = 2` → not inserted (banned).
 4. Set the slot's `date` to next week's battle date.
 
 ## Official Workflow
