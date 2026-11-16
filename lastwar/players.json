@@ -993,13 +993,6 @@
           },
           {
             "r": "R3",
-            "name": "Bin 37",
-            "power": 56,
-            "reason": "",
-            "vol_sub": true
-          },
-          {
-            "r": "R3",
             "name": "M A T E",
             "power": 56,
             "reason": ""
@@ -1039,6 +1032,12 @@
             "name": "Long TướngTrĩ",
             "power": 52,
             "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Nguyenngoctuan",
+            "power": 51.5,
+            "reason": "yc=1"
           }
         ],
         "dayoff": [],
@@ -1049,12 +1048,6 @@
         "time": "21:30 ICT",
         "period": "night 21:30",
         "waiting": [
-          {
-            "r": "R3",
-            "name": "Nguyenngoctuan",
-            "power": 51.5,
-            "reason": "yc=1"
-          },
           {
             "r": "R3",
             "name": "Mèoo Siêu Nhân",
@@ -1195,6 +1188,13 @@
             "name": "Roronoa Chanh",
             "power": 59,
             "reason": "yc=1"
+          },
+          {
+            "r": "R3",
+            "name": "Bin 37",
+            "power": 56,
+            "reason": "",
+            "vol_sub": true
           }
         ],
         "dayoff": [],
