@@ -150,7 +150,8 @@ Two misses back to back, nothing in between. Banned: removed from HN main, subs,
 7. Reset that slot's lineup for the next cycle — see [Lineup Reset](#lineup-reset).
 
 ## Fixed Players
-- **Fixed Team A (auto-registered every week):** Lerxinhiu, LinLin, zdevils, cường khùng, Rymi68, PTKhang RiO, Trĩ Đế, ʚɞ FOBIYA ʚɞ
+- **All R4/R5 are fixed players.** When someone is promoted to R4, set `players[name].fixed` to their usual team in the same edit.
+- **Fixed Team A (auto-registered every week):** Lerxinhiu, LinLin, zdevils, cường khùng, Rymi68, PTKhang RiO, Trĩ Đế, ʚɞ FOBIYA ʚɞ, ZzBMT47zz
 - **Fixed Team B (auto-registered every week):** Hải Anh 0612
 - At the start of each registration period, fixed players are automatically inserted into their team using their last stored power (`players[name].power` in `players.json`). They don't need to manually register.
 

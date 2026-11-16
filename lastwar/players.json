@@ -7,7 +7,7 @@
     "updated_hn_a": "2026-11-16",
     "updated_hn_b": "2026-11-16",
     "updated_sm_b": "2026-11-15",
-    "updated_sm_a": "2026-11-15"
+    "updated_sm_a": "2026-11-16"
   },
   "ranks": {
     "R5": [
@@ -290,7 +290,8 @@
       "rank": "R4",
       "power": 58,
       "yc_sm": 0,
-      "yc_hn": 0
+      "yc_hn": 0,
+      "fixed": "A"
     },
     "Nguyenngoctuan": {
       "rank": "R3",
@@ -519,7 +520,8 @@
       "rank": "R4",
       "power": 63,
       "yc_sm": 0,
-      "yc_hn": 0
+      "yc_hn": 0,
+      "fixed": "A"
     },
     "Bơ Bắp 1": {
       "rank": "R3",
@@ -821,6 +823,18 @@
             "r": "R4",
             "name": "cường khùng",
             "reason": "R4"
+          },
+          {
+            "r": "R4",
+            "name": "ZzBMT47zz",
+            "reason": "R4",
+            "power": 63
+          },
+          {
+            "r": "R4",
+            "name": "zdevils",
+            "reason": "R4",
+            "power": 58
           }
         ],
         "subs": [],
