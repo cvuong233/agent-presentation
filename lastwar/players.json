@@ -21,7 +21,8 @@
       "ʚɞ FOBIYA ʚɞ",
       "Hải Anh 0612",
       "Trĩ Đế",
-      "zdevils"
+      "zdevils",
+      "ZzBMT47zz"
     ],
     "R3": [
       "eMorgenröte",
@@ -78,7 +79,6 @@
       "TiềnGiang63",
       "tâm1980",
       "Thiện phương",
-      "ZzBMT47zz",
       "凱棓 Nct2",
       "Khánhh Báooo",
       "Lê mina",
@@ -516,7 +516,7 @@
       "yc_hn": 0
     },
     "ZzBMT47zz": {
-      "rank": "R3",
+      "rank": "R4",
       "power": 63,
       "yc_sm": 0,
       "yc_hn": 0
@@ -906,7 +906,7 @@
             "reason": ""
           },
           {
-            "r": "R3",
+            "r": "R4",
             "name": "ZzBMT47zz",
             "power": 63,
             "reason": ""
