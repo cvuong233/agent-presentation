@@ -905,14 +905,14 @@
           },
           {
             "r": "R3",
-            "name": "TcSnack iu",
-            "power": 56.8,
+            "name": "JocKeR",
+            "power": 57,
             "reason": ""
           },
           {
             "r": "R3",
-            "name": "Nhím tóc xù",
-            "power": 56.5,
+            "name": "TcSnack iu",
+            "power": 56.8,
             "reason": ""
           }
         ],
@@ -923,6 +923,12 @@
             "reason": "R4",
             "power": 58,
             "vol_sub": true
+          },
+          {
+            "r": "R3",
+            "name": "Nhím tóc xù",
+            "power": 56.5,
+            "reason": ""
           },
           {
             "r": "R3",
@@ -973,12 +979,6 @@
             "name": "Long TướngTrĩ",
             "power": 52,
             "reason": ""
-          },
-          {
-            "r": "R3",
-            "name": "Kimm Khánhhh",
-            "power": 51.4,
-            "reason": ""
           }
         ],
         "dayoff": [],
@@ -989,6 +989,12 @@
         "time": "18:30 ICT",
         "period": "evening 18:30",
         "waiting": [
+          {
+            "r": "R3",
+            "name": "Kimm Khánhhh",
+            "power": 51.4,
+            "reason": ""
+          },
           {
             "r": "R3",
             "name": "KYLEPHAM2401",
