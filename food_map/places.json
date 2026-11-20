@@ -265,5 +265,32 @@
       "photos/standing_bar_3.jpg",
       "photos/standing_bar_4.jpg"
     ]
+  },
+  {
+    "id": "fukujin-curry-phan-ke-binh",
+    "name": "Fukujin Japanese Curry House",
+    "cuisine": "Cà ri Nhật · Katsu",
+    "address": "11 P. Phan Kế Bính, Giảng Võ, Ba Đình, Hà Nội",
+    "lat": 21.0350991,
+    "lng": 105.8097119,
+    "phone": "0928 426 111",
+    "hours": "11:00 – 14:00, 17:30 – 23:00",
+    "price": 2,
+    "rating": 4.7,
+    "review_count": 730,
+    "tags": [
+      "cà ri Nhật",
+      "katsu",
+      "Nhật Bản",
+      "Phan Kế Bính",
+      "Ba Đình"
+    ],
+    "note": "Cà ri Nhật với cơm katsu giòn, chọn được độ cay. Đông vào giờ cao điểm, nên đặt bàn. 4.7 ⭐ (730 đánh giá Google)",
+    "image": "photos/fukujin_1.jpg",
+    "maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJI47FuaSrNTERUJvf-eaEJ1w",
+    "images": [
+      "photos/fukujin_1.jpg",
+      "photos/fukujin_2.jpg"
+    ]
   }
 ]
