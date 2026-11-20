@@ -2,448 +2,732 @@
 <html lang="vi">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>🍜 Ăn Gì Hôm Nay</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="theme-color" content="#ffffff">
+<title>Ăn gì hôm nay?</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
 <style>
-  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500;600&display=swap');
-
+  :root {
+    --bg: #ffffff;
+    --surface: #f6f5f3;
+    --line: #ebe8e4;
+    --text: #1d1b19;
+    --muted: #6f6a64;
+    --faint: #9c968f;
+    --accent: #e8590c;
+    --accent-soft: #fff1e8;
+    --open: #1a7f37;
+    --closed: #c0392b;
+    --radius: 14px;
+    --hdr-h: 112px;
+  }
   * { box-sizing: border-box; margin: 0; padding: 0; }
-
+  html { -webkit-text-size-adjust: 100%; }
   body {
-    font-family: 'Inter', sans-serif;
-    background: #0e0e0e;
-    color: #f0ece4;
-    min-height: 100vh;
+    font-family: 'Be Vietnam Pro', system-ui, -apple-system, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    font-size: 15px;
+    line-height: 1.4;
   }
+  button { font: inherit; color: inherit; background: none; border: 0; cursor: pointer; }
+  a { color: inherit; text-decoration: none; }
 
-  /* Header */
+  /* ---------- Header ---------- */
   header {
-    background: linear-gradient(160deg, #1a0a00, #2d1200);
-    padding: 40px 32px 28px;
-    border-bottom: 1px solid #3a1f00;
-    position: relative;
-    overflow: hidden;
+    position: sticky; top: 0; z-index: 1000;
+    background: rgba(255,255,255,0.96);
+    backdrop-filter: saturate(180%) blur(12px);
+    -webkit-backdrop-filter: saturate(180%) blur(12px);
+    border-bottom: 1px solid var(--line);
+    padding: 10px 16px 8px;
+    padding-top: max(10px, env(safe-area-inset-top));
   }
-  header::after {
-    content: '';
-    position: absolute;
-    inset: 0;
-    background: radial-gradient(ellipse at 70% 50%, #ff6b0022 0%, transparent 60%);
-    pointer-events: none;
+  .hdr-top { display: flex; align-items: center; gap: 12px; }
+  .brand { font-weight: 700; font-size: 1.05rem; white-space: nowrap; }
+  .brand span { color: var(--accent); }
+  .search {
+    flex: 1; display: flex; align-items: center; gap: 8px;
+    background: var(--surface); border-radius: 999px;
+    padding: 0 14px; height: 40px; min-width: 0;
   }
-  header h1 {
-    font-family: 'Playfair Display', serif;
-    font-size: 2.2rem;
-    color: #ff9d4d;
-    letter-spacing: -0.5px;
+  .search svg { flex-shrink: 0; color: var(--faint); }
+  .search input {
+    flex: 1; min-width: 0; border: 0; outline: 0; background: transparent;
+    font: inherit; font-size: 16px; color: var(--text);
   }
-  header p { color: #9a7a5a; font-size: 0.9rem; margin-top: 4px; }
+  .search input::placeholder { color: var(--faint); }
+  .search .clear { color: var(--faint); font-size: 18px; line-height: 1; display: none; }
+  .search.has-text .clear { display: block; }
 
-  /* Filter bar */
-  .filters {
-    display: flex;
-    gap: 10px;
-    padding: 16px 32px;
-    background: #141414;
-    border-bottom: 1px solid #222;
-    flex-wrap: wrap;
-    align-items: center;
+  .chips {
+    display: flex; gap: 8px; margin: 10px -16px 0; padding: 0 16px 2px;
+    overflow-x: auto; scrollbar-width: none; -webkit-overflow-scrolling: touch;
   }
-  .filter-btn {
-    padding: 6px 16px;
-    border-radius: 20px;
-    border: 1px solid #333;
-    background: #1e1e1e;
-    color: #aaa;
-    font-size: 0.82rem;
+  .chips::-webkit-scrollbar { display: none; }
+  .chip {
+    flex-shrink: 0; height: 34px; padding: 0 14px; border-radius: 999px;
+    border: 1px solid var(--line); background: var(--bg);
+    font-size: 0.86rem; font-weight: 500; white-space: nowrap;
+    display: inline-flex; align-items: center; gap: 6px;
+    transition: background .15s, border-color .15s, color .15s;
+  }
+  .chip:hover { border-color: #cfc9c2; }
+  .chip.on { background: var(--text); border-color: var(--text); color: #fff; }
+  .chip-sep { flex-shrink: 0; width: 1px; background: var(--line); margin: 6px 2px; }
+
+  /* ---------- Layout ---------- */
+  .layout { display: block; }
+  .list-pane { padding: 14px 16px 96px; }
+  .result-bar {
+    display: flex; justify-content: space-between; align-items: baseline;
+    color: var(--muted); font-size: 0.85rem; margin-bottom: 12px;
+  }
+  .result-bar b { color: var(--text); font-weight: 600; }
+  .reset { color: var(--accent); font-weight: 600; font-size: 0.85rem; }
+
+  .grid { display: grid; grid-template-columns: 1fr; gap: 22px; }
+  @media (min-width: 600px) { .grid { grid-template-columns: repeat(2, 1fr); } .photo { aspect-ratio: 4 / 3; } }
+
+  .map-pane { display: none; }
+  #map { width: 100%; height: 100%; background: #eef0f2; }
+
+  /* Mobile map view */
+  body.view-map .list-pane { display: none; }
+  body.view-map .map-pane {
+    display: block; position: fixed; left: 0; right: 0; bottom: 0; top: var(--hdr-h); z-index: 1;
+  }
+
+  /* Desktop: split view, list + map always */
+  @media (min-width: 960px) {
+    header { padding-left: 24px; padding-right: 24px; }
+    .chips { margin-left: -24px; margin-right: -24px; padding-left: 24px; padding-right: 24px; }
+    .layout { display: grid; grid-template-columns: minmax(0, 1fr) 44%; }
+    .list-pane { padding: 18px 24px 40px; }
+    .map-pane, body.view-map .map-pane {
+      display: block; position: sticky; top: var(--hdr-h);
+      height: calc(100vh - var(--hdr-h)); border-left: 1px solid var(--line);
+    }
+    body.view-map .list-pane { display: block; }
+    .view-toggle { display: none !important; }
+    .search { max-width: 460px; }
+  }
+  @media (min-width: 1400px) { .grid { grid-template-columns: repeat(3, 1fr); } }
+
+  /* ---------- Card ---------- */
+  .card { cursor: pointer; border-radius: var(--radius); outline-offset: 4px; }
+  .card.hl .photo { box-shadow: 0 0 0 3px var(--accent); }
+  .photo {
+    position: relative; aspect-ratio: 3 / 2; border-radius: var(--radius);
+    overflow: hidden; background: var(--surface);
+  }
+  .shots {
+    display: flex; height: 100%; overflow-x: auto; scroll-snap-type: x mandatory;
+    scrollbar-width: none; -webkit-overflow-scrolling: touch;
+  }
+  .shots::-webkit-scrollbar { display: none; }
+  .shots img {
+    flex: 0 0 100%; width: 100%; height: 100%; object-fit: cover;
+    scroll-snap-align: start; display: block; background: var(--surface);
+  }
+  .no-photo {
+    height: 100%; display: grid; place-items: center; font-size: 2.6rem;
+    background: linear-gradient(135deg, #fbefe6, #f3ece6);
+  }
+  .dots {
+    position: absolute; bottom: 8px; left: 0; right: 0;
+    display: flex; justify-content: center; gap: 5px; pointer-events: none;
+  }
+  .dots i { width: 6px; height: 6px; border-radius: 50%; background: rgba(255,255,255,.55); }
+  .dots i.on { background: #fff; }
+  .nav {
+    position: absolute; top: 50%; transform: translateY(-50%);
+    width: 30px; height: 30px; border-radius: 50%;
+    background: rgba(255,255,255,.92); color: var(--text);
+    box-shadow: 0 1px 4px rgba(0,0,0,.18); font-size: 18px; line-height: 1;
+    display: grid; place-items: center; opacity: 0; transition: opacity .15s;
+  }
+  .nav.prev { left: 8px; } .nav.next { right: 8px; }
+  @media (hover: hover) { .photo:hover .nav { opacity: 1; } }
+  .badge {
+    position: absolute; top: 10px; left: 10px;
+    background: rgba(255,255,255,.95); border-radius: 999px;
+    padding: 4px 10px; font-size: 0.75rem; font-weight: 600;
+    box-shadow: 0 1px 4px rgba(0,0,0,.12);
+  }
+  .badge.open { color: var(--open); }
+  .badge.closed { color: var(--closed); }
+
+  .info { padding: 10px 2px 0; }
+  .row1 { display: flex; justify-content: space-between; gap: 10px; align-items: baseline; }
+  .name {
+    font-weight: 600; font-size: 1rem; line-height: 1.3;
+    overflow: hidden; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;
+  }
+  .rating { flex-shrink: 0; font-weight: 600; font-size: 0.9rem; }
+  .rating small { color: var(--faint); font-weight: 400; }
+  .meta { color: var(--muted); font-size: 0.86rem; margin-top: 2px; }
+  .meta .dot::before { content: '·'; margin: 0 5px; color: var(--faint); }
+  .status { font-size: 0.84rem; margin-top: 2px; color: var(--muted); }
+  .status b.open { color: var(--open); font-weight: 600; }
+  .status b.closed { color: var(--closed); font-weight: 600; }
+
+  .empty { text-align: center; padding: 60px 16px; color: var(--muted); grid-column: 1 / -1; }
+  .empty div { font-size: 2.4rem; margin-bottom: 8px; }
+
+  /* ---------- Floating view toggle (mobile) ---------- */
+  .view-toggle {
+    position: fixed; left: 50%; transform: translateX(-50%);
+    bottom: max(20px, env(safe-area-inset-bottom)); z-index: 1100;
+    background: var(--text); color: #fff; border-radius: 999px;
+    padding: 12px 20px; font-weight: 600; font-size: 0.9rem;
+    box-shadow: 0 6px 20px rgba(0,0,0,.25);
+    display: flex; align-items: center; gap: 8px;
+  }
+  body.peek-open .view-toggle { bottom: calc(max(20px, env(safe-area-inset-bottom)) + 118px); }
+
+  /* ---------- Map markers + peek card ---------- */
+  .pin {
+    background: #fff; color: var(--text); border-radius: 999px;
+    padding: 4px 9px; font-weight: 700; font-size: 12px; white-space: nowrap;
+    box-shadow: 0 2px 6px rgba(0,0,0,.25); border: 1px solid rgba(0,0,0,.06);
+    transform: translate(-50%, -50%); display: inline-block;
+    transition: transform .12s;
+  }
+  .pin.sel { background: var(--text); color: #fff; transform: translate(-50%, -50%) scale(1.12); }
+  .leaflet-div-icon { background: none; border: 0; }
+  .me-dot {
+    width: 16px; height: 16px; border-radius: 50%; background: #1a73e8;
+    border: 3px solid #fff; box-shadow: 0 0 0 6px rgba(26,115,232,.2);
+    transform: translate(-50%, -50%);
+  }
+  .peek {
+    position: absolute; left: 12px; right: 12px; bottom: max(12px, env(safe-area-inset-bottom));
+    z-index: 1000; background: #fff; border-radius: var(--radius);
+    box-shadow: 0 6px 24px rgba(0,0,0,.2); display: none; overflow: hidden;
     cursor: pointer;
-    transition: all 0.2s;
-    font-family: 'Inter', sans-serif;
   }
-  .filter-btn:hover, .filter-btn.active {
-    background: #ff6b00;
-    border-color: #ff6b00;
-    color: #fff;
-  }
-  .filter-btn.locate {
-    margin-left: auto;
-    background: #1a2a1a;
-    border-color: #2a5a2a;
-    color: #6fcf6f;
-  }
-  .filter-btn.locate:hover { background: #2a5a2a; }
-  #sort-info { font-size: 0.78rem; color: #555; padding: 0 4px; }
+  .peek.show { display: flex; }
+  .peek img, .peek .ph { width: 104px; height: 104px; object-fit: cover; flex-shrink: 0; background: var(--surface); }
+  .peek .ph { display: grid; place-items: center; font-size: 2rem; }
+  .peek .pb { padding: 10px 12px; min-width: 0; flex: 1; }
+  .peek .x { position: absolute; top: 6px; right: 8px; color: var(--faint); font-size: 20px; }
+  @media (min-width: 960px) { .peek { left: auto; width: 360px; } }
 
-  /* Grid */
-  .grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 24px;
-    padding: 28px 32px;
-    max-width: 1400px;
-    margin: 0 auto;
+  /* ---------- Detail sheet ---------- */
+  .scrim {
+    position: fixed; inset: 0; background: rgba(0,0,0,.4); z-index: 2000;
+    opacity: 0; pointer-events: none; transition: opacity .2s;
   }
-
-  /* Card */
-  .card {
-    background: #1a1a1a;
-    border-radius: 16px;
-    overflow: hidden;
-    border: 1px solid #2a2a2a;
-    transition: transform 0.2s, box-shadow 0.2s;
-    cursor: pointer;
-    position: relative;
+  .scrim.show { opacity: 1; pointer-events: auto; }
+  .sheet {
+    position: fixed; left: 0; right: 0; bottom: 0; z-index: 2001;
+    background: #fff; border-radius: 20px 20px 0 0;
+    max-height: 92vh; max-height: 92dvh; overflow-y: auto; overscroll-behavior: contain;
+    transform: translateY(100%); transition: transform .25s ease;
+    padding-bottom: env(safe-area-inset-bottom);
   }
-  .card:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 12px 40px #ff6b0022;
-    border-color: #ff6b0044;
+  .sheet.show { transform: none; }
+  @media (min-width: 720px) {
+    .sheet {
+      left: 50%; right: auto; bottom: auto; top: 50%; width: 560px;
+      border-radius: 20px; transform: translate(-50%, -46%); opacity: 0; pointer-events: none;
+      transition: transform .2s, opacity .2s; max-height: 88vh;
+    }
+    .sheet.show { transform: translate(-50%, -50%); opacity: 1; pointer-events: auto; }
   }
-
-  .card-img {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-    display: block;
-    background: #222;
-    flex-shrink: 0;
+  .sheet .photo { border-radius: 0; aspect-ratio: 16 / 10; }
+  .sheet-close {
+    position: absolute; top: 12px; right: 12px; z-index: 3;
+    width: 34px; height: 34px; border-radius: 50%; background: rgba(255,255,255,.95);
+    box-shadow: 0 1px 4px rgba(0,0,0,.2); font-size: 20px; display: grid; place-items: center;
   }
-  .card-img-placeholder {
-    width: 100%;
-    height: 200px;
-    background: linear-gradient(135deg, #1f1208, #2d1a0a);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 3rem;
-    flex-shrink: 0;
+  .grab-handle { position: absolute; top: 8px; left: 50%; transform: translateX(-50%); width: 40px; height: 4px; border-radius: 2px; background: rgba(255,255,255,.8); z-index: 3; }
+  .sb { padding: 16px 20px 22px; }
+  .sb h2 { font-size: 1.3rem; line-height: 1.3; font-weight: 700; }
+  .sb .meta { margin-top: 4px; font-size: 0.92rem; }
+  .actions { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin: 16px 0 4px; }
+  .act {
+    display: flex; flex-direction: column; align-items: center; gap: 4px;
+    padding: 10px 4px; border-radius: 12px; background: var(--surface);
+    font-size: 0.8rem; font-weight: 600; text-align: center;
   }
-  .slider-wrap {
-    position: relative;
-    overflow: hidden;
-    height: 200px;
-    background: #111;
+  .act .ic { font-size: 1.2rem; }
+  .act.primary { background: var(--accent); color: #fff; }
+  .note {
+    background: var(--accent-soft); border-radius: 12px; padding: 12px 14px;
+    margin-top: 14px; font-size: 0.92rem; line-height: 1.5;
   }
-  .slider-track {
-    display: flex;
-    height: 100%;
-    transition: transform 0.3s ease;
-    will-change: transform;
-  }
-  .slider-dot-wrap {
-    position: absolute;
-    bottom: 6px;
-    left: 50%;
-    transform: translateX(-50%);
-    display: flex;
-    gap: 5px;
-    z-index: 2;
-  }
-  .slider-dot {
-    width: 6px; height: 6px;
-    border-radius: 50%;
-    background: rgba(255,255,255,0.4);
-    cursor: pointer;
-    transition: background 0.2s;
-  }
-  .slider-dot.active { background: #fff; }
-  .slider-arrow {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background: rgba(0,0,0,0.45);
-    color: #fff;
-    border: none;
-    border-radius: 50%;
-    width: 28px; height: 28px;
-    font-size: 14px;
-    cursor: pointer;
-    z-index: 3;
-    display: flex; align-items: center; justify-content: center;
-    opacity: 0;
-    transition: opacity 0.2s;
-  }
-  .slider-wrap:hover .slider-arrow { opacity: 1; }
-  .slider-arrow.prev { left: 7px; }
-  .slider-arrow.next { right: 7px; }
-
-  .card-body { padding: 16px 18px 18px; }
-
-  .card-tags {
-    display: flex;
-    gap: 6px;
-    flex-wrap: wrap;
-    margin-bottom: 10px;
-  }
-  .tag {
-    font-size: 0.7rem;
-    padding: 2px 8px;
-    border-radius: 10px;
-    font-weight: 500;
-  }
-  .tag-cuisine { background: #2a1a00; color: #ff9d4d; border: 1px solid #3a2a00; }
-  .tag-price   { background: #001a10; color: #4dffaa; border: 1px solid #003a20; }
-  .tag-dist    { background: #001020; color: #4daaff; border: 1px solid #002040; }
-
-  .card-name {
-    font-family: 'Playfair Display', serif;
-    font-size: 1.2rem;
-    color: #f0ece4;
-    margin-bottom: 4px;
-    line-height: 1.3;
-  }
-  .card-address {
-    font-size: 0.78rem;
-    color: #666;
-    margin-bottom: 10px;
-    display: flex;
-    align-items: center;
-    gap: 4px;
-  }
-
-  .card-rating {
-    display: flex;
-    align-items: center;
-    gap: 6px;
-    margin-bottom: 8px;
-  }
-  .stars { color: #ff9d4d; font-size: 0.9rem; letter-spacing: 1px; }
-  .rating-score { font-size: 0.82rem; color: #888; }
-
-  .card-note {
-    font-size: 0.8rem;
-    color: #998877;
-    font-style: italic;
-    border-top: 1px solid #2a2a2a;
-    padding-top: 10px;
-    margin-top: 8px;
-    line-height: 1.5;
-  }
-
-  .card-actions {
-    display: flex;
-    gap: 8px;
-    margin-top: 12px;
-  }
-  .btn-map {
-    flex: 1;
-    padding: 7px;
-    border-radius: 8px;
-    border: 1px solid #333;
-    background: #222;
-    color: #aaa;
-    font-size: 0.78rem;
-    cursor: pointer;
-    text-decoration: none;
-    text-align: center;
-    transition: all 0.2s;
-    font-family: 'Inter', sans-serif;
-  }
-  .btn-map:hover { background: #333; color: #fff; }
-  .btn-grab { border-color: #00b14f55; color: #00b14f; }
-  .btn-grab:hover { background: #00b14f; color: #fff; }
-
-  /* Empty state */
-  .empty {
-    grid-column: 1/-1;
-    text-align: center;
-    padding: 80px 20px;
-    color: #444;
-  }
-  .empty .icon { font-size: 4rem; margin-bottom: 16px; }
-  .empty p { font-size: 1rem; }
-
-  /* Distance badge */
-  .dist-badge {
-    position: absolute;
-    top: 12px;
-    right: 12px;
-    background: #000000aa;
-    backdrop-filter: blur(4px);
-    color: #4daaff;
-    font-size: 0.72rem;
-    padding: 3px 8px;
-    border-radius: 10px;
-    border: 1px solid #4daaff44;
-  }
-
-  /* Count */
-  .count { color: #555; font-size: 0.82rem; margin-left: auto; }
+  .facts { margin-top: 14px; }
+  .fact { display: flex; gap: 12px; padding: 11px 0; border-top: 1px solid var(--line); font-size: 0.92rem; }
+  .fact .ic { width: 22px; text-align: center; flex-shrink: 0; }
+  .fact .lbl { color: var(--muted); font-size: 0.8rem; }
+  .tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 14px; }
+  .tags span { background: var(--surface); border-radius: 999px; padding: 4px 10px; font-size: 0.78rem; color: var(--muted); }
+  body.sheet-open { overflow: hidden; }
 </style>
 </head>
 <body>
 
-<header>
-  <h1>🍜 Ăn Gì Hôm Nay?</h1>
-  <p id="subtitle">Danh sách địa điểm ăn uống</p>
+<header id="hdr">
+  <div class="hdr-top">
+    <div class="brand">🍜 Ăn gì <span>hôm nay?</span></div>
+    <label class="search" id="search-box">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+      <input id="q" type="search" placeholder="Tìm quán, món, khu vực…" autocomplete="off" enterkeyhint="search">
+      <button class="clear" id="q-clear" type="button" aria-label="Xoá">×</button>
+    </label>
+  </div>
+  <div class="chips" id="chips"></div>
 </header>
 
-<div class="filters">
-  <button class="filter-btn active" onclick="filterBy('all')">Tất cả</button>
-  <div id="cuisine-filters"></div>
-  <button class="filter-btn locate" onclick="locateMe()">📍 Gần tôi</button>
-  <span id="sort-info"></span>
-  <span class="count" id="count"></span>
+<div class="layout">
+  <main class="list-pane">
+    <div class="result-bar"><span id="result-text"></span><button class="reset" id="reset" hidden>Bỏ lọc</button></div>
+    <div class="grid" id="grid"></div>
+  </main>
+  <aside class="map-pane" id="map-pane">
+    <div id="map"></div>
+    <div class="peek" id="peek"></div>
+  </aside>
 </div>
 
-<div class="grid" id="grid"></div>
+<button class="view-toggle" id="view-toggle"></button>
 
+<div class="scrim" id="scrim"></div>
+<div class="sheet" id="sheet" role="dialog" aria-modal="true"></div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script>
-let allPlaces = [];
-let userLat = null, userLon = null;
-let activeFilter = 'all';
+/* ================= State ================= */
+const state = {
+  places: [],
+  q: '',
+  cat: 'all',
+  openNow: false,
+  topRated: false,
+  near: false,
+  me: null,          // {lat, lng}
+  selected: null,    // id selected on map
+};
 
-async function loadData() {
-  const res = await fetch('places.json?' + Date.now());
-  const data = await res.json();
-  allPlaces = Array.isArray(data) ? data : (data.places || []);
-  render();
+/* Categories: derived from cuisine + tags. A place can sit in several. */
+const CATEGORIES = [
+  { id: 'viet',  label: '🍲 Món Việt',     re: /bún|phở|chả cá|cơm tấm|bánh|việt nam|nhà hàng việt/i },
+  { id: 'asia',  label: '🥢 Nhật · Trung · Hàn', re: /nhật|japan|trung quốc|tứ xuyên|hàn|korea|cà ri|sushi|ramen|udon/i },
+  { id: 'grill', label: '🔥 Lẩu & Nướng',  re: /lẩu|nướng|grill|bbq|xiên/i },
+  { id: 'nhau',  label: '🍺 Nhậu',         re: /bia hơi|nhậu/i },
+  { id: 'drink', label: '🍸 Cafe & Bar',   re: /cafe|cà phê|coffee|bar|wine|cocktail|craft.?beer/i },
+];
+
+/* ================= Helpers ================= */
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const norm = s => String(s ?? '').normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/đ/g,'d').replace(/Đ/g,'D').toLowerCase();
+
+function haversine(a, b) {
+  const R = 6371, r = x => x * Math.PI / 180;
+  const dLat = r(b.lat - a.lat), dLng = r(b.lng - a.lng);
+  const h = Math.sin(dLat/2)**2 + Math.cos(r(a.lat))*Math.cos(r(b.lat))*Math.sin(dLng/2)**2;
+  return R * 2 * Math.atan2(Math.sqrt(h), Math.sqrt(1-h));
+}
+const fmtDist = km => km < 1 ? `${Math.round(km*1000/10)*10} m` : `${km.toFixed(1)} km`;
+
+function imagesOf(p) {
+  return p.images?.length ? p.images : (p.photo ? [p.photo] : p.image ? [p.image] : []);
 }
 
-function haversine(lat1, lon1, lat2, lon2) {
-  const R = 6371;
-  const dLat = (lat2-lat1)*Math.PI/180;
-  const dLon = (lon2-lon1)*Math.PI/180;
-  const a = Math.sin(dLat/2)**2 + Math.cos(lat1*Math.PI/180)*Math.cos(lat2*Math.PI/180)*Math.sin(dLon/2)**2;
-  return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
+function district(addr) {
+  if (!addr) return '';
+  const parts = addr.split(',').map(s => s.trim()).filter(Boolean);
+  if (parts.length >= 3) return parts[parts.length - 2];
+  return parts[0] || '';
 }
 
-function locateMe() {
-  if (!navigator.geolocation) return alert('Trình duyệt không hỗ trợ định vị');
-  navigator.geolocation.getCurrentPosition(pos => {
-    userLat = pos.coords.latitude;
-    userLon = pos.coords.longitude;
-    document.getElementById('sort-info').textContent = '📍 Đang sắp xếp theo khoảng cách';
-    render();
-  }, () => alert('Không lấy được vị trí'));
-}
-
-function filterBy(cuisine) {
-  activeFilter = cuisine;
-  document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
-  event.target.classList.add('active');
-  render();
-}
-
-function stars(rating) {
-  if (!rating) return '';
-  const full = Math.round(rating);
-  return '★'.repeat(full) + '☆'.repeat(5-full);
-}
-
-function priceLabel(price) {
+function priceShort(price) {
   if (!price) return '';
-  if (price === 1) return '₫ Bình dân';
-  if (price === 2) return '₫₫ Trung bình';
-  if (price === 3) return '₫₫₫ Cao cấp';
-  return price;
+  if (typeof price === 'number') return ['', 'Bình dân', 'Giá vừa', 'Cao cấp', 'Sang trọng'][price] || '';
+  const nums = String(price).match(/\d[\d.,]*/g);
+  if (!nums) return String(price);
+  const k = n => { const v = parseInt(n.replace(/[.,]/g, ''), 10); return v >= 1000 ? Math.round(v/1000) + 'k' : String(v); };
+  return nums.slice(0, 2).map(k).join('–');
 }
 
-function render() {
-  const grid = document.getElementById('grid');
-  const cuisineContainer = document.getElementById('cuisine-filters');
-
-  // Build cuisine filter buttons
-  const cuisines = [...new Set(allPlaces.map(p => p.cuisine).filter(Boolean))];
-  cuisineContainer.innerHTML = cuisines.map(c =>
-    `<button class="filter-btn ${activeFilter===c?'active':''}" onclick="filterBy('${c}')">${c}</button>`
-  ).join('');
-
-  // Filter
-  let places = activeFilter === 'all' ? [...allPlaces] : allPlaces.filter(p => p.cuisine === activeFilter);
-
-  // Sort by distance if available
-  if (userLat && userLon) {
-    places.forEach(p => {
-      if (p.lat && p.lng) p._dist = haversine(userLat, userLon, p.lat, p.lng);
-      else p._dist = 99999;
-    });
-    places.sort((a,b) => a._dist - b._dist);
+/* Hours: "06:00 – 20:00", "11:00 – 14:00, 17:30 – 23:00", "Cafe 9:00 – 18:00, Wine 16:00 – 24:00", "17:00 – 1:00" */
+function parseHours(h) {
+  if (!h) return null;
+  const out = [];
+  const re = /(\d{1,2})[:h](\d{2})\s*[–—-]\s*(\d{1,2})[:h](\d{2})/g;
+  let m;
+  while ((m = re.exec(h))) {
+    const s = +m[1]*60 + +m[2];
+    let e = +m[3]*60 + +m[4];
+    if (e <= s) e += 24*60;               // past midnight
+    out.push([s, e]);
   }
+  return out.length ? out.sort((a,b) => a[0]-b[0]) : null;
+}
+const hhmm = mins => { mins %= 1440; return `${String(Math.floor(mins/60)).padStart(2,'0')}:${String(mins%60).padStart(2,'0')}`; };
 
-  document.getElementById('count').textContent = `${places.length} địa điểm`;
-  document.getElementById('subtitle').textContent = places.length
-    ? `${places.length} địa điểm đã lưu`
-    : 'Chưa có địa điểm nào';
+function openStatus(p, now = new Date()) {
+  const ranges = parseHours(p.hours);
+  if (!ranges) return null;
+  const t = now.getHours()*60 + now.getMinutes();
+  for (const [s, e] of ranges) {
+    if ((t >= s && t < e) || (t + 1440 >= s && t + 1440 < e)) {
+      const left = (t >= s ? e - t : e - t - 1440);
+      return { open: true, text: left <= 45 ? `Sắp đóng · ${hhmm(e)}` : `Đóng lúc ${hhmm(e)}`, soon: left <= 45 };
+    }
+  }
+  const next = ranges.find(([s]) => s > t);
+  return { open: false, text: next ? `Mở lúc ${hhmm(next[0])}` : `Mở lại ${hhmm(ranges[0][0])} mai` };
+}
 
-  if (places.length === 0) {
-    grid.innerHTML = `<div class="empty"><div class="icon">🍽️</div><p>Chưa có địa điểm nào. Hãy gửi hình ảnh nhà hàng!</p></div>`;
+function catsOf(p) {
+  const hay = [p.cuisine, p.name, ...(p.tags || [])].join(' ');
+  return CATEGORIES.filter(c => c.re.test(hay)).map(c => c.id);
+}
+
+/* ================= Filtering ================= */
+function filtered() {
+  const q = norm(state.q.trim());
+  let list = state.places.filter(p => {
+    if (state.cat !== 'all' && !p._cats.includes(state.cat)) return false;
+    if (state.openNow) { const st = openStatus(p); if (!st || !st.open) return false; }
+    if (state.topRated && !(p.rating >= 4.5)) return false;
+    if (q && !p._search.includes(q)) return false;
+    return true;
+  });
+  if (state.me) list.forEach(p => p._dist = (p.lat && p.lng) ? haversine(state.me, p) : null);
+  if (state.near && state.me) {
+    list.sort((a, b) => (a._dist ?? 1e9) - (b._dist ?? 1e9));
+  } else {
+    // Open places first, then by rating
+    list.sort((a, b) => {
+      const oa = openStatus(a)?.open ? 1 : 0, ob = openStatus(b)?.open ? 1 : 0;
+      if (oa !== ob) return ob - oa;
+      return (b.rating || 0) - (a.rating || 0);
+    });
+  }
+  return list;
+}
+
+/* ================= Render: chips ================= */
+function renderChips() {
+  const counts = Object.fromEntries(CATEGORIES.map(c => [c.id, state.places.filter(p => p._cats.includes(c.id)).length]));
+  const cats = CATEGORIES.filter(c => counts[c.id] > 0);
+  $('#chips').innerHTML = `
+    <button class="chip ${state.near ? 'on' : ''}" data-act="near">📍 Gần tôi</button>
+    <button class="chip ${state.openNow ? 'on' : ''}" data-act="open">🕒 Đang mở</button>
+    <button class="chip ${state.topRated ? 'on' : ''}" data-act="top">⭐ 4.5+</button>
+    <span class="chip-sep"></span>
+    <button class="chip ${state.cat === 'all' ? 'on' : ''}" data-cat="all">Tất cả</button>
+    ${cats.map(c => `<button class="chip ${state.cat === c.id ? 'on' : ''}" data-cat="${c.id}">${c.label}</button>`).join('')}
+  `;
+}
+
+/* ================= Render: photos ================= */
+function photoHtml(p, { badge = true } = {}) {
+  const imgs = imagesOf(p);
+  const st = openStatus(p);
+  const badgeHtml = badge && st ? `<span class="badge ${st.open ? 'open' : 'closed'}">${st.open ? 'Đang mở' : 'Đã đóng'}</span>` : '';
+  if (!imgs.length) return `<div class="photo"><div class="no-photo">${esc(p.emoji || '🍽️')}</div>${badgeHtml}</div>`;
+  const shots = imgs.map((s, i) => `<img src="${esc(s)}" alt="${esc(p.name)}" ${i ? 'loading="lazy"' : ''} onerror="this.remove()">`).join('');
+  const multi = imgs.length > 1;
+  return `<div class="photo">
+    <div class="shots">${shots}</div>
+    ${multi ? `<button class="nav prev" data-nav="-1" aria-label="Ảnh trước">‹</button><button class="nav next" data-nav="1" aria-label="Ảnh sau">›</button>
+    <div class="dots">${imgs.map((_, i) => `<i class="${i ? '' : 'on'}"></i>`).join('')}</div>` : ''}
+    ${badgeHtml}
+  </div>`;
+}
+
+function metaLine(p) {
+  const bits = [p.cuisine, priceShort(p.price), district(p.address)].filter(Boolean);
+  if (p._dist != null && state.me) bits.push(fmtDist(p._dist));
+  return bits.map((b, i) => `<span class="${i ? 'dot' : ''}">${esc(b)}</span>`).join('');
+}
+
+function ratingHtml(p) {
+  if (!p.rating) return '';
+  const n = p.review_count ? ` <small>(${p.review_count >= 1000 ? (p.review_count/1000).toFixed(1).replace('.0','') + 'k' : p.review_count})</small>` : '';
+  return `<span class="rating">★ ${p.rating.toFixed(1)}${n}</span>`;
+}
+
+function statusHtml(p) {
+  const st = openStatus(p);
+  if (!st) return '';
+  return `<div class="status"><b class="${st.open ? 'open' : 'closed'}">${st.open ? (st.soon ? 'Sắp đóng' : 'Đang mở') : 'Đã đóng'}</b> · ${esc(st.text.replace(/^Sắp đóng · /, 'Đóng lúc '))}</div>`;
+}
+
+/* ================= Render: list ================= */
+function renderList(list) {
+  const total = state.places.length;
+  const filteredActive = state.cat !== 'all' || state.openNow || state.topRated || state.q.trim();
+  $('#result-text').innerHTML = filteredActive
+    ? `<b>${list.length}</b> / ${total} quán phù hợp`
+    : `<b>${total}</b> quán đã lưu${state.near && state.me ? ' · gần nhất trước' : ''}`;
+  $('#reset').hidden = !filteredActive;
+
+  if (!list.length) {
+    $('#grid').innerHTML = `<div class="empty"><div>🔍</div>Không có quán nào khớp. Thử bỏ bớt bộ lọc nhé.</div>`;
     return;
   }
-
-  grid.innerHTML = places.map(p => {
-    const dist = p._dist && p._dist < 9999 ? `${p._dist < 1 ? (p._dist*1000).toFixed(0)+'m' : p._dist.toFixed(1)+'km'}` : null;
-    const imgs = p.images || (p.photo ? [p.photo] : p.image ? [p.image] : []);
-    const slideId = 'sl-' + p.id;
-    let imgHtml;
-    if (imgs.length === 0) {
-      imgHtml = `<div class="card-img-placeholder">${p.emoji || '🍽️'}</div>`;
-    } else if (imgs.length === 1) {
-      imgHtml = `<div class="slider-wrap"><img class="card-img" src="${imgs[0]}" alt="${p.name}" onerror="this.parentElement.innerHTML='<div class=card-img-placeholder>🍽️</div>'"></div>`;
-    } else {
-      const slides = imgs.map(s => `<img class="card-img" src="${s}" alt="${p.name}" onerror="this.style.opacity=0">`).join('');
-      const dots = imgs.map((_,i) => `<span class="slider-dot${i===0?' active':''}" onclick="sliderGo('${slideId}',${i})"></span>`).join('');
-      imgHtml = `<div class="slider-wrap" id="${slideId}" data-idx="0" data-len="${imgs.length}"
-        ontouchstart="sliderTouch(this,event,'start')" ontouchend="sliderTouch(this,event,'end')">
-        <div class="slider-track">${slides}</div>
-        <button class="slider-arrow prev" onclick="sliderStep('${slideId}',-1)">&#8249;</button>
-        <button class="slider-arrow next" onclick="sliderStep('${slideId}',1)">&#8250;</button>
-        <div class="slider-dot-wrap">${dots}</div>
-      </div>`;
-    }
-
-    return `<div class="card">
-      ${imgHtml}
-      ${dist ? `<div class="dist-badge">📍 ${dist}</div>` : ''}
-      <div class="card-body">
-        <div class="card-tags">
-          ${p.cuisine ? `<span class="tag tag-cuisine">${p.cuisine}</span>` : ''}
-          ${p.price ? `<span class="tag tag-price">${priceLabel(p.price)}</span>` : ''}
-          ${dist ? `<span class="tag tag-dist">${dist}</span>` : ''}
-        </div>
-        <div class="card-name">${p.name}</div>
-        <div class="card-address">📍 ${p.address || 'Chưa có địa chỉ'}</div>
-        ${p.rating ? `<div class="card-rating"><span class="stars">${stars(p.rating)}</span><span class="rating-score">${p.rating}/5</span></div>` : ''}
-        ${p.note ? `<div class="card-note">"${p.note}"</div>` : ''}
-        <div class="card-actions">
-          ${p.maps_url ? `<a class="btn-map" href="${p.maps_url}" target="_blank">🗺️ Xem bản đồ</a>` : ''}
-          ${p.phone ? `<a class="btn-map" href="tel:${p.phone}">📞 Gọi</a>` : ''}
-          ${p.address ? `<button class="btn-map btn-grab" onclick="grabGo('${p.address.replace(/'/g,"\\'")}')">🚗 Grab</button>` : ''}
-        </div>
+  $('#grid').innerHTML = list.map(p => `
+    <article class="card ${state.selected === p.id ? 'hl' : ''}" data-id="${esc(p.id)}" tabindex="0">
+      ${photoHtml(p)}
+      <div class="info">
+        <div class="row1"><h3 class="name">${esc(p.name)}</h3>${ratingHtml(p)}</div>
+        <div class="meta">${metaLine(p)}</div>
+        ${statusHtml(p)}
       </div>
-    </div>`;
-  }).join('');
+    </article>`).join('');
 }
 
-function sliderGo(id, idx) {
-  const el = document.getElementById(id);
-  if (!el) return;
-  const len = parseInt(el.dataset.len);
-  idx = ((idx % len) + len) % len;
-  el.dataset.idx = idx;
-  el.querySelector('.slider-track').style.transform = `translateX(-${idx * 100}%)`;
-  el.querySelectorAll('.slider-dot').forEach((d,i) => d.classList.toggle('active', i===idx));
+/* ================= Map ================= */
+let map, markers = {}, meMarker;
+const isDesktop = () => matchMedia('(min-width: 960px)').matches;
+
+function ensureMap() {
+  if (map || typeof L === 'undefined') return;
+  map = L.map('map', { zoomControl: false, attributionControl: true }).setView([21.03, 105.83], 13);
+  L.control.zoom({ position: 'topright' }).addTo(map);
+  L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
+    maxZoom: 19, subdomains: 'abcd',
+    attribution: '&copy; OpenStreetMap &copy; CARTO',
+  }).addTo(map);
+  map.on('click', () => selectPlace(null));
 }
-function sliderStep(id, dir) {
-  const el = document.getElementById(id);
-  if (!el) return;
-  sliderGo(id, parseInt(el.dataset.idx) + dir);
+
+function renderMap(list) {
+  if (!map) return;
+  Object.values(markers).forEach(m => m.remove());
+  markers = {};
+  const pts = [];
+  list.forEach(p => {
+    if (!p.lat || !p.lng) return;
+    const label = p.rating ? `★ ${p.rating.toFixed(1)}` : '🍽️';
+    const icon = L.divIcon({ className: '', html: `<span class="pin ${state.selected === p.id ? 'sel' : ''}">${label}</span>`, iconSize: [0, 0] });
+    const m = L.marker([p.lat, p.lng], { icon, riseOnHover: true, title: p.name }).addTo(map);
+    m.on('click', e => { L.DomEvent.stopPropagation(e); selectPlace(p.id, { fromMap: true }); });
+    markers[p.id] = m;
+    pts.push([p.lat, p.lng]);
+  });
+  if (state.me) {
+    if (!meMarker) meMarker = L.marker([state.me.lat, state.me.lng], { icon: L.divIcon({ className: '', html: '<div class="me-dot"></div>', iconSize: [0,0] }), interactive: false }).addTo(map);
+    pts.push([state.me.lat, state.me.lng]);
+  }
+  if (pts.length) map.fitBounds(pts, { padding: [50, 50], maxZoom: 15 });
 }
-let _touchX = 0;
-function sliderTouch(el, e, phase) {
-  if (phase === 'start') { _touchX = e.changedTouches[0].clientX; }
-  else {
-    const dx = e.changedTouches[0].clientX - _touchX;
-    if (Math.abs(dx) > 40) sliderStep(el.id, dx < 0 ? 1 : -1);
+
+function selectPlace(id, { fromMap = false } = {}) {
+  state.selected = id;
+  // marker highlight
+  Object.entries(markers).forEach(([pid, m]) => {
+    const el = m.getElement()?.querySelector('.pin');
+    if (el) el.classList.toggle('sel', pid === id);
+    if (pid === id) m.setZIndexOffset(1000); else m.setZIndexOffset(0);
+  });
+  // card highlight
+  document.querySelectorAll('.card').forEach(c => c.classList.toggle('hl', c.dataset.id === id));
+  const peek = $('#peek');
+  if (!id) { peek.classList.remove('show'); document.body.classList.remove('peek-open'); return; }
+  const p = state.places.find(x => x.id === id);
+  if (fromMap) {
+    const img = imagesOf(p)[0];
+    peek.innerHTML = `${img ? `<img src="${esc(img)}" alt="">` : `<div class="ph">🍽️</div>`}
+      <div class="pb"><div class="row1"><h3 class="name">${esc(p.name)}</h3></div>
+      <div class="meta">${ratingHtml(p) ? ratingHtml(p).replace('class="rating"','') + '<span class="dot"></span>' : ''}${esc(p.cuisine || '')}</div>
+      ${statusHtml(p)}</div>
+      <button class="x" aria-label="Đóng">×</button>`;
+    peek.classList.add('show');
+    document.body.classList.add('peek-open');
+    if (isDesktop()) document.querySelector(`.card[data-id="${CSS.escape(id)}"]`)?.scrollIntoView({ behavior: 'smooth', block: 'center' });
   }
 }
 
-loadData();
+/* ================= Detail sheet ================= */
+function openSheet(id) {
+  const p = state.places.find(x => x.id === id);
+  if (!p) return;
+  const st = openStatus(p);
+  const dirUrl = (p.lat && p.lng)
+    ? `https://www.google.com/maps/dir/?api=1&destination=${p.lat},${p.lng}`
+    : (p.maps_url || '');
+  $('#sheet').innerHTML = `
+    <div style="position:relative">
+      <div class="grab-handle"></div>
+      <button class="sheet-close" data-close aria-label="Đóng">×</button>
+      ${photoHtml(p, { badge: false })}
+    </div>
+    <div class="sb">
+      <h2>${esc(p.name)}</h2>
+      <div class="meta">${ratingHtml(p) ? ratingHtml(p) + '<span class="dot"></span>' : ''}${metaLine(p)}</div>
+      ${statusHtml(p)}
+      <div class="actions">
+        ${dirUrl ? `<a class="act primary" href="${esc(dirUrl)}" target="_blank" rel="noopener"><span class="ic">🧭</span>Chỉ đường</a>` : ''}
+        ${p.phone ? `<a class="act" href="tel:${esc(p.phone.replace(/\s/g, ''))}"><span class="ic">📞</span>Gọi</a>` : ''}
+        ${p.address ? `<button class="act" data-grab="${esc(p.address)}"><span class="ic">🚗</span>Grab</button>` : ''}
+        ${p.maps_url ? `<a class="act" href="${esc(p.maps_url)}" target="_blank" rel="noopener"><span class="ic">🗺️</span>Google Maps</a>` : ''}
+      </div>
+      ${p.note ? `<div class="note">${esc(p.note)}</div>` : ''}
+      <div class="facts">
+        ${p.address ? `<div class="fact"><span class="ic">📍</span><div><div>${esc(p.address)}</div>${p._dist != null && state.me ? `<div class="lbl">Cách bạn ${fmtDist(p._dist)}</div>` : ''}</div></div>` : ''}
+        ${p.hours ? `<div class="fact"><span class="ic">🕒</span><div><div>${esc(p.hours)}</div>${st ? `<div class="lbl">${st.open ? 'Đang mở' : 'Đã đóng'} · ${esc(st.text)}</div>` : ''}</div></div>` : ''}
+        ${p.price ? `<div class="fact"><span class="ic">💵</span><div>${esc(typeof p.price === 'number' ? ['', 'Bình dân', 'Trung bình', 'Cao cấp', 'Sang trọng'][p.price] || priceShort(p.price) : p.price)}</div></div>` : ''}
+        ${p.phone ? `<div class="fact"><span class="ic">📞</span><div>${esc(p.phone)}</div></div>` : ''}
+      </div>
+      ${p.tags?.length ? `<div class="tags">${p.tags.map(t => `<span>${esc(t)}</span>`).join('')}</div>` : ''}
+    </div>`;
+  // Actions row: fit to number of buttons
+  const acts = $('#sheet .actions');
+  acts.style.gridTemplateColumns = `repeat(${acts.children.length || 1}, 1fr)`;
+  $('#sheet').scrollTop = 0;
+  $('#sheet').classList.add('show');
+  $('#scrim').classList.add('show');
+  document.body.classList.add('sheet-open');
+  history.pushState({ sheet: id }, '', '#' + encodeURIComponent(id));
+}
+function closeSheet(fromPop = false) {
+  if (!$('#sheet').classList.contains('show')) return;
+  $('#sheet').classList.remove('show');
+  $('#scrim').classList.remove('show');
+  document.body.classList.remove('sheet-open');
+  if (!fromPop && history.state?.sheet) history.back();
+}
 
 function grabGo(address) {
-  navigator.clipboard.writeText(address).catch(() => {});
+  navigator.clipboard?.writeText(address).catch(() => {});
   window.location.href = `grab://open?screenType=BOOKING&type=CAR&dropOffAddress=${encodeURIComponent(address)}`;
 }
+
+/* ================= View toggle (mobile) ================= */
+function setView(v) {
+  document.body.classList.toggle('view-map', v === 'map');
+  $('#view-toggle').innerHTML = v === 'map' ? '☰&nbsp; Danh sách' : '🗺️&nbsp; Bản đồ';
+  if (v === 'map') { ensureMap(); render(); setTimeout(() => map && map.invalidateSize(), 50); }
+  else selectPlace(null);
+  window.scrollTo(0, 0);
+}
+
+/* ================= Render all ================= */
+function render() {
+  const list = filtered();
+  renderChips();
+  renderList(list);
+  if (map) renderMap(list);
+  if (state.selected && !list.some(p => p.id === state.selected)) selectPlace(null);
+}
+
+/* ================= Events ================= */
+function locate() {
+  if (!navigator.geolocation) { alert('Trình duyệt không hỗ trợ định vị'); return; }
+  navigator.geolocation.getCurrentPosition(pos => {
+    state.me = { lat: pos.coords.latitude, lng: pos.coords.longitude };
+    state.near = true;
+    if (meMarker) { meMarker.remove(); meMarker = null; }
+    render();
+  }, () => { state.near = false; render(); alert('Không lấy được vị trí. Hãy cho phép truy cập vị trí.'); },
+  { enableHighAccuracy: true, timeout: 10000, maximumAge: 60000 });
+}
+
+$('#chips').addEventListener('click', e => {
+  const b = e.target.closest('.chip'); if (!b) return;
+  if (b.dataset.cat) state.cat = b.dataset.cat;
+  else if (b.dataset.act === 'open') state.openNow = !state.openNow;
+  else if (b.dataset.act === 'top') state.topRated = !state.topRated;
+  else if (b.dataset.act === 'near') {
+    if (state.near) state.near = false;
+    else if (state.me) state.near = true;
+    else return locate();
+  }
+  render();
+});
+
+let qTimer;
+$('#q').addEventListener('input', e => {
+  $('#search-box').classList.toggle('has-text', !!e.target.value);
+  clearTimeout(qTimer);
+  qTimer = setTimeout(() => { state.q = e.target.value; render(); }, 120);
+});
+$('#q-clear').addEventListener('click', e => {
+  e.preventDefault(); $('#q').value = ''; state.q = '';
+  $('#search-box').classList.remove('has-text'); render();
+});
+$('#reset').addEventListener('click', () => {
+  Object.assign(state, { cat: 'all', openNow: false, topRated: false, q: '' });
+  $('#q').value = ''; $('#search-box').classList.remove('has-text'); render();
+});
+
+// Photo carousel: arrows + dots sync (event delegation, works for cards and sheet)
+document.addEventListener('click', e => {
+  const nav = e.target.closest('.nav');
+  if (nav) {
+    e.stopPropagation();
+    const shots = nav.parentElement.querySelector('.shots');
+    shots.scrollBy({ left: shots.clientWidth * +nav.dataset.nav, behavior: 'smooth' });
+    return;
+  }
+  if (e.target.closest('[data-close]')) return closeSheet();
+  const g = e.target.closest('[data-grab]'); if (g) return grabGo(g.dataset.grab);
+  const card = e.target.closest('.card'); if (card) return openSheet(card.dataset.id);
+  const peek = e.target.closest('#peek');
+  if (peek) {
+    if (e.target.closest('.x')) return selectPlace(null);
+    return openSheet(state.selected);
+  }
+}, true);
+document.addEventListener('scroll', e => {
+  const shots = e.target;
+  if (!(shots instanceof Element) || !shots.classList.contains('shots')) return;
+  const i = Math.round(shots.scrollLeft / shots.clientWidth);
+  shots.parentElement.querySelectorAll('.dots i').forEach((d, j) => d.classList.toggle('on', i === j));
+}, true);
+document.addEventListener('keydown', e => {
+  if (e.key === 'Escape') closeSheet();
+  if (e.key === 'Enter' && e.target.classList?.contains('card')) openSheet(e.target.dataset.id);
+});
+// Hover a card on desktop → highlight its pin
+$('#grid').addEventListener('mouseover', e => {
+  const c = e.target.closest('.card');
+  if (c && map && isDesktop()) {
+    Object.entries(markers).forEach(([pid, m]) => m.getElement()?.querySelector('.pin')?.classList.toggle('sel', pid === c.dataset.id || pid === state.selected));
+  }
+});
+$('#scrim').addEventListener('click', () => closeSheet());
+window.addEventListener('popstate', () => closeSheet(true));
+$('#view-toggle').addEventListener('click', () => setView(document.body.classList.contains('view-map') ? 'list' : 'map'));
+
+// Keep header height in a CSS var so the map fills the rest of the screen
+new ResizeObserver(([e]) => document.documentElement.style.setProperty('--hdr-h', $('#hdr').offsetHeight + 'px')).observe($('#hdr'));
+matchMedia('(min-width: 960px)').addEventListener('change', ev => { if (ev.matches) { ensureMap(); render(); setTimeout(() => map?.invalidateSize(), 50); } });
+// Refresh open/closed status every minute
+setInterval(render, 60000);
+
+/* ================= Load ================= */
+(async function load() {
+  try {
+    const res = await fetch('places.json?' + Date.now());
+    const data = await res.json();
+    state.places = (Array.isArray(data) ? data : (data.places || [])).map(p => ({
+      ...p,
+      _cats: catsOf(p),
+      _search: norm([p.name, p.cuisine, p.address, p.note, ...(p.tags || [])].join(' ')),
+    }));
+  } catch (err) {
+    $('#grid').innerHTML = `<div class="empty"><div>⚠️</div>Không tải được danh sách quán.</div>`;
+    return;
+  }
+  setView('list');
+  if (isDesktop()) { ensureMap(); }
+  render();
+  // Deep link: #place-id opens its detail
+  const h = decodeURIComponent(location.hash.slice(1));
+  if (h && state.places.some(p => p.id === h)) { history.replaceState(null, '', location.pathname); openSheet(h); }
+})();
 </script>
 </body>
 </html>
