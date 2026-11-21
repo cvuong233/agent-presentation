@@ -238,6 +238,7 @@
   /* ---------- Map ---------- */
   .leaflet-container { font-family: var(--body); }
   .leaflet-div-icon { background: none; border: 0; }
+  .leaflet-tile-pane { filter: invert(1) hue-rotate(200deg) brightness(.85) contrast(.92) saturate(.45); }
   .pin {
     display: inline-flex; align-items: center; gap: 4px; transform: translate(-50%, -50%);
     background: var(--dusk); color: var(--paper); border: 1px solid #3a4166;
@@ -558,8 +559,10 @@ function ensureMap() {
   if (map || typeof L === 'undefined') return;
   map = L.map('map', { zoomControl: false }).setView([21.03, 105.83], 13);
   L.control.zoom({ position: 'topright' }).addTo(map);
-  L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
-    maxZoom: 19, subdomains: 'abcd', attribution: '&copy; OpenStreetMap &copy; CARTO',
+  // OpenStreetMap tiles: free, no API key. Darkened with a CSS filter (.leaflet-tile-pane).
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
   }).addTo(map);
   map.on('click', () => selectPlace(null));
 }
