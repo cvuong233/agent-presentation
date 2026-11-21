@@ -249,9 +249,32 @@
   .pin.sel { background: linear-gradient(135deg, var(--lantern), var(--ember)); color: #1d1206; border-color: transparent; transform: translate(-50%, -50%) scale(1.15); }
   .pin.sel .s { color: #1d1206; }
   .me-dot {
-    width: 16px; height: 16px; border-radius: 50%; background: #4c8dff; transform: translate(-50%, -50%);
-    border: 3px solid #fff; box-shadow: 0 0 0 8px rgba(76,141,255,.25);
+    position: relative; width: 18px; height: 18px; border-radius: 50%; background: #4c8dff; transform: translate(-50%, -50%);
+    border: 3px solid #fff; box-shadow: 0 2px 8px rgba(0,0,0,.5);
   }
+  .me-dot::after {
+    content: ''; position: absolute; inset: -3px; border-radius: 50%; background: rgba(76,141,255,.45);
+    animation: me-pulse 2s ease-out infinite; z-index: -1;
+  }
+  @keyframes me-pulse { from { transform: scale(1); opacity: .9; } to { transform: scale(3.2); opacity: 0; } }
+  .locate-btn {
+    width: 40px; height: 40px; display: grid; place-items: center; border-radius: 12px;
+    background: var(--dusk); color: var(--paper); border: 1px solid var(--haze); box-shadow: 0 6px 16px rgba(0,0,0,.4);
+  }
+  .locate-btn svg.i { width: 20px; height: 20px; }
+  .locate-btn.active { color: #4c8dff; }
+  .locate-btn.busy svg { animation: spin 1s linear infinite; }
+  @keyframes spin { to { transform: rotate(360deg); } }
+  .dist-pill {
+    display: inline-flex; align-items: center; gap: 5px; margin-top: 6px;
+    font-size: .8rem; font-weight: 600; color: #9cc0ff;
+  }
+  .dist-tip {
+    background: var(--dusk) !important; color: #cfe0ff !important; border: 1px solid #3a4a7a !important;
+    border-radius: 999px !important; padding: 3px 9px !important; font-weight: 700; font-size: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,.5) !important;
+  }
+  .dist-tip::before { display: none; }
   .leaflet-control-zoom a { background: var(--dusk) !important; color: var(--paper) !important; border-color: var(--haze) !important; }
   .leaflet-control-zoom { border: 1px solid var(--haze) !important; border-radius: 12px !important; overflow: hidden; }
   .leaflet-control-attribution { background: rgba(12,15,31,.7) !important; color: var(--mist) !important; }
@@ -387,6 +410,7 @@ const I = {
   nav:   '<svg class="i" viewBox="0 0 24 24"><path d="m3 11 18-8-8 18-2-8z"/></svg>',
   car:   '<svg class="i" viewBox="0 0 24 24"><path d="M5 17h14v-5l-2-5H7l-2 5z"/><circle cx="8" cy="17" r="1.6"/><circle cx="16" cy="17" r="1.6"/></svg>',
   map:   '<svg class="i" viewBox="0 0 24 24"><path d="m9 4-6 2v14l6-2 6 2 6-2V4l-6 2z"/><path d="M9 4v14M15 6v14"/></svg>',
+  crosshair: '<svg class="i" viewBox="0 0 24 24"><circle cx="12" cy="12" r="7"/><circle cx="12" cy="12" r="2.5"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3"/></svg>',
   list:  '<svg class="i" viewBox="0 0 24 24"><path d="M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01"/></svg>',
 };
 
@@ -516,6 +540,10 @@ function factsRow(p) {
   if (state.me && p._dist != null) out.push(`<span>${I.walk}${fmtDist(p._dist)}</span>`);
   return out.length ? `<div class="facts-row">${out.join('')}</div>` : '';
 }
+function distHtml(p) {
+  if (!state.me || !p.lat || !p.lng) return '';
+  return `<div class="dist-pill">${I.walk}Cách bạn ${fmtDist(haversine(state.me, p))}</div>`;
+}
 function rateBadge(p) {
   if (!p.rating) return '';
   const n = reviews(p.review_count);
@@ -552,7 +580,7 @@ function renderList(list) {
 }
 
 /* ================= Map ================= */
-let map, markers = {}, meMarker;
+let map, markers = {}, meMarker, meAccuracy, selLine, lastFitKey = '';
 const isDesktop = () => matchMedia('(min-width: 960px)').matches;
 
 function ensureMap() {
@@ -565,6 +593,55 @@ function ensureMap() {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
   }).addTo(map);
   map.on('click', () => selectPlace(null));
+
+  // "Vị trí của tôi" button under the zoom control
+  const Locate = L.Control.extend({
+    options: { position: 'topright' },
+    onAdd() {
+      const b = L.DomUtil.create('button', 'locate-btn');
+      b.id = 'locate-btn'; b.type = 'button'; b.title = 'Vị trí của tôi'; b.setAttribute('aria-label', 'Vị trí của tôi');
+      b.innerHTML = I.crosshair;
+      L.DomEvent.disableClickPropagation(b);
+      L.DomEvent.on(b, 'click', () => {
+        if (state.me) map.flyTo([state.me.lat, state.me.lng], Math.max(map.getZoom(), 15), { duration: .6 });
+        else startLocate({ prompt: true, centre: true });
+      });
+      return b;
+    },
+  });
+  new Locate().addTo(map);
+  updateMeMarker();
+}
+
+function updateMeMarker() {
+  if (!map) return;
+  const btn = document.getElementById('locate-btn');
+  if (btn) { btn.classList.toggle('active', !!state.me); btn.classList.toggle('busy', !state.me && watchId !== null); }
+  if (!state.me) return;
+  const ll = [state.me.lat, state.me.lng];
+  if (!meMarker) {
+    meMarker = L.marker(ll, { icon: L.divIcon({ className: '', html: '<div class="me-dot"></div>', iconSize: [0, 0] }), interactive: false, zIndexOffset: 2000 }).addTo(map);
+    meAccuracy = L.circle(ll, { radius: state.me.acc || 0, color: '#4c8dff', weight: 1, opacity: .4, fillColor: '#4c8dff', fillOpacity: .08, interactive: false }).addTo(map);
+  } else {
+    meMarker.setLatLng(ll);
+    meAccuracy.setLatLng(ll).setRadius(state.me.acc || 0);
+  }
+  drawSelLine();
+}
+
+function drawSelLine() {
+  if (!map) return;
+  const p = state.selected && state.places.find(x => x.id === state.selected);
+  if (!p || !state.me || !p.lat || !p.lng) { selLine?.remove(); selLine = null; return; }
+  const pts = [[state.me.lat, state.me.lng], [p.lat, p.lng]];
+  const label = fmtDist(haversine(state.me, p));
+  if (!selLine) {
+    selLine = L.polyline(pts, { color: '#ffb547', weight: 3, opacity: .9, dashArray: '2 9', lineCap: 'round', interactive: false }).addTo(map);
+    selLine.bindTooltip(label, { permanent: true, direction: 'center', className: 'dist-tip' });
+  } else {
+    selLine.setLatLngs(pts);
+    selLine.setTooltipContent(label);
+  }
 }
 function renderMap(list) {
   if (!map) return;
@@ -579,11 +656,15 @@ function renderMap(list) {
     m.on('click', e => { L.DomEvent.stopPropagation(e); selectPlace(p.id, { fromMap: true }); });
     markers[p.id] = m; pts.push([p.lat, p.lng]);
   });
-  if (state.me) {
-    if (!meMarker) meMarker = L.marker([state.me.lat, state.me.lng], { icon: L.divIcon({ className: '', html: '<div class="me-dot"></div>', iconSize: [0,0] }), interactive: false }).addTo(map);
-    pts.push([state.me.lat, state.me.lng]);
+  updateMeMarker();
+  // Only re-fit when the set of places shown changes (not on every location update)
+  const nearMe = state.near && state.me;
+  const key = list.map(p => p.id).join('|') + (nearMe ? '|me' : '');
+  if (key !== lastFitKey) {
+    lastFitKey = key;
+    if (nearMe) pts.push([state.me.lat, state.me.lng]);
+    if (pts.length) map.fitBounds(pts, { padding: [60, 60], maxZoom: 15 });
   }
-  if (pts.length) map.fitBounds(pts, { padding: [60, 60], maxZoom: 15 });
 }
 function highlightPins(ids) {
   Object.entries(markers).forEach(([pid, m]) => {
@@ -596,19 +677,30 @@ function selectPlace(id, { fromMap = false } = {}) {
   highlightPins(id ? [id] : []);
   document.querySelectorAll('.card').forEach(c => c.classList.toggle('hl', c.dataset.id === id));
   const peek = $('#peek');
-  if (!id) { peek.classList.remove('show'); document.body.classList.remove('peek-open'); return; }
+  drawSelLine();
+  if (!id) { peek.classList.remove('show'); peek.dataset.id = ''; document.body.classList.remove('peek-open'); return; }
   if (!fromMap) return;
   const p = state.places.find(x => x.id === id);
   const img = imagesOf(p)[0];
+  const isNew = peek.dataset.id !== id;
+  peek.dataset.id = id;
   peek.innerHTML = `${img ? `<img src="${esc(img)}" alt="" onerror="this.outerHTML='<div class=ph>🍽️</div>'">` : `<div class="ph">🍽️</div>`}
     <div class="pb">
       <h4>${esc(p.name)}</h4>
       <div class="cuisine">${p.rating ? `<span style="color:var(--lantern)">★</span> ${p.rating.toFixed(1)}&nbsp;&nbsp;` : ''}${esc(p.cuisine || '')}</div>
       ${statusLine(p)}
+      ${distHtml(p)}
     </div>
     <button class="x" aria-label="Đóng">×</button>`;
-  peek.classList.remove('show'); void peek.offsetWidth; peek.classList.add('show');
+  if (isNew) { peek.classList.remove('show'); void peek.offsetWidth; }
+  peek.classList.add('show');
   document.body.classList.add('peek-open');
+  if (isNew && state.me && p.lat && p.lng) {
+    const mobile = !isDesktop();
+    map.flyToBounds([[state.me.lat, state.me.lng], [p.lat, p.lng]], {
+      paddingTopLeft: [50, 70], paddingBottomRight: mobile ? [50, 190] : [60, 170], maxZoom: 16, duration: .6,
+    });
+  }
   if (isDesktop()) document.querySelector(`.card[data-id="${CSS.escape(id)}"]`)?.scrollIntoView({ behavior: 'smooth', block: 'center' });
 }
 
@@ -637,6 +729,7 @@ function openSheet(id) {
       <div class="summary">
         ${p.rating ? `<span><span class="star">★</span> <b>${p.rating.toFixed(1)}</b>${p.review_count ? ` <span style="color:var(--mist)">(${reviews(p.review_count)} đánh giá)</span>` : ''}</span>` : ''}
         ${statusLine(p)}
+        ${state.me && p._dist != null ? `<span class="dist-pill" style="margin:0">${I.walk}${fmtDist(p._dist)}</span>` : ''}
       </div>
       <div class="actions" style="grid-template-columns: repeat(${acts.length || 1}, 1fr)">${acts.join('')}</div>
       ${p.note ? `<div class="note">${esc(p.note)}</div>` : ''}
@@ -671,7 +764,7 @@ function setView(v) {
   document.body.classList.toggle('view-map', v === 'map');
   $('#view-toggle').innerHTML = v === 'map' ? `${I.list}Danh sách` : `${I.map}Xem bản đồ`;
   window.scrollTo(0, 0);
-  if (v === 'map') { ensureMap(); render(); requestAnimationFrame(() => map?.invalidateSize()); }
+  if (v === 'map') { ensureMap(); render(); requestAnimationFrame(() => map?.invalidateSize()); startLocate({ prompt: false }); }
   else selectPlace(null);
 }
 
@@ -684,15 +777,29 @@ function render() {
 }
 
 /* ================= Events ================= */
-function locate() {
-  if (!navigator.geolocation) { alert('Trình duyệt không hỗ trợ định vị'); return; }
-  navigator.geolocation.getCurrentPosition(pos => {
-    state.me = { lat: pos.coords.latitude, lng: pos.coords.longitude };
-    state.near = true;
-    if (meMarker) { meMarker.remove(); meMarker = null; }
-    render();
-  }, () => alert('Không lấy được vị trí. Hãy cho phép trang truy cập vị trí.'),
-  { enableHighAccuracy: true, timeout: 10000, maximumAge: 60000 });
+let watchId = null, pendingNear = false, pendingCentre = false;
+function startLocate({ prompt = true, sortNear = false, centre = false } = {}) {
+  if (!navigator.geolocation) { if (prompt) alert('Trình duyệt không hỗ trợ định vị'); return; }
+  if (sortNear) pendingNear = true;
+  if (centre) pendingCentre = true;
+  if (state.me) { onPos(null); return; }
+  if (watchId !== null) return;
+  watchId = navigator.geolocation.watchPosition(onPos, () => {
+    if (watchId !== null) navigator.geolocation.clearWatch(watchId);
+    watchId = null; pendingNear = pendingCentre = false; updateMeMarker();
+    if (prompt) alert('Không lấy được vị trí. Hãy cho phép trang truy cập vị trí trong cài đặt trình duyệt.');
+  }, { enableHighAccuracy: true, timeout: 20000, maximumAge: 30000 });
+  updateMeMarker();
+}
+function onPos(pos) {
+  const prev = state.me;
+  if (pos) state.me = { lat: pos.coords.latitude, lng: pos.coords.longitude, acc: Math.min(pos.coords.accuracy || 0, 500) };
+  updateMeMarker();
+  if (pendingCentre && map) { map.flyTo([state.me.lat, state.me.lng], 15, { duration: .6 }); pendingCentre = false; }
+  const moved = !prev || haversine(prev, state.me) > 0.05;   // re-render list when moved > 50 m
+  if (pendingNear) { state.near = true; pendingNear = false; render(); }
+  else if (moved) render();
+  if (state.selected && $('#peek').classList.contains('show')) selectPlace(state.selected, { fromMap: true });
 }
 
 $('#chips').addEventListener('click', e => {
@@ -701,7 +808,7 @@ $('#chips').addEventListener('click', e => {
   else if (b.dataset.act === 'open') state.openNow = !state.openNow;
   else if (b.dataset.act === 'top') state.topRated = !state.topRated;
   else if (b.dataset.act === 'near') {
-    if (state.near) state.near = false; else if (state.me) state.near = true; else return locate();
+    if (state.near) state.near = false; else if (state.me) state.near = true; else return startLocate({ sortNear: true });
   }
   render();
 });
@@ -777,6 +884,7 @@ setInterval(render, 60000);
   setView('list');
   if (isDesktop()) ensureMap();
   render();
+  navigator.permissions?.query({ name: 'geolocation' }).then(r => { if (r.state === 'granted') startLocate({ prompt: false }); }).catch(() => {});
   const h = decodeURIComponent(location.hash.slice(1));
   if (h && state.places.some(p => p.id === h)) { history.replaceState(null, '', location.pathname); openSheet(h); }
 })();
