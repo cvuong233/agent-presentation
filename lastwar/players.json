@@ -101,8 +101,6 @@
       "Amber粉粉泡芙",
       "休閒兔OoO Thỏ",
       "Kimm Khánhhh",
-      "一程ໃດບ Miu",
-      "Hồng hài dón",
       "Miu 9x",
       "Vân Hạ 1311",
       "Ngọc Hân 24",
@@ -118,7 +116,9 @@
     ],
     "R1": [
       "War Soldier 01",
-      "洋芋片片 NCT2"
+      "洋芋片片 NCT2",
+      "Hồng hài dón",
+      "一程 ໃᘏᗢ Miu"
     ]
   },
   "last_matches": {
@@ -795,14 +795,14 @@
       "yc_sm": 0,
       "yc_hn": 0
     },
-    "一程ໃດບ Miu": {
-      "rank": "R3",
+    "一程 ໃᘏᗢ Miu": {
+      "rank": "R1",
       "yc_sm": 0,
       "yc_hn": 0,
       "power": 73
     },
     "Hồng hài dón": {
-      "rank": "R3",
+      "rank": "R1",
       "yc_sm": 0,
       "yc_hn": 0,
       "power": 57
@@ -876,8 +876,8 @@
             "reason": "R4"
           },
           {
-            "r": "R3",
-            "name": "一程ໃດບ Miu",
+            "r": "R1",
+            "name": "一程 ໃᘏᗢ Miu",
             "power": 73,
             "reason": ""
           },
@@ -987,7 +987,7 @@
             "reason": ""
           },
           {
-            "r": "R3",
+            "r": "R1",
             "name": "Hồng hài dón",
             "power": 57,
             "reason": ""
@@ -1460,8 +1460,8 @@
             "power": 56
           },
           {
-            "r": "R3",
-            "name": "一程ໃດບ Miu",
+            "r": "R1",
+            "name": "一程 ໃᘏᗢ Miu",
             "power": 72.8,
             "reason": ""
           },
