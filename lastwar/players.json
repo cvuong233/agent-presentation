@@ -2,12 +2,12 @@
   "meta": {
     "clan": "Mates",
     "game": "Last War VN",
-    "updated": "2026-11-23",
+    "updated": "2026-11-25",
     "notes": "C V = cường khùng (R4). SM = Bão Sa Mạc (Desert Storm). HN = Bão Hẻm Núi (Canyon Storm). Official model: last_matches = history, next_lineup = editable upcoming lineup. Both battles use 20 main / 10 subs. Lineup sorted by squad power descending. Fixed players (fixed=A/B) are auto-registered into their team each week using their stored power.",
     "updated_hn_a": "2026-11-23",
     "updated_hn_b": "2026-11-23",
-    "updated_sm_b": "2026-11-23",
-    "updated_sm_a": "2026-11-23"
+    "updated_sm_b": "2026-11-25",
+    "updated_sm_a": "2026-11-25"
   },
   "ranks": {
     "R5": [
@@ -102,7 +102,12 @@
       "Amber粉粉泡芙",
       "休閒兔OoO Thỏ",
       "Kimm Khánhhh",
-      "一程ໃດບ Miu"
+      "一程ໃດບ Miu",
+      "Hồng hài dón",
+      "Miu 9x",
+      "Vân Hạ 1311",
+      "Ngọc Hân 24",
+      "Hương Siro"
     ],
     "R2": [
       "KhoaiiTây",
@@ -285,7 +290,7 @@
       "fixed": "B",
       "yc_sm": 0,
       "yc_hn": 0,
-      "power": 56
+      "power": 57
     },
     "zdevils": {
       "rank": "R4",
@@ -320,19 +325,19 @@
     },
     "Marines Malevolent": {
       "rank": "R3",
-      "power": 52.9,
+      "power": 53,
       "yc_sm": 0,
       "yc_hn": 0
     },
     "RùaNgáo": {
       "rank": "R3",
-      "power": 55.5,
+      "power": 55.6,
       "yc_sm": 0,
       "yc_hn": 0
     },
     "Thanhh Tân": {
       "rank": "R3",
-      "power": 53.9,
+      "power": 54,
       "yc_sm": 0,
       "yc_hn": 0
     },
@@ -372,13 +377,13 @@
     },
     "hanubeast": {
       "rank": "R3",
-      "power": 51.9,
+      "power": 52,
       "yc_sm": 0,
       "yc_hn": 0
     },
     "SanTa 1386": {
       "rank": "R3",
-      "power": 52,
+      "power": 53,
       "yc_hn": 0,
       "yc_sm": 0
     },
@@ -429,7 +434,7 @@
     },
     "sửa máy promax": {
       "rank": "R3",
-      "power": 58,
+      "power": 58.5,
       "yc_hn": 0,
       "yc_sm": 0
     },
@@ -501,7 +506,7 @@
     },
     "Kendy Nguyên 86": {
       "rank": "R3",
-      "power": 56.7,
+      "power": 56.9,
       "yc_sm": 0,
       "yc_hn": 0
     },
@@ -544,7 +549,7 @@
     },
     "Clone Or SouLy々": {
       "rank": "R3",
-      "power": 57.8,
+      "power": 58,
       "yc_sm": 0,
       "yc_hn": 0
     },
@@ -562,13 +567,13 @@
     },
     "trĩ yêu mình em": {
       "rank": "R3",
-      "power": 54.7,
+      "power": 55,
       "yc_sm": 0,
       "yc_hn": 0
     },
     "em bé vịt": {
       "rank": "R3",
-      "power": 61.2,
+      "power": 61.3,
       "yc_sm": 0,
       "yc_hn": 0
     },
@@ -619,14 +624,15 @@
     },
     "KhoaiiTây": {
       "rank": "R2",
-      "power": 55,
+      "power": 55.1,
       "yc_sm": 0,
       "yc_hn": 0
     },
     "Bảo Anh 2011": {
       "rank": "R2",
       "yc_sm": 0,
-      "yc_hn": 0
+      "yc_hn": 0,
+      "power": 50
     },
     "TrumNt": {
       "rank": "R2",
@@ -637,18 +643,19 @@
       "rank": "R3",
       "yc_sm": 0,
       "yc_hn": 0,
-      "power": 55.32
+      "power": 55.5
     },
     "Amber粉粉泡芙": {
       "rank": "R3",
       "yc_sm": 0,
       "yc_hn": 0,
-      "power": 54.9
+      "power": 54.94
     },
     "War Soldier 01": {
       "rank": "R1",
       "yc_sm": 0,
-      "yc_hn": 0
+      "yc_hn": 0,
+      "power": 57
     },
     "洋芋片片 NCT2": {
       "rank": "R1",
@@ -668,13 +675,14 @@
     "CWAN 13": {
       "rank": "R3",
       "yc_sm": 0,
-      "yc_hn": 0
+      "yc_hn": 0,
+      "power": 50.1
     },
     "M A T E": {
       "rank": "R3",
       "yc_sm": 0,
       "yc_hn": 0,
-      "power": 56.4
+      "power": 56.5
     },
     "K A Z U U M A": {
       "rank": "R3",
@@ -690,7 +698,7 @@
       "rank": "R3",
       "yc_sm": 1,
       "yc_hn": 1,
-      "power": 57.9
+      "power": 58
     },
     "53 宿 英": {
       "rank": "R3",
@@ -729,19 +737,19 @@
       "rank": "R3",
       "yc_sm": 0,
       "yc_hn": 0,
-      "power": 56.7
+      "power": 56.8
     },
     "NCT2 炎將軍": {
       "rank": "R3",
       "yc_sm": 0,
       "yc_hn": 0,
-      "power": 56.4
+      "power": 56
     },
     "凱棓 Nct2": {
       "rank": "R3",
       "yc_sm": 0,
       "yc_hn": 0,
-      "power": 57.61
+      "power": 57.64
     },
     "Lê mina": {
       "rank": "R3",
@@ -763,12 +771,13 @@
       "rank": "R3",
       "yc_sm": 0,
       "yc_hn": 0,
-      "power": 59.5
+      "power": 59.6
     },
     "Idrisali": {
       "rank": "R3",
       "yc_sm": 0,
-      "yc_hn": 0
+      "yc_hn": 0,
+      "power": 55
     },
     "Mãnh Hổ 0007": {
       "rank": "R3",
@@ -789,7 +798,7 @@
     },
     "Kimm Khánhhh": {
       "rank": "R3",
-      "power": 52.5,
+      "power": 52.7,
       "yc_sm": 0,
       "yc_hn": 0
     },
@@ -797,7 +806,37 @@
       "rank": "R3",
       "yc_sm": 0,
       "yc_hn": 0,
-      "power": 72.8
+      "power": 73
+    },
+    "Hồng hài dón": {
+      "rank": "R3",
+      "yc_sm": 0,
+      "yc_hn": 0,
+      "power": 57
+    },
+    "Miu 9x": {
+      "rank": "R3",
+      "yc_sm": 0,
+      "yc_hn": 0,
+      "power": 61.5
+    },
+    "Vân Hạ 1311": {
+      "rank": "R3",
+      "yc_sm": 0,
+      "yc_hn": 0,
+      "power": 59.1
+    },
+    "Ngọc Hân 24": {
+      "rank": "R3",
+      "yc_sm": 0,
+      "yc_hn": 0,
+      "power": 57
+    },
+    "Hương Siro": {
+      "rank": "R3",
+      "yc_sm": 0,
+      "yc_hn": 0,
+      "power": 60
     }
   },
   "next_lineup": {
@@ -813,7 +852,7 @@
             "r": "R4",
             "name": "ZzBMT47zz",
             "reason": "R4",
-            "power": 63
+            "power": 64
           },
           {
             "r": "R4",
@@ -835,12 +874,6 @@
           },
           {
             "r": "R4",
-            "name": "zdevils",
-            "reason": "R4",
-            "power": 58
-          },
-          {
-            "r": "R4",
             "name": "cường khùng",
             "reason": "R4"
           },
@@ -848,9 +881,149 @@
             "r": "R4",
             "name": "PTKhang RiO",
             "reason": "R4"
+          },
+          {
+            "r": "R3",
+            "name": "一程ໃດບ Miu",
+            "power": 73,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Deptraitube2012",
+            "power": 64,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Thiện phương",
+            "power": 62,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Miu 9x",
+            "power": 61.5,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "em bé vịt",
+            "power": 61.3,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Hương Siro",
+            "power": 60,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "JocKeR",
+            "power": 59.6,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Vân Hạ 1311",
+            "power": 59.1,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Cúc Hoa Long Lanh",
+            "power": 58,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "MrAugust2886",
+            "power": 58,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "ᵛᶰ Đậu Hũ",
+            "power": 58,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "PoMzzz",
+            "power": 58,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "凱棓 Nct2",
+            "power": 57.64,
+            "reason": ""
           }
         ],
-        "subs": [],
+        "subs": [
+          {
+            "r": "R4",
+            "name": "zdevils",
+            "reason": "R4",
+            "power": 58,
+            "vol_sub": true
+          },
+          {
+            "r": "R3",
+            "name": "Bắp đại ca",
+            "power": 58,
+            "reason": "yc=1"
+          },
+          {
+            "r": "R3",
+            "name": "n3g00",
+            "power": 58,
+            "reason": "yc=1"
+          },
+          {
+            "r": "R3",
+            "name": "TcSnack",
+            "power": 57.2,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "K2 419",
+            "power": 57,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Hồng hài dón",
+            "power": 57,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "M A T E",
+            "power": 56.5,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "NCT2 炎將軍",
+            "power": 56,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "RùaNgáo",
+            "power": 55.6,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "休閒兔OoO Thỏ",
+            "power": 55.5,
+            "reason": ""
+          }
+        ],
         "dayoff": [],
         "slot": "A",
         "maxMain": 20,
@@ -858,7 +1031,51 @@
         "date": "2026-11-27",
         "time": "18:30 ICT",
         "period": "evening 18:30",
-        "waiting": []
+        "waiting": [
+          {
+            "r": "R3",
+            "name": "tâm1980",
+            "power": 55,
+            "reason": "",
+            "vol_sub": true
+          },
+          {
+            "r": "R3",
+            "name": "Idrisali",
+            "power": 55,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Amber粉粉泡芙",
+            "power": 54.94,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Thanhh Tân",
+            "power": 54,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Long TướngTrĩ",
+            "power": 52,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "CWAN 13",
+            "power": 50.1,
+            "reason": ""
+          },
+          {
+            "r": "R2",
+            "name": "Bảo Anh 2011",
+            "power": 50,
+            "reason": ""
+          }
+        ]
       },
       "B": {
         "main": [
@@ -866,15 +1083,166 @@
             "r": "R4",
             "name": "Hải Anh 0612",
             "reason": "R4",
-            "power": 56.5
+            "power": 57
           },
           {
             "r": "R4",
             "name": "Rymi68",
             "reason": "R4"
+          },
+          {
+            "r": "R3",
+            "name": "Bạch Long Mã",
+            "power": 61,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Bơ Bắp 1",
+            "power": 59,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "sửa máy promax",
+            "power": 58.5,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "eMorgenröte",
+            "power": 58,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Clone Or SouLy々",
+            "power": 58,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "63 TiềnGiang",
+            "power": 57.8,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "ÒÓO",
+            "power": 57,
+            "reason": ""
+          },
+          {
+            "r": "R1",
+            "name": "War Soldier 01",
+            "power": 57,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Ngọc Hân 24",
+            "power": 57,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Kendy Nguyên 86",
+            "power": 56.9,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Nhím tóc xù",
+            "power": 56.8,
+            "reason": ""
+          },
+          {
+            "r": "R2",
+            "name": "KhoaiiTây",
+            "power": 55.1,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "trĩ yêu mình em",
+            "power": 55,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Andy Le",
+            "power": 54,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Mèoo siêu nhân",
+            "power": 54,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Chivas2026",
+            "power": 54,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Marines Malevolent",
+            "power": 53,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Đập Chai",
+            "power": 53,
+            "reason": ""
           }
         ],
-        "subs": [],
+        "subs": [
+          {
+            "r": "R3",
+            "name": "Lê mina",
+            "power": 57.5,
+            "reason": "yc=1"
+          },
+          {
+            "r": "R3",
+            "name": "Trai Cầu Tõm",
+            "power": 53.5,
+            "reason": "yc=1"
+          },
+          {
+            "r": "R3",
+            "name": "NgocNamBoss",
+            "power": 53,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "SanTa 1386",
+            "power": 53,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Kimm Khánhhh",
+            "power": 52.7,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "hanubeast",
+            "power": 52,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Nguyenngoctuan",
+            "power": 51.5,
+            "reason": ""
+          }
+        ],
         "dayoff": [],
         "slot": "B",
         "maxMain": 20,
