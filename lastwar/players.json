@@ -95,7 +95,6 @@
       "Trai Cầu Tõm",
       "Sầu Miu Miu",
       "ᵛᶰ Nắng",
-      "LinhngulamM",
       "hanubeast",
       "Marines Malevolent",
       "Trường Kiên",
@@ -789,12 +788,6 @@
       "yc_sm": 1,
       "yc_hn": 1,
       "power": 54
-    },
-    "LinhngulamM": {
-      "rank": "R3",
-      "yc_sm": 0,
-      "yc_hn": 0,
-      "power": 55
     },
     "Kimm Khánhhh": {
       "rank": "R3",
@@ -1637,5 +1630,7 @@
       }
     }
   },
-  "recent_removed": []
+  "recent_removed": [
+    "LinhngulamM"
+  ]
 }
