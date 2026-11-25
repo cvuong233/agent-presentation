@@ -1046,12 +1046,6 @@
           },
           {
             "r": "R3",
-            "name": "Thanhh Tân",
-            "power": 54,
-            "reason": ""
-          },
-          {
-            "r": "R3",
             "name": "Long TướngTrĩ",
             "power": 52,
             "reason": ""
@@ -1181,13 +1175,13 @@
           },
           {
             "r": "R3",
-            "name": "Marines Malevolent",
-            "power": 53,
+            "name": "Thanhh Tân",
+            "power": 54,
             "reason": ""
           },
           {
             "r": "R3",
-            "name": "Đập Chai",
+            "name": "Marines Malevolent",
             "power": 53,
             "reason": ""
           }
@@ -1214,6 +1208,12 @@
           {
             "r": "R3",
             "name": "SanTa 1386",
+            "power": 53,
+            "reason": ""
+          },
+          {
+            "r": "R3",
+            "name": "Đập Chai",
             "power": 53,
             "reason": ""
           },
