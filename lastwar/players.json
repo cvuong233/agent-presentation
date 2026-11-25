@@ -104,7 +104,8 @@
       "Miu 9x",
       "Vân Hạ 1311",
       "Ngọc Hân 24",
-      "Hương Siro"
+      "Hương Siro",
+      "War Soldier 01"
     ],
     "R2": [
       "KhoaiiTây",
@@ -115,7 +116,6 @@
       "TrumNt"
     ],
     "R1": [
-      "War Soldier 01",
       "洋芋片片 NCT2",
       "Hồng hài dón",
       "一程 ໃᘏᗢ Miu"
@@ -651,7 +651,7 @@
       "power": 54.94
     },
     "War Soldier 01": {
-      "rank": "R1",
+      "rank": "R3",
       "yc_sm": 0,
       "yc_hn": 0,
       "power": 57
@@ -1126,7 +1126,7 @@
             "reason": ""
           },
           {
-            "r": "R1",
+            "r": "R3",
             "name": "War Soldier 01",
             "power": 57,
             "reason": ""
