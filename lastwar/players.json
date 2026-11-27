@@ -2,7 +2,7 @@
   "meta": {
     "clan": "Mates",
     "game": "Last War VN",
-    "updated": "2026-11-25",
+    "updated": "2026-11-27",
     "notes": "C V = cường khùng (R4). SM = Bão Sa Mạc (Desert Storm). HN = Bão Hẻm Núi (Canyon Storm). Official model: last_matches = history, next_lineup = editable upcoming lineup. Both battles use 20 main / 10 subs. Lineup sorted by squad power descending. Fixed players (fixed=A/B) are auto-registered into their team each week using their stored power.",
     "updated_hn_a": "2026-11-23",
     "updated_hn_b": "2026-11-23",
@@ -742,7 +742,9 @@
       "rank": "R3",
       "yc_sm": 0,
       "yc_hn": 0,
-      "power": 56
+      "power": 56,
+      "banned": true,
+      "note": "Banned from registering (SM & HN) by Cuong 2026-11-27 - until further notice"
     },
     "凱棓 Nct2": {
       "rank": "R3",

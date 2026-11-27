@@ -44,6 +44,7 @@ Moved off GitHub Pages — the page now lives in its own Vercel deployment
 - **Flexible registrations (`A or B`) count.** Place the player in whichever team lets the most registered players qualify (main + subs, 30 per team). When both teams are full, pick the team where the player bumped out to `waiting` has the lowest power. Mark the entry `"flex": true` so they can be moved later if it frees a slot.
 - **Unknown names are new players.** A name that doesn't match the roster is added as a new R3 member. Don't guess it's a renamed existing player; only merge when the user confirms.
 - **Other alliance tags = not our member.** A player posting with a tag other than `[M8z]` (e.g. `[SXM]`) is not registered, and if they were on our roster they've left: remove them.
+- **Indefinite bans.** A player with `players[name].banned: true` cannot register for SM or HN until the user lifts it (then delete `banned` and the note). Ignore their registrations.
 - **Only current clan members count:** registrations from players not in `players` (left the clan, or other alliance tags like `[SXM]`, `[AppA]`) are ignored.
 - **No cm rule, no score-based selection** — these are abolished. The **YC rule is live** — see below.
 - **Dayoff:** player misses the upcoming match but is expected back the following cycle
